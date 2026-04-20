@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://openyourais.com/sitemap-index.xml

@@ -1,0 +1,42 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import ArticleCard from '../components/ArticleCard.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+
+const posts = (await getCollection('blog', ({ data }) => !data.noindex))
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
+  .slice(0, 12);
+---
+
+<BaseLayout title={SITE_TITLE} description={SITE_DESCRIPTION}>
+  <section class="container" style="padding: 5rem 1.25rem 3rem;">
+    <h1 class="title" style="max-width: 36ch;">A filmmaker's perspective on AI.</h1>
+    <p class="muted" style="margin-top: 1.25rem; font-size: 1.125rem; max-width: 60ch;">
+      14 years directing commercials. Honest reviews of AI tools, no hype. Written by Ulisses Balbino.
+    </p>
+    <div style="margin-top: 2rem; display: flex; gap: 1rem; flex-wrap: wrap;">
+      <a href="/blog/" style="display: inline-block; padding: 0.75rem 1.5rem; background: var(--fg); color: var(--bg); border-radius: 999px; text-decoration: none; font-weight: 600;">Read the articles</a>
+      <a href="/about/" style="display: inline-block; padding: 0.75rem 1.5rem; border: 1px solid var(--border); border-radius: 999px; text-decoration: none;">About Ulisses</a>
+    </div>
+  </section>
+
+  <section class="container">
+    <h2 style="font-size: 0.875rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--muted); margin-bottom: 0;">Latest</h2>
+    <div>
+      {posts.map((post) => (
+        <ArticleCard
+          href={`/blog/${post.id}/`}
+          title={post.data.title}
+          description={post.data.description}
+          pubDate={post.data.pubDate}
+          category={post.data.category}
+          readTime={post.data.readTime}
+        />
+      ))}
+    </div>
+    <div style="padding: 2rem 0; text-align: center;">
+      <a href="/blog/" style="font-weight: 600;">See all articles →</a>
+    </div>
+  </section>
+</BaseLayout>

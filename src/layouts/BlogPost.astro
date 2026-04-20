@@ -1,0 +1,61 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import BaseLayout from './BaseLayout.astro';
+import FormattedDate from '../components/FormattedDate.astro';
+import AdSenseSlot from '../components/AdSenseSlot.astro';
+
+type Props = CollectionEntry<'blog'>['data'];
+
+const {
+  title,
+  description,
+  pubDate,
+  updatedDate,
+  heroImage,
+  category,
+  readTime,
+  author,
+  noindex,
+} = Astro.props;
+---
+
+<BaseLayout
+  title={title}
+  description={description}
+  image={heroImage}
+  article={true}
+  pubDate={pubDate}
+  noindex={noindex}
+>
+  <article>
+    <div class="container" style="padding-top: 3rem; padding-bottom: 1rem; text-align: center;">
+      <div class="card-meta" style="text-align: center; justify-content: center;">
+        <FormattedDate date={pubDate} />
+        {category && <span style="margin-left: 1em;">· {category}</span>}
+        {readTime && <span style="margin-left: 1em;">· {readTime}</span>}
+      </div>
+      <h1 class="title" style="max-width: 48rem; margin: 0.5em auto;">{title}</h1>
+      <p class="muted" style="max-width: 42rem; margin: 1em auto; font-size: 1.125rem;">{description}</p>
+      {author && <p class="muted" style="font-size: 0.875rem; margin-top: 1.5em;">By {author}</p>}
+      {updatedDate && (
+        <p class="muted" style="font-style: italic; font-size: 0.875rem;">
+          Last updated <FormattedDate date={updatedDate} />
+        </p>
+      )}
+    </div>
+
+    {heroImage && (
+      <div class="container" style="margin-bottom: 2rem;">
+        <img src={heroImage} alt="" style="width: 100%; max-height: 520px; object-fit: cover; border-radius: 16px;" />
+      </div>
+    )}
+
+    <div class="prose">
+      <slot />
+    </div>
+
+    <div class="container">
+      <AdSenseSlot slot="1234567890" />
+    </div>
+  </article>
+</BaseLayout>

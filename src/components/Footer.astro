@@ -1,0 +1,18 @@
+---
+import { SITE_TITLE, SOCIAL } from '../consts';
+const year = new Date().getFullYear();
+---
+
+<footer style="border-top: 1px solid var(--border); margin-top: 4rem;">
+  <div class="container" style="padding-top: 2rem; padding-bottom: 2rem; display: flex; flex-wrap: wrap; gap: 1rem; justify-content: space-between; align-items: center; color: var(--muted); font-size: 0.9rem;">
+    <div>© {year} {SITE_TITLE} · By Ulisses Balbino</div>
+    <nav style="display: flex; gap: 1.25rem;">
+      <a href={SOCIAL.linkedin} target="_blank" rel="noopener">LinkedIn</a>
+      <a href={SOCIAL.instagram} target="_blank" rel="noopener">Instagram</a>
+      <a href={SOCIAL.x} target="_blank" rel="noopener">X</a>
+      <a href="/rss.xml">RSS</a>
+      <a href="/privacy/">Privacy</a>
+      <a href="/terms/">Terms</a>
+    </nav>
+  </div>
+</footer>

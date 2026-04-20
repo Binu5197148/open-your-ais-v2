@@ -1,0 +1,29 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import ArticleCard from '../../components/ArticleCard.astro';
+import { SITE_TITLE } from '../../consts';
+
+const posts = (await getCollection('blog', ({ data }) => !data.noindex))
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+---
+
+<BaseLayout title={`All Articles | ${SITE_TITLE}`} description="Honest reviews and field notes on AI tools from a working filmmaker.">
+  <section class="container" style="padding: 4rem 1.25rem 2rem;">
+    <h1 class="title">All articles</h1>
+    <p class="muted" style="margin-top: 1rem; font-size: 1.125rem;">{posts.length} articles, no filler.</p>
+  </section>
+
+  <section class="container" style="padding-bottom: 4rem;">
+    {posts.map((post) => (
+      <ArticleCard
+        href={`/blog/${post.id}/`}
+        title={post.data.title}
+        description={post.data.description}
+        pubDate={post.data.pubDate}
+        category={post.data.category}
+        readTime={post.data.readTime}
+      />
+    ))}
+  </section>
+</BaseLayout>

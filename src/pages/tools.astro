@@ -1,0 +1,35 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+import ArticleCard from '../components/ArticleCard.astro';
+
+const toolReviews = (await getCollection('blog', ({ data }) =>
+  !data.noindex &&
+  (
+    (data.category && ['Tools', 'AI'].includes(data.category)) ||
+    (data.title && /review|test/i.test(data.title))
+  )
+)).sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()).slice(0, 30);
+---
+
+<BaseLayout title="AI Tools & Reviews" description="Hands-on reviews of AI tools for filmmakers, editors, and creators.">
+  <section class="container" style="padding: 5rem 1.25rem 2rem;">
+    <h1 class="title">Tools & Reviews</h1>
+    <p class="muted" style="margin-top: 1rem; font-size: 1.125rem; max-width: 60ch;">
+      Tools I've actually put through production work. No affiliate links unless disclosed.
+    </p>
+  </section>
+
+  <section class="container" style="padding-bottom: 4rem;">
+    {toolReviews.map((post) => (
+      <ArticleCard
+        href={`/blog/${post.id}/`}
+        title={post.data.title}
+        description={post.data.description}
+        pubDate={post.data.pubDate}
+        category={post.data.category}
+        readTime={post.data.readTime}
+      />
+    ))}
+  </section>
+</BaseLayout>
