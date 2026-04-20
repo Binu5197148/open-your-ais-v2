@@ -1,0 +1,35 @@
+---
+interface MarqueeItem {
+  text: string;
+  outline?: boolean;
+  dot?: boolean;
+}
+interface Props {
+  items?: MarqueeItem[];
+  style?: string;
+}
+
+const defaultItems: MarqueeItem[] = [
+  { text: 'Dispatches from the set', outline: true },
+  { dot: true, text: '' },
+  { text: 'Field notes on machines that make images' },
+  { dot: true, text: '' },
+  { text: 'Est. MMXXV', outline: true },
+  { dot: true, text: '' },
+  { text: 'SP ↔ LA' },
+];
+
+const { items = defaultItems, style } = Astro.props;
+---
+
+<section class="marquee" aria-hidden="true" style={style}>
+  <div class="marquee__track">
+    {items.map((it) => {
+      if (it.dot) {
+        return <span class="marquee__item"><span class="dot"></span></span>;
+      }
+      const cls = it.outline ? 'marquee__item marquee__item--outline' : 'marquee__item';
+      return <span class={cls}>{it.text}</span>;
+    })}
+  </div>
+</section>

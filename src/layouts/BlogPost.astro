@@ -1,10 +1,11 @@
 ---
 import type { CollectionEntry } from 'astro:content';
+import { getCollection } from 'astro:content';
 import BaseLayout from './BaseLayout.astro';
-import FormattedDate from '../components/FormattedDate.astro';
 import AdSenseSlot from '../components/AdSenseSlot.astro';
+import Marquee from '../components/Marquee.astro';
 
-type Props = CollectionEntry<'blog'>['data'];
+type Props = CollectionEntry<'blog'>['data'] & { slug?: string };
 
 const {
   title,
@@ -14,9 +15,34 @@ const {
   heroImage,
   category,
   readTime,
-  author,
+  author = 'Ulisses Balbino',
   noindex,
+  slug,
 } = Astro.props;
+
+const all = (await getCollection('blog', ({ data }) => !data.noindex))
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+
+const currentIndex = slug ? all.findIndex((p) => p.id === slug) : -1;
+const related = (() => {
+  if (currentIndex === -1) return all.slice(0, 3);
+  const out: typeof all = [];
+  for (let i = 1; i <= all.length && out.length < 3; i++) {
+    const n = all[(currentIndex + i) % all.length];
+    if (n.id !== slug) out.push(n);
+  }
+  return out;
+})();
+
+const fmtLong = (d: Date) =>
+  d.toLocaleDateString('en-US', { month: 'long', day: '2-digit', year: 'numeric' });
+const fmtShort = (d: Date) =>
+  d.toLocaleDateString('en-US', { month: 'short', day: '2-digit' });
+
+const issueNo = currentIndex >= 0 ? all.length - currentIndex : all.length;
+const catLabel = category || 'Dispatch';
+
+const latestHref = all[0] ? `/blog/${all[0].id}/` : '/blog/';
 ---
 
 <BaseLayout
@@ -26,36 +52,240 @@ const {
   article={true}
   pubDate={pubDate}
   noindex={noindex}
+  current="latest"
+  latestHref={latestHref}
 >
-  <article>
-    <div class="container" style="padding-top: 3rem; padding-bottom: 1rem; text-align: center;">
-      <div class="card-meta" style="text-align: center; justify-content: center;">
-        <FormattedDate date={pubDate} />
-        {category && <span style="margin-left: 1em;">· {category}</span>}
-        {readTime && <span style="margin-left: 1em;">· {readTime}</span>}
+  <div class="progress" data-reading-progress>
+    <div class="progress__fill"></div>
+  </div>
+
+  <article data-article>
+    <header class="container post-head">
+      <div class="post-head__meta mono">
+        <span>Nº {String(issueNo).padStart(3, '0')}</span>
+        <span>·</span>
+        <span style="color:var(--c-accent)">{catLabel}</span>
+        {readTime && <><span>·</span><span>{readTime}</span></>}
+        <span>·</span>
+        <span>{fmtLong(pubDate)}</span>
+        {updatedDate && <><span>·</span><span style="color:var(--c-fg-dim)">Updated {fmtShort(updatedDate)}</span></>}
       </div>
-      <h1 class="title" style="max-width: 48rem; margin: 0.5em auto;">{title}</h1>
-      <p class="muted" style="max-width: 42rem; margin: 1em auto; font-size: 1.125rem;">{description}</p>
-      {author && <p class="muted" style="font-size: 0.875rem; margin-top: 1.5em;">By {author}</p>}
-      {updatedDate && (
-        <p class="muted" style="font-style: italic; font-size: 0.875rem;">
-          Last updated <FormattedDate date={updatedDate} />
-        </p>
+
+      <h1 class="post-head__title" data-reveal="split">
+        {title.split(/\s+/).map((word, i, arr) => (
+          <span class="split-line" style={`--reveal-delay: ${i * 40}ms`}>{word}{i < arr.length - 1 ? ' ' : ''}</span>
+        ))}
+      </h1>
+
+      <div class="post-head__byline">
+        <div class="byline">
+          <div class="byline__avatar ph" data-label="UB"></div>
+          <div>
+            <p class="mono" style="color:var(--c-fg-muted)">Written by</p>
+            <p class="byline__name">{author}</p>
+          </div>
+        </div>
+        <p class="post-head__dek">{description}</p>
+      </div>
+
+      {heroImage && (
+        <div class="post-head__hero">
+          <img class="post-head__img parallax-up" src={heroImage} alt="" loading="eager" />
+          <div class="post-head__caption">
+            <span class="mono"><span class="n">Fig. 01</span></span>
+            <span class="mono" style="color:var(--c-fg-muted)">{title}</span>
+          </div>
+        </div>
       )}
-    </div>
+    </header>
 
-    {heroImage && (
-      <div class="container" style="margin-bottom: 2rem;">
-        <img src={heroImage} alt="" style="width: 100%; max-height: 520px; object-fit: cover; border-radius: 16px;" />
+    <section class="post-body">
+      <div class="post-body__grid">
+        <div class="post-toc" aria-hidden="true"></div>
+        <div class="prose">
+          <slot />
+          <div class="prose__end" aria-hidden="true">◎</div>
+          <AdSenseSlot slot="1234567890" />
+        </div>
       </div>
-    )}
-
-    <div class="prose">
-      <slot />
-    </div>
-
-    <div class="container">
-      <AdSenseSlot slot="1234567890" />
-    </div>
+    </section>
   </article>
+
+  <section class="container post-author">
+    <div class="post-author__inner">
+      <div class="post-author__avatar ph" data-label="UB"></div>
+      <div>
+        <p class="mono" style="color:var(--c-fg-muted)">About the author</p>
+        <h2 class="post-author__name">{author}</h2>
+        <p class="post-author__bio">
+          Film director based in São Paulo and Los Angeles. Co-founder of
+          Pichorra Filmes. Fourteen years behind the lens — composer, editor,
+          writer, director. Writing <em>Open Your AIs</em> as a working log on
+          what AI is doing, and undoing, to the craft of cinema.
+        </p>
+        <div style="display:flex; gap: 14px; flex-wrap: wrap;">
+          <a class="btn" href="/about/"><span>Read the manifesto</span><span class="arr">→</span></a>
+          <a class="btn" href="/contact/" style="border-color:var(--c-rule);color:var(--c-fg-muted)"><span>Write in</span></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <Marquee />
+
+  {related.length > 0 && (
+    <section class="container related">
+      <div class="hline">
+        <span class="mono">Also on the wire</span>
+        <hr />
+        <a href="/blog/" class="elink mono">All dispatches →</a>
+      </div>
+      <div class="related__grid">
+        {related.map((post, i) => (
+          <a class="card" href={`/blog/${post.id}/`}>
+            {post.data.heroImage ? (
+              <img class="card__img" src={post.data.heroImage} alt="" loading="lazy" />
+            ) : (
+              <div class="card__img ph" data-label={`REL ${String(i + 1).padStart(2, '0')} — 4:5`}></div>
+            )}
+            <div class="card__body">
+              <div class="mono card__meta">
+                <span>{post.data.category || 'Dispatch'}</span>
+                {post.data.readTime && <span>· {post.data.readTime}</span>}
+                <span>· {fmtShort(post.data.pubDate)}</span>
+              </div>
+              <h3 class="card__title">{post.data.title}</h3>
+            </div>
+          </a>
+        ))}
+      </div>
+    </section>
+  )}
 </BaseLayout>
+
+<style is:global>
+  .post-head { padding-top: calc(var(--s-9) + 40px); }
+  .post-head__meta { display:flex; gap: 12px; color: var(--c-fg-muted); margin-bottom: var(--s-7); align-items:center; flex-wrap: wrap; }
+  .post-head__title {
+    font-family: var(--font-serif);
+    font-size: clamp(56px, 9vw, 160px);
+    letter-spacing: -0.04em;
+    line-height: 0.9;
+    font-weight: 400;
+    max-width: 18ch;
+    font-variation-settings: 'opsz' 144, 'SOFT' 20;
+    margin: 0;
+    text-wrap: balance;
+  }
+  .post-head__title em {
+    font-style: italic;
+    color: var(--c-accent);
+    font-variation-settings: 'opsz' 144, 'SOFT' 100, 'WONK' 1;
+  }
+  .post-head__title .split-line { display: inline-block; }
+  .post-head__byline {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--s-7);
+    margin-top: var(--s-8);
+    padding-top: var(--s-6);
+    border-top: 1px solid var(--c-rule);
+    align-items: start;
+  }
+  .byline { display: flex; gap: 18px; align-items: center; }
+  .byline__avatar {
+    width: 72px; height: 72px; border-radius: 999px; flex-shrink: 0;
+  }
+  .byline__name { font-family: var(--font-serif); font-size: 22px; letter-spacing: -0.01em; margin-top: 4px; font-weight: 400; }
+  .post-head__dek {
+    font-family: var(--font-serif);
+    font-size: clamp(22px, 2vw, 28px);
+    line-height: 1.35;
+    letter-spacing: -0.005em;
+    color: var(--c-fg);
+    font-weight: 300;
+    max-width: 40ch;
+  }
+  .post-head__hero { margin-top: var(--s-8); overflow: hidden; }
+  .post-head__img { width: 100%; aspect-ratio: 21/9; object-fit: cover; display: block; }
+  .post-head__caption { display: flex; gap: 18px; align-items: baseline; margin-top: 14px; color: var(--c-fg-muted); flex-wrap: wrap; }
+  .post-head__caption .n { color: var(--c-accent); }
+
+  .post-body { padding-block: var(--s-10); }
+  .post-body__grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--s-7);
+    max-width: 1680px;
+    margin: 0 auto;
+    padding-inline: var(--gutter);
+  }
+  [data-post-layout="toc"] .post-body__grid { grid-template-columns: 240px minmax(0, 1fr) 240px; }
+  [data-post-layout="narrow"] .prose { max-width: var(--measure-narrow); }
+  .post-toc { display: none; }
+  [data-post-layout="toc"] .post-toc {
+    display: block;
+    position: sticky;
+    top: 120px;
+    align-self: start;
+  }
+  .prose__end {
+    text-align: center; font-family: var(--font-serif); color: var(--c-accent); font-size: 28px; margin-top: 3em;
+  }
+  @media (max-width: 1100px) {
+    [data-post-layout="toc"] .post-body__grid { grid-template-columns: 1fr; }
+    .post-toc { display: none !important; }
+    .post-head__byline { grid-template-columns: 1fr; }
+  }
+
+  .post-author {
+    margin-top: var(--s-10);
+    padding-block: var(--s-8);
+    border-top: 1px solid var(--c-rule);
+    border-bottom: 1px solid var(--c-rule);
+  }
+  .post-author__inner {
+    display: grid;
+    grid-template-columns: 160px 1fr;
+    gap: var(--s-7);
+    align-items: start;
+  }
+  .post-author__avatar { width: 160px; height: 160px; aspect-ratio: 1; }
+  .post-author__name {
+    font-family: var(--font-serif);
+    font-size: clamp(36px, 4vw, 56px);
+    letter-spacing: -0.02em;
+    line-height: 1;
+    margin: 8px 0 18px;
+    font-weight: 400;
+  }
+  .post-author__bio {
+    font-family: var(--font-serif);
+    font-size: 22px;
+    line-height: 1.4;
+    max-width: 48ch;
+    color: var(--c-fg);
+    font-weight: 300;
+    margin-bottom: 20px;
+  }
+  .post-author__bio em { font-style: italic; color: var(--c-accent); font-variation-settings: 'opsz' 144, 'SOFT' 100, 'WONK' 1; }
+  @media (max-width: 720px) {
+    .post-author__inner { grid-template-columns: 1fr; }
+    .post-author__avatar { width: 96px; height: 96px; }
+  }
+
+  .related { margin-top: var(--s-9); }
+  .related__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--s-6);
+    margin-top: var(--s-7);
+  }
+  .related .card__img { aspect-ratio: 4/5; object-fit: cover; display: block; width: 100%; }
+  .related .card__title { font-family: var(--font-serif); font-size: clamp(22px, 2vw, 32px); line-height: 1.05; margin-top: 14px; letter-spacing: -0.02em; font-weight: 400; }
+  .related .card:hover .card__title { color: var(--c-accent); transition: color 350ms var(--ease-editorial); }
+  .related .card__meta { display: flex; gap: 10px; flex-wrap: wrap; color: var(--c-fg-muted); font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; }
+  @media (max-width: 820px) {
+    .related__grid { grid-template-columns: 1fr; }
+  }
+</style>

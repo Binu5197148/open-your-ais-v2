@@ -1,0 +1,22 @@
+---
+interface Props {
+  current?: 'home' | 'dispatches' | 'latest' | 'about' | 'contact';
+  latestHref?: string;
+}
+const { current, latestHref = '/blog/' } = Astro.props;
+
+const mkAria = (key: Props['current']) =>
+  current === key ? { 'aria-current': 'page' as const } : {};
+---
+
+<nav class="nav">
+  <a class="nav__brand" href="/"><span class="glyph">◎</span><span>Open Your AIs</span></a>
+  <div class="nav__links">
+    <a href="/" {...mkAria('home')}>Index</a>
+    <a href="/blog/" {...mkAria('dispatches')}>Dispatches</a>
+    <a href={latestHref} {...mkAria('latest')}>Latest</a>
+    <a href="/about/" {...mkAria('about')}>About</a>
+    <a href="/contact/" {...mkAria('contact')}>Contact</a>
+  </div>
+  <div class="mono"><span style="color:var(--c-fg-muted)">Vol. 03</span></div>
+</nav>

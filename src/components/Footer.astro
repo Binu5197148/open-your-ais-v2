@@ -1,18 +1,42 @@
 ---
-import { SITE_TITLE, SOCIAL } from '../consts';
+import { SOCIAL } from '../consts';
 const year = new Date().getFullYear();
 ---
 
-<footer style="border-top: 1px solid var(--border); margin-top: 4rem;">
-  <div class="container" style="padding-top: 2rem; padding-bottom: 2rem; display: flex; flex-wrap: wrap; gap: 1rem; justify-content: space-between; align-items: center; color: var(--muted); font-size: 0.9rem;">
-    <div>© {year} {SITE_TITLE} · By Ulisses Balbino</div>
-    <nav style="display: flex; gap: 1.25rem;">
-      <a href={SOCIAL.linkedin} target="_blank" rel="noopener">LinkedIn</a>
-      <a href={SOCIAL.instagram} target="_blank" rel="noopener">Instagram</a>
-      <a href={SOCIAL.x} target="_blank" rel="noopener">X</a>
-      <a href="/rss.xml">RSS</a>
-      <a href="/privacy/">Privacy</a>
-      <a href="/terms/">Terms</a>
-    </nav>
+<footer class="ft container">
+  <div class="grid-12" style="gap: var(--s-7)">
+    <div style="grid-column: span 4">
+      <p class="ft__mono">Open Your AIs — <span style="color:var(--c-accent)">Vol. 03 / {year}</span></p>
+      <p style="font-family:var(--font-serif);font-size:28px;line-height:1.1;margin-top:18px;max-width:24ch;letter-spacing:-0.01em">A working log of cinema in the age of machines that make images.</p>
+    </div>
+    <div style="grid-column: span 2">
+      <p class="ft__mono">Index</p>
+      <ul style="list-style:none;padding:0;margin:18px 0 0 0;display:flex;flex-direction:column;gap:10px">
+        <li><a class="elink" href="/">Home</a></li>
+        <li><a class="elink" href="/blog/">Dispatches</a></li>
+        <li><a class="elink" href="/about/">About</a></li>
+        <li><a class="elink" href="/contact/">Contact</a></li>
+      </ul>
+    </div>
+    <div style="grid-column: span 3">
+      <p class="ft__mono">Elsewhere</p>
+      <ul style="list-style:none;padding:0;margin:18px 0 0 0;display:flex;flex-direction:column;gap:10px">
+        <li><a class="elink" href={SOCIAL.linkedin} target="_blank" rel="noopener">LinkedIn</a></li>
+        <li><a class="elink" href={SOCIAL.instagram} target="_blank" rel="noopener">Instagram — @ulissesbalbino</a></li>
+        <li><a class="elink" href={SOCIAL.x} target="_blank" rel="noopener">X / Twitter</a></li>
+        <li><a class="elink" href="/rss.xml">RSS</a></li>
+      </ul>
+    </div>
+    <div style="grid-column: span 3">
+      <p class="ft__mono">Colophon</p>
+      <p style="margin-top:18px;color:var(--c-fg-muted);font-size:14px;line-height:1.55;max-width:28ch">
+        Set in Fraunces and IBM Plex. Built with Astro on Vercel. © {year}.
+      </p>
+      <p style="margin-top:14px;display:flex;gap:12px;font-family:var(--font-mono);font-size:11px;letter-spacing:0.08em;text-transform:uppercase">
+        <a class="elink" href="/privacy/">Privacy</a>
+        <a class="elink" href="/terms/">Terms</a>
+      </p>
+    </div>
   </div>
+  <div class="ft__giant" aria-hidden="true">OPEN&nbsp;YOUR&nbsp;AIs</div>
 </footer>

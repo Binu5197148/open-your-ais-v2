@@ -1,27 +1,179 @@
 ---
+import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
+import Marquee from '../components/Marquee.astro';
 import { SOCIAL } from '../consts';
+
+const posts = await getCollection('blog', ({ data }) => !data.noindex);
+const latestHref = posts.length
+  ? `/blog/${posts.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())[0].id}/`
+  : '/blog/';
 ---
 
-<BaseLayout title="Contact" description="Get in touch with Ulisses Balbino.">
-  <section class="container" style="padding: 5rem 1.25rem 3rem;">
-    <h1 class="title">Contact</h1>
+<BaseLayout
+  title="Contact"
+  description="Get in touch with Ulisses Balbino — film director, writer of Open Your AIs."
+  current="contact"
+  latestHref={latestHref}
+>
+  <header class="container ct-head">
+    <p class="mono" style="color:var(--c-accent)">§ — Contact</p>
+    <h1 class="ct-title" data-reveal="split">
+      <span class="split-line">Write in.</span>
+      <span class="split-line" style="--reveal-delay: 80ms"><em>I read</em></span>
+      <span class="split-line" style="--reveal-delay: 160ms">everything.</span>
+    </h1>
+    <p class="ct-dek" data-reveal style="--reveal-delay: 350ms">
+      Whether it's a note about a dispatch, an interview request, a project you
+      think I'd want to work on, or a good link for the reading file — this is
+      the inbox. I try to reply within the week.
+    </p>
+  </header>
+
+  <section class="container ct-split" data-reveal>
+    <div class="ct-form">
+      <p class="mono" style="color:var(--c-fg-muted)">The best way to reach me</p>
+      <ul class="ct-direct">
+        <li>
+          <p class="mono">Email</p>
+          <a class="elink ct-direct__val" href="mailto:ulisses@openyourais.com">ulisses@openyourais.com</a>
+        </li>
+        <li>
+          <p class="mono">Production</p>
+          <a class="elink ct-direct__val" href="https://pichorrafilmes.com.br" target="_blank" rel="noopener">Pichorra Filmes →</a>
+        </li>
+        <li>
+          <p class="mono">Response</p>
+          <span class="ct-direct__val" style="color:var(--c-fg-muted)">Within a week, always.</span>
+        </li>
+      </ul>
+    </div>
+
+    <aside class="ct-info">
+      <p class="mono" style="color:var(--c-fg-muted)">Based</p>
+      <div class="ct-info__block">
+        <h3>São Paulo</h3>
+        <p>Home base. Vila Madalena — by appointment.</p>
+        <p class="mono">GMT-03</p>
+      </div>
+      <div class="ct-info__block">
+        <h3>Los Angeles</h3>
+        <p>Shooting and press trips only.</p>
+        <p class="mono">GMT-07</p>
+      </div>
+
+      <div class="ct-info__rule"></div>
+
+      <p class="mono" style="color:var(--c-fg-muted)">Elsewhere</p>
+      <ul class="ct-info__links">
+        <li><a class="elink" href={SOCIAL.linkedin} target="_blank" rel="noopener">LinkedIn — @ulissesbalbino</a></li>
+        <li><a class="elink" href={SOCIAL.instagram} target="_blank" rel="noopener">Instagram — @ulissesbalbino</a></li>
+        <li><a class="elink" href={SOCIAL.x} target="_blank" rel="noopener">X / Twitter — @ulissesbalbino</a></li>
+      </ul>
+
+      <div class="ct-info__rule"></div>
+
+      <p class="mono" style="color:var(--c-fg-muted)">FAQ</p>
+      <details class="ct-faq"><summary>Do you accept guest essays?</summary><p>Rarely, but yes. Include a 200-word pitch and a link to one thing you've made.</p></details>
+      <details class="ct-faq"><summary>Do you take sponsorships?</summary><p>No newsletter sponsorships. The site carries one AdSense slot per dispatch.</p></details>
+      <details class="ct-faq"><summary>Speaking availability?</summary><p>Two or three engagements a year. Film schools and industry gatherings preferred.</p></details>
+      <details class="ct-faq"><summary>Press / interviews?</summary><p>Email with the outlet and deadline and I'll send the kit.</p></details>
+    </aside>
   </section>
 
-  <section class="prose">
-    <p>
-      The best way to reach me is through one of the links below. I read everything,
-      but I don't always answer fast — I'm usually on a set.
-    </p>
-    <ul>
-      <li><a href="mailto:ulisses@openyourais.com">ulisses@openyourais.com</a></li>
-      <li><a href={SOCIAL.linkedin} target="_blank" rel="noopener">LinkedIn</a></li>
-      <li><a href={SOCIAL.instagram} target="_blank" rel="noopener">Instagram</a></li>
-      <li><a href={SOCIAL.x} target="_blank" rel="noopener">X (Twitter)</a></li>
-    </ul>
-    <p>
-      For production inquiries, reach out via
-      <a href="https://pichorrafilmes.com.br" target="_blank" rel="noopener">Pichorra Filmes</a>.
-    </p>
-  </section>
+  <Marquee
+    style="margin-top: var(--s-10)"
+    items={[
+      { text: 'ulisses@openyourais.com', outline: true },
+      { dot: true, text: '' },
+      { text: 'Reply within the week' },
+      { dot: true, text: '' },
+      { text: 'SP ↔ LA', outline: true },
+    ]}
+  />
 </BaseLayout>
+
+<style is:global>
+  .ct-head { padding-top: calc(var(--s-10) + 60px); }
+  .ct-title {
+    font-family: var(--font-serif);
+    font-size: var(--text-monumental);
+    letter-spacing: -0.045em;
+    line-height: 0.88;
+    margin-top: var(--s-6);
+    font-weight: 400;
+    max-width: 12ch;
+  }
+  .ct-title .split-line { display: block; }
+  .ct-title em { font-style: italic; color: var(--c-accent); font-variation-settings: 'opsz' 144, 'SOFT' 100, 'WONK' 1; }
+  .ct-dek {
+    font-family: var(--font-serif);
+    font-size: clamp(22px, 2vw, 28px);
+    line-height: 1.4;
+    max-width: 40ch;
+    margin-top: var(--s-6);
+    font-weight: 300;
+    color: var(--c-fg);
+  }
+
+  .ct-split {
+    display: grid;
+    grid-template-columns: 1.4fr 1fr;
+    gap: var(--s-8);
+    margin-top: var(--s-9);
+    padding-top: var(--s-7);
+    border-top: 1px solid var(--c-rule);
+    align-items: start;
+  }
+
+  .ct-direct {
+    list-style: none;
+    padding: 0;
+    margin: var(--s-5) 0 0;
+  }
+  .ct-direct li {
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    gap: var(--s-5);
+    padding-block: var(--s-5);
+    border-top: 1px solid var(--c-rule);
+    align-items: baseline;
+  }
+  .ct-direct li:first-child { border-top: 0; }
+  .ct-direct li:last-child { border-bottom: 1px solid var(--c-rule); }
+  .ct-direct .mono { color: var(--c-fg-muted); }
+  .ct-direct__val {
+    font-family: var(--font-serif);
+    font-size: clamp(22px, 2vw, 30px);
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+  }
+
+  .ct-info { padding-left: var(--s-6); border-left: 1px solid var(--c-rule); }
+  .ct-info__block { margin-top: var(--s-5); }
+  .ct-info__block h3 { font-family: var(--font-serif); font-size: 32px; letter-spacing: -0.02em; font-weight: 400; }
+  .ct-info__block p { color: var(--c-fg-muted); margin-top: 4px; }
+  .ct-info__block p.mono { margin-top: 6px; color: var(--c-fg-dim); }
+  .ct-info__rule { height: 1px; background: var(--c-rule); margin: var(--s-6) 0; }
+  .ct-info__links { list-style: none; padding: 0; margin: var(--s-4) 0 0; display: flex; flex-direction: column; gap: 10px; }
+  .ct-faq {
+    padding-block: 14px;
+    border-bottom: 1px solid var(--c-rule);
+    font-family: var(--font-sans);
+  }
+  .ct-faq summary {
+    cursor: pointer;
+    list-style: none;
+    display: flex; justify-content: space-between; align-items: center;
+    font-size: 15px;
+  }
+  .ct-faq summary::after { content: '+'; font-family: var(--font-mono); color: var(--c-fg-muted); font-size: 16px; transition: transform 300ms; }
+  .ct-faq[open] summary::after { content: '−'; }
+  .ct-faq p { margin-top: 10px; color: var(--c-fg-muted); font-size: 14px; line-height: 1.5; }
+
+  @media (max-width: 900px) {
+    .ct-split { grid-template-columns: 1fr; }
+    .ct-info { padding-left: 0; border-left: 0; border-top: 1px solid var(--c-rule); padding-top: var(--s-6); margin-top: var(--s-6); }
+  }
+</style>

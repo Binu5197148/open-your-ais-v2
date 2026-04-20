@@ -1,35 +1,76 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
-import ArticleCard from '../components/ArticleCard.astro';
 
-const toolReviews = (await getCollection('blog', ({ data }) =>
-  !data.noindex &&
-  (
-    (data.category && ['Tools', 'AI'].includes(data.category)) ||
-    (data.title && /review|test/i.test(data.title))
-  )
-)).sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()).slice(0, 30);
+const all = (await getCollection('blog', ({ data }) => !data.noindex))
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+
+const toolReviews = all.filter(({ data }) =>
+  (data.category && ['Tools', 'AI'].includes(data.category)) ||
+  (data.title && /review|test/i.test(data.title))
+).slice(0, 40);
+
+const latestHref = all[0] ? `/blog/${all[0].id}/` : '/blog/';
+const fmtShort = (d: Date) => d.toLocaleDateString('en-US', { month: 'short', day: '2-digit' });
+
+const numberById = new Map<string, number>();
+[...all].reverse().forEach((p, i) => numberById.set(p.id, i + 1));
 ---
 
-<BaseLayout title="AI Tools & Reviews" description="Hands-on reviews of AI tools for filmmakers, editors, and creators.">
-  <section class="container" style="padding: 5rem 1.25rem 2rem;">
-    <h1 class="title">Tools & Reviews</h1>
-    <p class="muted" style="margin-top: 1rem; font-size: 1.125rem; max-width: 60ch;">
-      Tools I've actually put through production work. No affiliate links unless disclosed.
+<BaseLayout
+  title="Tools & Reviews"
+  description="Hands-on reviews of AI tools for filmmakers, editors, and creators — no affiliate links."
+  latestHref={latestHref}
+>
+  <header class="container ab-head">
+    <p class="mono" style="color:var(--c-accent)">§ — Tools</p>
+    <h1 class="ab-title" data-reveal="split">
+      <span class="split-line">Tools,</span>
+      <span class="split-line" style="--reveal-delay: 80ms"><em>tested</em></span>
+      <span class="split-line" style="--reveal-delay: 160ms">on set.</span>
+    </h1>
+    <p class="ct-dek" data-reveal style="--reveal-delay: 350ms; max-width: 48ch">
+      Hands-on notes on AI tools I've actually put through production work. No
+      affiliate links unless disclosed. {toolReviews.length} {toolReviews.length === 1 ? 'review' : 'reviews'}.
     </p>
-  </section>
+  </header>
 
-  <section class="container" style="padding-bottom: 4rem;">
-    {toolReviews.map((post) => (
-      <ArticleCard
-        href={`/blog/${post.id}/`}
-        title={post.data.title}
-        description={post.data.description}
-        pubDate={post.data.pubDate}
-        category={post.data.category}
-        readTime={post.data.readTime}
-      />
-    ))}
+  <section class="container idx-list" style="margin-top: var(--s-9)">
+    <ol class="idx-rows" style="border-top: 1px solid var(--c-rule)">
+      {toolReviews.map((post) => {
+        const n = numberById.get(post.id) || 0;
+        return (
+          <li>
+            <a class="arow" href={`/blog/${post.id}/`}>
+              <span class="mono arow__n">{String(n).padStart(3, '0')}</span>
+              <div class="arow__body">
+                <h3 class="arow__title">{post.data.title}</h3>
+                <p class="arow__dek">{post.data.description}</p>
+              </div>
+              <span class="mono arow__tag">{post.data.category || 'Review'}</span>
+              <span class="mono arow__time">{post.data.readTime || ''}</span>
+              <span class="mono arow__date">{fmtShort(post.data.pubDate)}</span>
+            </a>
+          </li>
+        );
+      })}
+    </ol>
   </section>
 </BaseLayout>
+
+<style is:global>
+  /* Reuse styles from /blog/ index */
+  .idx-list .arow {
+    display: grid;
+    grid-template-columns: 60px minmax(0, 1fr) 110px 80px 80px;
+    gap: var(--s-5);
+    align-items: baseline;
+    padding-block: var(--s-5);
+    border-top: 1px solid var(--c-rule);
+    color: inherit;
+    transition: background 280ms var(--ease-editorial), padding 280ms var(--ease-editorial);
+  }
+  .idx-list .arow:first-child { border-top: 0; }
+  .idx-list .arow:hover { background: color-mix(in oklab, var(--c-fg) 4%, transparent); padding-left: 12px; padding-right: 12px; }
+  .idx-list .arow:hover .arow__title { color: var(--c-accent); }
+</style>
