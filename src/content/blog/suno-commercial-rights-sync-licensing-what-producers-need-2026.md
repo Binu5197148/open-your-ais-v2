@@ -11,7 +11,7 @@ tags:
   - "Music Licensing"
   - "Commercial Production"
   - "Sync Rights"
-heroImage: "https://images.unsplash.com/photo-1511379938547-c1f69419868d?auto=format&fit=crop&w=1200&q=80"
+heroImage: "https://images.unsplash.com/photo-1766036388323-6f0394b476cd?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHwyNnx8ZHJhbWF0aWMlMjBwb3J0cmFpdCUyMG1vbm9jaHJvbWV8ZW58MXwwfHx8MTc3NjcyNDI2OXww&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85"
 author: "Ulisses Balbino"
 readTime: "9 min read"
 ---

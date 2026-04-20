@@ -10,7 +10,7 @@ tags:
   - "Whisk"
   - "ImageFX"
   - "AI Tools"
-heroImage: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=1200&q=80"
+heroImage: "https://images.unsplash.com/photo-1748194257139-1feac0b719d1?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHwyMHx8dXJiYW4lMjBjaW5lbWF0aWMlMjBuaWdodHxlbnwxfDB8fHwxNzc2NzI0MjczfDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85"
 author: "Open Your AIs"
 readTime: "6 min read"
 ---

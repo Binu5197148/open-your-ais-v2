@@ -11,7 +11,7 @@ tags:
   - "Pitch Deck"
   - "Concept Board"
   - "Visual Development"
-heroImage: "https://images.unsplash.com/photo-1558591710-4b4a1ae0f04d?auto=format&fit=crop&w=1200&q=80"
+heroImage: "https://images.unsplash.com/photo-1570459725042-850c4a7ccc70?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHwyNXx8ZmlsbSUyMGRpcmVjdG9yJTIwb24lMjBzZXR8ZW58MXwwfHx8MTc3NjcyNDI1Nnww&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85"
 author: "Ulisses Balbino"
 readTime: "8 min read"
 ---

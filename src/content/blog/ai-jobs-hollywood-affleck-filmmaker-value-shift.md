@@ -10,7 +10,7 @@ tags:
   - "Filmmaking"
   - "Creative AI"
   - "AI Future"
-heroImage: "https://images.unsplash.com/photo-1504432842672-1a79f78e4084?auto=format&fit=crop&w=1200&q=80"
+heroImage: "https://images.unsplash.com/photo-1763224293772-6e9110df0650?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHw2fHxibGFjayUyMGFuZCUyMHdoaXRlJTIwcG9ydHJhaXQlMjBhcnRpc3RpY3xlbnwxfDB8fHwxNzc2NzI0Mjc2fDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85"
 author: "Open Your AIs"
 readTime: "9 min read"
 ---

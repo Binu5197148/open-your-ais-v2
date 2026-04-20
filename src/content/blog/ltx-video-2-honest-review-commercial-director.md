@@ -12,7 +12,7 @@ tags:
   - "Commercial Production"
   - "Filmmaking"
   - "AI Tools Review"
-heroImage: "https://images.unsplash.com/photo-1536240478700-b869ad10e2f6?auto=format&fit=crop&w=1200&q=80"
+heroImage: "https://images.unsplash.com/photo-1570459725314-e47a1bdb4764?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHwzfHxmaWxtJTIwZGlyZWN0b3IlMjBvbiUyMHNldHxlbnwxfDB8fHwxNzc2NzI0MjU2fDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85"
 author: "Ulisses Balbino"
 readTime: "10 min read"
 ---

@@ -11,7 +11,7 @@ tags:
   - "Productivity"
   - "Creative Workflow"
   - "Claude 4"
-heroImage: "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?auto=format&fit=crop&w=1200&q=80"
+heroImage: "https://images.unsplash.com/photo-1487054119077-25d803b1aec6?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHwxMXx8c2hhZG93JTIwbGlnaHQlMjBwb3J0cmFpdHxlbnwxfDB8fHwxNzc2NzI0MjY3fDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85"
 author: "Ulisses Balbino"
 readTime: "5 min read"
 featured: true

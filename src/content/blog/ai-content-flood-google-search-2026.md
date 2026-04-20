@@ -9,7 +9,7 @@ tags:
   - "SEO"
   - "AI Content"
   - "Search"
-heroImage: "https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?auto=format&fit=crop&w=1200&q=80"
+heroImage: "https://images.unsplash.com/photo-1608663003623-2a62ac92df13?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHw1fHxmaWxtJTIwc2V0JTIwY2luZW1hdG9ncmFwaHl8ZW58MXwwfHx8MTc3NjcyNDI1M3ww&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85"
 author: "Open Your AIs"
 readTime: "6 min read"
 ---

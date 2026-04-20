@@ -13,7 +13,7 @@ tags:
   - "Vibe Coding"
   - "Automation"
   - "Filmmaker"
-heroImage: "https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=1200&q=80"
+heroImage: "https://images.unsplash.com/photo-1613723984367-a9b7ee9052d8?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHwxfHxuZW9uJTIwY2l0eSUyMG5pZ2h0JTIwc3RyZWV0fGVufDF8MHx8fDE3NzY3MjQyNzB8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85"
 author: "Ulisses Balbino"
 readTime: "9 min read"
 featured: true

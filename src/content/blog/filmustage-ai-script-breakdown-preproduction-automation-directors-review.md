@@ -11,7 +11,7 @@ tags:
   - "Production Planning"
   - "AI Tools"
   - "Commercial Production"
-heroImage: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1200&q=80"
+heroImage: "https://images.unsplash.com/photo-1765664624308-b2752a5957ba?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHwyOHx8ZHJhbWF0aWMlMjBwb3J0cmFpdCUyMG1vbm9jaHJvbWV8ZW58MXwwfHx8MTc3NjcyNDI2OXww&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85"
 author: "Ulisses Balbino"
 readTime: "8 min read"
 ---

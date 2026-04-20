@@ -10,7 +10,7 @@ tags:
   - "Tools"
   - "Solo Creator"
   - "Workflow"
-heroImage: "https://images.unsplash.com/photo-1551434678-e076b2238549?auto=format&fit=crop&w=1200&q=80"
+heroImage: "https://images.unsplash.com/photo-1619376235038-bf2cd95f0071?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHw4fHxiYWNrc3RhZ2UlMjBwcm9kdWN0aW9uJTIwY3Jld3xlbnwxfDB8fHwxNzc2NzI0Mjc1fDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85"
 author: "Open Your AIs"
 readTime: "6 min read"
 ---

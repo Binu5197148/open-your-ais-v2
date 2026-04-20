@@ -10,7 +10,7 @@ tags:
   - "World Model"
   - "AI Video"
   - "Production Tools"
-heroImage: "https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?auto=format&fit=crop&w=1200&q=80"
+heroImage: "https://images.unsplash.com/photo-1654773615210-cc0e1899d934?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHwxOXx8dGhlYXRlciUyMHN0YWdlJTIwZHJhbWF0aWMlMjBsaWdodGluZ3xlbnwxfDB8fHwxNzc2NzI0MjYyfDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85"
 author: "Ulisses Balbino"
 readTime: "9 min read"
 ---

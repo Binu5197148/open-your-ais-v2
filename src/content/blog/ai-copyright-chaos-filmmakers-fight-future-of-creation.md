@@ -13,7 +13,7 @@ tags:
   - "fair use"
   - "small business"
   - "Ulisses Balbino"
-heroImage: "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?auto=format&fit=crop&w=1200&q=80"
+heroImage: "https://images.unsplash.com/photo-1654288891700-95f67982cbcc?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHwxMHx8YmFja3N0YWdlJTIwcHJvZHVjdGlvbiUyMGNyZXd8ZW58MXwwfHx8MTc3NjcyNDI3NXww&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85"
 author: "Ulisses Balbino"
 readTime: "5 min read"
 ---

@@ -12,7 +12,7 @@ tags:
   - "NVIDIA"
   - "LTX-2"
   - "Video Generation"
-heroImage: "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1200&q=80"
+heroImage: "https://images.unsplash.com/photo-1763311159952-3afa0ee330c2?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHwxMXx8YmxhY2slMjBhbmQlMjB3aGl0ZSUyMHBvcnRyYWl0JTIwYXJ0aXN0aWN8ZW58MXwwfHx8MTc3NjcyNDI3Nnww&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85"
 author: "Ulisses Balbino"
 readTime: "9 min read"
 ---

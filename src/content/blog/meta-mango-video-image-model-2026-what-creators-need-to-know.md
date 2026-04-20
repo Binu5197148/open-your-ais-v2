@@ -10,7 +10,7 @@ tags:
   - "AI Video"
   - "Social Content"
   - "Instagram"
-heroImage: "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?auto=format&fit=crop&w=1200&q=80"
+heroImage: "https://images.unsplash.com/photo-1709043358728-a6a357ff4c6e?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHwyMXx8dXJiYW4lMjBjaW5lbWF0aWMlMjBuaWdodHxlbnwxfDB8fHwxNzc2NzI0MjczfDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85"
 author: "Ulisses Balbino"
 readTime: "8 min read"
 ---

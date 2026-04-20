@@ -10,7 +10,7 @@ tags:
   - "AI Video"
   - "Audio"
   - "Production"
-heroImage: "https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?auto=format&fit=crop&w=1200&q=80"
+heroImage: "https://images.unsplash.com/photo-1775900047310-90dcf9b34828?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHwyMnx8dXJiYW4lMjBjaW5lbWF0aWMlMjBuaWdodHxlbnwxfDB8fHwxNzc2NzI0MjczfDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85"
 author: "Open Your AIs"
 readTime: "7 min read"
 ---

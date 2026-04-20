@@ -9,7 +9,7 @@ tags:
   - "AI Video"
   - "Production"
   - "Creative AI"
-heroImage: "https://images.unsplash.com/photo-1536240478700-b869ad10a2eb?auto=format&fit=crop&w=1200&q=80"
+heroImage: "https://images.unsplash.com/photo-1716895821589-ed16084ea80a?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHwzfHxhbmFsb2clMjBmaWxtJTIwcGhvdG9ncmFwaHklMjBncmFpbnxlbnwxfDB8fHwxNzc2NzI0MjcyfDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85"
 author: "Open Your AIs"
 readTime: "9 min read"
 ---

@@ -11,7 +11,7 @@ tags:
   - "Lead Management"
   - "Operations"
   - "Connected Systems"
-heroImage: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80"
+heroImage: "https://images.unsplash.com/photo-1749381164289-6b03830ff2b9?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHw3fHxkcmFtYXRpYyUyMHBvcnRyYWl0JTIwbW9ub2Nocm9tZXxlbnwxfDB8fHwxNzc2NzI0MjY5fDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85"
 author: "Ulisses Balbino"
 readTime: "8 min read"
 ---

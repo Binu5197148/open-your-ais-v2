@@ -10,7 +10,7 @@ tags:
   - "Cinema Studio"
   - "Filmmaking"
   - "AI Direction"
-heroImage: "https://images.unsplash.com/photo-1536240478700-b869070f9279?auto=format&fit=crop&w=1200&q=80"
+heroImage: "https://images.unsplash.com/photo-1761229661007-ff73d38a647c?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHwyM3x8dGhlYXRlciUyMHN0YWdlJTIwZHJhbWF0aWMlMjBsaWdodGluZ3xlbnwxfDB8fHwxNzc2NzI0MjYyfDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85"
 author: "Open Your AIs"
 readTime: "10 min read"
 featured: true

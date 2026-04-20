@@ -9,7 +9,7 @@ tags:
   - "Filmmaking"
   - "AI vs Humans"
   - "Creative AI"
-heroImage: "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?auto=format&fit=crop&w=1200&q=80"
+heroImage: "https://images.unsplash.com/photo-1495609109719-4b656ae83fcb?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHwxNXx8YmFja3N0YWdlJTIwcHJvZHVjdGlvbiUyMGNyZXd8ZW58MXwwfHx8MTc3NjcyNDI3NXww&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85"
 author: "Open Your AIs"
 readTime: "11 min read"
 ---

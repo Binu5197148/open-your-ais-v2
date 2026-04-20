@@ -12,7 +12,7 @@ tags:
   - "China AI"
   - "Free AI Tools"
   - "Video Generation"
-heroImage: "https://images.unsplash.com/photo-1639322537228-f710d846310a?auto=format&fit=crop&w=800&q=80"
+heroImage: "https://images.unsplash.com/photo-1764763180201-6ffdff239260?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHwxN3x8dGhlYXRlciUyMHN0YWdlJTIwZHJhbWF0aWMlMjBsaWdodGluZ3xlbnwxfDB8fHwxNzc2NzI0MjYyfDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85"
 author: "Ulisses Balbino"
 readTime: "4 min"
 ---

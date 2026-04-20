@@ -11,7 +11,7 @@ tags:
   - "Music Generation"
   - "Voiceover"
   - "Commercial Production"
-heroImage: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?auto=format&fit=crop&w=1200&q=80"
+heroImage: "https://images.unsplash.com/photo-1764763179282-99bc5e89b996?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHwxM3x8dGhlYXRlciUyMHN0YWdlJTIwZHJhbWF0aWMlMjBsaWdodGluZ3xlbnwxfDB8fHwxNzc2NzI0MjYyfDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85"
 author: "Ulisses Balbino"
 readTime: "8 min read"
 ---

@@ -9,7 +9,7 @@ tags:
   - "AI Coding"
   - "Development"
   - "Tools"
-heroImage: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=1200&q=80"
+heroImage: "https://images.unsplash.com/photo-1570785910568-62040c41db1a?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHwxMHx8ZmlsbSUyMHJlZWwlMjAzNW1tJTIwYW5hbG9nfGVufDF8MHx8fDE3NzY3MjQyNjB8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85"
 author: "Open Your AIs"
 readTime: "7 min read"
 ---

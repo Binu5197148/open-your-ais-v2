@@ -527,3 +527,11 @@ html { scrollbar-color: var(--c-rule) transparent; scrollbar-width: thin; }
     transition-duration: 0.001ms !important;
   }
 }
+
+/* Editorial aesthetic — all post imagery in black & white */
+.hero__img,
+.card__img,
+.post-head__img {
+  filter: grayscale(1) contrast(1.03);
+  transition: filter 600ms var(--ease-editorial);
+}

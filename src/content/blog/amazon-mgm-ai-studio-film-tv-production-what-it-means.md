@@ -10,7 +10,7 @@ tags:
   - "Film Industry"
   - "Studio AI"
   - "Production Workflow"
-heroImage: "https://images.unsplash.com/photo-1560179707-f14e90ef3623?auto=format&fit=crop&w=1200&q=80"
+heroImage: "https://images.unsplash.com/photo-1769084644146-a0fb34fca3c1?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHwyM3x8YmxhY2slMjBhbmQlMjB3aGl0ZSUyMHBvcnRyYWl0JTIwYXJ0aXN0aWN8ZW58MXwwfHx8MTc3NjcyNDI3Nnww&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85"
 author: "Ulisses Balbino"
 readTime: "8 min read"
 ---

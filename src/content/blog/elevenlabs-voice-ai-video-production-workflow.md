@@ -10,7 +10,7 @@ tags:
   - "Audio Production"
   - "Video Workflow"
   - "AI Tools"
-heroImage: "https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?auto=format&fit=crop&w=1200&q=80"
+heroImage: "https://images.unsplash.com/photo-1587981862622-6416dd2e0399?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHwxN3x8ZmlsbSUyMHJlZWwlMjAzNW1tJTIwYW5hbG9nfGVufDF8MHx8fDE3NzY3MjQyNjB8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85"
 author: "Ulisses Balbino"
 readTime: "9 min read"
 ---

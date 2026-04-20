@@ -10,7 +10,7 @@ tags:
   - "AI Filmmaking"
   - "Production Strategy"
   - "Creative Direction"
-heroImage: "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=1200&q=80"
+heroImage: "https://images.unsplash.com/photo-1543242596-424e78f9ef7b?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHw4fHxjaW5lbWElMjBjYW1lcmElMjBjbG9zZXVwfGVufDF8MHx8fDE3NzY3MjQyNTV8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85"
 author: "Open Your AIs"
 readTime: "8 min read"
 featured: true

@@ -10,7 +10,7 @@ tags:
   - "Music Licensing"
   - "Video Production"
   - "Commercial AI"
-heroImage: "https://images.unsplash.com/photo-1511379938547-c1f69419868d?auto=format&fit=crop&w=1200&q=80"
+heroImage: "https://images.unsplash.com/photo-1600354026342-a96603baf9df?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHw0fHxmaWxtJTIwZGlyZWN0b3IlMjBvbiUyMHNldHxlbnwxfDB8fHwxNzc2NzI0MjU2fDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85"
 author: "Ulisses Balbino"
 readTime: "8 min read"
 ---

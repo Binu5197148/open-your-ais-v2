@@ -11,7 +11,7 @@ tags:
   - "Sora"
   - "Runway"
   - "Comparison"
-heroImage: "https://images.unsplash.com/photo-1535016120720-40c6874c3b13?auto=format&fit=crop&w=1200&q=80"
+heroImage: "https://images.unsplash.com/photo-1571470804389-6885209bfd4e?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHwzMHx8bmVvbiUyMGNpdHklMjBuaWdodCUyMHN0cmVldHxlbnwxfDB8fHwxNzc2NzI0MjcwfDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85"
 author: "Open Your AIs"
 readTime: "8 min read"
 ---

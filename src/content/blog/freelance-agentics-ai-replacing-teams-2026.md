@@ -9,7 +9,7 @@ tags:
   - "AI Agents"
   - "Economy"
   - "Future of Work"
-heroImage: "https://images.unsplash.com/photo-1553877522-43269d4ea984?auto=format&fit=crop&w=1200&q=80"
+heroImage: "https://images.unsplash.com/photo-1707290914624-096ef94ea0d6?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHwxOHx8c2hhZG93JTIwbGlnaHQlMjBwb3J0cmFpdHxlbnwxfDB8fHwxNzc2NzI0MjY3fDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85"
 author: "Open Your AIs"
 readTime: "6 min read"
 ---

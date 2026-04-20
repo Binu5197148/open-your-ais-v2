@@ -11,7 +11,7 @@ tags:
   - "Localization"
   - "Eleven v3"
   - "Commercial Production"
-heroImage: "https://images.unsplash.com/photo-1478737270239-2f02b77fc618?auto=format&fit=crop&w=1200&q=80"
+heroImage: "https://images.unsplash.com/photo-1641277132336-ae9d6432b8c5?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHw0fHxuZW9uJTIwY2l0eSUyMG5pZ2h0JTIwc3RyZWV0fGVufDF8MHx8fDE3NzY3MjQyNzB8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85"
 author: "Ulisses Balbino"
 readTime: "8 min read"
 ---

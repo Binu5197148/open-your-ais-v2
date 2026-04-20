@@ -10,7 +10,7 @@ tags:
   - "4K"
   - "Motion Control"
   - "Video Production"
-heroImage: "https://images.unsplash.com/photo-1492619375914-88005aa9e8fb?auto=format&fit=crop&w=1200&q=80"
+heroImage: "https://images.unsplash.com/photo-1771591227117-0726b777828e?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHw0fHxibGFjayUyMGFuZCUyMHdoaXRlJTIwcG9ydHJhaXQlMjBhcnRpc3RpY3xlbnwxfDB8fHwxNzc2NzI0Mjc2fDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85"
 author: "Ulisses Balbino"
 readTime: "8 min read"
 ---

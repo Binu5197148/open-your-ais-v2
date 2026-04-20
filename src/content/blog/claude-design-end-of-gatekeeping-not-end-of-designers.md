@@ -11,7 +11,7 @@ tags:
   - "Design Tools"
   - "Creative Economy"
   - "Democratization"
-heroImage: "https://images.unsplash.com/photo-1561070791-2526d30994b8?auto=format&fit=crop&w=1200&q=80"
+heroImage: "https://images.unsplash.com/photo-1599751496621-b2b9770e2775?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHwyMHx8ZmlsbSUyMGRpcmVjdG9yJTIwb24lMjBzZXR8ZW58MXwwfHx8MTc3NjcyNDI1Nnww&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85"
 author: "Ulisses Balbino"
 readTime: "6 min read"
 featured: true

@@ -10,7 +10,7 @@ tags:
   - "Filmmaking"
   - "AI Marketing"
   - "AI vs Humans"
-heroImage: "https://images.unsplash.com/photo-1594909122845-11baa439b7bf?auto=format&fit=crop&w=1200&q=80"
+heroImage: "https://images.unsplash.com/photo-1600788061945-3dc3647303b8?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHwxNnx8ZmlsbSUyMHNldCUyMGNpbmVtYXRvZ3JhcGh5fGVufDF8MHx8fDE3NzY3MjQyNTN8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85"
 author: "Open Your AIs"
 readTime: "10 min read"
 ---

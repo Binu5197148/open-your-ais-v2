@@ -11,7 +11,7 @@ tags:
   - "ACES"
   - "DaVinci Resolve"
   - "Commercial Production"
-heroImage: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=80"
+heroImage: "https://images.unsplash.com/photo-1771250557627-a8e34fa45a14?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHwyNXx8dXJiYW4lMjBjaW5lbWF0aWMlMjBuaWdodHxlbnwxfDB8fHwxNzc2NzI0MjczfDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85"
 author: "Ulisses Balbino"
 readTime: "7 min read"
 ---

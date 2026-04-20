@@ -11,7 +11,7 @@ tags:
   - "Commercial Photography"
   - "Multi-Reference"
   - "Visual Development"
-heroImage: "https://images.unsplash.com/photo-1501854140801-50d01698950b?auto=format&fit=crop&w=1200&q=80"
+heroImage: "https://images.unsplash.com/photo-1638983752157-052aa1f15bf1?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHwxMHx8c2hhZG93JTIwbGlnaHQlMjBwb3J0cmFpdHxlbnwxfDB8fHwxNzc2NzI0MjY3fDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85"
 author: "Ulisses Balbino"
 readTime: "7 min read"
 ---

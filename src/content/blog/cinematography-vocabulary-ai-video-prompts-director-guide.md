@@ -10,7 +10,7 @@ tags:
   - "Production Guide"
   - "Prompting"
   - "Director Tips"
-heroImage: "https://images.unsplash.com/photo-1524712245354-2c4e5e7121c0?auto=format&fit=crop&w=1200&q=80"
+heroImage: "https://images.unsplash.com/photo-1613488328514-e424950c0b0d?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHwxN3x8bmVvbiUyMGNpdHklMjBuaWdodCUyMHN0cmVldHxlbnwxfDB8fHwxNzc2NzI0MjcwfDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85"
 author: "Ulisses Balbino"
 readTime: "10 min read"
 featured: true

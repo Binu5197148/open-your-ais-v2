@@ -9,7 +9,7 @@ tags:
   - "Creative Jobs"
   - "AI Tools"
   - "Production"
-heroImage: "https://images.unsplash.com/photo-1601506521793-dc748fc80b67?auto=format&fit=crop&w=1200&q=80"
+heroImage: "https://images.unsplash.com/photo-1643753072748-cac34c448e3f?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHwyMXx8Y2luZW1hJTIwaGFsbCUyMGVtcHR5fGVufDF8MHx8fDE3NzY3MjQyNjN8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85"
 author: "Open Your AIs"
 readTime: "10 min read"
 ---

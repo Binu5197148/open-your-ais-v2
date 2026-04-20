@@ -9,7 +9,7 @@ tags:
   - "Voice AI"
   - "Voice Acting"
   - "Cloning"
-heroImage: "https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?auto=format&fit=crop&w=1200&q=80"
+heroImage: "https://images.unsplash.com/photo-1717842919359-3e92e2d37651?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHwyNXx8YW5hbG9nJTIwZmlsbSUyMHBob3RvZ3JhcGh5JTIwZ3JhaW58ZW58MXwwfHx8MTc3NjcyNDI3Mnww&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85"
 author: "Open Your AIs"
 readTime: "7 min read"
 ---

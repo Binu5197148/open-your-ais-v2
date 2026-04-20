@@ -10,7 +10,7 @@ tags:
   - "Reuters"
   - "AI Filmmaking"
   - "Production Strategy"
-heroImage: "https://images.unsplash.com/photo-1517604931442-7e0c8ed2963c?auto=format&fit=crop&w=1200&q=80"
+heroImage: "https://images.unsplash.com/photo-1670960763844-10278a725ac7?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHwyMHx8bmVvbiUyMGNpdHklMjBuaWdodCUyMHN0cmVldHxlbnwxfDB8fHwxNzc2NzI0MjcwfDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85"
 author: "Open Your AIs"
 readTime: "8 min read"
 featured: true

@@ -10,7 +10,7 @@ tags:
   - "AI Video"
   - "Filmmaking"
   - "AI Tools"
-heroImage: "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?auto=format&fit=crop&w=1200&q=80"
+heroImage: "https://images.unsplash.com/photo-1565792930689-86ab3245a236?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHw4fHxzaGFkb3clMjBsaWdodCUyMHBvcnRyYWl0fGVufDF8MHx8fDE3NzY3MjQyNjd8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85"
 author: "Open Your AIs"
 readTime: "9 min read"
 ---

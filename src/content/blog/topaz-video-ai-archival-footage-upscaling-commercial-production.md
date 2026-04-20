@@ -11,7 +11,7 @@ tags:
   - "Post Production"
   - "Video Restoration"
   - "4K"
-heroImage: "https://images.unsplash.com/photo-1492619375914-88005aa9e8fb?auto=format&fit=crop&w=1200&q=80"
+heroImage: "https://images.unsplash.com/photo-1716895821588-cd274a682930?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHwyfHxhbmFsb2clMjBmaWxtJTIwcGhvdG9ncmFwaHklMjBncmFpbnxlbnwxfDB8fHwxNzc2NzI0MjcyfDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85"
 author: "Ulisses Balbino"
 readTime: "8 min read"
 ---

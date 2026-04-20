@@ -12,7 +12,7 @@ tags:
   - "Kling AI"
   - "Social Media"
   - "Tutorial"
-heroImage: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?auto=format&fit=crop&w=800&q=80"
+heroImage: "https://images.unsplash.com/photo-1768248468040-259dc015e0d9?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHwxNHx8YmxhY2slMjBhbmQlMjB3aGl0ZSUyMHBvcnRyYWl0JTIwYXJ0aXN0aWN8ZW58MXwwfHx8MTc3NjcyNDI3Nnww&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85"
 author: "Ulisses Balbino"
 readTime: "8 min"
 ---

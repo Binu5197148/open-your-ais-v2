@@ -13,7 +13,7 @@ tags:
   - "creative-tech"
   - "production-company"
   - "future-of-cinema"
-heroImage: "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?auto=format&fit=crop&w=1200&q=80"
+heroImage: "https://images.unsplash.com/photo-1775975298359-7a9f09f1c1ef?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHw1fHxkcmFtYXRpYyUyMHBvcnRyYWl0JTIwbW9ub2Nocm9tZXxlbnwxfDB8fHwxNzc2NzI0MjY5fDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85"
 author: "Ulisses Balbino"
 readTime: "5 min read"
 ---

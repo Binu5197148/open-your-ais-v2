@@ -10,7 +10,7 @@ tags:
   - "Autonomous"
   - "Business"
   - "Startup"
-heroImage: "https://images.unsplash.com/photo-1559136555-9303baea8ebd?auto=format&fit=crop&w=1200&q=80"
+heroImage: "https://images.unsplash.com/photo-1603651397449-eaa6fcfc3e28?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHw0fHxjaW5lbWElMjBjYW1lcmElMjBjbG9zZXVwfGVufDF8MHx8fDE3NzY3MjQyNTV8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85"
 author: "Open Your AIs"
 readTime: "7 min read"
 noindex: true

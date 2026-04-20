@@ -9,7 +9,7 @@ tags:
   - "Startups"
   - "Investment"
   - "2026"
-heroImage: "https://images.unsplash.com/photo-1559136555-9303baea8ebd?auto=format&fit=crop&w=1200&q=80"
+heroImage: "https://images.unsplash.com/photo-1638983752157-771223ca6ceb?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHwyM3x8c2hhZG93JTIwbGlnaHQlMjBwb3J0cmFpdHxlbnwxfDB8fHwxNzc2NzI0MjY3fDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85"
 author: "Open Your AIs"
 readTime: "6 min read"
 ---

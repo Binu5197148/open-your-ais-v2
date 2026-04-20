@@ -11,7 +11,7 @@ tags:
   - "AI Writing"
   - "Creative Workflow"
   - "AI Models 2026"
-heroImage: "https://images.unsplash.com/photo-1677442135703-1787eea5ce01?auto=format&fit=crop&w=1200&q=80"
+heroImage: "https://images.unsplash.com/photo-1590292907182-d3d2eb4871a8?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHwyMXx8Y2luZW1hJTIwY2FtZXJhJTIwY2xvc2V1cHxlbnwxfDB8fHwxNzc2NzI0MjU1fDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85"
 author: "Ulisses Balbino"
 readTime: "8 min read"
 ---

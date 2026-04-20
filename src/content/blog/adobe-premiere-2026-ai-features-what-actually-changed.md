@@ -10,7 +10,7 @@ tags:
   - "AI Tools"
   - "Production Workflow"
   - "Content Creators"
-heroImage: "https://images.unsplash.com/photo-1574717024653-61fd2cf4d44d?auto=format&fit=crop&w=1200&q=80"
+heroImage: "https://images.unsplash.com/photo-1592861394767-6484f6a8e5c0?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHwyM3x8ZmlsbSUyMGRpcmVjdG9yJTIwb24lMjBzZXR8ZW58MXwwfHx8MTc3NjcyNDI1Nnww&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85"
 author: "Ulisses Balbino"
 readTime: "8 min read"
 featured: true

@@ -9,7 +9,7 @@ tags:
   - "Website Builder"
   - "No-Code"
   - "Web Development"
-heroImage: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80"
+heroImage: "https://images.unsplash.com/photo-1765833692287-056eafb0f3cd?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHwyfHxibGFjayUyMGFuZCUyMHdoaXRlJTIwcG9ydHJhaXQlMjBhcnRpc3RpY3xlbnwxfDB8fHwxNzc2NzI0Mjc2fDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85"
 author: "Open Your AIs"
 readTime: "5 min read"
 ---
