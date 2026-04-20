@@ -1,42 +1,419 @@
 ---
 import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
-import ArticleCard from '../components/ArticleCard.astro';
+import Marquee from '../components/Marquee.astro';
 import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 
 const posts = (await getCollection('blog', ({ data }) => !data.noindex))
-  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
-  .slice(0, 12);
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+
+const total = posts.length;
+const featuredLead = posts[0];
+const featuredSecondary = posts.slice(1, 4);
+const recent = posts.slice(4, 9);
+
+const latestHref = featuredLead ? `/blog/${featuredLead.id}/` : '/blog/';
+
+const fmtShort = (d: Date) =>
+  d.toLocaleDateString('en-US', { month: 'short', day: '2-digit' });
+const fmtLong = (d: Date) =>
+  d.toLocaleDateString('en-US', { month: 'long', day: '2-digit', year: 'numeric' });
+
+const catLabel = (c?: string) => (c ? c : 'Dispatch');
+
+const issueLabel = `Issue Nº ${String(total).padStart(3, '0')} — Broadcasting from the edit room`;
 ---
 
-<BaseLayout title={SITE_TITLE} description={SITE_DESCRIPTION}>
-  <section class="container" style="padding: 5rem 1.25rem 3rem;">
-    <h1 class="title" style="max-width: 36ch;">A filmmaker's perspective on AI.</h1>
-    <p class="muted" style="margin-top: 1.25rem; font-size: 1.125rem; max-width: 60ch;">
-      14 years directing commercials. Honest reviews of AI tools, no hype. Written by Ulisses Balbino.
-    </p>
-    <div style="margin-top: 2rem; display: flex; gap: 1rem; flex-wrap: wrap;">
-      <a href="/blog/" style="display: inline-block; padding: 0.75rem 1.5rem; background: var(--fg); color: var(--bg); border-radius: 999px; text-decoration: none; font-weight: 600;">Read the articles</a>
-      <a href="/about/" style="display: inline-block; padding: 0.75rem 1.5rem; border: 1px solid var(--border); border-radius: 999px; text-decoration: none;">About Ulisses</a>
+<BaseLayout
+  title={SITE_TITLE}
+  description={SITE_DESCRIPTION}
+  current="home"
+  latestHref={latestHref}
+>
+  <!-- HERO -->
+  <header class="hero">
+    <div class="container hero__inner">
+      <div class="hero__meta mono">
+        <span style="color:var(--c-accent)">●</span>
+        <span>{issueLabel}</span>
+      </div>
+
+      <h1 class="hero__title" data-reveal="split">
+        <span class="split-line" style="--reveal-delay: 0ms">The camera</span>
+        <span class="split-line" style="--reveal-delay: 80ms">has learned</span>
+        <span class="split-line italic" style="--reveal-delay: 160ms">to dream.</span>
+      </h1>
+
+      <div class="hero__grid">
+        <div class="hero__imgwrap">
+          {featuredLead?.data.heroImage ? (
+            <img
+              class="hero__img parallax-up"
+              src={featuredLead.data.heroImage}
+              alt=""
+              loading="eager"
+            />
+          ) : (
+            <div class="hero__img ph parallax-up" data-label="HERO STILL — latest dispatch"></div>
+          )}
+        </div>
+        <aside class="hero__side" data-reveal style="--reveal-delay: 400ms">
+          <p class="mono" style="margin-bottom:20px">Editor's note</p>
+          <p class="hero__lede">
+            Fourteen years behind the lens have taught me that every new tool
+            eventually rewrites the grammar of the image. This publication is a
+            working log — essays, interviews and field notes on what AI is
+            doing, and undoing, to the craft of cinema.
+          </p>
+          <div style="margin-top:32px;display:flex;gap:14px;flex-wrap:wrap">
+            <a class="btn" href="/blog/">
+              <span>Read dispatches</span>
+              <span class="arr">→</span>
+            </a>
+            <a class="btn" href="/about/" style="border-color:var(--c-rule);color:var(--c-fg-muted)">
+              <span>About the author</span>
+            </a>
+          </div>
+        </aside>
+      </div>
+
+      <div class="hero__foot mono">
+        <span>{total} essays</span>
+        <span>·</span>
+        <span>Updated weekly</span>
+        <span>·</span>
+        <span>Based between São Paulo and Los Angeles</span>
+        <span style="margin-left:auto">Scroll ↓</span>
+      </div>
     </div>
+  </header>
+
+  <Marquee
+    style="margin-top: var(--s-8)"
+    items={[
+      { text: 'The image is a rehearsal' },
+      { dot: true, text: '' },
+      { text: 'Open Your AIs', outline: true },
+      { dot: true, text: '' },
+      { text: 'On cinema, after the model' },
+      { dot: true, text: '' },
+      { text: `Vol. 03 / ${new Date().getFullYear()}`, outline: true },
+    ]}
+  />
+
+  <!-- FEATURED -->
+  {featuredLead && (
+    <section class="container feature" data-reveal>
+      <div class="hline">
+        <span class="mono">§ 01 — Currently in rotation</span>
+        <hr />
+        <span class="mono">Four of {total}</span>
+      </div>
+
+      <div class="feature__grid">
+        <a class="card card--lead" href={`/blog/${featuredLead.id}/`}>
+          <div class="card__img-wrap">
+            {featuredLead.data.heroImage ? (
+              <img class="card__img" src={featuredLead.data.heroImage} alt="" loading="lazy" />
+            ) : (
+              <div class="card__img ph" data-label="LEAD STILL — 4:5"></div>
+            )}
+          </div>
+          <div class="card__body">
+            <div class="mono card__meta">
+              <span style="color:var(--c-accent)">01</span>
+              <span>{catLabel(featuredLead.data.category)}{featuredLead.data.readTime ? ` · ${featuredLead.data.readTime}` : ''}</span>
+              <span>{fmtLong(featuredLead.data.pubDate)}</span>
+            </div>
+            <h2 class="card__title">{featuredLead.data.title}</h2>
+            <p class="card__dek">{featuredLead.data.description}</p>
+            <span class="elink mono" style="color:var(--c-accent)">Read the dispatch →</span>
+          </div>
+        </a>
+
+        {featuredSecondary.map((post, i) => (
+          <a class="card" href={`/blog/${post.id}/`}>
+            {post.data.heroImage ? (
+              <img class="card__img" src={post.data.heroImage} alt="" loading="lazy" />
+            ) : (
+              <div class="card__img ph" data-label={`STILL ${String(i + 2).padStart(2, '0')} — 4:5`}></div>
+            )}
+            <div class="card__body">
+              <div class="mono card__meta">
+                <span>{String(i + 2).padStart(2, '0')}</span>
+                <span>{catLabel(post.data.category)}{post.data.readTime ? ` · ${post.data.readTime}` : ''}</span>
+                <span>{fmtShort(post.data.pubDate)}</span>
+              </div>
+              <h3 class="card__title">{post.data.title}</h3>
+              <p class="card__dek">{post.data.description}</p>
+            </div>
+          </a>
+        ))}
+      </div>
+    </section>
+  )}
+
+  <!-- BIG QUOTE -->
+  <section class="bigquote container" data-reveal>
+    <div class="bigquote__rule"></div>
+    <p class="mono" style="color:var(--c-accent)">§ 02 — From the notebook</p>
+    <blockquote class="bigquote__q">
+      <span class="split-line">"A model can render</span>
+      <span class="split-line">a thousand sunsets.</span>
+      <span class="split-line"><em>Only one of them</em></span>
+      <span class="split-line">was the one we were</span>
+      <span class="split-line">waiting for."</span>
+    </blockquote>
+    <div class="mono bigquote__cite">— Field note, São Paulo</div>
   </section>
 
-  <section class="container">
-    <h2 style="font-size: 0.875rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--muted); margin-bottom: 0;">Latest</h2>
-    <div>
-      {posts.map((post) => (
-        <ArticleCard
-          href={`/blog/${post.id}/`}
-          title={post.data.title}
-          description={post.data.description}
-          pubDate={post.data.pubDate}
-          category={post.data.category}
-          readTime={post.data.readTime}
-        />
-      ))}
-    </div>
-    <div style="padding: 2rem 0; text-align: center;">
-      <a href="/blog/" style="font-weight: 600;">See all articles →</a>
+  <Marquee
+    items={[
+      { text: 'Essays', outline: true },
+      { dot: true, text: '' },
+      { text: 'Interviews' },
+      { dot: true, text: '' },
+      { text: 'Field notes', outline: true },
+      { dot: true, text: '' },
+      { text: 'Reviews' },
+      { dot: true, text: '' },
+      { text: 'Manifestos', outline: true },
+    ]}
+  />
+
+  <!-- RECENT -->
+  {recent.length > 0 && (
+    <section class="container recent" data-reveal>
+      <div class="hline">
+        <span class="mono">§ 03 — The archive, lately</span>
+        <hr />
+        <a href="/blog/" class="elink mono">All {total} →</a>
+      </div>
+
+      <ol class="recent__list">
+        {recent.map((post, i) => {
+          const n = total - 1 - i;
+          return (
+            <li class="rrow">
+              <span class="mono rrow__n">{String(n).padStart(3, '0')}</span>
+              <div class="rrow__body">
+                <h3 class="rrow__title">
+                  <a href={`/blog/${post.id}/`} class="elink-reveal">{post.data.title}</a>
+                </h3>
+                <p class="rrow__dek">{post.data.description}</p>
+              </div>
+              <span class="mono rrow__tag">{catLabel(post.data.category)}</span>
+              <span class="mono rrow__date">{fmtShort(post.data.pubDate)}</span>
+            </li>
+          );
+        })}
+      </ol>
+    </section>
+  )}
+
+  <!-- CTA -->
+  <section class="container subscribe" data-reveal>
+    <div class="subscribe__inner">
+      <p class="mono" style="color:var(--c-fg-muted)">§ 04 — Stay in touch</p>
+      <h2 class="subscribe__title">
+        <span>A slow letter,</span><br/>
+        <span><em>once a fortnight,</em></span><br/>
+        <span>from the edit room.</span>
+      </h2>
+      <p style="margin-top: var(--s-5); color: var(--c-fg-muted); max-width: 40ch; font-family: var(--font-serif); font-size: 20px; line-height: 1.45; font-weight: 300;">
+        Write in, or follow the work directly. No newsletter yet — just the
+        dispatches, as they land.
+      </p>
+      <div style="margin-top: var(--s-6); display: flex; gap: 14px; flex-wrap: wrap;">
+        <a class="btn btn--filled" href="/contact/"><span>Get in touch</span><span class="arr">→</span></a>
+        <a class="btn" href="/blog/"><span>Browse the archive</span></a>
+      </div>
     </div>
   </section>
 </BaseLayout>
+
+<style is:global>
+  .hero {
+    padding-top: calc(var(--s-10) + 60px);
+    padding-bottom: var(--s-9);
+  }
+  .hero__inner { position: relative; }
+  .hero__meta {
+    display: flex; align-items: center; gap: 12px;
+    color: var(--c-fg-muted);
+    margin-bottom: var(--s-7);
+  }
+  .hero__title {
+    font-size: var(--text-monumental);
+    letter-spacing: -0.045em;
+    line-height: 0.88;
+    margin-bottom: var(--s-8);
+    font-weight: 400;
+    font-variation-settings: 'opsz' 144, 'SOFT' 20, 'WONK' 0;
+  }
+  .hero__title .italic { font-style: italic; font-variation-settings: 'opsz' 144, 'SOFT' 100, 'WONK' 1; }
+  .hero__title .split-line { display: block; }
+
+  .hero__grid {
+    display: grid;
+    grid-template-columns: 1.6fr 1fr;
+    gap: var(--s-7);
+    align-items: end;
+  }
+  [data-hero-layout="centered"] .hero__grid {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  [data-hero-layout="fullbleed"] .hero__grid {
+    grid-template-columns: 1fr;
+  }
+  [data-hero-layout="fullbleed"] .hero__imgwrap {
+    margin-inline: calc(var(--gutter) * -1);
+  }
+  [data-hero-layout="fullbleed"] .hero__img { aspect-ratio: 21/9; }
+
+  .hero__imgwrap { overflow: hidden; }
+  .hero__img {
+    aspect-ratio: 16/10;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+    transform-origin: center;
+  }
+  .hero__side { border-left: 1px solid var(--c-rule); padding: 4px 0 8px 24px; }
+  .hero__lede {
+    font-family: var(--font-serif);
+    font-size: 22px;
+    line-height: 1.35;
+    letter-spacing: -0.005em;
+    color: var(--c-fg);
+    font-weight: 300;
+    text-wrap: pretty;
+    max-width: 28ch;
+  }
+  .hero__foot {
+    display: flex; gap: 12px; align-items: center;
+    margin-top: var(--s-7);
+    padding-top: var(--s-5);
+    border-top: 1px solid var(--c-rule);
+    color: var(--c-fg-muted);
+    flex-wrap: wrap;
+  }
+
+  /* ---- Features ---- */
+  .feature { margin-top: var(--s-10); }
+  .feature__grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: var(--s-7) var(--s-5);
+    margin-top: var(--s-7);
+  }
+  .card { display: block; color: inherit; }
+  .card--lead { grid-column: span 6; display: grid; grid-template-columns: 1.1fr 1fr; gap: var(--s-7); align-items: center; }
+  .card--lead .card__img { aspect-ratio: 4/5; }
+  .card:not(.card--lead) { grid-column: span 2; }
+  .card__img {
+    width: 100%;
+    aspect-ratio: 4/5;
+    margin-bottom: var(--s-5);
+    object-fit: cover;
+    display: block;
+    overflow: hidden;
+  }
+  .card__meta { display:flex; gap: 16px; color: var(--c-fg-muted); flex-wrap: wrap; }
+  .card__meta span:first-child { color: var(--c-accent); }
+  .card__title {
+    font-family: var(--font-serif);
+    font-size: clamp(28px, 3vw, 44px);
+    letter-spacing: -0.02em;
+    line-height: 1.02;
+    margin: 14px 0 14px;
+    text-wrap: balance;
+    font-weight: 400;
+  }
+  .card__title em { font-style: italic; font-variation-settings: 'opsz' 144, 'SOFT' 100, 'WONK' 1; }
+  .card--lead .card__title { font-size: clamp(40px, 4.5vw, 72px); line-height: 0.98; }
+  .card__dek {
+    color: var(--c-fg-muted);
+    font-size: 16px;
+    line-height: 1.5;
+    max-width: 38ch;
+    margin-bottom: 16px;
+  }
+  .card:hover .card__img { transform: scale(1.01); transition: transform 900ms var(--ease-editorial); }
+  .card:hover .card__title { color: var(--c-accent); transition: color 350ms var(--ease-editorial); }
+
+  @media (max-width: 900px) {
+    .hero__grid { grid-template-columns: 1fr; }
+    .card--lead { grid-column: span 6; grid-template-columns: 1fr; }
+    .card:not(.card--lead) { grid-column: span 3; }
+  }
+  @media (max-width: 640px) {
+    .card:not(.card--lead) { grid-column: span 6; }
+    .nav__links { display: none; }
+  }
+
+  /* ---- Big quote ---- */
+  .bigquote { margin-top: var(--s-10); padding-block: var(--s-9); position: relative; }
+  .bigquote__rule {
+    position: absolute; top: 0; left: var(--gutter); right: var(--gutter); height: 1px; background: var(--c-rule);
+  }
+  .bigquote__q {
+    font-family: var(--font-serif);
+    font-size: clamp(56px, 8vw, 140px);
+    letter-spacing: -0.035em;
+    line-height: 0.96;
+    margin: var(--s-5) 0;
+    max-width: 18ch;
+    text-wrap: balance;
+    font-weight: 400;
+  }
+  .bigquote__q em { font-style: italic; font-variation-settings: 'opsz' 144, 'SOFT' 100, 'WONK' 1; color: var(--c-accent); }
+  .bigquote__cite { margin-top: var(--s-6); color: var(--c-fg-muted); }
+  .bigquote__q .split-line { display: block; }
+
+  /* ---- Recent list ---- */
+  .recent { margin-top: var(--s-10); }
+  .recent__list { list-style: none; padding: 0; margin: var(--s-7) 0 0 0; }
+  .rrow {
+    display: grid;
+    grid-template-columns: 80px 1fr 120px 80px;
+    gap: var(--s-6);
+    align-items: baseline;
+    padding-block: var(--s-5);
+    border-top: 1px solid var(--c-rule);
+    transition: background 350ms var(--ease-editorial);
+  }
+  .rrow:last-child { border-bottom: 1px solid var(--c-rule); }
+  .rrow__n { color: var(--c-fg-dim); font-size: 11px; }
+  .rrow__title { font-family: var(--font-serif); font-size: clamp(26px, 2.6vw, 40px); letter-spacing: -0.02em; line-height: 1.05; font-weight: 400; margin: 0; }
+  .rrow__dek { color: var(--c-fg-muted); font-size: 15px; margin-top: 6px; max-width: 56ch; }
+  .rrow__tag, .rrow__date { color: var(--c-fg-muted); font-size: 11px; }
+  .rrow:hover { background: color-mix(in oklab, var(--c-fg) 4%, transparent); }
+  .rrow:hover .rrow__title { color: var(--c-accent); }
+  @media (max-width: 720px) {
+    .rrow { grid-template-columns: 1fr; gap: 8px; }
+    .rrow__tag, .rrow__date, .rrow__n { font-size: 10px; }
+  }
+
+  /* ---- Subscribe ---- */
+  .subscribe { margin-top: var(--s-10); }
+  .subscribe__inner {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--s-6);
+    padding: var(--s-9) 0;
+    border-top: 1px solid var(--c-rule);
+    border-bottom: 1px solid var(--c-rule);
+  }
+  .subscribe__title {
+    font-family: var(--font-serif);
+    font-size: clamp(48px, 7vw, 112px);
+    letter-spacing: -0.035em;
+    line-height: 0.95;
+    max-width: 18ch;
+    font-weight: 400;
+  }
+  .subscribe__title em { font-style: italic; color: var(--c-accent); font-variation-settings: 'opsz' 144, 'SOFT' 100, 'WONK' 1; }
+</style>

@@ -1,29 +1,248 @@
 ---
 import { getCollection } from 'astro:content';
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import ArticleCard from '../../components/ArticleCard.astro';
+import Marquee from '../../components/Marquee.astro';
 import { SITE_TITLE } from '../../consts';
 
 const posts = (await getCollection('blog', ({ data }) => !data.noindex))
   .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+
+const total = posts.length;
+const [featured, ...rest] = posts;
+const latestHref = featured ? `/blog/${featured.id}/` : '/blog/';
+
+const fmtShort = (d: Date) =>
+  d.toLocaleDateString('en-US', { month: 'short', day: '2-digit' });
+const fmtLong = (d: Date) =>
+  d.toLocaleDateString('en-US', { month: 'long', day: '2-digit', year: 'numeric' });
+
+type Entry = (typeof posts)[number];
+
+const catLabel = (c?: string) => c || 'Dispatch';
+
+const byYear = rest.reduce<Map<number, Entry[]>>((acc, p) => {
+  const y = p.data.pubDate.getFullYear();
+  if (!acc.has(y)) acc.set(y, []);
+  acc.get(y)!.push(p);
+  return acc;
+}, new Map());
+const years = [...byYear.keys()].sort((a, b) => b - a);
+
+// Post numbering across the whole archive (oldest = 001, newest = NNN)
+const numberById = new Map<string, number>();
+[...posts].reverse().forEach((p, i) => numberById.set(p.id, i + 1));
+
+const totalByCategory = posts.reduce<Record<string, number>>((acc, p) => {
+  const c = p.data.category || 'Dispatch';
+  acc[c] = (acc[c] || 0) + 1;
+  return acc;
+}, {});
+const topCats = Object.entries(totalByCategory)
+  .sort((a, b) => b[1] - a[1])
+  .slice(0, 4);
 ---
 
-<BaseLayout title={`All Articles | ${SITE_TITLE}`} description="Honest reviews and field notes on AI tools from a working filmmaker.">
-  <section class="container" style="padding: 4rem 1.25rem 2rem;">
-    <h1 class="title">All articles</h1>
-    <p class="muted" style="margin-top: 1rem; font-size: 1.125rem;">{posts.length} articles, no filler.</p>
+<BaseLayout
+  title="All dispatches"
+  description={`${total} essays, interviews and field notes on AI and cinema — by Ulisses Balbino.`}
+  current="dispatches"
+  latestHref={latestHref}
+>
+  <section class="container idx-head">
+    <p class="mono" style="color:var(--c-accent)">§ — The archive</p>
+    <h1 class="idx-title" data-reveal="split">
+      <span class="split-line">Dispatches,</span>
+      <span class="split-line" style="--reveal-delay: 80ms"><em>{total} so far.</em></span>
+    </h1>
+    <div class="idx-meta mono" data-reveal style="--reveal-delay: 320ms">
+      <span>{total} total</span>
+      <span>·</span>
+      <span>Since 2025</span>
+      <span>·</span>
+      <span>Updated weekly</span>
+    </div>
   </section>
 
-  <section class="container" style="padding-bottom: 4rem;">
-    {posts.map((post) => (
-      <ArticleCard
-        href={`/blog/${post.id}/`}
-        title={post.data.title}
-        description={post.data.description}
-        pubDate={post.data.pubDate}
-        category={post.data.category}
-        readTime={post.data.readTime}
-      />
+  <section class="container idx-filters" data-reveal>
+    <div class="hline">
+      <span class="mono">Filter</span>
+      <hr />
+      <span class="mono">Newest ↓</span>
+    </div>
+    <div class="filters">
+      <span class="chip is-on">All <span class="chip__n">{total}</span></span>
+      {topCats.map(([cat, n]) => (
+        <span class="chip">{cat} <span class="chip__n">{n}</span></span>
+      ))}
+    </div>
+  </section>
+
+  {featured && (
+    <section class="container idx-featured" data-reveal>
+      <a class="feat" href={`/blog/${featured.id}/`}>
+        <div class="feat__imgwrap">
+          {featured.data.heroImage ? (
+            <img class="feat__img" src={featured.data.heroImage} alt="" loading="lazy" />
+          ) : (
+            <div class="feat__img ph" data-label="FEATURED — 3:2"></div>
+          )}
+        </div>
+        <div class="feat__body">
+          <div class="feat__meta mono">
+            <span style="color:var(--c-accent)">Nº {String(numberById.get(featured.id) || total).padStart(3, '0')}</span>
+            <span>·</span>
+            <span>{catLabel(featured.data.category)}</span>
+            {featured.data.readTime && <><span>·</span><span>{featured.data.readTime}</span></>}
+            <span>·</span>
+            <span>{fmtLong(featured.data.pubDate)}</span>
+          </div>
+          <h2 class="feat__title">{featured.data.title}</h2>
+          <p class="feat__dek">{featured.data.description}</p>
+          <span class="elink mono" style="color:var(--c-accent)">Read →</span>
+        </div>
+      </a>
+    </section>
+  )}
+
+  <Marquee
+    style="margin-top: var(--s-9)"
+    items={[
+      { text: `${total} dispatches`, outline: true },
+      { dot: true, text: '' },
+      { text: 'On cinema and AI' },
+      { dot: true, text: '' },
+      { text: 'No hype', outline: true },
+      { dot: true, text: '' },
+      { text: 'Field notes from a working director' },
+    ]}
+  />
+
+  <section class="container idx-list">
+    {years.map((year) => (
+      <div class="idx-year">
+        <div class="idx-year__label">
+          <span class="idx-year__num">{year}</span>
+          <span class="mono">{byYear.get(year)!.length} {byYear.get(year)!.length === 1 ? 'dispatch' : 'dispatches'}</span>
+        </div>
+        <ol class="idx-rows">
+          {byYear.get(year)!.map((post) => {
+            const n = numberById.get(post.id) || 0;
+            return (
+              <li>
+                <a class="arow" href={`/blog/${post.id}/`}>
+                  <span class="mono arow__n">{String(n).padStart(3, '0')}</span>
+                  <div class="arow__body">
+                    <h3 class="arow__title">{post.data.title}</h3>
+                    <p class="arow__dek">{post.data.description}</p>
+                  </div>
+                  <span class="mono arow__tag">{catLabel(post.data.category)}</span>
+                  <span class="mono arow__time">{post.data.readTime || ''}</span>
+                  <span class="mono arow__date">{fmtShort(post.data.pubDate)}</span>
+                </a>
+              </li>
+            );
+          })}
+        </ol>
+      </div>
     ))}
   </section>
 </BaseLayout>
+
+<style is:global>
+  .idx-head { padding-top: calc(var(--s-10) + 60px); }
+  .idx-title {
+    font-family: var(--font-serif);
+    font-size: var(--text-monumental);
+    letter-spacing: -0.045em;
+    line-height: 0.88;
+    margin-top: var(--s-6);
+    font-weight: 400;
+    max-width: 14ch;
+  }
+  .idx-title em { font-style: italic; color: var(--c-accent); font-variation-settings: 'opsz' 144, 'SOFT' 100, 'WONK' 1; }
+  .idx-title .split-line { display: block; }
+  .idx-meta { display: flex; gap: 12px; margin-top: var(--s-6); color: var(--c-fg-muted); flex-wrap: wrap; }
+  .idx-filters { margin-top: var(--s-9); }
+  .filters { display: flex; gap: 10px; flex-wrap: wrap; margin-top: var(--s-4); }
+  .chip {
+    background: transparent;
+    border: 1px solid var(--c-rule);
+    color: var(--c-fg);
+    padding: 10px 18px;
+    border-radius: 999px;
+    font-family: var(--font-mono);
+    font-size: 11px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    display: inline-flex; gap: 10px; align-items: center;
+  }
+  .chip.is-on { background: var(--c-fg); color: var(--c-bg); border-color: var(--c-fg); }
+  .chip__n { color: var(--c-fg-dim); }
+  .chip.is-on .chip__n { color: var(--c-bg); opacity: 0.55; }
+
+  .idx-featured { margin-top: var(--s-9); }
+  .feat { display: grid; grid-template-columns: 1.3fr 1fr; gap: var(--s-7); align-items: center; color: inherit; }
+  .feat__img { aspect-ratio: 3/2; width: 100%; object-fit: cover; display: block; }
+  .feat__meta { display: flex; gap: 10px; color: var(--c-fg-muted); flex-wrap: wrap; align-items: center; }
+  .feat__title {
+    font-family: var(--font-serif);
+    font-size: clamp(48px, 6vw, 96px);
+    letter-spacing: -0.03em;
+    line-height: 0.98;
+    margin: 18px 0;
+    font-weight: 400;
+    text-wrap: balance;
+  }
+  .feat__title em { font-style: italic; color: var(--c-accent); font-variation-settings: 'opsz' 144, 'SOFT' 100, 'WONK' 1; }
+  .feat__dek { color: var(--c-fg-muted); font-size: 18px; line-height: 1.5; max-width: 40ch; margin-bottom: 20px; }
+  .feat:hover .feat__title { color: var(--c-accent); transition: color 350ms var(--ease-editorial); }
+  @media (max-width: 820px) { .feat { grid-template-columns: 1fr; } }
+
+  .idx-list { margin-top: var(--s-9); }
+  .idx-year { display: grid; grid-template-columns: 200px 1fr; gap: var(--s-7); padding-top: var(--s-7); border-top: 1px solid var(--c-rule); margin-top: var(--s-7); }
+  .idx-year:first-child { border-top: 0; padding-top: 0; margin-top: 0; }
+  .idx-year__label { position: sticky; top: 110px; align-self: start; }
+  .idx-year__num {
+    font-family: var(--font-serif);
+    font-size: clamp(48px, 6vw, 96px);
+    letter-spacing: -0.03em;
+    line-height: 0.9;
+    display: block;
+    color: var(--c-fg);
+    font-weight: 400;
+  }
+  .idx-year__label .mono { color: var(--c-fg-muted); margin-top: 10px; display: block; }
+  .idx-rows { list-style: none; padding: 0; margin: 0; }
+
+  .arow {
+    display: grid;
+    grid-template-columns: 60px minmax(0, 1fr) 110px 80px 80px;
+    gap: var(--s-5);
+    align-items: baseline;
+    padding-block: var(--s-5);
+    border-top: 1px solid var(--c-rule);
+    color: inherit;
+    transition: background 280ms var(--ease-editorial), padding 280ms var(--ease-editorial);
+  }
+  .idx-rows li:first-child .arow { border-top: 0; }
+  .arow:hover { background: color-mix(in oklab, var(--c-fg) 4%, transparent); padding-left: 12px; padding-right: 12px; }
+  .arow:hover .arow__title { color: var(--c-accent); }
+  .idx-rows li:last-child .arow { border-bottom: 1px solid var(--c-rule); }
+  .arow__n { color: var(--c-fg-dim); font-size: 11px; }
+  .arow__title {
+    font-family: var(--font-serif);
+    font-size: clamp(22px, 2.2vw, 34px);
+    letter-spacing: -0.015em;
+    line-height: 1.05;
+    font-weight: 400;
+    margin: 0;
+  }
+  .arow__dek { color: var(--c-fg-muted); font-size: 14px; margin-top: 6px; max-width: 64ch; }
+  .arow__tag, .arow__time, .arow__date { color: var(--c-fg-muted); font-size: 11px; }
+  @media (max-width: 820px) {
+    .idx-year { grid-template-columns: 1fr; }
+    .idx-year__label { position: static; }
+    .arow { grid-template-columns: 1fr; gap: 4px; }
+    .arow__tag, .arow__time, .arow__date { font-size: 10px; }
+  }
+</style>

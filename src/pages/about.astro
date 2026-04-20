@@ -1,45 +1,287 @@
 ---
+import { getCollection } from 'astro:content';
 import BaseLayout from '../layouts/BaseLayout.astro';
+import Marquee from '../components/Marquee.astro';
+
+const posts = (await getCollection('blog', ({ data }) => !data.noindex))
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+
+const total = posts.length;
+const latestHref = posts[0] ? `/blog/${posts[0].id}/` : '/blog/';
+const years = new Set(posts.map((p) => p.data.pubDate.getFullYear())).size;
+
+const selectedWorks = posts.slice(0, 6);
+const fmtLong = (d: Date) =>
+  d.toLocaleDateString('en-US', { month: 'short', day: '2-digit', year: 'numeric' });
 ---
 
 <BaseLayout
   title="About"
-  description="Ulisses Balbino — filmmaker, director, founder of Pichorra Filmes. Writing about AI from inside the production chain."
+  description="Ulisses Balbino — film director, co-founder of Pichorra Filmes. Writing about AI from inside the production chain."
+  current="about"
+  latestHref={latestHref}
 >
-  <section class="container" style="padding: 5rem 1.25rem 3rem;">
-    <h1 class="title">About</h1>
+  <header class="container ab-head">
+    <p class="mono" style="color:var(--c-accent)">§ — About</p>
+    <h1 class="ab-title" data-reveal="split">
+      <span class="split-line">Fourteen years</span>
+      <span class="split-line" style="--reveal-delay: 80ms">behind the</span>
+      <span class="split-line" style="--reveal-delay: 160ms"><em>lens.</em></span>
+    </h1>
+  </header>
+
+  <section class="container ab-split" data-reveal>
+    <div class="ab-split__img ph" data-label="PORTRAIT — Ulisses, on location"></div>
+    <div class="ab-split__body">
+      <p class="mono" style="color:var(--c-fg-muted)">Biography</p>
+      <p class="ab-bio">
+        I'm <strong>Ulisses Balbino</strong>. I've been directing commercial work
+        since 2012 and co-founded <em>Pichorra Filmes</em> in São Paulo with
+        Lisandra Barros. Composer, actor, editor, writer, director — every seat
+        on a set, at some point.
+      </p>
+      <p class="ab-bio">
+        <em>Open Your AIs</em> is where I write about AI from inside the
+        production chain. No hype, no fear-mongering, no "everything is about
+        to change." Just what I actually test, what actually works, and what
+        actually breaks.
+      </p>
+
+      <div class="ab-stats">
+        <div><span class="ab-stat__num">14</span><span class="ab-stat__lbl mono">Years directing</span></div>
+        <div><span class="ab-stat__num">{total}</span><span class="ab-stat__lbl mono">Dispatches</span></div>
+        <div><span class="ab-stat__num">{years}</span><span class="ab-stat__lbl mono">{years === 1 ? 'Year writing' : 'Years writing'}</span></div>
+        <div><span class="ab-stat__num">∞</span><span class="ab-stat__lbl mono">Takes rendered</span></div>
+      </div>
+    </div>
   </section>
 
-  <section class="prose">
-    <p>
-      I'm Ulisses Balbino. I've been directing commercial work since 2012 and
-      co-founded Pichorra Filmes in São Paulo with Lisandra Barros. Over the last
-      14 years I've worked on projects across Disney, Starbucks, Yamaha, Carrefour,
-      Benefit, Nestlé, and others — composer, actor, editor, writer, director.
-      Every seat on a set, at some point.
-    </p>
-    <p>
-      <strong>Open Your AIs</strong> is where I write about AI from inside the
-      production chain. No hype, no fear-mongering, no "everything is about to change."
-      Just what I actually test, what actually works, and what actually breaks.
-    </p>
-    <p>
-      If you want the short version of my stance: AI is a tool. It's cheap, fast,
-      and genuinely useful for the mechanical parts of creative work. It's still
-      terrible at taste, and taste is the only thing that ever mattered.
-    </p>
-    <h2>Why this site exists</h2>
-    <p>
-      Every AI launch is followed by weeks of press releases pretending the tool
-      is magic and weeks of think-pieces pretending it's the apocalypse. Neither
-      version helps a working creator decide what to actually use on Monday. This
-      site is my attempt at the third version — a director's field notes.
-    </p>
-    <h2>Contact</h2>
-    <p>
-      Write to me via the <a href="/contact/">contact page</a>, or find me on
-      <a href="https://www.linkedin.com/in/ulissesbalbino/" target="_blank" rel="noopener">LinkedIn</a>
-      and <a href="https://www.instagram.com/ulissesbalbino/" target="_blank" rel="noopener">Instagram</a>.
-    </p>
+  <Marquee style="margin-top: var(--s-10)" />
+
+  <section class="container ab-mani" data-reveal>
+    <div class="hline">
+      <span class="mono">§ — A short manifesto</span>
+      <hr />
+      <span class="mono">Five points</span>
+    </div>
+    <ul class="ab-mani__list">
+      <li>
+        <span class="mono">01</span>
+        <p>AI is a tool. Cheap, fast, and genuinely useful for the <strong>mechanical parts</strong> of creative work — still terrible at taste. <em>Taste is the only thing that ever mattered.</em></p>
+      </li>
+      <li>
+        <span class="mono">02</span>
+        <p>Every AI launch is followed by weeks of press releases pretending it's magic, and weeks of think-pieces pretending it's the apocalypse. <strong>Neither version helps a working creator</strong> decide what to use on Monday.</p>
+      </li>
+      <li>
+        <span class="mono">03</span>
+        <p>The cost of a decision is what you're really paying for. When the shot can be regenerated forever, <em>the one you chose</em> is the one that matters.</p>
+      </li>
+      <li>
+        <span class="mono">04</span>
+        <p>A model can render a thousand sunsets. <strong>Only one of them</strong> was the one we were waiting for.</p>
+      </li>
+      <li>
+        <span class="mono">05</span>
+        <p>These dispatches are <em>field notes</em>, not prophecies. Written between shoots, on trains, on the edge of a render.</p>
+      </li>
+    </ul>
+  </section>
+
+  {selectedWorks.length > 0 && (
+    <section class="container ab-work" data-reveal>
+      <div class="hline">
+        <span class="mono">§ — Selected writing</span>
+        <hr />
+        <a class="elink mono" href="/blog/">All {total} →</a>
+      </div>
+      <ul class="ab-work__list">
+        {selectedWorks.map((post) => (
+          <li>
+            <span class="mono">{fmtLong(post.data.pubDate)}</span>
+            <a href={`/blog/${post.id}/`} style="color:inherit">
+              <h3>{post.data.title}</h3>
+            </a>
+            <span class="mono">{post.data.category || 'Dispatch'}{post.data.readTime ? ` · ${post.data.readTime}` : ''}</span>
+          </li>
+        ))}
+      </ul>
+    </section>
+  )}
+
+  <section class="container ab-colo">
+    <div class="hline">
+      <span class="mono">§ — Colophon</span>
+      <hr />
+      <span class="mono">Built with care</span>
+    </div>
+    <div class="ab-colo__grid">
+      <div>
+        <p class="mono" style="color:var(--c-fg-muted)">Typography</p>
+        <p class="ab-colo__line">Fraunces <span class="mono">display / serif</span></p>
+        <p class="ab-colo__line">IBM Plex Sans <span class="mono">body</span></p>
+        <p class="ab-colo__line">IBM Plex Mono <span class="mono">captions</span></p>
+      </div>
+      <div>
+        <p class="mono" style="color:var(--c-fg-muted)">Built with</p>
+        <p class="ab-colo__line">Astro <span class="mono">static site</span></p>
+        <p class="ab-colo__line">Vercel <span class="mono">deploy</span></p>
+        <p class="ab-colo__line">Hand-set <span class="mono">every dispatch</span></p>
+      </div>
+      <div>
+        <p class="mono" style="color:var(--c-fg-muted)">Privacy</p>
+        <p class="ab-colo__line">Google Analytics <span class="mono">anonymous</span></p>
+        <p class="ab-colo__line">AdSense <span class="mono">one slot per post</span></p>
+        <p class="ab-colo__line">No tracking <span class="mono">beyond that</span></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="container ab-cta">
+    <div class="ab-cta__inner">
+      <h2 class="ab-cta__title">
+        <span>Write in.</span>
+        <span><em>I read everything.</em></span>
+      </h2>
+      <a class="btn btn--filled" href="/contact/"><span>Contact</span><span class="arr">→</span></a>
+    </div>
   </section>
 </BaseLayout>
+
+<style is:global>
+  .ab-head { padding-top: calc(var(--s-10) + 60px); }
+  .ab-title {
+    font-family: var(--font-serif);
+    font-size: var(--text-monumental);
+    letter-spacing: -0.045em;
+    line-height: 0.88;
+    margin-top: var(--s-6);
+    font-weight: 400;
+    max-width: 12ch;
+  }
+  .ab-title em { font-style: italic; color: var(--c-accent); font-variation-settings: 'opsz' 144, 'SOFT' 100, 'WONK' 1; }
+  .ab-title .split-line { display: block; }
+
+  .ab-split {
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+    gap: var(--s-8);
+    margin-top: var(--s-9);
+    align-items: start;
+  }
+  .ab-split__img { aspect-ratio: 4/5; width: 100%; }
+  .ab-split__body { padding-top: var(--s-4); }
+  .ab-bio {
+    font-family: var(--font-serif);
+    font-size: clamp(22px, 2vw, 30px);
+    line-height: 1.4;
+    color: var(--c-fg);
+    font-weight: 300;
+    max-width: 36ch;
+    letter-spacing: -0.005em;
+    margin-top: 20px;
+  }
+  .ab-bio strong { font-weight: 500; color: var(--c-accent); }
+  .ab-bio em { font-style: italic; font-variation-settings: 'opsz' 144, 'SOFT' 100, 'WONK' 1; }
+
+  .ab-stats {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: var(--s-5);
+    margin-top: var(--s-7);
+    padding-top: var(--s-6);
+    border-top: 1px solid var(--c-rule);
+  }
+  .ab-stat__num {
+    display: block;
+    font-family: var(--font-serif);
+    font-size: clamp(48px, 5vw, 80px);
+    letter-spacing: -0.03em;
+    line-height: 1;
+    font-weight: 400;
+  }
+  .ab-stat__lbl { display: block; color: var(--c-fg-muted); margin-top: 8px; }
+
+  .ab-mani { margin-top: var(--s-9); }
+  .ab-mani__list { list-style: none; padding: 0; margin: var(--s-5) 0 0; }
+  .ab-mani__list li {
+    display: grid;
+    grid-template-columns: 80px 1fr;
+    gap: var(--s-6);
+    padding-block: var(--s-6);
+    border-top: 1px solid var(--c-rule);
+    align-items: baseline;
+  }
+  .ab-mani__list li:last-child { border-bottom: 1px solid var(--c-rule); }
+  .ab-mani__list .mono { color: var(--c-fg-dim); }
+  .ab-mani__list p {
+    font-family: var(--font-serif);
+    font-size: clamp(22px, 2.4vw, 34px);
+    line-height: 1.3;
+    font-weight: 300;
+    letter-spacing: -0.005em;
+    max-width: 44ch;
+  }
+  .ab-mani__list p strong { font-weight: 500; color: var(--c-accent); }
+  .ab-mani__list p em { font-style: italic; font-variation-settings: 'opsz' 144, 'SOFT' 100, 'WONK' 1; }
+
+  .ab-work { margin-top: var(--s-9); }
+  .ab-work__list { list-style: none; padding: 0; margin: var(--s-5) 0 0; }
+  .ab-work__list li {
+    display: grid;
+    grid-template-columns: 140px 1fr 220px;
+    gap: var(--s-5);
+    align-items: baseline;
+    padding-block: var(--s-5);
+    border-top: 1px solid var(--c-rule);
+  }
+  .ab-work__list li:last-child { border-bottom: 1px solid var(--c-rule); }
+  .ab-work__list h3 {
+    font-family: var(--font-serif);
+    font-size: clamp(22px, 2.4vw, 36px);
+    letter-spacing: -0.02em;
+    font-weight: 400;
+    line-height: 1.1;
+    margin: 0;
+  }
+  .ab-work__list h3 em { font-style: italic; font-variation-settings: 'opsz' 144, 'SOFT' 100, 'WONK' 1; }
+  .ab-work__list .mono { color: var(--c-fg-muted); }
+  .ab-work__list a:hover h3 { color: var(--c-accent); transition: color 300ms var(--ease-editorial); }
+
+  .ab-colo { margin-top: var(--s-9); }
+  .ab-colo__grid {
+    display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--s-7);
+    margin-top: var(--s-5);
+    padding-top: var(--s-6);
+    border-top: 1px solid var(--c-rule);
+  }
+  .ab-colo__line { font-family: var(--font-serif); font-size: 22px; line-height: 1.3; margin-top: 8px; font-weight: 400; }
+  .ab-colo__line .mono { color: var(--c-fg-muted); margin-left: 6px; font-size: 10px; }
+
+  .ab-cta { margin-top: var(--s-10); }
+  .ab-cta__inner {
+    display: flex; align-items: center; justify-content: space-between; gap: var(--s-7);
+    padding-block: var(--s-9);
+    border-top: 1px solid var(--c-rule);
+    border-bottom: 1px solid var(--c-rule);
+    flex-wrap: wrap;
+  }
+  .ab-cta__title {
+    font-family: var(--font-serif);
+    font-size: clamp(40px, 5vw, 72px);
+    letter-spacing: -0.025em;
+    line-height: 1;
+    font-weight: 400;
+  }
+  .ab-cta__title em { font-style: italic; color: var(--c-accent); font-variation-settings: 'opsz' 144, 'SOFT' 100, 'WONK' 1; }
+  .ab-cta__title span { display: block; }
+
+  @media (max-width: 900px) {
+    .ab-split { grid-template-columns: 1fr; }
+    .ab-stats { grid-template-columns: repeat(2, 1fr); }
+    .ab-colo__grid { grid-template-columns: 1fr; }
+    .ab-work__list li { grid-template-columns: 100px 1fr; }
+    .ab-work__list li span:last-child { grid-column: 2; }
+    .ab-mani__list li { grid-template-columns: 1fr; gap: 8px; }
+  }
+</style>

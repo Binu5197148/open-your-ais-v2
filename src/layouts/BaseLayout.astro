@@ -1,6 +1,6 @@
 ---
 import BaseHead from '../components/BaseHead.astro';
-import Header from '../components/Header.astro';
+import Nav from '../components/Nav.astro';
 import Footer from '../components/Footer.astro';
 
 interface Props {
@@ -10,12 +10,25 @@ interface Props {
   article?: boolean;
   pubDate?: Date;
   noindex?: boolean;
+  current?: 'home' | 'dispatches' | 'latest' | 'about' | 'contact';
+  latestHref?: string;
+  showFooter?: boolean;
 }
-const { title, description, image, article, pubDate, noindex } = Astro.props;
+const {
+  title,
+  description,
+  image,
+  article,
+  pubDate,
+  noindex,
+  current,
+  latestHref,
+  showFooter = true,
+} = Astro.props;
 ---
 
 <!doctype html>
-<html lang="en">
+<html lang="en" data-theme="dark">
   <head>
     <BaseHead
       title={title}
@@ -27,10 +40,11 @@ const { title, description, image, article, pubDate, noindex } = Astro.props;
     />
   </head>
   <body>
-    <Header />
-    <main>
-      <slot />
-    </main>
-    <Footer />
+    <Nav current={current} latestHref={latestHref} />
+    <slot />
+    {showFooter && <Footer />}
+
+    <script src="/shared/tweaks.js" is:inline></script>
+    <script src="/shared/motion.js" is:inline></script>
   </body>
 </html>

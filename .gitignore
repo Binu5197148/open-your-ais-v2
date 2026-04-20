@@ -26,3 +26,5 @@ pnpm-debug.log*
 
 # tooling state
 .claude-flow/
+.vercel
+.design-handoff/
