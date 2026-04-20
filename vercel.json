@@ -3,18 +3,18 @@
   "cleanUrls": true,
   "trailingSlash": true,
   "redirects": [
-    { "source": "/blog/art-047", "destination": "/blog/", "permanent": true },
-    { "source": "/blog/art-108", "destination": "/blog/", "permanent": true },
-    { "source": "/blog/art-109", "destination": "/blog/", "permanent": true },
-    { "source": "/blog/art-112", "destination": "/blog/", "permanent": true },
-    { "source": "/blog/art-113", "destination": "/blog/ai-film-production-cost-jobs-creative-integrity/", "permanent": true },
-    { "source": "/blog/art-114", "destination": "/blog/", "permanent": true },
-    { "source": "/blog/art-115", "destination": "/blog/", "permanent": true },
-    { "source": "/blog/art-116", "destination": "/blog/", "permanent": true },
-    { "source": "/blog/art-117", "destination": "/blog/", "permanent": true },
-    { "source": "/blog/art-118", "destination": "/blog/", "permanent": true },
-    { "source": "/articles/:slug*", "destination": "/blog/:slug*", "permanent": true },
-    { "source": "/article/:slug*", "destination": "/blog/:slug*", "permanent": true },
-    { "source": "/posts/:slug*", "destination": "/blog/:slug*", "permanent": true }
+    { "source": "/blog/art-047/", "destination": "/blog/", "permanent": true },
+    { "source": "/blog/art-108/", "destination": "/blog/", "permanent": true },
+    { "source": "/blog/art-109/", "destination": "/blog/", "permanent": true },
+    { "source": "/blog/art-112/", "destination": "/blog/", "permanent": true },
+    { "source": "/blog/art-113/", "destination": "/blog/ai-film-production-cost-jobs-creative-integrity/", "permanent": true },
+    { "source": "/blog/art-114/", "destination": "/blog/", "permanent": true },
+    { "source": "/blog/art-115/", "destination": "/blog/", "permanent": true },
+    { "source": "/blog/art-116/", "destination": "/blog/", "permanent": true },
+    { "source": "/blog/art-117/", "destination": "/blog/", "permanent": true },
+    { "source": "/blog/art-118/", "destination": "/blog/", "permanent": true },
+    { "source": "/articles/:slug*/", "destination": "/blog/:slug*/", "permanent": true },
+    { "source": "/article/:slug*/", "destination": "/blog/:slug*/", "permanent": true },
+    { "source": "/posts/:slug*/", "destination": "/blog/:slug*/", "permanent": true }
   ]
 }
