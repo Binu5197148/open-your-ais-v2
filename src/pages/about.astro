@@ -31,7 +31,7 @@ const fmtLong = (d: Date) =>
   </header>
 
   <section class="container ab-split" data-reveal>
-    <div class="ab-split__img ph" data-label="PORTRAIT — Ulisses, on location"></div>
+    <img class="ab-split__img" src="/images/ulisses.jpg" alt="Ulisses Balbino — portrait" loading="eager" />
     <div class="ab-split__body">
       <p class="mono" style="color:var(--c-fg-muted)">Biography</p>
       <p class="ab-bio">
@@ -169,7 +169,12 @@ const fmtLong = (d: Date) =>
     margin-top: var(--s-9);
     align-items: start;
   }
-  .ab-split__img { aspect-ratio: 4/5; width: 100%; }
+  .ab-split__img {
+    aspect-ratio: 4/5; width: 100%;
+    object-fit: cover; object-position: center top;
+    filter: grayscale(1) contrast(1.02);
+    display: block;
+  }
   .ab-split__body { padding-top: var(--s-4); }
   .ab-bio {
     font-family: var(--font-serif);

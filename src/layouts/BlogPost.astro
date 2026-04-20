@@ -79,7 +79,7 @@ const latestHref = all[0] ? `/blog/${all[0].id}/` : '/blog/';
 
       <div class="post-head__byline">
         <div class="byline">
-          <div class="byline__avatar ph" data-label="UB"></div>
+          <img class="byline__avatar" src="/images/ulisses.jpg" alt="Ulisses Balbino" loading="lazy" />
           <div>
             <p class="mono" style="color:var(--c-fg-muted)">Written by</p>
             <p class="byline__name">{author}</p>
@@ -113,7 +113,7 @@ const latestHref = all[0] ? `/blog/${all[0].id}/` : '/blog/';
 
   <section class="container post-author">
     <div class="post-author__inner">
-      <div class="post-author__avatar ph" data-label="UB"></div>
+      <img class="post-author__avatar" src="/images/ulisses.jpg" alt="Ulisses Balbino" loading="lazy" />
       <div>
         <p class="mono" style="color:var(--c-fg-muted)">About the author</p>
         <h2 class="post-author__name">{author}</h2>
@@ -195,6 +195,8 @@ const latestHref = all[0] ? `/blog/${all[0].id}/` : '/blog/';
   .byline { display: flex; gap: 18px; align-items: center; }
   .byline__avatar {
     width: 72px; height: 72px; border-radius: 999px; flex-shrink: 0;
+    object-fit: cover; object-position: center top;
+    filter: grayscale(1) contrast(1.05);
   }
   .byline__name { font-family: var(--font-serif); font-size: 22px; letter-spacing: -0.01em; margin-top: 4px; font-weight: 400; }
   .post-head__dek {
@@ -250,7 +252,11 @@ const latestHref = all[0] ? `/blog/${all[0].id}/` : '/blog/';
     gap: var(--s-7);
     align-items: start;
   }
-  .post-author__avatar { width: 160px; height: 160px; aspect-ratio: 1; }
+  .post-author__avatar {
+    width: 160px; height: 160px; aspect-ratio: 1;
+    object-fit: cover; object-position: center top;
+    filter: grayscale(1) contrast(1.05);
+  }
   .post-author__name {
     font-family: var(--font-serif);
     font-size: clamp(36px, 4vw, 56px);
