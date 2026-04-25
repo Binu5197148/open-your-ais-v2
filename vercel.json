@@ -23,8 +23,8 @@
     { "source": "/blog/iqiyi-ai-actor-library-future-filmmaking-soul-or-script/", "destination": "/blog/ai-kilmer-resurrection-ethical-line-filmmaker-perspective/", "permanent": true },
     { "source": "/blog/val-kilmers-digital-ghost-redefining-human-artistry/", "destination": "/blog/val-kilmer-ai-resurrection-filmmaking-ethics-soul/", "permanent": true },
 
-    { "source": "/articles/:slug*", "destination": "/blog/:slug*/", "permanent": true },
-    { "source": "/article/:slug*", "destination": "/blog/:slug*/", "permanent": true },
-    { "source": "/posts/:slug*", "destination": "/blog/:slug*/", "permanent": true }
+    { "source": "/articles/:slug*/", "destination": "/blog/:slug*/", "permanent": true },
+    { "source": "/article/:slug*/", "destination": "/blog/:slug*/", "permanent": true },
+    { "source": "/posts/:slug*/", "destination": "/blog/:slug*/", "permanent": true }
   ]
 }
