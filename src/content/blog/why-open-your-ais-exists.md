@@ -10,6 +10,7 @@ tags:
   - "Art vs Product"
   - "Walter Benjamin"
   - "Cinema"
+heroImage: "https://images.unsplash.com/photo-1648220644277-4f319a96bd66?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHwxfHxjaW5lbWElMjBtYXJxdWVlJTIwYmxhY2slMjB3aGl0ZXxlbnwwfDB8fHwxNzc3MTI0MTM0fDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85"
 author: "Ulisses Balbino"
 readTime: "5 min read"
 featured: true
