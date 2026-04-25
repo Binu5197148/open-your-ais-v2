@@ -29,6 +29,7 @@
     { "source": "/blog/midjourney-v7-release-2026-review/", "destination": "/blog/midjourney-v7-honest-review-personalization-draft-mode-video/", "permanent": true },
     { "source": "/blog/kling-3-native-4k-motion-control-production-assessment/", "destination": "/blog/kling-3-0-motion-control-multi-shot-director-review/", "permanent": true },
     { "source": "/blog/adobe-premiere-2026-ai-features-what-actually-changed/", "destination": "/blog/adobe-premiere-26-ai-object-mask-what-editors-actually-get/", "permanent": true },
+    { "source": "/blog/local-llms-complete-guide-2026/", "destination": "/blog/comfyui-app-mode-comfyhub-local-ai-without-node-graph/", "permanent": true },
 
     { "source": "/articles/:slug*/", "destination": "/blog/:slug*/", "permanent": true },
     { "source": "/article/:slug*/", "destination": "/blog/:slug*/", "permanent": true },
