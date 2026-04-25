@@ -75,6 +75,9 @@
     { "source": "/blog/week-ai-mainstream-elevenlabs-meta-voice-revolution/", "destination": "/blog/elevenlabs-eleven-v3-dubbing-localization-what-producers-need/", "permanent": true },
     { "source": "/blog/weight-loss/", "destination": "/blog/", "permanent": true },
     { "source": "/blog/youtube-monetizacao-estrategias-ganhar-dinheiro-2025/", "destination": "/blog/", "permanent": true },
+    { "source": "/blog/blockchain-criptomoedas-guia-completo-iniciantes/", "destination": "/blog/", "permanent": true },
+    { "source": "/blog/defi-finanas-descentralizadas-guia-iniciantes/", "destination": "/blog/", "permanent": true },
+    { "source": "/blog/jasper-ai-marketing-conteudo-automatizado/", "destination": "/blog/", "permanent": true },
 
     { "source": "/articles/:slug*/", "destination": "/blog/:slug*/", "permanent": true },
     { "source": "/article/:slug*/", "destination": "/blog/:slug*/", "permanent": true },
