@@ -20,8 +20,15 @@
     { "source": "/article/hollywood-no-ai-festival-filmmaker-inside-take/", "destination": "/blog/ai-jobs-hollywood-affleck-filmmaker-value-shift/", "permanent": true },
     { "source": "/blog/claude-4-opus-the-reasoning-revolution/", "destination": "/blog/claude-4-what-changed-filmmaker-perspective/", "permanent": true },
     { "source": "/blog/adsense-approval-masterclass-2025/", "destination": "/blog/", "permanent": true },
-    { "source": "/blog/iqiyi-ai-actor-library-future-filmmaking-soul-or-script/", "destination": "/blog/ai-kilmer-resurrection-ethical-line-filmmaker-perspective/", "permanent": true },
+    { "source": "/blog/iqiyi-ai-actor-library-future-filmmaking-soul-or-script/", "destination": "/blog/val-kilmer-ai-resurrection-filmmaking-ethics-soul/", "permanent": true },
     { "source": "/blog/val-kilmers-digital-ghost-redefining-human-artistry/", "destination": "/blog/val-kilmer-ai-resurrection-filmmaking-ethics-soul/", "permanent": true },
+
+    { "source": "/blog/ai-kilmer-resurrection-ethical-line-filmmaker-perspective/", "destination": "/blog/val-kilmer-ai-resurrection-filmmaking-ethics-soul/", "permanent": true },
+    { "source": "/blog/ai-val-kilmer-digital-resurrection-ethics-filmmaking/", "destination": "/blog/val-kilmer-ai-resurrection-filmmaking-ethics-soul/", "permanent": true },
+    { "source": "/blog/val-kilmer-ai-film-not-threat-new-horizon/", "destination": "/blog/val-kilmer-ai-resurrection-filmmaking-ethics-soul/", "permanent": true },
+    { "source": "/blog/midjourney-v7-release-2026-review/", "destination": "/blog/midjourney-v7-honest-review-personalization-draft-mode-video/", "permanent": true },
+    { "source": "/blog/kling-3-native-4k-motion-control-production-assessment/", "destination": "/blog/kling-3-0-motion-control-multi-shot-director-review/", "permanent": true },
+    { "source": "/blog/adobe-premiere-2026-ai-features-what-actually-changed/", "destination": "/blog/adobe-premiere-26-ai-object-mask-what-editors-actually-get/", "permanent": true },
 
     { "source": "/articles/:slug*/", "destination": "/blog/:slug*/", "permanent": true },
     { "source": "/article/:slug*/", "destination": "/blog/:slug*/", "permanent": true },
