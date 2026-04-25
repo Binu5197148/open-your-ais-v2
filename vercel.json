@@ -31,6 +31,12 @@
     { "source": "/blog/adobe-premiere-2026-ai-features-what-actually-changed/", "destination": "/blog/adobe-premiere-26-ai-object-mask-what-editors-actually-get/", "permanent": true },
     { "source": "/blog/local-llms-complete-guide-2026/", "destination": "/blog/comfyui-app-mode-comfyhub-local-ai-without-node-graph/", "permanent": true },
 
+    { "source": "/blog/polsia-autonomous-ai-company-builder-review/", "destination": "/blog/", "permanent": true },
+    { "source": "/blog/viral-video-playbook-60-seconds-ai-2026/", "destination": "/blog/", "permanent": true },
+    { "source": "/blog/solo-creator-ai-productivity-stack-2026/", "destination": "/blog/", "permanent": true },
+    { "source": "/blog/freelance-agentics-ai-replacing-teams-2026/", "destination": "/blog/", "permanent": true },
+    { "source": "/blog/built-with-ai-website-builder-2026/", "destination": "/blog/", "permanent": true },
+
     { "source": "/blog/2026-year-ai-agents-become-colleagues/", "destination": "/blog/", "permanent": true },
     { "source": "/blog/affiliate-marketing-ai-automation-2026/", "destination": "/blog/", "permanent": true },
     { "source": "/blog/affiliate-marketing-ia-ferramentas-estrategias-2025/", "destination": "/blog/", "permanent": true },
