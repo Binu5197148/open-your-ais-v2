@@ -17,14 +17,14 @@ readTime: "8 min read"
 
 <h2>The Lawsuit Era Is Ending. The Partnership Era Is Starting.</h2>
 <p>For most of 2024 and into 2025, using AI-generated music in commercial video was a legal grey area that no serious producer wanted to navigate. The major labels had sued Suno and Udio, alleging copyright infringement at massive scale, and the outcome was unclear enough that most professional productions stayed away from AI music entirely.</p>
-<p>That changed. Warner Music Group settled with both Suno and Udio in November 2025 — the Suno deal described as a partnership on &quot;next-generation licensed AI music.&quot; Universal Music Group settled with Udio in October. Sony Music is the remaining holdout among the three majors, but the trajectory is clear.</p>
+<p>That changed. Warner Music Group settled with both Suno and Udio in November 2025 — the Suno deal described as a partnership on "next-generation licensed AI music." Universal Music Group settled with Udio in October. Sony Music is the remaining holdout among the three majors, but the trajectory is clear.</p>
 <p>This is not a minor legal footnote. It is a structural shift in what AI-generated music can be used for commercially.</p>
 
 <h2>What the Settlements Actually Mean</h2>
 <p>The details of the settlement terms are not fully public, but the shape of them matters for understanding the practical impact.</p>
 <p>When a label settles with an AI music platform rather than pursuing a full judgment, they are accepting that the platform will continue operating — and typically securing licensing fees or revenue share in exchange. The platform gets legal cover. The label gets ongoing income from music that was already in their catalog.</p>
 <p>For creators, the downstream effect is that Suno and Udio can now credibly offer commercial licensing terms that are backed by actual agreements with the labels whose music influenced the training data. That is meaningfully different from the previous situation where you were taking on unknown legal risk when you used AI music in anything commercial.</p>
-<p>It is not a clean all-clear. Sony Music has not settled. The specifics of what is and isn&apos;t covered under the WMG and UMG deals are not fully transparent. But the legal environment is categorically better than it was 12 months ago.</p>
+<p>It is not a clean all-clear. Sony Music has not settled. The specifics of what is and isn't covered under the WMG and UMG deals are not fully transparent. But the legal environment is categorically better than it was 12 months ago.</p>
 
 <h2>The Practical Problem This Solves for Video Producers</h2>
 <p>Music licensing for commercial video has always been expensive and slow. A 30-second sync license for a recognizable track from a major label can run $5,000–$50,000 depending on the track, the territory, and the medium. Royalty-free library music is cheaper but limited — if you have worked with stock music long enough, you recognize the same tracks across dozens of different brand videos.</p>
@@ -42,4 +42,9 @@ readTime: "8 min read"
 <p>Read the commercial licensing terms on both Suno and Udio carefully. They have paid tiers that explicitly address commercial use — understand exactly what is covered before you deliver to a client.</p>
 <p>For anything in the high-stakes category, consult with someone who tracks the space closely. The landscape is still evolving and the Sony question is unresolved.</p>
 <p>The cost economics of music in commercial video are changing. Producers who figure this out early will have a real advantage on budget-constrained projects.</p>
+
+<h2>One thing to check before you deliver</h2>
+<p>If you are using Suno or Udio output as the primary track in a piece — not background, not bed — listen to the final mix on three different speakers. A phone speaker, a laptop, and a real studio monitor or a decent pair of headphones. AI-generated music sometimes carries artifacts in the low end and the high frequencies that a phone speaker masks. I have caught a low hum and a clipped hi-hat that way, after a client had already approved the cut on Zoom audio.</p>
+<p>It is the same boring discipline you would apply to any music track. AI does not change that part.</p>
+
 <p><em>Sources: <a href="https://www.musicbusinessworldwide.com/eleven-music-new-ai-rival-to-suno-launches-with-merlin-kobalt-licensing-deals-in-the-bag/" target="_blank" rel="noopener">Music Business Worldwide — Eleven Music launches with Merlin, Kobalt deals</a> | <a href="https://techcrunch.com/2025/08/05/elevenlabs-launches-an-ai-music-generator-which-it-claims-is-cleared-for-commercial-use/" target="_blank" rel="noopener">TechCrunch — ElevenLabs launches AI music generator cleared for commercial use</a></em></p>

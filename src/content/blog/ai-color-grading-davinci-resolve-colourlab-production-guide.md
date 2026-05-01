@@ -30,7 +30,7 @@ readTime: "9 min read"
 <h2>Colourlab AI: The Third-Party Integration Worth Knowing</h2>
 <p>Colourlab AI integrates directly into DaVinci Resolve as an OFX plugin, and the latest version is 22 times faster than the previous release. The workflow: it analyzes your timeline, reads the creative intent expressed in your grade, and applies consistent looks across shots using that intent as reference.</p>
 <p>The practical use case is matching. On a commercial shoot where coverage spans multiple lighting setups, camera angles, or even different days, achieving shot-to-shot consistency is time-consuming manual work. Colourlab AI reads a graded hero shot and applies that grade — matching luminance, color balance, and tone — across all the coverage efficiently.</p>
-<p>This is not replacing the colorist&apos;s decisions. It is executing those decisions consistently at scale. The colorist grades one representative shot per scene, and the tool propagates that intent across the remaining material. The result needs review and refinement, but the volume of manual work is substantially reduced.</p>
+<p>This is not replacing the colorist's decisions. It is executing those decisions consistently at scale. The colorist grades one representative shot per scene, and the tool propagates that intent across the remaining material. The result needs review and refinement, but the volume of manual work is substantially reduced.</p>
 <p>The tool has been used on major productions — Dune and The Batman have been cited in their materials — though the specific workflow details of how it was integrated on those productions are not public.</p>
 
 <h2>What These Tools Do Not Replace</h2>
@@ -40,7 +40,7 @@ readTime: "9 min read"
 <p>The AI tools handle the repeatable, systematic part of the workflow. The interpretive, creative part is still yours.</p>
 
 <h2>The Practical Impact on Post-Production Budgets</h2>
-<p>Commercial post-production color typically runs at day rates for a senior colorist. The value of AI-assisted tools is not eliminating that cost — good color requires good colorists. The value is in compressing the technical preparation time so that the colorist&apos;s hours are spent on the creative grade rather than cleanup.</p>
+<p>Commercial post-production color typically runs at day rates for a senior colorist. The value of AI-assisted tools is not eliminating that cost — good color requires good colorists. The value is in compressing the technical preparation time so that the colorist's hours are spent on the creative grade rather than cleanup.</p>
 <p>On a well-run production where footage quality is consistent, AI color tools might compress the technical prep phase by 40-60%. On a production where footage has significant exposure or color inconsistency, the value is higher because the manual normalization work is where AI saves the most time.</p>
-<p>For independent producers managing tight post budgets, the combination of Resolve 20&apos;s built-in AI tools (free in the standard version) and Colourlab AI represents a meaningful reduction in the time required to deliver a technically polished grade.</p>
-<p><em>Sources: <a href="https://www.blackmagicdesign.com/products/davinciresolve/whatsnew" target="_blank" rel="noopener">Blackmagic Design — DaVinci Resolve What&apos;s New</a> | <a href="https://colourlab.ai/" target="_blank" rel="noopener">Colourlab AI — 22x faster update</a></em></p>
+<p>For independent producers managing tight post budgets, the combination of Resolve 20's built-in AI tools (free in the standard version) and Colourlab AI represents a meaningful reduction in the time required to deliver a technically polished grade.</p>
+<p><em>Sources: <a href="https://www.blackmagicdesign.com/products/davinciresolve/whatsnew" target="_blank" rel="noopener">Blackmagic Design — DaVinci Resolve What's New</a> | <a href="https://colourlab.ai/" target="_blank" rel="noopener">Colourlab AI — 22x faster update</a></em></p>

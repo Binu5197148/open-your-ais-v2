@@ -11,7 +11,7 @@ tags:
   - "Production Costs"
   - "AI Tools"
 heroImage: "https://images.unsplash.com/photo-1761223976241-e9068813774b?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHwyNXx8Y2luZW1hJTIwaGFsbCUyMGVtcHR5fGVufDF8MHx8fDE3NzY3MjQyNjN8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85"
-author: "Open Your AIs"
+author: "Ulisses Balbino"
 readTime: "10 min read"
 ---
 
@@ -46,3 +46,8 @@ readTime: "10 min read"
 <li><strong>Creative direction as a service:</strong> Producers who don't execute production themselves but direct AI pipelines on behalf of clients who don't have the expertise</li>
 </ul>
 <p>The era we're entering isn't the end of professional video production. It's the end of production cost as a barrier to creative expression. For those of us who were always limited more by cost than by vision, that's not a threat. It's the opening we've been waiting for.</p>
+
+<h2>The trap I keep watching people fall into</h2>
+<p>Cost collapse looks like good news for solo creators, and it is. But I keep seeing one specific failure mode. People respond to the new economics by producing more, lower-quality content, when the real opportunity is to produce the same volume at much higher quality.</p>
+<p>If your old budget got you four pieces a month and the new budget gets you twelve, the temptation is twelve. The discipline is four. The difference is what you do with the saved time. Spent on more output, you stay flat. Spent on more thought per piece — better scripts, sharper editing decisions, more iteration on the story — you separate from everyone else who is also producing twelve pieces a month.</p>
+<p>The market is not short on AI-assisted video. It is short on AI-assisted video anyone wants to watch twice.</p>

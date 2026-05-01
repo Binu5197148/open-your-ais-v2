@@ -11,7 +11,7 @@ tags:
   - "Creative AI"
   - "AI Future"
 heroImage: "https://images.unsplash.com/photo-1763224293772-6e9110df0650?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHw2fHxibGFjayUyMGFuZCUyMHdoaXRlJTIwcG9ydHJhaXQlMjBhcnRpc3RpY3xlbnwxfDB8fHwxNzc2NzI0Mjc2fDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85"
-author: "Open Your AIs"
+author: "Ulisses Balbino"
 readTime: "9 min read"
 ---
 
@@ -46,3 +46,8 @@ readTime: "9 min read"
 <li>To: "I can build a creative strategy that serves your brand's specific goals and execute it at a level that AI can't match"</li>
 </ul>
 <p>That shift is harder to sell than a production quote. It requires more client education. But it's sustainable in a way that competing with AI on volume and price is not. The value shift Affleck described is real. The filmmakers who acknowledge it early and adapt their positioning accordingly are going to be the ones still standing when the dust settles.</p>
+
+<h2>The conversation I have with new clients now</h2>
+<p>When a new client asks me what makes my work different from what they could get from a cheaper AI-assisted shop, I do not list features. I ask them what their last campaign actually did for the business. Most of them cannot answer with specifics. That is the opening.</p>
+<p>The decision they actually face is not "human or AI" but "vendor I trust to think about my problem or vendor who delivers files." A vendor who delivers files is competing on price, and AI will eventually win that fight. A vendor who thinks about the problem is selling something AI cannot replicate, regardless of what tools the vendor uses internally.</p>
+<p>Affleck's framing is right. The shift has already started in commercial work. It will reach studio production a few cycles later because the contracts are longer and the relationships are more locked in.</p>

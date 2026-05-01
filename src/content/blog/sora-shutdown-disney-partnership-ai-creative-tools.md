@@ -11,7 +11,7 @@ tags:
   - "Filmmaking"
   - "AI Tools"
 heroImage: "https://images.unsplash.com/photo-1565792930689-86ab3245a236?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHw4fHxzaGFkb3clMjBsaWdodCUyMHBvcnRyYWl0fGVufDF8MHx8fDE3NzY3MjQyNjd8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85"
-author: "Open Your AIs"
+author: "Ulisses Balbino"
 readTime: "9 min read"
 ---
 
@@ -41,3 +41,8 @@ readTime: "9 min read"
 <p>Instead of arguing about whether AI tools are good or bad for the film industry, the more useful conversation is about <em>governance.</em> Who owns the work? Who gets compensated when their creative work trains a model? What's the appropriate level of disclosure when AI-assisted production is used? How do unions and guilds adapt their frameworks?</p>
 <p>These are policy questions, not creative questions. And they're more important than the weekly debates about whether any specific AI video tool is impressive or disappointing. The technology will continue to improve regardless. The governance conversation can't wait for the technology to settle.</p>
 <p>The filmmakers and studios who engage seriously with both questions — the creative applications and the governance implications — will be the ones who shape how this plays out.</p>
+
+<h2>What I would tell a producer asking what to do today</h2>
+<p>If you run a small production company, the answer is not to wait for the policy questions to settle. Use the tools that have legitimate licensing tracks now. Document your creative process. Keep a record of what is human-made and what is AI-assisted in every project — not because anyone is asking yet, but because they will.</p>
+<p>The studios that treat governance as a problem to figure out later will lose talent. The ones that build it into the workflow now will be the ones cast and crew want to work with.</p>
+<p>Adopt the tools, but do not skip the paperwork. It is a boring answer that turns out to be the difference between a sustainable operation and a deposition.</p>

@@ -30,7 +30,7 @@ readTime: "9 min read"
 <p>The Avatars variant deserves specific attention because it closes a gap that has been frustrating in commercial work.</p>
 <p>Current AI video generation handles faces poorly in motion. Static portraits look acceptable. The moment you add speech, sustained eye contact, or natural head movement across a longer clip, quality degrades in ways that are immediately visible and unusable for any client-facing output.</p>
 <p>GWM Avatars is built specifically to hold quality through sustained conversation. Audio-driven lip-sync with matching facial expressions and gesture — not a single optimized frame but a continuous interaction.</p>
-<p>For explainer content, brand spokesperson work, educational video, or any format where you need a convincing human presence on screen without a shoot, this is a meaningful step forward. The quality is not at the level where it replaces a real actor for premium commercial work. But for content types where the standard is lower — internal training videos, product walkthroughs, social content — the gap to &quot;good enough&quot; is closing.</p>
+<p>For explainer content, brand spokesperson work, educational video, or any format where you need a convincing human presence on screen without a shoot, this is a meaningful step forward. The quality is not at the level where it replaces a real actor for premium commercial work. But for content types where the standard is lower — internal training videos, product walkthroughs, social content — the gap to "good enough" is closing.</p>
 
 <h2>Where It Is Still Not Ready</h2>
 <p>720p is the ceiling for now. That is acceptable for web and social delivery. It is not acceptable for anything going to broadcast, theatrical, or high-end digital distribution. The resolution constraint alone limits the professional use cases significantly.</p>
@@ -38,7 +38,12 @@ readTime: "9 min read"
 <p>Availability is also limited. GWM Robotics is being released via SDK for enterprise partners. GWM Avatars and Worlds are in active conversations with partners. This is not something you can try in a browser this afternoon.</p>
 
 <h2>The Direction This Points</h2>
-<p>What GWM-1 signals more than its immediate usability is where the technology is heading. The gap between &quot;generate a clip&quot; and &quot;simulate an environment&quot; is collapsing. The next generation of production tools will not just output video — they will let you navigate, iterate, and direct inside a simulated space before committing any resources to physical production.</p>
+<p>What GWM-1 signals more than its immediate usability is where the technology is heading. The gap between "generate a clip" and "simulate an environment" is collapsing. The next generation of production tools will not just output video — they will let you navigate, iterate, and direct inside a simulated space before committing any resources to physical production.</p>
 <p>For a director, that changes pre-production in a fundamental way. The cost of testing a visual approach before a shoot drops to near zero. The ability to show a client what a location will look like before you have booked it, or how a character will move before you have cast them, becomes a standard part of the workflow.</p>
-<p>GWM-1 is the early version of that future. It is not there yet. But it is the clearest signal so far of what &quot;there&quot; looks like.</p>
+<p>GWM-1 is the early version of that future. It is not there yet. But it is the clearest signal so far of what "there" looks like.</p>
+
+<h2>Where this fits in pre-production right now</h2>
+<p>The application that enters my workflow first is a single one. When a client asks for an expensive or distant location, instead of booking physical scouting, you navigate the simulated version with them on a call. It is not geometrically accurate, and I will be upfront about that with the client on the same call. But it works to align expectations before spending on flights, day rates, and crew.</p>
+<p>It is the first time an AI video tool addresses a pre-production pain instead of competing with final-output production. That matters more to me than any benchmark number Runway publishes.</p>
+
 <p><em>Sources: <a href="https://runwayml.com/research/introducing-runway-gwm-1" target="_blank" rel="noopener">Runway Research — Introducing GWM-1</a> | <a href="https://techcrunch.com/2025/12/11/runway-releases-its-first-world-model-adds-native-audio-to-latest-video-model/" target="_blank" rel="noopener">TechCrunch — Runway releases its first world model</a></em></p>

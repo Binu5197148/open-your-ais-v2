@@ -48,7 +48,57 @@ async function search(q) {
   return r.json();
 }
 
+// --pick mode: print ONE fresh hero URL (not used by any existing post) to stdout.
+// Used by auto-openai.ts to assign a unique hero per daily article.
+// Cheap: hits 1-3 random queries until we find a non-duplicate.
+async function pickOne() {
+  const blogDir = 'src/content/blog';
+  let usedUrls = new Set();
+  try {
+    const files = (await fs.readdir(blogDir)).filter(f => f.endsWith('.md'));
+    for (const f of files) {
+      const raw = await fs.readFile(path.join(blogDir, f), 'utf-8');
+      const m = raw.match(/^heroImage:\s*"([^"]+)"/m);
+      if (m) usedUrls.add(m[1]);
+    }
+  } catch {}
+
+  // Index by Unsplash photo slug (the part after /photo- in the canonical URL).
+  // p.id is alphanumeric (e.g. "xPq3R8VdGSc"); the URL slug is numeric+hex
+  // (e.g. "1587545634538-50a9b6b3168f"). They are different — must compare URL→URL.
+  const usedSlugs = new Set();
+  for (const u of usedUrls) {
+    const m = u.match(/unsplash\.com\/(photo-[^?\s"]+)/);
+    if (m) usedSlugs.add(m[1]);
+  }
+
+  const shuffled = [...QUERIES].sort(() => Math.random() - 0.5);
+  for (const q of shuffled) {
+    try {
+      const res = await search(q);
+      for (const p of res.results) {
+        const candidateSlug = p.urls.raw.match(/unsplash\.com\/(photo-[^?\s"]+)/)?.[1];
+        if (candidateSlug && !usedSlugs.has(candidateSlug)) {
+          const url = `${p.urls.raw}&auto=format&fit=crop&w=1800&q=85`;
+          process.stdout.write(url + '\n');
+          return;
+        }
+      }
+    } catch (e) {
+      console.error(`  skip "${q}":`, e.message);
+    }
+    await sleep(800);
+  }
+  console.error('No fresh hero found across all queries — pool exhausted, broaden QUERIES.');
+  process.exit(1);
+}
+
 async function main() {
+  if (process.argv.includes('--pick')) {
+    await pickOne();
+    return;
+  }
+
   const pool = new Map();
   for (const q of QUERIES) {
     try {

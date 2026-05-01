@@ -7,9 +7,11 @@
   },
   "scripts": {
     "dev": "astro dev",
+    "prebuild": "node scripts/validate-content.mjs",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "validate": "node scripts/validate-content.mjs"
   },
   "dependencies": {
     "@astrojs/mdx": "^5.0.3",

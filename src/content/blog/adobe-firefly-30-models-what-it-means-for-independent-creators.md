@@ -39,4 +39,12 @@ readTime: "7 min read"
 <p>I've argued consistently on this site that the most significant AI story for independent creators isn't the headline capabilities — it's the infrastructure maturation. Tools moving from "impressive demo" to "reliable workflow component."</p>
 <p>Adobe's Firefly expansion is infrastructure maturation. Not a capability breakthrough. A reliability and accessibility upgrade. Custom Models moving from enterprise-only to broader access is exactly the kind of shift that changes what small teams can produce without enterprise budgets.</p>
 <p>The creative director skill — knowing what good looks like, recognizing when an output is off-brand, making judgment calls that require taste — remains the scarce resource. The tools are becoming easier to direct well. That's a good problem to have if you have the taste to direct them.</p>
+
+<h2>How I would actually use Custom Models on a real account</h2>
+<p>For a brand client at Pichorra, the first thing I would feed the model is not the brand book. It is the rejected work. The dozen frames the creative director shot down in the last campaign for being "off." That negative training set teaches the model the line a brand draws between on and off, which is more useful than the official approved-asset library, because the official library is what survives. The rejects are where the actual taste lives.</p>
+<p>Then I would feed the approved set on top. The model trained on both the floor and the ceiling produces output that holds up in client review better than a model trained only on the ceiling.</p>
+
+<h2>The honest concern</h2>
+<p>Custom Models trained on your visual library encode your brand's aesthetic into Adobe's infrastructure. Read the data agreement before uploading. Different tier of subscription, different data handling. For a brand with proprietary visual IP, this is a contract question, not a creative one. Get the legal team in the loop before you train.</p>
+
 <p><em>Source: <a href="https://blog.adobe.com/en/publish/2026/03/19/adobe-firefly-expands-video-image-creation-with-new-ai-capabilities-custom-models" target="_blank" rel="noopener">Adobe Blog — Firefly expands video and image creation with new AI capabilities and Custom Models</a></em></p>

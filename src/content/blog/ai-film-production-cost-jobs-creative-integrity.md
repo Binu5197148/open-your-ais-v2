@@ -10,7 +10,7 @@ tags:
   - "Production"
   - "Creative AI"
 heroImage: "https://images.unsplash.com/photo-1716895821589-ed16084ea80a?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHwzfHxhbmFsb2clMjBmaWxtJTIwcGhvdG9ncmFwaHklMjBncmFpbnxlbnwxfDB8fHwxNzc2NzI0MjcyfDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85"
-author: "Open Your AIs"
+author: "Ulisses Balbino"
 readTime: "9 min read"
 ---
 
@@ -47,3 +47,12 @@ readTime: "9 min read"
 </ul>
 <p>And here's where I don't use AI: the final edit, the color grade decisions, the choice of which take lands emotionally, the frame composition in hero shots, the pacing decisions that make or break a piece.</p>
 <p>The line is simple: AI executes where execution is the task. Humans decide where judgment is the task. Creative integrity survives as long as you're honest about which is which.</p>
+
+<h2>The historical analogy that keeps coming back</h2>
+<p>This is not the first time a production cost collapse has hit the moving image. The arrival of digital video in the early 2000s did to crews what AI is doing now. A film crew that needed twelve people in 1995 needed six by 2010. The same conversation about creative integrity happened then. Some crafts disappeared. Others migrated. Some of the people who survived were the ones who refused to let cost dictate quality, and the rest were the ones who learned to direct the new tools with the same standards as the old ones.</p>
+<p>The pattern is the same. The transition is faster this time, and the floor of what one operator can produce has dropped further than digital ever moved it. The principle that survives is unchanged: a tool collapse exposes who actually had judgment.</p>
+
+<h2>One concrete check I run on every project</h2>
+<p>Before I deliver any AI-assisted piece, I ask one question: would I sign my name to this if the client did not know AI was involved? If the answer is no, the piece is not done. The AI did the execution. The judgment was missing.</p>
+<p>That question saved me from sending a cut to a client last quarter that technically passed every QA pass. The AI had picked the easy color palette, the easy edit rhythm, the easy musical bed. None of it was wrong. None of it was anything I would have chosen alone. I scrapped the cut and redid it.</p>
+<p>The check is simple and the discipline is annoying. It is also the difference between AI as a tool and AI as a substitute for taste.</p>

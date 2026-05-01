@@ -1,6 +1,6 @@
 ---
 id: "art-000"
-title: "Why Open Your AIs Exists"
+title: "Why Open Your AIs Exists — A Manifesto"
 description: "A note on what this publication is trying to keep alive — and what it's trying to keep from becoming."
 pubDate: "2026-04-20"
 category: "Editorial"
@@ -49,3 +49,11 @@ featured: true
 <p>The work of the next decade, for anyone still making things, will be to keep the decisions visible. To keep the <em>why</em> on the page. To remember, loudly and often, that a model can render a thousand sunsets, and only one of them was the one we waited for.</p>
 
 <p>That picking is the work. These dispatches are the notebook.</p>
+
+<h2>What this looks like in practice</h2>
+
+<p>If you are reading these dispatches in order, you will notice some things that are deliberately out of step with the genre. The sentences are longer than blog hygiene allows. A reference to a 1935 essay sits beside a benchmark from last week. The headline does not promise five things you need to know. The conclusion is rarely upbeat.</p>
+
+<p>This is on purpose. The format is the argument. A piece of writing about whether art can survive industrialized production should not itself read like an industrial product. If the form caves, the position is a lie.</p>
+
+<p>The rest is open. The tools we cover are whatever the moment is forcing into the conversation. The angles are whatever the corporate press release is missing. The standard is the one Walter Benjamin and a thousand quieter authors before and after him kept: that the decision to look closely is the work, and the willingness to keep looking is what separates an author from a content pipeline.</p>

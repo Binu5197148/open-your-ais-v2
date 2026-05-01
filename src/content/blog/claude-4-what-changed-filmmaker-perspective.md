@@ -48,4 +48,14 @@ featured: true
 <p>I direct commercials. I write sketches. I compose music. The model I use most is the one that sounds least like a machine when I ask it to help me think.</p>
 <p>Claude 4 is that model right now.</p>
 <p>That can change. It probably will. But today, this is what I'm using — and that's worth saying out loud.</p>
+
+<h2>Where I use it that nobody talks about</h2>
+<p>The places I get the most value out of Claude 4 are not the obvious ones. They are not coding assistance, even though I do that too. They are creative-judgment moments that used to require a peer on the phone.</p>
+<p>Reading a treatment I wrote three days ago and asking it whether the second act earns the ending. Submitting a client's brief and asking what is missing from their stated goals. Looking at a transcript of a creative call and asking which decision the team avoided making. Pasting a piece of copy and asking what a senior creative director would push back on.</p>
+<p>None of these are tasks. They are second-opinion checks. The ones I used to call a friend for at 11 pm and feel guilty about. Claude 4 is good enough at this kind of read that I do not feel like I am wasting the question, which is the bar for whether a tool gets used or quietly abandoned.</p>
+
+<h2>The boring metric that actually matters</h2>
+<p>The benchmark I care about is not on any leaderboard. It is the ratio of times I close the chat satisfied to times I close it frustrated. With previous models, that ratio was somewhere around 60-40 in favor of satisfaction. With Claude 4, it has shifted closer to 85-15. Three percentage points off is the difference between a tool I reach for and a tool I avoid.</p>
+<p>That is the metric to watch as you evaluate any AI tool: not what it does in a demo, but how often you actually want to use it once nobody is watching.</p>
+
 <p><em>Sources: <a href="https://www.anthropic.com/claude" target="_blank" rel="noopener">Anthropic — Claude</a> | <a href="https://www.anthropic.com/news" target="_blank" rel="noopener">Anthropic News</a></em></p>

@@ -21,9 +21,9 @@ readTime: "8 min read"
 
 <h2>Personalization by Default — What That Actually Means</h2>
 <p>The biggest structural change in V7 is that personalization is on by default. Midjourney now shapes output based on your rating history — the images you have ranked and the aesthetic preferences you have implicitly expressed through your usage.</p>
-<p>For users who have been on the platform long enough to build a meaningful rating history, this makes the model more responsive to their specific visual sensibility. Output drifts toward what you have historically preferred rather than the platform&apos;s generic aesthetic baseline.</p>
-<p>For new users or users who haven&apos;t rated much, personalization has nothing to work with and the default behavior can feel inconsistent. This explains part of the split in reviews: experienced users with established histories got noticeably better results; newer users got results that varied more than expected.</p>
-<p>The setup takes about five minutes and is worth doing before evaluating the model&apos;s quality.</p>
+<p>For users who have been on the platform long enough to build a meaningful rating history, this makes the model more responsive to their specific visual sensibility. Output drifts toward what you have historically preferred rather than the platform's generic aesthetic baseline.</p>
+<p>For new users or users who haven't rated much, personalization has nothing to work with and the default behavior can feel inconsistent. This explains part of the split in reviews: experienced users with established histories got noticeably better results; newer users got results that varied more than expected.</p>
+<p>The setup takes about five minutes and is worth doing before evaluating the model's quality.</p>
 
 <h2>Draft Mode: The Feature That Changes the Workflow Math</h2>
 <p>Draft Mode is the update with the most immediate practical impact. Half the credit cost, ten times the render speed. You get lower-resolution output suitable for concept exploration and iteration, with the option to upscale selects at full cost.</p>
@@ -35,7 +35,7 @@ readTime: "8 min read"
 <p>For quick ideation where you want to verbalize thoughts without interrupting your thinking to type, it is useful. For prompts that require specific technical language — focal length references, lighting terminology, style precision — typing still gives you more control over exact wording.</p>
 <p>The voice feature will likely matter more once Midjourney develops the conversational iteration capability it has hinted at, where you can refine through dialogue rather than regeneration cycles.</p>
 
-<h2>The Video V1 Model: What It Does and What It Doesn&apos;t</h2>
+<h2>The Video V1 Model: What It Does and What It Doesn't</h2>
 <p>Midjourney launched its V1 Video Model, allowing users to animate still images into short clips. The implementation: six images generate roughly 60 seconds of video, with processing time of approximately three hours.</p>
 <p>The three-hour processing time is the honest limiting factor here. For real production workflows where iteration speed matters, this makes the video feature impractical for anything requiring multiple rounds. You can generate overnight, evaluate in the morning, and regenerate the next night — that is a 24-hour iteration cycle, which is workable for some projects and completely incompatible with others.</p>
 <p>The output quality for the video feature is solid for concept visualization and mood reference. It is not at the level of Runway Gen-4.5, Kling 3.0, or Sora 2 for production-quality output. But Midjourney was never primarily a video tool — the image quality advantage of the platform is what makes it useful, and the video feature extends that into motion reference.</p>
@@ -44,4 +44,9 @@ readTime: "8 min read"
 <p>Midjourney V7 remains the standard for photorealistic image generation with specific aesthetic sensibility. The coherence improvements on hands, objects, and human anatomy are genuine — these have been persistent weak points in AI image generation and V7 handles them better than previous versions.</p>
 <p>For visual development work in commercial production — generating reference images, mood boards, client-facing concept frames, lighting studies — V7 with Draft Mode active is the most cost-efficient workflow I have used for this purpose.</p>
 <p>The mixed reviews are largely from users expecting a dramatic quality leap from V6. The actual improvement is more about workflow efficiency (Draft Mode, personalization) than raw quality ceiling. For power users who integrate Midjourney into a broader production workflow, these efficiency gains matter. For casual users expecting to be immediately blown away, the upgrade may feel underwhelming.</p>
+
+<h2>What I would skip in V7</h2>
+<p>The video model. Not because it is bad. The output is decent. Because three hours per generation kills any iteration loop a director would actually use. If you need motion reference, generating a still in Draft Mode and animating it in Runway or Kling gives you results in minutes, not hours.</p>
+<p>The V7 video feature is for people who want one tool that does everything. The reality of production is that the best workflow is rarely one tool. Use Midjourney for what it is best at — image quality with a specific aesthetic — and let purpose-built video models handle the motion.</p>
+
 <p><em>Sources: <a href="https://venturebeat.com/ai/midjourney-v7-launches-with-voice-prompting-and-faster-draft-mode-why-is-it-getting-mixed-reviews" target="_blank" rel="noopener">VentureBeat — Midjourney V7 launches with voice prompting and Draft Mode</a> | <a href="https://updates.midjourney.com/v7-alpha/" target="_blank" rel="noopener">Midjourney — V7 Alpha release notes</a></em></p>

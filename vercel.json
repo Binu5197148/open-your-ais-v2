@@ -85,6 +85,15 @@
     { "source": "/blog/defi-finanas-descentralizadas-guia-iniciantes/", "destination": "/blog/", "permanent": true },
     { "source": "/blog/jasper-ai-marketing-conteudo-automatizado/", "destination": "/blog/", "permanent": true },
 
+    { "source": "/blog/ai-generated-content-sparks-debate-in-creative-arts/", "destination": "/blog/", "permanent": true },
+    { "source": "/blog/virtual-actor-ai-ethics-film-industry-debate/", "destination": "/blog/val-kilmer-ai-resurrection-filmmaking-ethics-soul/", "permanent": true },
+    { "source": "/blog/ai-virtual-actors-and-the-future-of-performance/", "destination": "/blog/val-kilmer-ai-resurrection-filmmaking-ethics-soul/", "permanent": true },
+    { "source": "/blog/adobe-firefly-10-dollars-killed-headshot-market/", "destination": "/blog/adobe-firefly-30-models-what-it-means-for-independent-creators/", "permanent": true },
+    { "source": "/blog/ai-driven-scriptwriting-tool-cannes-award/", "destination": "/blog/cannes-ai-palme-dor-redefining-film-humanity/", "permanent": true },
+    { "source": "/blog/ai-video-tools-comparison-kling-veo-sora-runway-2026/", "destination": "/blog/", "permanent": true },
+    { "source": "/blog/ai-driven-virtual-actors-impact-film-industry/", "destination": "/blog/val-kilmer-ai-resurrection-filmmaking-ethics-soul/", "permanent": true },
+    { "source": "/blog/ai-driven-storyboarding-sparks-filmmaking-revolution/", "destination": "/blog/", "permanent": true },
+
     { "source": "/articles/:slug*/", "destination": "/blog/:slug*/", "permanent": true },
     { "source": "/article/:slug*/", "destination": "/blog/:slug*/", "permanent": true },
     { "source": "/posts/:slug*/", "destination": "/blog/:slug*/", "permanent": true }
