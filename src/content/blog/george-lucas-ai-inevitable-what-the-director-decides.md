@@ -3,6 +3,7 @@ id: "art-133"
 title: "George Lucas Says AI Is Inevitable. The Question Is Who Decides."
 description: "On July 14, 2026, George Lucas called AI the future of cinema and said there is nothing you can do about it. He is right about the technology. Wrong about who decides."
 pubDate: "2026-07-15"
+updatedDate: "2026-07-15"
 category: "AI"
 tags:
   - "George Lucas"
@@ -16,6 +17,7 @@ readTime: "6 min read"
 ---
 
 <!-- Published Jul 15, 2026 -->
+<!-- Correction (Jul 15, 2026): the WGA bullet originally read that studios "refused to pay writers for AI training." The ratified 2026 WGA MBA instead requires studios to notify the guild and open discussion over remuneration when they license writers' work to train commercial AI. Corrected to match the actual terms. The Lucas quotes are verified against Variety, PC Gamer, GamesRadar, NME, and PetaPixel coverage of the July 14, 2026 interview. -->
 
 <h2>The quote and what it does</h2>
 
@@ -39,7 +41,7 @@ readTime: "6 min read"
 
 <ul>
 <li>AI video tools differ in what they are good at and what they flatten. Choosing between Runway Gen-4.5 and Kling 3.0 for a given shot is a craft decision with real consequences, not a concession to the future.</li>
-<li>The rights questions around AI-generated footage remain unsettled. The WGA ratified a new deal in April 2026 in which studios refused to pay writers for AI training on their scripts. What gets called "inevitable" often means "we will sort out the ethics after the position is locked in."</li>
+<li>The rights questions around AI-generated footage remain unsettled. The WGA ratified a new deal in April 2026 that requires studios to notify the guild and open discussion over remuneration if they license writers' work to train commercial AI — a process, not a settled price. What gets called "inevitable" often means "we will sort out the ethics after the position is locked in."</li>
 <li>The tools worth using are the ones you chose, for a specific reason, in a specific moment. That is different from the tools you adopted because someone told you the alternative was horses.</li>
 </ul>
 
