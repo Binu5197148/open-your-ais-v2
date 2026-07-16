@@ -10,7 +10,7 @@ tags:
   - "Filmmaking"
   - "CreativeRights"
   - "IntellectualProperty"
-heroImage: "https://images.unsplash.com/photo-1512790182412-b19e6d62bc39?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHwxfHxjaW5lbWElMjBjYW1lcmElMjBjbG9zZXVwfGVufDF8MHx8fDE3ODQxMjU2OTF8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85&sat=-100&con=10"
+heroImage: "https://images.unsplash.com/photo-1612012803315-9a5ad7cd5d57?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHwyOHx8bmVvbiUyMGNpdHklMjBuaWdodCUyMHN0cmVldHxlbnwxfDB8fHwxNzg0MTI1ODAxfDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85&sat=-100&con=10"
 author: "Ulisses Balbino"
 readTime: "5 min read"
 ---

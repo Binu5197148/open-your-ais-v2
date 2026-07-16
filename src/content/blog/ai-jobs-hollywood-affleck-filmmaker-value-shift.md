@@ -10,7 +10,7 @@ tags:
   - "Filmmaking"
   - "Creative AI"
   - "AI Future"
-heroImage: "https://images.unsplash.com/photo-1763224293772-6e9110df0650?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHw2fHxibGFjayUyMGFuZCUyMHdoaXRlJTIwcG9ydHJhaXQlMjBhcnRpc3RpY3xlbnwxfDB8fHwxNzc2NzI0Mjc2fDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85&sat=-100&con=10"
+heroImage: "https://images.unsplash.com/photo-1727078129056-87c9e5f14c12?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHw5fHxhbmFsb2clMjBmaWxtJTIwcGhvdG9ncmFwaHklMjBncmFpbnxlbnwxfDB8fHwxNzg0MTI1NzE3fDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85&sat=-100&con=10"
 author: "Ulisses Balbino"
 readTime: "9 min read"
 ---
