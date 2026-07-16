@@ -1,5 +1,5 @@
 ---
-id: "art-133"
+id: "art-136"
 title: "George Lucas Says AI Is Inevitable. The Question Is Who Decides."
 description: "On July 14, 2026, George Lucas called AI the future of cinema and said there is nothing you can do about it. He is right about the technology. Wrong about who decides."
 pubDate: "2026-07-15"
@@ -11,7 +11,7 @@ tags:
   - "AI Tools"
   - "Craft"
   - "Industry"
-heroImage: "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=1800&q=85"
+heroImage: "https://images.unsplash.com/photo-1562329265-95a6d7a83440?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHwxfHx0aGVhdGVyJTIwc3RhZ2UlMjBkcmFtYXRpYyUyMGxpZ2h0aW5nfGVufDF8MHx8fDE3ODQyMDkyNDF8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85"
 author: "Ulisses Balbino"
 readTime: "6 min read"
 ---
