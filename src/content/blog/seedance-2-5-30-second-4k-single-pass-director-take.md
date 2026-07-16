@@ -61,5 +61,3 @@ readTime: "6 min read"
 <p>For controlled, directed shots where I need to steer every frame, I would still likely start in <a href="/blog/runway-gen-4-5-gwm-1-what-video-creators-need-to-know/">Runway's Gen-4.5</a>, because control has always been its strength and mine. The tools are not interchangeable. Each one is good at something specific, and the craft decision is matching the tool to the shot, not adopting whichever one topped the leaderboard this week.</p>
 
 <p>That is the part that does not automate. A model can now hold thirty seconds without breaking. It still cannot tell you which thirty seconds are worth holding. That decision is yours, it stays yours, and it is the reason the job is still a job.</p>
-
-<!-- deploy: 20260716T231402Z -->
