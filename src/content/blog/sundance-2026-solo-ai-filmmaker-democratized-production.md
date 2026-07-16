@@ -10,7 +10,7 @@ tags:
   - "Sundance"
   - "Independent Film"
   - "Solo Creator"
-heroImage: "https://images.unsplash.com/photo-1699802701128-27a3ec8b1328?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHwyMXx8YmFja3N0YWdlJTIwcHJvZHVjdGlvbiUyMGNyZXd8ZW58MXwwfHx8MTc3NjcyNDI3NXww&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85"
+heroImage: "https://images.unsplash.com/photo-1699802701128-27a3ec8b1328?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHwyMXx8YmFja3N0YWdlJTIwcHJvZHVjdGlvbiUyMGNyZXd8ZW58MXwwfHx8MTc3NjcyNDI3NXww&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85&sat=-100&con=10"
 author: "Open Your AIs"
 readTime: "10 min read"
 ---

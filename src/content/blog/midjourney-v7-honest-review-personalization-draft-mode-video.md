@@ -10,7 +10,7 @@ tags:
   - "V7"
   - "Creative Tools"
   - "Production Workflow"
-heroImage: "https://images.unsplash.com/photo-1611915272607-81bbdbd2ad77?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHwyN3x8c2hhZG93JTIwbGlnaHQlMjBwb3J0cmFpdHxlbnwxfDB8fHwxNzc2NzI0MjY3fDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85"
+heroImage: "https://images.unsplash.com/photo-1611915272607-81bbdbd2ad77?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHwyN3x8c2hhZG93JTIwbGlnaHQlMjBwb3J0cmFpdHxlbnwxfDB8fHwxNzc2NzI0MjY3fDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85&sat=-100&con=10"
 author: "Ulisses Balbino"
 readTime: "8 min read"
 ---

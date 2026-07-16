@@ -11,7 +11,7 @@ tags:
   - "Copyright"
   - "AI Law"
   - "Video Generation"
-heroImage: "https://images.unsplash.com/photo-1758814133215-e99c41d33173?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHwyNHx8ZHJhbWF0aWMlMjBwb3J0cmFpdCUyMG1vbm9jaHJvbWV8ZW58MXwwfHx8MTc3NjcyNDI2OXww&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85"
+heroImage: "https://images.unsplash.com/photo-1758814133215-e99c41d33173?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHwyNHx8ZHJhbWF0aWMlMjBwb3J0cmFpdCUyMG1vbm9jaHJvbWV8ZW58MXwwfHx8MTc3NjcyNDI2OXww&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85&sat=-100&con=10"
 author: "Ulisses Balbino"
 readTime: "8 min read"
 ---

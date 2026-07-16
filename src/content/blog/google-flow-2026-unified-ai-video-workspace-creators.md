@@ -10,7 +10,7 @@ tags:
   - "AI Video"
   - "Creator Tools"
   - "Video Production"
-heroImage: "https://images.unsplash.com/photo-1700307018239-fba553bf5d44?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHw3fHxzaGFkb3clMjBsaWdodCUyMHBvcnRyYWl0fGVufDF8MHx8fDE3NzY3MjQyNjd8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85"
+heroImage: "https://images.unsplash.com/photo-1700307018239-fba553bf5d44?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHw3fHxzaGFkb3clMjBsaWdodCUyMHBvcnRyYWl0fGVufDF8MHx8fDE3NzY3MjQyNjd8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85&sat=-100&con=10"
 author: "Ulisses Balbino"
 readTime: "7 min read"
 ---

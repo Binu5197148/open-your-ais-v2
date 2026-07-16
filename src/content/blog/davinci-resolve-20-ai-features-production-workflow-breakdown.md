@@ -11,7 +11,7 @@ tags:
   - "Audio AI"
   - "Blackmagic"
   - "IntelliScript"
-heroImage: "https://images.unsplash.com/photo-1501780392773-287d506245a5?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHwxfHxlZGl0aW5nJTIwYmF5JTIwbW9uaXRvcnN8ZW58MXwwfHx8MTc3NjcyNDI1OHww&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85"
+heroImage: "https://images.unsplash.com/photo-1501780392773-287d506245a5?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHwxfHxlZGl0aW5nJTIwYmF5JTIwbW9uaXRvcnN8ZW58MXwwfHx8MTc3NjcyNDI1OHww&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85&sat=-100&con=10"
 author: "Ulisses Balbino"
 readTime: "8 min read"
 ---

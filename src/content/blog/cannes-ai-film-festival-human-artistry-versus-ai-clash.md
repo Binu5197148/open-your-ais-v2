@@ -13,7 +13,7 @@ tags:
   - "Artificial Intelligence"
   - "Filmmaker Perspective"
   - "Intellectual Property"
-heroImage: "https://images.unsplash.com/photo-1612544409025-e1f6a56c1152?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHwxfHxiYWNrc3RhZ2UlMjBwcm9kdWN0aW9uJTIwY3Jld3xlbnwxfDB8fHwxNzg0MTI1ODA3fDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85"
+heroImage: "https://images.unsplash.com/photo-1612544409025-e1f6a56c1152?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHwxfHxiYWNrc3RhZ2UlMjBwcm9kdWN0aW9uJTIwY3Jld3xlbnwxfDB8fHwxNzg0MTI1ODA3fDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85&sat=-100&con=10"
 author: "Ulisses Balbino"
 readTime: "5 min read"
 ---

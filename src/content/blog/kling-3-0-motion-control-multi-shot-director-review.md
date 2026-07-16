@@ -11,7 +11,7 @@ tags:
   - "Multi-Shot"
   - "Video Generation"
   - "Short Film"
-heroImage: "https://images.unsplash.com/photo-1638562474848-f5ee8ea425f5?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHw2fHxuZW9uJTIwY2l0eSUyMG5pZ2h0JTIwc3RyZWV0fGVufDF8MHx8fDE3NzY3MjQyNzB8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85"
+heroImage: "https://images.unsplash.com/photo-1638562474848-f5ee8ea425f5?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHw2fHxuZW9uJTIwY2l0eSUyMG5pZ2h0JTIwc3RyZWV0fGVufDF8MHx8fDE3NzY3MjQyNzB8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85&sat=-100&con=10"
 author: "Ulisses Balbino"
 readTime: "7 min read"
 ---

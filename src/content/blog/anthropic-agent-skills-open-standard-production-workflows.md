@@ -13,7 +13,7 @@ tags:
   - "Notion"
   - "Zapier"
   - "Production Stack"
-heroImage: "https://images.unsplash.com/photo-1680695918112-2909e0fc8796?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHwyOXx8bmVvbiUyMGNpdHklMjBuaWdodCUyMHN0cmVldHxlbnwxfDB8fHwxNzc2NzI0MjcwfDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85"
+heroImage: "https://images.unsplash.com/photo-1680695918112-2909e0fc8796?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHwyOXx8bmVvbiUyMGNpdHklMjBuaWdodCUyMHN0cmVldHxlbnwxfDB8fHwxNzc2NzI0MjcwfDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85&sat=-100&con=10"
 author: "Ulisses Balbino"
 readTime: "9 min read"
 ---

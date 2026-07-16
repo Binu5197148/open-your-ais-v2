@@ -11,7 +11,7 @@ tags:
   - "AI Tools"
   - "Craft"
   - "Industry"
-heroImage: "https://images.unsplash.com/photo-1562329265-95a6d7a83440?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHwxfHx0aGVhdGVyJTIwc3RhZ2UlMjBkcmFtYXRpYyUyMGxpZ2h0aW5nfGVufDF8MHx8fDE3ODQyMDkyNDF8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85"
+heroImage: "https://images.unsplash.com/photo-1562329265-95a6d7a83440?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHwxfHx0aGVhdGVyJTIwc3RhZ2UlMjBkcmFtYXRpYyUyMGxpZ2h0aW5nfGVufDF8MHx8fDE3ODQyMDkyNDF8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85&sat=-100&con=10"
 author: "Ulisses Balbino"
 readTime: "6 min read"
 ---

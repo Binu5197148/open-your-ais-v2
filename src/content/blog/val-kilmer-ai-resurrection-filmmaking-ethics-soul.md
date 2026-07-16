@@ -11,7 +11,7 @@ tags:
   - "digital actors"
   - "creative integrity"
   - "AI in cinema"
-heroImage: "https://images.unsplash.com/photo-1643323286385-c5374d2645d5?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHwxMnx8Y2luZW1hJTIwY2FtZXJhJTIwY2xvc2V1cHxlbnwxfDB8fHwxNzc2NzI0MjU1fDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85"
+heroImage: "https://images.unsplash.com/photo-1643323286385-c5374d2645d5?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHwxMnx8Y2luZW1hJTIwY2FtZXJhJTIwY2xvc2V1cHxlbnwxfDB8fHwxNzc2NzI0MjU1fDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85&sat=-100&con=10"
 author: "Ulisses Balbino"
 readTime: "4 min read"
 ---

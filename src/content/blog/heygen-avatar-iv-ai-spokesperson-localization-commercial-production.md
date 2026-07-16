@@ -11,7 +11,7 @@ tags:
   - "Spokesperson"
   - "Commercial Production"
   - "Dubbing"
-heroImage: "https://images.unsplash.com/photo-1761925098120-c33304cfa418?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHw5fHx0aGVhdGVyJTIwc3RhZ2UlMjBkcmFtYXRpYyUyMGxpZ2h0aW5nfGVufDF8MHx8fDE3NzY3MjQyNjJ8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85"
+heroImage: "https://images.unsplash.com/photo-1761925098120-c33304cfa418?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHw5fHx0aGVhdGVyJTIwc3RhZ2UlMjBkcmFtYXRpYyUyMGxpZ2h0aW5nfGVufDF8MHx8fDE3NzY3MjQyNjJ8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85&sat=-100&con=10"
 author: "Ulisses Balbino"
 readTime: "8 min read"
 ---

@@ -10,7 +10,7 @@ tags:
   - "Filmmaking"
   - "Production Costs"
   - "AI Tools"
-heroImage: "https://images.unsplash.com/photo-1761223976241-e9068813774b?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHwyNXx8Y2luZW1hJTIwaGFsbCUyMGVtcHR5fGVufDF8MHx8fDE3NzY3MjQyNjN8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85"
+heroImage: "https://images.unsplash.com/photo-1761223976241-e9068813774b?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHwyNXx8Y2luZW1hJTIwaGFsbCUyMGVtcHR5fGVufDF8MHx8fDE3NzY3MjQyNjN8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85&sat=-100&con=10"
 author: "Ulisses Balbino"
 readTime: "10 min read"
 ---

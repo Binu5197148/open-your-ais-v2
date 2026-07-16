@@ -10,7 +10,7 @@ tags:
   - "AI in film"
   - "Filmmaking"
   - "Industry"
-heroImage: "https://images.unsplash.com/photo-1605779820155-e5930d305fe1?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHwxfHxmaWxtJTIwcmVlbCUyMDM1bW0lMjBhbmFsb2d8ZW58MXwwfHx8MTc3NzY0OTkwMXww&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85"
+heroImage: "https://images.unsplash.com/photo-1605779820155-e5930d305fe1?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHwxfHxmaWxtJTIwcmVlbCUyMDM1bW0lMjBhbmFsb2d8ZW58MXwwfHx8MTc3NzY0OTkwMXww&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85&sat=-100&con=10"
 author: "Ulisses Balbino"
 readTime: "6 min read"
 ---

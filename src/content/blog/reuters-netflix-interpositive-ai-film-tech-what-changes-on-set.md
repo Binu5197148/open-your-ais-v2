@@ -10,7 +10,7 @@ tags:
   - "Reuters"
   - "AI Filmmaking"
   - "Production Strategy"
-heroImage: "https://images.unsplash.com/photo-1670960763844-10278a725ac7?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHwyMHx8bmVvbiUyMGNpdHklMjBuaWdodCUyMHN0cmVldHxlbnwxfDB8fHwxNzc2NzI0MjcwfDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85"
+heroImage: "https://images.unsplash.com/photo-1670960763844-10278a725ac7?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHwyMHx8bmVvbiUyMGNpdHklMjBuaWdodCUyMHN0cmVldHxlbnwxfDB8fHwxNzc2NzI0MjcwfDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85&sat=-100&con=10"
 author: "Ulisses Balbino"
 readTime: "8 min read"
 featured: true

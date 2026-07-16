@@ -10,7 +10,7 @@ tags:
   - "Spielberg"
   - "Film Industry"
   - "Production"
-heroImage: "https://images.unsplash.com/photo-1775250869743-d08c72844f6e?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHw3fHx0aGVhdGVyJTIwc3RhZ2UlMjBkcmFtYXRpYyUyMGxpZ2h0aW5nfGVufDF8MHx8fDE3NzY3MjQyNjJ8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85"
+heroImage: "https://images.unsplash.com/photo-1775250869743-d08c72844f6e?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHw3fHx0aGVhdGVyJTIwc3RhZ2UlMjBkcmFtYXRpYyUyMGxpZ2h0aW5nfGVufDF8MHx8fDE3NzY3MjQyNjJ8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85&sat=-100&con=10"
 author: "Ulisses Balbino"
 readTime: "8 min read"
 ---

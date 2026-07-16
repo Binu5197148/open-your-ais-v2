@@ -79,7 +79,9 @@ async function pickOne() {
       for (const p of res.results) {
         const candidateSlug = p.urls.raw.match(/unsplash\.com\/(photo-[^?\s"]+)/)?.[1];
         if (candidateSlug && !usedSlugs.has(candidateSlug)) {
-          const url = `${p.urls.raw}&auto=format&fit=crop&w=1800&q=85`;
+          // sat=-100 + con=10: cinematic B&W conversion at the source, so social
+          // link previews (og:image) match the site's monochrome identity.
+          const url = `${p.urls.raw}&auto=format&fit=crop&w=1800&q=85&sat=-100&con=10`;
           process.stdout.write(url + '\n');
           return;
         }
@@ -137,7 +139,7 @@ async function main() {
   let updated = 0;
   for (let i = 0; i < files.length; i++) {
     const photo = photos[i];
-    const heroUrl = `${photo.urls.raw}&auto=format&fit=crop&w=1800&q=85`;
+    const heroUrl = `${photo.urls.raw}&auto=format&fit=crop&w=1800&q=85&sat=-100&con=10`;
     const filepath = path.join(blogDir, files[i]);
     const raw = await fs.readFile(filepath, 'utf-8');
     const next = raw.replace(

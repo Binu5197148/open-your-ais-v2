@@ -10,7 +10,7 @@ tags:
   - "Video API"
   - "AI Video"
   - "Production Workflow"
-heroImage: "https://images.unsplash.com/photo-1618695496312-82955aca7554?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHwxMnx8YW5hbG9nJTIwZmlsbSUyMHBob3RvZ3JhcGh5JTIwZ3JhaW58ZW58MXwwfHx8MTc3NjcyNDI3Mnww&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85"
+heroImage: "https://images.unsplash.com/photo-1618695496312-82955aca7554?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHwxMnx8YW5hbG9nJTIwZmlsbSUyMHBob3RvZ3JhcGh5JTIwZ3JhaW58ZW58MXwwfHx8MTc3NjcyNDI3Mnww&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85&sat=-100&con=10"
 author: "Ulisses Balbino"
 readTime: "7 min read"
 featured: true

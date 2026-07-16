@@ -10,7 +10,7 @@ tags:
   - "AI Filmmaking"
   - "Production Strategy"
   - "Creative Direction"
-heroImage: "https://images.unsplash.com/photo-1543242596-424e78f9ef7b?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHw4fHxjaW5lbWElMjBjYW1lcmElMjBjbG9zZXVwfGVufDF8MHx8fDE3NzY3MjQyNTV8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85"
+heroImage: "https://images.unsplash.com/photo-1543242596-424e78f9ef7b?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHw4fHxjaW5lbWElMjBjYW1lcmElMjBjbG9zZXVwfGVufDF8MHx8fDE3NzY3MjQyNTV8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85&sat=-100&con=10"
 author: "Ulisses Balbino"
 readTime: "8 min read"
 featured: true

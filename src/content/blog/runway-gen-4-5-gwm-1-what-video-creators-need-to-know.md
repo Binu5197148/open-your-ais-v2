@@ -11,7 +11,7 @@ tags:
   - "AI Video"
   - "Video Production"
   - "World Model"
-heroImage: "https://images.unsplash.com/photo-1649857211681-ba2095e51150?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHwxNHx8dXJiYW4lMjBjaW5lbWF0aWMlMjBuaWdodHxlbnwxfDB8fHwxNzc2NzI0MjczfDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85"
+heroImage: "https://images.unsplash.com/photo-1649857211681-ba2095e51150?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHwxNHx8dXJiYW4lMjBjaW5lbWF0aWMlMjBuaWdodHxlbnwxfDB8fHwxNzc2NzI0MjczfDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85&sat=-100&con=10"
 author: "Ulisses Balbino"
 readTime: "8 min read"
 ---

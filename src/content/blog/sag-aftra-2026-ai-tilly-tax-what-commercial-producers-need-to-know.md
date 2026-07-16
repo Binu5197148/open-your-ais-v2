@@ -11,7 +11,7 @@ tags:
   - "AI Performers"
   - "Tilly Tax"
   - "Union Contracts"
-heroImage: "https://images.unsplash.com/photo-1708497351913-71254998ed1a?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHwyNXx8dGhlYXRlciUyMHN0YWdlJTIwZHJhbWF0aWMlMjBsaWdodGluZ3xlbnwxfDB8fHwxNzc2NzI0MjYyfDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85"
+heroImage: "https://images.unsplash.com/photo-1708497351913-71254998ed1a?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHwyNXx8dGhlYXRlciUyMHN0YWdlJTIwZHJhbWF0aWMlMjBsaWdodGluZ3xlbnwxfDB8fHwxNzc2NzI0MjYyfDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85&sat=-100&con=10"
 author: "Ulisses Balbino"
 readTime: "8 min read"
 ---

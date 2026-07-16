@@ -12,7 +12,7 @@ tags:
   - "Creative AI"
   - "Independent Film"
   - "Automation"
-heroImage: "https://images.unsplash.com/photo-1677612939554-a9144f91ff6a?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHwyfHxzbW9rZSUyMG5vaXIlMjBzaWxob3VldHRlfGVufDF8MHx8fDE3ODQxMjU3Mzl8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85"
+heroImage: "https://images.unsplash.com/photo-1677612939554-a9144f91ff6a?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHwyfHxzbW9rZSUyMG5vaXIlMjBzaWxob3VldHRlfGVufDF8MHx8fDE3ODQxMjU3Mzl8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85&sat=-100&con=10"
 author: "Ulisses Balbino"
 readTime: "5 min read"
 ---
