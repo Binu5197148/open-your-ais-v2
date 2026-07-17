@@ -7,6 +7,16 @@ description: Write or refresh an Open Your AIs blog post in Ulisses Balbino's vo
 
 Generates a single Markdown file at `src/content/blog/<slug>.md` that **passes both** the Zod schema (`src/content.config.ts`) **and** `scripts/validate-content.mjs` on first try. The pipeline (`auto-openai.ts`) already handles social posts — this skill is for **the article only**.
 
+## Source of Truth: CLAUDE.md
+
+Before writing any article that mentions tools, models, or workflows, read `/CLAUDE.md` in the repo root.
+It contains:
+- **CURRENT TOOL STACK** (dated) — only reference tools listed there as current. Anything not on the list is either historical or banned.
+- **BANNED CLAIMS** — stand-up comedy, LA-based, Runway, outdated models.
+- **FRESHNESS RULE** — workflow articles require `toolVersion: "YYYY-MM"` in frontmatter.
+
+Never write a tool name from memory. If it is not in `CLAUDE.md`, look it up.
+
 ## Hard Constraints (build will reject)
 
 | Field | Rule | Source |
@@ -90,6 +100,7 @@ id: "art-NNN"
 title: "Specific, direct title — names a tool or tension (25-85 chars)"
 description: "Two-sentence teaser. Opens with a concrete fact. Hints at the contrarian angle. (80-170 chars)"
 pubDate: "YYYY-MM-DD"
+toolVersion: "YYYY-MM"   # required for workflow articles; omit for news/opinion-only pieces
 category: "AI"
 tags:
   - "Specific tool"
@@ -126,7 +137,7 @@ For posts flagged by `validate-content.mjs` as thin (<800 words):
 
 Three legitimate sources of words to add:
 
-1. **The personal lens (his look).** What does a 14-year commercial director, comedian, and Pichorra Filmes founder see in this news that a tech blogger would miss? Examples that work:
+1. **The personal lens (his look).** What does a 14-year commercial director, editor, and Pichorra Filmes founder see in this news that a tech blogger would miss? Examples that work:
    - "On a Disney commercial set you have a script supervisor whose only job is continuity. This tool replaces what 6 humans used to cross-check by hand — and that's when it gets dangerous."
    - "I composed, acted, edited and directed before AI existed. The reason I love these tools isn't speed; it's that they let me work on a music project at noon and a corporate piece at 3pm without changing teams."
    - These don't require fabricated specifics — just the lens.
