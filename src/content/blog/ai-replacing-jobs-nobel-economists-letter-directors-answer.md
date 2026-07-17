@@ -1,5 +1,5 @@
 ---
-id: "art-137"
+id: "art-138"
 title: "AI Replacing Jobs? 16 Nobel Economists Just Said Act Now"
 description: "Over 200 economists and 16 Nobel laureates warn AI job displacement could outrun the Industrial Revolution. A working director reads the letter without panic."
 pubDate: "2026-07-16"
