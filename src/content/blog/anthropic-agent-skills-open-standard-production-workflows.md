@@ -5,6 +5,7 @@ description: "Figma, Canva, Notion, Zapier, and Atlassian are already inside Cla
 pubDate: "2026-03-15"
 category: "Automation"
 tags:
+  - "Workflow"
   - "Anthropic"
   - "Agent Skills"
   - "Open Standard"

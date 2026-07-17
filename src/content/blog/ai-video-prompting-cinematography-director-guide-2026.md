@@ -5,6 +5,7 @@ description: "The models in 2026 respond to DP briefs, not descriptive paragraph
 pubDate: "2026-03-15"
 category: "AI"
 tags:
+  - "Workflow"
   - "Prompt Engineering"
   - "AI Video"
   - "Cinematography"

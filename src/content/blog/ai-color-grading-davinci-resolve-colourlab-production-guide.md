@@ -5,6 +5,7 @@ description: "DaVinci Resolve 20 added Magic Color and Magic Mask. Colourlab AI 
 pubDate: "2026-03-15"
 category: "AI"
 tags:
+  - "Workflow"
   - "Color Grading"
   - "DaVinci Resolve"
   - "Post Production"

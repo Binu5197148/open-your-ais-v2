@@ -5,6 +5,7 @@ description: "Premiere 26 — no longer 'Premiere Pro' — ships with AI Object 
 pubDate: "2026-03-15"
 category: "Tools"
 tags:
+  - "Workflow"
   - "Adobe Premiere"
   - "AI Editing"
   - "Rotoscoping"

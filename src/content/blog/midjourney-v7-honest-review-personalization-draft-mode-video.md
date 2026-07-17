@@ -5,6 +5,7 @@ description: "V7 launched with personalization by default, Draft Mode at 10x spe
 pubDate: "2026-03-15"
 category: "AI"
 tags:
+  - "Workflow"
   - "Midjourney"
   - "AI Image"
   - "V7"

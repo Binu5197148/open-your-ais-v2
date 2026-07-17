@@ -1,0 +1,120 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const posts = (await getCollection('blog', ({ data }) => !data.noindex))
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+
+const latestHref = posts[0] ? `/blog/${posts[0].id}/` : '/blog/';
+
+const guides = posts.filter((p) => (p.data.tags ?? []).includes('Workflow'));
+const total = guides.length;
+
+const fmtLong = (d: Date) =>
+  d.toLocaleDateString('en-US', { month: 'long', day: '2-digit', year: 'numeric' });
+---
+
+<BaseLayout
+  title="AI Filmmaking Workflows: Tutorials From Real Production"
+  description={`${total} field-tested AI filmmaking workflows and tutorials — Higgsfield, Kling, Midjourney, DaVinci, ComfyUI and more, from a working director's real productions.`}
+  current="workflows"
+  latestHref={latestHref}
+>
+  <section class="container wf-head">
+    <p class="mono" style="color:var(--c-accent)">§ — The workbench</p>
+    <h1 class="wf-title" data-reveal="split">
+      <span class="split-line">Workflows,</span>
+      <span class="split-line" style="--reveal-delay: 80ms"><em>from real sets.</em></span>
+    </h1>
+    <p class="wf-dek">
+      Not demos. Not affiliate reviews. These are the AI production workflows I
+      actually run: which tool for which job, the prompts that behave like a
+      camera department, and where the machine stops and the director begins.
+      New guides land as the pipeline evolves.
+    </p>
+    <div class="wf-meta mono" data-reveal>
+      <span>{total} guides</span>
+      <span>·</span>
+      <span>Field-tested</span>
+      <span>·</span>
+      <span>Updated continuously</span>
+    </div>
+  </section>
+
+  <section class="container wf-grid-wrap">
+    <div class="wf-grid">
+      {guides.map((p) => (
+        <a class="wf-card" href={`/blog/${p.id}/`}>
+          {p.data.heroImage ? (
+            <div class="wf-card__imgwrap">
+              <img class="card__img" src={p.data.heroImage} alt="" loading="lazy" />
+            </div>
+          ) : null}
+          <div class="wf-card__body">
+            <p class="mono wf-card__date">{fmtLong(p.data.pubDate)}</p>
+            <h2 class="wf-card__title">{p.data.title}</h2>
+            <p class="wf-card__desc">{p.data.description}</p>
+          </div>
+        </a>
+      ))}
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .wf-head { margin-top: var(--s-9, 96px); }
+  .wf-title {
+    font-family: var(--font-serif);
+    font-size: clamp(48px, 8vw, 110px);
+    line-height: 0.98;
+    letter-spacing: -0.03em;
+    font-weight: 400;
+    margin: 18px 0 22px;
+  }
+  .wf-title em { font-style: italic; }
+  .wf-dek {
+    font-family: var(--font-serif);
+    font-size: clamp(19px, 2vw, 24px);
+    line-height: 1.45;
+    max-width: 62ch;
+    color: var(--c-fg-soft, var(--c-fg));
+  }
+  .wf-meta { display: flex; gap: 12px; margin-top: 22px; color: var(--c-fg-muted); }
+  .wf-grid-wrap { margin: var(--s-8, 64px) 0 var(--s-9, 96px); }
+  .wf-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 28px;
+  }
+  .wf-card {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    border-top: 1px solid var(--c-rule);
+    padding-top: 18px;
+  }
+  .wf-card__imgwrap { overflow: hidden; aspect-ratio: 16/10; }
+  .wf-card__imgwrap img {
+    width: 100%; height: 100%; object-fit: cover;
+    transition: transform 0.6s ease;
+  }
+  .wf-card:hover .wf-card__imgwrap img { transform: scale(1.04); }
+  .wf-card__date { color: var(--c-fg-muted); margin-top: 14px; }
+  .wf-card__title {
+    font-family: var(--font-serif);
+    font-size: clamp(20px, 2vw, 26px);
+    line-height: 1.2;
+    letter-spacing: -0.01em;
+    font-weight: 400;
+    margin: 8px 0 10px;
+  }
+  .wf-card__desc {
+    font-size: 15px;
+    line-height: 1.55;
+    color: var(--c-fg-muted);
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+</style>

@@ -5,6 +5,7 @@ description: "AI video generators in 2026 understand dolly moves, rack focus, Du
 pubDate: "2026-03-15"
 category: "AI"
 tags:
+  - "Workflow"
   - "AI Video"
   - "Cinematography"
   - "Production Guide"

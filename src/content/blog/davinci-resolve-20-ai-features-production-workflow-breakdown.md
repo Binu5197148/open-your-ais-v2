@@ -5,6 +5,7 @@ description: "100+ new features, but the AI ones are what matter. IntelliScript 
 pubDate: "2026-03-15"
 category: "Tools"
 tags:
+  - "Workflow"
   - "DaVinci Resolve"
   - "AI Editing"
   - "Post Production"

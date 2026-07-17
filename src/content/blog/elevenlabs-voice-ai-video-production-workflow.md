@@ -5,6 +5,7 @@ description: "Most creators use ElevenLabs for basic text-to-speech. The actual 
 pubDate: "2026-03-15"
 category: "AI"
 tags:
+  - "Workflow"
   - "ElevenLabs"
   - "Voice AI"
   - "Audio Production"

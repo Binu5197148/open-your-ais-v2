@@ -5,6 +5,7 @@ description: "ComfyUI launched App Mode on March 10. Any node workflow becomes a
 pubDate: "2026-03-15"
 category: "AI"
 tags:
+  - "Workflow"
   - "ComfyUI"
   - "App Mode"
   - "ComfyHub"

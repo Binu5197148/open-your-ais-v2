@@ -5,6 +5,7 @@ description: "Kling 3.0's Motion Control variant launched March 4 with a claim t
 pubDate: "2026-03-15"
 category: "AI"
 tags:
+  - "Workflow"
   - "Kling"
   - "AI Video"
   - "Motion Control"

@@ -5,6 +5,7 @@ description: "Three major AI models in three months: Claude Sonnet 4.6 (Feb 17),
 pubDate: "2026-03-15"
 category: "AI"
 tags:
+  - "Workflow"
   - "GPT-5.4"
   - "Claude"
   - "Gemini"

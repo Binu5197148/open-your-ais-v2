@@ -5,6 +5,7 @@ description: "Midjourney V7's improvements to hands, bodies, and textures made i
 pubDate: "2026-03-15"
 category: "Tools"
 tags:
+  - "Workflow"
   - "Midjourney"
   - "AI Image"
   - "Commercial Production"
