@@ -1,5 +1,5 @@
 ---
-id: "art-119"
+id: "art-123"
 title: "Claude Design Just Lowered the Floor for Every Designer. That's Why It's Terrifying for Some — and Thrilling for Me."
 description: "Some designers are calling it the end of the profession. I spent 14 years leading audiovisual productions alongside creative directors at WMcCann and art direction from my Pichorra Filmes partner Lisandra Barros. My honest take: this isn't the end of design. It's the end of gatekeeping."
 pubDate: "2026-04-18"
