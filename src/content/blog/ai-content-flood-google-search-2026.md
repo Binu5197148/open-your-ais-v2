@@ -9,7 +9,7 @@ tags:
   - "SEO"
   - "AI Content"
   - "Search"
-heroImage: "https://images.unsplash.com/photo-1771911654347-b1b506fa40f3?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHw2fHxjaW5lbWElMjBoYWxsJTIwZW1wdHl8ZW58MXwwfHx8MTc4NDI0MjI1NHww&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85&sat=-100&con=10"
+heroImage: "https://images.unsplash.com/photo-1718459578218-d0b6fd9f6134?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHwxMXx8YW5hbG9nJTIwZmlsbSUyMHBob3RvZ3JhcGh5JTIwZ3JhaW58ZW58MXwwfHx8MTc4NDcyMDcwNHww&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85&sat=-100&con=10"
 author: "Open Your AIs"
 readTime: "6 min read"
 ---

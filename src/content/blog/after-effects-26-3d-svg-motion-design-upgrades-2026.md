@@ -12,7 +12,7 @@ tags:
   - "Adobe"
   - "Variable Fonts"
   - "Commercial Production"
-heroImage: "https://images.unsplash.com/photo-1770392170798-e3acb93bde59?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHwxN3x8ZHJhbWF0aWMlMjBwb3J0cmFpdCUyMG1vbm9jaHJvbWV8ZW58MXwwfHx8MTc4NDI0MjI1OHww&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85&sat=-100&con=10"
+heroImage: "https://images.unsplash.com/photo-1521794286957-348245b517a0?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHw0fHx1cmJhbiUyMGNpbmVtYXRpYyUyMG5pZ2h0fGVufDF8MHx8fDE3ODQ1NTE0MjJ8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85&sat=-100&con=10"
 author: "Ulisses Balbino"
 readTime: "7 min read"
 ---

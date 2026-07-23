@@ -12,7 +12,7 @@ tags:
   - "Object Mask"
   - "Post Production"
   - "Firefly"
-heroImage: "https://images.unsplash.com/photo-1632187989763-c9c620420b4d?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHwzfHxiYWNrc3RhZ2UlMjBwcm9kdWN0aW9uJTIwY3Jld3xlbnwxfDB8fHwxNzg0MTI1ODA3fDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85&sat=-100&con=10"
+heroImage: "https://images.unsplash.com/photo-1611956425642-d5a8169abd63?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHw4fHx0aGVhdGVyJTIwc3RhZ2UlMjBkcmFtYXRpYyUyMGxpZ2h0aW5nfGVufDF8MHx8fDE3ODQ3MjA2OTR8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85&sat=-100&con=10"
 author: "Ulisses Balbino"
 readTime: "8 min read"
 ---

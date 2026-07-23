@@ -9,7 +9,7 @@ tags:
   - "Creative Jobs"
   - "AI Tools"
   - "Production"
-heroImage: "https://images.unsplash.com/photo-1679993125157-2e14b1bd680a?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHwxN3x8YmxhY2slMjBhbmQlMjB3aGl0ZSUyMHBvcnRyYWl0JTIwYXJ0aXN0aWN8ZW58MXwwfHx8MTc4NDI0MjI2NXww&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85&sat=-100&con=10"
+heroImage: "https://images.unsplash.com/photo-1551520218-4460d4b279de?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHwxN3x8c2hhZG93JTIwbGlnaHQlMjBwb3J0cmFpdHxlbnwxfDB8fHwxNzg0NTUxNDYxfDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85&sat=-100&con=10"
 author: "Open Your AIs"
 readTime: "10 min read"
 ---

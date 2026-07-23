@@ -10,7 +10,7 @@ tags:
   - "AI Video Editing"
   - "Firefly"
   - "Review"
-heroImage: "https://images.unsplash.com/photo-1512206451403-542d321772f3?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHwyfHxzaGFkb3clMjBsaWdodCUyMHBvcnRyYWl0fGVufDF8MHx8fDE3ODQyMDkyMzd8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85&sat=-100&con=10"
+heroImage: "https://images.unsplash.com/photo-1784278518246-b34e934829ae?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHwyOHx8ZHJhbWF0aWMlMjBwb3J0cmFpdCUyMG1vbm9jaHJvbWV8ZW58MXwwfHx8MTc4NDcyMDcwMXww&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85&sat=-100&con=10"
 author: "Open Your AIs"
 readTime: "12 min read"
 ---

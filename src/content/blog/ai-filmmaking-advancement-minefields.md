@@ -10,7 +10,7 @@ tags:
   - "creative-tech"
   - "production"
   - "intellectual-property"
-heroImage: "https://images.unsplash.com/photo-1618695496312-82955aca7554?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHw0fHxhbmFsb2clMjBmaWxtJTIwcGhvdG9ncmFwaHklMjBncmFpbnxlbnwxfDB8fHwxNzg0MTI1NzE3fDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85&sat=-100&con=10"
+heroImage: "https://images.unsplash.com/photo-1542642839-4792527ea1df?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHwxM3x8dXJiYW4lMjBjaW5lbWF0aWMlMjBuaWdodHxlbnwxfDB8fHwxNzg0NTUxNDIyfDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85&sat=-100&con=10"
 author: "Ulisses Balbino"
 readTime: "6 min read"
 ---

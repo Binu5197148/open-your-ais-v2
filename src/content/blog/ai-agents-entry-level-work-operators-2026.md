@@ -12,7 +12,7 @@ tags:
   - "Operations"
   - "Career"
   - "Entry-Level Work"
-heroImage: "https://images.unsplash.com/photo-1611820695247-3e12b1453da5?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHwxNXx8ZmlsbSUyMHJlZWwlMjAzNW1tJTIwYW5hbG9nfGVufDF8MHx8fDE3ODQxMjU4MDZ8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85&sat=-100&con=10"
+heroImage: "https://images.unsplash.com/photo-1590292339438-5fc3be7fca9d?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHwxOXx8Y2luZW1hJTIwY2FtZXJhJTIwY2xvc2V1cHxlbnwxfDB8fHwxNzg0NzIwNjg3fDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85&sat=-100&con=10"
 author: "Ulisses Balbino"
 readTime: "8 min read"
 ---
