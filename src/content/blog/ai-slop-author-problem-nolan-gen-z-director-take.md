@@ -20,7 +20,7 @@ readTime: "6 min read"
 
 <p>In mid-July 2026, in an interview with The Telegraph, Christopher Nolan said that Gen Z is "utterly rejecting" AI slop, and that in filmmaking the technology is "hitting at exactly the wrong time." He pointed at his own kids, whose judgment of AI-made content he called immediate and harsh, and at a screen culture that, after years of chasing virtual everything, is turning back toward something more tactile and more real. He is one of the most successful directors alive. He still shoots on film. When he talks about what audiences reject, it is worth listening.</p>
 
-<p>I direct and edit commercial work, and I use AI tools on real jobs every week: Runway, Kling, ElevenLabs, the whole shelf. So I want to be precise about the part Nolan gets right and the part he gets backwards, because the difference between them is the entire argument.</p>
+<p>I direct and edit commercial work, and I use AI tools on real jobs every week: Kling, Seedance, the whole shelf. So I want to be precise about the part Nolan gets right and the part he gets backwards, because the difference between them is the entire argument.</p>
 
 <h2>What did Christopher Nolan actually say about AI slop?</h2>
 
