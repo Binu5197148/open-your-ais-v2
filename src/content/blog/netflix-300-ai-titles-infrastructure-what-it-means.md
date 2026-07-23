@@ -1,8 +1,9 @@
 ---
 id: "art-141"
 title: "Netflix's 300 AI titles: the question that number actually poses"
-description: "On July 16, Netflix disclosed in its Q2 2026 earnings that 300 titles used generative AI in post-production. The story is not the number. It is the word Ted Sarandos chose: infrastructure. That word asks filmmakers a different question than experiment ever did."
+description: "On July 16, Netflix disclosed in its Q2 2026 earnings that roughly 300 titles used generative AI this year, most heavily in post-production. The story is not the number. It is what the disclosure adds up to: infrastructure. That word asks filmmakers a different question than experiment ever did."
 pubDate: "2026-07-18"
+updatedDate: "2026-07-23"
 category: "AI"
 tags:
   - "Netflix"
@@ -16,11 +17,13 @@ readTime: "6 min read"
 
 <h2>The disclosure</h2>
 
-<p>On July 16, Netflix released its second-quarter 2026 shareholder letter alongside an earnings call that covered the usual ground: revenue, subscriber numbers, the advertising tier, the gaming expansion. Buried in that same call, co-CEO Ted Sarandos said something that will matter longer than any quarterly figure. He disclosed that roughly 300 Netflix titles used generative AI in post-production during 2026. Then he said this: "Gen AI is scaling quickly across the entire creative process, from concept to pre-vis through post and delivery."</p>
+<!-- Corrected Jul 23, 2026 against the official Q2 2026 shareholder letter and earnings call transcript: 300 titles used GenAI across the production lifecycle (post-production was the largest concentration, not the whole); removed a "10 percent better" quote that belongs to an April 2025 call and was aspirational, not a result; "infrastructure" reframed as the author's word, since Sarandos never used it; "The American Experiment" depicts Revolutionary-era America, not 1970 Washington D.C. -->
 
-<p>He gave a specific example. Seventeen minutes of AI-enhanced footage in "The American Experiment" were completed twice as fast and at half the cost of conventional visual effects options. He also said the results were "10 percent better" creatively. Not just cheaper. Better.</p>
+<p>On July 16, Netflix released its second-quarter 2026 shareholder letter alongside an earnings call that covered the usual ground: revenue, the advertising tier, the gaming expansion. Buried in that same call, co-CEO Ted Sarandos said something that will matter longer than any quarterly figure. He disclosed that roughly 300 Netflix titles used generative AI workflows during 2026, with the largest concentration of that work in post-production. Then he said this: "Gen AI is scaling quickly across the entire creative process, from concept to pre-vis through post and delivery."</p>
 
-<p>The 300 number will dominate the coverage. It should not. The more consequential word in that call is "infrastructure." Sarandos did not say the tools are promising. He did not say they are being piloted. He said they are how production works now. That is a different statement, and it deserves a different response than the one most industry conversations are having.</p>
+<p>He gave a specific example. Seventeen minutes of AI-enhanced footage in "The American Experiment" were completed twice as fast and at half the cost of previous options. The shareholder letter lists what those minutes covered: enhanced crowds, historical battle sequences, and worldbuilding establishing shots.</p>
+
+<p>The 300 number will dominate the coverage. It should not. The consequential word here is one Sarandos never used on the call, and it is the honest summary of everything he did say: infrastructure. He did not say the tools are promising. He did not say they are being piloted. He said they are how production works now. That is a different statement, and it deserves a different response than the one most industry conversations are having.</p>
 
 <h2>What every industrial shift in filmmaking has in common</h2>
 
@@ -52,7 +55,7 @@ readTime: "6 min read"
 
 <p>The tasks Netflix used AI for, the crowd simulation, the relighting, the historical visual effects sequences, are tasks that were always mechanical at their core. They required large teams and significant time not because they demanded deep creative interpretation but because human hands could not render them fast enough without enormous resources. The tools substituted for the mechanical execution, not for the judgment about what the execution should look like.</p>
 
-<p>The decision about whether that 17-minute sequence in "The American Experiment" needed to look like 1970 Washington D.C. was made by the director and the production designer before the AI tools ever ran. What AI contributed was the means to execute that decision at a cost and speed that would otherwise have been prohibitive, or simply impossible given the production's resources.</p>
+<p>The decision about whether that 17-minute sequence in "The American Experiment" needed to look like Revolutionary-era America was made by the filmmakers before the AI tools ever ran. What AI contributed was the means to execute that decision at a cost and speed that would otherwise have been prohibitive, or simply impossible given the production's resources.</p>
 
 <p>Not because AI cannot someday do more than that. Because "someday" is not what this earnings call is about. This call is about what AI does well right now: high-volume, computationally intensive work where the creative decision was already made before the tool ever ran. The tool carried out what someone decided. That is a description of a very powerful instrument. It is not a description of an author.</p>
 
