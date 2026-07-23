@@ -12,18 +12,21 @@ tags:
 heroImage: "https://images.unsplash.com/photo-1478720568477-152d9b2ab52b?auto=format&fit=crop&w=1800&q=85&sat=-100&con=10"
 author: "Ulisses Balbino"
 readTime: "7 min read"
+updatedDate: "2026-07-23"
 ---
 
+<!-- Corrected Jul 23, 2026: announcement date fixed to June 22; Kane Parsons interview re-sequenced (it predates the deal by roughly three weeks, it was not a reaction to it); A24's age fixed to fourteen years. -->
+
 <h2>The announcement</h2>
-<p>On June 23, Variety, Deadline, and IndieWire confirmed what had been circulating in industry circles for weeks: Google is investing $75 million in A24, tied to a research partnership with Google DeepMind to build new AI-powered tools for filmmakers. It is the first time Google's parent company, Alphabet, has taken a stake in a film studio.</p>
+<p>On June 22, Variety, Deadline, and IndieWire confirmed what had been circulating in industry circles for weeks: Google is investing $75 million in A24, tied to a research partnership with Google DeepMind to build new AI-powered tools for filmmakers. It is the first time Google's parent company, Alphabet, has taken a stake in a film studio.</p>
 <p>The technical terms of the deal are notable for what they exclude. Google does not get access to A24's content library. DeepMind researchers will work inside A24's production workflows, not extract A24's catalog to train models on. The stated goal is developing tools for pre-production, storyboarding, and specific workflow stages the studio has identified as friction points.</p>
 <p>The backlash arrived faster than the press releases. Fans who grew up with A24 as the anti-studio studio, the place that funded Hereditary and The Lobster and Moonlight, read "Google investment" as a category error. Within days, Gizmodo summarized the public mood in a headline: "A24 Wants You to Be Nice About Its Google AI Deal." The studio spent the following week in communications mode, emphasizing research, emphasizing workflow, emphasizing this is not what you think it is.</p>
-<p>Then Kane Parsons, the director A24 backed for Backrooms, spoke to The Australian. His position: "If I could snap my fingers and make generative AI disappear forever, I probably would. Creatively, I get no enjoyment from using those tools."</p>
-<p>That is an A24 director. Speaking about the tools A24 just accepted $75 million to build.</p>
+<p>And the studio's own roster had already spoken. Weeks before the deal became public, Kane Parsons, the director A24 backed for Backrooms, told The Australian: "If I could snap my fingers and make generative AI disappear forever, I probably would. Creatively, I get no enjoyment from using those tools."</p>
+<p>That is an A24 director, on the record about the kind of tools A24 has now accepted $75 million to help build. He was not reacting to the deal. The deal landed on top of his position, which makes the tension sharper, not softer.</p>
 
 <h2>What A24 actually is</h2>
 <p>Before unpacking the contradiction, it is worth being precise about what A24 has built and why people care so much when it moves.</p>
-<p>A24 is not a prestige studio in the conventional sense. It does not have the institutional inertia of a Warner or the franchise obligations of a Disney. Its value proposition is curatorial: it bets on projects that do not fit the commercial math, backs filmmakers before their second film, and positions those bets as a brand statement. When you see the A24 logo, you have learned over twelve years that the film probably takes a risk.</p>
+<p>A24 is not a prestige studio in the conventional sense. It does not have the institutional inertia of a Warner or the franchise obligations of a Disney. Its value proposition is curatorial: it bets on projects that do not fit the commercial math, backs filmmakers before their second film, and positions those bets as a brand statement. When you see the A24 logo, you have learned over fourteen years that the film probably takes a risk.</p>
 <p>That curatorial identity is not a marketing claim. It is the actual product. The reason filmmakers want A24 backing and the reason audiences follow the logo is that someone inside that company keeps saying yes to the wrong-looking thing.</p>
 <p>Walter Benjamin wrote in 1935 that the aura of an original is not a property of the object. It is what someone chooses to witness. A24's aura is not its catalog. It is the pattern of choices embedded in that catalog. The willingness to fund Ari Aster's grief horror before anyone knew his name. The commitment to Yorgos Lanthimos's distorted comedies. The bet on Moonlight in a year when nobody expected it to find an audience.</p>
 <p>The question the deal raises is not whether AI tools can help make storyboards faster. They can. The question is what happens to the choosing when the infrastructure of choice is built by an optimization company.</p>
