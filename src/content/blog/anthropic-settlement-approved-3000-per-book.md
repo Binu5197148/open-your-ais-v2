@@ -3,6 +3,7 @@ id: "art-144"
 title: "Anthropic Settlement Approved: What $3,000 Per Book Prices"
 description: "On July 20, 2026, a federal judge gave final approval to the Anthropic settlement: $1.5 billion, about $3,000 per book, the largest copyright settlement in history. I use Claude on real production work every day. Here is what that number actually prices, and the bigger thing it leaves unpriced."
 pubDate: "2026-07-22"
+updatedDate: "2026-07-25"
 toolVersion: "2026-07"
 category: "AI"
 tags:
@@ -16,7 +17,9 @@ author: "Ulisses Balbino"
 readTime: "6 min read"
 ---
 
-<!-- Published Jul 22, 2026. Settlement approval, judge, amounts, fair use ruling, and claim rate verified against TechCrunch, Engadget, Fortune, Reuters/US News, Benzinga, and Publishing Perspectives coverage of the July 20, 2026 final approval. -->
+<!-- Published Jul 22, 2026. Settlement approval, judge, amounts, fair use ruling, and claim rate verified against TechCrunch, Engadget, Fortune, Reuters/US News, Benzinga, and Publishing Perspectives coverage of the July 20, 2026 final approval.
+
+Corrected Jul 25, 2026: the class is measured in works, not people. The ~91 percent figure refers to about 440,000 of roughly 482,000 works claimed, not to a share of authors and publishers, and "half a million writers" has been changed to half a million works throughout. -->
 
 <h2>The largest copyright settlement in history is now final</h2>
 
@@ -28,7 +31,7 @@ readTime: "6 min read"
 
 <p>This is the question people actually type into search bars, and the case gave it the clearest answer American law has produced so far. In 2025, Judge William Alsup ruled that training an AI model on copyrighted books qualifies as fair use. What broke the law was not the learning. It was the sourcing. Anthropic had downloaded millions of books from pirate sites like Library Genesis and kept a repository of more than seven million pirated volumes. Buying a book and scanning it: acceptable. Taking it from a pirate shelf: not.</p>
 
-<p>Alsup granted preliminary approval and then retired. Martínez-Olguín inherited the case, heard the objections, called the deal fair and adequate, and closed it. More than 91 percent of eligible authors and publishers have already claimed their share, which tells you how the people inside the class voted with their forms, whatever the discourse says.</p>
+<p>Alsup granted preliminary approval and then retired. Martínez-Olguín inherited the case, heard the objections, called the deal fair and adequate, and closed it. About 91 percent of the works in the class, roughly 440,000 of them, have already been claimed, which tells you how the people inside the class voted with their forms, whatever the discourse says.</p>
 
 <p>Here is the detail worth holding on to: because Anthropic settled instead of going to trial and appeal, none of this binds the next courtroom. The cases still moving against OpenAI, Meta, Midjourney, and Google can land somewhere else entirely. The biggest number in copyright history resolved one company's past and set no one's future.</p>
 
@@ -52,8 +55,8 @@ readTime: "6 min read"
 
 <h2>What this means if you make things for a living</h2>
 
-<p>I keep coming back to the same principle, because every one of these industry stories keeps proving it: the value starts with the author. A model with nothing to learn from is an empty room. The entire 1.5 billion dollar ledger exists because half a million people wrote books worth learning from. The machine did not generate that value. It concentrated it.</p>
+<p>I keep coming back to the same principle, because every one of these industry stories keeps proving it: the value starts with the author. A model with nothing to learn from is an empty room. The entire 1.5 billion dollar ledger exists because authors wrote half a million books worth learning from. The machine did not generate that value. It concentrated it.</p>
 
 <p>That is also why I keep using these tools without embarrassment. AI amplifies what you hand it. Hand it nothing and it amplifies nothing. On my own jobs, Claude drafts, structures, and accelerates, and every output is still shaped by decisions that come from the years I spent making things the slow way, like Netflix's tools are shaped by the productions around them, something I unpacked when <a href="/blog/netflix-300-ai-titles-infrastructure-what-it-means/">Netflix disclosed its 300 AI titles</a>. The tool did not replace the author in either case. It made the author the scarcest input in the system.</p>
 
-<p>So read the settlement the way a working creator should. Not as the day authors lost, and not as the day they were made whole. As the day the biggest AI ledger yet was opened and the first line item, entered by a federal judge, was the work of half a million writers. The price was wrong. The accounting was right. And every negotiation that matters now starts from that line.</p>
+<p>So read the settlement the way a working creator should. Not as the day authors lost, and not as the day they were made whole. As the day the biggest AI ledger yet was opened and the first line item, entered by a federal judge, was half a million works. The price was wrong. The accounting was right. And every negotiation that matters now starts from that line.</p>

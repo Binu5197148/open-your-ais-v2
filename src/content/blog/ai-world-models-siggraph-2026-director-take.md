@@ -3,6 +3,7 @@ id: "art-143"
 title: "AI World Models Took Over SIGGRAPH 2026. A Director's Read."
 description: "On July 20, 2026, NVIDIA put AI world models at the center of its SIGGRAPH keynote. I use these engines on real jobs. The capability is real. The choice is still yours."
 pubDate: "2026-07-20"
+updatedDate: "2026-07-25"
 toolVersion: "2026-07"
 category: "AI"
 tags:
@@ -16,13 +17,15 @@ author: "Ulisses Balbino"
 readTime: "6 min read"
 ---
 
-<!-- Published Jul 20, 2026. SIGGRAPH 2026 dates and the NVIDIA keynote verified against SIGGRAPH.org, NVIDIA, AWN, and PRNewswire coverage of the July 19 to 23 conference. -->
+<!-- Published Jul 20, 2026. SIGGRAPH 2026 dates and the NVIDIA keynote verified against SIGGRAPH.org, NVIDIA, AWN, and PRNewswire coverage of the July 19 to 23 conference.
+
+Corrected Jul 25, 2026: NVIDIA's talk was a sponsored keynote, not the conference's featured keynote. SIGGRAPH 2026's headline keynote on the same day was Lanny Smoot of Disney Research, so the claim that the conference spent "its biggest slot" on world models was wrong. -->
 
 <h2>NVIDIA put world models on the main stage</h2>
 
 <p>On July 20, 2026, at SIGGRAPH in Los Angeles, NVIDIA gave its marquee keynote a blunt title: "Next Era of Graphics. Neural Rendering, World Models, and Simulation." The 53rd edition of the computer graphics conference opened the day before and runs through July 23 at the Los Angeles Convention Center. The talk, led by NVIDIA research and engineering people including Ming-Yu Liu and Edward Liu, made one argument stick. The next leap in generated imagery will not come from prettier pixels. It will come from AI world models: systems that hold an internal sense of a scene (space, light, physics, cause and effect) and carry it consistently across time.</p>
 
-<p>I direct and edit commercial work, and I use AI video tools on real jobs, with real clients and real deadlines. So when a research conference spends its biggest slot on world models, I read it closely. These are the engines already sitting underneath the tools in my timeline.</p>
+<p>I direct and edit commercial work, and I use AI video tools on real jobs, with real clients and real deadlines. So when NVIDIA spends its sponsored keynote slot at SIGGRAPH on world models, I read it closely. These are the engines already sitting underneath the tools in my timeline.</p>
 
 <h2>What are AI world models, and why do they matter to filmmakers?</h2>
 

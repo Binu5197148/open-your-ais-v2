@@ -3,6 +3,7 @@ id: "art-146"
 title: "AI Film Studios Are Real Now: A Director on Aronofsky's Bet"
 description: "Darren Aronofsky is raising $15 million for Primordial Soup, his AI film studio. I direct with AI on real jobs, and I read his bet as proof of the opposite of what most headlines are selling."
 pubDate: "2026-07-24"
+updatedDate: "2026-07-25"
 category: "AI"
 tags:
   - "AI Filmmaking"
@@ -16,11 +17,13 @@ author: "Ulisses Balbino"
 readTime: "6 min read"
 ---
 
-<!-- Published Jul 24, 2026. Facts verified against TheWrap, Variety, Deadline, and The Hollywood Reporter (Jul 21-22, 2026) for the SEC filing; Variety, Tribeca Festival, and Google DeepMind's own blog (2025) for the Ancestra short and the DeepMind partnership. -->
+<!-- Published Jul 24, 2026. Facts verified against TheWrap, Variety, Deadline, and The Hollywood Reporter (Jul 21-22, 2026) for the SEC filing; Variety, Tribeca Festival, and Google DeepMind's own blog (2025) for the Ancestra short and the DeepMind partnership.
+
+Corrected Jul 25, 2026: the $11 million was raised, not spent, and the raise opened July 1, 2026, so the "spent a year" framing was wrong. The SEC document is a Form D notice of an exempt offering, not a term sheet. Aronofsky's feature work begins with Pi in 1998, so "thirty-year body of work" was overstated. -->
 
 <h2>What is Darren Aronofsky's AI film studio?</h2>
 
-<p>On July 22, 2026, TheWrap and Variety reported that Primordial Soup Labs filed with the Securities and Exchange Commission for a $15 million equity raise. The filing lists Darren Aronofsky and his producing partner Dylan Golden as executive officers, and it says the company had already sold just over $11 million of that total, with the first sale dated July 1. So the AI film studio a lot of people treated as a curiosity last year is now a funded company with real money behind it and a term sheet in a federal filing.</p>
+<p>On July 22, 2026, TheWrap and Variety reported that Primordial Soup Labs filed with the Securities and Exchange Commission for a $15 million equity raise. The filing lists Darren Aronofsky and his producing partner Dylan Golden as executive officers, and it says the company had already sold just over $11 million of that total, with the first sale dated July 1. So the AI film studio a lot of people treated as a curiosity last year is now a funded company with real money behind it and a paper trail in a federal filing.</p>
 
 <p>The name on the door is the part worth sitting with. Aronofsky directed Requiem for a Dream, The Fountain, Black Swan, and The Whale. His entire body of work is about obsession, the body, faith, the parts of being human that do not optimize. He is, by any reasonable definition, an auteur. And he is building an AI film studio.</p>
 
@@ -36,7 +39,7 @@ readTime: "6 min read"
 
 <h2>Why an auteur is the least surprising person to build this</h2>
 
-<p>The common story says AI comes for the artist first, and the serious filmmakers hold the line. Aronofsky just spent a year and eleven million dollars arguing the reverse, and I think he is right, for a reason that has nothing to do with technology.</p>
+<p>The common story says AI comes for the artist first, and the serious filmmakers hold the line. Aronofsky just raised eleven million dollars arguing the reverse, and I think he is right, for a reason that has nothing to do with technology.</p>
 
 <p>Cinema has always been auteurs adopting machines early. Kubrick chased lenses NASA built so he could shoot Barry Lyndon by candlelight. Cameron pushed digital compositing because the image in his head did not exist yet on any shelf. The directors with the strongest personal vision are usually the first to reach for a new instrument, because they already know exactly what they want the instrument to do. A vision that specific is starving for range.</p>
 
@@ -48,7 +51,7 @@ readTime: "6 min read"
 
 <p>The skeptics are right that a lot of AI film output is genuinely bad. The quality gap between what these tools promise and what most people ship with them is real, and I see it every day. But bad output is not evidence that the direction is wrong. It is evidence that most of the output has no author behind it. The problem was never that a neural network rendered the frame. It was that nobody decided anything before it did.</p>
 
-<p>Which is exactly why the name on the filing matters. This is not a faceless content farm. It is a director with a thirty-year body of work choosing to build here, using a hybrid model where the human decision stays load-bearing and the AI handles the impossible shot. That is the version of this future worth taking seriously, and it is the version most of the mockery is not actually aiming at.</p>
+<p>Which is exactly why the name on the filing matters. This is not a faceless content farm. It is a director with a body of work going back to the nineties choosing to build here, using a hybrid model where the human decision stays load-bearing and the AI handles the impossible shot. That is the version of this future worth taking seriously, and it is the version most of the mockery is not actually aiming at.</p>
 
 <h2>What the $15 million actually buys</h2>
 
