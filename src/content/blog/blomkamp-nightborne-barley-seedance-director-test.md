@@ -10,12 +10,16 @@ tags:
   - "Filmmaking"
   - "Craft"
   - "Industry"
-heroImage: "https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=1800&q=85&sat=-100&con=10"
+heroImage: "https://images.unsplash.com/photo-1613210434051-4b00d62d03fb?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHwzfHx0aGVhdGVyJTIwc3RhZ2UlMjBkcmFtYXRpYyUyMGxpZ2h0aW5nfGVufDF8MHx8fDE3ODUwMTg2NDJ8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85&sat=-100&con=10"
 author: "Ulisses Balbino"
 readTime: "6 min read"
 ---
 
-<!-- Published Jul 26, 2026. Release date, title, runtime, model (Seedance 2.0), cast size (32 real people), documentary style, story premise (US pilot presumed dead / secret military program), and Barley Studios announcement verified against: The Decoder (district-9-director-neill-blomkamp-releases-first-short-film-made-entirely-with-ai-video-generation), The Playlist (nightborne-neill-blomkamp-shares-sci-fi-horror-ai-short-20260720), GeekTyrant, Dark Horizons, and World of Reel. Kotaku review ("awful") cited directly. All sources retrieved July 26, 2026. -->
+<!-- Published Jul 26, 2026. Release date, title, runtime, model (Seedance 2.0), cast size (32 real people), documentary style, story premise (US pilot presumed dead / secret military program), and Barley Studios announcement verified against: The Decoder (district-9-director-neill-blomkamp-releases-first-short-film-made-entirely-with-ai-video-generation), The Playlist (nightborne-neill-blomkamp-shares-sci-fi-horror-ai-short-20260720), GeekTyrant, Dark Horizons, and World of Reel. Kotaku review ("awful") cited directly. All sources retrieved July 26, 2026.
+
+Corrected same day, Jul 26, 2026, by the daily fact-check pass: the reception paragraph originally described the response as split and attributed a "significant shift" verdict to The Playlist. That attribution could not be confirmed (The Playlist ran a straight news write-up with no verdict), and independent coverage shows the response was decidedly negative rather than split (Kotaku, Aftermath, ComicBookMovie, JoBlo). Paragraph rewritten to the verifiable reception. Hero image also replaced: the original was a flat stock clapperboard, below the site's black-and-white curation bar for the homepage lead.
+
+Note on the release date: Letterboxd lists July 20, 2026 and the bulk of coverage (The Playlist, The Decoder, World of Reel) ran July 20; Dark Horizons refers to July 19. July 20 retained as the better-supported date. -->
 
 <h2>The test that became a studio</h2>
 
@@ -23,7 +27,7 @@ readTime: "6 min read"
 
 <p>A test that ends with a studio announcement is not a test. It is a declaration of direction.</p>
 
-<p>The reception split along predictable lines. Kotaku called it awful. The Playlist called it a significant shift. Dark Horizons ran the story straight. That range tells you more than any single review: people disagree on what they were watching. That kind of disagreement usually means something real happened.</p>
+<p>The reception was mostly hostile. Kotaku called it awful. Aftermath was rougher still. Trade coverage at The Playlist, Dark Horizons and World of Reel ran the story straight, without a verdict. The volume tells you more than any single review: a thirteen minute test that nobody was obliged to cover turned into a referendum within a day. That kind of reaction usually means something real happened.</p>
 
 <h2>What the tool inherits from the camera</h2>
 
