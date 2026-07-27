@@ -3,6 +3,7 @@ id: "art-147"
 title: "Text to Video AI Now Makes Its Own Sound. A Director's Read."
 description: "On July 23, 2026, Black Forest Labs launched FLUX 3 and text to video AI stopped being silent. Up to 20 seconds with dialogue, effects, and ambience generated in the same pass as the picture. I compose, direct, and edit. Here is what actually changes when the machine hands you the sound already finished."
 pubDate: "2026-07-25"
+updatedDate: "2026-07-27"
 toolVersion: "2026-07"
 category: "AI"
 tags:
@@ -17,11 +18,13 @@ author: "Ulisses Balbino"
 readTime: "6 min read"
 ---
 
-<!-- Published Jul 25, 2026. FLUX 3 launch date, architecture, variant availability, and early access partner list verified against Black Forest Labs' own announcement on GlobeNewswire (Jul 23, 2026). The 20-second, 720p, native-audio specification verified against VentureBeat, The Decoder, Decrypt, and TechTimes. Sora shutdown dates verified against The Decoder and TechCrunch. -->
+<!-- Published Jul 25, 2026. FLUX 3 launch date, architecture, variant availability, and early access partner list verified against Black Forest Labs' own announcement on GlobeNewswire (Jul 23, 2026). The 20-second native-audio specification verified against VentureBeat, The Decoder, Decrypt, and TechTimes. Sora shutdown dates verified against The Decoder and TechCrunch.
+
+Corrected Jul 27, 2026, by the daily fact-check pass: the article originally stated FLUX 3 Video outputs "up to 20 seconds at 720p" and built the comparison paragraph on that figure. Black Forest Labs has published no output resolution ceiling for FLUX 3 Video. The 720p figure comes from its human-preference benchmark, which used 10-second clips at 720p (confirmed against The Decoder, MarkTechPost, and TestingCatalog). The two affected sentences were rewritten to attribute 720p to the benchmark rather than to the model's output specification. The argument, that sound matters more than resolution, is unchanged. -->
 
 <h2>What does FLUX 3 change about text to video AI?</h2>
 
-<p>On July 23, 2026, Black Forest Labs announced FLUX 3, and the specification that matters is not the one in the headline. Text to video AI in this model arrives with its own sound. FLUX 3 Video generates clips of up to 20 seconds at 720p, and the dialogue, the effects, and the room ambience are produced in the same pass as the picture, not bolted on afterward.</p>
+<p>On July 23, 2026, Black Forest Labs announced FLUX 3, and the specification that matters is not the one in the headline. Text to video AI in this model arrives with its own sound. FLUX 3 Video generates clips of up to 20 seconds in a single generation, and the dialogue, the effects, and the room ambience are produced in the same pass as the picture, not bolted on afterward.</p>
 
 <p>The company trained one set of weights on images, video, and audio together, then extended the same architecture to predict robot actions. Co-founder and CEO Robin Rombach put the thesis bluntly in the announcement: "You can't cheat reality." A model that only ever learns pictures, the argument goes, can only ever make pictures.</p>
 
@@ -31,7 +34,7 @@ readTime: "6 min read"
 
 <h2>The number everyone will lead with is the wrong number</h2>
 
-<p>Twenty seconds at 720p will read as a step backward to anyone keeping score. It is. <a href="/blog/seedance-2-5-30-second-4k-single-pass-director-take/">Seedance already runs 30 continuous seconds at 4K in a single pass</a>, and I wrote at the time that the unbroken take was the real story there. By the only two metrics the coverage tends to use, length and resolution, FLUX 3 loses.</p>
+<p>Twenty seconds will read as a step backward to anyone keeping score, and Black Forest Labs has not published an output resolution ceiling at all. What it published instead was a preference benchmark run on 10-second clips at 720p. <a href="/blog/seedance-2-5-30-second-4k-single-pass-director-take/">Seedance already runs 30 continuous seconds at 4K in a single pass</a>, and I wrote at the time that the unbroken take was the real story there. By the only two metrics the coverage tends to use, length and resolution, FLUX 3 does not even bring a number to the fight.</p>
 
 <p>Which is exactly why the scoreboard is the wrong instrument. These two releases are not competing for the same job. One is chasing the longest, cleanest picture. The other is chasing a picture that arrives already carrying its own world.</p>
 
