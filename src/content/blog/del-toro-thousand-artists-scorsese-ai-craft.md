@@ -3,20 +3,27 @@ id: "art-149"
 title: "Del Toro chose 1,000 artists. Scorsese chose the AI. Same reason."
 description: "Del Toro hired 1,000 artists to rotoscope Pan's Labyrinth instead of AI. Scorsese just joined an AI storyboard company. They are not in disagreement."
 pubDate: "2026-07-27"
+updatedDate: "2026-07-27"
 category: "AI"
 tags:
   - "Filmmaking"
   - "Craft"
   - "Authorship"
   - "AI tools"
-heroImage: "https://images.unsplash.com/photo-1768248468040-259dc015e0d9?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHwxNHx8YmxhY2slMjBhbmQlMjB3aGl0ZSUyMHBvcnRyYWl0JTIwYXJ0aXN0aWN8ZW58MXwwfHx8MTc3NjcyNDI3Nnww&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85&sat=-100&con=10"
+heroImage: "https://images.unsplash.com/photo-1518929458119-e5bf444c30f4?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHw1fHxmaWxtJTIwc2V0JTIwY2luZW1hdG9ncmFwaHl8ZW58MXwwfHx8MTc4NTAxODUxMHww&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85&sat=-100&con=10"
 author: "Ulisses Balbino"
 readTime: "6 min read"
 ---
 
+<!-- Published Jul 27, 2026 by the parallel cloud producer. Fact-checked and corrected the same day by the daily guardian pass.
+
+Verified: del Toro's San Diego Comic-Con appearance (Jul 24, 2026), the fully manual 3D conversion, "about 1,000 people rotoing the movie," and the quote about cutting a generation of people from learning their craft, confirmed against Gizmodo (direct quote), NME, Variety, Deadline and Rolling Stone. Pan's Labyrinth 3D/HDR re-release date of Oct 9 confirmed. Scorsese's Black Forest Labs advisory role and the "creatively freeing" storyboard quote confirmed against Variety, The Hollywood Reporter, TechCrunch, PetaPixel and Black Forest Labs' own page. Nolan's "rapid wholesale dismissal" quote and the remarks about his children confirmed against Euronews, The Wrap, Variety and Decrypt, originally given to The Telegraph.
+
+Corrected Jul 27, 2026: the second paragraph said Scorsese joined Black Forest Labs "the same month" as del Toro's Comic-Con remarks. The partnership was disclosed June 2, 2026, seven weeks before Comic-Con. Date corrected; nothing else in the argument depends on it. Hero image also replaced: the original was a flat overcast travel snapshot, below the site's black-and-white curation bar for a post that can lead the homepage. -->
+
 <p>This week at San Diego Comic-Con, Guillermo del Toro was asked about the 3D re-release of <em>Pan's Labyrinth</em>. He said it was made through a fully manual conversion process, about 1,000 artists rotoscoping the film frame by frame. He chose not to use AI tools. The reason, in his words: "If we cut a generation of people from learning their craft, you're cutting the rest of the history of that medium away from them, for what?"</p>
 
-<p>The same month, Martin Scorsese joined the German AI company Black Forest Labs as an adviser. He tested the storyboarding tool on a scene and found "the ability to visualize and immediately share the storyboard was creatively freeing." Meanwhile, Christopher Nolan, on the press tour for <em>The Odyssey</em> in July 2026, told reporters he had never seen "a more rapid wholesale dismissal of a supposedly foundational jump in technology in my lifetime." He was talking about young audiences, and what he calls AI slop.</p>
+<p>Seven weeks earlier, on June 2, 2026, Martin Scorsese joined the German AI company Black Forest Labs as an adviser. He tested the storyboarding tool on a scene and found "the ability to visualize and immediately share the storyboard was creatively freeing." Meanwhile, Christopher Nolan, on the press tour for <em>The Odyssey</em> in July 2026, told reporters he had never seen "a more rapid wholesale dismissal of a supposedly foundational jump in technology in my lifetime." He was talking about young audiences, and what he calls AI slop.</p>
 
 <p>Three major directors. Three different public positions. Or so it looks from the outside.</p>
 
