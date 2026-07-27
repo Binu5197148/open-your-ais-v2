@@ -1,5 +1,5 @@
 ---
-id: "art-149"
+id: "art-150"
 title: "AI UGC Ads: TikTok Built the Tool, Brands Are Banning It"
 description: "TikTok Shop gave sellers an AI Video Maker. Then SharkNinja told its affiliates that using it violates their contract. I make AI UGC ads for real jobs, and this contradiction is the most useful thing that has happened to the format all year."
 pubDate: "2026-07-27"
