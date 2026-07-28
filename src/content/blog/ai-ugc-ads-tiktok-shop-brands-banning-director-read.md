@@ -3,6 +3,7 @@ id: "art-150"
 title: "AI UGC Ads: TikTok Built the Tool, Brands Are Banning It"
 description: "TikTok Shop gave sellers an AI Video Maker. Then SharkNinja told its affiliates that using it violates their contract. I make AI UGC ads for real jobs, and this contradiction is the most useful thing that has happened to the format all year."
 pubDate: "2026-07-27"
+updatedDate: "2026-07-28"
 toolVersion: "2026-07"
 category: "AI"
 tags:
@@ -22,7 +23,9 @@ readTime: "6 min read"
 - TikTok Shop US sales projection ($23.41B, +48%), affiliate creator counts (11.3M global, ~1M US), and the Rare Beauty / Kiya Chanel incident: The Independent (Jul 15, 2026), syndicated via AOL and Yahoo News.
 - Three billion labeled AI videos, C2PA Steering Committee membership, first video platform to adopt Content Credentials, $4M+ AI literacy investment since Nov 2025, 200M+ views, expanded spam detection in politics / finance / medical: TikTok Newsroom (Jul 14, 2026), corroborated by TechTimes, ChannelX, Review Central ME, The News, and Dynamic Business.
 - TikTok's standing rule that fully AI content is permitted with an on-screen disclosure tag and no false claims: TikTok policy, reported consistently across the above coverage.
-DELIBERATELY EXCLUDED: a widely repeated claim that TikTok updated its advertising policies on Jul 21, 2026 to mandate AI disclosure labels. Every source found for it was a marketing or SEO blog with no citation to an official TikTok policy document or press release. Not verifiable to the standard this site requires, so it is not asserted here. -->
+DELIBERATELY EXCLUDED: a widely repeated claim that TikTok updated its advertising policies on Jul 21, 2026 to mandate AI disclosure labels. Every source found for it was a marketing or SEO blog with no citation to an official TikTok policy document or press release. Not verifiable to the standard this site requires, so it is not asserted here.
+
+CORRECTION Jul 28, 2026: an earlier version of the closing checklist described the SharkNinja policy as something the company "fired people over". SharkNinja stripped affiliate commissions under its no AI-generated content policy. It did not terminate employees. The phrasing was corrected to "cut commissions over". Sales, creator-count and quote figures re-verified on Jul 28, 2026 against The Independent (Jul 15, 2026) syndication and hold as published. -->
 
 <h2>What actually changed for AI UGC ads on TikTok Shop</h2>
 
@@ -75,7 +78,7 @@ DELIBERATELY EXCLUDED: a widely repeated claim that TikTok updated its advertisi
 <ul>
 <li>Read the brand's affiliate terms before the platform's. TikTok's rules are the floor and they are permissive. The contract that decides whether you get paid is the brand's, and a growing number of them now contain an AI clause that is stricter than anything TikTok requires.</li>
 <li>Separate the provenance claim from the product claim. Tag the video honestly, then check independently that every functional claim in it is one you could defend to the client with a straight face. The tag protects the platform. The second check protects you.</li>
-<li>Do not generate the demonstration. Generate around it. A synthetic environment, a synthetic transition, a synthetic voice on a real result is a very different object from a synthetic result. The first is production design. The second is the thing SharkNinja fired people over.</li>
+<li>Do not generate the demonstration. Generate around it. A synthetic environment, a synthetic transition, a synthetic voice on a real result is a very different object from a synthetic result. The first is production design. The second is the thing SharkNinja cut commissions over.</li>
 </ul>
 
 <p>The reason this story matters more than a single brand memo is that it is the first time the market has priced the difference between using a generator and authoring something. <a href="/blog/ai-slop-author-problem-nolan-gen-z-director-take/">The slop problem was never a quality problem</a>. It was an authorship vacuum, and it persisted for as long as it did because nothing punished it. Something finally does.</p>
