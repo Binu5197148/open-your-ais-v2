@@ -10,7 +10,7 @@ tags:
   - "AI Video"
   - "Filmmaking"
   - "Craft"
-heroImage: "https://images.unsplash.com/photo-adtS0TDHXqk?auto=format&fit=crop&w=1800&q=85&sat=-100&con=10"
+heroImage: "https://images.unsplash.com/photo-1658042250011-2dd5c9b514c8?auto=format&fit=crop&w=1800&q=85&sat=-100&con=10"
 author: "Ulisses Balbino"
 readTime: "6 min read"
 ---
