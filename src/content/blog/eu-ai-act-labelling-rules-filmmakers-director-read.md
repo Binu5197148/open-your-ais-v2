@@ -37,7 +37,7 @@ readTime: "6 min read"
 
 <h2>Does the EU AI Act apply if you are not in Europe?</h2>
 
-<p>This is the question I got asked three times in two days, and the honest answer is that geography is the wrong axis. The Act attaches to where the output lands, not to where the edit suite sits. If the film, the ad, or the social cut reaches an audience in the European Union, you are inside the scope. I work out of São Paulo. Half the campaigns I have delivered over fourteen years ran in more than one market, for brands like Nestlé and Carrefour, and nobody on those jobs ever asked me which continent the color pass happened on.</p>
+<p>This is the question I got asked three times in two days, and the honest answer is that geography is the wrong axis. The Act attaches to where the output lands, not to where the edit suite sits. If the film, the ad, or the social cut reaches an audience in the European Union, you are inside the scope. I work out of São Paulo. Commercial work I have delivered over fourteen years has run in more than one market, for brands like Nestlé and Carrefour, and nobody on those jobs ever asked me which continent the color pass happened on.</p>
 
 <p>The other thing worth knowing: enforcement is not only top down. Any person, including a competitor, can file a complaint with a national market surveillance authority. That is a different pressure than an audit. That is the market policing itself.</p>
 
