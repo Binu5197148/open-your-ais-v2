@@ -10,7 +10,7 @@ tags:
   - "Venice"
   - "Independent Cinema"
   - "Craft"
-heroImage: "https://images.unsplash.com/photo-1603330132985-d0b5f12e7bc5?auto=format&fit=crop&w=1800&q=85&sat=-100&con=10"
+heroImage: "https://images.unsplash.com/photo-1714201624477-d93663aeefd2?auto=format&fit=crop&w=1800&q=85&sat=-100&con=10"
 author: "Ulisses Balbino"
 readTime: "6 min read"
 ---

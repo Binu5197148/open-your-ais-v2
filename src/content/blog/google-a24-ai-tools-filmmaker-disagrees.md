@@ -9,7 +9,7 @@ tags:
   - "Google DeepMind"
   - "Filmmaking"
   - "Industry"
-heroImage: "https://images.unsplash.com/photo-1478720568477-152d9b2ab52b?auto=format&fit=crop&w=1800&q=85&sat=-100&con=10"
+heroImage: "https://images.unsplash.com/photo-1450133064473-71024230f91b?auto=format&fit=crop&w=1800&q=85&sat=-100&con=10"
 author: "Ulisses Balbino"
 readTime: "7 min read"
 updatedDate: "2026-07-23"
