@@ -55,7 +55,7 @@ readTime: "6 min read"
 
 <p>The industry keeps diagnosing this as a control problem. Give creators more control and better films come out. I do not think that is true, and the last two years are the evidence.</p>
 
-<p>Control was never the scarce resource. Anyone with a phone has had complete control over camera position since roughly 2010. Height, angle, distance, movement, all of it, free, in your pocket, for fifteen years. The volume of great filmmaking did not go up fifteen times.</p>
+<p>Control was never the scarce resource. Anyone with a phone has had complete control over camera position since roughly 2010. Height, angle, distance, movement, all of it, free, in your pocket, for more than fifteen years. The volume of great filmmaking did not rise anywhere close to proportionally.</p>
 
 <p>Not because people lacked tools. Because knowing where to put the camera is a position about the material, and a position takes longer to build than a workspace takes to open.</p>
 
