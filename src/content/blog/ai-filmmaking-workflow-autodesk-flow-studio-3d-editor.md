@@ -12,7 +12,7 @@ tags:
   - "Directing"
   - "Craft"
   - "Workflow"
-heroImage: "https://images.unsplash.com/photo-1532800783378-1bed60adaf58?auto=format&fit=crop&w=1800&q=85&sat=-100&con=10"
+heroImage: "https://images.unsplash.com/photo-1524834671419-aa7d41c1c657?auto=format&fit=crop&w=1800&q=85&sat=-100&con=10"
 author: "Ulisses Balbino"
 readTime: "6 min read"
 ---
