@@ -12,9 +12,9 @@ const [featured, ...rest] = posts;
 const latestHref = featured ? `/blog/${featured.id}/` : '/blog/';
 
 const fmtShort = (d: Date) =>
-  d.toLocaleDateString('en-US', { month: 'short', day: '2-digit' });
+  d.toLocaleDateString('en-US', { month: 'short', day: '2-digit', timeZone: 'UTC' });
 const fmtLong = (d: Date) =>
-  d.toLocaleDateString('en-US', { month: 'long', day: '2-digit', year: 'numeric' });
+  d.toLocaleDateString('en-US', { month: 'long', day: '2-digit', year: 'numeric', timeZone: 'UTC' });
 
 type Entry = (typeof posts)[number];
 

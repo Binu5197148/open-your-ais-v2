@@ -12,7 +12,7 @@ const years = new Set(posts.map((p) => p.data.pubDate.getFullYear())).size;
 
 const selectedWorks = posts.slice(0, 6);
 const fmtLong = (d: Date) =>
-  d.toLocaleDateString('en-US', { month: 'short', day: '2-digit', year: 'numeric' });
+  d.toLocaleDateString('en-US', { month: 'short', day: '2-digit', year: 'numeric', timeZone: 'UTC' });
 ---
 
 <BaseLayout
