@@ -1,9 +1,9 @@
 ---
 id: "art-137"
 title: "Seedance 2.5 Makes a 30-Second 4K Video in One Take. A Director's Read."
-description: "In early July 2026, ByteDance began rolling out Seedance 2.5, which generates a continuous 30-second 4K clip in a single pass with native audio and no stitching. I direct and edit with these tools in real production. The 30-second number is not the breakthrough. The unbroken take is."
+description: "ByteDance released Seedance 2.5 on July 31, 2026, which generates a continuous 30-second clip in a single pass with native audio and no stitching, with 4K through upscaling. I direct and edit with these tools in real production. The 30-second number is not the breakthrough. The unbroken take is."
 pubDate: "2026-07-16"
-updatedDate: "2026-07-23"
+updatedDate: "2026-08-09"
 category: "AI"
 tags:
   - "Seedance"
@@ -17,9 +17,9 @@ author: "Ulisses Balbino"
 readTime: "6 min read"
 ---
 
-<!-- Published Jul 16, 2026. Corrected Jul 23, 2026: rollout date softened to "early July" (sources support a target window, not a July 3 start); "same latent space" architecture claim replaced with the documented "same generation pass"; Runway workflow mention updated per current tool stack. -->
+<!-- Published Jul 16, 2026. Corrected Jul 23, 2026: rollout date softened to "early July" (sources support a target window, not a July 3 start); "same latent space" architecture claim replaced with the documented "same generation pass"; Runway workflow mention updated per current tool stack. Corrected Aug 9, 2026: this article was written during the staged pre-release window, and the rollout timeline is now confirmed. Seedance 2.5 was released on July 31, 2026, with the public developer API and Experience Center opening August 7, 2026 (sources: BytePlus/Lumina, kie.ai, Morphic, EvoLink, Apiframe). The opening paragraph has been updated to the confirmed dates. Resolution claim clarified: platform documentation describes 4K as delivered through upscaling, with the base model generating at lower resolution internally, so "in 4K" has been qualified rather than stated as a single-pass output. The craft argument is unchanged. -->
 
-<p>In early July 2026, ByteDance began rolling out Seedance 2.5, the AI video model it first showed on stage at the Volcano Engine FORCE conference on June 23. The headline number is thirty. Seedance 2.5 generates a continuous 30-second clip in a single pass, in 4K, with native audio, and it does it without stitching separate shots together after the fact. The company says no competing model has produced an unbroken clip that long in one generation. Access is arriving in stages: ByteDance's own Dreamina and Jimeng platforms first, CapCut in mid-July, and third-party API access through Volcano Engine later in the month.</p>
+<p>ByteDance released Seedance 2.5 on July 31, 2026, the AI video model it first showed on stage at the Volcano Engine FORCE conference on June 23, and opened the public developer API on August 7. The headline number is thirty. Seedance 2.5 generates a continuous 30-second clip in a single pass, with native audio and with 4K available through upscaling, and it does it without stitching separate shots together after the fact. The company says no competing model has produced an unbroken clip that long in one generation. Access arrived in stages: ByteDance's own Dreamina and Jimeng platforms first, then broader API access, with the public developer API opening on August 7.</p>
 
 <p>I have spent fourteen years directing and editing commercial work, and I use AI video tools on real jobs now, with real clients and real deadlines. So I want to be precise about what actually changed here, because the thirty-second figure is the least interesting part of the announcement.</p>
 
