@@ -1,8 +1,9 @@
 ---
 id: "art-162"
 title: "Locarno is playing an AI film this week. The director left the seams showing on purpose."
-description: "At the 79th Locarno Film Festival, Edgar Pêra premieres a hybrid film mixing archival footage with AI-generated imagery — and deliberately leaves clues so viewers can tell. That choice is not a disclaimer. It is direction."
+description: "At the 79th Locarno Film Festival, Edgar Pêra premiered a hybrid film mixing archival footage with AI-generated imagery, and he deliberately leaves clues so viewers can tell. That choice is not a disclaimer. It is direction."
 pubDate: "2026-08-11"
+updatedDate: "2026-08-12"
 category: "AI"
 tags:
   - "AI Filmmaking"
@@ -10,10 +11,12 @@ tags:
   - "Authorship"
   - "Craft"
   - "Documentary"
-heroImage: "https://images.unsplash.com/photo-2S2F2exmbhw?auto=format&fit=crop&w=1800&q=85&sat=-100&con=10"
+heroImage: "https://images.unsplash.com/photo-1632187989763-c9c620420b4d?auto=format&fit=crop&w=1800&q=85&sat=-100&con=10"
 author: "Ulisses Balbino"
 readTime: "6 min read"
 ---
+
+<!-- Correction 2026-08-12: (1) The EU AI Act entered into force on 1 August 2024; what took effect on 2 August 2026 is the application of its Article 50 transparency obligations. The original text said the Act "came into force August 2" and has been corrected. (2) Added Pêra's own counterpoint about deliberately hiding the AI in some moments, from the same Hollywood Reporter interview, which the original piece omitted. (3) Replaced a broken hero image URL. -->
 
 <p>This week, the 79th Locarno Film Festival is running in Locarno, Switzerland. August 5 through 15. In its Out of Competition program, there is a film by Portuguese director Edgar Pêra called "Asphalt Guerrilla." It mixes real archival footage, Pêra's personal history, and AI-generated imagery to revisit Portugal's FP-25, the Forças Populares 25 de Abril, an armed underground organization that carried out bombings and bank robberies between 1980 and 1987. At the festival, Pêra told journalists he always tries to leave clues for what was AI-made.</p>
 
@@ -39,6 +42,8 @@ readTime: "6 min read"
 
 <p>That is a directorial decision. The AI did not choose to be legible. Pêra did.</p>
 
+<p>And he does not apply it as a rule. In the same conversation he said that there are moments where, to show the danger of AI, you have to behave like a dangerous AI. So sometimes he hides it. Deliberately, so the audience feels what it is like not to be told. That is the detail that proves the point. A rule would be a policy. Choosing when to reveal and when to conceal, based on what the scene needs to say, is the definition of directing.</p>
+
 <p>This is the distinction that almost all of the conversation around AI-generated imagery in film misses. The debate tends to land on the image itself: is it good enough, is it legal, is it fair. Pêra is operating at the level above. He is not asking what the image looks like. He is asking what the image does when the viewer knows where it came from.</p>
 
 <h2>What this means if you are making something right now</h2>
@@ -48,7 +53,7 @@ readTime: "6 min read"
 <ul>
 <li>Hiding the AI is a choice. So is showing it. Neither is neutral. Both mean something about what you think your audience owes you and what you owe them.</li>
 <li>The clue does not have to be crude. Pêra is not burning a watermark over his frames. He is leaving texture, inconsistency, the particular weight of generated imagery. If you know how to look, you can see it. That is different from a badge. It is craftsmanship in transparency.</li>
-<li>The EU AI Act, which came into force August 2, requires machine-readable marking for AI-generated content reaching EU audiences. But that is a legal floor, not an artistic decision. Pêra did not make this film because of Article 50. He made it because of what he wanted to say.</li>
+<li>The EU AI Act's transparency obligations, which began applying on August 2 of this year, require machine-readable marking for AI-generated content reaching EU audiences. (The Act itself entered into force back in August 2024. What arrived this month is Article 50.) But that is a legal floor, not an artistic decision. Pêra did not make this film because of Article 50. He made it because of what he wanted to say.</li>
 </ul>
 
 <p>The practical note: working out your own position on this before you publish is worth the time. Not because of regulation, but because the choice shapes what the work is.</p>

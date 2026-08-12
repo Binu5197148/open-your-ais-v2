@@ -12,7 +12,7 @@ tags:
   - "Google DeepMind"
   - "AI Short Film"
   - "Industry"
-heroImage: "https://images.unsplash.com/photo-1617423851080-1181791aa20e?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHwxfHxzaGFkb3clMjBsaWdodCUyMHBvcnRyYWl0fGVufDF8MHx8fDE3ODQ4OTU1Mjh8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85&sat=-100&con=10"
+heroImage: "https://images.unsplash.com/photo-1612890490080-ef4530615146?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHwxMnx8dXJiYW4lMjBjaW5lbWF0aWMlMjBuaWdodHxlbnwxfDB8fHwxNzg2NTM2OTUzfDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85&sat=-100&con=10"
 author: "Ulisses Balbino"
 readTime: "6 min read"
 ---
