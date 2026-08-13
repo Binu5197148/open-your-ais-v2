@@ -3,6 +3,7 @@ id: "art-165"
 title: "Claude Code Agents: How the Gauntlet Loop Actually Works"
 description: "The Gauntlet Loop turns Claude Code agents into a crew: executors, harsh verifiers, and a loop that only stops when every reviewer is impressed. A director explains why it works."
 pubDate: "2026-08-12"
+updatedDate: "2026-08-13"
 category: "AI"
 tags:
   - "Workflow"
@@ -15,7 +16,9 @@ author: "Ulisses Balbino"
 readTime: "8 min read"
 ---
 
-<p>Andrej Karpathy fed the first paragraph of The Lord of the Rings to a coding agent, set a budget of one million tokens, roughly ten dollars, and walked away for two hours. What came back was a three dimensional scene running in a browser, about 5,400 lines of code written without him touching the keyboard again. Days earlier, Matt Shumer had posted a first person shooter with physics and lighting that people refused to believe came from a single prompt.</p>
+<!-- Correction 2026-08-13: line count corrected from "about 5,400 lines" to "about 5,500 lines". Karpathy's own post (x.com/karpathy, status 2083749667410727319) states 5500 lines; corroborated by BigGo Finance and the-decoder. -->
+
+<p>Andrej Karpathy fed the first paragraph of The Lord of the Rings to a coding agent, set a budget of one million tokens, roughly ten dollars, and walked away for two hours. What came back was a three dimensional scene running in a browser, about 5,500 lines of code written without him touching the keyboard again. Days earlier, Matt Shumer had posted a first person shooter with physics and lighting that people refused to believe came from a single prompt.</p>
 
 <p>Neither result came from a better model. Both came from the same prompt structure, now called the Gauntlet Loop, and it is the most useful thing to happen to Claude Code agents this year. I have been running it on production work, and the reason it clicks for me has nothing to do with code. It is the way a film set has always worked.</p>
 
