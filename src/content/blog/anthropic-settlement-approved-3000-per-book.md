@@ -3,7 +3,7 @@ id: "art-144"
 title: "Anthropic Settlement Approved: What $3,000 Per Book Prices"
 description: "On July 20, 2026, a federal judge gave final approval to the Anthropic settlement: $1.5 billion, about $3,000 per book, the largest copyright settlement in history. I use Claude on real production work every day. Here is what that number actually prices, and the bigger thing it leaves unpriced."
 pubDate: "2026-07-22"
-updatedDate: "2026-07-25"
+updatedDate: "2026-08-16"
 toolVersion: "2026-07"
 category: "AI"
 tags:
@@ -19,7 +19,9 @@ readTime: "6 min read"
 
 <!-- Published Jul 22, 2026. Settlement approval, judge, amounts, fair use ruling, and claim rate verified against TechCrunch, Engadget, Fortune, Reuters/US News, Benzinga, and Publishing Perspectives coverage of the July 20, 2026 final approval.
 
-Corrected Jul 25, 2026: the class is measured in works, not people. The ~91 percent figure refers to about 440,000 of roughly 482,000 works claimed, not to a share of authors and publishers, and "half a million writers" has been changed to half a million works throughout. -->
+Corrected Jul 25, 2026: the class is measured in works, not people. The ~91 percent figure refers to about 440,000 of roughly 482,000 works claimed, not to a share of authors and publishers, and "half a million writers" has been changed to half a million works throughout.
+
+Corrected Aug 16, 2026: biographical accuracy. Ulisses Balbino was an actor and writer on the talk show referenced here, not its director or producer. -->
 
 <h2>The largest copyright settlement in history is now final</h2>
 
@@ -43,7 +45,7 @@ Corrected Jul 25, 2026: the class is measured in works, not people. The ~91 perc
 
 <p>Which means the thing most authors actually care about, the value of their voice inside a machine that now writes fluently in the space they built, was never on the table. Not because the court dismissed it. Because fair use took it off the table before the negotiation started.</p>
 
-<p>I have spent my working life on both sides of this line. I direct and edit, and I also write: treatments, scripts, the talk show I directed and produced in São Paulo was written before it was staged. Everything I have ever put on a screen started as someone's pages. So I refuse the comfortable version of this story where the settlement is either a great victory or a corporate coupon. It is neither. It is the moment the industry admitted, with money, that the raw material mattered, while the law said the transformation of that material is free.</p>
+<p>I have spent my working life on both sides of this line. I direct and edit, and I also write: treatments, scripts, the talk show I wrote for and acted on in São Paulo was written before it was staged. Everything I have ever put on a screen started as someone's pages. So I refuse the comfortable version of this story where the settlement is either a great victory or a corporate coupon. It is neither. It is the moment the industry admitted, with money, that the raw material mattered, while the law said the transformation of that material is free.</p>
 
 <h2>The part the settlement cannot settle</h2>
 

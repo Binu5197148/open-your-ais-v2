@@ -3,6 +3,7 @@ id: "art-163"
 title: "AI Video Editing Is Where the Argument Gets Made"
 description: "Locarno Pro closed this week after debating algorithms, consolidation and creative freedom, while an AI-assisted film played the same festival. Generating footage is close to solved. AI video editing, the part where a director decides what the footage means, is not. A working editor's read on where authorship actually lives in 2026."
 pubDate: "2026-08-12"
+updatedDate: "2026-08-16"
 toolVersion: "2026-08"
 category: "AI"
 tags:
@@ -15,6 +16,8 @@ heroImage: "https://images.unsplash.com/photo-1558970439-add78fc68990?auto=forma
 author: "Ulisses Balbino"
 readTime: "7 min read"
 ---
+
+<!-- Corrected Aug 16, 2026: biographical accuracy. Ulisses Balbino was an actor and writer on the Ronald Rios Talk Show, not its director or producer. Earlier wording claimed a directing and producing credit he does not hold and it has been fixed here. -->
 
 <!-- Facts verified August 12, 2026 against independent sources: 79th Locarno Film Festival dates (5-15 August 2026) per locarnofestival.ch press releases, en.wikipedia.org/wiki/79th_Locarno_Film_Festival and screendaily.com; Locarno Pro 2026 running 6-11 August with the theme "Films vs. Formula: Algorithms, Consolidation and Creative Freedom" and the 15th edition of its StepIn think tank, per hollywoodreporter.com ("Locarno Pro Takes on the Big Issues", 2026) and deadline.com ("Locarno Gets Down To Business With Talk On AI, Algorithms, Investment", August 2026); "more than 1,000 industry professionals" figure per Deadline; Giona A. Nazzaro on liberating spectators in the age of the algorithm per deadline.com ("Locarno Film Festival Head Giona A. Nazzaro Takes On The Algorithm", August 2026); Edgar Pera's "Asphalt Guerrilla" premiering Out of Competition on 10 August 2026 per hollywoodreporter.com and micropsiacine.com; Adobe Premiere AI Assistant announced in public beta on 18 June 2026 per news.adobe.com; Premiere 26.0 AI Object Mask per provideocoalition.com and postperspective.com (Sundance 2026 cycle); Kling 3.0 native 4K and 15-second clips per the Kuaishou/Kling 3.0 launch release (February 2026). No claim here about any tool's performance is reported as fact beyond these sources; everything else is first-hand opinion from my own edits. -->
 
@@ -61,7 +64,7 @@ readTime: "7 min read"
 
 <h2>The cut is the argument</h2>
 
-<p>I directed and produced a talk show years ago, the Ronald Rios Talk Show. Television teaches you something features hide: the material is never the problem. You always have more than you can use. The show is decided in what you throw away, under time pressure, with an audience waiting.</p>
+<p>I acted and wrote on a talk show years ago, the Ronald Rios Talk Show. Television teaches you something features hide: the material is never the problem. You always have more than you can use. The show is decided in what you throw away, under time pressure, with an audience waiting.</p>
 
 <p>That is the skill that transferred intact into 2026. Not the camera knowledge, though that helps. The willingness to cut something good because it does not serve the thing.</p>
 

@@ -3,6 +3,7 @@ id: "art-156"
 title: "AI Filmmaking Workflow: Autodesk Puts the Camera Back"
 description: "On August 4, 2026, Autodesk added a 3D Editor and a node-based Canvas to Flow Studio, moving blocking, camera moves and performance timing back into the AI filmmaking workflow before a single frame gets generated. The question the coverage skips: what does a director do with control they never had to practice?"
 pubDate: "2026-08-05"
+updatedDate: "2026-08-16"
 toolVersion: "2026-08"
 category: "AI"
 tags:
@@ -16,6 +17,8 @@ heroImage: "https://images.unsplash.com/photo-1717844136875-6dcb0c25934f?ixid=M3
 author: "Ulisses Balbino"
 readTime: "6 min read"
 ---
+
+<!-- Corrected Aug 16, 2026: biographical accuracy. Ulisses Balbino was an actor and writer on the Ronald Rios Talk Show, not its director or producer. Earlier wording claimed a directing and producing credit he does not hold and it has been fixed here. -->
 
 <!-- Facts verified August 5, 2026 against independent sources: DIGITAL PRODUCTION (digitalproduction.com, 2026-08-04, "Autodesk Flow Studio adds 3D Editor and Canvas", by Bela Beier), Animation World Network (awn.com, "Autodesk's New Flow Studio Tools Let Creators Block and Direct AI Shots in 3D"), GamesBeat (gamesbeat.com, "Autodesk launches 3D Editor + Canvas to bring generative AI to filmmaking"), Creative Bloq (creativebloq.com), and The Hollywood Reporter (hollywoodreporter.com, "Autodesk Flow Studio Launches a New AI Filmmaking Tool"). All sources independently confirm: announcement date August 4, 2026; product name 3D Editor + Canvas as an expansion of Autodesk Flow Studio; 3D Editor assembles characters, environments, animations, camera tracks and AI motion capture data in one workspace with control over blocking, composition, camera movement, performance timing and scene setup; Canvas is a node-based 2D workspace for generating, exploring and refining image and video output; planned integration with World Labs Marble for AI-generated environments; expanded Maya and DCC integrations planned. DIGITAL PRODUCTION explicitly reports that Autodesk has NOT disclosed release date, rollout model, eligible Flow Studio editions, pricing or credit consumption. No pricing or availability claim is made in this article. No executive quote is attributed, because none was independently confirmed across sources. -->
 
@@ -43,7 +46,7 @@ readTime: "6 min read"
 
 <p>Blocking is not camera placement. Blocking is the argument about where the audience should be standing.</p>
 
-<p>I directed and produced the Ronald Rios Talk Show. Multi-camera, live-to-tape rhythm, a host and guests and a set that had to work from several angles at once. In that format you learn something you cannot learn from a single-camera shoot: every camera position is a claim about who the scene belongs to at that second. Cut wide and the room owns the moment. Push in and the person owns it. Stay on the listener while somebody else talks and you have said something about power that no line of dialogue said.</p>
+<p>I acted and wrote on the Ronald Rios Talk Show. Multi-camera, live-to-tape rhythm, a host and guests and a set that had to work from several angles at once. Standing inside that format you learn something you cannot learn from a single-camera shoot: every camera position is a claim about who the scene belongs to at that second. Cut wide and the room owns the moment. Push in and the person owns it. Stay on the listener while somebody else talks and you have said something about power that no line of dialogue said.</p>
 
 <p>None of that is a technical decision. The dolly does not know any of it. The dolly is just a way to execute a position you already hold.</p>
 
