@@ -6,7 +6,7 @@ Update this file whenever the tool stack changes. Always include the date.
 ---
 
 ## ULISSES BALBINO — CURRENT TOOL STACK
-`Last updated: 2026-07-17`
+`Last updated: 2026-08-17`
 
 Any article, tweet, or post that mentions tools MUST draw from this block.
 Do not reference a tool that is not listed here as "current". If writing about a past tool, frame it explicitly as historical ("used to", "in 2024", etc.).
@@ -24,14 +24,21 @@ Do not reference a tool that is not listed here as "current". If writing about a
 |---|---|
 | **Higgsfield** | Primary hub — MCP CLI connects directly to Claude; all models below run here |
 | **Magnific** | Image enhancement and upscaling |
+| **Midjourney** | Still image generation (standalone, confirmed still in use 2026-08-17) |
+| **ElevenLabs** | Voiceover and dubbing (NOT avatars) |
+| **HeyGen** | Avatar-led video |
+| **ComfyUI / Comfy Cloud** | Node-level control; runs on Comfy Cloud, not local |
+| **Postiz** and **Blotato** | Scheduling and automating social publishing |
 
 ### Inside Higgsfield (models accessed via MCP CLI)
 | Tool | Specialty |
 |---|---|
 | **GPT Image (GPT 2.0 in Higgsfield)** | Images with text — best-in-class text rendering inside images |
 | **Nano Banana Pro** | Subject/character consistency across generations |
+| **Nano Banana 2** | Image generation (used alongside Pro) |
 | **Kling 3.0** | Image-to-video animation; motion control; start/end frame |
 | **Seedance 2.0** | Video with speech: UGC, short video, AI docs requiring voice and realism |
+| **Seedance 2.5** | Same family, higher resolution (1080p) |
 | **Gemini Omni** (Google) | Complex camera movement from images; 3D text motion; cinematic motion recreation |
 
 ### Agents
@@ -40,6 +47,7 @@ Do not reference a tool that is not listed here as "current". If writing about a
 | **Claude Cowork** | Project organization, orchestration |
 | **Claude Code** | Hands-on implementation, automation, pipeline work |
 | **GPT-5.6 agent** | Browser access, end-to-end task execution |
+| **Codex** | Second coding agent, used alongside Claude Code |
 
 ### Traditional / Editing Suite
 | Tool | Role |
@@ -64,6 +72,9 @@ These were personally banned by Ulisses. Never write them in any content, tweet,
 | Runway as a current tool | 2026-07-17 | No longer in use |
 | Any Claude model before Fable 5 as "current" | 2026-07-17 | Outdated |
 | Any GPT model before 5.6 as "current" | 2026-07-17 | Outdated |
+| DALL-E as a tool he uses | 2026-08-17 | Never used it. His words: "nunca foi, é patética" |
+| Lovable as a current tool | 2026-08-17 | Built openyourais v1; fully migrated to Claude Code and Codex |
+| MTV Brasil (or Viacom/Paramount) as an employer | 2026-08-17 | Never on their payroll. His sketch series was selected into MTV's national programming and produced inside MTV's facilities. Correct framing only: the series ran on MTV and used their structure |
 
 ---
 
