@@ -3,6 +3,7 @@ id: "art-135"
 title: "Cannes AI Film Festival: The Battle for Human Artistry and Copyright in the Age of Machines"
 description: "The parallel World AI Film Festival (WAIFF) at Cannes is turning heads, showcasing AI-generated films and sparking fierce debate. While technology pushes boundaries, a controversy over characters resembling \"Wallace and Gromit\" raises critical questions about human authorship, copyright, and what true creativity means."
 pubDate: "2026-05-02"
+updatedDate: "2026-08-20"
 category: "AI"
 tags:
   - "AI in Film"
@@ -18,6 +19,7 @@ author: "Ulisses Balbino"
 readTime: "5 min read"
 ---
 
+<!-- Corrected Aug 20, 2026: biographical accuracy. Ulisses Balbino was an actor and writer on the Ronald Rios Talk Show, not its director or producer, and he was never employed by MTV, Comedy Central or Paramount. Earlier wording claimed credits and network affiliations he does not hold and it has been fixed here. -->
 <!-- Published May 2, 2026 -->
 
 <h2>The "Wallace and Gromit" Moment at Cannes</h2>
@@ -29,7 +31,7 @@ readTime: "5 min read"
 <p>Tools like those I build at Open Your AIs and apply at Pichorra Filmes have revolutionized my workflow. They streamline tasks, automate tedious processes, and give me more time to focus on the creative decisions that truly matter. They've made it possible for small businesses like mine to compete, to produce high-quality content without needing the resources of a major studio. This isn't about replacing people; it's about empowering them. It's about making the art of filmmaking more accessible, more efficient, and ultimately, more *human* by freeing us from drudgery.</p>
 
 <h2>The Copyright Conundrum: More Than Just a Legal Problem</h2>
-<p>But the "Wallace and Gromit" incident isn't just a legal footnote; it's a glaring red flag. AI models are trained on vast amounts of existing human-created work. That's their power. But without clear guidelines, licensing, or ethical frameworks, "learning" can quickly become "replicating" or even "infringing." When I directed comedy for Ronald Rios Talk Show on Paramount / Comedy Central / MTV, every joke, every character, every visual gag came from a specific human intention, a creative spark. It was *ours*.</p>
+<p>But the "Wallace and Gromit" incident isn't just a legal footnote; it's a glaring red flag. AI models are trained on vast amounts of existing human-created work. That's their power. But without clear guidelines, licensing, or ethical frameworks, "learning" can quickly become "replicating" or even "infringing." When I acted and wrote comedy for the Ronald Rios Talk Show, every joke, every character, every visual gag came from a specific human intention, a creative spark. It was *ours*.</p>
 <p>The fear isn't that AI makes things faster. The fear is that it erodes the very concept of originality. It's not about whether an AI can generate something *like* a Wallace and Gromit character. It's about whether it can generate something *distinct* that isn't merely an echo of existing IP. This isn't just about legal protection for companies; it's about the value we place on the *effort*, the *imagination*, and the *years of development* that go into creating iconic characters and stories. If AI can "create" a film with familiar elements, does it devalue the original human genius that conceived them?</p>
 
 <h2>Human Artistry: The Undeniable Core</h2>

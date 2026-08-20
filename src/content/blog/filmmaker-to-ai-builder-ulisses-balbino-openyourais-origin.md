@@ -3,6 +3,7 @@ id: "art-104"
 title: "I Went Anyway: How 14 Years Behind a Camera Led Me to Build an AI Platform"
 description: "I was never a programmer. I never wanted to be. But something about the way AI started lowering every wall I'd spent a decade walking around changed the equation completely. This is why OpenYourAIs exists."
 pubDate: "2026-03-15"
+updatedDate: "2026-08-20"
 category: "AI"
 tags:
   - "Ulisses Balbino"
@@ -19,8 +20,9 @@ readTime: "9 min read"
 featured: true
 ---
 
+<!-- Corrected Aug 20, 2026: biographical accuracy. Ulisses Balbino was an actor and writer on the Ronald Rios Talk Show, not its director or producer, and he was never employed by MTV, Comedy Central or Paramount. Earlier wording claimed credits and network affiliations he does not hold and it has been fixed here. -->
 <h2>The Need That Never Turned Off</h2>
-<p>I have always needed to create. Not as a preference or a hobby — as a requirement. The kind of need that makes you restless when you're not making something, that wakes you up at 4am with an idea that won't wait until morning. For 14 years, that need powered a career in audiovisual production: commercials, branded films, music, campaigns for brands like Disney, Nestlé, Yamaha, Carrefour, Starbucks, Benefit. Comedy Central. MTV. Paramount.</p>
+<p>I have always needed to create. Not as a preference or a hobby — as a requirement. The kind of need that makes you restless when you're not making something, that wakes you up at 4am with an idea that won't wait until morning. For 14 years, that need powered a career in audiovisual production: commercials, branded films, music, campaigns for brands like Disney, Nestlé, Yamaha, Carrefour, Starbucks, Benefit.</p>
 <p>Alongside that need there was always another one, equally honest and considerably less romantic: I needed the work to pay. Not as an afterthought — as a foundation. Creativity without economic viability is a hobby. I wasn't running a hobby. I was building a career, managing a production company, delivering results to clients who expected a return on what they spent. The creative obsession and the operational reality were always in the same room together, and learning to hold both of them at once is what 14 years of this work actually teaches you.</p>
 <p>What it didn't teach me was how to build software.</p>
 
