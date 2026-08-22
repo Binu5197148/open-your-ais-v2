@@ -10,7 +10,7 @@ tags:
   - "Craft"
   - "Authorship"
   - "AI tools"
-heroImage: "https://images.unsplash.com/photo-1518929458119-e5bf444c30f4?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHw1fHxmaWxtJTIwc2V0JTIwY2luZW1hdG9ncmFwaHl8ZW58MXwwfHx8MTc4NTAxODUxMHww&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85&sat=-100&con=10"
+heroImage: "https://images.unsplash.com/photo-1507126117511-e87526de90e2?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHwzfHxkcmFtYXRpYyUyMHBvcnRyYWl0JTIwbW9ub2Nocm9tZXxlbnwxfDB8fHwxNzg3MzE3NDMyfDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85&sat=-100&con=10"
 author: "Ulisses Balbino"
 readTime: "6 min read"
 ---
