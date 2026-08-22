@@ -1,0 +1,435 @@
+---
+import { statSync } from 'node:fs';
+import { join } from 'node:path';
+import { fileURLToPath } from 'node:url';
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+// Read the real size of each zip at build time so the page can never quote a
+// number that stopped being true. Two things this must never do: quote a size
+// that is not the file's, or take the whole build down. So it tries the module
+// relative path first, falls back to the working directory, and if neither
+// resolves it returns null and the card simply shows no size. A wrong number
+// would be a lie. A missing number is only a gap.
+const zipCandidates = (slug: string): string[] => {
+  const rel = `public/skills/${slug}.zip`;
+  const paths: string[] = [];
+  try {
+    paths.push(fileURLToPath(new URL(`../../${rel}`, import.meta.url)));
+  } catch {
+    // import.meta.url is not a file URL in this environment; the cwd path below covers it.
+  }
+  paths.push(join(process.cwd(), rel));
+  return paths;
+};
+
+const zipKb = (slug: string): number | null => {
+  for (const path of zipCandidates(slug)) {
+    try {
+      return Math.round(statSync(path).size / 1024);
+    } catch {
+      // try the next candidate
+    }
+  }
+  return null;
+};
+
+const posts = (await getCollection('blog', ({ data }) => !data.noindex))
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+
+const latestHref = posts[0] ? `/blog/${posts[0].id}/` : '/blog/';
+
+type Skill = {
+  slug: string;
+  name: string;
+  does: string;
+  who: string;
+  lang: string;
+  files: number;
+  note?: string;
+};
+
+const skills: Skill[] = [
+  {
+    slug: 'gauntlet-loop',
+    name: 'gauntlet-loop',
+    does:
+      'Turns any request into a prompt that builds a team of executor sub-agents, gives each one a harsh independent verifier, and loops until every verifier is impressed instead of merely satisfied.',
+    who: 'Anyone who is tired of reviewing the work themselves and wants the crew structure written into the prompt.',
+    lang: 'Portuguese',
+    files: 2,
+    note:
+      'The technique is Matt Shumer\u2019s and his original prompt is reproduced inside, word for word, as the canonical reference. What this packaging adds on top: real end user verification instead of code review, blind judging, round and cost caps, true parallelism, and the table that carries the method into video, sites, campaigns and documents.',
+  },
+  {
+    slug: 'scroll-world',
+    name: 'scroll-world',
+    does:
+      'Builds a landing page where scrolling drives a camera that flies from scene to scene with no cuts, plus the generation pipeline that makes the scenes and welds the seams frame by frame.',
+    who: 'Developers and designers who want a scroll flight without hiring a 3D department.',
+    lang: 'English',
+    files: 7,
+    note:
+      'The scrub engine is vanilla JavaScript with no dependencies, so it drops into plain HTML or any framework. Generation needs the Higgsfield CLI and ffmpeg.',
+  },
+  {
+    slug: 'world-film',
+    name: 'world-film',
+    does:
+      'Same continuous world flight, but the deliverable is one MP4 assembled in ffmpeg instead of a website, with music and voiceover mixed in.',
+    who: 'Anyone who needs a brand film that reads as a single take.',
+    lang: 'English',
+    files: 5,
+  },
+  {
+    slug: 'vox-skill',
+    name: 'vox-skill',
+    does:
+      'A paper collage explainer factory: style blocks locked and pasted verbatim, precision typography rendered in Python with a real font file, voiceover aligned beat by beat, and a catalogue of 30 mistakes that each cost credits.',
+    who: 'Editors and social teams producing explainers inside one fixed visual system.',
+    lang: 'Portuguese',
+    files: 11,
+    note:
+      'The image folder is not in the zip. Nine style references I could not confirm the rights on, and four finished cards that belong to a client. The method does not depend on either.',
+  },
+  {
+    slug: 'vox-motion-graphics',
+    name: 'vox-motion-graphics',
+    does:
+      'Runs a narrated motion graphics explainer end to end: topic research, fact checked script, one locked style key, animated clips, documentary voiceover, one assembled MP4.',
+    who: 'Anyone who wants the whole video delegated, not a folder of loose clips.',
+    lang: 'English',
+    files: 4,
+  },
+  {
+    slug: 'roteiros-virais',
+    name: 'roteiros-virais',
+    does:
+      'A long form YouTube script framework: four blockers to clear before writing, five hook types, seven story structures, and a shot by shot output with timestamps and image prompts.',
+    who: 'Faceless channels and anyone writing 8 to 15 minutes of narration.',
+    lang: 'English',
+    files: 2,
+  },
+  {
+    slug: 'video-prompt-builder',
+    name: 'video-prompt-builder',
+    does:
+      'Turns a creative brief into a shot by shot Seedance 2.0 prompt, in four mandatory sections covering camera, stacked effects, transitions and the energy arc.',
+    who: 'Anyone who can describe a video in words and needs it in the dialect the model speaks.',
+    lang: 'English',
+    files: 3,
+  },
+  {
+    slug: 'nanobanana-prompt-builder',
+    name: 'nanobanana-prompt-builder',
+    does:
+      'Writes image prompts in six layers, subject, composition, lighting, material, colour and technical, then assembles them into one dense block ready to paste.',
+    who: 'Product and character work where the same look has to repeat across a series.',
+    lang: 'English',
+    files: 3,
+  },
+  {
+    slug: 'ugc-avatar-builder',
+    name: 'ugc-avatar-builder',
+    does:
+      'Writes image prompts for creator style avatars, engineered so the frame reads as a person filming at home and not as an ad.',
+    who: 'Paid social teams who need creator style stills at volume.',
+    lang: 'English',
+    files: 3,
+  },
+  {
+    slug: 'dublagem',
+    name: 'dublagem',
+    does:
+      'Dubs a video into as many languages as you ask, one ElevenLabs job per language, cloning the original voice and confirming the credit cost before it spends anything.',
+    who: 'Anyone sitting on a finished video and an audience that speaks something else.',
+    lang: 'Portuguese',
+    files: 3,
+    note:
+      'Reads the API key from your environment. There is no key in the file, and it declares MIT in its own header.',
+  },
+  {
+    slug: 'higgsfield',
+    name: 'higgsfield',
+    does:
+      'An operating manual for the Higgsfield command line: read the model parameters before guessing them, check the balance, upload the media, wait for the job.',
+    who: 'Agents that keep inventing flags which do not exist.',
+    lang: 'English',
+    files: 2,
+    note:
+      'This documents a tool somebody else builds, so it ages faster than the rest. Confirm the model tables against the CLI before you trust them.',
+  },
+];
+
+const total = skills.length;
+const pad = (n: number) => String(n).padStart(2, '0');
+---
+
+<BaseLayout
+  title="Skills: Download the Claude Skills I Actually Run"
+  description={`${total} skills from my own Claude Code library, packed as zips and cleaned before release: continuous flight landing pages, explainer video pipelines, dubbing and prompt builders.`}
+  current="skills"
+  latestHref={latestHref}
+>
+  <section class="container sk-head">
+    <p class="mono" style="color:var(--c-accent)">§ · The library</p>
+    <h1 class="sk-title" data-reveal="split">
+      <span class="split-line">Skills,</span>
+      <span class="split-line" style="--reveal-delay: 80ms"><em>free to take.</em></span>
+    </h1>
+    <p class="sk-dek">
+      I counted 184 skills on this machine today. Most are not mine to hand out:
+      installed packages, other people's methods, files with a client name inside.
+      Eleven are mine and came out clean. They are here, as zips. Each one is the
+      same folder my agent reads on a working day, not a demo written for a page.
+    </p>
+    <div class="sk-meta mono" data-reveal>
+      <span>{total} skills</span>
+      <span>·</span>
+      <span>Read file by file</span>
+      <span>·</span>
+      <span>Cleaned before release</span>
+    </div>
+  </section>
+
+  <section class="container sk-grid-wrap">
+    <div class="sk-grid">
+      {skills.map((s, i) => (
+        <article class="sk-card">
+          <p class="mono sk-card__idx">
+            <span>{pad(i + 1)}</span>
+            <span>·</span>
+            <span>{s.lang}</span>
+          </p>
+          <h2 class="sk-card__title">{s.name}</h2>
+          <p class="sk-card__desc">{s.does}</p>
+          <p class="sk-card__who">
+            <span class="mono sk-card__label">For</span>
+            {s.who}
+          </p>
+          {s.note ? <p class="sk-card__note">{s.note}</p> : null}
+          <div class="sk-card__foot">
+            <a class="sk-dl" href={`/skills/${s.slug}.zip`} download>
+              <span>Download zip</span>
+              <span class="arr">&rarr;</span>
+            </a>
+            <span class="mono sk-card__size">
+              {s.files} files{zipKb(s.slug) === null ? '' : ` · ${zipKb(s.slug)} KB`}
+            </span>
+          </div>
+        </article>
+      ))}
+    </div>
+  </section>
+
+  <section class="container sk-block">
+    <p class="mono" style="color:var(--c-accent)">§ · How to install</p>
+    <div class="sk-block__grid">
+      <div>
+        <h2 class="sk-h2">Two lines in a terminal.</h2>
+        <p class="sk-body">
+          Every zip holds one folder with a SKILL.md inside and a README that says
+          what the skill needs before it can run. Unzip it where your agent looks
+          for skills, then start a new session so it gets picked up.
+        </p>
+        <p class="sk-body">
+          Some of these only write text and cost nothing. Others drive a
+          generation tool and spend real credits. The README of each one says
+          which is which. Read it before you let an agent loose.
+        </p>
+      </div>
+      <pre class="sk-code"><code># available in every project
+unzip world-film.zip -d ~/.claude/skills/
+
+# or scoped to a single repo
+unzip world-film.zip -d .claude/skills/</code></pre>
+    </div>
+  </section>
+
+  <section class="container sk-block sk-block--last">
+    <p class="mono" style="color:var(--c-accent)">§ · What came out before packing</p>
+    <div class="sk-block__grid">
+      <div>
+        <h2 class="sk-h2">A skill carries the room it was written in.</h2>
+        <p class="sk-body">
+          On a film set the camera picks up the crew reflected in a window and
+          nobody sees it until the grade. A skill file does the same thing with
+          paths, keys and client names. So I opened the 32 working files that
+          ship here, one at a time, before anything got zipped. The README in
+          each folder is the only thing I wrote fresh.
+        </p>
+      </div>
+      <ul class="sk-list">
+        <li>
+          Five generation job ids that only resolve inside my own account. The
+          prompt that regenerates them stayed in the file, so nothing was lost.
+        </li>
+        <li>
+          One client series name, in seven places across two skills. The worked
+          example stayed. It is just unnamed now.
+        </li>
+        <li>
+          The image folder of vox-skill: nine style references whose rights I
+          could not confirm, and four finished cards that belong to a client.
+        </li>
+        <li>
+          No API key was found in any of them, and none is needed to read them.
+          The one skill that calls a paid API reads its key from your machine.
+        </li>
+      </ul>
+    </div>
+    <p class="sk-body sk-limit">
+      What I did not check: whether any of this is already published by somebody
+      else. I did not run that search. And there is no license file in the zips,
+      so take this as the permission: use them, change them, ship with them.
+    </p>
+  </section>
+</BaseLayout>
+
+<style>
+  .sk-head { margin-top: var(--s-9, 96px); }
+  .sk-title {
+    font-family: var(--font-serif);
+    font-size: clamp(48px, 8vw, 110px);
+    line-height: 0.98;
+    letter-spacing: -0.03em;
+    font-weight: 400;
+    margin: 18px 0 22px;
+  }
+  .sk-title em { font-style: italic; }
+  .sk-dek {
+    font-family: var(--font-serif);
+    font-size: clamp(19px, 2vw, 24px);
+    line-height: 1.45;
+    max-width: 62ch;
+    color: var(--c-fg-soft, var(--c-fg));
+  }
+  .sk-meta { display: flex; gap: 12px; margin-top: 22px; color: var(--c-fg-muted); }
+  .sk-grid-wrap { margin: var(--s-8, 64px) 0 var(--s-9, 96px); }
+  .sk-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+    gap: 28px;
+  }
+  .sk-card {
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid var(--c-rule);
+    padding-top: 18px;
+  }
+  .sk-card__idx { display: flex; gap: 8px; color: var(--c-fg-muted); }
+  .sk-card__title {
+    font-family: var(--font-mono);
+    font-size: clamp(18px, 1.6vw, 21px);
+    line-height: 1.2;
+    letter-spacing: -0.01em;
+    font-weight: 400;
+    margin: 12px 0 12px;
+  }
+  .sk-card__desc {
+    font-size: 15px;
+    line-height: 1.6;
+    color: var(--c-fg-soft, var(--c-fg));
+  }
+  .sk-card__who {
+    font-size: 15px;
+    line-height: 1.6;
+    color: var(--c-fg-muted);
+    margin-top: 14px;
+  }
+  .sk-card__label {
+    display: block;
+    color: var(--c-accent);
+    margin-bottom: 4px;
+  }
+  .sk-card__note {
+    font-size: 13px;
+    line-height: 1.55;
+    color: var(--c-fg-muted);
+    margin-top: 14px;
+    padding-left: 14px;
+    border-left: 1px solid var(--c-rule);
+  }
+  .sk-card__foot {
+    margin-top: auto;
+    padding-top: 22px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+  .sk-dl {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 11px 20px 11px 22px;
+    border-radius: 999px;
+    border: 1px solid var(--c-fg);
+    font-family: var(--font-mono);
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    transition: all 380ms var(--ease-editorial);
+  }
+  .sk-dl:hover {
+    background: var(--c-fg);
+    color: var(--c-bg);
+    padding-right: 26px;
+  }
+  .sk-dl .arr { transition: transform 380ms var(--ease-editorial); }
+  .sk-dl:hover .arr { transform: translateX(4px); }
+  .sk-card__size { color: var(--c-fg-muted); }
+
+  .sk-block { margin-bottom: var(--s-9, 96px); }
+  .sk-block--last { margin-bottom: var(--s-10, 128px); }
+  .sk-block__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: var(--s-7, 48px);
+    margin-top: 22px;
+    padding-top: 26px;
+    border-top: 1px solid var(--c-rule);
+  }
+  .sk-h2 {
+    font-family: var(--font-serif);
+    font-size: clamp(26px, 2.6vw, 38px);
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+    font-weight: 400;
+    margin-bottom: 18px;
+  }
+  .sk-body {
+    font-size: 16px;
+    line-height: 1.65;
+    color: var(--c-fg-muted);
+    max-width: 56ch;
+  }
+  .sk-body + .sk-body { margin-top: 14px; }
+  .sk-limit { margin-top: var(--s-6, 32px); max-width: 68ch; }
+  .sk-code {
+    font-family: var(--font-mono);
+    font-size: 13px;
+    line-height: 1.75;
+    color: var(--c-fg-soft, var(--c-fg));
+    background: var(--c-bg-elev);
+    border: 1px solid var(--c-rule);
+    padding: 22px 24px;
+    overflow-x: auto;
+    align-self: start;
+  }
+  .sk-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .sk-list li {
+    font-size: 15px;
+    line-height: 1.6;
+    color: var(--c-fg-muted);
+    padding-left: 18px;
+    border-left: 1px solid var(--c-rule);
+  }
+</style>
