@@ -3,6 +3,7 @@ id: "art-090"
 title: "Topaz Video AI vs. Everything Else: The Real Tool for Archival Footage in Commercial Production."
 description: "When a client brings you footage shot on a 2008 handycam and asks for 4K delivery, there are two options: reshoot or use Topaz Video AI. In 2026, the AI option is legitimately production-ready."
 pubDate: "2026-03-15"
+updatedDate: "2026-08-22"
 category: "Tools"
 tags:
   - "Topaz Video AI"
@@ -37,6 +38,8 @@ readTime: "8 min read"
 <h2>The Workflow in Commercial Practice</h2>
 <p>A typical archival upscaling workflow for commercial production: export the archival clips at their native resolution from the edit, run them through Topaz Video AI as a batch job, review the upscaled output against the 4K production footage in the timeline, adjust denoising and sharpening parameters if the result is over-processed or under-processed, and reintegrate. The batch processing time depends on clip length and target resolution — for a two-minute edit with three archival sequences, expect 20-40 minutes of processing time on current hardware. The manual intervention is minimal once you have your processing settings dialed in for a particular footage type.</p>
 <p>The Premiere plugin integration means you can trigger the processing from within the NLE rather than working with a separate application and re-importing files. For productions with multiple archival sequences requiring individual treatment, the round-trip time adds up. The standalone application approach is often faster for batch processing at the cost of a slightly more complex file management workflow.</p>
+
+<p>One thing nobody warns you about until the drive fills up: upscaling multiplies file size, not just resolution. A two minute archival sequence that arrived as a few hundred megabytes can leave the render as several gigabytes of ProRes, and if you are delivering multiple versions the total climbs fast. Before you start a batch, it is worth knowing what the output will actually weigh. I built a <a href="https://axenworks.com/" target="_blank" rel="noopener">video storage and recording time calculator</a> for exactly this, with the <a href="https://axenworks.com/prores-file-size-calculator/" target="_blank" rel="noopener">ProRes data rates</a> taken from Apple's own published figures rather than guessed.</p>
 
 <h2>Where It Doesn't Work</h2>
 <p>Topaz Video AI is not a solution for every archival footage problem. Extremely degraded tape transfers with significant signal corruption — dropout artifacts, color bleed, sync damage — produce inconsistent results because the restoration model is working from source data that doesn't have a coherent reference for what the scene should look like. Footage shot with a very narrow depth of field where focus is critically soft produces mixed results depending on the model and settings. And footage that is historically significant in ways where any alteration of the visual record would be inappropriate should be presented as-is, regardless of the technical capability to upscale.</p>
