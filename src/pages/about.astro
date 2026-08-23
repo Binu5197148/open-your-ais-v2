@@ -17,12 +17,12 @@ const fmtLong = (d: Date) =>
 
 <BaseLayout
   title="About"
-  description="Ulisses Balbino — film director, co-founder of Pichorra Filmes. Writing about AI from inside the production chain."
+  description="Ulisses Balbino, film director, co-founder of Pichorra Filmes. Writing about AI from inside the production chain."
   current="about"
   latestHref={latestHref}
 >
   <header class="container ab-head">
-    <p class="mono" style="color:var(--c-accent)">§ — About</p>
+    <p class="mono" style="color:var(--c-accent)">§ · About</p>
     <h1 class="ab-title" data-reveal="split">
       <span class="split-line">Fourteen years</span>
       <span class="split-line" style="--reveal-delay: 80ms">behind the</span>
@@ -31,15 +31,30 @@ const fmtLong = (d: Date) =>
   </header>
 
   <section class="container ab-split" data-reveal>
-    <img class="ab-split__img" src="/images/ulisses.jpg" alt="Ulisses Balbino — portrait" loading="eager" />
+    <img class="ab-split__img" src="/images/ulisses.jpg" alt="Ulisses Balbino, portrait" loading="eager" />
     <div class="ab-split__body">
       <p class="mono" style="color:var(--c-fg-muted)">Biography</p>
       <p class="ab-bio">
         I'm <strong>Ulisses Balbino</strong>. I've been directing commercial work
-        since 2012 and co-founded <em>Pichorra Filmes</em> in São Paulo with
-        Lisandra Barros. Composer, actor, editor, writer, director — every seat
+        since 2012 and co-founded <a href="https://www.instagram.com/pichorrafilmes/" target="_blank" rel="noopener"><em>Pichorra Filmes</em></a> in São Paulo with
+        Lisandra Barros. Composer, actor, editor, writer, director, every seat
         on a set, at some point.
       </p>
+      <p class="ab-bio">
+        Work you can go and check. I directed the Forno de Minas waffle launch,
+        <em>Combina com tudo</em>, a stop-motion manifesto film plus a series of
+        short films, creative by WMcCann, produced by Pichorra Filmes with
+        Estúdio Fuê, covered by propmark and Clube de Criação. Last year I
+        directed the Oggi Sorvetes campaign under a Netflix licence for Stranger
+        Things, nominated for Collab of the Year at the Galo Dourado Awards and
+        covered by <em>Meio &amp; Mensagem</em>. Along the way: seven campaigns
+        for Starbucks Brazil, Disney's Making of Marvel, Yamaha, Nestlé,
+        Carrefour and Benefit Cosmetics. The archive is on
+        <a href="https://www.behance.net/Ulisses_balbino" target="_blank" rel="noopener">Behance</a>
+        and the current reel is at
+        <a href="https://ulissesbalbino.com" target="_blank" rel="noopener">ulissesbalbino.com</a>.
+      </p>
+
       <p class="ab-bio">
         <em>Open Your AIs</em> is where I write about AI from inside the
         production chain. No hype, no fear-mongering, no "everything is about
@@ -51,7 +66,7 @@ const fmtLong = (d: Date) =>
         <div><span class="ab-stat__num">14</span><span class="ab-stat__lbl mono">Years directing</span></div>
         <div><span class="ab-stat__num">{total}</span><span class="ab-stat__lbl mono">Dispatches</span></div>
         <div><span class="ab-stat__num">{years}</span><span class="ab-stat__lbl mono">{years === 1 ? 'Year writing' : 'Years writing'}</span></div>
-        <div><span class="ab-stat__num">∞</span><span class="ab-stat__lbl mono">Takes rendered</span></div>
+        <div><span class="ab-stat__num">7</span><span class="ab-stat__lbl mono">Starbucks campaigns</span></div>
       </div>
     </div>
   </section>
@@ -60,7 +75,7 @@ const fmtLong = (d: Date) =>
 
   <section class="container ab-mani" data-reveal>
     <div class="hline">
-      <span class="mono">§ — A short manifesto</span>
+      <span class="mono">§ · A short manifesto</span>
       <hr />
       <span class="mono">Five points</span>
     </div>
@@ -71,11 +86,11 @@ const fmtLong = (d: Date) =>
       </li>
       <li>
         <span class="mono">02</span>
-        <p>Every industrial wave since photography has been met with a eulogy for art. Painting didn't die. Cinema didn't die. Each medium <strong>kept what the machine couldn't touch</strong> — the decision, the witness, the why.</p>
+        <p>Every industrial wave since photography has been met with a eulogy for art. Painting didn't die. Cinema didn't die. Each medium <strong>kept what the machine couldn't touch</strong>: the decision, the witness, the why.</p>
       </li>
       <li>
         <span class="mono">03</span>
-        <p>Walter Benjamin named it in 1935 — the aura of the original. What he missed: <em>aura isn't a property of objects. It's what a person chooses to see.</em> Infinite reproduction doesn't kill aura. Indifference does.</p>
+        <p>Walter Benjamin named it in 1935. The aura of the original. What he missed: <em>aura isn't a property of objects. It's what a person chooses to see.</em> Infinite reproduction doesn't kill aura. Indifference does.</p>
       </li>
       <li>
         <span class="mono">04</span>
@@ -83,7 +98,7 @@ const fmtLong = (d: Date) =>
       </li>
       <li>
         <span class="mono">05</span>
-        <p>These dispatches are field notes from inside a production chain being rewritten in real time. Written between shoots, on trains, on the edge of a render — by someone still convinced that <em>art owes nothing to the quarter's earnings.</em></p>
+        <p>These dispatches are field notes from inside a production chain being rewritten in real time. Written between shoots, on trains, on the edge of a render, by someone still convinced that <em>art owes nothing to the quarter's earnings.</em></p>
       </li>
     </ul>
   </section>
@@ -91,7 +106,7 @@ const fmtLong = (d: Date) =>
   {selectedWorks.length > 0 && (
     <section class="container ab-work" data-reveal>
       <div class="hline">
-        <span class="mono">§ — Selected writing</span>
+        <span class="mono">§ · Selected writing</span>
         <hr />
         <a class="elink mono" href="/blog/">All {total} →</a>
       </div>
@@ -111,7 +126,7 @@ const fmtLong = (d: Date) =>
 
   <section class="container ab-colo">
     <div class="hline">
-      <span class="mono">§ — Colophon</span>
+      <span class="mono">§ · Colophon</span>
       <hr />
       <span class="mono">Built with care</span>
     </div>
@@ -187,6 +202,15 @@ const fmtLong = (d: Date) =>
     margin-top: 20px;
   }
   .ab-bio strong { font-weight: 500; color: var(--c-accent); }
+  /* Links de identidade. Sem marcacao visivel ninguem percebe que existem,
+     e o ponto deles e justamente serem clicados e conferidos. */
+  .ab-bio a {
+    color: inherit;
+    text-decoration: none;
+    border-bottom: 1px solid var(--c-fg-muted);
+    transition: border-color .2s, color .2s;
+  }
+  .ab-bio a:hover { color: var(--c-accent); border-bottom-color: var(--c-accent); }
   .ab-bio em { font-style: italic; font-variation-settings: 'opsz' 144, 'SOFT' 100, 'WONK' 1; }
 
   .ab-stats {
