@@ -9,6 +9,7 @@ interface Props {
   image?: string;
   article?: boolean;
   pubDate?: Date;
+  updatedDate?: Date;
   noindex?: boolean;
   current?: 'home' | 'dispatches' | 'workflows' | 'cases' | 'skills' | 'latest' | 'about' | 'contact';
   latestHref?: string;
@@ -20,6 +21,7 @@ const {
   image,
   article,
   pubDate,
+  updatedDate,
   noindex,
   current,
   latestHref,
@@ -36,6 +38,7 @@ const {
       image={image}
       article={article}
       pubDate={pubDate}
+      updatedDate={updatedDate}
       noindex={noindex}
     />
   </head>
