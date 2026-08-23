@@ -17,12 +17,6 @@ author: "Ulisses Balbino"
 readTime: "6 min read"
 ---
 
-<!-- Published Jul 28, 2026. Sources verified before publication:
-- Qwen-Image-3.0 release date (Jul 21, 2026), 4.5k-token prompt ceiling, dense text / layout / multilingual typography targeting, and the 10-pixel legible-text claim: Unite.AI, Decrypt, BigGo Finance, digitalapplied, ai-tldr, and RITS (NYU Shanghai) coverage, Jul 2026.
-- Absence of open weights, benchmark scores, parameter count, model card, license, and technical report at launch, and Qwen Chat as the only access route with no public API at announcement: Unite.AI ("Alibaba Launches Qwen-Image-3.0 Without Benchmarks or Weights"), corroborated by digitalapplied and RITS.
-- Qwen-Image 1.0 shipping 20B weights under Apache 2.0 in August 2025 with a same-day technical report, and Qwen-Image-2.0 shipping its own technical report: Unite.AI, RITS.
-NOTE ON FRAMING: the 10-pixel text-rendering figure is Alibaba's own claim. With no published benchmark or weights, it is not independently verifiable, and this article treats it as a claim rather than a measured result. That distinction is the subject of the piece. -->
-
 <p>On July 21, 2026, Alibaba's Qwen team released Qwen-Image-3.0, and almost everything I normally use to evaluate a model is missing from the release. No benchmark score. No parameter count. No technical report. No model card. No downloadable weights. Choosing the best AI image generator for a job with a client's name on it is part of my work, and this is the first significant release in a long time where the most informative thing is the paperwork that did not ship.</p>
 
 <p>What did ship is a serious claim. Qwen-Image-3.0 accepts prompts of up to 4.5k tokens, roughly four and a half times what the previous generations accepted, and the team says that length is what lets it compose a newspaper page, a three by three infographic grid, or a nested interface mockup in a single pass. It aims straight at the part of image generation that has resisted automation the longest: dense text, real layouts, formulas, multilingual typography, information graphics. Alibaba says it renders type as small as ten pixels legibly.</p>
@@ -77,3 +71,12 @@ NOTE ON FRAMING: the 10-pixel text-rendering figure is Alibaba's own claim. With
 <p>This is what the amplifier argument actually means when it stops being a slogan. The tool amplifies what you bring to it. Bring a decision you can defend and it executes that decision faster than any team you could hire. Bring a claim you have not checked and it will render that claim beautifully, in crisp ten-pixel type, in as many languages as you like, and your name will be on it.</p>
 
 <p>So my answer on the best AI image generator has not changed shape in three years, only in detail. The best one is the one whose behavior you can predict on the day the client asks for a change. Right now, Qwen-Image-3.0 might be the strongest text renderer available. It might also be a demo. Alibaba has chosen, for the moment, not to let anyone tell the difference, and until that changes, that is the review.</p>
+
+<section class="article-note note-sources">
+<h2>Sources and verification</h2>
+<p>Published Jul 28, 2026. Sources verified before publication:
+- Qwen-Image-3.0 release date (Jul 21, 2026), 4.5k-token prompt ceiling, dense text / layout / multilingual typography targeting, and the 10-pixel legible-text claim: Unite.AI, Decrypt, BigGo Finance, digitalapplied, ai-tldr, and RITS (NYU Shanghai) coverage, Jul 2026.
+- Absence of open weights, benchmark scores, parameter count, model card, license, and technical report at launch, and Qwen Chat as the only access route with no public API at announcement: Unite.AI ("Alibaba Launches Qwen-Image-3.0 Without Benchmarks or Weights"), corroborated by digitalapplied and RITS.
+- Qwen-Image 1.0 shipping 20B weights under Apache 2.0 in August 2025 with a same-day technical report, and Qwen-Image-2.0 shipping its own technical report: Unite.AI, RITS.
+NOTE ON FRAMING: the 10-pixel text-rendering figure is Alibaba's own claim. With no published benchmark or weights, it is not independently verifiable, and this article treats it as a claim rather than a measured result. That distinction is the subject of the piece.</p>
+</section>

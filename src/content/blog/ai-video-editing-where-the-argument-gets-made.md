@@ -17,10 +17,6 @@ author: "Ulisses Balbino"
 readTime: "7 min read"
 ---
 
-<!-- Corrected Aug 16, 2026: biographical accuracy. Ulisses Balbino was an actor and writer on the Ronald Rios Talk Show, not its director or producer. Earlier wording claimed a directing and producing credit he does not hold and it has been fixed here. -->
-
-<!-- Facts verified August 12, 2026 against independent sources: 79th Locarno Film Festival dates (5-15 August 2026) per locarnofestival.ch press releases, en.wikipedia.org/wiki/79th_Locarno_Film_Festival and screendaily.com; Locarno Pro 2026 running 6-11 August with the theme "Films vs. Formula: Algorithms, Consolidation and Creative Freedom" and the 15th edition of its StepIn think tank, per hollywoodreporter.com ("Locarno Pro Takes on the Big Issues", 2026) and deadline.com ("Locarno Gets Down To Business With Talk On AI, Algorithms, Investment", August 2026); "more than 1,000 industry professionals" figure per Deadline; Giona A. Nazzaro on liberating spectators in the age of the algorithm per deadline.com ("Locarno Film Festival Head Giona A. Nazzaro Takes On The Algorithm", August 2026); Edgar Pera's "Asphalt Guerrilla" premiering Out of Competition on 10 August 2026 per hollywoodreporter.com and micropsiacine.com; Adobe Premiere AI Assistant announced in public beta on 18 June 2026 per news.adobe.com; Premiere 26.0 AI Object Mask per provideocoalition.com and postperspective.com (Sundance 2026 cycle); Kling 3.0 native 4K and 15-second clips per the Kuaishou/Kling 3.0 launch release (February 2026). No claim here about any tool's performance is reported as fact beyond these sources; everything else is first-hand opinion from my own edits. -->
-
 <p>Locarno Pro, the industry arm of the 79th Locarno Film Festival, closed on August 11 after six days built around a single theme: films versus formula, algorithms, consolidation and creative freedom. More than a thousand industry professionals were there. The 15th edition of its StepIn think tank spent a full day on how power, data and AI are reshaping independent cinema. Down the road, on August 10, a film assembled partly from AI-generated imagery premiered Out of Competition at the same festival. If you want to understand AI video editing in 2026, that week is the whole picture in miniature.</p>
 
 <p>Here is what struck me, watching the coverage from São Paulo while cutting a job of my own.</p>
@@ -91,3 +87,13 @@ readTime: "7 min read"
 <p>The people I see doing the best work with AI right now are not the ones with the best prompts. They are the ones who already knew what they were trying to say and picked up a faster way to say it. The tool found them mid-sentence.</p>
 
 <p>Everything upstream of the timeline is getting cheaper and will keep getting cheaper. The timeline is where it becomes a film. That has not moved, and this week in Locarno, a thousand people argued about the algorithm while somebody quietly proved it in a theater down the road.</p>
+
+<section class="article-note note-correction">
+<h2>Correction</h2>
+<p>Corrected Aug 16, 2026: biographical accuracy. Ulisses Balbino was an actor and writer on the Ronald Rios Talk Show, not its director or producer. Earlier wording claimed a directing and producing credit he does not hold and it has been fixed here.</p>
+</section>
+
+<section class="article-note note-sources">
+<h2>Sources and verification</h2>
+<p>Facts verified August 12, 2026 against independent sources: 79th Locarno Film Festival dates (5-15 August 2026) per locarnofestival.ch press releases, en.wikipedia.org/wiki/79th_Locarno_Film_Festival and screendaily.com; Locarno Pro 2026 running 6-11 August with the theme "Films vs. Formula: Algorithms, Consolidation and Creative Freedom" and the 15th edition of its StepIn think tank, per hollywoodreporter.com ("Locarno Pro Takes on the Big Issues", 2026) and deadline.com ("Locarno Gets Down To Business With Talk On AI, Algorithms, Investment", August 2026); "more than 1,000 industry professionals" figure per Deadline; Giona A. Nazzaro on liberating spectators in the age of the algorithm per deadline.com ("Locarno Film Festival Head Giona A. Nazzaro Takes On The Algorithm", August 2026); Edgar Pera's "Asphalt Guerrilla" premiering Out of Competition on 10 August 2026 per hollywoodreporter.com and micropsiacine.com; Adobe Premiere AI Assistant announced in public beta on 18 June 2026 per news.adobe.com; Premiere 26.0 AI Object Mask per provideocoalition.com and postperspective.com (Sundance 2026 cycle); Kling 3.0 native 4K and 15-second clips per the Kuaishou/Kling 3.0 launch release (February 2026). No claim here about any tool's performance is reported as fact beyond these sources; everything else is first-hand opinion from my own edits.</p>
+</section>

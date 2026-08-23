@@ -17,12 +17,6 @@ author: "Ulisses Balbino"
 readTime: "6 min read"
 ---
 
-<!-- Published Jul 22, 2026. Settlement approval, judge, amounts, fair use ruling, and claim rate verified against TechCrunch, Engadget, Fortune, Reuters/US News, Benzinga, and Publishing Perspectives coverage of the July 20, 2026 final approval.
-
-Corrected Jul 25, 2026: the class is measured in works, not people. The ~91 percent figure refers to about 440,000 of roughly 482,000 works claimed, not to a share of authors and publishers, and "half a million writers" has been changed to half a million works throughout.
-
-Corrected Aug 16, 2026: biographical accuracy. Ulisses Balbino was an actor and writer on the talk show referenced here, not its director or producer. -->
-
 <h2>The largest copyright settlement in history is now final</h2>
 
 <p>On July 20, 2026, Judge Araceli Martínez-Olguín of the Northern District of California gave final approval to the Anthropic settlement: 1.5 billion dollars to authors and publishers whose books were taken from pirate libraries while Anthropic built Claude. Roughly 500,000 works. About 3,000 dollars each. It is the largest settlement in the history of United States copyright law, and as of this week it is no longer a proposal. It is a check.</p>
@@ -62,3 +56,10 @@ Corrected Aug 16, 2026: biographical accuracy. Ulisses Balbino was an actor and 
 <p>That is also why I keep using these tools without embarrassment. AI amplifies what you hand it. Hand it nothing and it amplifies nothing. On my own jobs, Claude drafts, structures, and accelerates, and every output is still shaped by decisions that come from the years I spent making things the slow way, like Netflix's tools are shaped by the productions around them, something I unpacked when <a href="/blog/netflix-300-ai-titles-infrastructure-what-it-means/">Netflix disclosed its 300 AI titles</a>. The tool did not replace the author in either case. It made the author the scarcest input in the system.</p>
 
 <p>So read the settlement the way a working creator should. Not as the day authors lost, and not as the day they were made whole. As the day the biggest AI ledger yet was opened and the first line item, entered by a federal judge, was half a million works. The price was wrong. The accounting was right. And every negotiation that matters now starts from that line.</p>
+
+<section class="article-note note-sources">
+<h2>Sources and verification</h2>
+<p>Published Jul 22, 2026. Settlement approval, judge, amounts, fair use ruling, and claim rate verified against TechCrunch, Engadget, Fortune, Reuters/US News, Benzinga, and Publishing Perspectives coverage of the July 20, 2026 final approval.</p>
+<p>Corrected Jul 25, 2026: the class is measured in works, not people. The ~91 percent figure refers to about 440,000 of roughly 482,000 works claimed, not to a share of authors and publishers, and "half a million writers" has been changed to half a million works throughout.</p>
+<p>Corrected Aug 16, 2026: biographical accuracy. Ulisses Balbino was an actor and writer on the talk show referenced here, not its director or producer.</p>
+</section>

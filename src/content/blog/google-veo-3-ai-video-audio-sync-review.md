@@ -11,7 +11,7 @@ tags:
   - "Audio"
   - "Production"
 heroImage: "https://images.unsplash.com/photo-1775900047310-90dcf9b34828?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHwyMnx8dXJiYW4lMjBjaW5lbWF0aWMlMjBuaWdodHxlbnwxfDB8fHwxNzc2NzI0MjczfDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85&sat=-100&con=10"
-author: "Open Your AIs"
+author: "Ulisses Balbino"
 readTime: "7 min read"
 ---
 

@@ -17,8 +17,6 @@ readTime: "6 min read"
 
 <h2>The disclosure</h2>
 
-<!-- Corrected Jul 23, 2026 against the official Q2 2026 shareholder letter and earnings call transcript: 300 titles used GenAI across the production lifecycle (post-production was the largest concentration, not the whole); removed a "10 percent better" quote that belongs to an April 2025 call and was aspirational, not a result; "infrastructure" reframed as the author's word, since Sarandos never used it; "The American Experiment" depicts Revolutionary-era America, not 1970 Washington D.C. -->
-
 <p>On July 16, Netflix released its second-quarter 2026 shareholder letter alongside an earnings call that covered the usual ground: revenue, the advertising tier, the gaming expansion. Buried in that same call, co-CEO Ted Sarandos said something that will matter longer than any quarterly figure. He disclosed that roughly 300 Netflix titles used generative AI workflows during 2026, with the largest concentration of that work in post-production. Then he said this: "Gen AI is scaling quickly across the entire creative process, from concept to pre-vis through post and delivery."</p>
 
 <p>He gave a specific example. Seventeen minutes of AI-enhanced footage in "The American Experiment" were completed twice as fast and at half the cost of previous options. The shareholder letter lists what those minutes covered: enhanced crowds, historical battle sequences, and worldbuilding establishing shots.</p>
@@ -72,3 +70,8 @@ readTime: "6 min read"
 <p>Netflix's 300 titles are the render finishing. The question of what the frame needs to say is still yours.</p>
 
 <p>That question was never going to be answered by infrastructure. It was always going to be answered by whoever showed up with something to say. That part did not change on July 16. It just got quieter about all the excuses that used to stand between an author and the work.</p>
+
+<section class="article-note note-correction">
+<h2>Correction</h2>
+<p>Corrected Jul 23, 2026 against the official Q2 2026 shareholder letter and earnings call transcript: 300 titles used GenAI across the production lifecycle (post-production was the largest concentration, not the whole); removed a "10 percent better" quote that belongs to an April 2025 call and was aspirational, not a result; "infrastructure" reframed as the author's word, since Sarandos never used it; "The American Experiment" depicts Revolutionary-era America, not 1970 Washington D.C.</p>
+</section>

@@ -11,7 +11,7 @@ tags:
   - "Filmmaking"
   - "AI Direction"
 heroImage: "https://images.unsplash.com/photo-1761229661007-ff73d38a647c?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHwyM3x8dGhlYXRlciUyMHN0YWdlJTIwZHJhbWF0aWMlMjBsaWdodGluZ3xlbnwxfDB8fHwxNzc2NzI0MjYyfDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85&sat=-100&con=10"
-author: "Open Your AIs"
+author: "Ulisses Balbino"
 readTime: "10 min read"
 featured: true
 ---

@@ -16,8 +16,6 @@ author: "Ulisses Balbino"
 readTime: "6 min read"
 ---
 
-<!-- Published Jul 23, 2026. Policy details verified against TechCrunch (Jul 20, 2026), Android Headlines, and YouTube's own creator communications from Matt Halprin, head of trust and safety. -->
-
 <h2>What did YouTube change about AI monetization?</h2>
 
 <p>On July 16, 2026, Matt Halprin, YouTube's head of trust and safety, posted a video explaining what the platform's inauthentic content policy actually covers. TechCrunch and other outlets picked it apart over the following days. The clarification names three categories of content that cannot earn money in the YouTube Partner Program: generic or repetitive videos built from templates with minimal variation, content designed to be off-putting or emotionally manipulative, and AI personas presenting themselves as experts on health, finance, legal, or political topics.</p>
@@ -59,3 +57,8 @@ readTime: "6 min read"
 <p>I have spent my career in rooms where the difference between work that gets paid and work that does not came down to whether somebody stood behind it. A director answers for the cut. An editor answers for the rhythm. That accountability was always the product; the footage was just the delivery mechanism.</p>
 
 <p>AI collapsed the cost of footage to almost nothing, and for two years the feed filled with delivery mechanisms carrying no product. This clarification is the largest video platform on earth saying it will no longer pay for that. The machine amplifies whatever you hand it. Hand it a point of view and the amplification is worth funding. Hand it nothing and you now have a named policy category. The tools keep getting better. The test keeps getting simpler. Be the author, visibly, or the check goes to someone who is.</p>
+
+<section class="article-note note-sources">
+<h2>Sources and verification</h2>
+<p>Published Jul 23, 2026. Policy details verified against TechCrunch (Jul 20, 2026), Android Headlines, and YouTube's own creator communications from Matt Halprin, head of trust and safety.</p>
+</section>

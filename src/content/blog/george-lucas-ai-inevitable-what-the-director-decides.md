@@ -17,7 +17,6 @@ readTime: "6 min read"
 ---
 
 <!-- Published Jul 15, 2026 -->
-<!-- Correction (Jul 15, 2026): the WGA bullet originally read that studios "refused to pay writers for AI training." The ratified 2026 WGA MBA instead requires studios to notify the guild and open discussion over remuneration when they license writers' work to train commercial AI. Corrected to match the actual terms. The Lucas quotes are verified against Variety, PC Gamer, GamesRadar, NME, and PetaPixel coverage of the July 14, 2026 interview. -->
 
 <h2>The quote and what it does</h2>
 
@@ -62,3 +61,8 @@ readTime: "6 min read"
 <p>A model can generate a hundred takes of the same scene. It takes someone who knows what the scene is for to identify which one is right. The algorithm optimizes for plausibility. The director optimizes for something closer to truth, which is a different target. Sometimes those targets are the same. Often they are not, and the gap between them is where the actual work happens.</p>
 
 <p>Lucas built ILM because he had a decision to make and no tool that could execute it. The lesson from that story is not "technology advances, get on board." It is "know what decision you are trying to make, then find or build the tool that serves it." That is still the job. The tool does not change that. It never did.</p>
+
+<section class="article-note note-correction">
+<h2>Correction</h2>
+<p>Correction (Jul 15, 2026): the WGA bullet originally read that studios "refused to pay writers for AI training." The ratified 2026 WGA MBA instead requires studios to notify the guild and open discussion over remuneration when they license writers' work to train commercial AI. Corrected to match the actual terms. The Lucas quotes are verified against Variety, PC Gamer, GamesRadar, NME, and PetaPixel coverage of the July 14, 2026 interview.</p>
+</section>

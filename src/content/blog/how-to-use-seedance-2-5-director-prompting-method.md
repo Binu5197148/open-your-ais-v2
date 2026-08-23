@@ -18,10 +18,6 @@ author: "Ulisses Balbino"
 readTime: "6 min read"
 ---
 
-<!-- Corrected Aug 16, 2026: biographical accuracy. Ulisses Balbino was an actor and writer on the Ronald Rios Talk Show, not its director or producer. Earlier wording claimed a directing and producing credit he does not hold and it has been fixed here. -->
-
-<!-- Facts verified August 9, 2026 against independent sources: BytePlus/Lumina and Anikuku (release timeline), kie.ai ("Seedance 2.5 Release: What ByteDance Just Shipped" and "What Is Seedance 2.5?"), Morphic model page (30-second native pass, up to 50 multimodal references broken down as 30 images / 10 video clips / 10 audio tracks, 10+ languages, white-model and green-screen editing, API and Experience Center availability August 7, 2026), XenoSpectrum ("Seedance 2.5 Extends Generated Video to 30 Seconds, Adds 50 References and Partial Editing"), EvoLink (August 7 API status), Apiframe (added Seedance 2.5 to its unified API on August 7, 2026), and Higgsfield's own model page and blog for platform availability and listed credit pricing. All sources independently confirm: announced June 23, 2026 at the Volcano Engine FORCE conference; model released July 31, 2026; public developer API and Experience Center from August 7, 2026; 30-second single-pass generation; region-level (partial) editing; native audio generated in the same pass. Credit pricing cited is Higgsfield's own published pricing for its platform, not a ByteDance API price. No claim is made here about output benchmarks or model rankings. -->
-
 <p>On August 7, 2026, ByteDance opened the public developer API for Seedance 2.5, and the model showed up inside Higgsfield, which is where I actually work. That date matters more than the launch date. A model released on July 31 is a headline. A model you can reach from your own pipeline is a tool.</p>
 
 <p>Since then the search results have filled up with tutorials, and almost all of them teach the same thing: which buttons produce a nice clip. I want to write down something else. Not the button order. The method a director uses to decide what to ask for in the first place, and the places where this specific model rewards you or quietly punishes you.</p>
@@ -83,3 +79,13 @@ readTime: "6 min read"
 <p>Everything starts with you. The model is the second thing that happens.</p>
 
 <p>If you want the longer argument about what an unbroken 30-second take does to the craft itself, I wrote that when the model first appeared, in <a href="/blog/seedance-2-5-30-second-4k-single-pass-director-take/">a director's read on the single-pass take</a>. And if you want the surrounding workflow, which models I reach for and when, that is in my <a href="/blog/higgsfield-ai-tutorial-how-a-director-uses-it-on-real-jobs/">Higgsfield tutorial from real jobs</a>.</p>
+
+<section class="article-note note-correction">
+<h2>Correction</h2>
+<p>Corrected Aug 16, 2026: biographical accuracy. Ulisses Balbino was an actor and writer on the Ronald Rios Talk Show, not its director or producer. Earlier wording claimed a directing and producing credit he does not hold and it has been fixed here.</p>
+</section>
+
+<section class="article-note note-sources">
+<h2>Sources and verification</h2>
+<p>Facts verified August 9, 2026 against independent sources: BytePlus/Lumina and Anikuku (release timeline), kie.ai ("Seedance 2.5 Release: What ByteDance Just Shipped" and "What Is Seedance 2.5?"), Morphic model page (30-second native pass, up to 50 multimodal references broken down as 30 images / 10 video clips / 10 audio tracks, 10+ languages, white-model and green-screen editing, API and Experience Center availability August 7, 2026), XenoSpectrum ("Seedance 2.5 Extends Generated Video to 30 Seconds, Adds 50 References and Partial Editing"), EvoLink (August 7 API status), Apiframe (added Seedance 2.5 to its unified API on August 7, 2026), and Higgsfield's own model page and blog for platform availability and listed credit pricing. All sources independently confirm: announced June 23, 2026 at the Volcano Engine FORCE conference; model released July 31, 2026; public developer API and Experience Center from August 7, 2026; 30-second single-pass generation; region-level (partial) editing; native audio generated in the same pass. Credit pricing cited is Higgsfield's own published pricing for its platform, not a ByteDance API price. No claim is made here about output benchmarks or model rankings.</p>
+</section>

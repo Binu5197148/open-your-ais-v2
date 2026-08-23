@@ -10,8 +10,9 @@ tags:
   - "AI Content"
   - "Search"
 heroImage: "https://images.unsplash.com/photo-1652642731499-fe41271dfa27?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHwxNHx8dXJiYW4lMjBjaW5lbWF0aWMlMjBuaWdodHxlbnwxfDB8fHwxNzg2NTM2OTUzfDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85&sat=-100&con=10"
-author: "Open Your AIs"
+author: "Ulisses Balbino"
 readTime: "6 min read"
+noindex: true
 ---
 
 <h2>The Problem</h2>

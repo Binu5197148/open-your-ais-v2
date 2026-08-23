@@ -16,8 +16,6 @@ author: "Ulisses Balbino"
 readTime: "6 min read"
 ---
 
-<!-- Facts verified August 8, 2026. Core update (up to seven image references, voice cloning, native 1080p, broader availability) confirmed independently by: TechTimes (August 2, 2026, "Grok Imagine Video Update Adds 1080p, Voice Cloning, and Seven-Reference Scene Control"); CryptoBriefing ("Grok Imagine upgrades bring voice consistency, native 1080p video, and multi-reference support to xAI's creative toolkit"); TestingCatalog ("xAI adds character references and 1080p to Imagine Video 1.5"); AIBase News ("xAI upgrades Imagine Video 1.5: New Image and Voice Reference Features, and Native 1080p Video Generation"). Base model Imagine Video 1.5 launched June 2026; multi-reference/1080p rollout confirmed as August 1, 2026. Access via SuperGrok Heavy/Plus and xAI API (grok-imagine-video-1.5 model). -->
-
 <p>On August 1, 2026, xAI updated Grok Imagine Video 1.5 with a feature that several AI coverage outlets called a breakthrough in character consistency: up to seven image references per generation, each one locking a different visual element into the shot. A face, a location, an object, a lighting style. Seven separate locks, all active at once. The update also added native 1080p output and voice cloning tied to character identity, and opened access across SuperGrok subscribers and the xAI API.</p>
 
 <p>The coverage was enthusiastic. Most of it described what the feature does. I want to describe what it means, specifically for anyone who has spent time inside a production before any AI was involved.</p>
@@ -69,3 +67,8 @@ readTime: "6 min read"
 <p>The amplifier thesis that I return to when I think about AI tools is this: you feed a weak idea into a capable model and you get a capable version of a weak idea. You feed a strong idea into the same model and you get something worth showing people. Seven references does not change the thesis. It makes the capable version of your idea easier to produce at scale. The idea, the selection of which seven things to lock, and the judgment about when to unlock them, those are still yours.</p>
 
 <p>That is not a small thing to hold onto. It is the whole job.</p>
+
+<section class="article-note note-sources">
+<h2>Sources and verification</h2>
+<p>Facts verified August 8, 2026. Core update (up to seven image references, voice cloning, native 1080p, broader availability) confirmed independently by: TechTimes (August 2, 2026, "Grok Imagine Video Update Adds 1080p, Voice Cloning, and Seven-Reference Scene Control"); CryptoBriefing ("Grok Imagine upgrades bring voice consistency, native 1080p video, and multi-reference support to xAI's creative toolkit"); TestingCatalog ("xAI adds character references and 1080p to Imagine Video 1.5"); AIBase News ("xAI upgrades Imagine Video 1.5: New Image and Voice Reference Features, and Native 1080p Video Generation"). Base model Imagine Video 1.5 launched June 2026; multi-reference/1080p rollout confirmed as August 1, 2026. Access via SuperGrok Heavy/Plus and xAI API (grok-imagine-video-1.5 model).</p>
+</section>

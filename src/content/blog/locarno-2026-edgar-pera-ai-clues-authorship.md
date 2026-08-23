@@ -16,8 +16,6 @@ author: "Ulisses Balbino"
 readTime: "6 min read"
 ---
 
-<!-- Correction 2026-08-12: (1) The EU AI Act entered into force on 1 August 2024; what took effect on 2 August 2026 is the application of its Article 50 transparency obligations. The original text said the Act "came into force August 2" and has been corrected. (2) Added Pêra's own counterpoint about deliberately hiding the AI in some moments, from the same Hollywood Reporter interview, which the original piece omitted. (3) Replaced a broken hero image URL. -->
-
 <p>This week, the 79th Locarno Film Festival is running in Locarno, Switzerland. August 5 through 15. In its Out of Competition program, there is a film by Portuguese director Edgar Pêra called "Asphalt Guerrilla." It mixes real archival footage, Pêra's personal history, and AI-generated imagery to revisit Portugal's FP-25, the Forças Populares 25 de Abril, an armed underground organization that carried out bombings and bank robberies between 1980 and 1987. At the festival, Pêra told journalists he always tries to leave clues for what was AI-made.</p>
 
 <p>That sentence stopped me. Not because it is unusual in ethical terms. Because it is unusual in directorial ones.</p>
@@ -75,3 +73,12 @@ readTime: "6 min read"
 <p>The Locarno industry program this week spent its sessions asking whether AI leaves room for creative freedom. The answer was playing in a theater down the road. A filmmaker who has spent decades asking what an image is took the newest image-making tool available and made it answer to his argument, not his argument answer to the tool.</p>
 
 <p>He fed it a rich idea. It amplified a rich idea. The picking of what to show, how to show it, and whether to let you see the seam was his. That part does not get generated. That part is the film.</p>
+
+<section class="article-note note-correction">
+<h2>Correction</h2>
+<p>Correction 2026-08-12: (1) The EU AI Act entered into force on 1 August 2024; what took effect on 2 August 2026 is the application of its Article 50 transparency obligations. The original text said the Act "came into force August 2" and has been corrected.</p>
+<ol>
+<li>Added Pêra's own counterpoint about deliberately hiding the AI in some moments, from the same Hollywood Reporter interview, which the original piece omitted.</li>
+<li>Replaced a broken hero image URL.</li>
+</ol>
+</section>

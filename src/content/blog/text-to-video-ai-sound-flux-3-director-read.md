@@ -18,10 +18,6 @@ author: "Ulisses Balbino"
 readTime: "6 min read"
 ---
 
-<!-- Published Jul 25, 2026. FLUX 3 launch date, architecture, variant availability, and early access partner list verified against Black Forest Labs' own announcement on GlobeNewswire (Jul 23, 2026). The 20-second native-audio specification verified against VentureBeat, The Decoder, Decrypt, and TechTimes. Sora shutdown dates verified against The Decoder and TechCrunch.
-
-Corrected Jul 27, 2026, by the daily fact-check pass: the article originally stated FLUX 3 Video outputs "up to 20 seconds at 720p" and built the comparison paragraph on that figure. Black Forest Labs has published no output resolution ceiling for FLUX 3 Video. The 720p figure comes from its human-preference benchmark, which used 10-second clips at 720p (confirmed against The Decoder, MarkTechPost, and TestingCatalog). The two affected sentences were rewritten to attribute 720p to the benchmark rather than to the model's output specification. The argument, that sound matters more than resolution, is unchanged. -->
-
 <h2>What does FLUX 3 change about text to video AI?</h2>
 
 <p>On July 23, 2026, Black Forest Labs announced FLUX 3, and the specification that matters is not the one in the headline. Text to video AI in this model arrives with its own sound. FLUX 3 Video generates clips of up to 20 seconds in a single generation, and the dialogue, the effects, and the room ambience are produced in the same pass as the picture, not bolted on afterward.</p>
@@ -71,3 +67,9 @@ Corrected Jul 27, 2026, by the daily fact-check pass: the article originally sta
 <p>The open-weight release later this year is when this genuinely changes for people working outside the partner list. That is the version worth preparing for, because that is the version that ends up in everyone's pipeline.</p>
 
 <p>The models keep getting better at filling rooms. None of them has learned what a room is for. That question still walks in with a person, and it is still the whole job.</p>
+
+<section class="article-note note-sources">
+<h2>Sources and verification</h2>
+<p>Published Jul 25, 2026. FLUX 3 launch date, architecture, variant availability, and early access partner list verified against Black Forest Labs' own announcement on GlobeNewswire (Jul 23, 2026). The 20-second native-audio specification verified against VentureBeat, The Decoder, Decrypt, and TechTimes. Sora shutdown dates verified against The Decoder and TechCrunch.</p>
+<p>Corrected Jul 27, 2026, by the daily fact-check pass: the article originally stated FLUX 3 Video outputs "up to 20 seconds at 720p" and built the comparison paragraph on that figure. Black Forest Labs has published no output resolution ceiling for FLUX 3 Video. The 720p figure comes from its human-preference benchmark, which used 10-second clips at 720p (confirmed against The Decoder, MarkTechPost, and TestingCatalog). The two affected sentences were rewritten to attribute 720p to the benchmark rather than to the model's output specification. The argument, that sound matters more than resolution, is unchanged.</p>
+</section>

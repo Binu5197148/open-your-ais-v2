@@ -11,7 +11,7 @@ tags:
   - "Research"
   - "AI"
 heroImage: "https://images.unsplash.com/photo-1750395139382-26d0b314452a?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHwyMnx8Y2luZW1hJTIwY2FtZXJhJTIwY2xvc2V1cHxlbnwxfDB8fHwxNzc2NzI0MjU1fDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85&sat=-100&con=10"
-author: "Open Your AIs"
+author: "Ulisses Balbino"
 readTime: "6 min read"
 ---
 

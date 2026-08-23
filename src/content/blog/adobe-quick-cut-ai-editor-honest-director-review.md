@@ -11,7 +11,7 @@ tags:
   - "Firefly"
   - "Review"
 heroImage: "https://images.unsplash.com/photo-1588701740889-28c49b48767c?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHwzfHxzaGFkb3clMjBsaWdodCUyMHBvcnRyYWl0fGVufDF8MHx8fDE3ODY1MzY5NDR8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85&sat=-100&con=10"
-author: "Open Your AIs"
+author: "Ulisses Balbino"
 readTime: "12 min read"
 ---
 

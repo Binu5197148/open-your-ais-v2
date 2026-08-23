@@ -15,6 +15,7 @@ tags:
 heroImage: "https://images.unsplash.com/photo-1764763180201-6ffdff239260?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHwxN3x8dGhlYXRlciUyMHN0YWdlJTIwZHJhbWF0aWMlMjBsaWdodGluZ3xlbnwxfDB8fHwxNzc2NzI0MjYyfDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85&sat=-100&con=10"
 author: "Ulisses Balbino"
 readTime: "4 min"
+noindex: true
 ---
 
 <h2>The West Slept. China Moved.</h2>

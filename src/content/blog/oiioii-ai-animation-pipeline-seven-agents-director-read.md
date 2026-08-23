@@ -15,8 +15,6 @@ author: "Ulisses Balbino"
 readTime: "6 min read"
 ---
 
-<!-- Facts verified July 30, 2026 against: PRNewswire press release (302835937), Yahoo Finance, Digital Producer Magazine, The AI Journal, Fame Magazine, AIBase. All sources independently confirm: US launch date July 28, 2026; seven specialized AI agents; 100,000 pre-launch sign-ups for 100 beta spots; music video feature; mission to empower 100 million creators by 2030; tagline "Be Pixar of the AI Era." Bambi production history: widely documented in "The Illusion of Life" (Thomas and Johnston, 1981) and Disney studio records. Toy Story 2 production restart: extensively covered by press at the time of the November 1999 theatrical release. -->
-
 <h2>Seven agents, one prompt, one unasked question</h2>
 
 <p>On July 28, 2026, OiiOii AI launched its platform in the United States. The pitch is direct: a single creator can direct an entire animation production from script to finished short film. Seven specialized AI agents handle the work. Scriptwriting, character design, scene design, storyboarding, music, and final video synthesis, coordinated automatically from a single prompt. The platform drew 100,000 sign-ups for 100 beta spots before the official launch. The company's stated goal is to empower 100 million people to create animations by 2030. Their guiding phrase: "Be Pixar of the AI Era."</p>
@@ -60,3 +58,8 @@ readTime: "6 min read"
 <p>The decision about what the film is asking, and why that question matters to a specific audience, was not automated on July 28. OiiOii shipped a pipeline that lowers the cost of execution to a level that was previously impossible for a solo creator. The question of what deserves to be executed has always sat in the same place: with the person who had the idea before the first agent started working.</p>
 
 <p>Be Pixar of the AI Era means building something worth stopping a production for. Seven agents can help build almost everything. The reason to stop is yours.</p>
+
+<section class="article-note note-sources">
+<h2>Sources and verification</h2>
+<p>Facts verified July 30, 2026 against: PRNewswire press release (302835937), Yahoo Finance, Digital Producer Magazine, The AI Journal, Fame Magazine, AIBase. All sources independently confirm: US launch date July 28, 2026; seven specialized AI agents; 100,000 pre-launch sign-ups for 100 beta spots; music video feature; mission to empower 100 million creators by 2030; tagline "Be Pixar of the AI Era." Bambi production history: widely documented in "The Illusion of Life" (Thomas and Johnston, 1981) and Disney studio records. Toy Story 2 production restart: extensively covered by press at the time of the November 1999 theatrical release.</p>
+</section>

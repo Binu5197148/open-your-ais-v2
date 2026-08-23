@@ -19,7 +19,6 @@ author: "Ulisses Balbino"
 readTime: "5 min read"
 ---
 
-<!-- Corrected Aug 20, 2026: biographical accuracy. Ulisses Balbino was an actor and writer on the Ronald Rios Talk Show, not its director or producer, and he was never employed by MTV, Comedy Central or Paramount. Earlier wording claimed credits and network affiliations he does not hold and it has been fixed here. -->
 <!-- Published May 2, 2026 -->
 
 <h2>The "Wallace and Gromit" Moment at Cannes</h2>
@@ -41,3 +40,8 @@ readTime: "5 min read"
 <h2>My Conviction: AI Amplifies, It Doesn't Replace the Human Soul</h2>
 <p>The Cannes AI Film Festival highlights a critical juncture for our industry. We stand at the precipice of incredible innovation, but also profound ethical questions. For me, AI is not a replacement for human creativity; it's an amplification tool. It's the ultimate production assistant, freeing me to be a better director, a more focused storyteller. It helps me manage the operational side of Pichorra Filmes, and through my work at Soul Symple, I help others streamline their businesses too. It even assists in the production of my spiritual channel, Verso Diário, allowing me to focus on the message.</p>
 <p>The incident at Cannes is a loud and clear message: we must protect human authorship, intellectual property, and the unique spark that only a human mind can ignite. This isn't about limiting innovation. It's about ensuring that as technology evolves, our definition of art, creativity, and the human role in shaping it, remains fiercely protected and celebrated. The future of film will have AI, but it must always have a human heart at its core.</p>
+
+<section class="article-note note-correction">
+<h2>Correction</h2>
+<p>Corrected Aug 20, 2026: biographical accuracy. Ulisses Balbino was an actor and writer on the Ronald Rios Talk Show, not its director or producer, and he was never employed by MTV, Comedy Central or Paramount. Earlier wording claimed credits and network affiliations he does not hold and it has been fixed here.</p>
+</section>

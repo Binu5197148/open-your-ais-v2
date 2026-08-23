@@ -15,12 +15,6 @@ author: "Ulisses Balbino"
 readTime: "6 min read"
 ---
 
-<!-- Published Jul 27, 2026 by the parallel cloud producer. Fact-checked and corrected the same day by the daily guardian pass.
-
-Verified: del Toro's San Diego Comic-Con appearance (Jul 24, 2026), the fully manual 3D conversion, "about 1,000 people rotoing the movie," and the quote about cutting a generation of people from learning their craft, confirmed against Gizmodo (direct quote), NME, Variety, Deadline and Rolling Stone. Pan's Labyrinth 3D/HDR re-release date of Oct 9 confirmed. Scorsese's Black Forest Labs advisory role and the "creatively freeing" storyboard quote confirmed against Variety, The Hollywood Reporter, TechCrunch, PetaPixel and Black Forest Labs' own page. Nolan's "rapid wholesale dismissal" quote and the remarks about his children confirmed against Euronews, The Wrap, Variety and Decrypt, originally given to The Telegraph.
-
-Corrected Jul 27, 2026: the second paragraph said Scorsese joined Black Forest Labs "the same month" as del Toro's Comic-Con remarks. The partnership was disclosed June 2, 2026, seven weeks before Comic-Con. Date corrected; nothing else in the argument depends on it. Hero image also replaced: the original was a flat overcast travel snapshot, below the site's black-and-white curation bar for a post that can lead the homepage. -->
-
 <p>This week at San Diego Comic-Con, Guillermo del Toro was asked about the 3D re-release of <em>Pan's Labyrinth</em>. He said it was made through a fully manual conversion process, about 1,000 artists rotoscoping the film frame by frame. He chose not to use AI tools. The reason, in his words: "If we cut a generation of people from learning their craft, you're cutting the rest of the history of that medium away from them, for what?"</p>
 
 <p>Seven weeks earlier, on June 2, 2026, Martin Scorsese joined the German AI company Black Forest Labs as an adviser. He tested the storyboarding tool on a scene and found "the ability to visualize and immediately share the storyboard was creatively freeing." Meanwhile, Christopher Nolan, on the press tour for <em>The Odyssey</em> in July 2026, told reporters he had never seen "a more rapid wholesale dismissal of a supposedly foundational jump in technology in my lifetime." He was talking about young audiences, and what he calls AI slop.</p>
@@ -70,3 +64,10 @@ Corrected Jul 27, 2026: the second paragraph said Scorsese joined Black Forest L
 <p>The tool is not the art. The tool serves whoever is holding it, which means the question is always who is holding it and what they have learned to see. Del Toro's 1,000 artists are learning to see. Scorsese already knows what he sees. Neither position is in conflict with AI. Both are in conflict with the idea that AI removes the need to develop judgment first.</p>
 
 <p>That is the position all three share, whether they frame it that way or not. What you bring to the tool is what the tool returns, scaled up. The camera did not replace the eye that knows where to point it. The model does not replace the author who knows what to ask for.</p>
+
+<section class="article-note note-sources">
+<h2>Sources and verification</h2>
+<p>Published Jul 27, 2026 by the parallel cloud producer. Fact-checked and corrected the same day by the daily guardian pass.</p>
+<p>Verified: del Toro's San Diego Comic-Con appearance (Jul 24, 2026), the fully manual 3D conversion, "about 1,000 people rotoing the movie," and the quote about cutting a generation of people from learning their craft, confirmed against Gizmodo (direct quote), NME, Variety, Deadline and Rolling Stone. Pan's Labyrinth 3D/HDR re-release date of Oct 9 confirmed. Scorsese's Black Forest Labs advisory role and the "creatively freeing" storyboard quote confirmed against Variety, The Hollywood Reporter, TechCrunch, PetaPixel and Black Forest Labs' own page. Nolan's "rapid wholesale dismissal" quote and the remarks about his children confirmed against Euronews, The Wrap, Variety and Decrypt, originally given to The Telegraph.</p>
+<p>Corrected Jul 27, 2026: the second paragraph said Scorsese joined Black Forest Labs "the same month" as del Toro's Comic-Con remarks. The partnership was disclosed June 2, 2026, seven weeks before Comic-Con. Date corrected; nothing else in the argument depends on it. Hero image also replaced: the original was a flat overcast travel snapshot, below the site's black-and-white curation bar for a post that can lead the homepage.</p>
+</section>

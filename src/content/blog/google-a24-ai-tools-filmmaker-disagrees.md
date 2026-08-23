@@ -15,8 +15,6 @@ readTime: "7 min read"
 updatedDate: "2026-07-23"
 ---
 
-<!-- Corrected Jul 23, 2026: announcement date fixed to June 22; Kane Parsons interview re-sequenced (it predates the deal by roughly three weeks, it was not a reaction to it); A24's age fixed to fourteen years. -->
-
 <h2>The announcement</h2>
 <p>On June 22, Variety, Deadline, and IndieWire confirmed what had been circulating in industry circles for weeks: Google is investing $75 million in A24, tied to a research partnership with Google DeepMind to build new AI-powered tools for filmmakers. It is the first time Google's parent company, Alphabet, has taken a stake in a film studio.</p>
 <p>The technical terms of the deal are notable for what they exclude. Google does not get access to A24's content library. DeepMind researchers will work inside A24's production workflows, not extract A24's catalog to train models on. The stated goal is developing tools for pre-production, storyboarding, and specific workflow stages the studio has identified as friction points.</p>
@@ -59,3 +57,8 @@ updatedDate: "2026-07-23"
 <p>A24 has always bet on the wrong-looking thing. The $75 million from Google is, by any reasonable standard, the right-looking thing. Those two positions coexist in the same company right now.</p>
 <p>What happens next depends entirely on which one shapes the tools.</p>
 <p><em>Sources: <a href="https://variety.com/2026/film/news/google-a24-ai-filmmaking-tools-1236787297/" target="_blank" rel="noopener">Variety (Jun 23, 2026)</a>; <a href="https://deadline.com/2026/06/google-a24-partnership-ai-filmmaking-tools-1236963944/" target="_blank" rel="noopener">Deadline</a>; <a href="https://www.indiewire.com/news/analysis/a24-google-deepmind-workflow-ai-1235201651/" target="_blank" rel="noopener">IndieWire</a>; <a href="https://gizmodo.com/a24-wants-you-to-be-nice-about-its-google-ai-deal-2000778542" target="_blank" rel="noopener">Gizmodo</a>; <a href="https://www.salon.com/2026/06/23/a24-google-deepmind-ai-investement-sparks-fan-backlash/" target="_blank" rel="noopener">Salon</a></em></p>
+
+<section class="article-note note-correction">
+<h2>Correction</h2>
+<p>Corrected Jul 23, 2026: announcement date fixed to June 22; Kane Parsons interview re-sequenced (it predates the deal by roughly three weeks, it was not a reaction to it); A24's age fixed to fourteen years.</p>
+</section>

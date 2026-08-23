@@ -11,9 +11,8 @@ tags:
   - "enterprise ai"
   - "productivity"
 heroImage: "https://images.unsplash.com/photo-1655815409989-64772c6671b4?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHwyMnx8YW5hbG9nJTIwZmlsbSUyMHBob3RvZ3JhcGh5JTIwZ3JhaW58ZW58MXwwfHx8MTc3NjcyNDI3Mnww&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85&sat=-100&con=10"
-author: "Open Your AIs"
+author: "Ulisses Balbino"
 readTime: "12 min read"
-featured: true
 ---
 
 <h2>The Enterprise Agent Era Is Here</h2>

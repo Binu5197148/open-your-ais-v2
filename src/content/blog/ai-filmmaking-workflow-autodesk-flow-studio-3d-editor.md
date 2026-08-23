@@ -18,10 +18,6 @@ author: "Ulisses Balbino"
 readTime: "6 min read"
 ---
 
-<!-- Corrected Aug 16, 2026: biographical accuracy. Ulisses Balbino was an actor and writer on the Ronald Rios Talk Show, not its director or producer. Earlier wording claimed a directing and producing credit he does not hold and it has been fixed here. -->
-
-<!-- Facts verified August 5, 2026 against independent sources: DIGITAL PRODUCTION (digitalproduction.com, 2026-08-04, "Autodesk Flow Studio adds 3D Editor and Canvas", by Bela Beier), Animation World Network (awn.com, "Autodesk's New Flow Studio Tools Let Creators Block and Direct AI Shots in 3D"), GamesBeat (gamesbeat.com, "Autodesk launches 3D Editor + Canvas to bring generative AI to filmmaking"), Creative Bloq (creativebloq.com), and The Hollywood Reporter (hollywoodreporter.com, "Autodesk Flow Studio Launches a New AI Filmmaking Tool"). All sources independently confirm: announcement date August 4, 2026; product name 3D Editor + Canvas as an expansion of Autodesk Flow Studio; 3D Editor assembles characters, environments, animations, camera tracks and AI motion capture data in one workspace with control over blocking, composition, camera movement, performance timing and scene setup; Canvas is a node-based 2D workspace for generating, exploring and refining image and video output; planned integration with World Labs Marble for AI-generated environments; expanded Maya and DCC integrations planned. DIGITAL PRODUCTION explicitly reports that Autodesk has NOT disclosed release date, rollout model, eligible Flow Studio editions, pricing or credit consumption. No pricing or availability claim is made in this article. No executive quote is attributed, because none was independently confirmed across sources. -->
-
 <h2>What Autodesk actually shipped</h2>
 
 <p>On August 4, 2026, Autodesk announced 3D Editor + Canvas, an expansion of Flow Studio that inserts an actual 3D stage into the AI filmmaking workflow. Instead of describing a shot in words and hoping the model agrees with you, you assemble characters, environments, animations, camera tracks and AI motion capture data in a connected workspace, then let the model render from that. Blocking, composition, camera movement, performance timing, scene setup. The things a director does with their hands.</p>
@@ -84,3 +80,13 @@ readTime: "6 min read"
 <p>Every tool in this space amplifies whatever the author hands it. Hand it a considered position and it can carry that position further than your budget ever would. Hand it a prompt written in the hope that the model will decide, and now it will execute that emptiness in three dimensions, with a beautiful dolly move, at high resolution.</p>
 
 <p>The camera came back. That is genuinely good news. It just came back to the same place it always was, which is the end of a decision that belongs to a person.</p>
+
+<section class="article-note note-correction">
+<h2>Correction</h2>
+<p>Corrected Aug 16, 2026: biographical accuracy. Ulisses Balbino was an actor and writer on the Ronald Rios Talk Show, not its director or producer. Earlier wording claimed a directing and producing credit he does not hold and it has been fixed here.</p>
+</section>
+
+<section class="article-note note-sources">
+<h2>Sources and verification</h2>
+<p>Facts verified August 5, 2026 against independent sources: DIGITAL PRODUCTION (digitalproduction.com, 2026-08-04, "Autodesk Flow Studio adds 3D Editor and Canvas", by Bela Beier), Animation World Network (awn.com, "Autodesk's New Flow Studio Tools Let Creators Block and Direct AI Shots in 3D"), GamesBeat (gamesbeat.com, "Autodesk launches 3D Editor + Canvas to bring generative AI to filmmaking"), Creative Bloq (creativebloq.com), and The Hollywood Reporter (hollywoodreporter.com, "Autodesk Flow Studio Launches a New AI Filmmaking Tool"). All sources independently confirm: announcement date August 4, 2026; product name 3D Editor + Canvas as an expansion of Autodesk Flow Studio; 3D Editor assembles characters, environments, animations, camera tracks and AI motion capture data in one workspace with control over blocking, composition, camera movement, performance timing and scene setup; Canvas is a node-based 2D workspace for generating, exploring and refining image and video output; planned integration with World Labs Marble for AI-generated environments; expanded Maya and DCC integrations planned. DIGITAL PRODUCTION explicitly reports that Autodesk has NOT disclosed release date, rollout model, eligible Flow Studio editions, pricing or credit consumption. No pricing or availability claim is made in this article. No executive quote is attributed, because none was independently confirmed across sources.</p>
+</section>

@@ -2,7 +2,7 @@
 id: "art-172"
 title: "5 Week Skills #01: Five Claude Skills, and the One I Left Rotting on My Own Machine"
 description: "Five Claude skills, every number opened and counted on August 22, 2026, not remembered. A film template that arrives already cut, a rulebook of 35 AI writing patterns, an editor that runs your agent with approve-everything flags, a hook that outlives a dead session, and one of mine that is not ready. Plus the copy of the second one I have run five months stale."
-pubDate: "2026-08-22"
+pubDate: "2026-08-24"
 toolVersion: "2026-08"
 category: "AI"
 tags:
@@ -11,11 +11,32 @@ tags:
   - "Craft"
   - "Skills"
   - "5 Week Skills"
-heroImage: "https://images.unsplash.com/photo-1542388481-52d5a10ae242?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHwzfHxhbmFsb2clMjBmaWxtJTIwcGhvdG9ncmFwaHklMjBncmFpbnxlbnwxfDB8fHwxNzg3NDA5OTkyfDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85&sat=-100&con=10"
+heroImage: "HOLD_DO_NOT_PUBLISH_WITHOUT_HERO"
 author: "Ulisses Balbino"
 readTime: "12 min read"
 featured: true
 ---
+
+<!--
+HOLD BEFORE MOVING THIS FILE TO src/content/blog/
+
+1. heroImage is a placeholder. The Astro schema requires a valid URL and the build WILL fail
+   as written. Generate it with `fetch-heroes.mjs --pick` and look at the result by eye before
+   committing. Never reuse a hero already on the site.
+2. Confirm `id: art-172` is still the next free id. The highest in src/content/blog/ at the time
+   of writing was art-171, counted across 107 files.
+3. Confirm pubDate. This was written for Monday, August 24, 2026.
+4. Re-run the star and fork numbers on the morning of publication if more than 48 hours have
+   passed, or change the sentence to name the snapshot date instead of "today".
+
+VERIFICATION NOTE, August 22, 2026.
+Every number in this article was read by me on August 22, 2026, between 21:13 and 21:22 UTC.
+Repository metadata came from the authenticated `gh` CLI, not the public unauthenticated API.
+Every URL in the article was hit with `curl` in the same window and returned HTTP 200.
+Counts described as counted were counted by me from the repository tree, not read off a badge.
+Nothing here is recalled from memory. The five skills were NOT installed or executed on this
+machine during the verification, and the article says so out loud in its own section.
+-->
 
 <p>There is a folder on this machine called <code>~/.claude/skills/humanizer</code>. I installed it, I use it, and until tonight I had never once looked at what version it was.</p>
 
@@ -206,14 +227,3 @@ pnpm -F @html-anything/next dev</code></pre>
 <p>Between now and Monday I am doing one thing and reporting the result whether it flatters me or not. I am pulling my local humanizer from 2.5.1 up to current, then running the eight LinkedIn posts from July through it, and counting how many of the thirty five patterns it finds. The count goes in edition two, on August 31, including the number that embarrasses me.</p>
 
 <p>Next Monday, five more. And gauntlet-loop still needs its licence and an English translation. Now you have seen the list of what is wrong with it, so you will know if I quietly skip one.</p>
-
-<section class="article-note note-sources">
-<h2>Sources and verification</h2>
-<p>VERIFICATION NOTE, August 22, 2026.
-Every number in this article was read by me on August 22, 2026, between 21:13 and 21:22 UTC.
-Repository metadata came from the authenticated `gh` CLI, not the public unauthenticated API.
-Every URL in the article was hit with `curl` in the same window and returned HTTP 200.
-Counts described as counted were counted by me from the repository tree, not read off a badge.
-Nothing here is recalled from memory. The five skills were NOT installed or executed on this
-machine during the verification, and the article says so out loud in its own section.</p>
-</section>

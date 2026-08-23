@@ -17,10 +17,6 @@ author: "Ulisses Balbino"
 readTime: "6 min read"
 ---
 
-<!-- Published Jul 24, 2026. Facts verified against TheWrap, Variety, Deadline, and The Hollywood Reporter (Jul 21-22, 2026) for the SEC filing; Variety, Tribeca Festival, and Google DeepMind's own blog (2025) for the Ancestra short and the DeepMind partnership.
-
-Corrected Jul 25, 2026: the $11 million was raised, not spent, and the raise opened July 1, 2026, so the "spent a year" framing was wrong. The SEC document is a Form D notice of an exempt offering, not a term sheet. Aronofsky's feature work begins with Pi in 1998, so "thirty-year body of work" was overstated. -->
-
 <h2>What is Darren Aronofsky's AI film studio?</h2>
 
 <p>On July 22, 2026, TheWrap and Variety reported that Primordial Soup Labs filed with the Securities and Exchange Commission for a $15 million equity raise. The filing lists Darren Aronofsky and his producing partner Dylan Golden as executive officers, and it says the company had already sold just over $11 million of that total, with the first sale dated July 1. So the AI film studio a lot of people treated as a curiosity last year is now a funded company with real money behind it and a paper trail in a federal filing.</p>
@@ -64,3 +60,9 @@ Corrected Jul 25, 2026: the $11 million was raised, not spent, and the raise ope
 <p>I take the same bet on a smaller scale on my own timeline, which is why <a href="/blog/higgsfield-ai-tutorial-how-a-director-uses-it-on-real-jobs/">the vocabulary I bring to these tools matters more than the tools themselves</a>. The fifteen million is a headline. The auteur showing up is the whole story. Everyone worried that AI would erase the author just watched one of the most uncompromising authors alive raise the money to prove the opposite.</p>
 
 <p><em>Sources: <a href="https://www.thewrap.com/industry-news/business/darren-aronofsky-ai-studio-primordial-soup-raises-15-million/" target="_blank" rel="noopener">TheWrap (Jul 22, 2026)</a>; <a href="https://variety.com/2026/film/news/darren-aronofsky-ai-primordial-soup-raising-15-million-1236818544/" target="_blank" rel="noopener">Variety</a>; <a href="https://deadline.com/2026/07/darren-aronofsky-ai-firm-primordial-soup-fundraising-million-1237000853/" target="_blank" rel="noopener">Deadline</a>; <a href="https://variety.com/2025/digital/news/darren-aronofsky-ai-studio-primordial-soup-google-deepmind-1236403412/" target="_blank" rel="noopener">Variety (2025, Primordial Soup + DeepMind)</a>; <a href="https://tribecafilm.com/films/ancestra-humans-hearts-and-storytelling-in-the-age-of-ai-2025" target="_blank" rel="noopener">Tribeca Festival</a></em></p>
+
+<section class="article-note note-sources">
+<h2>Sources and verification</h2>
+<p>Published Jul 24, 2026. Facts verified against TheWrap, Variety, Deadline, and The Hollywood Reporter (Jul 21-22, 2026) for the SEC filing; Variety, Tribeca Festival, and Google DeepMind's own blog (2025) for the Ancestra short and the DeepMind partnership.</p>
+<p>Corrected Jul 25, 2026: the $11 million was raised, not spent, and the raise opened July 1, 2026, so the "spent a year" framing was wrong. The SEC document is a Form D notice of an exempt offering, not a term sheet. Aronofsky's feature work begins with Pi in 1998, so "thirty-year body of work" was overstated.</p>
+</section>

@@ -16,8 +16,6 @@ author: "Ulisses Balbino"
 readTime: "8 min read"
 ---
 
-<!-- Correction 2026-08-13: line count corrected from "about 5,400 lines" to "about 5,500 lines". Karpathy's own post (x.com/karpathy, status 2083749667410727319) states 5500 lines; corroborated by BigGo Finance and the-decoder. -->
-
 <p>Andrej Karpathy fed the first paragraph of The Lord of the Rings to a coding agent, set a budget of one million tokens, roughly ten dollars, and walked away for two hours. What came back was a three dimensional scene running in a browser, about 5,500 lines of code written without him touching the keyboard again. Days earlier, Matt Shumer had posted a first person shooter with physics and lighting that people refused to believe came from a single prompt.</p>
 
 <p>Neither result came from a better model. Both came from the same prompt structure, now called the Gauntlet Loop, and it is the most useful thing to happen to Claude Code agents this year. I have been running it on production work, and the reason it clicks for me has nothing to do with code. It is the way a film set has always worked.</p>
@@ -87,3 +85,8 @@ readTime: "8 min read"
 <p>The machine will do the takes. Knowing which one to keep is still the job, and it is the same job it has always been. I wrote about that when <a href="/blog/ai-replacing-jobs-nobel-economists-letter-directors-answer/">the economists warned about AI and work</a>, and this technique does not soften that argument. It sharpens it.</p>
 
 <p>Write the bar high. Then let the crew chase it.</p>
+
+<section class="article-note note-correction">
+<h2>Correction</h2>
+<p>Correction 2026-08-13: line count corrected from "about 5,400 lines" to "about 5,500 lines". Karpathy's own post (x.com/karpathy, status 2083749667410727319) states 5500 lines; corroborated by BigGo Finance and the-decoder.</p>
+</section>

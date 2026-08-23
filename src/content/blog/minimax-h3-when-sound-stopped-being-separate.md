@@ -16,8 +16,6 @@ author: "Ulisses Balbino"
 readTime: "6 min read"
 ---
 
-<!-- Facts verified August 2, 2026 against: MiniMax official blog (minimax.io/blog/minimax-h3), MarkTechPost (2026/08/01), IndexBox (indexbox.io), DigitalApplied (digitalapplied.com), SRN News (srnnews.com/chinas-minimax-releases-h3-video-model). All sources independently confirm: release date July 31, 2026; 15-second 2K clips; native stereo audio in single model pass; API model ID MiniMax-H3; Hailuo AI consumer app; pricing approximately $0.13/second; open weights promised. Film history sources: The Jazz Singer (1927) and Applause (1929) dual-track audio are extensively documented in standard film history literature. -->
-
 <h2>What the model does</h2>
 
 <p>On July 31, 2026, MiniMax released H3. Not a video model with audio layered on afterward. A model that generates both in the same forward pass, from the same prompt, at the same time. Fifteen seconds of 2K footage. Native stereo audio. One generation. No separate sound step.</p>
@@ -73,3 +71,8 @@ readTime: "6 min read"
 <p>This work did not belong to the model before H3. It does not belong to the model after it. But the margin for doing execution-level audio without a position, and calling it sound design, just got a lot thinner.</p>
 
 <p>Know the difference between those two things well enough that you do not confuse them. That clarity is the work.</p>
+
+<section class="article-note note-sources">
+<h2>Sources and verification</h2>
+<p>Facts verified August 2, 2026 against: MiniMax official blog (minimax.io/blog/minimax-h3), MarkTechPost (2026/08/01), IndexBox (indexbox.io), DigitalApplied (digitalapplied.com), SRN News (srnnews.com/chinas-minimax-releases-h3-video-model). All sources independently confirm: release date July 31, 2026; 15-second 2K clips; native stereo audio in single model pass; API model ID MiniMax-H3; Hailuo AI consumer app; pricing approximately $0.13/second; open weights promised. Film history sources: The Jazz Singer (1927) and Applause (1929) dual-track audio are extensively documented in standard film history literature.</p>
+</section>

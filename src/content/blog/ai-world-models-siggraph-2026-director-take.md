@@ -17,10 +17,6 @@ author: "Ulisses Balbino"
 readTime: "6 min read"
 ---
 
-<!-- Published Jul 20, 2026. SIGGRAPH 2026 dates and the NVIDIA keynote verified against SIGGRAPH.org, NVIDIA, AWN, and PRNewswire coverage of the July 19 to 23 conference.
-
-Corrected Jul 25, 2026: NVIDIA's talk was a sponsored keynote, not the conference's featured keynote. SIGGRAPH 2026's headline keynote on the same day was Lanny Smoot of Disney Research, so the claim that the conference spent "its biggest slot" on world models was wrong. -->
-
 <h2>NVIDIA put world models on the main stage</h2>
 
 <p>On July 20, 2026, at SIGGRAPH in Los Angeles, NVIDIA gave its marquee keynote a blunt title: "Next Era of Graphics. Neural Rendering, World Models, and Simulation." The 53rd edition of the computer graphics conference opened the day before and runs through July 23 at the Los Angeles Convention Center. The talk, led by NVIDIA research and engineering people including Ming-Yu Liu and Edward Liu, made one argument stick. The next leap in generated imagery will not come from prettier pixels. It will come from AI world models: systems that hold an internal sense of a scene (space, light, physics, cause and effect) and carry it consistently across time.</p>
@@ -64,3 +60,9 @@ Corrected Jul 25, 2026: NVIDIA's talk was a sponsored keynote, not the conferenc
 <p>World models are the most important thing to come out of this year's conference for anyone who makes moving images, and I say that as someone who reaches for these tools every week. They close the last technical excuse. Very soon, no serious filmmaker will be able to say the machine could not hold a shot together.</p>
 
 <p>What is left when the excuse is gone is the only thing that ever mattered. The decision. The point of view. The person who walks onto the set, virtual or real, and knows which world is worth building and why. AI amplifies that person. It has never once replaced them, and a research keynote about better rendering does not change that. The engine got stronger. The author still has to show up. That was always the assignment, and SIGGRAPH just raised the stakes on whether you accept it.</p>
+
+<section class="article-note note-sources">
+<h2>Sources and verification</h2>
+<p>Published Jul 20, 2026. SIGGRAPH 2026 dates and the NVIDIA keynote verified against SIGGRAPH.org, NVIDIA, AWN, and PRNewswire coverage of the July 19 to 23 conference.</p>
+<p>Corrected Jul 25, 2026: NVIDIA's talk was a sponsored keynote, not the conference's featured keynote. SIGGRAPH 2026's headline keynote on the same day was Lanny Smoot of Disney Research, so the claim that the conference spent "its biggest slot" on world models was wrong.</p>
+</section>

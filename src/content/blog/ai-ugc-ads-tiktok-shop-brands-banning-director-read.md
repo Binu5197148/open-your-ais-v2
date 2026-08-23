@@ -18,15 +18,6 @@ author: "Ulisses Balbino"
 readTime: "6 min read"
 ---
 
-<!-- Published Jul 27, 2026. Sources verified before publication:
-- SharkNinja affiliate memo, the AI Video Maker reference, and Chief Commercial Officer Neil Shah's quote: originally reported by The Wall Street Journal, corroborated independently by Shopifreaks, Affiverse, AdExchanger (Jul 16, 2026) and Chinese Media USA (Jul 23, 2026).
-- TikTok Shop US sales projection ($23.41B, +48%), affiliate creator counts (11.3M global, ~1M US), and the Rare Beauty / Kiya Chanel incident: The Independent (Jul 15, 2026), syndicated via AOL and Yahoo News.
-- Three billion labeled AI videos, C2PA Steering Committee membership, first video platform to adopt Content Credentials, $4M+ AI literacy investment since Nov 2025, 200M+ views, expanded spam detection in politics / finance / medical: TikTok Newsroom (Jul 14, 2026), corroborated by TechTimes, ChannelX, Review Central ME, The News, and Dynamic Business.
-- TikTok's standing rule that fully AI content is permitted with an on-screen disclosure tag and no false claims: TikTok policy, reported consistently across the above coverage.
-DELIBERATELY EXCLUDED: a widely repeated claim that TikTok updated its advertising policies on Jul 21, 2026 to mandate AI disclosure labels. Every source found for it was a marketing or SEO blog with no citation to an official TikTok policy document or press release. Not verifiable to the standard this site requires, so it is not asserted here.
-
-CORRECTION Jul 28, 2026: an earlier version of the closing checklist described the SharkNinja policy as something the company "fired people over". SharkNinja stripped affiliate commissions under its no AI-generated content policy. It did not terminate employees. The phrasing was corrected to "cut commissions over". Sales, creator-count and quote figures re-verified on Jul 28, 2026 against The Independent (Jul 15, 2026) syndication and hold as published. -->
-
 <h2>What actually changed for AI UGC ads on TikTok Shop</h2>
 
 <p>SharkNinja sent a memo to its affiliate creators telling them that TikTok's own AI Video Maker is off limits. The wording, as reported by the Wall Street Journal, is not diplomatic: the tool is not permitted under the affiliate program's no AI-generated content policy. Chief Commercial Officer Neil Shah explained the reasoning in a sentence that belongs on a wall somewhere. They did not want an AI-generated Shark vacuum cleaning an AI-generated floor. They wanted real consumers seeing real products used by real people.</p>
@@ -84,3 +75,14 @@ CORRECTION Jul 28, 2026: an earlier version of the closing checklist described t
 <p>The reason this story matters more than a single brand memo is that it is the first time the market has priced the difference between using a generator and authoring something. <a href="/blog/ai-slop-author-problem-nolan-gen-z-director-take/">The slop problem was never a quality problem</a>. It was an authorship vacuum, and it persisted for as long as it did because nothing punished it. Something finally does.</p>
 
 <p>The tool amplifies whatever you bring to it. Bring a claim you cannot defend and it will amplify that too, at a scale and a speed that will reach the brand's legal team before it reaches your payout. That is not a warning about AI. That is the oldest rule in advertising, arriving on schedule at a new address.</p>
+
+<section class="article-note note-sources">
+<h2>Sources and verification</h2>
+<p>Published Jul 27, 2026. Sources verified before publication:
+- SharkNinja affiliate memo, the AI Video Maker reference, and Chief Commercial Officer Neil Shah's quote: originally reported by The Wall Street Journal, corroborated independently by Shopifreaks, Affiverse, AdExchanger (Jul 16, 2026) and Chinese Media USA (Jul 23, 2026).
+- TikTok Shop US sales projection ($23.41B, +48%), affiliate creator counts (11.3M global, ~1M US), and the Rare Beauty / Kiya Chanel incident: The Independent (Jul 15, 2026), syndicated via AOL and Yahoo News.
+- Three billion labeled AI videos, C2PA Steering Committee membership, first video platform to adopt Content Credentials, $4M+ AI literacy investment since Nov 2025, 200M+ views, expanded spam detection in politics / finance / medical: TikTok Newsroom (Jul 14, 2026), corroborated by TechTimes, ChannelX, Review Central ME, The News, and Dynamic Business.
+- TikTok's standing rule that fully AI content is permitted with an on-screen disclosure tag and no false claims: TikTok policy, reported consistently across the above coverage.
+DELIBERATELY EXCLUDED: a widely repeated claim that TikTok updated its advertising policies on Jul 21, 2026 to mandate AI disclosure labels. Every source found for it was a marketing or SEO blog with no citation to an official TikTok policy document or press release. Not verifiable to the standard this site requires, so it is not asserted here.</p>
+<p>CORRECTION Jul 28, 2026: an earlier version of the closing checklist described the SharkNinja policy as something the company "fired people over". SharkNinja stripped affiliate commissions under its no AI-generated content policy. It did not terminate employees. The phrasing was corrected to "cut commissions over". Sales, creator-count and quote figures re-verified on Jul 28, 2026 against The Independent (Jul 15, 2026) syndication and hold as published.</p>
+</section>
