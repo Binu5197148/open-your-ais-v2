@@ -181,3 +181,47 @@ Se alguem apontar isso, o post inteiro esta correto e a resposta e colar a linha
 Preencher `internal/5ws-ledger.md` com as tres linhas da edicao 1 antes de comecar a edicao 2.
 Sem ledger, as travas da secao 4.4 nao tem como ser conferidas e a serie volta a virar formula
 sem ninguem perceber. Foi assim da ultima vez.
+
+---
+
+## CORRECAO, escrita em 2026-08-24. Precisa da aprovacao dele.
+
+As duas pecas subiram em 22/08 as 22h52 UTC, com vinte segundos de diferenca entre elas.
+Confirmado na lista de posts publicados do Blotato, lida as 23h10 UTC de 24/08.
+LinkedIn: `urn:li:share:7497063128804020224`. X: `x.com/ulissesbalbino/status/2091297521180033459`.
+
+**O post de LinkedIn carrega um numero errado, e ele ja esta no ar.** O artigo foi corrigido hoje,
+com `updatedDate` e nota de correcao no fim. O post nao da para corrigir por API: o Blotato so
+edita post agendado, nao publicado. Quem edita e ele, no proprio LinkedIn, e o LinkedIn marca
+como editado, entao a correcao fica visivel em vez de silenciosa.
+
+Sao dois trechos, os dois com a palavra "oito".
+
+TRECHO 1, como esta no ar:
+
+```
+Em julho eu publiquei oito posts seguidos aqui que abriam do mesmo jeito, com a mesma pausa encenada antes de um ponto comum. O engajamento morreu. Suspendi tudo no dia 13 de agosto.
+```
+
+TRECHO 1, corrigido:
+
+```
+Entre 25 de julho e 12 de agosto eu publiquei dezenove posts aqui com a mesma pausa encenada antes de um ponto comum, doze deles sem uma quebra sequer. O engajamento morreu. Suspendi tudo no dia 13 de agosto.
+```
+
+TRECHO 2, como esta no ar:
+
+```
+Ate segunda eu atualizo minha copia, passo os oito posts de julho por ela e conto quantos dos trinta e cinco padroes ela acha. O numero vai na edicao 2, mesmo se for feio.
+```
+
+TRECHO 2, corrigido:
+
+```
+Ate segunda eu atualizo minha copia, passo esses posts por ela e conto quantos dos trinta e cinco padroes ela acha. O numero vai na edicao 2, mesmo se for feio. Ele ficou feio: eu tinha contado oito e sao dezenove.
+```
+
+Se ele preferir nao mexer no post publicado, a alternativa e nao editar nada e deixar a edicao 2
+abrir pela correcao, que e obrigatoria de qualquer jeito pela regra A10 da secao 4.1. As duas
+saidas sao honestas. Editar corrige mais rapido, a edicao 2 corrige com mais contexto.
+O post de X nao cita o numero e nao precisa de nada.
