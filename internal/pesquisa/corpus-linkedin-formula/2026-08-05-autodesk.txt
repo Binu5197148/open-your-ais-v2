@@ -1,0 +1,19 @@
+Ontem, 4 de agosto, a Autodesk anunciou o 3D Editor + Canvas para o Flow Studio. Em vez de descrever o plano por texto, você monta personagem, cenário, animação e trajetória de câmera num espaço 3D, e o modelo renderiza a partir disso. Marcação, composição, movimento de câmera, timing de atuação.
+
+Dirigi e produzi o Ronald Rios Talk Show.
+
+Minha reação honesta: é o avanço certo, e mesmo assim ele expõe uma coisa que quase ninguém está comentando.
+
+Em multicâmera você aprende rápido o que set de câmera única não ensina: toda posição de câmera é uma afirmação sobre de quem é a cena naquele segundo. Abre no geral e a sala é dona do momento. Fecha no close e a pessoa é dona. Fica no ouvinte enquanto o outro fala e você disse alguma coisa sobre poder que nenhuma linha de diálogo disse.
+
+Nada disso é decisão técnica. O dolly não sabe nada disso. O dolly é só o jeito de executar uma posição que você já tem.
+
+E aí está o meu incômodo, que não é com a Autodesk. Uma geração inteira entrou em narrativa visual pela caixa de prompt. Foi uma porta real, e ainda bem que ela abriu. Mas a caixa de prompt nunca perguntou onde o público deveria estar. Perguntou o que a imagem deveria conter. São perguntas diferentes, e só uma delas é direção.
+
+Controle nunca foi o recurso escasso. Qualquer pessoa com celular tem controle total de posição de câmera há mais de quinze anos. Altura, ângulo, distância, movimento, de graça, no bolso. A quantidade de cinema bom não cresceu nem perto disso.
+
+Não por falta de ferramenta. Porque saber onde colocar a câmera é uma posição sobre o material, e posição demora mais para construir do que workspace demora para abrir.
+
+Quem vem de 3D: esse é o seu momento de alavancagem. Quem entrou pelo prompt: comece a marcar no papel antes de abrir qualquer gerador. Diagrama de cima, posições numeradas, uma frase por posição dizendo por quê. O hábito é o ativo, não o software.
+
+A câmera voltou. Voltou para o mesmo lugar de sempre, que é o fim de uma decisão que pertence a uma pessoa.

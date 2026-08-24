@@ -1,0 +1,21 @@
+Em 21 de julho, a Alibaba lançou o Qwen-Image-3.0 sem benchmark, sem relatório técnico, sem contagem de parâmetros e sem peso aberto para download.
+
+Dirigi o manifesto em stop-motion da Forno de Minas, com o Estudio Fue.
+
+Minha reação honesta: o mais informativo nesse lançamento é a papelada que não veio junto.
+
+A promessa é séria. O modelo aceita prompt de até 4,5 mil tokens, cerca de quatro vezes e meia o que as versões anteriores aceitavam, e mira justamente na parte que resistiu mais tempo à automação: texto denso, layout aninhado, tipografia multilíngue, infográfico. A Alibaba diz que ele renderiza tipo de dez pixels de forma legível.
+
+O problema é que a série inteira foi construída sendo verificável. A versão 1.0 saiu em agosto de 2025 com 20 bilhões de parâmetros abertos sob licença Apache 2.0 e relatório técnico no mesmo dia. A 2.0 também teve relatório. A 3.0 quebrou o padrão inteiro.
+
+Em publicidade, tipo não é enfeite em cima da imagem. É objeto jurídico. Tem que ser aprovado, e a diferença entre certo e quase certo é a diferença entre entregar e refazer.
+
+Aprendi a parte cara disso do jeito difícil: o trabalho não acaba na entrega. Acaba semanas depois, quando o cliente pede uma alteração. Outra linha de texto, outro sabor na embalagem, mesma campanha. Nesse momento você não precisa de um modelo bom. Precisa exatamente do modelo que você usou, se comportando exatamente como se comportou.
+
+Peso aberto e benchmark publicado não são posição política para quem entrega trabalho pago. São garantia de prazo.
+
+Quem testa por curiosidade: aproveite, é um lançamento interessante. Quem entrega para cliente pagante: separe o modelo com que você explora do modelo com que você entrega. São funções diferentes.
+
+Dez pixels de tipo legível é uma afirmação linda. Sem benchmark, sem peso e sem API, não existe como descobrir se ela vale nas suas fontes, em português, com os acentos que a nossa cópia tem. E isso eu não vou descobrir no relógio do cliente.
+
+A ferramenta amplifica o que você entrega. Ela não assume a afirmação no meio da imagem. Essa continua sendo sua.

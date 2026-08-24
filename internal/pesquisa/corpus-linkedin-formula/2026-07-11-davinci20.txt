@@ -1,0 +1,13 @@
+IntelliScript constroi o seu primeiro corte. Em minutos, a partir do roteiro.
+
+O DaVinci Resolve 20 adicionou IA em quase cada etapa da montagem. SmartSwitch escolhe o angulo de camera. AI Audio Assistant cria o mix profissional.
+
+O trabalho mecanico sai da mesa do editor.
+
+O que fica: o timing. A decisao de ficar no rosto um segundo a mais quando a emocao ainda nao chegou na fala. Esse segundo nao esta no algoritmo de sincronizacao. Esta em quem assistiu o take sete vezes e entendeu o que o personagem estava omitindo.
+
+Nao porque essas ferramentas sejam ruins. IntelliScript resolve um problema real. Pega duas horas de entrevista com multiplas cameras, une com o roteiro, monta o primeiro corte. O que levava dias, leva minutos.
+
+Mas porque o primeiro corte nunca foi o trabalho do editor. Foi a plataforma de lancamento pra pergunta que nao tem atalho: o que essa cena precisa ser?
+
+Essa pergunta e anterior a qualquer ferramenta.

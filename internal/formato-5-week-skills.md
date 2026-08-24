@@ -34,9 +34,14 @@ cobra dos README dos outros.
 
 Esta especificacao existe por causa de um fracasso documentado. Em julho de 2026 um agente
 extraiu 7 elementos dos melhores posts do Ulisses e transformou aquilo numa regra obrigatoria.
-Saiu 8 posts seguidos com a mesma arquitetura, "Minha reacao honesta:" em 8 de 8, e o
-engajamento morreu. Ele suspendeu tudo em 13 de agosto. Ver `linkedin-formula-failure-postmortem`
-na memoria.
+Saiu uma serie de posts com a mesma arquitetura e o engajamento morreu. Ele suspendeu tudo em
+13 de agosto. Ver `linkedin-formula-failure-postmortem` na memoria.
+
+**Numero corrigido em 2026-08-24.** Ate esta data este paragrafo dizia "8 posts seguidos,
+'Minha reacao honesta:' em 8 de 8". Errado, e errado para baixo. Contagem feita arquivo por
+arquivo sobre a lista de posts publicados do Blotato: **19 posts** carregam a frase, a maior
+sequencia ininterrupta e de **12**, e a serie vai de 25 de julho a 12 de agosto. Metodo e limites
+em `internal/pesquisa/humanizer-auditoria-corpus.md`.
 
 **A lei desta serie, e ela vale para os POSTS: o post e um repertorio, nao uma checklist.**
 Nenhum formato, nenhuma abertura e nenhum fecho de post pode sair na mesma ordem duas vezes.

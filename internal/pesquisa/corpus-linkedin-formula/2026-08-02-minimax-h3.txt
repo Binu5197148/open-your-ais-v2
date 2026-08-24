@@ -1,0 +1,15 @@
+Em 31 de julho, a MiniMax lançou o H3: 15 segundos de vídeo em 2K com áudio estéreo nativo gerados pelo mesmo modelo, na mesma passagem. Não é pós-sincronização. Imagem e som chegam juntos. Por volta de $0,13 por segundo.
+
+Já trabalhei como compositor.
+
+Minha reação honesta: é a primeira vez que isso é literalmente verdade.
+
+Passei anos compondo trilha para cenas. O que torna isso difícil não é técnica. É que a imagem chega com suas próprias afirmações sobre o que ela quer ser, e a trilha ou reforça isso ou cria atrito com isso, e a decisão sobre qual das duas fazer é tudo. Você refaz até achar. Horas, às vezes dias.
+
+O H3 gera os dois de uma vez. O áudio é plausível, coerente com o que se vê. Isso é real. Mas plausível é diferente de ter ponto de vista sobre o que uma cena deve ouvir.
+
+Quem entrou no mercado de áudio fazendo execução, sincronizando, limpando, organizando: esse caminho encolheu. Quem faz áudio com algo a dizer sobre a cena: esse trabalho continua sendo seu, e ficou mais claro porque o comparativo barato chegou.
+
+Não sei ainda o que vou fazer diferente na prática. Mas sei o que não mudou: um modelo que gera áudio junto com a imagem não tem opinião sobre o que a cena precisa ouvir.
+
+Essa opinião continua sendo de quem dirige.

@@ -3,6 +3,7 @@ id: "art-172"
 title: "5 Week Skills #01: Five Claude Skills, and the One I Left Rotting on My Own Machine"
 description: "Five Claude skills, every number opened and counted on August 22, 2026, not remembered. A film template that arrives already cut, a rulebook of 35 AI writing patterns, an editor that runs your agent with approve-everything flags, a hook that outlives a dead session, and one of mine that is not ready. Plus the copy of the second one I have run five months stale."
 pubDate: "2026-08-22"
+updatedDate: "2026-08-24"
 toolVersion: "2026-08"
 category: "AI"
 tags:
@@ -11,7 +12,7 @@ tags:
   - "Craft"
   - "Skills"
   - "5 Week Skills"
-heroImage: "https://images.unsplash.com/photo-1542388481-52d5a10ae242?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHwzfHxhbmFsb2clMjBmaWxtJTIwcGhvdG9ncmFwaHklMjBncmFpbnxlbnwxfDB8fHwxNzg3NDA5OTkyfDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85&sat=-100&con=10"
+heroImage: "https://images.unsplash.com/photo-1771591227117-0726b777828e?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHwyMHx8YmxhY2slMjBhbmQlMjB3aGl0ZSUyMHBvcnRyYWl0JTIwYXJ0aXN0aWN8ZW58MXwwfHx8MTc4NzYxMjQxN3ww&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85&sat=-100&con=10"
 author: "Ulisses Balbino"
 readTime: "12 min read"
 featured: true
@@ -25,7 +26,7 @@ featured: true
 
 <p>The six I am missing are numbered 30 to 35. Number 31 is forced punchlines and dramatic fragments. Number 32 is formulaic sayings. Number 33 is fake-candid openings, and its list of trigger phrases includes "Honestly?" and "Let's be honest." Number 34 is answering objections nobody raised.</p>
 
-<p>In July I published eight LinkedIn posts in a row that opened the same way every time, with the same staged pause before an ordinary point. The engagement died. I suspended the whole thing on August 13.</p>
+<p>Between July 25 and August 12 I published nineteen LinkedIn posts carrying the same staged pause before an ordinary point, twelve of them in an unbroken row. The engagement died. I suspended the whole thing on August 13. (Those figures are corrected. See the note at the end.)</p>
 
 <p>The tool that names that exact failure, by number, has been sitting on my hard drive for five months in a version that does not contain it.</p>
 
@@ -206,6 +207,11 @@ pnpm -F @html-anything/next dev</code></pre>
 <p>Between now and Monday I am doing one thing and reporting the result whether it flatters me or not. I am pulling my local humanizer from 2.5.1 up to current, then running the eight LinkedIn posts from July through it, and counting how many of the thirty five patterns it finds. The count goes in edition two, on August 31, including the number that embarrasses me.</p>
 
 <p>Next Monday, five more. And gauntlet-loop still needs its licence and an English translation. Now you have seen the list of what is wrong with it, so you will know if I quietly skip one.</p>
+
+<section class="article-note note-correction">
+<h2>Correction</h2>
+<p>Corrected August 24, 2026. The first version of this article said I had published eight LinkedIn posts in a row in July. That number was wrong, and it was mine, not anybody else's. On August 24 I did the thing the last section of this article promised: I pulled my local humanizer from 2.5.1 to 2.11.2, then counted the posts one file at a time out of my own published record instead of out of my memory. Nineteen posts carried the staged pause. The longest unbroken run was twelve. The run started on July 25 and ended on August 12, so it was never a July problem, it was a July and August problem. My internal postmortem was wrong in the same place, with a different wrong answer: it recorded eight consecutive posts between August 6 and August 14. The corrected number is more than twice the number I published, which is the uncomfortable part and the reason it is written here rather than quietly fixed. The full count, the method and what I could not check are in edition two.</p>
+</section>
 
 <section class="article-note note-sources">
 <h2>Sources and verification</h2>

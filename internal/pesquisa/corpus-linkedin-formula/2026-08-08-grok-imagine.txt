@@ -1,0 +1,15 @@
+Em 1 de agosto, o xAI atualizou o Grok Imagine Video com sete referências visuais por geração. Sete travas: rosto, locação, objeto, estilo de luz.
+
+Dirigi um stop-motion para a Forno de Minas. Naquele trabalho, consistência não era detalhe. Era o trabalho em si.
+
+Minha reação honesta: deveria ter chegado antes.
+
+Em stop-motion você aprende rápido: quando o personagem move um milímetro a mais, o espectador percebe. A equipe passava horas segurando a mesma forma, a mesma luz de um frame para o próximo. O que o Grok agora faz é ancorar esses elementos antes da geração começar.
+
+Isso é real. E aqui está o que o anúncio não diz: âncora é diferente de argumento. Quando você trava sete coisas, está dizendo ao modelo o que ele não pode descobrir.
+
+Para quem faz conteúdo de produto com personagem fixo: esse recurso resolve um problema real. A consistência que exigia retake ou compositing agora vai junto com a geração.
+
+Para quem trabalha com descoberta, com o plano que só aparece quando a câmera está no lugar errado: travar tudo antes fecha a porta antes de olhar pelo buraco.
+
+Referência é ponto de partida, não destino.

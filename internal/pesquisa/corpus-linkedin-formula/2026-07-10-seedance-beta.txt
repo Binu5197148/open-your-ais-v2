@@ -1,0 +1,15 @@
+O Seedance 2.5 da ByteDance entrou em beta global no início de julho.
+
+Construo automações com IA para produção desde que lancei o Open Your AIs. Não entrei por programação. Entrei testando ferramentas em projetos reais, em condições reais, para clientes reais.
+
+E aprendi cedo: a pergunta que o release nunca responde não é "o que essa ferramenta consegue fazer". É "o que acontece com você se usar isso num projeto comercial".
+
+Quando o Seedance 2.0 chegou em fevereiro, a Disney e a Paramount mandaram notificações jurídicas antes do fim de março. A versão 2.5 chegou esta semana.
+
+Não porque a ByteDance não sabe que Hollywood existe. Mas porque a empresa está apostando que capacidade técnica chega antes do risco jurídico.
+
+Essa aposta não é do produtor. É da empresa.
+
+Quem recebe os clientes no escritório e responde pelos projetos sou eu. Não a ByteDance.
+
+Escrevi o guia completo antes de você usar em produção comercial:

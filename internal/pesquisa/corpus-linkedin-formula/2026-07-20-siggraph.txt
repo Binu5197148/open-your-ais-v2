@@ -1,0 +1,13 @@
+Ontem, no SIGGRAPH em Los Angeles, a NVIDIA colocou os world models no centro da palestra principal.
+
+Traduzindo para quem faz imagem: a próxima geração de vídeo por IA não vai ganhar em pixel mais bonito. Vai ganhar em modelos que entendem um mundo. Espaço, luz, física, continuidade no tempo.
+
+Eu uso essas ferramentas em trabalho real, com cliente e prazo. Kling, Seedance, Gemini Omni. Cada ganho de continuidade que aparece na minha timeline é um world model fazendo o trabalho.
+
+O cinema sempre construiu mundos que não existiam. O matte painting pintava um castelo no vidro e filmava o ator através dele. Depois veio o fundo projetado, o chroma, os ambientes digitais. Cada passo deixou uma produção pequena entrar num mundo que ela não podia bancar. E cada passo veio com o mesmo medo, de que o mundo pintado substituísse o ofício. Nunca substituiu.
+
+O world model é o próximo vidro pintado. A diferença é que agora o mundo se atualiza sozinho quando a câmera anda.
+
+Mas o motor ficou mais forte, não mais sábio. Ele segura a cena inteira. Ele não sabe por que a cena precisa daquela sala, nem qual meio segundo da atuação sustenta o plano.
+
+A IA amplifica quem decide. Nunca substituiu essa pessoa. O motor melhorou. O autor ainda precisa aparecer.

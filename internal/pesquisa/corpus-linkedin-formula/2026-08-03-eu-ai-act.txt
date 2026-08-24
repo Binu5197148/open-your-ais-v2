@@ -1,0 +1,17 @@
+Ontem, 2 de agosto, o AI Act europeu passou a ser aplicado. As regras de transparência do Artigo 50 valem a partir de agora: conteúdo sintético precisa de marcação legível por máquina, deepfake precisa ser declarado. Multa de até 15 milhões de euros ou 3% do faturamento global.
+
+Fundei a Pichorra Filmes em São Paulo em 2012.
+
+Minha reação honesta: fui atrás da frase que muda alguma coisa na segunda-feira, e ela não estava em nenhuma das reportagens.
+
+Está no próprio Artigo 50, parágrafo 4. Quando o conteúdo faz parte de uma obra evidentemente artística, criativa, satírica ou ficcional, a obrigação encolhe. Vira só reconhecer que existe elemento gerado, de um jeito que não atrapalhe a fruição da obra.
+
+Bruxelas escreveu na lei uma distinção que o cinema entende desde o primeiro fade: o público sabe que está vendo algo construído. Matte painting nunca foi mentira. Maquete nunca foi mentira.
+
+E tem um detalhe que quase ninguém comentou, que é onde cada obrigação cai. A marca d'água é dever de quem fabrica o modelo. A declaração é dever de quem entrega a peça.
+
+Ou seja: a lei apontou para o autor.
+
+Se você usa esses modelos em trabalho que roda na Europa, comece a registrar o que foi gerado, com qual modelo, em que etapa. Não por causa de fiscal. Porque no dia em que um cliente pedir para você certificar o que tem no corte, você vai descobrir que não consegue reconstruir de memória.
+
+A ferramenta amplia o que você está disposto a assinar.

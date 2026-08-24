@@ -1,0 +1,17 @@
+Todo tutorial de Higgsfield AI que já vi foi feito por alguém que abriu a ferramenta pela primeira vez naquela manhã.
+
+Entendo por que. A ferramenta impressiona de imediato. Prompt entra, clipe sai, view vai ao vídeo.
+
+O problema é que isso não é um tutorial. É uma demonstração.
+
+Uso esses modelos dentro de um pipeline real, semana após semana, em trabalho que precisa sobreviver à opinião de um cliente.
+
+E o maior salto de qualidade que tive não foi trocar de modelo. Foi mudar de vocabulário.
+
+"Cena cinematográfica de uma mulher na chuva" é um desejo. "Noite exterior, luz de sódio, mulher em capa cinza caminhando em direção à câmera, push lento na altura dos olhos" é um take.
+
+Não porque o modelo seja fraco. Mas porque ele só desdobra o que você entrega. Entregue um desejo e ele amplifica ruído. Entregue uma decisão real e ele amplifica uma ideia que parece custar dez vezes o seu orçamento.
+
+Tudo começa no autor. A máquina não sabe o que merece ser amplificado.
+
+Documentei o pipeline completo, modelo por modelo, decisão por decisão:

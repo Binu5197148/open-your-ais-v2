@@ -1,0 +1,15 @@
+Em 24 de setembro de 2026, a API do Sora fecha. A Disney tinha um deal de 1 bilhão de dólares planejado com a OpenAI. A Disney soube do cancelamento menos de uma hora antes do comunicado público.
+
+Dirigi para marcas como Nestlé e Kopenhagen.
+
+Minha reação honesta: esperada.
+
+Em 2012, quando fundei a Pichorra Filmes, o trabalho de produção sempre dependia de canais que nós não controlávamos. Aprendemos rápido o que esse risco significa na prática: o conteúdo é seu. A plataforma onde circula, não.
+
+O problema não é a API fechar. Toda plataforma fecha, deprecia ou reprecia. O problema é o que fica quando ela fecha. Se o que fica é o seu olho, o seu corte, o seu argumento sobre o que a cena precisa, você migra. Se o que fica é só o histórico de geração, você começa do zero.
+
+Para quem tem workflow integrado no Sora: 48 dias para migrar, sem extensão anunciada. Para quem nunca apostou tudo em um único vendor: essa não foi sorte. Foi escolha estrutural.
+
+AI amplifica o que você traz. Traga dependência, ela amplifica dependência. Traga direção, ela amplifica direção.
+
+Plataforma é onde o render roda. Capacidade é o que sobra quando ela some.
