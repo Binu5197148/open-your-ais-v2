@@ -1,6 +1,9 @@
 # Open Your AIs. Everything here is public and free to crawl.
 User-agent: *
 Allow: /
+# URL com parametro serve a mesma pagina que a URL limpa. Sem esta linha,
+# /blog/?qualquercoisa=1 vira uma copia e o Google marca como duplicada.
+Disallow: /*?
 
 Sitemap: https://openyourais.com/sitemap-index.xml
 
