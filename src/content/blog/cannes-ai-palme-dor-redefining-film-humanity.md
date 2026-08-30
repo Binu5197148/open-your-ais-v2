@@ -1,7 +1,7 @@
 ---
 id: "art-132"
-title: "Cannes Kept AI Out of Competition. The Conversation Let It In Everywhere Else."
-description: "The 2026 Palme d'Or went to Fjord, Cristian Mungiu's human-made drama. AI films were excluded from competition, yet AI filled every hallway at Cannes. The split is the real story."
+title: "AI Film at Cannes: The Exclusion That Settles Nothing"
+description: "The Palme d'Or stayed human while AI filled every hallway. Photography got the same separate section in 1859. That exclusion settled nothing either."
 pubDate: "2026-05-24"
 updatedDate: "2026-07-15"
 category: "AI"

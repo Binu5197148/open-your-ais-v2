@@ -1,7 +1,7 @@
 ---
 id: "art-061"
-title: "I Stopped Using Google for Research — Here's What Replaced It"
-description: "After 15 years of Google dominance, I switched to Perplexity for all my research. The results shocked me. Here's the honest comparison."
+title: "Perplexity vs Google: 30 Searches a Day for Two Weeks"
+description: "Two weeks with every research query moved off Google. Where the answers came back faster, where the citations broke, plus the 20 percent that went back."
 pubDate: "2026-03-02"
 category: "AI"
 tags:
@@ -16,7 +16,7 @@ readTime: "6 min read"
 ---
 
 <h2>The Switch</h2>
-<p>Two weeks ago, I stopped using Google for research. Completely. Everything — article research, tool comparisons, fact-checking, competitive analysis — now goes through Perplexity. The results have been eye-opening, and not just in the "this is cool" sense. In the "this is fundamentally better" sense.</p>
+<p>Two weeks ago, I stopped using Google for research. Completely. Everything (article research, tool comparisons, fact-checking, competitive analysis) now goes through Perplexity. The results have been eye-opening, and not just in the "this is cool" sense. In the "this is fundamentally better" sense.</p>
 <p>I've used Google since 2005. I've watched it go from "just works" to "filter through the noise." At some point in the last few years, searching stopped being about finding answers and started being about dodging ads, SEO spam, affiliate content farms, and AI-generated garbage that says nothing in 3,000 words.</p>
 <p>Perplexity isn't perfect. But it's replaced Google for 80% of my research needs. Here's the honest comparison after two weeks of exclusive use.</p>
 
@@ -25,7 +25,7 @@ readTime: "6 min read"
 
 <h3>The Google Workflow (Before)</h3>
 <p>Search a topic. Scan 10 results. Open 3-4 tabs. Skim each article looking for the actual answer buried under 500 words of SEO filler. Close tabs. Refine search. Repeat. Total time per research question: 5-15 minutes.</p>
-<p>The frustration isn't the time — it's the cognitive load. Every Google search in 2026 requires you to be a human spam filter. You're not searching; you're excavating.</p>
+<p>The frustration isn't the time. It's the cognitive load. Every Google search in 2026 requires you to be a human spam filter. You're not searching; you're excavating.</p>
 
 <h3>The Perplexity Workflow (After)</h3>
 <p>Ask a question in natural language. Get a synthesized answer with cited sources. Follow up with a clarifying question if needed. Total time per research question: 1-3 minutes.</p>
@@ -54,16 +54,16 @@ readTime: "6 min read"
 <p>Perplexity is terrible at finding nearby restaurants, stores, or services. "Best coffee shop near me" returns generic chain recommendations. Google Maps integration makes local search a completely different experience. For anything location-dependent, Google is still essential.</p>
 
 <h3>Shopping and Product Search</h3>
-<p>Google still owns product search. Price comparisons, product availability, reviews aggregation — the entire shopping infrastructure is built on Google. Perplexity can tell you about a product, but it can't tell you where to buy it cheapest or whether it's in stock at the store down the street.</p>
+<p>Google still owns product search. Price comparisons, product availability, reviews aggregation: the entire shopping infrastructure is built on Google. Perplexity can tell you about a product, but it can't tell you where to buy it cheapest or whether it's in stock at the store down the street.</p>
 
 <h3>Extremely Niche Technical Queries</h3>
-<p>For highly specific technical questions — obscure error codes, legacy software documentation, niche hardware specs — Google sometimes surfaces forum posts and documentation that Perplexity misses. The long tail of the internet is still Google's domain.</p>
+<p>For highly specific technical questions (obscure error codes, legacy software documentation, niche hardware specs), Google sometimes surfaces forum posts and documentation that Perplexity misses. The long tail of the internet is still Google's domain.</p>
 
 <h3>Image and Video Search</h3>
-<p>Google Image Search and YouTube Search are irreplaceable. When I need visual references for a production — "copper lighting setup for beverage photography" — I still go to Google. Perplexity can describe what I need but can't show me.</p>
+<p>Google Image Search and YouTube Search are irreplaceable. When I need visual references for a production ("copper lighting setup for beverage photography"), I still go to Google. Perplexity can describe what I need but can't show me.</p>
 
 <h3>Real-Time Information</h3>
-<p>Breaking news, live events, rapidly changing information — Google's crawl speed and news integration are still faster. Perplexity can lag by hours on very recent developments.</p>
+<p>Breaking news, live events, rapidly changing information: Google's crawl speed and news integration are still faster. Perplexity can lag by hours on very recent developments.</p>
 
 <h2>Practical Comparison: Same Query, Both Platforms</h2>
 <p>I ran 20 of my actual daily searches through both platforms and tracked which gave me a useful answer faster:</p>
@@ -77,7 +77,7 @@ readTime: "6 min read"
 <h2>Cost Comparison</h2>
 <p>Google Search: Free (you pay with attention to ads and data collection).</p>
 <p>Perplexity Pro: $20/month. This gets you unlimited Pro searches with enhanced research capabilities, access to multiple AI models, and file upload for analysis.</p>
-<p>Is $20/month worth it? If you search 30+ times a day for work — absolutely. The time saved pays for itself within the first week. If you search casually a few times a day, the free tier is probably sufficient.</p>
+<p>Is $20/month worth it? If you search 30+ times a day for work, absolutely. The time saved pays for itself within the first week. If you search casually a few times a day, the free tier is probably sufficient.</p>
 
 <h2>My Current Setup</h2>
 <p>After two weeks of testing, here's where I've landed:</p>
@@ -89,7 +89,7 @@ readTime: "6 min read"
 <p>Google isn't dead. It's not even dying. But its monopoly on search is cracking for the first time in two decades. Perplexity has found the wedge: give people answers instead of making them hunt.</p>
 
 <h2>Recommendations</h2>
-<p>If you're a creator, researcher, or knowledge worker who searches heavily for work: try Perplexity Pro for one month. Track how many times you reach for Google out of habit versus necessity. I bet you'll find, like I did, that most of those Google searches were habit — and Perplexity does them better.</p>
+<p>If you're a creator, researcher, or knowledge worker who searches heavily for work: try Perplexity Pro for one month. Track how many times you reach for Google out of habit versus necessity. I bet you'll find, like I did, that most of those Google searches were habit, and Perplexity does them better.</p>
 <p>If you're a casual searcher who mostly uses Google for directions, shopping, and quick lookups: stay with Google. Perplexity solves problems you don't have.</p>
 <p>The future of search is conversational, cited, and synthesized. Perplexity is building that future. Google is defending its past. For the first time in 15 years, there's a real alternative. And for research, it's better.</p>
-<p><strong>Rating: 8/10</strong> — Replaced Google for 80% of my research needs. Essential for knowledge workers. Still needs Google for local, shopping, and visual search.</p>
+<p><strong>Rating: 8/10.</strong> Replaced Google for 80% of my research needs. Essential for knowledge workers. Still needs Google for local, shopping, and visual search.</p>

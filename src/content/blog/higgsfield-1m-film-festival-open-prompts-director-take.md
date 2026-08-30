@@ -1,8 +1,9 @@
 ---
 id: "art-161"
-title: "Higgsfield Opens a $1M Film Contest Today. Every Prompt Goes Public."
-description: "Higgsfield opened a $1,000,000 film contest on August 10. $500k for first place, Academy Award jury. When the deadline closes, all project files go public."
+title: "Higgsfield Film Festival: $1M, and Your Prompts Go Public"
+description: "A $1,000,000 prize pool, an Academy Award winning jury, and one clause worth reading twice: when submissions close, every project file becomes public."
 pubDate: "2026-08-10"
+updatedDate: "2026-08-30"
 category: "AI"
 tags:
   - "Higgsfield"
@@ -16,7 +17,7 @@ readTime: "6 min read"
 
 <h2>The festival opens today</h2>
 
-<p>On August 10, 2026, Higgsfield opened the Global Film Festival for submissions. The prize pool is $1,000,000 distributed across 14 winners: $500,000 for first place, $200,000 for second, $100,000 for third, $100,000 for audience choice, and ten honorable mentions at $10,000 each. The jury includes Academy Award-winning members. Films must be standalone shorts of at least three minutes, created through the festival project in Higgsfield Cinema Studio, with an active subscription. Submissions close September 3.</p>
+<p><em>Note added August 30, 2026. Submissions close on September 3, so the entry window in this piece is nearly shut. What survives the deadline is the part worth reading: the open-file rule, which makes every submitted project inspectable and reusable by anyone on the platform once entries close. That question outlives this festival and applies to the next one.</em></p><p>On August 10, 2026, Higgsfield opened the Global Film Festival for submissions. The prize pool is $1,000,000 distributed across 14 winners: $500,000 for first place, $200,000 for second, $100,000 for third, $100,000 for audience choice, and ten honorable mentions at $10,000 each. The jury includes Academy Award-winning members. Films must be standalone shorts of at least three minutes, created through the festival project in Higgsfield Cinema Studio, with an active subscription. Submissions close September 3.</p>
 
 <p>One detail the announcement leads with, because Higgsfield knows it is the strongest case they can make: three of their own films, Hell Grind, Zephyr, and Mork, are already open-sourced with every prompt made public. When the festival closes, all submissions follow. Your project files, visible to anyone on the platform.</p>
 

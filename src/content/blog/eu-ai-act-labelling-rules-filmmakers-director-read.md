@@ -1,7 +1,7 @@
 ---
 id: "art-155"
-title: "EU AI Act: What the New Labelling Rules Mean for Filmmakers"
-description: "On August 2, 2026, the EU AI Act transparency rules became enforceable: synthetic content marking, deepfake disclosure, fines up to 15 million euros. Buried in Article 50 there is a carve-out for artistic work that most coverage skips, and it changes what the label actually asks of a director."
+title: "EU AI Act Labelling: The Carve-Out for Artistic Work"
+description: "Article 50(4) limits the duty to a disclosure that does not hamper the work, and a cleanup pass is not a generated performance. Where that line falls for you."
 pubDate: "2026-08-03"
 toolVersion: "2026-08"
 category: "AI"

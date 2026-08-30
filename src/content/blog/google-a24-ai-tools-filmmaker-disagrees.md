@@ -1,7 +1,7 @@
 ---
 id: "art-142"
-title: "A24, Google, and the Filmmaker Who'd Delete AI"
-description: "Google invested $75 million in A24 to build AI filmmaking tools with DeepMind. One of A24's own directors says he'd erase generative AI if he could. Both things are simultaneously true."
+title: "Google, A24 and AI Tools: A Director Says No"
+description: "Google put $75 million into A24 for DeepMind tools. An A24 director says he would erase generative AI forever. Both positions hold. The deal shows why."
 pubDate: "2026-07-19"
 category: "AI"
 tags:

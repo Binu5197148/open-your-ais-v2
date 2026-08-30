@@ -1,7 +1,7 @@
 ---
 id: "art-153"
-title: "3,000 Filmmakers Made AI Films. Ten Will Show at Venice."
-description: "On July 28, the Reply AI Film Festival named its 10 finalists from more than 3,000 submissions across 76 countries. The gap between 3,000 and 10 is the whole story."
+title: "AI Short Film: What Got 10 of 3,000 Into Venice"
+description: "More than 3,000 AI shorts, ten finalists, a jury judging use instead of novelty. What those ten had that the other 2,990 did not, named without flattery."
 pubDate: "2026-07-31"
 category: "AI"
 tags:

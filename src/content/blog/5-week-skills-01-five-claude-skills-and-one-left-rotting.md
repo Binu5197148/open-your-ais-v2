@@ -1,7 +1,7 @@
 ---
 id: "art-172"
-title: "5 Week Skills #01: Five Claude Skills, and the One I Left Rotting on My Own Machine"
-description: "Five Claude skills, every number opened and counted on August 22, 2026, not remembered. A film template that arrives already cut, a rulebook of 35 AI writing patterns, an editor that runs your agent with approve-everything flags, a hook that outlives a dead session, and one of mine that is not ready. Plus the copy of the second one I have run five months stale."
+title: "Claude Skills Weekly: Five Checked, One Left Rotting"
+description: "Five Claude skills opened and counted on August 22, not recalled from memory, plus the copy on my own drive that had sat five months out of date."
 pubDate: "2026-08-22"
 updatedDate: "2026-08-24"
 toolVersion: "2026-08"

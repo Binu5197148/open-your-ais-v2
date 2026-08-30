@@ -1,7 +1,7 @@
 ---
 id: "art-144"
-title: "Anthropic Settlement Approved: What $3,000 Per Book Prices"
-description: "On July 20, 2026, a federal judge gave final approval to the Anthropic settlement: $1.5 billion, about $3,000 per book, the largest copyright settlement in history. I use Claude on real production work every day. Here is what that number actually prices, and the bigger thing it leaves unpriced."
+title: "Anthropic Settlement: Fair Use Won, Piracy Cost $1.5B"
+description: "The court called training on books fair use and the piracy the crime. A price of 3,000 per book covers the theft. It does not cover the writing itself."
 pubDate: "2026-07-22"
 updatedDate: "2026-08-16"
 toolVersion: "2026-07"

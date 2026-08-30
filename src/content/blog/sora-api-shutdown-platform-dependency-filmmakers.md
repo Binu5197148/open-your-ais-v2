@@ -1,7 +1,7 @@
 ---
 id: "art-158"
-title: "Sora ends September 24. What filmmakers built on platforms they didn't own"
-description: "OpenAI shut down Sora in March 2026. The API closes September 24. What the Disney collapse reveals about building creative work on infrastructure you don't control."
+title: "Sora Shutdown: What Filmmakers Lose Renting a Platform"
+description: "OpenAI closed Sora and told Disney under an hour before the public. What that costs anyone whose pipeline runs through a single rented endpoint."
 pubDate: "2026-08-07"
 category: "AI"
 tags:

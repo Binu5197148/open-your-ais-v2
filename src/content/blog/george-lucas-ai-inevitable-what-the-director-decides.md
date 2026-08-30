@@ -1,7 +1,7 @@
 ---
 id: "art-136"
-title: "George Lucas Says AI Is Inevitable. The Question Is Who Decides."
-description: "On July 14, 2026, George Lucas called AI the future of cinema and said there is nothing you can do about it. He is right about the technology. Wrong about who decides."
+title: "George Lucas on AI: Why 'Inevitable' Is the Wrong Word"
+description: "Lucas called AI the future and said there is nothing you can do about it. He built ILM by doing something about it. That contradiction is worth reading."
 pubDate: "2026-07-15"
 updatedDate: "2026-07-15"
 category: "AI"

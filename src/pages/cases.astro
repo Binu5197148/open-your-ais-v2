@@ -16,12 +16,12 @@ const fmtLong = (d: Date) =>
 
 <BaseLayout
   title="Cases: AI Production Work That Shipped"
-  description={`${total} finished projects built with AI production pipelines — films, campaigns and sites, with the method, the tools and what broke along the way.`}
+  description={`${total} finished projects built with AI production pipelines: films, campaigns and sites, with the method, the tools and what broke along the way.`}
   current="cases"
   latestHref={latestHref}
 >
   <section class="container cs-head">
-    <p class="mono" style="color:var(--c-accent)">§ — The work</p>
+    <p class="mono" style="color:var(--c-accent)">§ · The work</p>
     <h1 class="cs-title" data-reveal="split">
       <span class="split-line">Cases,</span>
       <span class="split-line" style="--reveal-delay: 80ms"><em>what shipped.</em></span>
@@ -46,7 +46,7 @@ const fmtLong = (d: Date) =>
         <a class="cs-card" href={`/blog/${p.id}/`}>
           {p.data.heroImage ? (
             <div class="cs-card__imgwrap">
-              <img class="card__img" src={p.data.heroImage} alt="" loading="lazy" />
+              <img class="card__img" src={p.data.heroImage} alt={p.data.title} loading="lazy" />
             </div>
           ) : null}
           <div class="cs-card__body">

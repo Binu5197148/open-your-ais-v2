@@ -1,7 +1,7 @@
 ---
 id: "art-154"
-title: "MiniMax H3: when sound stopped being a separate department"
-description: "On July 31, MiniMax released H3, a model that generates 2K video and native stereo audio in one pass. The question the announcement skips: what happens to the craft of listening?"
+title: "MiniMax H3: 2K Video and Native Audio in One Pass"
+description: "Fifteen seconds of 2K with stereo sound from a single generation, around $0.13 per second. What collapsing image and sound into one pass costs the craft."
 pubDate: "2026-08-02"
 toolVersion: "2026-08"
 category: "AI"

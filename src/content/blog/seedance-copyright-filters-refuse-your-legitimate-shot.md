@@ -1,7 +1,7 @@
 ---
 id: "art-170"
-title: "Seedance Copyright Filters Will Refuse Your Legitimate Shot"
-description: "On August 17, 2026, ByteDance signed a copyright agreement with Hollywood's Motion Picture Association covering Seedance and Seedream. Everyone read it as a win for the studios. The Seedance copyright guardrails it promises are output filters, and output filters do not fail on the person making Iron Man. They fail on the person with a delivery on Friday."
+title: "Seedance Copyright Filters: They Fail the Wrong People"
+description: "ByteDance signed with the MPA and the guardrails are output filters. They rarely stop the person copying Iron Man. They stop the shot due on Friday."
 pubDate: "2026-08-22"
 toolVersion: "2026-08"
 category: "AI"

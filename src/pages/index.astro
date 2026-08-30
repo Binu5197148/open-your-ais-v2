@@ -21,7 +21,7 @@ const fmtLong = (d: Date) =>
 
 const catLabel = (c?: string) => (c ? c : 'Dispatch');
 
-const issueLabel = `Issue Nº ${String(total).padStart(3, '0')} — Broadcasting from the edit room`;
+const issueLabel = `Issue Nº ${String(total).padStart(3, '0')} · Broadcasting from the edit room`;
 ---
 
 <BaseLayout
@@ -50,11 +50,11 @@ const issueLabel = `Issue Nº ${String(total).padStart(3, '0')} — Broadcasting
             <img
               class="hero__img parallax-up"
               src={featuredLead.data.heroImage}
-              alt=""
+              alt={featuredLead.data.title}
               loading="eager"
             />
           ) : (
-            <div class="hero__img ph parallax-up" data-label="HERO STILL — latest dispatch"></div>
+            <div class="hero__img ph parallax-up" data-label="HERO STILL · latest dispatch"></div>
           )}
         </div>
         <aside class="hero__side" data-reveal style="--reveal-delay: 400ms">
@@ -62,8 +62,7 @@ const issueLabel = `Issue Nº ${String(total).padStart(3, '0')} — Broadcasting
           <p class="hero__lede">
             Fourteen years behind the lens taught me that every new tool
             eventually rewrites the grammar of the image. The industry calls
-            it product. The work calls it something else. These dispatches
-            live in that gap — field notes from someone still trying to keep
+            it product. The work calls it something else. These dispatches live in that gap, field notes from someone still trying to keep
             art on the side of art.
           </p>
           <div style="margin-top:32px;display:flex;gap:14px;flex-wrap:wrap">
@@ -106,7 +105,7 @@ const issueLabel = `Issue Nº ${String(total).padStart(3, '0')} — Broadcasting
   {featuredLead && (
     <section class="container feature" data-reveal>
       <div class="hline">
-        <span class="mono">§ 01 — Currently in rotation</span>
+        <span class="mono">§ 01 · Currently in rotation</span>
         <hr />
         <span class="mono">Four of {total}</span>
       </div>
@@ -115,9 +114,9 @@ const issueLabel = `Issue Nº ${String(total).padStart(3, '0')} — Broadcasting
         <a class="card card--lead" href={`/blog/${featuredLead.id}/`}>
           <div class="card__img-wrap">
             {featuredLead.data.heroImage ? (
-              <img class="card__img" src={featuredLead.data.heroImage} alt="" loading="lazy" />
+              <img class="card__img" src={featuredLead.data.heroImage} alt={featuredLead.data.title} loading="lazy" />
             ) : (
-              <div class="card__img ph" data-label="LEAD STILL — 4:5"></div>
+              <div class="card__img ph" data-label="LEAD STILL · 4:5"></div>
             )}
           </div>
           <div class="card__body">
@@ -135,9 +134,9 @@ const issueLabel = `Issue Nº ${String(total).padStart(3, '0')} — Broadcasting
         {featuredSecondary.map((post, i) => (
           <a class="card" href={`/blog/${post.id}/`}>
             {post.data.heroImage ? (
-              <img class="card__img" src={post.data.heroImage} alt="" loading="lazy" />
+              <img class="card__img" src={post.data.heroImage} alt={post.data.title} loading="lazy" />
             ) : (
-              <div class="card__img ph" data-label={`STILL ${String(i + 2).padStart(2, '0')} — 4:5`}></div>
+              <div class="card__img ph" data-label={`STILL ${String(i + 2).padStart(2, '0')} · 4:5`}></div>
             )}
             <div class="card__body">
               <div class="mono card__meta">
@@ -157,7 +156,7 @@ const issueLabel = `Issue Nº ${String(total).padStart(3, '0')} — Broadcasting
   <!-- BIG QUOTE -->
   <section class="bigquote container" data-reveal>
     <div class="bigquote__rule"></div>
-    <p class="mono" style="color:var(--c-accent)">§ 02 — From the notebook</p>
+    <p class="mono" style="color:var(--c-accent)">§ 02 · From the notebook</p>
     <blockquote class="bigquote__q">
       <span class="split-line">"A model can render</span>
       <span class="split-line">a thousand sunsets.</span>
@@ -165,7 +164,7 @@ const issueLabel = `Issue Nº ${String(total).padStart(3, '0')} — Broadcasting
       <span class="split-line">was the one we were</span>
       <span class="split-line">waiting for."</span>
     </blockquote>
-    <div class="mono bigquote__cite">— Field note, São Paulo</div>
+    <div class="mono bigquote__cite">Field note, São Paulo</div>
   </section>
 
   <Marquee
@@ -186,7 +185,7 @@ const issueLabel = `Issue Nº ${String(total).padStart(3, '0')} — Broadcasting
   {recent.length > 0 && (
     <section class="container recent" data-reveal>
       <div class="hline">
-        <span class="mono">§ 03 — The archive, lately</span>
+        <span class="mono">§ 03 · The archive, lately</span>
         <hr />
         <a href="/blog/" class="elink mono">All {total} →</a>
       </div>
@@ -215,14 +214,14 @@ const issueLabel = `Issue Nº ${String(total).padStart(3, '0')} — Broadcasting
   <!-- CTA -->
   <section class="container subscribe" data-reveal>
     <div class="subscribe__inner">
-      <p class="mono" style="color:var(--c-fg-muted)">§ 04 — Stay in touch</p>
+      <p class="mono" style="color:var(--c-fg-muted)">§ 04 · Stay in touch</p>
       <h2 class="subscribe__title">
         <span>A slow letter,</span><br/>
         <span><em>once a fortnight,</em></span><br/>
         <span>from the edit room.</span>
       </h2>
       <p style="margin-top: var(--s-5); color: var(--c-fg-muted); max-width: 40ch; font-family: var(--font-serif); font-size: 20px; line-height: 1.45; font-weight: 300;">
-        Write in, or follow the work directly. No newsletter yet — just the
+        Write in, or follow the work directly. No newsletter yet, just the
         dispatches, as they land.
       </p>
       <div style="margin-top: var(--s-6); display: flex; gap: 14px; flex-wrap: wrap;">

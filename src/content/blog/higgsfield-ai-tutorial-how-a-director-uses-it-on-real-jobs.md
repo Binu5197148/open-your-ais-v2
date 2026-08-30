@@ -1,7 +1,7 @@
 ---
 id: "art-140"
-title: "Higgsfield AI Tutorial: How a Director Uses It on Real Jobs"
-description: "A Higgsfield AI tutorial from actual production, not a demo reel. Which model for which shot, how to prompt like a camera department, and where the director still decides."
+title: "Higgsfield AI Tutorial: Real Jobs, Not a Demo Reel"
+description: "Which model for which shot, how to prompt like a camera department, and the four stages that happen before anyone types a word into the tool."
 pubDate: "2026-07-17"
 category: "AI"
 tags:

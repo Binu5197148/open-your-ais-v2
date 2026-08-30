@@ -1,7 +1,7 @@
 ---
 id: "art-139"
-title: "AI Slop Is Not an AI Problem. It Is an Author Problem."
-description: "Christopher Nolan says Gen Z is right to reject AI slop, and that the technology is hitting film at exactly the wrong time. I use these tools on real jobs. He is right about the slop. He has the cause backwards. The machine was never the problem. The missing author was."
+title: "AI Slop: Nolan Blames Timing. The Author Is Missing."
+description: "Nolan says the timing is wrong. A director who runs Kling and Seedance on paid jobs argues the audience rejects absent authorship, not the tool."
 pubDate: "2026-07-17"
 category: "AI"
 tags:

@@ -1,7 +1,7 @@
 ---
 id: "art-149"
-title: "Del Toro chose 1,000 artists. Scorsese chose the AI. Same reason."
-description: "Del Toro hired 1,000 artists to rotoscope Pan's Labyrinth instead of AI. Scorsese just joined an AI storyboard company. They are not in disagreement."
+title: "Del Toro and Scorsese on AI: Why They Agree"
+description: "One hired 1,000 rotoscope artists. The other joined an AI storyboard company. Both protect the same thing, and it is not the tool they picked."
 pubDate: "2026-07-27"
 updatedDate: "2026-07-27"
 category: "AI"

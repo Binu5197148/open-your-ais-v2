@@ -1,7 +1,7 @@
 ---
 id: "art-152"
-title: "OiiOii AI ships a seven-agent animation pipeline. One role is not in the package."
-description: "On July 28, 2026, OiiOii AI launched in the US: seven specialized agents take a single prompt from script to finished short film. The platform promises full creative control to the creator. That is where the interesting question starts."
+title: "AI Animation: Seven Agents and Nobody to Say No"
+description: "Seven agents take one prompt from script to finished short: storyboard, character design, music, synthesis. The decision the pipeline hands back to you."
 pubDate: "2026-07-30"
 toolVersion: "2026-07"
 category: "AI"

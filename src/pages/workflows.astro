@@ -15,13 +15,13 @@ const fmtLong = (d: Date) =>
 ---
 
 <BaseLayout
-  title="AI Filmmaking Workflows: Tutorials From Real Production"
-  description={`${total} field-tested AI filmmaking workflows and tutorials — Higgsfield, Kling, Midjourney, DaVinci, ComfyUI and more, from a working director's real productions.`}
+  title="AI Filmmaking Workflows: Tutorials From Real Jobs"
+  description={`${total} field-tested AI filmmaking workflows and tutorials on Higgsfield, Kling, Midjourney, DaVinci, ComfyUI and more, from a working director's real productions.`}
   current="workflows"
   latestHref={latestHref}
 >
   <section class="container wf-head">
-    <p class="mono" style="color:var(--c-accent)">§ — The workbench</p>
+    <p class="mono" style="color:var(--c-accent)">§ · The workbench</p>
     <h1 class="wf-title" data-reveal="split">
       <span class="split-line">Workflows,</span>
       <span class="split-line" style="--reveal-delay: 80ms"><em>from real sets.</em></span>
@@ -47,7 +47,7 @@ const fmtLong = (d: Date) =>
         <a class="wf-card" href={`/blog/${p.id}/`}>
           {p.data.heroImage ? (
             <div class="wf-card__imgwrap">
-              <img class="card__img" src={p.data.heroImage} alt="" loading="lazy" />
+              <img class="card__img" src={p.data.heroImage} alt={p.data.title} loading="lazy" />
             </div>
           ) : null}
           <div class="wf-card__body">

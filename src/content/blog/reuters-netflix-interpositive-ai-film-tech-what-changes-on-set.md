@@ -1,7 +1,7 @@
 ---
 id: "art-066"
-title: "Reuters: Netflix Bought InterPositive. Here's the Real Production Shift Nobody in Brazil Is Talking About."
-description: "Reuters reports Netflix acquired Ben Affleck's AI film-tech firm InterPositive. As a director who's run real sets since 2012, here's what this changes in money, timeline, and creative control."
+title: "Netflix and InterPositive: 3 Film Roles at Risk First"
+description: "Netflix bought a company that compresses pre-production guesswork. Three jobs get fragile fast. Three get more valuable. The split is not random at all."
 pubDate: "2026-03-11"
 category: "AI"
 tags:
@@ -18,7 +18,7 @@ featured: true
 
 <h2>The News Is Simple. The Consequence Is Not.</h2>
 <p>Reuters reported this week that Netflix acquired Ben Affleck's AI film-tech firm, InterPositive. A lot of people read that headline as either "cinema is dead" or "AI won." Both takes are lazy.</p>
-<p>As someone who has directed commercial productions since 2012 — with real budgets, real clients, and real deadlines — I'll give you the practical version: this is not about replacing filmmakers. It's about compressing expensive uncertainty.</p>
+<p>As someone who has directed commercial productions since 2012 (with real budgets, real clients, and real deadlines), I'll give you the practical version: this is not about replacing filmmakers. It's about compressing expensive uncertainty.</p>
 <p>Netflix is buying faster decision cycles. That's the real asset.</p>
 
 <h2>What This Means in Producer Language</h2>
@@ -33,7 +33,7 @@ featured: true
 <p>If you run a production company, you know this is where margin is won or lost.</p>
 
 <h2>The Brutal Truth for Creative Teams</h2>
-<p>I've seen this reaction cycle before: digital cameras, DSLR boom, drone era, remote post. Same fear every time. The real pattern is simple: tools don't remove talent — they remove weak leverage.</p>
+<p>I've seen this reaction cycle before: digital cameras, DSLR boom, drone era, remote post. Same fear every time. The real pattern is simple: tools don't remove talent. They remove weak leverage.</p>
 <p>In this AI cycle, three roles become fragile fast:</p>
 <ul>
 <li>people paid only for repetitive draft execution,</li>
@@ -82,4 +82,4 @@ featured: true
 <h2>What I would not hand over to AI on a real shoot</h2>
 <p>Casting calls. Wardrobe decisions on the day. The first read-through with the talent. The taste call on which take to print. Anything where the input is a human in front of you and the output is a creative judgment that depends on reading the room. These are the moments where direction lives, and they do not generalize to a model. The producers who try to automate them are the ones who ship work with a hollow center, even when every individual element looks correct.</p>
 
-<p><em>Source: Reuters — "Netflix acquires Ben Affleck's AI film-tech firm" (Mar 5, 2026).</em></p>
+<p><em>Source: Reuters, "Netflix acquires Ben Affleck's AI film-tech firm" (Mar 5, 2026).</em></p>

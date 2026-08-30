@@ -1,7 +1,7 @@
 ---
 id: "art-133"
-title: "Oscars & AI: Why Restricting Human Authorship Misses the Point for Filmmakers"
-description: "The Academy of Motion Picture Arts and Sciences recently declared that only \"demonstrably performed by humans\" acting and \"human-authored\" screenplays will be eligible for awards. This decision ignites a crucial debate about the future of creativity, but for many independent filmmakers, it misunderstands how AI truly empowers human artists."
+title: "Oscars AI Rules: What They Miss About Small Crews"
+description: "The Academy now demands human performance and human-authored scripts. For a small independent crew, that rule reads nothing like it does inside a studio."
 pubDate: "2026-05-02"
 category: "AI"
 tags:

@@ -1,7 +1,7 @@
 ---
 id: "art-160"
-title: "How to Use Seedance 2.5: A Director's Prompting Method"
-description: "On August 7, 2026, ByteDance opened the public developer API for Seedance 2.5 and the model landed on Higgsfield. I direct and edit with these tools. Here is the working method: how to shape the prompt, what the 50 references are actually for, and where region-level editing saves you and where it quietly costs you."
+title: "Seedance 2.5 Prompting: A Director's Working Method"
+description: "The 50 reference slots, the 30 second pass and region editing, read as a call sheet. Where the model pays you back and where it burns credits twice."
 pubDate: "2026-08-09"
 updatedDate: "2026-08-16"
 toolVersion: "2026-08"

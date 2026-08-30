@@ -8,10 +8,10 @@ const blog = defineCollection({
     id: z.string().optional(),
     title: z.string()
       .min(25, 'title must be at least 25 chars (substance gate)')
-      .max(120, 'title must be at most 120 chars (hard ceiling — Google truncates ~60-65, but informative editorial titles up to 120 are acceptable)'),
+      .max(120, 'title must be at most 120 chars (hard ceiling, Google truncates ~60-65, but informative editorial titles up to 120 are acceptable)'),
     description: z.string()
       .min(80, 'description must be at least 80 chars (Google snippet needs substance)')
-      .max(380, 'description must be at most 380 chars (hard ceiling — Google truncates ~155-160, but full editorial meta description acceptable up to 380)'),
+      .max(380, 'description must be at most 380 chars (hard ceiling, Google truncates ~155-160, but full editorial meta description acceptable up to 380)'),
     pubDate: z.coerce.date(),
     updatedDate: z.coerce.date().optional(),
     category: z.string().optional(),

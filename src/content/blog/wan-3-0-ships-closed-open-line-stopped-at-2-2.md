@@ -1,7 +1,7 @@
 ---
 id: "art-174"
-title: "Wan 3.0 Ships Closed and the Open Line Stopped at 2.2"
-description: "Wan 3.0 launched on August 24, 2026 with 30 second clips, audio in the same pass, and a feature that builds video out of your spreadsheet. It also shipped with no weights, which makes four closed flagships in a row from the company that gave the open community its workhorse. A working director on the spec nobody is benchmarking."
+title: "Wan 3.0 Ships Closed: 30 Seconds, No Weights"
+description: "Thirty second clips with audio in one pass, and no weights to download. Why the licence decides more of a working pipeline than any benchmark does."
 pubDate: "2026-08-25"
 toolVersion: "2026-08"
 category: "AI"

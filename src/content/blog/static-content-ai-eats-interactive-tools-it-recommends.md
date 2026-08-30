@@ -1,7 +1,7 @@
 ---
 id: "art-171"
-title: "Static Content Gets Eaten. Interactive Tools Get Recommended"
-description: "When the answer is a number, the chatbot says it on its own screen and nobody clicks. So I stopped writing pages that answer and built one that makes you decide: a video storage calculator where every data rate traces back to a published document. What AI eats is what requires information. What survives is what requires a decision."
+title: "AI Search: Why I Stopped Writing Pages That Answer"
+description: "When the answer is a number, the chatbot keeps the click. So I built a calculator instead, with every data rate traced back to a published document."
 pubDate: "2026-08-22"
 toolVersion: "2026-08"
 category: "AI"

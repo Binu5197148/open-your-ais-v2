@@ -1,7 +1,7 @@
 ---
 id: "art-176"
-title: "AI Character Consistency Is a Prep Problem, Not a Model Problem"
-description: "Junkyard King Chapter 2 landed this week at fifteen minutes, and every write up led with the runtime. Read the method instead. AI character consistency did not arrive as a switch inside a model. It arrived as a recipe built before a single frame is generated, which is what pre-production has always been. A working director on where the bottleneck actually moved."
+title: "AI Character Consistency: The Prep Nobody Shows You"
+description: "Junkyard King Chapter 2 held six characters across fifteen minutes. The method behind it was built before a single frame was ever generated."
 pubDate: "2026-08-30"
 toolVersion: "2026-08"
 category: "AI"

@@ -1,7 +1,7 @@
 ---
 id: "art-173"
-title: "DALL-E Retires August 30 and Your Masters Are Inside It"
-description: "DALL-E is switched off inside ChatGPT on August 30, 2026, and the official advice is to download whatever you want to keep. Every generative tool I run stores the master in somebody else's account. A working director on the archive discipline post-production learned decades ago and AI tools quietly deleted, and on why a shutdown with a date is the honest kind."
+title: "Old DALL-E Images in ChatGPT: What Goes and What Stays"
+description: "ChatGPT switched DALL-E off on August 30, 2026. I go through what disappears, what stays, and the six step archive rule that keeps masters off one account."
 pubDate: "2026-08-24"
 updatedDate: "2026-08-30"
 toolVersion: "2026-08"

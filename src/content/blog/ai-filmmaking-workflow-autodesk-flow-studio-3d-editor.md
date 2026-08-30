@@ -1,7 +1,7 @@
 ---
 id: "art-156"
-title: "AI Filmmaking Workflow: Autodesk Puts the Camera Back"
-description: "On August 4, 2026, Autodesk added a 3D Editor and a node-based Canvas to Flow Studio, moving blocking, camera moves and performance timing back into the AI filmmaking workflow before a single frame gets generated. The question the coverage skips: what does a director do with control they never had to practice?"
+title: "AI Filmmaking Workflow: Block the Shot Before You Prompt"
+description: "Autodesk put a 3D stage, camera tracks and blocking into Flow Studio. What changes on a shot when you stop arguing with a model and place the lens yourself."
 pubDate: "2026-08-05"
 updatedDate: "2026-08-16"
 toolVersion: "2026-08"

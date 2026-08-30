@@ -1,7 +1,7 @@
 ---
 id: "art-163"
-title: "AI Video Editing Is Where the Argument Gets Made"
-description: "Locarno Pro closed this week after debating algorithms, consolidation and creative freedom, while an AI-assisted film played the same festival. Generating footage is close to solved. AI video editing, the part where a director decides what the footage means, is not. A working editor's read on where authorship actually lives in 2026."
+title: "AI Video Editing: The Model Cannot Pick the Take"
+description: "Premiere's AI Assistant, Object Mask and silence removal already work. Choosing which take carries the scene is still the call no model makes for you."
 pubDate: "2026-08-12"
 updatedDate: "2026-08-16"
 toolVersion: "2026-08"

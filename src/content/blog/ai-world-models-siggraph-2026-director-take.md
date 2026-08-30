@@ -1,7 +1,7 @@
 ---
 id: "art-143"
-title: "AI World Models Took Over SIGGRAPH 2026. A Director's Read."
-description: "On July 20, 2026, NVIDIA put AI world models at the center of its SIGGRAPH keynote. I use these engines on real jobs. The capability is real. The choice is still yours."
+title: "AI World Models: Why Your Video Tool Holds a Scene"
+description: "World models give a video engine a sense of space, light and cause. That is why faces stop resetting between shots and why continuity finally holds."
 pubDate: "2026-07-20"
 updatedDate: "2026-07-25"
 toolVersion: "2026-07"

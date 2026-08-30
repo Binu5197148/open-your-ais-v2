@@ -1,7 +1,7 @@
 ---
 id: "art-166"
-title: "Higgsfield Cinema Studio 4.0: What the Emotion Wheel Changes"
-description: "Higgsfield Cinema Studio 4.0 shipped with 30 second generations, 50 reference images and an Emotion Wheel that lets you assign a feeling to a character before the shot exists. A director explains which of those actually changes the work, and why naming an emotion is the weakest instruction you can give."
+title: "Higgsfield Emotion Wheel: Why Naming a Feeling Fails"
+description: "Thirty second generations, fifty reference images, an era selector, and one feature a director should handle carefully. Naming a feeling is a weak note."
 pubDate: "2026-08-13"
 toolVersion: "2026-08"
 category: "AI"

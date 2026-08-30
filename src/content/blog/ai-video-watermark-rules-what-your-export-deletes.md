@@ -1,7 +1,7 @@
 ---
 id: "art-168"
-title: "AI Video Watermark Rules Are Live. Your Export Deletes Them"
-description: "AI video watermark rules became enforceable across the EU on August 2, 2026, and on August 18 the major model providers confirmed they had shipped the marking. Here is the part nobody is saying out loud: the credential lives in the file container, and the first export out of an edit strips it. A working director on what actually has to change in delivery."
+title: "AI Watermark Rules: Your Export Strips the Credential"
+description: "The EU marking duty is live and the vendors did their half. The other half breaks the first time you export a master. What changes in delivery, step by step."
 pubDate: "2026-08-20"
 updatedDate: "2026-08-21"
 toolVersion: "2026-08"

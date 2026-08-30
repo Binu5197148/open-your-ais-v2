@@ -1,7 +1,7 @@
 ---
 id: "art-151"
-title: "Best AI Image Generator: What Qwen 3 Will Not Show You"
-description: "Alibaba shipped Qwen-Image-3.0 on July 21 with no benchmark, no weights, and no technical report. Choosing the best AI image generator for a paying job is part of my work as a director, and the paperwork that did not ship tells you more than the sample images do."
+title: "Best AI Image Generator: What Qwen 3 Did Not Ship"
+description: "Qwen-Image-3.0 arrived with no weights, no benchmark and no technical report. For anyone working to a client deadline, the missing paperwork is the review."
 pubDate: "2026-07-28"
 toolVersion: "2026-07"
 category: "AI"

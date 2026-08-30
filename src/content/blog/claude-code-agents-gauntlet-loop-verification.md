@@ -1,7 +1,7 @@
 ---
 id: "art-165"
-title: "Claude Code Agents: How the Gauntlet Loop Actually Works"
-description: "The Gauntlet Loop turns Claude Code agents into a crew: executors, harsh verifiers, and a loop that only stops when every reviewer is impressed. A director explains why it works."
+title: "Claude Code Agents: The Gauntlet Loop I Run on Real Work"
+description: "Every executor gets a harsh verifier, and the loop only stops when all of them are wowed. I show the prompt structure, the four fixes and where to cap it."
 pubDate: "2026-08-12"
 updatedDate: "2026-08-13"
 category: "AI"

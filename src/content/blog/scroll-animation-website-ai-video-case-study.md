@@ -1,7 +1,7 @@
 ---
 id: "art-164"
-title: "Scroll Animation Website: How I Built One With AI Video"
-description: "A scroll animation website where the camera flies through an isometric world, built with AI-generated video for a real client. The technique, the one rule that breaks it, and what shipped."
+title: "3D Scroll Animation Website: How I Built One With AI"
+description: "A labor lawyer in Santos got a site where the camera flies into a port at night. The pipeline behind it, plus the one rule that breaks the whole effect."
 pubDate: "2026-08-12"
 category: "AI"
 tags:

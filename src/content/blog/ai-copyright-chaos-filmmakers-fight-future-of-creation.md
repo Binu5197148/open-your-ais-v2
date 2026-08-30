@@ -1,7 +1,7 @@
 ---
 id: "art-122"
-title: "AI Copyright Chaos: Why Filmmakers Must Fight for the Future of Creation"
-description: "The legal battles over AI training on copyrighted work are intensifying, threatening to redefine intellectual property for creators worldwide. As courts struggle to find consensus, the very foundation of creative ownership hangs in the balance. How can filmmakers navigate this uncertain territory without losing their livelihoods?"
+title: "AI Copyright: What Filmmakers Lose If Courts Get It Wrong"
+description: "Courts keep splitting on whether AI can train on your work. A São Paulo director who has shot for Disney and Nestlé on what the rulings cost creators."
 pubDate: "2026-04-18"
 category: "AI"
 tags:

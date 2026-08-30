@@ -1,7 +1,7 @@
 ---
 id: "art-162"
-title: "Locarno is playing an AI film this week. The director left the seams showing on purpose."
-description: "At the 79th Locarno Film Festival, Edgar Pêra premiered a hybrid film mixing archival footage with AI-generated imagery, and he deliberately leaves clues so viewers can tell. That choice is not a disclaimer. It is direction."
+title: "AI Film at Locarno: A Director Marks His AI Shots"
+description: "Edgar Pêra mixes archive and generated imagery, then plants clues so you can tell them apart. Why that is a directing decision and not a disclaimer."
 pubDate: "2026-08-11"
 updatedDate: "2026-08-12"
 category: "AI"

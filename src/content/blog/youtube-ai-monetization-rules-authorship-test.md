@@ -1,7 +1,7 @@
 ---
 id: "art-145"
-title: "YouTube AI Monetization: The New Rules Are an Authorship Test"
-description: "YouTube just named the three kinds of AI-era content it will not pay for. I publish AI-made videos every week, and I read the new rules as an authorship test."
+title: "YouTube AI Monetization: The Three Kinds It Won't Pay"
+description: "Templated output, bait content and fake expert personas lose the money. A creator shipping AI video weekly reads the policy the way you read a contract."
 pubDate: "2026-07-23"
 category: "AI"
 tags:

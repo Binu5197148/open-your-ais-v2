@@ -1,7 +1,7 @@
 ---
 id: "art-067"
-title: "Sora 2 API Is Open to Everyone. Now What Do You Actually Do With It?"
-description: "OpenAI opened the Sora 2 Video API to all developers on March 13. Reports also confirm Sora is coming directly into ChatGPT. Here's what actually changes for creators and video producers."
+title: "Sora 2 API: Synced Dialogue Moves Pre Production"
+description: "Open API access and synced dialogue land in pre production long before they touch the shoot. Where a commercial director puts Sora 2, plus the jobs he will not."
 pubDate: "2026-03-14"
 category: "AI"
 tags:
@@ -39,13 +39,13 @@ featured: true
 <h2>What I Would Do Right Now</h2>
 <p>If you are a developer or have access to someone who codes: explore the Sora 2 API specifically for pre-visualization, not final delivery. Build a simple script that takes a scene description and outputs a pre-viz. Show it to a client before approving production. Measure how much time it saves in the approval phase.</p>
 <p>If you don't have a technical profile: wait for the ChatGPT integration. It will arrive and it will be accessible. In the meantime, keep testing Runway Gen-4.5 and Kling 3.0, which are mature and usable right now without any API setup.</p>
-<p>The video model race is normalizing. Runway, Sora, Veo, Kling — all converging in quality. The differentiator won't be which model you use. It will be what you build with it and how much creative control you keep in the process.</p>
+<p>The video model race is normalizing. Runway, Sora, Veo, Kling: all converging in quality. The differentiator won't be which model you use. It will be what you build with it and how much creative control you keep in the process.</p>
 
 <h2>What I would not use Sora 2 to make</h2>
 <p>Anything that ships with my name on the director credit and a real performer's face on screen. Not because the output is bad. Because the moment you put a synthesized human in a piece of work attributed to you, you take on a complicated authorship problem that the API does not solve. Who consented to the likeness? Who owns the variation? What is the recourse if the face is too close to a real one? These questions land on you, not on OpenAI.</p>
 <p>The clean uses are the ones where the human element is missing on purpose. Environment plates. Abstract motion. Object behavior. Pre-visualization of a scene that a real cast will play. Anywhere the AI is filling in around the human work, not pretending to be the human work.</p>
 
 <h2>One operational note that pays off</h2>
-<p>Track your generations in a log from day one. The slug, the prompt, the parameters, the output, and what you did with it. Six months in, that log becomes the most valuable file in your studio — it tells you what prompt structures actually produce useful results, which is information no benchmark or community thread can give you because every workflow is different. The producers who skip this step end up regenerating the same kind of output for two years and never compounding.</p>
+<p>Track your generations in a log from day one. The slug, the prompt, the parameters, the output, and what you did with it. Six months in, that log becomes the most valuable file in your studio. It tells you what prompt structures actually produce useful results, which is information no benchmark or community thread can give you because every workflow is different. The producers who skip this step end up regenerating the same kind of output for two years and never compounding.</p>
 
-<p><em>Sources: <a href="https://www.vo3ai.com/blog/openai-opens-sora-2-video-api-to-all-developers-what-this-means-for-ai-filmmakin-2026-03-13" target="_blank" rel="noopener">VO3 AI — OpenAI opens Sora 2 Video API to all developers (Mar 13, 2026)</a> | <a href="https://openai.com/index/sora-2/" target="_blank" rel="noopener">OpenAI — Sora 2</a></em></p>
+<p><em>Sources: <a href="https://www.vo3ai.com/blog/openai-opens-sora-2-video-api-to-all-developers-what-this-means-for-ai-filmmakin-2026-03-13" target="_blank" rel="noopener">VO3 AI, OpenAI opens Sora 2 Video API to all developers (Mar 13, 2026)</a> | <a href="https://openai.com/index/sora-2/" target="_blank" rel="noopener">OpenAI, Sora 2</a></em></p>

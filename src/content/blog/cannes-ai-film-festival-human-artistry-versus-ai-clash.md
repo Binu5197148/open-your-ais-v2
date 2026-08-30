@@ -1,7 +1,7 @@
 ---
 id: "art-135"
-title: "Cannes AI Film Festival: The Battle for Human Artistry and Copyright in the Age of Machines"
-description: "The parallel World AI Film Festival (WAIFF) at Cannes is turning heads, showcasing AI-generated films and sparking fierce debate. While technology pushes boundaries, a controversy over characters resembling \"Wallace and Gromit\" raises critical questions about human authorship, copyright, and what true creativity means."
+title: "AI Filmmaking and Copyright: The Award That Got Pulled"
+description: "At the World AI Film Festival beside Cannes, a short with characters close to Wallace and Gromit lost its award. What that says about authorship for everyone."
 pubDate: "2026-05-02"
 updatedDate: "2026-08-20"
 category: "AI"

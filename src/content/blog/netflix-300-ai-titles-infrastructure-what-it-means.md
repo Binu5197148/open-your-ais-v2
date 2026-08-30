@@ -1,7 +1,7 @@
 ---
 id: "art-141"
-title: "Netflix's 300 AI titles: the question that number actually poses"
-description: "On July 16, Netflix disclosed in its Q2 2026 earnings that roughly 300 titles used generative AI this year, most heavily in post-production. The story is not the number. It is what the disclosure adds up to: infrastructure. That word asks filmmakers a different question than experiment ever did."
+title: "Netflix AI: 300 Titles and the End of the Experiment"
+description: "Roughly 300 titles used generative AI, most of it in post production. Why that reads like the arrival of Avid rather than the arrival of a threat."
 pubDate: "2026-07-18"
 updatedDate: "2026-07-23"
 category: "AI"

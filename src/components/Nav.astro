@@ -1,6 +1,6 @@
 ---
 interface Props {
-  current?: 'home' | 'dispatches' | 'workflows' | 'cases' | 'skills' | 'latest' | 'about' | 'contact';
+  current?: 'home' | 'dispatches' | 'workflows' | 'cases' | 'skills' | 'tools' | 'latest' | 'about' | 'contact';
   latestHref?: string;
 }
 const { current, latestHref = '/blog/' } = Astro.props;
@@ -17,6 +17,7 @@ const mkAria = (key: Props['current']) =>
     <a href="/workflows/" {...mkAria('workflows')}>Workflows</a>
     <a href="/cases/" {...mkAria('cases')}>Cases</a>
     <a href="/skills/" {...mkAria('skills')}>Skills</a>
+    <a href="/tools/" {...mkAria('tools')}>Tools</a>
     <a href={latestHref} {...mkAria('latest')}>Latest</a>
     <a href="/about/" {...mkAria('about')}>About</a>
     <a href="/contact/" {...mkAria('contact')}>Contact</a>

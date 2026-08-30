@@ -1,7 +1,7 @@
 ---
 id: "art-147"
-title: "Text to Video AI Now Makes Its Own Sound. A Director's Read."
-description: "On July 23, 2026, Black Forest Labs launched FLUX 3 and text to video AI stopped being silent. Up to 20 seconds with dialogue, effects, and ambience generated in the same pass as the picture. I compose, direct, and edit. Here is what actually changes when the machine hands you the sound already finished."
+title: "Text to Video AI: FLUX 3 Adds Room Tone and Lines"
+description: "FLUX 3 makes dialogue, effects and room tone in the same pass as the picture. Twenty seconds is the wrong number to judge it by, and sound explains why."
 pubDate: "2026-07-25"
 updatedDate: "2026-07-27"
 toolVersion: "2026-07"

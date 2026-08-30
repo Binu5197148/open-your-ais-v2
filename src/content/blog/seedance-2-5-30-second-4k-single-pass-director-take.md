@@ -1,7 +1,7 @@
 ---
 id: "art-137"
-title: "Seedance 2.5 Makes a 30-Second 4K Video in One Take. A Director's Read."
-description: "ByteDance released Seedance 2.5 on July 31, 2026, which generates a continuous 30-second clip in a single pass with native audio and no stitching, with 4K through upscaling. I direct and edit with these tools in real production. The 30-second number is not the breakthrough. The unbroken take is."
+title: "Seedance 2.5: Why the Unbroken 30-Second Take Matters"
+description: "Thirty seconds is the headline. Continuity is the change: no drifting light, no resetting face, no seams to hide. What that frees up inside a real edit."
 pubDate: "2026-07-16"
 updatedDate: "2026-08-09"
 category: "AI"

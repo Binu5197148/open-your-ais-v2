@@ -1,7 +1,7 @@
 ---
 id: "art-146"
-title: "AI Film Studios Are Real Now: A Director on Aronofsky's Bet"
-description: "Darren Aronofsky is raising $15 million for Primordial Soup, his AI film studio. I direct with AI on real jobs, and I read his bet as proof of the opposite of what most headlines are selling."
+title: "AI Film Studios: What Aronofsky's $15M Bet Proves"
+description: "An auteur filed with the SEC to fund an AI studio. Read as a call sheet by a director who ships with these tools, the filing argues authorship never left."
 pubDate: "2026-07-24"
 updatedDate: "2026-07-25"
 category: "AI"

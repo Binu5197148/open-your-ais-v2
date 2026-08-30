@@ -1,7 +1,7 @@
 ---
 id: "art-138"
-title: "AI Replacing Jobs? 16 Nobel Economists Just Said Act Now"
-description: "Over 200 economists and 16 Nobel laureates warn AI job displacement could outrun the Industrial Revolution. A working director reads the letter without panic."
+title: "AI Replacing Jobs: The Tasks Go, the Judgment Stays"
+description: "More than 200 economists and 16 Nobel laureates signed an 88 word warning. A working director marks the line between a task and a real judgment call."
 pubDate: "2026-07-16"
 category: "AI"
 tags:

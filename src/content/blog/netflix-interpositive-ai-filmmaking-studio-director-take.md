@@ -1,7 +1,7 @@
 ---
 id: "art-065"
-title: "Netflix Bought an AI Filmmaking Studio. Most Creators Are Reading This Completely Wrong."
-description: "Netflix acquired InterPositive, an AI filmmaking startup tied to Ben Affleck. The hot take is 'Hollywood is dead.' My take is different: bad direction is dead."
+title: "Netflix's AI Studio Buy: Read It as Production Math"
+description: "Netflix acquired InterPositive and the feed called it the end of Hollywood. The production math points somewhere narrower: who keeps getting paid."
 pubDate: "2026-03-09"
 category: "AI"
 tags:

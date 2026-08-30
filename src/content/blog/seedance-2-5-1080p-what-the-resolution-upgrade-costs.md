@@ -1,7 +1,7 @@
 ---
 id: "art-167"
-title: "Seedance 2.5 1080p: What the Resolution Upgrade Costs"
-description: "On August 14, 2026, Higgsfield put Seedance 2.5 into 1080p early access and the free trial caps every generation at 20 seconds. The model does 30 in a single pass. A director explains why that trade is backwards, and the one delivery case where native 1080p is genuinely worth the upgrade."
+title: "Seedance 2.5 1080p: The Upgrade Costs You 10 Seconds"
+description: "The 1080p trial caps generations at 20 seconds while the model natively runs 30. Why that trade goes the wrong way, plus the one delivery worth paying for."
 pubDate: "2026-08-16"
 toolVersion: "2026-08"
 category: "AI"

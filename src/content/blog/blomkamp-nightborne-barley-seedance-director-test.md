@@ -1,7 +1,7 @@
 ---
 id: "art-148"
-title: "What a director learns in 13 minutes of AI-generated sci-fi"
-description: "On July 20, 2026, Neill Blomkamp released Nightborne, a 13-minute sci-fi horror short made entirely with Seedance 2.0 and 32 real people. Then he announced Barley Studios. The question is not whether the images are good. It is what the director chose to say with them."
+title: "Blomkamp's Nightborne: 13 Minutes, 32 Real Faces"
+description: "Thirteen minutes made with Seedance 2.0, faces and voices from 32 real people, then a studio deal. What the choices in the edit say about authorship."
 pubDate: "2026-07-26"
 toolVersion: "2026-07"
 category: "AI"

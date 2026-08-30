@@ -1,7 +1,7 @@
 ---
 id: "art-169"
-title: "LTX 2.5 Multi-Shot Means the Model Is Making Your Cut"
-description: "LTX 2.5 shipped open weights on August 11, 2026, and by this week the ComfyUI workflows had caught up. Everyone is benchmarking VRAM and physics. Almost nobody is saying the obvious thing: native multi-shot hands the edit point to the model, and the edit point is where a film means what it means. A director and editor on what to switch off."
+title: "LTX 2.5 Multi-Shot: Who Decides Where the Cut Lands"
+description: "One generation now returns several connected shots, so the model decides where the cut lands. Why that is a directing call and when to keep it manual."
 pubDate: "2026-08-21"
 toolVersion: "2026-08"
 category: "AI"

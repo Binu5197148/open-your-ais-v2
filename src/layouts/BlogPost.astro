@@ -91,7 +91,7 @@ const latestHref = all[0] ? `/blog/${all[0].id}/` : '/blog/';
 
       {heroImage && (
         <div class="post-head__hero">
-          <img class="post-head__img parallax-up" src={heroImage} alt="" loading="eager" />
+          <img class="post-head__img parallax-up" src={heroImage} alt={title} loading="eager" />
           <div class="post-head__caption">
             <span class="mono"><span class="n">Fig. 01</span></span>
             <span class="mono" style="color:var(--c-fg-muted)">{title}</span>
@@ -120,8 +120,7 @@ const latestHref = all[0] ? `/blog/${all[0].id}/` : '/blog/';
         <h2 class="post-author__name">{author}</h2>
         <p class="post-author__bio">
           Film director based in São Paulo. Co-founder of
-          Pichorra Filmes. Fourteen years behind the lens — composer, editor,
-          writer, director. Writing <em>Open Your AIs</em> as a working log on
+          Pichorra Filmes. Fourteen years behind the lens as composer, editor, writer and director. Writing <em>Open Your AIs</em> as a working log on
           what AI is doing, and undoing, to the craft of cinema.
         </p>
         <div style="display:flex; gap: 14px; flex-wrap: wrap;">
@@ -145,9 +144,9 @@ const latestHref = all[0] ? `/blog/${all[0].id}/` : '/blog/';
         {related.map((post, i) => (
           <a class="card" href={`/blog/${post.id}/`}>
             {post.data.heroImage ? (
-              <img class="card__img" src={post.data.heroImage} alt="" loading="lazy" />
+              <img class="card__img" src={post.data.heroImage} alt={post.data.title} loading="lazy" />
             ) : (
-              <div class="card__img ph" data-label={`REL ${String(i + 1).padStart(2, '0')} — 4:5`}></div>
+              <div class="card__img ph" data-label={`REL ${String(i + 1).padStart(2, '0')} · 4:5`}></div>
             )}
             <div class="card__body">
               <div class="mono card__meta">

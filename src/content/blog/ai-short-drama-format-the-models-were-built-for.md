@@ -1,7 +1,7 @@
 ---
 id: "art-175"
-title: "AI Short Drama Is the Format the Models Were Built For"
-description: "Busan's film market published its InnoAsia 2026 lineup on August 26, and everybody read the guest list. Read the schedule instead. A microdrama panel sits next to Kling AI and Netflix's VFX studio, and it says what no benchmark has managed to. AI short drama is the one format where every weakness of generative video is invisible. Why that is not an insult."
+title: "AI Short Drama: The Format Built Around AI's Flaws"
+description: "Ninety second vertical episodes hide most of what generative video still gets wrong. The fit is structural, not a happy accident, and it will not hold."
 pubDate: "2026-08-27"
 toolVersion: "2026-08"
 category: "AI"

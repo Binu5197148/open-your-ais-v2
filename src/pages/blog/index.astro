@@ -44,12 +44,12 @@ const topCats = Object.entries(totalByCategory)
 
 <BaseLayout
   title="All dispatches"
-  description={`${total} essays, interviews and field notes on AI and cinema — by Ulisses Balbino.`}
+  description={`${total} essays, interviews and field notes on AI and cinema, by Ulisses Balbino.`}
   current="dispatches"
   latestHref={latestHref}
 >
   <section class="container idx-head">
-    <p class="mono" style="color:var(--c-accent)">§ — The archive</p>
+    <p class="mono" style="color:var(--c-accent)">§ · The archive</p>
     <h1 class="idx-title" data-reveal="split">
       <span class="split-line">Dispatches,</span>
       <span class="split-line" style="--reveal-delay: 80ms"><em>{total} so far.</em></span>
@@ -82,9 +82,9 @@ const topCats = Object.entries(totalByCategory)
       <a class="feat" href={`/blog/${featured.id}/`}>
         <div class="feat__imgwrap">
           {featured.data.heroImage ? (
-            <img class="feat__img" src={featured.data.heroImage} alt="" loading="lazy" />
+            <img class="feat__img" src={featured.data.heroImage} alt={featured.data.title} loading="lazy" />
           ) : (
-            <div class="feat__img ph" data-label="FEATURED — 3:2"></div>
+            <div class="feat__img ph" data-label="FEATURED · 3:2"></div>
           )}
         </div>
         <div class="feat__body">

@@ -1,7 +1,7 @@
 ---
 id: "art-159"
-title: "Grok Imagine Video's seven references: what directors actually get"
-description: "xAI updated Imagine Video 1.5 on August 1, 2026 with up to seven locked references per shot. The coverage calls it consistency. Directors know that word differently."
+title: "Grok Imagine Video: When 7 References Are the Wrong Call"
+description: "Grok Imagine Video locks up to seven references per shot. I direct commercials, and I can tell you what each lock buys and the shot it quietly kills."
 pubDate: "2026-08-08"
 toolVersion: "2026-08"
 category: "AI"

@@ -1,7 +1,7 @@
 ---
 id: "art-157"
-title: "When the AI short becomes a pitch deck"
-description: "Bloomberg published two opposing takes on AI filmmaking this week. The difference between them reveals more than either author intended."
+title: "AI Films: When the Short Is an Investor Deck"
+description: "Two Bloomberg columns, three days apart, on the same week in AI cinema. One shows the raise before the film. The other shows a boy with a camcorder."
 pubDate: "2026-08-06"
 category: "AI"
 tags:
