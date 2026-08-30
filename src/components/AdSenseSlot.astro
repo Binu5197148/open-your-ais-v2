@@ -20,3 +20,14 @@ const { slot, format = 'auto', responsive = true } = Astro.props;
     (adsbygoogle = window.adsbygoogle || []).push({});
   </script>
 </div>
+
+<style>
+  /* The ad must never decide how wide the article column is. Full width
+     responsive is off for the in-article slot (see BlogPost.astro): the ad
+     script used to ask for the whole viewport and apply its own negative
+     margins, which stretched the column and made every article scroll sideways
+     on a phone. */
+  .adsense-slot {
+    max-width: 100%;
+  }
+</style>

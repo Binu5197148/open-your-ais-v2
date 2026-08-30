@@ -106,7 +106,7 @@ const latestHref = all[0] ? `/blog/${all[0].id}/` : '/blog/';
         <div class="prose">
           <slot />
           <div class="prose__end" aria-hidden="true">◎</div>
-          <AdSenseSlot slot="1234567890" />
+          <AdSenseSlot slot="1234567890" responsive={false} />
         </div>
       </div>
     </section>
@@ -246,12 +246,19 @@ const latestHref = all[0] ? `/blog/${all[0].id}/` : '/blog/';
   .post-body { padding-block: var(--s-10); }
   .post-body__grid {
     display: grid;
-    grid-template-columns: 1fr;
+    /* Zero minimum, not auto. The AdSense slot asks for the full viewport width
+       and a 1fr track takes its minimum from that request, so the ad was
+       stretching the whole grid and the page scrolled sideways on a phone. */
+    grid-template-columns: minmax(0, 1fr);
     gap: var(--s-7);
     max-width: 1680px;
     margin: 0 auto;
     padding-inline: var(--gutter);
   }
+  /* Companion to the zero minimum above. A grid item defaults to min-width:auto,
+     which resolves to its min-content, so the ad would still push the column
+     wider than the track it sits in. */
+  .post-body__grid > * { min-width: 0; }
   [data-post-layout="toc"] .post-body__grid { grid-template-columns: 240px minmax(0, 1fr) 240px; }
   [data-post-layout="narrow"] .prose { max-width: var(--measure-narrow); }
   .post-toc { display: none; }
@@ -265,7 +272,7 @@ const latestHref = all[0] ? `/blog/${all[0].id}/` : '/blog/';
     text-align: center; font-family: var(--font-serif); color: var(--c-accent); font-size: 28px; margin-top: 3em;
   }
   @media (max-width: 1100px) {
-    [data-post-layout="toc"] .post-body__grid { grid-template-columns: 1fr; }
+    [data-post-layout="toc"] .post-body__grid { grid-template-columns: minmax(0, 1fr); }
     .post-toc { display: none !important; }
     .post-head__byline { grid-template-columns: 1fr; }
   }
