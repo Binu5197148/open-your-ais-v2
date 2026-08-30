@@ -382,6 +382,28 @@ html { scrollbar-color: var(--c-rule) transparent; scrollbar-width: thin; }
 .nav__links a:hover::after,
 .nav__links a[aria-current="page"]::after { transform: scaleX(1); transform-origin: left; }
 
+/* On a narrow screen the link row is wider than the viewport and used to drag
+   the whole page sideways. It scrolls inside itself now, so the page body never
+   scrolls horizontally. */
+@media (max-width: 900px) {
+  .nav { gap: 16px; }
+  .nav__brand { flex: 0 0 auto; white-space: nowrap; }
+  /* The volume marker is decorative and repeats in the footer. On a phone the
+     link row needs the room more than the marker does. */
+  .nav > .mono { display: none; }
+  .nav__links {
+    flex: 1 1 auto;
+    min-width: 0;
+    gap: var(--s-5, 24px);
+    white-space: nowrap;
+    overflow-x: auto;
+    overscroll-behavior-x: contain;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+  .nav__links::-webkit-scrollbar { display: none; }
+}
+
 /* ---- Footer ---- */
 .ft {
   padding: var(--s-9) var(--gutter) var(--s-6);
@@ -400,6 +422,18 @@ html { scrollbar-color: var(--c-rule) transparent; scrollbar-width: thin; }
   margin-top: var(--s-7);
   white-space: nowrap;
   overflow: hidden;
+}
+/* Four footer columns inside a 12 track grid do not fit a phone. Each track keeps
+   an automatic minimum, the twelve minimums add up past the viewport, and the whole
+   document ends up scrolling sideways. On a phone the footer is one column. */
+@media (max-width: 640px) {
+  .ft .grid-12 {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .ft .grid-12 > * {
+    grid-column: auto !important;
+    min-width: 0;
+  }
 }
 
 /* ---- Prose (blog post) ---- */
