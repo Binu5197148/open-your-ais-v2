@@ -17,7 +17,8 @@ author: "Ulisses Balbino"
 readTime: "7 min read"
 ---
 
-<p>Three days ago, Henry Daubrez released the second chapter of Junkyard King. Fifteen minutes of animation, an eighties inspired action adventure about a kid, a glowing sword and a mechanical crow, built with Google's Veo and Nano Banana models and premiered with invideo. He posted that it had been six weeks since the first chapter, and that he thinks it sets a new benchmark for AI-assisted animated storytelling. It is also the clearest public evidence yet of what AI character consistency actually costs, and where you pay for it.</p>
+<!-- Correction 2026-08-30: read "Three days ago"; the Chapter 2 announcement is dated August 26, 2026, so the reference was anchored to the explicit date instead of a relative countdown. -->
+<p>On August 26, Henry Daubrez released the second chapter of Junkyard King. Fifteen minutes of animation, an eighties inspired action adventure about a kid, a glowing sword and a mechanical crow, built with Google's Veo and Nano Banana models and premiered with invideo. He posted that it had been six weeks since the first chapter, and that he thinks it sets a new benchmark for AI-assisted animated storytelling. It is also the clearest public evidence yet of what AI character consistency actually costs, and where you pay for it.</p>
 
 <p>Every post I read about it led with the runtime. Fifteen minutes. Continuous narrative. Look how long it holds.</p>
 
