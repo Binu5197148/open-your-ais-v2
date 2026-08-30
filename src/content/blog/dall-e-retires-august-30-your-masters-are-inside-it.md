@@ -3,6 +3,7 @@ id: "art-173"
 title: "DALL-E Retires August 30 and Your Masters Are Inside It"
 description: "DALL-E is switched off inside ChatGPT on August 30, 2026, and the official advice is to download whatever you want to keep. Every generative tool I run stores the master in somebody else's account. A working director on the archive discipline post-production learned decades ago and AI tools quietly deleted, and on why a shutdown with a date is the honest kind."
 pubDate: "2026-08-24"
+updatedDate: "2026-08-30"
 toolVersion: "2026-08"
 category: "AI"
 tags:
@@ -17,7 +18,8 @@ author: "Ulisses Balbino"
 readTime: "6 min read"
 ---
 
-<p>On August 30, 2026, OpenAI switches off the DALL-E GPT inside ChatGPT. The instruction that came with it is one line long: download the images you want to keep, then use ChatGPT Images from now on. Six days from today, a tool that made a very large share of the AI pictures on the internet stops answering.</p>
+<!-- Correction 2026-08-30: the countdown line read "Six days from today", written on 24/08. Today is the shutdown date, so the relative countdown was replaced with "Today". No factual claim changed. -->
+<p>On August 30, 2026, OpenAI switches off the DALL-E GPT inside ChatGPT. The instruction that came with it is one line long: download the images you want to keep, then use ChatGPT Images from now on. Today, a tool that made a very large share of the AI pictures on the internet stops answering.</p>
 
 <p>The coverage is doing what coverage does. Save your stuff, here is the export button, here is a list of alternatives. All correct. All beside the point.</p>
 
