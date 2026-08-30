@@ -12,7 +12,7 @@ tags:
   - "Animation"
   - "Pre-Production"
   - "Filmmaking"
-heroImage: "https://images.unsplash.com/photo-1624075250557-9e020cecaaf6?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHwxfHxuZW9uJTIwY2l0eSUyMG5pZ2h0JTIwc3RyZWV0fGVufDF8MHx8fDE3ODgwNjMyNTZ8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85&sat=-100&con=10"
+heroImage: "https://images.unsplash.com/photo-1598267416816-2fc7a6058eaa?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHw5fHxmaWxtJTIwZGlyZWN0b3IlMjBvbiUyMHNldHxlbnwxfDB8fHwxNzg4MDY0MDM0fDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85&sat=-100&con=10"
 author: "Ulisses Balbino"
 readTime: "7 min read"
 ---

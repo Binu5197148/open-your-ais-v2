@@ -9,7 +9,7 @@ tags:
   - "AI Video"
   - "Production"
   - "Creative AI"
-heroImage: "https://images.unsplash.com/photo-1771591227117-0726b777828e?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHwyMnx8YmxhY2slMjBhbmQlMjB3aGl0ZSUyMHBvcnRyYWl0JTIwYXJ0aXN0aWN8ZW58MXwwfHx8MTc4NjUzNjk1N3ww&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85&sat=-100&con=10"
+heroImage: "https://images.unsplash.com/photo-1623259201337-bb5024ed8e4a?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHw0fHxhbmFsb2clMjBmaWxtJTIwcGhvdG9ncmFwaHklMjBncmFpbnxlbnwxfDB8fHwxNzg3NjEyNDEyfDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85&sat=-100&con=10"
 author: "Ulisses Balbino"
 readTime: "9 min read"
 ---

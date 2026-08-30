@@ -10,7 +10,7 @@ tags:
   - "AI Video Editing"
   - "Firefly"
   - "Review"
-heroImage: "https://images.unsplash.com/photo-1588701740889-28c49b48767c?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHwzfHxzaGFkb3clMjBsaWdodCUyMHBvcnRyYWl0fGVufDF8MHx8fDE3ODY1MzY5NDR8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85&sat=-100&con=10"
+heroImage: "https://images.unsplash.com/photo-1524834671419-aa7d41c1c657?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHw2fHxiYWNrc3RhZ2UlMjBwcm9kdWN0aW9uJTIwY3Jld3xlbnwxfDB8fHwxNzg3NjEyNDE2fDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85&sat=-100&con=10"
 author: "Ulisses Balbino"
 readTime: "12 min read"
 ---

@@ -9,7 +9,7 @@ tags:
   - "Filmmaking"
   - "AI vs Humans"
   - "Creative AI"
-heroImage: "https://images.unsplash.com/photo-1518929458119-e5bf444c30f4?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHw4fHxiYWNrc3RhZ2UlMjBwcm9kdWN0aW9uJTIwY3Jld3xlbnwxfDB8fHwxNzg2NTM2OTU1fDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85&sat=-100&con=10"
+heroImage: "https://images.unsplash.com/photo-1755379121505-c6b97fca5e13?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHwzMHx8dXJiYW4lMjBjaW5lbWF0aWMlMjBuaWdodHxlbnwxfDB8fHwxNzg3NjEyNDE0fDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85&sat=-100&con=10"
 author: "Ulisses Balbino"
 readTime: "11 min read"
 ---

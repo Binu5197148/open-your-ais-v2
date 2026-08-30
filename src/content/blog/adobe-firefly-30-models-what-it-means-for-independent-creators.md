@@ -11,7 +11,7 @@ tags:
   - "Custom Models"
   - "Content Production"
   - "Filmmaking"
-heroImage: "https://images.unsplash.com/photo-1596888387667-abe59f154618?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHwyM3x8Y2luZW1hJTIwY2FtZXJhJTIwY2xvc2V1cHxlbnwxfDB8fHwxNzg2NTM2OTI5fDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85&sat=-100&con=10"
+heroImage: "https://images.unsplash.com/photo-1571173069043-82a7a13cee9f?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHw1fHx0aGVhdGVyJTIwc3RhZ2UlMjBkcmFtYXRpYyUyMGxpZ2h0aW5nfGVufDF8MHx8fDE3ODgwNjQyMjJ8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85&sat=-100&con=10"
 author: "Ulisses Balbino"
 readTime: "7 min read"
 ---

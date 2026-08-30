@@ -11,7 +11,7 @@ tags:
   - "Post Production"
   - "AI Tools"
   - "Colourlab"
-heroImage: "https://images.unsplash.com/photo-1452745872182-022042dead8f?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHwyM3x8ZmlsbSUyMGRpcmVjdG9yJTIwb24lMjBzZXR8ZW58MXwwfHx8MTc4NjUzNjkzMXww&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85&sat=-100&con=10"
+heroImage: "https://images.unsplash.com/photo-1652642731490-fd9a7153b3b2?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHwxN3x8dXJiYW4lMjBjaW5lbWF0aWMlMjBuaWdodHxlbnwxfDB8fHwxNzg3NjEyNDE0fDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85&sat=-100&con=10"
 author: "Ulisses Balbino"
 readTime: "9 min read"
 ---

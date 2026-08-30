@@ -9,7 +9,7 @@ tags:
   - "SEO"
   - "AI Content"
   - "Search"
-heroImage: "https://images.unsplash.com/photo-1652642731499-fe41271dfa27?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHwxNHx8dXJiYW4lMjBjaW5lbWF0aWMlMjBuaWdodHxlbnwxfDB8fHwxNzg2NTM2OTUzfDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85&sat=-100&con=10"
+heroImage: "https://images.unsplash.com/photo-1761344580244-767bc4e2e8c8?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHw4fHxjaW5lbWElMjBoYWxsJTIwZW1wdHl8ZW58MXwwfHx8MTc4NzYxMjQwNHww&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85&sat=-100&con=10"
 author: "Ulisses Balbino"
 readTime: "6 min read"
 noindex: true
