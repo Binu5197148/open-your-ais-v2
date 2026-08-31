@@ -3,6 +3,7 @@ id: "art-088"
 title: "Suno Copyright: What Breaks When You Monetize the Track"
 description: "You hold a license, not ownership, and that is where monetization breaks. I explain the free plan trap, the Warner deal and the flag Suno puts on upload."
 pubDate: "2026-03-15"
+updatedDate: "2026-08-31"
 category: "AI"
 tags:
   - "Suno"
@@ -15,6 +16,8 @@ heroImage: "https://images.unsplash.com/photo-1766036388323-6f0394b476cd?ixid=M3
 author: "Ulisses Balbino"
 readTime: "9 min read"
 ---
+
+<p><em>Updated August 31, 2026. This was written on March 15, 2026, and describes the rights picture as it stood then. Terms of service on AI music platforms change without announcement, and the tier you pay for is the one that decides what you own, so confirm the current wording on your own account before you deliver a track to broadcast or sync. What has not changed is the question this piece exists to ask, which is who is actually liable when a client legal team looks at the invoice.</em></p>
 
 <h2>The Music Nobody Asked About Until the Invoice Arrived</h2>
 <p>Every producer I know has used AI-generated music at some point in the past two years. For scratch tracks, presentation reels, internal content, social posts: AI music fills gaps that previously required either a music budget or royalty-free library tracks that sounded like they were composed in 2009. Suno in particular has become the default for this use case: open browser, describe the vibe, download, cut in. Fast, free on the basic plan, and good enough for most purposes.</p>

@@ -3,7 +3,7 @@ id: "art-107"
 title: "Adobe Firefly AI Custom Models: The Clause to Read First"
 description: "Adobe Firefly AI custom models are no longer enterprise only. The first file I would feed mine is not the brand book, and there is a clause to read first."
 pubDate: "2026-03-28"
-updatedDate: "2026-08-30"
+updatedDate: "2026-08-31"
 category: "AI"
 tags:
   - "Adobe Firefly"
@@ -16,6 +16,8 @@ heroImage: "https://images.unsplash.com/photo-1571173069043-82a7a13cee9f?ixid=M3
 author: "Ulisses Balbino"
 readTime: "7 min read"
 ---
+
+<p><em>Updated August 31, 2026. This was written on March 28, 2026, and the phrase "this week" below refers to that week, not to now. The third party model list inside Firefly has already moved on: Kling 3.0 replaced the 2.5 Turbo named here, and Google shipped Gemini Omni 1.1 Flash on August 27. Treat every version number in this piece as a March snapshot and check the current lineup before you plan around it. The part that has not aged is the argument about the licensing clause, which is why the piece is still here.</em></p>
 
 <h2>The Wrong Headline</h2>
 <p>Adobe announced this week that Firefly now integrates over 30 third-party AI models: Google Veo 3.1, Runway Gen-4.5, Kling 2.5 Turbo among them. Every tech outlet covered it as "Adobe adds more AI models."</p>
