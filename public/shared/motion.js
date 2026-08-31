@@ -1,4 +1,4 @@
-/* Editorial motion — IntersectionObserver reveals, reading progress, marquee duplication */
+/* Editorial motion: IntersectionObserver reveals, reading progress, marquee duplication */
 
 (function () {
   // Mark the page as JS-ready so CSS can safely hide pre-reveal state.
@@ -38,7 +38,7 @@
   bindReveals();
   window.__bindReveals = bindReveals;
 
-  // Safety net: after 1.2s, force-reveal anything still not in — guarantees content is never trapped.
+  // Safety net: after 1.2s, force-reveal anything still not in. Guarantees content is never trapped.
   setTimeout(() => {
     document.querySelectorAll('[data-reveal]:not(.is-in)').forEach((el) => {
       if (isInViewport(el)) el.classList.add('is-in');

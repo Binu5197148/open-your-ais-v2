@@ -80,7 +80,7 @@
 .prose strong { font-weight: 600; color: var(--c-fg); }
 .prose em { font-style: italic; }
 
-/* Cinematic B&W treatment — every content image renders as monochrome art,
+/* Cinematic B&W treatment: every content image renders as monochrome art,
    regardless of the source photo's color. Core visual identity: the site is
    an art mural in black and white (beautiful color photos are welcome as
    sources; this filter is what makes them belong). */

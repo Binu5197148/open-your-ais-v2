@@ -1,5 +1,5 @@
 /* =========================================================
-   Open Your AIs — Editorial Design Tokens
+   Open Your AIs: Editorial Design Tokens
    Tailwind v4 compatible (@theme inline-ready variables)
    ========================================================= */
 
@@ -22,7 +22,7 @@
   --text-5xl: clamp(64px, 7vw, 120px);
   --text-monumental: clamp(80px, 12vw, 220px);
 
-  /* ---- Color — Dark (default) ---- */
+  /* ---- Color: Dark (default) ---- */
   --c-bg: #0a0907;
   --c-bg-elev: #13110d;
   --c-bg-inset: #08070500;
@@ -562,7 +562,7 @@ html { scrollbar-color: var(--c-rule) transparent; scrollbar-width: thin; }
   }
 }
 
-/* Editorial aesthetic — all post imagery in black & white */
+/* Editorial aesthetic: all post imagery in black & white */
 .hero__img,
 .card__img,
 .post-head__img {

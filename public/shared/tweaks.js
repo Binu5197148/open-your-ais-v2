@@ -1,4 +1,4 @@
-/* Production tweaks — apply locked defaults. No edit panel. */
+/* Production tweaks: apply locked defaults. No edit panel. */
 (function () {
   const TWEAKS = {
     theme: "dark",
