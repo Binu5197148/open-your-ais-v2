@@ -27,6 +27,16 @@ placeholder, nunca estimativa. `vicios usados` lista os itens da tabela 3.1 que 
 | 01 | artigo   | 2026-08-22 | A2 | F2 | -   | -     | 1 axenworks | nenhum |
 | 01 | linkedin | 2026-08-22 | -  | -  | P4  | 1450  | sim         | nenhum |
 | 01 | x        | 2026-08-22 | -  | -  | P11 | 718   | sim         | nenhum |
+| 02 | artigo   | 2026-08-31 | A10| F4 | -   | -     | 0 axenworks | nenhum |
+```
+
+Pecas da edicao 2 ainda nao publicadas, escritas e travadas em
+`internal/posts-edicao-02.md`, esperando o OK dele. Nao entram na tabela acima ate irem ao ar.
+Quando forem, as linhas sao estas, com a data real no lugar da planejada:
+
+```
+| 02 | linkedin | AAAA-MM-DD | -  | -  | P2  | 245   | sim         | nenhum |
+| 02 | x        | AAAA-MM-DD | -  | -  | P6  | 707   | sim         | nenhum |
 ```
 
 Notas da edicao 1, escritas em 2026-08-24 com as pecas ja no ar:
@@ -70,30 +80,69 @@ Corpus em `internal/pesquisa/corpus-linkedin-formula/`, 38 arquivos.
 
 ---
 
-## Leitura das travas para a edicao 2
+## Notas da edicao 2, escritas em 2026-08-31
 
-Calculado a partir das linhas acima, em 2026-08-24.
+- **O artigo saiu no dia certo**, 31/08, e nao no mesmo dia do anterior como aconteceu na
+  edicao 1. URL confirmada em producao com HTTP 200 as 12h26 UTC.
+- **Abertura A10, obrigatoria**, e ela pagou a divida em publico: a edicao 1 prometeu contar
+  quantos dos 35 padroes da humanizer aparecem no corpus de julho, e a conta entrou no primeiro
+  bloco do artigo. Quinze de 35, com o limite do metodo declarado antes do numero.
+- **Nenhum link para axenworks nesta edicao, e isso foi decisao, nao esquecimento.** Nenhuma das
+  cinco skills cria a pergunta que uma das calculadoras responde. A unica que chegou perto foi a
+  OpenMontage, e o encaixe seria o mesmo `prores-file-size-calculator` com a mesma frase da
+  edicao 1, duas edicoes seguidas. A secao 6 da especificacao diz que zero e um numero valido e
+  que forcar uma vez e o comeco de virar propaganda. Ficou zero.
+- **Nenhum vicio da tabela 3.1 foi gasto.** Os nove tetos continuam inteiros depois de duas
+  edicoes.
+- Snapshot unico do artigo: 2026-08-31, entre 12h17 e 12h22 UTC, `gh` CLI autenticado e `curl`.
+- Tom das cinco pegadinhas, para a trava 8: licenca (OpenMontage), contradicao interna entre
+  duas secoes do mesmo README (book-to-skill), risco de conta e de sigilo do cliente
+  (last30days), limite de capacidade declarado (Archify) e default permissivo mais aritmetica de
+  custo (dublagem). Cinco tons diferentes, nenhum repetido.
 
-- **A10 e obrigatoria na edicao 2, e ignora cooldown.** A regra esta na secao 4.1: A10 e
-  obrigatoria na edicao seguinte a qualquer erro encontrado. O erro foi encontrado e corrigido em
-  publico em 24/08. A edicao 2 abre pela correcao, com o numero certo na frente.
-- **A2** (a confissao) fica fora ate a edicao 5.
-- **F2** (o proximo teste) fica fora ate a edicao 4. O fecho da 2 sai de F1, F3, F4, F5 ou F6.
-- **P4** e **P11** ficam fora ate a edicao 4. LinkedIn e X continuam proibidos de usar o mesmo
-  formato na mesma semana, e desta vez com um dia de intervalo de verdade.
-- **Nenhum vicio da tabela 3.1 foi gasto na edicao 1.** Os nove tetos estao inteiros.
-- **Trava 5.** A edicao 1 nao teve post sem link. Um dos quatro proximos posts de cada canal
-  precisa sair sem link nenhum, em P3 ou P9.
-- **Trava 4, LinkedIn.** A metade de cima esta cumprida: 1.450 caracteres, acima do piso de 1.200.
-  Falta um post de LinkedIn abaixo de 400 caracteres dentro das cinco primeiras edicoes.
-- **Trava 4, X.** Falta um post abaixo de 200 caracteres.
-- **Trava 7.** A edicao 1 abriu o LinkedIn com verbo ("Tem uma pasta") e o X com citacao tecnica
-  (bloco de comando). A edicao 2 nao pode repetir a classe gramatical de abertura do mesmo canal.
-- **Candidato a vicio novo, para a tabela 3.1.** A apuracao de 24/08 achou um sexto elemento da
-  formula de julho que nenhuma das cinco travas nomeia: o padrao 27 da humanizer, "pretending to
-  reveal a deeper truth", no formato "o que o release nunca responde", "o detalhe que quase
-  ninguem comenta", "o que o anuncio nao diz". Era o padrao mais denso do corpus. Decidir na
-  edicao 2 se entra na tabela com teto proprio.
+---
+
+## Decisao pendente da edicao 1, resolvida
+
+A edicao 1 deixou uma pergunta em aberto: se o padrao 27 da humanizer, "pretending to reveal a
+deeper truth", entra na tabela 3.1 com teto proprio. **Entra.** Foi o padrao mais denso do corpus
+de julho, mais denso que o 33, que era o unico que ele tinha percebido sozinho, e nenhuma das
+cinco travas escritas em julho o nomeava. Uma formula com seis elementos vigiada por cinco travas
+volta pelo elemento que ninguem contou. Linha acrescentada a secao 3.1 da especificacao em
+2026-08-31, com teto de 1 a cada 5 posts.
+
+---
+
+## Leitura das travas para a edicao 3
+
+Calculado a partir das linhas acima, em 2026-08-31. Vale para o artigo ja; para os posts, vale
+so depois que os da edicao 2 forem publicados.
+
+- **A10** (a correcao) fica fora ate a edicao 6. **A2** fica fora ate a edicao 5. A abertura da
+  edicao 3 sai de A1, A3, A4, A5, A6, A7, A8 ou A9.
+- **A9** (a entrada fria) precisa aparecer pelo menos uma vez a cada 6 edicoes. Ainda nao
+  apareceu. Restam as edicoes 3, 4, 5 e 6. Quanto antes, melhor.
+- **F4** fica fora ate a edicao 5. **F2** fica fora ate a edicao 4. O fecho da edicao 3 sai de
+  F1, F3, F5 ou F6.
+- **P4** e **P11** ficam fora ate a edicao 4. **P2** e **P6** ficam fora ate a edicao 5, contados
+  a partir do dia em que forem publicados. LinkedIn e X continuam proibidos de usar o mesmo
+  formato e o mesmo assunto de entrada na mesma semana.
+- **Nenhum vicio da tabela 3.1 foi gasto em duas edicoes.** Os tetos estao todos cheios,
+  incluindo a linha nova do padrao 27.
+- **Trava 4, LinkedIn: cumprida nas duas pontas.** 1.450 caracteres na edicao 1, acima do piso
+  de 1.200, e 245 na edicao 2, abaixo do teto de 400. Nada devido ate a edicao 5.
+- **Trava 4, X: ainda falta um post abaixo de 200 caracteres.** As duas primeiras edicoes deram
+  718 e 707. Restam as edicoes 3, 4 e 5.
+- **Trava 5: ainda falta um post sem link nenhum**, em P3 ou P9, em cada canal. Nem a edicao 1
+  nem a 2 tiveram. Restam as edicoes 3, 4 e 5, entao isso agora e urgente e nao mais opcional.
+- **Trava 7.** No LinkedIn as aberturas gastas sao verbo (edicao 1) e sintagma nominal
+  (edicao 2). No X sao bloco de comando (edicao 1) e oracao declarativa (edicao 2). A edicao 3
+  precisa de uma terceira classe em cada canal.
+- **Gatilho de cooldown da secao 3.1.** Nada apareceu em tres edicoes seguidas ainda. O primeiro
+  candidato a vigiar e o proprio bloco "Como eu checei", que e da espinha fixa do artigo e por
+  isso nao conta, e a frase "Not measured", que apareceu nas cinco fichas das duas edicoes. Se
+  aparecer de novo em todas as cinco fichas da edicao 3, ela vira formula e precisa de variacao,
+  mesmo sendo verdade.
 
 ---
 

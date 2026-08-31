@@ -147,8 +147,11 @@ banimento seco: nunca, em nenhuma edicao.
 
 A coluna "padrao" aponta para o numero do padrao correspondente no SKILL.md da blader/humanizer,
 versao 2.11.2, baixado do upstream e lido por mim na terceira passagem de hoje. Isso existe para
-que a lista nao seja gosto pessoal. **A tabela abaixo tem nove vicios. Seis carregam numero de
-padrao: 9, 31, 32, 33, 34 e 35.** Os outros tres levam "sem", e "sem" e uma resposta publicavel.
+que a lista nao seja gosto pessoal. **A tabela abaixo tem dez vicios. Sete carregam numero de
+padrao: 9, 27, 31, 32, 33, 34 e 35.** A linha do 27 foi acrescentada em 2026-08-31 pela edicao 2, e
+o numero foi reaberto no SKILL.md 2.11.2 antes de entrar: na 2.11.2 o padrao 27 e "Pretending to
+reveal a deeper truth", que e exatamente o que esta linha descreve. Nao repetir o erro da
+terceira passagem, que carimbou o 27 num vicio de autoridade que nao e o dele. Os outros tres levam "sem", e "sem" e uma resposta publicavel.
 Celula vazia nao se preenche com correspondencia inventada.
 
 Correcao da terceira passagem, e ela e feia. Ate esta versao, a linha da assinatura de autoridade
@@ -170,6 +173,7 @@ arquivo que bane. Os outros seis numeros foram reabertos um a um no upstream e c
 | Fecho em aforismo | 1 a cada 3 posts | 31 | "Forced punchlines and dramatic fragments". Se o post ja abriu com cena, o fecho nao pode ser aforismo |
 | Abertura com numero grande ("37 mil estrelas") | 1 a cada 3 posts | sem | Numero na abertura so quando o numero for a materia, nao o enfeite |
 | "Nao estou dizendo que...", "Pra deixar claro..." | 1 a cada 5 posts | 34 | "Answering objections no one raised". Entrou na lista porque e o disfarce mais provavel dos outros oito: a mesma defensividade, com roupa nova |
+| "O que o release nao diz", "o detalhe que ninguem comenta" | 1 a cada 5 posts | 27 | "Pretending to reveal a deeper truth". Acrescentado em 2026-08-31 pela edicao 2. Foi o padrao mais denso do corpus de julho, mais denso que o 33, e nenhuma das cinco travas escritas naquele mes o nomeava. Conta o movimento, nao a frase: prometer o bastidor de uma coisa que ja esta a vista |
 
 Contagem vale por canal e por janela deslizante. Cinco posts de LinkedIn contam entre si, cinco
 de X contam entre si. Nao da para gastar o teto do LinkedIn no X.
