@@ -3,6 +3,7 @@ id: "art-081"
 title: "Runway Gen-4.5 and GWM-1: Reading the Video Arena"
 description: "One minute clips, native dialogue, character consistency across cuts, plus GWM-1, the world model most coverage skipped. Where each one fits a real job."
 pubDate: "2026-03-15"
+updatedDate: "2026-08-31"
 category: "AI"
 tags:
   - "Runway"
@@ -15,6 +16,8 @@ heroImage: "https://images.unsplash.com/photo-1649857211681-ba2095e51150?ixid=M3
 author: "Ulisses Balbino"
 readTime: "8 min read"
 ---
+
+<p><em>Updated August 31, 2026. This was written on March 15, 2026, and the Video Arena standing described below is a snapshot of that week, not a current ranking. Read it as a record of how the field looked then. A lot of video shipped in the five months since, including Seedance 2.5 on July 31 and Gemini Omni 1.1 Flash on August 27, and any leaderboard position from March should be checked before it is repeated. Runway is not part of my current stack. The part worth keeping here is the argument about world models and where a one minute take actually helps on a job.</em></p>
 
 <h2>The Leaderboard Everyone Stopped Ignoring</h2>
 <p>For most of 2025, the conversation about AI video quality was muddled. Every tool had its own demo reel. Every company claimed state-of-the-art. The Video Arena leaderboard, a blind evaluation system where users compare outputs without knowing which model generated them, cut through the noise. And as of its latest ranking, Runway Gen-4.5 is sitting at number one. Above OpenAI's Sora 2. Above Google DeepMind's Veo 3.1.</p>

@@ -3,7 +3,7 @@ id: "art-111"
 title: "Claude 4 Review, March 2026: A Non Coder's Read"
 description: "Written in March 2026, when Claude 4 was the current model: what it stopped doing wrong, where it dropped context, and the metric a non developer counts."
 pubDate: "2026-03-31"
-updatedDate: "2026-08-30"
+updatedDate: "2026-08-31"
 category: "AI"
 tags:
   - "Claude"
@@ -17,6 +17,8 @@ author: "Ulisses Balbino"
 readTime: "5 min read"
 featured: true
 ---
+
+<p><em>Updated August 31, 2026. This was written on March 31, 2026, when Claude 4 was the current model and the daily driver described below was the one I actually had. It is kept as a record of what changed at that moment, not as current advice. My orchestrator today is Claude Fable 5, which carries the script, the sheets, the storyboard and the direction of the generations. The observations here about where a model drops context, and about the metric a non developer actually counts, still hold. The version number does not.</em></p>
 
 <p>Anthropic released Claude 4 (Sonnet and Opus), and I've been running it daily in my actual production work for weeks now.</p>
 <p>Not in demos. Not in benchmark comparisons. In the things I actually need to get done.</p>
