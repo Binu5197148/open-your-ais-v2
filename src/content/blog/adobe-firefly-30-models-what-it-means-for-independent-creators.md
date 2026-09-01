@@ -1,7 +1,7 @@
 ---
 id: "art-107"
-title: "Adobe Firefly AI Custom Models: The Clause to Read First"
-description: "Adobe Firefly AI custom models are no longer enterprise only. The first file I would feed mine is not the brand book, and there is a clause to read first."
+title: "Don't Train Adobe Firefly Until You Read This"
+description: "Before you feed a brand library into Adobe Firefly custom models, there is a data agreement clause to read. Plus how I prompt Firefly so output stays usable."
 pubDate: "2026-03-28"
 updatedDate: "2026-08-31"
 category: "AI"
@@ -24,7 +24,7 @@ readTime: "7 min read"
 <p>That's the wrong headline.</p>
 <p>The story is Custom Models: Adobe expanded access to Firefly Custom Models, which lets you train a reusable model on your own images and visual style. For independent creators and small production companies, this is the feature that changes the economics. Let me explain why.</p>
 
-<h2>What Custom Models Actually Do</h2>
+<h2>How do you prompt Adobe Firefly so the output is usable?</h2><p>The question I see asked most about Firefly is not about features, it is how to prompt it so the result is something you can hand to a client. What works for me is to stop describing the picture and start describing the shot. Lens, camera height, where the light comes from, what the subject is doing. A prompt that says "a product on a table, nice lighting" gives you a different table every time. A prompt that says "35mm, camera at table height, single source from the left, product turned three quarters toward camera" gives you the same table and lets you change one variable at a time when the client asks. The second thing is to stop writing the look into the text once a job passes a handful of shots, and move it into a reference frame instead, because one approved frame holds across a sequence in a way that a repeated sentence never does. Custom Models is the industrial version of that same idea, which is why the clause below matters before you upload anything.</p><h2>What Custom Models Actually Do</h2>
 <p>Brand consistency has been the hardest problem in AI-assisted production. You can generate beautiful images. You cannot reliably generate images that look like they belong to the same visual universe (same lighting logic, same color temperature, same character design, same product representation) unless you're manually prompting for every detail, every time.</p>
 <p>Custom Models changes this. You feed Adobe a set of reference images (your brand's approved visual library, your product photos, your established color palette) and it trains a model that encodes your aesthetic DNA. Every subsequent generation inherits that DNA without you having to re-specify it in the prompt.</p>
 <p>For a brand with an established visual identity, this means: consistency at scale. The 50 pieces of content per month that would otherwise require a creative director reviewing every output can now start from a model that already knows what "on-brand" looks like.</p>
