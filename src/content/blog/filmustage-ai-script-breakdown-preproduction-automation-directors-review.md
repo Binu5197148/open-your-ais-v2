@@ -3,6 +3,7 @@ id: "art-100"
 title: "AI Script Breakdown: Filmustage Tested on a Commercial"
 description: "Filmustage tags cast, props and locations at 86 percent accuracy. What the missing 14 percent costs on a real commercial, and who still has to fix it."
 pubDate: "2026-03-15"
+updatedDate: "2026-09-01"
 category: "Tools"
 tags:
   - "Filmustage"
@@ -15,6 +16,10 @@ heroImage: "https://images.unsplash.com/photo-1765664624308-b2752a5957ba?ixid=M3
 author: "Ulisses Balbino"
 readTime: "8 min read"
 ---
+
+<!-- Freshness pass 2026-09-01: March article, still accurate on accuracy figures; dated note added for the AI agent, free tier availability, Multi-Episodic Projects and VFX bidding packages shipped since. -->
+
+<p><em>Updated September 1, 2026. This was written on March 15, 2026, and the test below still holds. Eighty six percent is still the published tagging accuracy, and the missing fourteen percent still lands on exactly the implied elements that need an experienced eye. What changed is the shape of the product around it. Filmustage now runs an AI agent inside the project that takes instructions in plain language, so reorganizing a schedule, running a VFX analysis or generating a vendor ready bidding package happens in conversation instead of in menus, and it is on every plan including the free one. It also handles Multi-Episodic Projects, seasons of sixty to a hundred episodes tagged as a single workflow, which is the vertical format I wrote about in <a href="/blog/ai-short-drama-format-the-models-were-built-for/">AI short drama and the models it was built for</a>. The accuracy argument below did not change. The question of who the tool is for did.</em></p>
 
 <h2>The Pre-Production Problem That Never Gets Fixed</h2>
 <p>Script breakdown is one of the most time-consuming parts of commercial pre-production, and it's also one of the most invisible. Nobody in a client meeting ever asks about the breakdown. Nobody on set thinks about the hours spent tagging elements, organizing shooting days, and generating call sheets. It's the foundation that everything else sits on, and it gets built the hard way: manually, by a 1st AD or production coordinator who knows what they're doing and charges accordingly.</p>

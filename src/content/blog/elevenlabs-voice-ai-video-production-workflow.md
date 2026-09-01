@@ -3,6 +3,7 @@ id: "art-074"
 title: "ElevenLabs for Video: Where ADR and Dubbing Break"
 description: "ADR without the studio, dubbing that keeps the performer's voice, one shoot versioned across every language you need. Where each one holds up on paid work."
 pubDate: "2026-03-15"
+updatedDate: "2026-09-01"
 category: "AI"
 tags:
   - "Workflow"
@@ -16,6 +17,10 @@ author: "Ulisses Balbino"
 readTime: "9 min read"
 ---
 
+<!-- Freshness pass 2026-09-01: March article. Dated note added for Dubbing v2 and Dubbing Studio maintenance mode. Removed Runway from the lip sync line, since it is no longer part of the stack and dubbing never bundled lip sync in the first place. -->
+
+<p><em>Updated September 1, 2026. This was written on March 15, 2026, and the production arguments below held up better than the tool names did. ElevenLabs now dubs by default with a v2 model that runs fully automatic, with no pass to edit the result, while Dubbing Studio, the editable side by side version, sits in maintenance mode taking critical bug fixes only and no new feature work planned. Lip sync is still not part of dubbing, and that is the detail most people get wrong when they budget a localization job. It is a separate tool and a separate step, at ElevenLabs and everywhere else. The multilingual section below has been corrected to say so.</em></p>
+
 <h2>The Mental Model Most People Have Is Too Small</h2>
 <p>When producers hear ElevenLabs, they think voiceover. Generate a narration track, paste some text, download an MP3. That is the surface level, and it is useful. But it undersells what voice AI at this quality level actually enables in a production context.</p>
 <p>ElevenLabs has become one of the more practically capable tools in a video production stack, and most of the interesting use cases are ones that solve real production problems rather than just reducing the cost of a single deliverable.</p>
@@ -27,7 +32,7 @@ readTime: "9 min read"
 
 <h2>Multilingual Versioning at a Different Cost</h2>
 <p>Producing a video in multiple languages used to mean multiple recording sessions, multiple sets of talent, multiple rounds of lip-sync correction. The cost per language version was significant enough that most independent productions stayed in one language regardless of the potential audience reach.</p>
-<p>Voice cloning combined with AI translation changes that equation. Take the original performance, translate the script, generate the same voice in the target language, and correct lip-sync with tools like Runway or CapCut. The output is not indistinguishable from native-recorded multilingual production at the high end. But for social content, educational video, explainers, and branded content where the standard is "clear and professional" rather than "broadcast-perfect," it is sufficient and the cost difference is substantial.</p>
+<p>Voice cloning combined with AI translation changes that equation. Take the original performance, translate the script, generate the same voice in the target language, and then correct lip sync in a separate pass, because dubbing and lip sync are two different tools and no dubbing product bundles them for you. The output is not indistinguishable from native-recorded multilingual production at the high end. But for social content, educational video, explainers, and branded content where the standard is "clear and professional" rather than "broadcast-perfect," it is sufficient and the cost difference is substantial.</p>
 <p>For any creator with an audience that spans languages, this is the most immediately impactful use case to explore.</p>
 
 <h2>Narration at Scale</h2>
