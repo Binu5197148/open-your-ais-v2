@@ -3,6 +3,7 @@ id: "art-067"
 title: "Sora 2 API: Synced Dialogue Moves Pre Production"
 description: "Open API access and synced dialogue land in pre production long before they touch the shoot. Where a commercial director puts Sora 2, plus the jobs he will not."
 pubDate: "2026-03-14"
+updatedDate: "2026-09-01"
 category: "AI"
 tags:
   - "Sora 2"
@@ -15,6 +16,10 @@ author: "Ulisses Balbino"
 readTime: "7 min read"
 featured: true
 ---
+
+<!-- Freshness pass 2026-09-01: the Sora 2 API this article describes is on OpenAI's removal list for September 24, 2026. Dated note added at the top so nothing here reads as a live recommendation. -->
+
+<p><em>Updated September 1, 2026. Read this as a record, not as a recommendation. The Sora 2 API described below is on OpenAI's deprecation list and is removed on September 24, 2026, along with sora-2-pro and the dated snapshots. The consumer app went dark on April 26. No replacement was named. The pre production argument here still stands on its own, but the tool it was built around will not exist in a few weeks, and I wrote about what to do about that in <a href="/blog/sora-2-api-shuts-down-september-24-where-producers-go-next/">the piece on where producers go next</a>.</em></p>
 
 <h2>The Headline Is Impressive. The Real Question Is What You Do Tomorrow Morning.</h2>
 <p>OpenAI opened the Sora 2 Video API to all developers on March 13, 2026. No more waitlist. No more restricted access for selected partners. Any developer with an account and credits can now access programmatic video generation with the model OpenAI considers their flagship video product.</p>
