@@ -1,7 +1,7 @@
 ---
 id: "art-177"
-title: "Claude Skills Weekly: The README Line That Changes the Answer"
-description: "Five skills opened and counted on August 31, plus the number I promised last week and did not want: fifteen of the humanizer's thirty five patterns were in my own posts, and the densest one had no name."
+title: "Claude Skills Weekly: The README Line That Changed My Answer"
+description: "Five Claude skills opened and counted on August 31, plus the number I promised and did not want: fifteen of thirty five patterns were in my own posts."
 pubDate: "2026-08-31"
 toolVersion: "2026-08"
 category: "AI"
