@@ -1,8 +1,9 @@
 ---
 id: "art-059"
-title: "ElevenLabs Voice Cloning: I Tested It on Three Scripts"
+title: "I Tested ElevenLabs Voice Cloning"
 description: "ElevenLabs voice cloning cleared my corporate narration test, stumbled on the commercial and broke on character work. I give it 8 out of 10 and say why."
 pubDate: "2026-03-02"
+updatedDate: "2026-09-02"
 category: "AI"
 tags:
   - "ElevenLabs"
@@ -14,11 +15,13 @@ author: "Ulisses Balbino"
 readTime: "7 min read"
 ---
 
+<p><em>Updated September 2, 2026: the plan pricing in this review was corrected. Starter is 6 dollars a month, and the 22 dollar Creator tier gives roughly 100 minutes, not 500. The test results below are unchanged.</em></p>
+
 <h2>The Technology</h2>
 <p>ElevenLabs just released Voice ID, and it's exactly as impressive, and terrifying, as it sounds. Give it a 30-second audio sample of any voice, and the AI can replicate that voice with spooky accuracy. Not an approximation. Not a "sounds kind of similar." A genuine clone that captures pitch, cadence, breathing patterns, and vocal texture.</p>
 <p>I've been in audio production for 14 years. I've directed voice sessions for commercials, narrated corporate videos, and supervised sound design for brands like Nestlé, Starbucks, and Yamaha. I know what professional voice work sounds like. And Voice ID is close enough to make every voice actor in the world pay attention.</p>
 
-<h2>What It Does</h2>
+<h2>How Does Voice Cloning Work in ElevenLabs?</h2>
 <p>Voice ID is ElevenLabs' voice cloning feature, now refined to a point where the results are genuinely production-usable. Here's the technical breakdown:</p>
 <ul>
 <li><strong>Input:</strong> Upload 30 seconds to 3 minutes of clean voice audio. The more you provide, the better the clone.</li>
@@ -43,13 +46,13 @@ readTime: "7 min read"
 <p>I tried creating a character voice: an energetic, slightly exaggerated persona for an animated explainer video. This is where Voice ID fell apart. The AI maintained the vocal characteristics of the clone but couldn't understand what "character" means. It read the lines in the right voice but with zero character interpretation. No timing variations, no comedic beats, no personality.</p>
 <p>Having written comedy for the Ronald Rios Talk Show, I know how much performance matters. Voice acting isn't reading. It's acting. And AI doesn't act.</p>
 
-<h2>What It Actually Does Well</h2>
+<h2>Where It Holds Up</h2>
 <ul>
 <li><strong>Consistency:</strong> Same voice across unlimited content. No studio time needed after the initial clone. You can produce 100 videos with the same narrator without scheduling a single session.</li>
 <li><strong>Speed:</strong> Generate hundreds of variations in minutes. Need three versions of a voiceover (one casual, one formal, one urgent)? Done in 60 seconds.</li>
 <li><strong>Languages and localization:</strong> Clone a voice and use it in 29 languages. This is genuinely huge for companies producing content for global audiences. What used to require hiring voice actors in each market now requires one click per language.</li>
 <li><strong>Iteration speed:</strong> Client wants a word changed? A different emphasis? A longer pause? Regenerate in seconds. No booking studio time, no waiting for talent availability, no re-recording fees.</li>
-<li><strong>Cost:</strong> The starter plan is $5/month for 30 minutes of generation. The professional plan is $22/month for 500 minutes. Compare this to professional voice actors charging $100-$500 per finished minute. The economics are devastating for commodity voice work.</li>
+<li><strong>Cost:</strong> Starter is 6 dollars a month and unlocks instant cloning, around 30 minutes of generation. Creator is 22 dollars a month for roughly 100 minutes, and it is the first tier that gives you professional voice cloning. Compare that to voice actors charging 100 to 500 dollars per finished minute. The economics are brutal for commodity voice work.</li>
 </ul>
 
 <h2>What It Can't Do</h2>
