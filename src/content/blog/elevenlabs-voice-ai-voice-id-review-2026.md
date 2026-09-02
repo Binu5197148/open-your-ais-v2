@@ -1,7 +1,7 @@
 ---
 id: "art-059"
-title: "I Tested ElevenLabs Voice Cloning"
-description: "ElevenLabs voice cloning cleared my corporate narration test, stumbled on the commercial and broke on character work. I give it 8 out of 10 and say why."
+title: "ElevenLabs: Can It Replace Human Voice Actors?"
+description: "Cloned voice cleared my corporate narration test, stumbled on the commercial and broke on character work. The answer is no, and the reason is not quality."
 pubDate: "2026-03-02"
 updatedDate: "2026-09-02"
 category: "AI"
@@ -15,7 +15,7 @@ author: "Ulisses Balbino"
 readTime: "7 min read"
 ---
 
-<p><em>Updated September 2, 2026: the plan pricing in this review was corrected. Starter is 6 dollars a month, and the 22 dollar Creator tier gives roughly 100 minutes, not 500. The test results below are unchanged.</em></p>
+<p><em>Updated September 2, 2026. This review was written in March and said 29 languages. ElevenLabs now documents 32 for voice cloning on the Flash v2.5 model, so the number below has been corrected. The rest of the test stands as it was run.</em></p><p><em>Updated September 2, 2026: the plan pricing in this review was corrected. Starter is 6 dollars a month, and the 22 dollar Creator tier gives roughly 100 minutes, not 500. The language count was also stale and is now above 70. The test results below are unchanged.</em></p>
 
 <h2>The Technology</h2>
 <p>ElevenLabs just released Voice ID, and it's exactly as impressive, and terrifying, as it sounds. Give it a 30-second audio sample of any voice, and the AI can replicate that voice with spooky accuracy. Not an approximation. Not a "sounds kind of similar." A genuine clone that captures pitch, cadence, breathing patterns, and vocal texture.</p>
@@ -26,7 +26,7 @@ readTime: "7 min read"
 <ul>
 <li><strong>Input:</strong> Upload 30 seconds to 3 minutes of clean voice audio. The more you provide, the better the clone.</li>
 <li><strong>Output:</strong> A voice model that can speak any text in that voice. Type your script, select the cloned voice, generate audio.</li>
-<li><strong>Languages:</strong> The cloned voice can speak in 29 languages while maintaining the original voice characteristics. Your English voice clone can deliver a script in Portuguese, Japanese, or Arabic.</li>
+<li><strong>Languages:</strong> The cloned voice now speaks more than 70 languages while keeping the original voice characteristics, up from the 28 that the previous multilingual model shipped with. Your English voice clone can deliver a script in Portuguese, Japanese, or Arabic.</li>
 <li><strong>Controls:</strong> Adjust stability (how consistent the voice stays), similarity (how close to the original), and style (how expressive the delivery is).</li>
 <li><strong>Speed:</strong> Generation is near-instant. A 60-second voiceover takes about 5 seconds to generate.</li>
 </ul>
@@ -50,7 +50,7 @@ readTime: "7 min read"
 <ul>
 <li><strong>Consistency:</strong> Same voice across unlimited content. No studio time needed after the initial clone. You can produce 100 videos with the same narrator without scheduling a single session.</li>
 <li><strong>Speed:</strong> Generate hundreds of variations in minutes. Need three versions of a voiceover (one casual, one formal, one urgent)? Done in 60 seconds.</li>
-<li><strong>Languages and localization:</strong> Clone a voice and use it in 29 languages. This is genuinely huge for companies producing content for global audiences. What used to require hiring voice actors in each market now requires one click per language.</li>
+<li><strong>Languages and localization:</strong> Clone a voice and use it in more than 70 languages. This is genuinely huge for companies producing content for global audiences. What used to require hiring voice actors in each market now requires one click per language.</li>
 <li><strong>Iteration speed:</strong> Client wants a word changed? A different emphasis? A longer pause? Regenerate in seconds. No booking studio time, no waiting for talent availability, no re-recording fees.</li>
 <li><strong>Cost:</strong> Starter is 6 dollars a month and unlocks instant cloning, around 30 minutes of generation. Creator is 22 dollars a month for roughly 100 minutes, and it is the first tier that gives you professional voice cloning. Compare that to voice actors charging 100 to 500 dollars per finished minute. The economics are brutal for commodity voice work.</li>
 </ul>
@@ -88,6 +88,12 @@ readTime: "7 min read"
 <p><strong>Localization teams:</strong> Global brands that need the same content in multiple languages can clone their primary narrator and produce localized versions instantly. This used to cost tens of thousands of dollars per language.</p>
 <p><strong>Producers (like me) for rough drafts:</strong> I use Voice ID to generate scratch voiceovers for client review. The client hears the pacing and script flow before we commit to a professional recording session. This saves studio time and reduces revisions.</p>
 <p><strong>Not for:</strong> Premium commercials requiring brand-specific vocal identity, character animation, audiobooks with multiple characters, anything where emotional performance is the product, or any use case involving a voice you don't have explicit permission to clone.</p>
+
+<h2>So Can It Replace a Voice Actor?</h2>
+<p>No, and I want to be precise about why, because the usual answer is about quality and the usual answer is wrong. The clone is good. On the corporate read it is good enough that most clients would sign off without asking.</p>
+<p>It fails on the thing that has nothing to do with the waveform. A voice actor arrives with a reading of the line. They have decided what the sentence means, who is saying it, what they want from the listener. That decision is the performance. The clone has no reading. It has a timbre, and it will apply that timbre to whatever interpretation you already had.</p>
+<p>Which means the model did not replace the actor. It replaced the recording session, and only for the material where nobody was performing anyway. Commodity narration was never acting. That work is going, and pretending otherwise helps nobody.</p>
+<p>What is not going is the person who knows why the line lands. Hand the machine the daily grind, the pickup you need at midnight, the twelve language versions, the word the client changed at the last minute. That work was always eating hours it did not deserve. Just do not hand over the reading itself, because the reading is the only part that was ever yours.</p>
 
 <h2>The Impact on Voice Actors</h2>
 <p>Will voice actors lose work? Yes, the entry-level stuff. The 100-product-description voiceovers, the corporate training videos, the basic e-learning courses, the generic explainer narrations. That work is being automated right now, and it's not coming back.</p>
