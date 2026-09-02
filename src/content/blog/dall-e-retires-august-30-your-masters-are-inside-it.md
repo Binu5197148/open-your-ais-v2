@@ -25,7 +25,7 @@ readTime: "6 min read"
 
 <p>The point is that a company put a date on a door, and several million people are about to find out that the only copy of their work was on the other side of it.</p>
 
-<h2>What the DALL-E retirement actually removes</h2>
+<h2>What the DALL-E retirement removes</h2>
 
 <p>Set the argument aside and read the release honestly, because it is not a scandal.</p>
 
