@@ -3,6 +3,7 @@ id: "art-139"
 title: "AI Slop: Nolan Blames Timing. The Author Is Missing."
 description: "Nolan says the timing is wrong. A director who runs Kling and Seedance on paid jobs argues the audience rejects absent authorship, not the tool."
 pubDate: "2026-07-17"
+updatedDate: "2026-09-02"
 category: "AI"
 tags:
   - "AI Slop"
@@ -54,3 +55,23 @@ readTime: "6 min read"
 <h2>Sources and verification</h2>
 <p>Published Jul 17, 2026. Nolan quotes verified against Deadline, The Wrap, Euronews, The Hollywood Reporter, and Futurism coverage of his mid-July 2026 interview with The Telegraph.</p>
 </section>
+<h2>What does AI actually get wrong when it is left to decide?</h2>
+
+<p>I want to be plain about something, because the industry keeps saying it politely. I do not find artificial intelligence amazing. If I had instant access to every file in my head and to the whole web at once, I would build the universe in five days and take two off. I am being ironic, but the point underneath is serious: the machine has exactly that access, and it still deletes files, still overwrites work you asked it to protect, and still hands you the most obvious idea in the room. Access is not taste.</p>
+
+<p>Two things happened on my own site this week that say it better than an argument would.</p>
+
+<p>The first was a headline. My own agent had to pick a title for a review, and the best performing option by every measure was a question: can this tool replace human directors. It scored highest, and the agent threw it out. The reasoning was that the question sounded like an attack on people, and the site defends people. That is reading the words and missing the reader. Someone who believes machines will never replace a director sees that question, gets annoyed, and clicks to argue. The article then spends two thousand words showing exactly why the answer is no. The headline is the door. What is behind the door is the argument. A machine can score the door. It could not tell me why the door works, because it does not know what it feels like to be irritated by a sentence and open the tab anyway.</p>
+
+<p>The second was smaller and worse. A duplicate address of this site was still collecting search impressions, splitting one article in two. Every diagnostic was correct: the redirect was in place, the canonical was right, the problem was named precisely and then left alone, because technically nothing was broken. Nobody decided anything. That is the shape of the failure. Not a wrong answer, an absent one.</p>
+
+<h2>Why is most AI video empty?</h2>
+
+<p>Look at what fills the feeds. Dragons. People flying. Camera moves that pass through a keyhole and come out of a window. Fantasy, spectacle, impossible motion. All of it competent, and all of it something you have already seen a thousand times, made in Hollywood, by professionals, decades ago, with cranes and models and matte painters. The tool did not invent any of those images. It memorised them. Now anyone can produce one in a minute, innocently, with no story attached, and the result is visual impact with nothing underneath.</p>
+
+<p>That is not a limit of the model. It is a limit of the brief. If the idea handed to the machine is lazy, what comes back is beautiful and already made. The generation is not the creative act. Deciding what is worth generating is.</p>
+
+<p>Where the machine genuinely earns its place is the part of the day that eats you alive. The repetitive pass, the reformat, the version for another aspect ratio, the file that has to move from one place to another, the fifty variations of a layout. Give it that, all of it, and stand above it orchestrating. That work already takes too many hours and it takes them from the only thing you have that the model does not, which is knowing what the piece is for.</p>
+
+<p>So the honest position is not that AI will not replace people. It is narrower and harder. It will replace the part of you that was never the point. If you know what you want to make, and you have something to say that is yours, this technology will take you somewhere remarkable. If what you want is to use it as a database to make more of the same, then the future is going to be very crowded and very quiet at the same time.</p>
+

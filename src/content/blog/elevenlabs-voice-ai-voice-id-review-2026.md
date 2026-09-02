@@ -15,7 +15,7 @@ author: "Ulisses Balbino"
 readTime: "7 min read"
 ---
 
-<p><em>Updated September 2, 2026. This review was written in March and said 29 languages. ElevenLabs now documents 32 for voice cloning on the Flash v2.5 model, so the number below has been corrected. The rest of the test stands as it was run.</em></p><p><em>Updated September 2, 2026: the plan pricing in this review was corrected. Starter is 6 dollars a month, and the 22 dollar Creator tier gives roughly 100 minutes, not 500. The language count was also stale and is now above 70. The test results below are unchanged.</em></p>
+<p><em>Updated September 2, 2026: the plan pricing in this review was corrected. Starter is 6 dollars a month, and the 22 dollar Creator tier gives roughly 100 minutes, not 500. The language count was also stale and is now above 70. The test results below are unchanged.</em></p>
 
 <h2>The Technology</h2>
 <p>ElevenLabs just released Voice ID, and it's exactly as impressive, and terrifying, as it sounds. Give it a 30-second audio sample of any voice, and the AI can replicate that voice with spooky accuracy. Not an approximation. Not a "sounds kind of similar." A genuine clone that captures pitch, cadence, breathing patterns, and vocal texture.</p>
