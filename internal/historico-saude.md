@@ -318,3 +318,47 @@ Nao ha mais nada pendente sobre indexacao do axenworks. O marco de dia 10 que fi
 ### Queda de trafego no axenworks, dentro do esperado para a fase
 
 Visitantes 7d cairam de 18 para 9 e page views de 32 para 15. Numeros absolutos pequenos, sem referrer social no periodo e sem nada quebrado no site: as 20 URLs respondem 200, a coleta da Vercel responde 200 e o Search Console segue registrando impressoes. A leitura e que o pico inicial de lancamento passou e o site ainda nao tem busca organica suficiente para sustentar visita diaria. Nao e falha tecnica, e falta de fonte de trafego.
+
+## 2026-09-02
+
+**axenworks.com** (dia 12 de vida, publicado 22/08, AdSense em analise desde 23/08)
+- visitantes 7d: 9 (Vercel Web Analytics, igual a ontem)
+- page views 7d: 15, bounce rate 78% (Vercel, igual a ontem)
+- referrers 7d: sem dados no periodo, nenhum linkedin.com nem x.com (Vercel)
+- paginas mais vistas 7d: / 9, hours-per-card 1, how-many-hours-of-video-can-256gb-hold 1, prores-file-size-calculator 1, timecode-calculator 1, video-bitrate-calculator 1 (Vercel)
+- paises 7d: EUA 78%, Noruega 11%. Desktop 78% (Vercel)
+- paginas indexadas: **21 indexadas**, 20 nao indexadas por 4 motivos (Search Console)
+- motivos da nao indexacao: detetada mas nao indexada 17 nao iniciado, pagina alternativa com canonica correta 1 nao iniciado, rastreada mas nao indexada 1 nao iniciado, excluida por noindex 1 com validacao INICIADA
+- atencao: a Vista geral do Search Console ainda mostra o cartao "A sua pagina inicial nao esta indexada" para https://axenworks.com/. A home servida responde index,follow por curl; a exclusao por noindex e do rastreio antigo e a validacao segue Iniciada
+- impressoes 28d: **182** (era 163). Cliques 28d: 0. CTR 0%. Posicao media 60,8 (era 60). Serie de 21/08 a 30/08 (Search Console)
+- principais consultas 28d: prores raw calculator, braw file size calculator, prores 422 calculator, braw calculator, prores data calculator, red komodo recording time calculator, .braw file format, todas com 1 impressao e 0 clique, posicoes de 54 a 67 (Search Console)
+- sitemap: sucesso, 20 paginas descobertas, ultima leitura 30/08 (Search Console)
+- acoes manuais: nenhuma. Seguranca: nenhuma (Search Console)
+- AdSense: estado **Em preparacao**, detalhes do estado vazio, ads.txt **Autorizado**, ultima atualizacao 23/08/2026 19h13 GMT-3. Identico a 01/09
+- tecnico: sem bloqueio. Home 39927 bytes em 1052ms, robots liberando, 20 de 20 URLs do sitemap em 200, canonical coerente, paginas legais no ar, ads.txt e llms.txt presentes (site-health.mjs)
+- coleta: script de insights responde 200
+
+**openyourais.com** (em avaliacao AdSense, Low value content desde 21/08)
+- usuarios 7d: 173 (GA4, 26/08 a 01/09)
+- sessoes 7d: 174. Direct 170 (97,7%), Organic Search 3, Referral 1, Organic Social 0 (GA4)
+- tempo de interacao medio por sessao 7d: 1 segundo no total, 0 segundo no Direct, 1min04 no Organic Search (GA4)
+- usuarios ativos 28d: 766 (era 765). Sessoes 28d: 781. Direct 741 (94,88%), Organic Search 22, Referral 13, Organic Social 6 (GA4, 05/08 a 01/09)
+- paises 7d: Singapura 132, EUA 20, China 11, Brasil 5, Ira 3, India 1, Paquistao 1 (GA4)
+- LEITURA: o numero segue inflado. Singapura sozinha e 132 dos 173 usuarios de 7 dias, e 97,7% das sessoes de 7 dias sao diretas com 0 segundo de interacao. Trafego que parece humano: 41 sessoes nos 28 dias (22 busca organica, 13 referencia, 6 social organico) e 4 nos ultimos 7 dias, contra 3 ontem
+- paginas indexadas: **104 indexadas** (igual a ontem), 132 nao indexadas por 8 motivos. Relatorio com ultima atualizacao 27/08 (Search Console)
+- motivos da nao indexacao: pagina com redirecionamento 79 nao iniciado, rastreada mas nao indexada 20 nao iniciado, nao encontrado 404 10 com validacao em FALHA, soft 404 8 aprovado, detetada mas nao indexada 7 aprovado, duplicada com canonica diferente 4 nao iniciado, noindex 3 iniciada, erro de redireccionamento 1 nao iniciado
+- impressoes 28d: **1,56 mil** (era 1,5 mil). Cliques 28d: **9** (era 8). CTR 0,6%. Posicao media **28,5** (era 29,4). Serie de 03/08 a 30/08 (Search Console)
+- principais consultas 28d: claude gauntlet loop 1 clique e 4 impressoes, controllable ai director 0 e 48 (Search Console)
+- sitemaps: sitemap-index.xml sucesso com 117 descobertas, ultima leitura 30/08. sitemap-0.xml sucesso com 117, ultima leitura 28/08. O site serve 121 URLs hoje (Search Console e site-health.mjs)
+- acoes manuais: nenhuma. Seguranca: nenhuma (Search Console)
+- AdSense: estado **Necessaria atencao**, motivo Low value content, ads.txt **Nao encontrado**, ultima atualizacao 21/08/2026 18h53 GMT-3. Nenhuma nova revisao pedida. Identico a 01/09
+- tecnico: sem bloqueio. Home 16940 bytes em 837ms, robots liberando, sitemap-index com 121 URLs, 30 testadas todas 200, canonical coerente, paginas legais no ar, ads.txt e llms.txt presentes (site-health.mjs)
+- coleta: tag G-EBZ4F0ZXRY presente na home
+
+Comparacao com 01/09:
+- axenworks: visitantes 7d 9 para 9, page views 7d 15 para 15, bounce 78% para 78%, **impressoes 28d 163 para 182**, posicao media 60 para 60,8, indexadas 21 para 21, sitemap 20 para 20
+- openyourais: sessoes 7d 182 para 174, usuarios 28d 765 para 766, **impressoes 28d 1,5 mil para 1,56 mil**, **cliques 8 para 9**, **posicao media 29,4 para 28,5**, indexadas 104 para 104
+- trafego que parece humano no openyourais: 41 sessoes em 28 dias (igual) e 4 em 7 dias, contra 3 ontem
+- AdSense: nenhuma mudanca em nenhum dos dois sites
+
+Nota da execucao: nenhum bloqueio tecnico nos dois sites e nenhuma acao manual. A unica mudanca de estado do dia esta na busca, nao no AdSense: os dois sites ganharam impressao e o openyourais ganhou um clique e quase um ponto de posicao media. O cartao de home nao indexada do axenworks continua aberto com validacao Iniciada, sem acao possivel alem de esperar o Google revalidar.
