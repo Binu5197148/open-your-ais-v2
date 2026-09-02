@@ -15,7 +15,7 @@ author: "Ulisses Balbino"
 readTime: "7 min read"
 ---
 
-<p><em>Updated September 2, 2026: the plan pricing in this review was corrected. Starter is 6 dollars a month, and the 22 dollar Creator tier gives roughly 100 minutes, not 500. The language count was also stale and is now above 70. The test results below are unchanged.</em></p>
+<p><em>Updated September 2, 2026: the plan pricing in this review was corrected. Starter is 6 dollars a month, and the 22 dollar Creator tier gives roughly 100 minutes, not 500. The language count was stale too: professional voice cloning covers 32 languages, not 29, and the 70 plus figure quoted elsewhere belongs to text to speech, not to cloning. The test results below are unchanged.</em></p>
 
 <h2>The Technology</h2>
 <p>ElevenLabs just released Voice ID, and it's exactly as impressive, and terrifying, as it sounds. Give it a 30-second audio sample of any voice, and the AI can replicate that voice with spooky accuracy. Not an approximation. Not a "sounds kind of similar." A genuine clone that captures pitch, cadence, breathing patterns, and vocal texture.</p>
@@ -26,7 +26,7 @@ readTime: "7 min read"
 <ul>
 <li><strong>Input:</strong> Upload 30 seconds to 3 minutes of clean voice audio. The more you provide, the better the clone.</li>
 <li><strong>Output:</strong> A voice model that can speak any text in that voice. Type your script, select the cloned voice, generate audio.</li>
-<li><strong>Languages:</strong> The cloned voice now speaks more than 70 languages while keeping the original voice characteristics, up from the 28 that the previous multilingual model shipped with. Your English voice clone can deliver a script in Portuguese, Japanese, or Arabic.</li>
+<li><strong>Languages:</strong> Professional voice cloning covers the 32 languages of the Flash v2.5 model, up from the 28 the older multilingual model shipped with. Your English voice clone can deliver a script in Portuguese, Japanese, or Arabic. Worth keeping straight: Eleven v3 reaches past 70 languages for plain text to speech, and that wider number is quoted everywhere, but it is not the range a cloned voice gets.</li>
 <li><strong>Controls:</strong> Adjust stability (how consistent the voice stays), similarity (how close to the original), and style (how expressive the delivery is).</li>
 <li><strong>Speed:</strong> Generation is near-instant. A 60-second voiceover takes about 5 seconds to generate.</li>
 </ul>
@@ -50,7 +50,7 @@ readTime: "7 min read"
 <ul>
 <li><strong>Consistency:</strong> Same voice across unlimited content. No studio time needed after the initial clone. You can produce 100 videos with the same narrator without scheduling a single session.</li>
 <li><strong>Speed:</strong> Generate hundreds of variations in minutes. Need three versions of a voiceover (one casual, one formal, one urgent)? Done in 60 seconds.</li>
-<li><strong>Languages and localization:</strong> Clone a voice and use it in more than 70 languages. This is genuinely huge for companies producing content for global audiences. What used to require hiring voice actors in each market now requires one click per language.</li>
+<li><strong>Languages and localization:</strong> Clone a voice and use it across the 32 languages professional cloning supports. This is genuinely huge for companies producing content for global audiences. What used to require hiring voice actors in each market now requires one click per language.</li>
 <li><strong>Iteration speed:</strong> Client wants a word changed? A different emphasis? A longer pause? Regenerate in seconds. No booking studio time, no waiting for talent availability, no re-recording fees.</li>
 <li><strong>Cost:</strong> Starter is 6 dollars a month and unlocks instant cloning, around 30 minutes of generation. Creator is 22 dollars a month for roughly 100 minutes, and it is the first tier that gives you professional voice cloning. Compare that to voice actors charging 100 to 500 dollars per finished minute. The economics are brutal for commodity voice work.</li>
 </ul>
