@@ -37,3 +37,18 @@ Descartado "Midjourney Review: Why I Stopped Using the Video Model" (nota 93) po
 "stopped using" afirma que ele adotou e abandonou, e o artigo so mostra teste e recusa.
 Ficou o de 91. Tambem descartado no artigo novo o titulo de nota 96 por nao conter
 a palavra-chave nenhuma, o que jogaria fora a mira em "remotion".
+| 07/09 | dall-e-retires-august-30-your-masters-are-inside-it | DALL-E Retirement: Don't Lose Your AI Prompts | dalle | 17.875 (+124%) | posicao 9,3 com CTR 1,4%, a melhor posicao do site e quase ninguem clicava. Titulo do vidIQ nota 90. REGRA DA ENTREGA: o artigo nao tinha NENHUM link externo de acesso, ganhou a pagina de deprecations da OpenAI. 2 cliches fora |
+| 07/09 | adobe-firefly-30-models-what-it-means-for-independent-creators | Adobe Firefly: What You Need to Know in 2026 | adobe firefly | 243.196 (+36%) | 531 impressoes, a maior do site, com CTR 0,2%. Titulo do vidIQ nota 91. ESTADO VELHO: a nota de 31/08 nao registrava o lancamento de 20/08, em que a Adobe liberou o audio do Firefly para todos. Nova secao "What is Adobe Firefly in 2026?" com Generate Music, Generate Speech com ElevenLabs, Generate Sound Effects e 3 links oficiais. 3 cliches fora |
+| 07/09 | elevenlabs-voice-ai-video-production-workflow | Why I Use ElevenLabs for Paid Video Work | elevenlabs / ai dubbing | 779.920 / 33.273 | 224 impressoes e ZERO clique, posicao 35,6. Titulo do vidIQ nota 90; o de 92 foi descartado por prometer video ("Until You Watch This") numa pagina que nao tem video. Secao de entrada com Dubbing v2, 90+ idiomas, Dubbing Studio em maintenance mode e links diretos da doc. 2 cliches fora |
+| 07/09 | youtube-ai-dubbing-27-languages-what-it-cannot-do | artigo NOVO | youtube ai dubbing | 13.546 (+240%, competicao 16,8) | buraco de demanda: crescimento de 240% e o site nao tinha pagina nenhuma. Estado atual confirmado no blog do YouTube e na ajuda do Google. Tese apoiada no fato documentado de que dub automatico NAO pode ser editado |
+
+## Regra aprendida em 07/09
+Titulo do vidIQ com maior nota pode carregar travessao. O de nota 96 deste dia
+("YouTube AI Dubbing Is Free—Here's Why I Won't Use It") tinha travessao, tinha
+"Here's" e ainda afirmava que ele nao usaria a ferramenta, sendo que o texto diz
+que deixaria ligada para alcance. Tres motivos de descarte num titulo so.
+Conferir travessao no titulo do vidIQ virou parte do filtro.
+
+Segunda regra do dia: titulo que promete video ("Until You Watch This") nao serve
+para pagina de texto. Entra no filtro de credencial falsa, porque promete ao
+leitor uma coisa que a pagina nao tem.
