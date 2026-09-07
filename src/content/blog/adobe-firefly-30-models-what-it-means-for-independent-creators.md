@@ -1,9 +1,9 @@
 ---
 id: "art-107"
-title: "Don't Train Adobe Firefly Until You Read This"
-description: "Before you feed a brand library into Adobe Firefly custom models, there is a data agreement clause to read. Plus how I prompt Firefly so output stays usable."
+title: "Adobe Firefly: What You Need to Know in 2026"
+description: "Firefly became a full studio on August 20 with music, speech and sound effects. Read the Custom Models data clause before you train on a brand library."
 pubDate: "2026-03-28"
-updatedDate: "2026-08-31"
+updatedDate: "2026-09-07"
 category: "AI"
 tags:
   - "Adobe Firefly"
@@ -17,21 +17,31 @@ author: "Ulisses Balbino"
 readTime: "7 min read"
 ---
 
-<p><em>Updated August 31, 2026. This was written on March 28, 2026, and the phrase "this week" below refers to that week, not to now. The third party model list inside Firefly has already moved on: Kling 3.0 replaced the 2.5 Turbo named here, and Google shipped Gemini Omni 1.1 Flash on August 27. Treat every version number in this piece as a March snapshot and check the current lineup before you plan around it. The part that has not aged is the argument about the licensing clause, which is why the piece is still here.</em></p>
+<p><em>Updated September 7, 2026. This was written on March 28, 2026, and the phrase "this week" below refers to that week, not to now. Two things have moved since. The third party model list has turned over: Kling 3.0 replaced the 2.5 Turbo named here, and Google shipped Gemini Omni 1.1 Flash on August 27. Bigger than that, on August 20, 2026 Adobe made Firefly's audio tools generally available, so Firefly stopped being an image and video catalog and became a full studio. Treat every version number below as a March snapshot. The part that has not aged is the argument about the licensing clause, which is why the piece is still here.</em></p>
 
 <h2>The Wrong Headline</h2>
 <p>Adobe announced this week that Firefly now integrates over 30 third-party AI models: Google Veo 3.1, Runway Gen-4.5, Kling 2.5 Turbo among them. Every tech outlet covered it as "Adobe adds more AI models."</p>
 <p>That's the wrong headline.</p>
 <p>The story is Custom Models: Adobe expanded access to Firefly Custom Models, which lets you train a reusable model on your own images and visual style. For independent creators and small production companies, this is the feature that changes the economics. Let me explain why.</p>
 
-<h2>How do you prompt Adobe Firefly so the output is usable?</h2><p>The question I see asked most about Firefly is not about features, it is how to prompt it so the result is something you can hand to a client. What works for me is to stop describing the picture and start describing the shot. Lens, camera height, where the light comes from, what the subject is doing. A prompt that says "a product on a table, nice lighting" gives you a different table every time. A prompt that says "35mm, camera at table height, single source from the left, product turned three quarters toward camera" gives you the same table and lets you change one variable at a time when the client asks. The second thing is to stop writing the look into the text once a job passes a handful of shots, and move it into a reference frame instead, because one approved frame holds across a sequence in a way that a repeated sentence never does. Custom Models is the industrial version of that same idea, which is why the clause below matters before you upload anything.</p><h2>What Custom Models Actually Do</h2>
+<h2>What is Adobe Firefly in 2026?</h2>
+
+<p>If you are arriving at this page from a search rather than from March, the honest short answer is that Firefly is no longer one thing. It started as Adobe's own image model. Today it is a hub: Adobe's own models for image, video, audio and design, sitting next to third party models from Google, ElevenLabs, Kling AI, Luma AI, OpenAI and Runway, billed through one account.</p>
+
+<p>The change that matters most is recent. On August 20, 2026, Adobe moved Firefly's audio tools out of preview and made them generally available. Three of them: Generate Music, running the Firefly Music Model and producing tracks Adobe licenses for commercial use, Generate Speech, running the Firefly Speech Model with ElevenLabs available as an option inside it, and Generate Sound Effects. That is the whole audio post chain, sitting in the same browser tab as the picture.</p>
+
+<p>I want to be careful about what that does and does not mean, because the coverage flattened it. It does not mean Firefly now beats a dedicated tool at any one of those jobs. I run voice through ElevenLabs directly, and the reason is control, not quality of the model, which is the same model. What consolidation buys you is the thing nobody writes headlines about: one bill, one license position, one place to answer the question a client asks at the worst possible moment, which is whether you can prove you were allowed to use the music.</p>
+
+<p>The current lineup is worth checking on the day you plan around it rather than trusting any article, this one included. Adobe keeps it at <a href="https://helpx.adobe.com/firefly/web/whats-new/new-features/whats-new.html" target="_blank" rel="noopener">the What's new in Adobe Firefly page</a>, and the audio release itself is documented on <a href="https://blog.adobe.com/en/publish/2026/08/20/adobe-firefly-expands-its-creative-ai-studio-generate-music-speech-and-sound-effects-in-one-place" target="_blank" rel="noopener">the Adobe blog post from August 20</a>. Firefly itself is at <a href="https://firefly.adobe.com" target="_blank" rel="noopener">firefly.adobe.com</a>, and there is a free tier with a daily generation allowance if you want to test the clause question below on your own account before committing a brand library to it.</p>
+
+<h2>How do you prompt Adobe Firefly so the output is usable?</h2><p>The question I see asked most about Firefly is not about features, it is how to prompt it so the result is something you can hand to a client. What works for me is to stop describing the picture and start describing the shot. Lens, camera height, where the light comes from, what the subject is doing. A prompt that says "a product on a table, nice lighting" gives you a different table every time. A prompt that says "35mm, camera at table height, single source from the left, product turned three quarters toward camera" gives you the same table and lets you change one variable at a time when the client asks. The second thing is to stop writing the look into the text once a job passes a handful of shots, and move it into a reference frame instead, because one approved frame holds across a sequence in a way that a repeated sentence never does. Custom Models is the industrial version of that same idea, which is why the clause below matters before you upload anything.</p><h2>What Custom Models Do</h2>
 <p>Brand consistency has been the hardest problem in AI-assisted production. You can generate beautiful images. You cannot reliably generate images that look like they belong to the same visual universe (same lighting logic, same color temperature, same character design, same product representation) unless you're manually prompting for every detail, every time.</p>
 <p>Custom Models changes this. You feed Adobe a set of reference images (your brand's approved visual library, your product photos, your established color palette) and it trains a model that encodes your aesthetic DNA. Every subsequent generation inherits that DNA without you having to re-specify it in the prompt.</p>
 <p>For a brand with an established visual identity, this means: consistency at scale. The 50 pieces of content per month that would otherwise require a creative director reviewing every output can now start from a model that already knows what "on-brand" looks like.</p>
 
 <h2>The Production Case for Independent Creators</h2>
 <p>The feature was previously available to enterprise accounts. Expanding access is what makes this story relevant to anyone who isn't a Fortune 500 brand team.</p>
-<p>Here's the practical scenario: I've been working with AI generation tools for a production company that needs consistent brand imagery across 40-50 deliverables per month. The current process involves detailed prompt templates, a style guide document, and manual review at every stage. It works. It's slow.</p>
+<p>The practical scenario: I've been working with AI generation tools for a production company that needs consistent brand imagery across 40-50 deliverables per month. The current process involves detailed prompt templates, a style guide document, and manual review at every stage. It works. It's slow.</p>
 <p>With Custom Models, the workflow becomes: build the model once from approved reference images, generate at volume, review exceptions rather than every output. That's a fundamentally different labor equation. The creative director's time goes toward what requires creative judgment, not what can be pattern-matched.</p>
 
 <h2>The 30 Models Question</h2>
@@ -43,7 +53,7 @@ readTime: "7 min read"
 <p>Adobe's Firefly expansion is infrastructure maturation. Not a capability breakthrough. A reliability and accessibility upgrade. Custom Models moving from enterprise-only to broader access is exactly the kind of shift that changes what small teams can produce without enterprise budgets.</p>
 <p>The creative director skill (knowing what good looks like, recognizing when an output is off-brand, making judgment calls that require taste) remains the scarce resource. The tools are becoming easier to direct well. That's a good problem to have if you have the taste to direct them.</p>
 
-<h2>How I would actually use Custom Models on a real account</h2>
+<h2>How I would use Custom Models on a real account</h2>
 <p>For a brand client at Pichorra, the first thing I would feed the model is not the brand book. It is the rejected work. The dozen frames the creative director shot down in the last campaign for being "off." That negative training set teaches the model the line a brand draws between on and off, which is more useful than the official approved-asset library, because the official library is what survives. The rejects are where the actual taste lives.</p>
 <p>Then I would feed the approved set on top. The model trained on both the floor and the ceiling produces output that holds up in client review better than a model trained only on the ceiling.</p>
 
