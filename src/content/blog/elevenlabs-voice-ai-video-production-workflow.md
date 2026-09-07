@@ -1,9 +1,9 @@
 ---
 id: "art-074"
-title: "ElevenLabs for Video: Where ADR and Dubbing Break"
-description: "ADR without the studio, dubbing that keeps the performer's voice, one shoot versioned across every language you need. Where each one holds up on paid work."
+title: "Why I Use ElevenLabs for Paid Video Work"
+description: "ADR without booking a studio, dubbing that keeps the performer's voice, one shoot versioned across 90 languages. Where each holds up and where it breaks."
 pubDate: "2026-03-15"
-updatedDate: "2026-09-01"
+updatedDate: "2026-09-07"
 category: "AI"
 tags:
   - "Workflow"
@@ -22,7 +22,7 @@ readTime: "9 min read"
 <p><em>Updated September 1, 2026. This was written on March 15, 2026, and the production arguments below held up better than the tool names did. ElevenLabs now dubs by default with a v2 model that runs fully automatic, with no pass to edit the result, while Dubbing Studio, the editable side by side version, sits in maintenance mode taking critical bug fixes only and no new feature work planned. Lip sync is still not part of dubbing, and that is the detail most people get wrong when they budget a localization job. It is a separate tool and a separate step, at ElevenLabs and everywhere else. The multilingual section below has been corrected to say so.</em></p>
 
 <h2>The Mental Model Most People Have Is Too Small</h2>
-<p>When producers hear ElevenLabs, they think voiceover. Generate a narration track, paste some text, download an MP3. That is the surface level, and it is useful. But it undersells what voice AI at this quality level actually enables in a production context.</p>
+<p>When producers hear ElevenLabs, they think voiceover. Generate a narration track, paste some text, download an MP3. That is the surface level, and it is useful. But it undersells what voice AI at this quality level enables in a production context.</p>
 <p>ElevenLabs has become one of the more practically capable tools in a video production stack, and most of the interesting use cases are ones that solve real production problems rather than just reducing the cost of a single deliverable.</p>
 
 <h2>ADR Without the Studio</h2>
@@ -44,7 +44,15 @@ readTime: "9 min read"
 <p>The differentiator from Suno and Udio is not necessarily generation quality. Those platforms have a head start and Suno in particular remains the quality benchmark for most genres. The differentiator is the licensing posture. ElevenLabs built the commercial clearance into the product architecture rather than fighting it out in court.</p>
 <p>For video producers who need both voice and music from a single platform with clear commercial terms, having Eleven Music as part of the ElevenLabs suite is convenient. It is not yet the best music generator on the market. But "commercially cleared and in the same workflow as your voice tools" is a real advantage for professional use.</p>
 
-<h2>Where the Workflow Actually Connects</h2>
+<h2>Where do you start with this?</h2>
+
+<p>Start with the piece of the chain you already pay somebody to redo, not with the one that looks most impressive in a demo. For most people making video that is ADR, because it is the one that costs a room and a day.</p>
+
+<p>Two practical notes before you open anything. Dubbing v2 is the default now and it is fully automatic, which means it is fast and it does not let you edit a line you disagree with. If you need to sit inside the take and change it, you have to select the older v1 model to reach Dubbing Studio, and ElevenLabs is blunt about the cost of that road: <strong>Dubbing Studio is in maintenance mode and receives critical bug fixes only</strong>. Plan around that rather than discovering it on a delivery day. The current documented language coverage is 90 plus.</p>
+
+<p>The pages worth having open are <a href="https://elevenlabs.io/docs/product-guides/products/dubbing" target="_blank" rel="noopener">the ElevenLabs dubbing product guide</a>, which is where the v1 and v2 difference and the maintenance note are stated, and <a href="https://elevenlabs.io/docs/product-guides/voices/voice-cloning" target="_blank" rel="noopener">the voice cloning guide</a>, which is the part I use most on paid work. Free tiers carry a watermark on dubs, so test on the free plan and price the paid one before you quote a client a multilingual version.</p>
+
+<h2>Where the Workflow Connects</h2>
 <p>The most efficient setup I have found for independent commercial video production that uses these tools:</p>
 <p>Script finalized in Claude. Narration generated in ElevenLabs using a cloned or stock voice. Music generated in Suno for atmosphere and transitions. Video generated or edited in Runway for visual sequences. Final assembly in Premiere or DaVinci.</p>
 <p>Each tool handles one clearly defined layer of the production. The handoffs between them are file exports. There is no magic integration, just deliberate workflow design. The total tooling cost for this stack is under $100/month at standard usage levels. The time from script to finished cut for a two-minute branded content piece is measured in hours, not days.</p>
