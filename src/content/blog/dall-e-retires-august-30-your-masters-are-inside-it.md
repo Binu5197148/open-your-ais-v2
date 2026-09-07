@@ -1,9 +1,9 @@
 ---
 id: "art-173"
-title: "Old DALL-E Images in ChatGPT: What Goes and What Stays"
-description: "ChatGPT switched DALL-E off on August 30, 2026. I go through what disappears, what stays, and the six step archive rule that keeps masters off one account."
+title: "DALL-E Retirement: Don't Lose Your AI Prompts"
+description: "The DALL-E GPT is off inside ChatGPT. What dies is the prompt record, not the picture, and a six step archive rule from post keeps yours alive."
 pubDate: "2026-08-24"
-updatedDate: "2026-08-30"
+updatedDate: "2026-09-07"
 toolVersion: "2026-08"
 category: "AI"
 tags:
@@ -43,7 +43,7 @@ readTime: "6 min read"
 
 <p>Everybody is filing this under platform risk. Another reminder that the tools are rented. Fair enough. But a retirement announced a month ahead, with a written date and a written instruction to go and download your work, is the most honest thing a model company will do all year.</p>
 
-<p>What should actually frighten a working person is the version with no date on it. The silent revision. The same prompt, the same settings, a different picture next month, no announcement, no changelog, no way to get the old behaviour back. That happens constantly and it never makes the news, because there is nothing to photograph. A shutdown at least has the decency to be visible.</p>
+<p>What should frighten a working person is the version with no date on it. The silent revision. The same prompt, the same settings, a different picture next month, no announcement, no changelog, no way to get the old behaviour back. That happens constantly and it never makes the news, because there is nothing to photograph. A shutdown at least has the decency to be visible.</p>
 
 <p>I have argued this from the other direction before, when <a href="/blog/sora-api-shutdown-platform-dependency-filmmakers/">the Sora API got a sunset date</a>. The dependency is not the problem. The dependency is the deal. The problem is pretending you have not made it.</p>
 
@@ -77,6 +77,8 @@ readTime: "6 min read"
 
 <p><strong>Once a quarter, try to rebuild one old image from your own notes.</strong> If you cannot, your record is incomplete and you have found out cheaply instead of expensively.</p>
 
+<p><strong>Where to check your own account.</strong> The two pages that answer this for real, rather than by rumour, are <a href="https://help.openai.com/en/articles/6825453-chatgpt-release-notes" target="_blank" rel="noopener">the ChatGPT release notes in the OpenAI Help Center</a>, which is where the retirement was posted, and <a href="https://platform.openai.com/docs/deprecations" target="_blank" rel="noopener">the OpenAI deprecations page</a>, which lists every model snapshot already pulled and the replacement named for each one. If you build on the API, the second link is the one to keep in a bookmark bar, because it is where the next date will appear before anybody writes an article about it.</p>
+
 <p>Two things make this more urgent than it looks. The first is that provenance metadata is fragile in exactly the way people assume it is not, which I went through when <a href="/blog/ai-video-watermark-rules-what-your-export-deletes/">the watermark rules went live and the first export deleted them</a>. The second is that owning the weights is becoming a real option rather than a slogan, which is the genuinely important part of <a href="/blog/ltx-2-5-multi-shot-the-model-is-making-your-cut/">the LTX 2.5 release</a>. A model on your own disk cannot be retired by a blog post.</p>
 
 <h2>Ask for more of these, not fewer</h2>
@@ -87,7 +89,7 @@ readTime: "6 min read"
 
 <p>The unreasonable thing is to keep treating a chat window as a filing cabinet and then act surprised when the building it was in gets sold.</p>
 
-<p>Your images were never really in DALL-E. They were in an account, on a service, under terms you agreed to without reading, and that was always true of every tool any of us has ever rented, including the ones I use every day and will keep using tomorrow. That is not a betrayal. It is just the shape of the arrangement.</p>
+<p>Your images were never in DALL-E. They were in an account, on a service, under terms you agreed to without reading, and that was always true of every tool any of us has ever rented, including the ones I use every day and will keep using tomorrow. That is not a betrayal. It is just the shape of the arrangement.</p>
 
 <p>The part that belongs to you is the part you carried out of the building. It always was. August 30 is only the week somebody bothered to tell you.</p>
 
