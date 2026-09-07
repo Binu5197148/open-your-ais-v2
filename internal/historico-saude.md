@@ -450,3 +450,28 @@ Comparacao com 03/09 (4 dias):
 - AdSense: **nenhuma mudanca em nenhum dos dois sites em 4 dias**. Os dois continuam em Necessaria atencao por Low value content
 
 Nota da execucao: a unica queda relevante e o axenworks, que passou 3 dias inteiros sem nenhuma visita registrada na Vercel. Nao e falha tecnica, as 20 URLs respondem 200 e a coleta responde 200; e ausencia de fonte de trafego, o mesmo diagnostico de 01/09. Do lado da busca os dois sites melhoraram: o axenworks ganhou 48 impressoes e 10 pontos de posicao media, e o openyourais ganhou 10 paginas indexadas, um clique e 2,4 pontos de posicao. O AdSense esta parado nos dois desde a reprovacao do axenworks em 02/09.
+
+## 2026-09-07
+
+Nota: a rotina nao rodou em 04, 05 e 06/09. Este e o primeiro ciclo desde 03/09.
+
+**openyourais.com**
+- integridade pos-refatoracao: travessoes em src 0, travessoes no dist 0, build passa com 128 paginas, `npm run validate` passa com 118 posts e 0 avisos
+- auditoria de frontmatter nos 118 artigos: 0 titulos acima de 60 caracteres, 0 descriptions fora de 140 a 160, 0 artigos abaixo de 800 palavras, 0 entre 800 e 830, 0 titulos duplicados, 0 descriptions duplicadas, 0 cliches em titulo, 0 rastros de pontuacao malfeita
+- URLs: as 14 obrigatorias respondem. As 9 paginas internas dao 308 para a versao com barra final e terminam em 200, que e o comportamento canonico esperado
+- home: `<html lang="en">`, title com "Open Your AIs", meta description em ingles, script AdSense ca-pub-4722208859927111 presente, zero noindex
+- ads.txt: 200, text/plain, conteudo correto
+- **defeito de host duplicado CONFIRMADO CORRIGIDO**: www.openyourais.com/blog/... agora responde 308 para o host canonico e depois 308 para a barra final, terminando em 200. O relatorio de 90 dias ainda mostra a URL www com 149 impressoes porque a janela cobre o periodo anterior a correcao de 03/09
+- impressoes 28d: **1,66 mil** (era 1,56 mil em 03/09). Cliques 28d: **10** (era 9). CTR 0,6% (igual). Posicao media **25,9** (era 28,3), melhora de 2,4 posicoes. Serie de 09/08 a 05/09 (Search Console)
+- 7 dias (30/08 a 05/09): 2 cliques, 515 impressoes, CTR 0,4%, posicao media **18,4** (Search Console)
+- 90 dias: 16 cliques, 4,19 mil impressoes, CTR 0,4%, posicao media 28 (Search Console)
+- paginas por impressao 90d: adobe-firefly-30-models 531 impressoes com CTR 0,2% e posicao 38,4; suno-commercial-rights 271 e posicao 26,9; elevenlabs-voice-ai-video-production-workflow 224 com ZERO clique e posicao 35,6; filmustage 222 e posicao 18,6; davinci-resolve-20 210 com zero clique e posicao 14,6; dall-e-retires 140 com CTR 1,4% e posicao **9,3**, a melhor posicao do site
+- consultas 7d: as quatro maiores sao todas de Firefly Custom Models (firefly custom models 23 impressoes posicao 17,6; adobe firefly custom models 21 e 20,2; firefly foundry vs firefly custom models 19 e 33,1; does adobe firefly work with multiple ai models 17 e 39,5), todas com CTR 0%
+- AdSense: estado **Necessaria atencao**, detalhes **Low value content**, ads.txt **Nao encontrado**, ultima atualizacao **21/08/2026 18:53 GMT-3**. Identico a 03/09. O "nao encontrado" e leitura velha de 21/08, nao defeito atual: o arquivo responde 200 em text/plain com o conteudo certo, exatamente como o do axenworks, que o AdSense encontrou. O AdSense nao revisita o site ha 17 dias
+- nenhuma acao manual e nenhum problema de seguranca
+
+**axenworks.com**
+- AdSense: estado **Necessaria atencao**, detalhes **Low value content**, ads.txt **Autorizado**, ultima atualizacao **02/09/2026 22:54 GMT-3**. Identico a 03/09
+- coleta completa de analytics e Search Console nao foi executada neste ciclo
+
+**Trabalho do dia**: 3 artigos antigos tratados (dall-e-retires, adobe-firefly-30-models, elevenlabs-voice-ai-video-production-workflow) e 1 artigo novo (youtube-ai-dubbing-27-languages-what-it-cannot-do). Todos com titulo vindo do vidIQ. Achado de conteudo: o artigo do DALL-E nao tinha nenhum link externo de acesso, violando a regra da entrega, e a nota de frescor do Firefly de 31/08 nao registrava o lancamento de 20/08 em que a Adobe liberou o audio do Firefly para todos.
