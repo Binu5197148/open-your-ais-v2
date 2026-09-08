@@ -86,3 +86,50 @@ Quem entrega trabalho pago sabe o problema. A nota sempre volta, e nunca e a dub
 Transmissao e uma coisa. Entrega e outra. Entrega e o que pode ser pedido para mudar.
 
 Fiz o checklist de 5 passos para decidir isso no seu canal hoje: https://openyourais.com/blog/youtube-ai-dubbing-27-languages-what-it-cannot-do/
+
+---
+
+## 08/09/2026 — entrega: a ordem barata do Genjutsu
+
+Contexto: o Higgsfield lançou o Genjutsu na primeira semana de setembro. O termo
+tem 442.544 buscas por mês com competição de só 21,5. O que o post entrega não é
+o artigo, é a ordem de cinco passos que evita pagar resolução em tomada não
+aprovada. NÃO PUBLICADO. NÃO AGENDADO. Aguardando aprovação dele.
+
+### LinkedIn
+
+Sete dólares por clipe não parece caro até você lembrar para que a ferramenta serve.
+
+O Higgsfield lançou o Genjutsu semana passada. Ele pega um vídeo que já existe e reconstrói parte dele segurando o resto: ou transfere o movimento, a câmera e o tempo para um elenco e um cenário novos, ou troca só um objeto dentro da tomada e deixa o resto intacto. Funciona com filmagem real e com material gerado.
+
+O problema é que ninguém usa isso uma vez. A promessa inteira é variação. O mesmo anúncio para quatro mercados, a mesma coreografia com três figurinos, o mesmo produto em seis locações. Quarenta variações no 1080p vira uma linha de orçamento de verdade, e ela chega antes de você saber quais variações prestam.
+
+Então eu deixei pronta a ordem que eu rodo em tier caro, a mesma que já uso no Seedance:
+
+1. Escolha o vídeo condutor antes da ideia. O Genjutsu herda o que o original faz. Câmera preguiçosa entra e sai de figurino novo.
+2. Corte a fonte para a versão mais curta que ainda lê. Você paga por duração.
+3. Decida o modo antes de juntar referência. Transferir movimento pede um mundo inteiro. Trocar objeto pede uma coisa só.
+4. Primeira passada na resolução mais baixa. Você está comprando um julgamento, e julgamento não precisa de 1080p.
+5. Só então suba. Ou re-renderiza a aprovada, ou leva a barata para upscale.
+
+Achei também uma coisa que não sei resolver: as páginas da própria Higgsfield se contradizem. A do produto diz 3 segundos e 40 imagens de referência, o blog deles diz 4 segundos e 30. Publiquei a lacuna em vez de um veredito, porque descobrir isso no envio, depois do trabalho pronto, é caro.
+
+A ordem completa, os preços por resolução e o que ele não resolve estão aqui: https://openyourais.com/blog/higgsfield-genjutsu-motion-transfer-object-swap-director-test/
+
+### X
+
+Sete dólares por clipe não parece caro até lembrar que ninguém usa Genjutsu uma vez.
+
+A ferramenta inteira é variação: o mesmo anúncio em quatro mercados, o mesmo produto em seis locações. Quarenta variações no 1080p é linha de orçamento, e chega antes de você saber quais prestam.
+
+A ordem que eu rodo em tier caro:
+
+1. Escolhe o vídeo condutor antes da ideia
+2. Corta a fonte, você paga por duração
+3. Decide o modo antes de juntar referência
+4. Primeira passada na resolução mais baixa
+5. Só então sobe, ou re-renderiza ou faz upscale
+
+Achado de brinde: as páginas da própria Higgsfield se contradizem no limite, 3s e 40 referências no produto contra 4s e 30 no blog. Testa a borda antes de planejar em cima.
+
+Preços e o passo a passo: https://openyourais.com/blog/higgsfield-genjutsu-motion-transfer-object-swap-director-test/
