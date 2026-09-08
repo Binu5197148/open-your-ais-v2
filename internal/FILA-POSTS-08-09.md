@@ -36,15 +36,24 @@ nesta ordem e nestes horarios, para nao repetir o bloco de julho:
 | Metodo Remotion | dois dias depois, 08h30 BRT |
 | Edicao 2, OpenMontage | tres dias depois, 08h30 BRT |
 
-## UMA COISA PARA ELE DECIDIR
+## OS DOIS POSTS DE X FORAM REESCRITOS EM 08/09
 
-Os dois posts do checklist de dublagem abrem com a mesma frase nos dois canais:
-"O YouTube esta dublando o seu canal agora e (provavelmente) voce nao ligou isso."
-Duas palavras trocadas de lugar, mais nada. A trava 3 da especificacao proibe
-canal repetir assunto de entrada na mesma semana. Nao reescrevi porque o texto
-ja estava aprovado por ele e a duplicacao nao e um dado desatualizado, que era o
-que ele mandou checar. Fica a decisao: publicar assim, ou reescrever a abertura
-do X antes de 10/09.
+Os pares do Remotion e da dublagem do YouTube abriam com a mesma frase nos dois
+canais. Isso quebra a trava 3 da especificacao e nao vai ao ar assim. Reescrevi
+so a versao de X dos dois, mudando a porta de entrada, e reagendei:
+
+| entrega | X entrava por | X passa a entrar por |
+|---|---|---|
+| Metodo Remotion | a mesma lista de formatos do LinkedIn | as quarenta entregas, e o que muda entre gerar e parametrizar |
+| Dublagem YouTube | a mesma frase de abertura do LinkedIn | a decisao errada, canal inteiro em vez de video a video |
+
+O LinkedIn dos dois ficou intacto. Nenhum dado mudou, so a retorica de entrada.
+
+Para isso nao depender de eu lembrar, escrevi `scripts/check-post-overlap.mjs`.
+Ele compara os dois textos de um par por sequencias de 6 palavras, ignorando URL
+e comando de instalacao (comando e carga util, tem que repetir mesmo), e falha se
+a abertura for igual ou se sobrar qualquer frase em comum. Rodar antes de agendar
+qualquer par. Os quatro pares de hoje passam.
 
 ---
 
@@ -118,15 +127,13 @@ O checklist inteiro e a divisão entre o que vale de graça e o que vale pago es
 630 caracteres.
 
 ```
-O YouTube está dublando o seu canal agora e você provavelmente não ligou isso. Liberado para todos desde fevereiro, 27 idiomas, ativado por padrão.
+Decidir dublagem automática no canal inteiro é o erro. A decisão é vídeo a vídeo.
 
-A frase que muda tudo está na documentação do Google: você não pode editar uma dublagem automática.
+O YouTube já ligou isso por você: 27 idiomas, por padrão, desde fevereiro. E a documentação do Google diz que dublagem automática não se edita.
 
-Quem entrega trabalho pago sabe o problema. A nota sempre volta, e nunca é a dublagem inteira. É a linha 14, e o cliente quer ela mudada na quinta.
+Num vídeo institucional, ótimo, deixa ligado. Numa peça que você entregou para um cliente, uma linha errada não tem conserto, e ele vai pedir o conserto que não existe.
 
-Transmissão é uma coisa. Entrega é outra. Entrega é o que pode ser pedido para mudar.
-
-Fiz o checklist de 5 passos para decidir isso no seu canal hoje: https://openyourais.com/blog/youtube-ai-dubbing-27-languages-what-it-cannot-do/
+Onde fica o botão e os 5 passos: https://openyourais.com/blog/youtube-ai-dubbing-27-languages-what-it-cannot-do/
 ```
 
 ---
@@ -163,16 +170,14 @@ O método inteiro, o que cobrar por ele e por onde começar sem perder uma seman
 541 caracteres.
 
 ```
-Campanha aprovada em um filme. Depois vem 9:16, 1:1, três idiomas e o preço trocado em seis mercados.
+Uma campanha aprovada vira quarenta entregas: formatos, mercados, idiomas, preço trocado, linha legal nova.
 
-Se a peça foi gerada por modelo, você não re-renderiza. Você regenera, e volta outro filme.
+Com modelo generativo, quarenta entregas são quarenta filmes diferentes. Com Remotion são o mesmo filme e quarenta parâmetros, porque a peça é montada por código e não sorteada.
 
-O método que eu uso, com os comandos prontos:
+12 skills oficiais colocam o agente para trabalhar dentro do projeto:
 
 npx remotion skills add
 npx remotion skills update
-
-Remotion monta vídeo a partir de código, então o frame aprovado continua o frame aprovado. Modelo generativo é caça níquel. Isso aqui é gráfica.
 
 Método completo: https://openyourais.com/blog/remotion-claude-code-video-variations-director-method/
 ```
