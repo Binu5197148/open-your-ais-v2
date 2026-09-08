@@ -37,10 +37,34 @@ Quando forem, as linhas sao estas, com a data real no lugar da planejada:
 
 ```
 | 02 | linkedin | AAAA-MM-DD | -  | -  | P2  | 245   | sim         | nenhum |
-| 02 | x        | AAAA-MM-DD | -  | -  | P6  | 707   | sim         | nenhum |
-| 03 | linkedin | AAAA-MM-DD | -  | -  | P7  | 1426  | sim         | segmentacao do leitor |
-| 03 | x        | AAAA-MM-DD | -  | -  | P9  | 178   | NAO         | nenhum |
+| 02 | x        | AAAA-MM-DD | -  | -  | P6  | 694   | sim         | nenhum |
+| 02 | x        | 2026-09-11 | -  | -  | P6  | 694   | sim         | nenhum | AGENDADO
+| 03 | linkedin | AAAA-MM-DD | -  | -  | P7  | 1426  | sim         | segmentacao do leitor | BLOQUEADO
 ```
+
+**Atualizado em 2026-09-08.** Ele aprovou a fila neste dia. O que de fato
+aconteceu, e o ledger so registra o que aconteceu:
+
+```
+| 03 | x        | 2026-09-08 | -  | -  | P9  | 178   | NAO         | nenhum |
+```
+
+Publicado as 12h47 UTC, URL confirmada 200:
+https://x.com/ulissesbalbino/status/2097305943562236369
+
+O post de X da edicao 2 ficou agendado para 2026-09-11 as 17h00 UTC, com 694
+caracteres depois da acentuacao e do desdobramento das linhas (o arquivo dizia
+707 porque contava a versao sem acento e com quebra rigida). Entra na tabela
+quando sair.
+
+**Os dois posts de LinkedIn das edicoes 2 e 3 nao sairam.** A conta 13743 esta
+com a conexao expirada no Blotato e recusou tanto publicacao imediata quanto
+agendamento, testado duas vezes em 08/09. Nao e problema de texto. Estado
+completo da fila, com os textos finais, em `internal/FILA-POSTS-08-09.md`.
+
+Consequencia para as travas, e ela e chata: a **trava 5 continua devendo o post
+de LinkedIn sem link**, e agora com uma edicao a menos de folga. O X pagou a
+dele hoje. A **trava 4 do X esta paga** com os 178 caracteres.
 
 As duas linhas da edicao 3 estao em `internal/posts-edicao-03.md`, tambem
 esperando o OK dele. Contagem feita no texto final: o LinkedIn leva a URL real

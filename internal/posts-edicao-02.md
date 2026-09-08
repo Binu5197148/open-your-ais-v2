@@ -34,9 +34,14 @@ Travas conferidas contra `internal/5ws-ledger.md`:
 
 ## LINKEDIN, portugues, formato P2 (tres linhas), 245 caracteres
 
+> **Numero atualizado em 2026-09-08, 12h41 UTC.** O post foi escrito em 31/08 com
+> 43.842 bytes. A OpenMontage recebeu push em 06/09 e o README esta em 44.402
+> bytes agora. A palavra "direitos" continua aparecendo zero vez, reconferida
+> hoje, entao a substancia do post nao mudou, so o tamanho do arquivo.
+
 A palavra "direitos" aparece zero vez no README de um sistema que monta video com material dos outros.
 
-Contei hoje: 43.842 bytes, nenhuma.
+Contei hoje: 44.402 bytes, nenhuma.
 
 As outras quatro:
 https://openyourais.com/blog/5-week-skills-02-the-readme-line-that-changes-the-answer/

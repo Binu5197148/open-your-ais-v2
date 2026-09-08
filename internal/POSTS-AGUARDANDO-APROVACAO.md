@@ -1,5 +1,12 @@
 # Posts aguardando aprovação
 
+> **Revalidado em 2026-09-08, 12h41 UTC**, antes de publicar. Dois números
+> tinham envelhecido e foram corrigidos: as skills oficiais do Remotion passaram
+> de 11 para 12 (contadas hoje em `packages/skills/skills` do repositório), e o
+> tamanho do README da OpenMontage passou de 43.842 para 44.402 bytes (o post da
+> edição 2 está em `posts-edicao-02.md`). Todo o resto foi reconferido e continua
+> verdadeiro.
+
 NÃO PUBLICADOS. Posts suspensos desde 13/08/2026. Texto pronto para ele aprovar.
 
 ## 03/09/2026, entrega: o método Remotion para as 40 variações
@@ -16,7 +23,7 @@ Escrevi o método completo que eu uso para resolver isso, com os comandos de ins
 
 A ferramenta é o Remotion. Ele monta vídeo a partir de código React, então não existe modelo nenhum decidindo o que aparece na tela. O mesmo input devolve o mesmo frame na terça e na segunda. O preço vira um parâmetro. O idioma vira um parâmetro. Você troca o dado, renderiza de novo, e cada frame que foi aprovado continua exatamente como foi aprovado.
 
-Quem dirige isso hoje é o Claude Code. São 11 skills oficiais que ensinam o agente a trabalhar dentro de um projeto Remotion, e a instalação inteira é isto:
+Quem dirige isso hoje é o Claude Code. São 12 skills oficiais que ensinam o agente a trabalhar dentro de um projeto Remotion, e a instalação inteira é isto:
 
 npx remotion skills add
 npx remotion skills update

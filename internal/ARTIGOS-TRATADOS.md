@@ -52,3 +52,20 @@ Conferir travessao no titulo do vidIQ virou parte do filtro.
 Segunda regra do dia: titulo que promete video ("Until You Watch This") nao serve
 para pagina de texto. Entra no filtro de credencial falsa, porque promete ao
 leitor uma coisa que a pagina nao tem.
+| 08/09 | 5-week-skills-03-the-file-that-actually-lands | Don't Install Claude Skills Until You Check This File | claude skills | 674.064 | ACHADO DA ETAPA 0: o artigo de ONTEM violava tres regras de uma vez. Titulo com 65 caracteres, description com 225 e o cliche banido "Actually" no titulo. Titulo do vidIQ nota 91; os de 94 e 92 descartados por conterem "actually". O slug ficou como estava, porque mudar URL publicada quebra link |
+| 08/09 | reply-ai-film-festival-venice-3000-filmmakers-craft-2026 | Why 2,990 AI Films Failed (And 10 Won) | ai short film | 340.466 | ESTADO VELHO CORRIGIDO: o artigo falava do resultado de Venice no futuro. O festival aconteceu em 06/09/26, dois dias antes, e Robert Gaudette venceu com "A Face Only A Mother Could Love"; Community Award para "Website" de Jiaze Li. Nota datada, tempos verbais corrigidos. REGRA DA ENTREGA: nao tinha NENHUM link externo, ganhou pagina oficial, pagina dos finalistas, release da Reply e um bloco de 4 perguntas antes de gerar |
+| 08/09 | grok-imagine-video-reference-control-director-read | Don't Use 7 References in Grok Imagine | grok imagine | 92.940 | mirava a variante longa "grok imagine video" (29.516) tendo a raiz com 92.940. Titulo do vidIQ nota 94. REGRA DA ENTREGA: nao tinha NENHUM link externo, ganhou a pagina de referencias da xAI e a doc da API. Estado reconferido: 7 referencias, 1080p e voice reference seguem valendo |
+| 08/09 | after-effects-26-3d-svg-motion-design-upgrades-2026 | After Effects 26: No More Cinema 4D? | after effects | 1.647.113 | artigo de marco descrevendo o 26.0. O 26.3 saiu em 18/06/26 e fechou a lacuna que o proprio texto apontava, com depth of field no Advanced 3D renderer, Mask Tracker 5x mais rapido, 2D Curl Noise e SVG colado do Illustrator. Nota datada no topo e bloco de quando ainda vale ir para 3D de verdade |
+| 08/09 | higgsfield-genjutsu-motion-transfer-object-swap-director-test | artigo NOVO | higgsfield genjutsu | 442.544 (competicao 21,5) | NOTICIA DA SEMANA na stack dele: Genjutsu saiu na primeira semana de setembro no Higgsfield, que e o hub principal dele. Termo subiu +3741% na semana com competicao de so 21,5. Achado proprio: as paginas da Higgsfield se contradizem (3s/40 referencias no produto, 4s/30 no blog) e isso foi publicado como lacuna |
+
+## Regra aprendida em 08/09
+A Etapa 0 pegou o artigo publicado ONTEM violando tres regras. A verificacao de
+titulo, description e cliche precisa rodar no artigo do dia ANTES do commit, e
+nao so no passe do dia seguinte.
+
+Segunda regra do dia: dois artigos do mesmo dia nao podem repetir a construcao do
+titulo. O vidIQ devolveu "Don't Use Higgsfield Genjutsu Until You See This" com
+nota 94, mas o titulo do Grok publicado horas antes ja era "Don't Use 7
+References in Grok Imagine". Ficou o de nota 88 que carrega a pergunta buscada
+("how to use higgsfield genjutsu"). Isto e discutivel porque a regra manda pegar
+sempre a maior nota, e esta anotado aqui para o Ulisses derrubar se quiser.
