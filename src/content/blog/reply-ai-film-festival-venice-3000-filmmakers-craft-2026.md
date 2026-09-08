@@ -1,8 +1,9 @@
 ---
 id: "art-153"
-title: "AI Short Film: What Got 10 of 3,000 Into Venice"
-description: "More than 3,000 AI shorts, ten finalists, a jury judging use instead of novelty. What those ten had that the other 2,990 did not, named without flattery."
+title: "Why 2,990 AI Films Failed (And 10 Won)"
+description: "Reply named its winner in Venice on September 6, 2026. What the ten finalists had that the other 2,990 entries did not, named without flattery."
 pubDate: "2026-07-31"
+updatedDate: "2026-09-08"
 category: "AI"
 tags:
   - "AI Filmmaking"
@@ -15,9 +16,11 @@ author: "Ulisses Balbino"
 readTime: "6 min read"
 ---
 
+<p><em>Updated September 8, 2026: this was written on July 31, when the ten finalists had been named and the result was still ahead. It is settled now. Robert Gaudette won the Reply AI Film Festival 2026 with "A Face Only A Mother Could Love" at the ceremony in Venice on September 6, during the 83rd Venice International Film Festival. Alex Naghavi and Ezra Li took second, 2xLabs took third, and the Community Award went to "Website" by Jiaze Li. The finalists and the full result are on the <a href="https://www.reply.com/en/artificial-intelligence/reply-ai-film-festival" target="_blank" rel="noopener">official festival page</a>. What follows is the argument I made before the jury spoke, and I have left it standing.</em></p>
+
 <h2>The number nobody talks about</h2>
 
-<p>On July 28, 2026, the Reply AI Film Festival announced the ten finalists of its third international edition. The competition, running under the theme "Imaginatio Nova," drew more than 3,000 short film submissions from 76 countries. The jury, chaired by Italian director Gabriele Salvatores, who won the 1992 Academy Award for Best Foreign Language Film for Mediterraneo, will name the winners in Venice on September 6, during the 83rd Venice International Film Festival.</p>
+<p>On July 28, 2026, the Reply AI Film Festival announced the ten finalists of its third international edition. The competition, running under the theme "Imaginatio Nova," drew more than 3,000 short film submissions from 76 countries. The jury, chaired by Italian director Gabriele Salvatores, who won the 1992 Academy Award for Best Foreign Language Film for Mediterraneo, named the winners in Venice on September 6, during the 83rd Venice International Film Festival.</p>
 
 <p>The press release leads with 3,000. Tech coverage leads with 3,000. The number signals scale, momentum, legitimacy. It does all of those things accurately.</p>
 
@@ -57,14 +60,35 @@ readTime: "6 min read"
 
 <p>The festival's theme, "Imaginatio Nova," frames AI as a source of new imagination. I want to push back on one word. Not imagination. Access. The imagination was always there. What changed is access. The 3,000 filmmakers who submitted did not imagine differently because they had better tools. They were finally able to try an image they had been carrying around for longer than the tools have existed.</p>
 
-<h2>What Venice will confirm in September</h2>
+<h2>What Venice confirmed in September</h2>
 
-<p>The winners of the Reply AI Film Festival will not represent the films with the most impressive generation quality. They will represent the filmmakers who had the clearest idea of what they wanted to make and were disciplined enough to make only that film, and not a demonstration of what the software can produce.</p>
+<p>The winners of the Reply AI Film Festival do not represent the films with the most impressive generation quality. They represent the filmmakers who had the clearest idea of what they wanted to make and were disciplined enough to make only that film, and not a demonstration of what the software can produce.</p>
 
 <p>The specific tools they used are less interesting than the specific questions they were answering. A tool responds to what you hand it. You can hand it a clear question or a vague one. The output will show you which.</p>
 
-<p>The jury will announce the winners in Venice. In the meantime, this is the question the 10 finalists answered that most of the 3,000 could not: not what can this software do, but what do I need it to do right now, for this story, and nothing else.</p>
+<p>The jury has announced the winners in Venice. This is the question the 10 finalists answered that most of the 3,000 could not: not what can this software do, but what do I need it to do right now, for this story, and nothing else.</p>
 
 <p>Three thousand people opened the same door. Ten walked through with something in their hands.</p>
 
 <p>The question is not whether you have access to the tools. By now, you do. The question is whether you have something worth making that the tools did not give you.</p>
+
+<h2>How do you answer that question before you generate?</h2>
+
+<p>This is the part I can hand you, because it is what I run before any paid job goes into Higgsfield, Kling or Seedance. It is four questions, and they take about ten minutes on paper. If you cannot answer all four, the generation will show it, and no amount of model quality will cover the gap.</p>
+
+<ol>
+<li><strong>What is the one thing this piece has to make someone feel?</strong> Name the feeling, not the look. "Dread" is an answer. "Cinematic" is not.</li>
+<li><strong>What is the single image that carries it?</strong> If you cannot describe one frame that would still work with the sound off, you do not have a film yet, you have a style.</li>
+<li><strong>What am I refusing to show?</strong> The finalists all had an answer here. A demonstration reel shows everything the model can do. A film withholds.</li>
+<li><strong>What would break if I changed the tool?</strong> If the answer is "nothing", the idea is doing the work and you are safe. If the answer is "the whole thing", the tool is doing the work, and that is the 2,990.</li>
+</ol>
+
+<p>The ten finalist films are on the <a href="https://challenges.reply.com/challenges/creative/aifilmfestival/home/" target="_blank" rel="noopener">Reply Challenges festival page</a>, and the full announcement of the finalists and the jury is in the <a href="https://www.reply.com/en/newsroom/news/ten-finalists-announced-for-the-reply-ai-film-festival-the-international-competition-bringing-together-cinema-and-artificial-intelligence" target="_blank" rel="noopener">Reply newsroom release</a>. Watch them with the four questions in hand. You will see each answer inside the first twenty seconds.</p>
+
+<section class="article-note note-sources">
+<h2>Sources and verification</h2>
+<p>VERIFICATION NOTE, September 8, 2026.
+The result was confirmed on September 8, 2026 against two independent sources: the official Reply AI Film Festival page, which lists Robert Gaudette first, Alex Naghavi and Ezra Li second, 2xLabs third, and "Website" by Jiaze Li as the Community Award, and press coverage of the September 6 ceremony held with Mastercard during the 83rd Venice International Film Festival.
+The finalist count, the figure of more than 3,000 submissions from 76 countries, the theme "Imaginatio Nova" and the jury chaired by Gabriele Salvatores come from the Reply newsroom release of July 28, 2026.
+The four questions in the section above are mine and are not attributed to the festival or its jury.</p>
+</section>
