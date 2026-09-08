@@ -1,7 +1,7 @@
 ---
 id: "art-182"
-title: "Claude Skills Weekly: The File That Actually Lands in Your Folder"
-description: "Five Claude skills opened and counted on September 7, including a logo animation tool whose video exporter is not mentioned once in either of its own manuals, and a font maker whose printable template has no Portuguese in it."
+title: "Don't Install Claude Skills Until You Check This File"
+description: "Five Claude skills opened repo by repo on September 7. One hides a 4K video exporter in neither manual. The file check I run before installing."
 pubDate: "2026-09-07"
 toolVersion: "2026-09"
 category: "AI"
