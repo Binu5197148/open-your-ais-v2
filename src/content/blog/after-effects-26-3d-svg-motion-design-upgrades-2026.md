@@ -1,8 +1,9 @@
 ---
 id: "art-097"
-title: "After Effects 3D Without Cinema 4D: The Round Trip Is Over"
-description: "Version 26 brings native 3D meshes and 1,300+ Substance materials at no extra cost on Creative Cloud. Here is what finally kills the C4D round trip."
+title: "After Effects 26: No More Cinema 4D?"
+description: "Native 3D meshes and 1,300+ Substance materials at no extra cost. What that finally kills in the Cinema 4D round trip, and the jobs it does not."
 pubDate: "2026-03-15"
+updatedDate: "2026-09-08"
 category: "Tools"
 tags:
   - "After Effects"
@@ -16,6 +17,8 @@ heroImage: "https://images.unsplash.com/photo-1699289644404-5bb3b9889705?ixid=M3
 author: "Ulisses Balbino"
 readTime: "7 min read"
 ---
+
+<p><em>Updated September 8, 2026: this was written in March 2026, days after After Effects 26.0 shipped. The 3D story has moved since. Version 26.3 arrived on June 18, 2026 and closed the biggest gap named below: the Advanced 3D renderer now does depth of field, with near and far blur levels and focus distance linkable to a layer in the composition. The same release made the Mask Tracker up to 5x faster, added a 2D Curl Noise effect, and added SVG paste straight from Illustrator. Read what follows as the case for native 3D, with 26.3 as the version you actually have.</em></p>
 
 <h2>3D Without Cinema 4D</h2>
 <p>For the past decade, After Effects' relationship with 3D was a workaround chain: simple 3D in AE itself, complex 3D in Cinema 4D via Cineware, Blender exports, or third-party plugins like Element 3D. Building a proper 3D product shot or architectural element in After Effects natively was not really possible. The 3D capability was functional for compositing 2D layers in 3D space but not for constructing and rendering actual 3D geometry.</p>
@@ -38,4 +41,23 @@ readTime: "7 min read"
 <h2>AI Object Mask Shared with Premiere</h2>
 <p>After Effects 26 includes the same on-device AI Object Mask that shipped in Premiere 26. Select any object or person with a click, and the mask tracks through the composition automatically. The visual effects application of this in After Effects goes further than in Premiere: isolated masks for per-element effects, compositing with precise separation between foreground and background elements, and roto work for any shot where a subject needs to be separated from its environment for visual treatment.</p>
 <p>The previous rotoscoping workflow in After Effects (Roto Brush, which required manual stroke application and correction) is substantially accelerated by the AI Object Mask. Complex subjects with detailed edges (hair, transparent elements, complex silhouettes) still benefit from human correction passes, but the starting point from a single click is much closer to final quality than previous automated approaches.</p>
+<h2>When is the C4D round trip still worth it?</h2>
+
+<p>The honest answer, and the one the launch coverage skipped: the round trip is over for the work below, and it is not over for the work above it. Here is the line I draw before quoting a job.</p>
+
+<ul>
+<li><strong>Stay in After Effects</strong> for logo builds, product reveals on simple geometry, type in space, packaging and label work, kinetic layout, and anything where the 3D exists to give a 2D idea depth. With 26.3 you now get depth of field on top of that, which was the last thing that made these shots read as fake.</li>
+<li><strong>Go to a real 3D application</strong> when you need character animation, simulated cloth or fluids, complex hard-surface modelling, a real physics pass, or an asset that has to survive being relit and re-rendered by someone else next year. None of that is what parametric meshes are for, and pretending otherwise wastes a week.</li>
+<li><strong>The test that settles it:</strong> if you can describe the object in one sentence using shapes that have names, build it in After Effects. If you cannot, you need a modeller, and you needed one before this release too.</li>
+</ul>
+
+<p>Adobe keeps the running feature list in the <a href="https://helpx.adobe.com/after-effects/using/whats-new.html" target="_blank" rel="noopener">official What's New page</a>, and the 26.3 release is broken down in detail at <a href="https://www.cgchannel.com/2026/06/adobe-releases-after-effects-26-3/" target="_blank" rel="noopener">CG Channel</a>. Check your installed version before you plan around any of this, because the depth of field described above does not exist in 26.0.</p>
+
+<section class="article-note note-sources">
+<h2>Sources and verification</h2>
+<p>VERIFICATION NOTE, September 8, 2026.
+The 26.3 details in the update note and the section above were confirmed on September 8, 2026 against two independent sources: CG Channel's release breakdown of June 2026 and Adobe's own 26.3 announcement.
+Release date confirmed as June 18, 2026. Depth of field in the Advanced 3D renderer, near and far blur levels, focus distance linkable to a layer, Mask Tracker up to 5x faster, the 2D Curl Noise effect and SVG clipboard paste from Illustrator all appear in both.
+The 26.0 figures in the body of the article, including the 1,300+ Substance 3D materials, are as verified in March 2026 and were not re-counted for this update.</p>
+</section>
 <p><em>Sources: <a href="https://blog.adobe.com/en/publish/2026/01/20/new-ai-powered-video-editing-tools-premiere-major-motion-design-upgrades-after-effects" target="_blank" rel="noopener">Adobe Blog: Major Motion Design Upgrades in After Effects</a> | <a href="https://www.redsharknews.com/adobe-premiere-26-after-effects-26-features" target="_blank" rel="noopener">RedShark News: After Effects 26 Features</a> | <a href="https://www.newsshooter.com/2026/01/22/whats-new-in-adobe-after-effects-26-0/" target="_blank" rel="noopener">Newsshooter: What's New in After Effects 26.0</a></em></p>
