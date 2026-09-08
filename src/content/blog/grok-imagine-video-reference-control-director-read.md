@@ -1,8 +1,9 @@
 ---
 id: "art-159"
-title: "Grok Imagine Video: When 7 References Are the Wrong Call"
-description: "Grok Imagine Video locks up to seven references per shot. I direct commercials, and I can tell you what each lock buys and the shot it quietly kills."
+title: "Don't Use 7 References in Grok Imagine"
+description: "Grok Imagine locks up to seven references per shot. I direct commercials, and I can tell you what each lock buys and the shot it quietly kills."
 pubDate: "2026-08-08"
+updatedDate: "2026-09-08"
 toolVersion: "2026-08"
 category: "AI"
 tags:
@@ -68,7 +69,23 @@ readTime: "6 min read"
 
 <p>That is not a small thing to hold onto. It is the whole job.</p>
 
+<h2>So how many references should you actually lock?</h2>
+
+<p>Here is the rule I use on paid work, and it is not the one the feature list implies. Start at the bottom of this list and only climb when the shot forces you to.</p>
+
+<ul>
+<li><strong>One reference, the face.</strong> This is where most commercial work lives. Lock the person, let the model find the room. You will get options you did not think of, and one of them is usually better than your plan.</li>
+<li><strong>Two, face and location.</strong> Use this when the space carries story weight and continuity across shots matters. This is the highest setting I reach for on most jobs.</li>
+<li><strong>Three, add the object.</strong> The product, the prop, the thing the ad is actually about. Beyond this point you are no longer directing, you are assembling.</li>
+<li><strong>Five to seven.</strong> Reserve these for the shot you have already failed to get twice, where you know exactly what has to be in frame and you have stopped wanting to be surprised. That is a real situation and it happens. It is just not the normal one.</li>
+</ul>
+
+<p>The feature is genuinely well built and I am not telling you to avoid it. I am telling you that the number of locks is a creative decision, not a quality setting, and the interface will not tell you that. Reaching for seven every time is the same instinct as lighting every corner of a set because you have the lamps.</p>
+
+<p>The current model, its reference behaviour and its pricing are documented on <a href="https://x.ai/news/grok-imagine-video-1-5-references" target="_blank" rel="noopener">xAI's own reference announcement</a>, and the API parameters are in the <a href="https://docs.x.ai/developers/model-capabilities/imagine" target="_blank" rel="noopener">Imagine API documentation</a>. Read the parameter list before you plan the shoot, not after.</p>
+
 <section class="article-note note-sources">
 <h2>Sources and verification</h2>
 <p>Facts verified August 8, 2026. Core update (up to seven image references, voice cloning, native 1080p, broader availability) confirmed independently by: TechTimes (August 2, 2026, "Grok Imagine Video Update Adds 1080p, Voice Cloning, and Seven-Reference Scene Control"); CryptoBriefing ("Grok Imagine upgrades bring voice consistency, native 1080p video, and multi-reference support to xAI's creative toolkit"); TestingCatalog ("xAI adds character references and 1080p to Imagine Video 1.5"); AIBase News ("xAI upgrades Imagine Video 1.5: New Image and Voice Reference Features, and Native 1080p Video Generation"). Base model Imagine Video 1.5 launched June 2026; multi-reference/1080p rollout confirmed as August 1, 2026. Access via SuperGrok Heavy/Plus and xAI API (grok-imagine-video-1.5 model).</p>
+<p>RECHECKED September 8, 2026. The seven-reference system, native 1080p and voice reference are still the current state and were reconfirmed against xAI's own reference page on this date. Since publication xAI has also shipped changes on the image side, not the video side: image editing now accepts up to five source images (was three), the quality parameter defaults to auto, and 21:9 and 5:2 aspect ratios were added. Nothing in the argument above has been superseded.</p>
 </section>
