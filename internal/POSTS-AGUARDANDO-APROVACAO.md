@@ -89,7 +89,7 @@ Fiz o checklist de 5 passos para decidir isso no seu canal hoje: https://openyou
 
 ---
 
-## 08/09/2026 — entrega: a ordem barata do Genjutsu
+## 08/09/2026, entrega: a ordem barata do Genjutsu
 
 Contexto: o Higgsfield lançou o Genjutsu na primeira semana de setembro. O termo
 tem 442.544 buscas por mês com competição de só 21,5. O que o post entrega não é
