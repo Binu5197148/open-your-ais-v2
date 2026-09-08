@@ -475,3 +475,38 @@ Nota: a rotina nao rodou em 04, 05 e 06/09. Este e o primeiro ciclo desde 03/09.
 - coleta completa de analytics e Search Console nao foi executada neste ciclo
 
 **Trabalho do dia**: 3 artigos antigos tratados (dall-e-retires, adobe-firefly-30-models, elevenlabs-voice-ai-video-production-workflow) e 1 artigo novo (youtube-ai-dubbing-27-languages-what-it-cannot-do). Todos com titulo vindo do vidIQ. Achado de conteudo: o artigo do DALL-E nao tinha nenhum link externo de acesso, violando a regra da entrega, e a nota de frescor do Firefly de 31/08 nao registrava o lancamento de 20/08 em que a Adobe liberou o audio do Firefly para todos.
+
+## 2026-09-08
+
+**openyourais.com**
+- tecnico: sem bloqueio. Home 17043 bytes em 206ms, robots liberando, sitemap-index com 125 URLs, 30 testadas todas 200, canonical coerente, paginas legais no ar, ads.txt e llms.txt presentes (site-health.mjs)
+- coleta viva: tag G-EBZ4F0ZXRY presente na home, 1 ocorrencia (curl)
+- GA4 28 dias (11/08 a 07/09): **893 sessoes**. Direct 855 (95,74%, tempo medio de interacao 3s, taxa 5,38%), Organic Search 22, Referral 13, Organic Social 3, Unassigned 1. Utilizadores ativos 28d **878** (+30,1%) (GA4)
+- GA4 7 dias (01/09 a 07/09): **256 sessoes**. Direct 251 (98,05%, tempo medio de interacao **0s**, taxa 2,39%), Organic Search 2, Referral 2, Unassigned 1 (GA4)
+- **trafego que parece humano: 38 sessoes em 28 dias e 4 sessoes em 7 dias.** Todo o resto e Direct de sessao curtissima. Card de paises da pagina inicial (periodo nao rotulado, soma de 246 utilizadores, compativel com a janela de 7 dias): Singapura 205, EUA 28, China 4, Alemanha 3, Brasil 2, Canada 2, Hong Kong 2 (GA4)
+- Search Console 28d (10/08 a 06/09): **10 cliques, 1,68 mil impressoes**, CTR 0,6%, posicao media **25**. Painel atualizado ha 5,5 horas
+- principais consultas 28d: claude gauntlet loop 1 clique e 4 impressoes, ai production workflows 0 e 33 (Search Console)
+- indexacao: **114 indexadas, 125 nao indexadas**, ultima atualizacao 03/09. Motivos: pagina com redirecionamento 80, rastreada e nao indexada 17, nao encontrado 404 10, erro de redirecionamento 1 (Search Console)
+- sitemaps: sitemap-index.xml sucesso, 122 descobertas, ultima leitura **07/09**. sitemap-0.xml sucesso, 122 descobertas, ultima leitura 03/09 (Search Console)
+- acoes manuais: nenhuma. Seguranca: nenhuma (Search Console)
+- AdSense: **Necessaria atencao**, Low value content, ads.txt **Nao encontrado**, ultima atualizacao **21/08/2026 18:53 GMT-3**. Identico a 03/09 e 07/09 (painel AdSense)
+
+**axenworks.com**
+- tecnico: sem bloqueio. Home 39927 bytes em 564ms, robots liberando, sitemap com 20 URLs, todas 200, canonical coerente, paginas legais no ar, ads.txt e llms.txt presentes (site-health.mjs)
+- coleta viva: /_vercel/insights/script.js responde 200 (curl)
+- Vercel 7 dias (01/09 a 08/09): **visitantes 5** (o painel marca -44%), **page views 27** (+80%), bounce rate 60% (-18%)
+- **Referrers: sem dados no periodo.** Nenhuma visita veio de linkedin.com nem de x.com (Vercel)
+- paginas mais vistas 7d: / com 4, /how-many-hours-of-video-can-64gb-hold 2, /video-bitrate-calculator 2, /about 1, /braw-file-size-calculator 1, /contact 1, /gopro-recording-time-calculator 1. Paises: Brasil 60%, EUA 40%. Dispositivos: mobile 60% (Vercel)
+- Search Console 28d (21/08 a 06/09): **0 cliques, 251 impressoes**, CTR 0%, posicao media **49,6**. A curva diaria vem caindo: pico proximo de 40 impressoes em 28/08 e cerca de 3 em 06/09
+- consultas 28d: red komodo recording time calculator 2 impressoes, blackmagic data calculator 1 (Search Console)
+- indexacao: **20 indexadas, 21 nao indexadas**, ultima atualizacao 03/09. Motivos: detetada e nao indexada 14, pagina alternativa com canonica correta 6, excluida por noindex 1 (Search Console)
+- sitemap: sitemap.xml sucesso, 20 descobertas, ultima leitura **06/09** (Search Console)
+- acoes manuais: nenhuma. Seguranca: nenhuma (Search Console)
+- AdSense: **Necessaria atencao**, Low value content, ads.txt **Autorizado**, ultima atualizacao **02/09/2026 22:54 GMT-3**. Identico a 03/09 e 07/09 (painel AdSense)
+
+Comparacao com 07/09 (openyourais) e com 03/09 (axenworks, que nao teve coleta completa em 07/09):
+- openyourais: impressoes 28d 1,66 mil para **1,68 mil**, cliques 10 para 10, posicao media 25,9 para **25**, indexadas 114 para 114, nao indexadas 125 para 125. Sessoes 7d 237 (03/09) para **256**, quase toda a alta em Direct. Humano 7d 3 para 4, humano 28d 39 para 38
+- axenworks: visitantes 7d 3 para **5**, page views 6 para **27**, impressoes 28d 246 para **251**, cliques 0 para 0, posicao media 50,3 para **49,6**, indexadas 20 para 20
+- AdSense: **nenhuma mudanca em nenhum dos dois sites**. openyourais parado ha 18 dias, axenworks ha 6 dias
+
+Nota da execucao: sem bloqueio tecnico e sem acao manual em nenhum dos dois. O unico sinal negativo real e a curva de impressoes do axenworks, que caiu de cerca de 40 por dia em 28/08 para cerca de 3 por dia em 06/09, com o total de 28 dias ainda subindo so porque a janela carrega o pico antigo. O site esta na semana 3 desde o lancamento, entao impressao existe e clique zero ainda esta dentro da fase; o que nao esta normal e a queda diaria. Do lado do trafego, o axenworks voltou a receber visita depois de 3 dias em zero, mas sem nenhum referrer identificado, ou seja, nao veio de post em rede social.
