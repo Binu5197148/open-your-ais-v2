@@ -81,3 +81,21 @@ o de maior nota (Claude Skills, 97) e o outro caiu para a proxima opcao valida.
 Vale registrar que isso ja aconteceu duas vezes seguidas: o vidIQ tende a
 repetir formato dentro da mesma sessao, entao a checagem de repeticao precisa
 ser feita olhando os titulos escolhidos no dia, nao so o historico.
+| 09/09 | adobe-firefly-30-models-what-it-means-for-independent-creators | (titulo mantido) | does adobe firefly work with multiple ai models | 233 impressoes reais no Search Console, posicao 45,2, CTR 0% | PRIMEIRO TRATAMENTO GUIADO POR DADO REAL DO SEARCH CONSOLE. A consulta e uma pergunta do tipo "does X work with Y" com 233 impressoes e zero clique, e o artigo nao a respondia de forma direta. Aplicada a regra da Etapa 2b: H2 no formato exato da pergunta, com a resposta na primeira frase. Catalogo atualizado na fonte oficial da Adobe: Nano Banana, Nano Banana Pro e Nano Banana 2, GPT Image e GPT Image 1.5, FLUX.2 e Kontext, Imagen, Ideogram 3.0, Runway Gen-4 Image, Kling 2.5 Turbo e 3.0, Ray da Luma e Gemini Omni Flash. O artigo citava so tres modelos. Titulo NAO mudou porque o problema aqui e posicao (45), nao CTR |
+
+## Achados do Search Console em 09/09, primeira leitura com acesso
+Numeros de 3 meses: 16 cliques, 4.250 impressoes, CTR 0,4%, posicao media 27,8.
+
+Prioridade 1 do plano (posicao 5 a 15 com CTR baixo), ainda nao tratados:
+- davinci-resolve-20-ai-features-production-workflow-breakdown: posicao 14,6 com
+  211 impressoes e 0% de clique. E o melhor alvo do site hoje.
+- filmustage-ai-script-breakdown: posicao 18,6 com 223 impressoes e 0%.
+- consulta "midjourney v7 update february 27 2026 news": posicao 11,2 com 66
+  impressoes e 0%.
+
+Consulta com mais impressao do site inteiro: "controllable ai director", 262
+impressoes na posicao 59,3. O site ranqueia para isso e esta enterrado.
+
+Host duplicado www: aparece com 144 impressoes no historico, mas o defeito ja
+esta corrigido. Hoje www responde 308 para o apex e o canonical esta certo.
+Aquelas impressoes sao anteriores a correcao de 03/09.
