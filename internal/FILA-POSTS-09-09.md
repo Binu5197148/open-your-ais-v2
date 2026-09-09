@@ -38,10 +38,19 @@ porque o arquivo original estava sem acento e ia para o feed assim.
 
 ## O post do Toninho Sagatiba, e o que autorizou cada linha
 
-O plano interno dele dizia "Nao publique nada do Toninho Sagatiba, esta em
-producao". **Ele derrubou essa regra em 09/09**, por escrito, e definiu o
-limite: o teaser pode ir a publico, pode falar um pouco do processo, e o post
-tem que levar a pessoa para a pagina.
+**Correcao de 09/09, feita depois que ele leu o relatorio.** Eu tinha escrito
+aqui que ele "derrubou a propria regra" ao autorizar este post. Isso estava
+errado e virou registro falso, entao fica corrigido no lugar em que foi escrito.
+
+A regra do plano interno, "Nao publique nada do Toninho Sagatiba, esta em
+producao", trata de **nao soltar o filme**. O piloto e que nao sai, porque
+publicar em plataforma aberta queima a janela de ineditismo em festival.
+Ela nunca proibiu falar da producao. Nas palavras dele: a producao existe, tem
+site, e tem que falar. Nao houve excecao aberta nem regra quebrada, houve uma
+leitura errada minha do escopo dela.
+
+Vale para as proximas edicoes: projeto em producao com pagina publica e assunto,
+nao segredo. O que fica fora do ar e a obra, ate o festival liberar.
 
 Todo dado do post foi lido em `toninhosagatiba.com` em 09/09, entre 13h35 e
 13h40 UTC, com o site respondendo 200. Nada saiu de memoria:
