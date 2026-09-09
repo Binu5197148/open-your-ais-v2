@@ -510,3 +510,39 @@ Comparacao com 07/09 (openyourais) e com 03/09 (axenworks, que nao teve coleta c
 - AdSense: **nenhuma mudanca em nenhum dos dois sites**. openyourais parado ha 18 dias, axenworks ha 6 dias
 
 Nota da execucao: sem bloqueio tecnico e sem acao manual em nenhum dos dois. O unico sinal negativo real e a curva de impressoes do axenworks, que caiu de cerca de 40 por dia em 28/08 para cerca de 3 por dia em 06/09, com o total de 28 dias ainda subindo so porque a janela carrega o pico antigo. O site esta na semana 3 desde o lancamento, entao impressao existe e clique zero ainda esta dentro da fase; o que nao esta normal e a queda diaria. Do lado do trafego, o axenworks voltou a receber visita depois de 3 dias em zero, mas sem nenhum referrer identificado, ou seja, nao veio de post em rede social.
+
+## 2026-09-09
+
+**openyourais.com**
+- tecnico: sem bloqueio. Home 16952 bytes em 792ms, robots liberando, sitemap-index com 126 URLs, 30 testadas todas 200, canonical coerente, paginas legais no ar, ads.txt e llms.txt presentes (site-health.mjs)
+- coleta viva: tag G-EBZ4F0ZXRY presente na home, 1 ocorrencia (curl)
+- GA4 28 dias (12/08 a 08/09): **910 sessoes**. Direct 872 (95,82%, tempo medio de interacao 3s, taxa 5,05%), Organic Search 21 (33s, 42,86%), Referral 15 (25s, 20%), Organic Social 2, Unassigned 1. Utilizadores ativos 28d **893** (+29,2%) (GA4)
+- GA4 7 dias (02/09 a 08/09): **271 sessoes**. Direct 264 (97,42%, tempo medio de interacao **0s**, taxa 2,65%), Referral 4, Organic Search 2, Unassigned 1 (GA4)
+- **trafego que parece humano: 38 sessoes em 28 dias e 6 sessoes em 7 dias.** Todo o resto e Direct de sessao curtissima. Card de paises da pagina inicial (periodo nao rotulado): Singapura 216, EUA 30, China 5, Alemanha 3, Brasil 2, Canada 2, Hong Kong 2 (GA4)
+- Search Console 28d (10/08 a 06/09): **10 cliques, 1,68 mil impressoes**, CTR 0,6%, posicao media **25**. Numeros identicos aos de 08/09, a janela de dados nao avancou um dia apesar do painel dizer atualizado ha 5,5 horas
+- principais consultas 28d: claude gauntlet loop 1 clique e 4 impressoes, ai production workflows 0 e 33 (Search Console)
+- indexacao: **114 indexadas, 125 nao indexadas**, ultima atualizacao 03/09, sem mudanca. Motivos: pagina com redirecionamento 80, rastreada e nao indexada 17, nao encontrado 404 10 (validacao Falha), erro de redirecionamento 1 (Search Console)
+- sitemaps: sitemap-index.xml sucesso, **126 descobertas** (era 122), ultima leitura 07/09. sitemap-0.xml sucesso, **126 descobertas** (era 122), ultima leitura **08/09** (Search Console)
+- acoes manuais: nenhuma. Seguranca: nenhuma (Search Console)
+- AdSense: **Necessaria atencao**, Low value content, ads.txt **Nao encontrado**, ultima atualizacao **21/08/2026 18:53 GMT-3**. Identico desde 03/09 (painel AdSense)
+
+**axenworks.com**
+- tecnico: sem bloqueio. Home 39927 bytes em 523ms, robots liberando, sitemap com 20 URLs, todas 200, canonical coerente, paginas legais no ar, ads.txt e llms.txt presentes (site-health.mjs)
+- coleta viva: /_vercel/insights/script.js responde 200 (curl)
+- Vercel 7 dias (02/09 a 09/09): **visitantes 4** (o painel marca -56%), **page views 26** (+73%), bounce rate 50% (-28%)
+- **Referrers: sem dados no periodo.** Nenhuma visita veio de linkedin.com nem de x.com (Vercel)
+- paginas mais vistas 7d: / com 3, /how-many-hours-of-video-can-64gb-hold 2, /video-bitrate-calculator 2, /about 1, /braw-file-size-calculator 1, /contact 1, /gopro-recording-time-calculator 1. Paises: Brasil 75%, EUA 25%. Dispositivos: desktop 50%, mobile 50% (Vercel)
+- Search Console 28d (21/08 a 06/09): **0 cliques, 251 impressoes**, CTR 0%, posicao media **49,6**. Numeros identicos aos de 08/09, a janela de dados nao avancou. Curva diaria segue caindo: pico proximo de 40 em 28/08, cerca de 3 em 05/09, pequena alta em 06/09
+- consultas 28d: red komodo recording time calculator 2 impressoes, blackmagic data calculator 1 (Search Console)
+- indexacao: **20 indexadas, 21 nao indexadas**, ultima atualizacao 03/09, sem mudanca. Motivos: detetada e nao indexada 14, pagina alternativa com canonica correta 6, excluida por noindex 1 (Search Console)
+- sitemap: sitemap.xml sucesso, 20 descobertas, ultima leitura 06/09 (Search Console)
+- acoes manuais: nenhuma. Seguranca: nenhuma (Search Console)
+- AdSense: **Necessaria atencao**, Low value content, ads.txt **Nao encontrado** (em 08/09 estava **Autorizado**), ultima atualizacao **02/09/2026 22:54 GMT-3**, mesma data de antes (painel AdSense)
+- verificacao do ads.txt no ar: https://axenworks.com/ads.txt e https://www.axenworks.com/ads.txt respondem **200** com a linha correta `google.com, pub-4722208859927111, DIRECT, f08c47fec0942fa0`. O arquivo esta certo, quem regrediu foi a leitura do Google (curl)
+
+Comparacao com 08/09:
+- openyourais: sessoes 28d 893 para **910**, sessoes 7d 256 para **271** (quase toda a alta em Direct), humano 7d 4 para **6**, humano 28d 38 para 38. Cliques, impressoes, posicao e indexacao sem mudanca. Sitemap subiu de 122 para 126 URLs descobertas
+- axenworks: visitantes 7d 5 para **4**, page views 27 para **26**, bounce 60% para 50%. Cliques, impressoes, posicao e indexacao sem mudanca
+- **A unica mudanca de estado do dia: o ads.txt do axenworks caiu de Autorizado para Nao encontrado no painel do AdSense**, mesmo com o arquivo servindo 200 e com a linha correta nos dois hosts
+
+Nota da execucao: o arquivo da rotina ainda diz que o axenworks esta "Em preparacao, em analise". O painel diz outra coisa desde 02/09 e diz de novo hoje: **Necessaria atencao, Low value content**. Os dois sites estao no mesmo estado de reprovacao. Nada foi submetido nem pedido nesta execucao.
