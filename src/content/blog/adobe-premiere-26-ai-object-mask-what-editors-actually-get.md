@@ -1,8 +1,9 @@
 ---
 id: "art-087"
-title: "Adobe Premiere AI: Rotoscoping in One Click, On Device"
-description: "Object Mask tracks any subject from a single click, on device, and the roto pass that used to eat an hour becomes a review. No extra cost on your plan."
+title: "Premiere Pro AI: Finally, A Real Workflow Upgrade"
+description: "Object Mask tracks a subject from one click, on device, at no extra cost. Plus the beta tools Adobe just showed for the timeline at IBC 2026."
 pubDate: "2026-03-15"
+updatedDate: "2026-09-09"
 category: "Tools"
 tags:
   - "Workflow"
@@ -39,4 +40,15 @@ readTime: "8 min read"
 <h2>What This Costs and Who Gets It</h2>
 <p>Object Mask, shape mask improvements, and the third-party AI integrations are included with existing Premiere subscriptions at no additional cost. Generative Extend uses Firefly generative credits, the same credit system used across Adobe's suite. If you're on Creative Cloud with Firefly credits included, you already have access. Subscribers who have been paying for Premiere Pro are now on Premiere 26 as part of their current subscription.</p>
 <p>The practical implication: if you haven't updated your Premiere installation recently, the Object Mask feature is already available to you. A five-minute update retrieves the capability that changes the rotoscoping economics for your next project.</p>
+<h2>What Adobe Showed This Week at IBC</h2>
+<p>Updated 9 September 2026. Everything above describes what shipped in January and still ships today. This week Adobe put the next round on the table, ahead of IBC in Amsterdam, which runs from 11 to 14 September. Read this section knowing one thing: all of it is beta, and Adobe gave no shipping dates.</p>
+<p>Three things are worth an editor's attention.</p>
+<p>The first is a generative media tool that works inside the timeline. You select a gap, describe what belongs there, and Premiere generates a clip, a sound effect or music meant to fit the context of the surrounding edit. Generative Extend, covered above, stretches a shot you already have. This one fills a hole you never covered.</p>
+<p>The second is audio separation. Premiere gets dialogue cleanup plus the ability to break a clip into its parts, speech, reverb, music and effects, as separate elements. Anyone who has tried to save a location recording with a music bed bleeding under the dialogue knows what that is worth.</p>
+<p>The third is the one I would actually queue for, and it is called Separate Crosstalk. It takes two people talking over each other on one recording and splits them onto independent tracks. If you cut interviews or documentary, that is the problem that eats hours and usually ends in a compromise nobody is happy with.</p>
+<h2>Should You Wait for Any of It?</h2>
+<p>No, and the reason is in the word beta. Adobe announced no dates, and features shown at a trade show have a habit of arriving late and arriving different. Plan the jobs on your calendar with the tools that exist today, which for rotoscoping means Object Mask, and it is genuinely good.</p>
+<p>What the announcement does tell you is where the roadmap points. Adobe is aiming at the parts of post that consume time without producing craft: the roto pass, the audio repair, the missing shot. That is the right target. The parts that decide whether the piece is any good, what to cut, what to hold, where the scene turns, are not on the list, and I have not seen a release note yet that suggests they will be.</p>
+<p>Adobe's own release notes are the only reliable place to check whether a beta has shipped: <a href="https://helpx.adobe.com/premiere/desktop/whats-new/whats-new.html" target="_blank" rel="noopener">What's new in Adobe Premiere on desktop</a>. Coverage of the IBC announcements is at <a href="https://www.provideocoalition.com/adobe-video-ibc-2026-announcements/" target="_blank" rel="noopener">ProVideo Coalition</a> and <a href="https://www.tvtechnology.com/production/adobe-to-feature-new-ai-powered-features-for-premiere-after-effects-at-ibc2026" target="_blank" rel="noopener">TV Tech</a>.</p>
+
 <p><em>Sources: <a href="https://blog.adobe.com/en/publish/2026/01/20/new-ai-powered-video-editing-tools-premiere-major-motion-design-upgrades-after-effects" target="_blank" rel="noopener">Adobe Blog: New AI-powered video editing tools in Premiere</a> | <a href="https://petapixel.com/2026/01/20/rebranded-adobe-premiere-26-arrives-with-one-click-object-tracking/" target="_blank" rel="noopener">PetaPixel, Premiere 26: One-Click Object Tracking</a> | <a href="https://www.redsharknews.com/adobe-premiere-26-after-effects-26-features" target="_blank" rel="noopener">RedShark News: Premiere 26 and After Effects 26 Features</a></em></p>
