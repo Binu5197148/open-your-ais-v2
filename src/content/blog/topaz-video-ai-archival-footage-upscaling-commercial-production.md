@@ -1,9 +1,9 @@
 ---
 id: "art-090"
-title: "Topaz Video AI: When Old Footage Has to Cut With 4K"
-description: "Restoration or enhancement, Aion for frame rate, and the cases where it fails. The settings that put 2008 handycam material beside a 4K master."
+title: "Topaz Video AI: Is It Worth the $299 Subscription?"
+description: "The app is now called Topaz Video and sells by subscription only. Which model to pick, the batch workflow, and where it still fails on old tape."
 pubDate: "2026-03-15"
-updatedDate: "2026-08-22"
+updatedDate: "2026-09-09"
 category: "Tools"
 tags:
   - "Topaz Video AI"
@@ -17,12 +17,14 @@ author: "Ulisses Balbino"
 readTime: "8 min read"
 ---
 
+<p><em>Updated 9 September 2026. Two things changed since this was first published, and both cost money. Topaz dropped the "AI" from the product name, so what you download today is called Topaz Video. And the buy-it-once perpetual license is gone for new buyers. It is a subscription now. Everything below about models, settings and where the thing fails still holds.</em></p>
+
 <h2>The Archival Footage Problem Is Older Than AI</h2>
 <p>Every producer has been in this situation at least once. A client wants to include archival footage in a brand film: founders at the company's first office, early product footage, a milestone event from ten years ago. The footage exists. The resolution is 720p on a good day, often interlaced, sometimes transferred from tape with field-order problems. It needs to appear alongside 4K production footage in a coherent edit.</p>
 <p>Before AI upscaling, the solutions were: accept the footage as stylistically different (sometimes works, often feels like a quality step-down), do a film grain overlay to visually unify resolutions (a workaround, not a solution), or reshoot the story with contemporary footage (expensive, often impossible). Most of the time, the archival footage got used anyway and the quality disparity was managed with editing choices that minimized its screen time.</p>
 <p>Topaz Video AI changed this math, and its 2026 model lineup represents the matured version of that change.</p>
 
-<h2>What Topaz Video AI Actually Does</h2>
+<h2>What Topaz Video Does to a Frame</h2>
 <p>Topaz Video AI is a standalone application and plugin for Premiere, Final Cut, and Resolve that applies AI enhancement to existing video footage. The AI models are trained to analyze low-resolution frames and reconstruct detail that was lost or never fully captured, filling in what the original footage should have shown based on the visual context of each scene.</p>
 <p>The key distinction in the 2026 lineup is between restoration and enhancement. Restoration models ask: "What did this originally look like?" They attempt to recover detail that was present in the source but compressed, degraded by interlacing, affected by noise, or softened by the camera's sensor limitations. Enhancement models ask: "What could this look like at higher resolution while preserving the original's visual identity?" The distinction matters for commercial work because a client's archival footage often needs to be recognized as authentic. You can't hallucinate detail that changes the visual record of real events.</p>
 
@@ -44,4 +46,21 @@ readTime: "8 min read"
 <h2>Where It Doesn't Work</h2>
 <p>Topaz Video AI is not a solution for every archival footage problem. Extremely degraded tape transfers with significant signal corruption (dropout artifacts, color bleed, sync damage) produce inconsistent results because the restoration model is working from source data that doesn't have a coherent reference for what the scene should look like. Footage shot with a very narrow depth of field where focus is critically soft produces mixed results depending on the model and settings. And footage that is historically significant in ways where any alteration of the visual record would be inappropriate should be presented as-is, regardless of the technical capability to upscale.</p>
 <p>For the standard commercial production archival case (brand history footage, event documentation, early product shots) it works well and the quality improvement is substantial enough to change editorial decisions about how much archival material to include.</p>
+<h2>Is It Worth $299 a Year?</h2>
+<p>That is the number that matters now, because the one-time purchase is no longer on the table for new buyers. As of today the plans read like this: $299 for a year paid upfront, $39 a month if you take the annual plan and pay monthly, or $59 a month with no commitment. There are Pro tiers above that. Check the current numbers yourself before you buy, because this is the part of the product that has moved most.</p>
+<p>My honest answer depends on one question: do you generate footage, or only receive it?</p>
+<p>If archival work lands on your desk twice a year, take the month at $59, run the job, cancel. That is what the monthly plan is for and there is no shame in using it that way.</p>
+<p>If you generate video with AI, the math is different and it favors the subscription. I render at 720p on purpose, because the 1080p tier of the model I use is expensive enough to change what a project costs, and then I bring the frames up afterwards. The upscale is not a rescue in that workflow, it is a budget decision made at the start. Used that way the subscription pays for itself inside one job.</p>
+<p>What you are renting, concretely, is the model library. Locally you get Starlight Precise, Proteus, Iris, Nyx, Rhea and Rhea XL, Artemis, Gaia, Theia, Apollo, Chronos, Aion, Themis, plus SDR to HDR and stabilization. There are cloud models too, Starlight Mini, Sharp, HQ and Fast, which matter when your machine is the bottleneck rather than the footage.</p>
+<h2>Before You Pay, Run This</h2>
+<p>Four steps, in this order. They take an afternoon and they answer the question better than any review.</p>
+<ol>
+<li>Pull the worst clip in the batch, not the best one. The best clip always upscales well and tells you nothing.</li>
+<li>Run it through the trial twice, once on a restoration model and once on enhancement, and cut both against your 4K master on a real timeline.</li>
+<li>Watch it on the delivery screen, not your grading monitor. Social compression forgives things a broadcast master will not.</li>
+<li>Check the file size before you commit the drive. Upscaling multiplies footage weight, and that cost arrives after you have already said yes.</li>
+</ol>
+<p>If step two already looks acceptable at 720p, you did not need the subscription and you just saved $299.</p>
+<p>Plans and the current model list: <a href="https://www.topazlabs.com/topaz-video" target="_blank" rel="noopener">Topaz Video, official page</a>. If the file size question is the one biting you, I keep a <a href="https://axenworks.com/prores-file-size-calculator/" target="_blank" rel="noopener">ProRes file size calculator</a> that answers it before the render, not after.</p>
+
 <p><em>Sources: <a href="https://www.topazlabs.com/topaz-video" target="_blank" rel="noopener">Topaz Labs, Topaz Video AI</a> | <a href="https://chasejarvis.com/blog/topaz-vs-magnific-best-ai-image-scaler/" target="_blank" rel="noopener">Chase Jarvis, Topaz vs Magnific: Which Is a Better AI Upscaler?</a> | <a href="https://curiousrefuge.com/blog/best-ai-image-upscalers-for-2026" target="_blank" rel="noopener">Curious Refuge, Best AI Image Upscalers for 2026</a></em></p>
