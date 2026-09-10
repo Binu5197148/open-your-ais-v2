@@ -1,8 +1,9 @@
 ---
 id: "art-096"
-title: "AI Video Prompting: Your Prompt Is a Shot List"
-description: "Eight control layers the models respond to, translated into the language a director uses to brief a DP: subject, optics, lighting, motion, continuity."
+title: "The Secret to Directing AI"
+description: "Most AI filmmaking prompts fail because nobody directed them. Eight control layers, written in the language you would use to brief a cinematographer."
 pubDate: "2026-03-15"
+updatedDate: "2026-09-10"
 category: "AI"
 tags:
   - "Workflow"
@@ -39,6 +40,20 @@ featured: true
 <p>One of the non-obvious insights from working with current AI video models: prompts for video should be shorter than image prompts but technically denser. Fewer words, higher precision. A 150-word prompt with eight specific technical parameters outperforms a 400-word descriptive paragraph that covers the same ground in narrative prose.</p>
 <p>Structure the prompt as a shot list entry rather than a description. Shot number, subject action, camera setup, lighting condition, audio. The more it reads like professional production documentation and the less it reads like a creative brief to a marketing team, the better the output typically is.</p>
 <p>The iterative workflow that works: start with a short, high-precision prompt that establishes the technical parameters. Generate three or four variations. Identify which technical element is producing the most useful result and which is producing the most unwanted variation. Adjust the underperforming element with more specific direction. One parameter change at a time, not a complete prompt rewrite.</p>
+
+<h2>The AI Filmmaking Prompt Template</h2>
+<p>Copy this, fill it in, delete nothing. The empty slots are the point: every line you leave blank is a decision the model makes for you, and it will make the average one.</p>
+<pre><code>SUBJECT: who or what, and what they are doing
+PERFORMANCE: the emotional state, played not stated
+OPTICS: lens length, aperture feel, distance to subject
+MOTION: camera move, speed, and what motivates it
+LIGHT: key source, direction, quality, time of day
+STYLE: stock, era, grain, palette
+AUDIO: room tone, specific sounds, dialogue or none
+CONTINUITY: what must match the previous shot, verbatim</code></pre>
+<p>The last line does the heavy lifting across a sequence and it is the one everybody skips. Continuity is not a description, it is a copy and paste job. Whatever text described the wardrobe, the location and the light in shot one goes into shot two unchanged, word for word. Rewrite it in your own words and the model reads it as a new instruction and gives you a new room.</p>
+<p>Two habits that save more time than any prompt trick. Write the shot list before you open the tool, because a prompt written in the generation window is a wish and a prompt written in a document is a brief. And generate at low resolution until the sequence cuts, because the shot that looks best alone is usually not the shot the edit needs.</p>
+<p>Google publishes the most useful vendor guide on this, the <a href="https://cloud.google.com/blog/products/ai-machine-learning/ultimate-prompting-guide-for-veo-3-1" target="_blank" rel="noopener">Veo prompting guide</a>, and the vocabulary in it transfers to every other model. If you want the still image version of the same discipline, I wrote about <a href="/blog/midjourney-v7-commercial-concept-boards-visual-development-directors-guide/">prompting Midjourney with reference images</a>, and about <a href="/blog/seedance-2-0-bytedance-ai-video-capabilities-copyright-controversy/">why I generate at 720p and upscale afterwards</a>.</p>
 
 <h2>What This Means for Directors</h2>
 <p>The directorial skill that translates most directly to AI video work is the ability to describe a vision in technical language rather than aesthetic language. Directors who have always given their DPs specific technical briefs ("I want a 100mm lens at f/2 for this shot, motivated backlight from camera left, foreground out of focus") are better positioned to get high-quality AI video output than those who have worked primarily in conceptual and aesthetic language.</p>
