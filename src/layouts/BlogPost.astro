@@ -20,6 +20,10 @@ const {
   slug,
 } = Astro.props;
 
+// Serve this site's own cover assets from the local server during authoring.
+const displayHeroImage = import.meta.env.DEV && heroImage?.startsWith('https://openyourais.com/')
+  ? heroImage.replace('https://openyourais.com', '') : heroImage;
+
 const all = (await getCollection('blog', ({ data }) => !data.noindex))
   .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 
@@ -95,7 +99,7 @@ const latestHref = all[0] ? `/blog/${all[0].id}/` : '/blog/';
 
       {heroImage && (
         <div class="post-head__hero">
-          <img class="post-head__img parallax-up" src={heroImage} alt={title} loading="eager" />
+          <img class="post-head__img parallax-up" src={displayHeroImage} alt={title} loading="eager" />
           <div class="post-head__caption">
             <span class="mono"><span class="n">Fig. 01</span></span>
             <span class="mono" style="color:var(--c-fg-muted)">{title}</span>
