@@ -12,8 +12,9 @@
     "preview": "astro preview",
     "astro": "astro",
     "validate": "node scripts/validate-content.mjs",
-    "postbuild": "node scripts/verify-indexability.mjs",
-    "verify:indexability": "node scripts/verify-indexability.mjs"
+    "postbuild": "node scripts/verify-indexability.mjs && node scripts/write-deployment-marker.mjs",
+    "verify:indexability": "node scripts/verify-indexability.mjs",
+    "indexnow": "node scripts/indexnow.mjs"
   },
   "dependencies": {
     "@astrojs/mdx": "^5.0.3",

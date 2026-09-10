@@ -1,0 +1,32 @@
+name: Notify search engines after publication
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: indexnow-production
+  cancel-in-progress: false
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Wait for production and notify IndexNow
+        env:
+          INDEXNOW_EXPECTED_SHA: ${{ github.sha }}
+          INDEXNOW_BEFORE: ${{ github.event.before }}
+          EVENT_NAME: ${{ github.event_name }}
+        run: |
+          if [ "$EVENT_NAME" = "workflow_dispatch" ]; then
+            node scripts/indexnow.mjs --all
+          else
+            node scripts/indexnow.mjs
+          fi

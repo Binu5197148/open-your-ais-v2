@@ -114,3 +114,11 @@ Workflow articles (articles that mention specific tools, models, or pipelines) g
 - A model or release analysis is not a hands-on test. State its scope near the beginning. Do not invent budgets, test runs, client results or images of tests. Link factual claims to sources the reader can open; a verification comment or assertion is not evidence by itself.
 - The 800-word threshold is an internal editorial convention, not a Google requirement or proof of original value.
 - Article ad units are optional and use `PUBLIC_ADSENSE_ARTICLE_SLOT` only after a real unit is configured. Never reinsert `1234567890`. The account verification script and ads.txt remain in place.
+
+## Search notifications (2026-09-10)
+
+- GitHub Actions runs IndexNow after pushes to main. It waits for the production commit marker before submission; preview builds never notify search engines.
+- Article changes notify the affected URLs and their archive/home pages. Global page or template changes notify the live sitemap. Deleted article URLs are retained in notifications. Documentation-only changes do not resubmit content.
+- `npm run indexnow -- --all` submits the live sitemap manually; `--dry-run` inspects a batch without sending it. The workflow can also be manually dispatched.
+- `public/indexnow-key.txt` is a public domain-ownership proof, not a login credential. Keep it available at the root. HTTP 200/202 means receipt, not guaranteed indexing.
+- Failures are visible in GitHub Actions and can be retried there. A failed or superseded deployment must never be submitted as if it were live.
