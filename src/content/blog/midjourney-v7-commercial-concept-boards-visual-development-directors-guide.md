@@ -1,8 +1,9 @@
 ---
 id: "art-094"
-title: "Midjourney for Pitch Decks: How I Build Concept Boards"
-description: "The winning treatment is the one the client can see. How generated concept boards replace Pinterest moodboards in a commercial pitch, step by step."
+title: "Midjourney for Pitch Decks: Ditch Pinterest"
+description: "How to prompt Midjourney with a reference image and build a concept board a client can approve, instead of assembling one more Pinterest moodboard."
 pubDate: "2026-03-15"
+updatedDate: "2026-09-10"
 category: "Tools"
 tags:
   - "Workflow"
@@ -31,6 +32,20 @@ readTime: "8 min read"
 <p>My current pitch workflow for a commercial brief: after reading the brief and developing the creative concept, I use Midjourney V7 to generate the specific scenes I'm proposing, not stock-adjacent imagery that approximates the idea, but images generated from prompts that describe the exact visual language I'm pitching. Specific talent direction (not real people, but the aesthetic type), specific location or environment, specific lighting condition, specific color temperature.</p>
 <p>The prompt engineering is part of the creative work. Describing a scene with enough precision to get the image you've envisioned requires the same specificity of language that a good shot list demands. "Warm 5600K backlight, product in frame left, shallow depth of field, urban industrial environment, late afternoon practical light through windows" is both a Midjourney prompt and a DP brief. Working through what you actually want forces the conceptual clarity that makes pitches stronger regardless of the tool used to visualize them.</p>
 <p>The generated images go directly into the treatment. Not as "AI-generated references" but as specific visual direction for the campaign. Clients see a coherent visual world (the same lighting aesthetic across multiple shots, the same color temperature, the same tonal register) because I generated it from a consistent set of prompts rather than assembling it from disparate stock sources.</p>
+
+<h2>How Do You Prompt Midjourney With an Image?</h2>
+<p>You paste the image URL at the front of the prompt, before any words. That is the whole mechanic, and it is the step that separates a concept board from a folder of nice pictures. The words describe what you want. The image describes the register you want it in.</p>
+<p>The distinction matters more than it sounds. A written prompt asks the model to invent a look. An image reference asks it to stay inside a look you have already chosen. On a pitch, you have already chosen. The client bought a treatment, not a lottery.</p>
+<p>Here is the structure I paste, in this order, every time:</p>
+<pre><code>[reference image url] [second reference url]
+subject and action, in one plain sentence
+environment and time of day
+light source and direction
+lens and framing
+--ar 16:9 --sref [style reference url] --sw 100</code></pre>
+<p>Two things earn their place there. The <code>--sref</code> flag points at a style reference and carries the palette and grain without dragging in the content of that image, which is what you want when the reference is somebody else's commercial. The <code>--sw</code> value sets how hard it pulls. I start at 100 and drop toward 50 when the board starts looking like the reference instead of like the idea.</p>
+<p>The moodboard question people ask next is whether you can feed several images at once. You can, and it averages them. That is useful for a palette and actively harmful for a look. Two references that disagree produce a compromise nobody pitched. I use one image for the look, one for the palette, and nothing else.</p>
+<p>The official flag documentation is at <a href="https://docs.midjourney.com/" target="_blank" rel="noopener">docs.midjourney.com</a>, and it is worth reading the parameter list once rather than copying prompts from social posts. If you want the video side of the same argument, I wrote about <a href="/blog/ai-video-prompting-cinematography-director-guide-2026/">prompting as shot listing</a>.</p>
 
 <h2>What It Can't Replace and Shouldn't Try To</h2>
 <p>Midjourney V7 generates images. It doesn't understand production. There is no camera direction in the prompt system that corresponds to an actual lens decision. "85mm f/1.4 portrait" produces an approximation of that look, not a technically accurate representation of what that lens does. For clients with sophisticated production teams who will review the treatment technically, the images set a visual direction but cannot serve as a DP spec.</p>
