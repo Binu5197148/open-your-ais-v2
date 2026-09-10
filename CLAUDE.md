@@ -103,3 +103,14 @@ Workflow articles (articles that mention specific tools, models, or pipelines) g
 - **Craft lens**: cinema, photography, theater, Tarkovsky, Benjamin
 
 **FORBIDDEN**: invented budgets, crew sizes, shoot durations, or years tied to a named client. LA. Stand-up comedy.
+
+
+## Publication integrity (2026-09-10)
+
+- In this project, `noindex: true` marks an article withdrawn from publication. Its route, sitemap entry, RSS item and internal links must all be absent. Do not restore one without a substantive factual review.
+- `npm run build` includes `verify-indexability.mjs`. Fix failures before a deploy; do not bypass this gate. It checks actual output, canonical URLs, editorial sitemap dates, internal links and withdrawn routes. Passing it does not prove editorial quality or AdSense eligibility.
+- Redirect an old URL only to a genuinely equivalent replacement. Removed unrelated content returns 404 with navigation; never restore catch-all redirects to `/blog/` to make the Search Console counter look better.
+- Sitemap lastmod uses actual pubDate/updatedDate, never the build date. Preserve original publication dates.
+- A model or release analysis is not a hands-on test. State its scope near the beginning. Do not invent budgets, test runs, client results or images of tests. Link factual claims to sources the reader can open; a verification comment or assertion is not evidence by itself.
+- The 800-word threshold is an internal editorial convention, not a Google requirement or proof of original value.
+- Article ad units are optional and use `PUBLIC_ADSENSE_ARTICLE_SLOT` only after a real unit is configured. Never reinsert `1234567890`. The account verification script and ads.txt remain in place.

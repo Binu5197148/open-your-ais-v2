@@ -18,22 +18,52 @@ const numberById = new Map<string, number>();
 ---
 
 <BaseLayout
-  title="Tools & Reviews"
-  description="Hands-on reviews of AI tools for filmmakers, editors, and creators, with no affiliate links."
+  title="AI Tools for Film: Guides, Reviews and Release Notes"
+  description="Choose AI tools by production task: camera prompts, controlled workflows, editing and video variations. Practical guides alongside clearly scoped release analysis."
   latestHref={latestHref}
 >
   <header class="container ab-head">
     <p class="mono" style="color:var(--c-accent)">§ · Tools</p>
     <h1 class="ab-title" data-reveal="split">
       <span class="split-line">Tools,</span>
-      <span class="split-line" style="--reveal-delay: 80ms"><em>tested</em></span>
-      <span class="split-line" style="--reveal-delay: 160ms">on set.</span>
+      <span class="split-line" style="--reveal-delay: 80ms"><em>for the</em></span>
+      <span class="split-line" style="--reveal-delay: 160ms">next shot.</span>
     </h1>
     <p class="ct-dek" data-reveal style="--reveal-delay: 350ms; max-width: 48ch">
-      Hands-on notes on AI tools I've actually put through production work. No
-      affiliate links unless disclosed. {toolReviews.length} {toolReviews.length === 1 ? 'review' : 'reviews'}.
+      Choose a tool by the job it has to do. These dispatches include practical
+      workflows, release analysis and opinion. An analysis of a new feature
+      is not a production test; check the scope in each article.
+      {toolReviews.length} recent dispatches are listed below.
     </p>
   </header>
+
+  <section class="container tool-paths" aria-labelledby="tool-paths-title">
+    <h2 id="tool-paths-title">Start with the production problem.</h2>
+    <div class="tool-paths__grid">
+      <div>
+        <h3>Describe and plan the shot</h3>
+        <p>A camera instruction and a scene description solve different problems. Start with
+          <a href="/blog/cinematography-vocabulary-ai-video-prompts-director-guide/">camera movement, focus and lighting vocabulary</a>.
+          For staging before generation, read the
+          <a href="/blog/blender-mcp-claude-blockout-previs-director-workflow/">Blender blockout analysis</a>.</p>
+      </div>
+      <div>
+        <h3>Control the workflow</h3>
+        <p>Choose how much of the process you need to expose. The
+          <a href="/blog/comfyui-app-mode-comfyhub-local-ai-without-node-graph/">ComfyUI App Mode guide</a>
+          looks at working with prepared workflows. The
+          <a href="/blog/higgsfield-cinema-studio-2-whats-next-content-scoring/">Higgsfield Content Scoring analysis</a>
+          asks what a score can tell you after a shot is made.</p>
+      </div>
+      <div>
+        <h3>Edit and deliver variations</h3>
+        <p>Generating an image does not settle where the cut belongs. Read
+          <a href="/blog/ai-video-editing-where-the-argument-gets-made/">the division between automated editing tasks and take selection</a>,
+          then the <a href="/blog/remotion-claude-code-video-variations-director-method/">Remotion guide to repeatable video variants</a>.
+          For completed work, visit the <a href="/cases/">project cases</a>.</p>
+      </div>
+    </div>
+  </section>
 
   <section class="container idx-list" style="margin-top: var(--s-9)">
     <ol class="idx-rows" style="border-top: 1px solid var(--c-rule)">
@@ -73,4 +103,14 @@ const numberById = new Map<string, number>();
   .idx-list .arow:first-child { border-top: 0; }
   .idx-list .arow:hover { background: color-mix(in oklab, var(--c-fg) 4%, transparent); padding-left: 12px; padding-right: 12px; }
   .idx-list .arow:hover .arow__title { color: var(--c-accent); }
+</style>
+
+<style>
+  .tool-paths { margin-top: var(--s-8, 64px); }
+  .tool-paths h2 { font-family: var(--font-serif); font-size: clamp(26px, 3vw, 40px); font-weight: 400; margin-bottom: 24px; }
+  .tool-paths__grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr)); gap: 32px; }
+  .tool-paths__grid > div { border-top: 1px solid var(--c-rule); padding-top: 18px; }
+  .tool-paths h3 { font-family: var(--font-serif); font-size: 22px; font-weight: 400; margin-bottom: 12px; }
+  .tool-paths p { color: var(--c-fg-muted); line-height: 1.65; }
+  .tool-paths a { color: var(--c-fg); text-decoration: underline; text-underline-offset: 3px; }
 </style>

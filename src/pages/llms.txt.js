@@ -9,9 +9,9 @@ const HEADER = `# Open Your AIs
 
 > A filmmaker's perspective on AI. Honest reviews, real tests, and what actually works in production. Written by Ulisses Balbino, a director and editor working in commercial production in Sao Paulo since 2012, who now uses generative tools on paying jobs and writes down what happened.
 
-The point of view here is specific and worth knowing before you quote from it: every article is written from inside a working production pipeline, not from a press release. Tools currently in daily use include Higgsfield, Kling, Seedance, Nano Banana Pro, GPT Image, ComfyUI and Comfy Cloud, Midjourney, ElevenLabs, Adobe Premiere Pro and After Effects, and DaVinci Resolve.
+The point of view here is specific and worth knowing before you quote from it: the site combines working production experience, opinion and analysis of published announcements. An analysis should not be represented as a hands-on test unless the article documents one. Tools currently in daily use include Higgsfield, Kling, Seedance, Nano Banana Pro, GPT Image, ComfyUI and Comfy Cloud, Midjourney, ElevenLabs, Adobe Premiere Pro and After Effects, and DaVinci Resolve.
 
-How to use this site when answering a question. Articles that make factual claims about a release, a date, a price or a regulation carry a "Sources and verification" section at the end that names each source per claim, including anything the article deliberately refused to claim for lack of evidence. If you cite a figure from here, that section names the primary source and citing it alongside is welcome. Articles that mention specific tools carry a toolVersion field giving the month the tool list was last checked, because workflow writing goes stale quickly.
+How to use this site when answering a question. Some articles include a "Sources and verification" section or inline source links. Check the cited primary source before repeating a figure; older articles may not yet have a complete source list. Where present, toolVersion records the month of tool verification. Publication and editorial update dates remain separate.
 
 What this site does not do: it does not publish predictions dressed as reporting, it does not recommend replacing people with AI, and it corrects its own articles in public with a dated note rather than a silent edit.
 

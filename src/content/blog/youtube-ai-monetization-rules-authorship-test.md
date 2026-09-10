@@ -30,7 +30,7 @@ readTime: "6 min read"
 
 <p>What is new is the direction of the test. The old machinery decided which human, among several, deserved the credit. YouTube's version asks a colder question: was there an author at all? The platform is not choosing between claimants. It is checking for a pulse. That is a genuinely new kind of gate, and it exists because AI made it possible, for the first time, to produce unlimited video with nobody home.</p>
 
-<p>Google is running the same audit on the search side, where <a href="/blog/ai-content-flood-google-search-2026/">the flood of AI content has forced ranking systems to hunt for evidence of a person</a>. The feed and the search box arrived at the same problem from different doors.</p>
+<p>Google also addresses <a href="https://developers.google.com/search/docs/essentials/spam-policies#scaled-content">scaled content abuse in its Search spam policies</a>. Those policies concern large amounts of unoriginal content created primarily to manipulate rankings, regardless of how it is produced. Search and YouTube have different rules; the comparison here is editorial, not a claim that they run the same review.</p>
 
 <h2>Can AI videos still be monetized on YouTube?</h2>
 

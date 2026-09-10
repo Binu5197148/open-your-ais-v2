@@ -20,6 +20,8 @@ featured: true
 
 <p>Two things came out of that. The first is that Genjutsu does something genuinely different from the motion tools I already use. The second is that its own pages do not agree with each other about what it accepts, and the price per clip is high enough that the difference matters before you start, not after.</p>
 
+<p><strong>Scope:</strong> This is an analysis of Higgsfield's published documentation and pricing, with a proposed workflow adapted from existing practice. Genjutsu had not been used on a paid job before publication; this article does not report a production benchmark.</p>
+
 <h2>What Genjutsu does to a shot</h2>
 
 <p>It takes a video you already have and rebuilds part of it while holding the rest. There are two modes and they are opposite ends of the same idea.</p>

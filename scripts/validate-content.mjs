@@ -3,7 +3,7 @@
 // Schema (Astro Zod) covers required fields. This script covers what schema cannot:
 //   - duplicate hero images across posts (kills the "art mural" effect)
 //   - HTML entities accidentally pasted into Markdown prose (&apos; &quot;)
-//   - thin content (<800 visible words → AdSense / E-E-A-T risk)
+//   - editorial length floor (<800 visible words; not a Google requirement)
 //   - accidental <pre> blocks (4+ leading spaces inside body)
 // Single-file mode: `node scripts/validate-content.mjs path/to/post.md`
 // All-files mode:  `node scripts/validate-content.mjs` (scans src/content/blog/*.md)
@@ -71,7 +71,7 @@ function checkSinglePost(post, heroIndex) {
   // Visible word count (post-tag strip)
   const words = visibleWordCount(body);
   if (words < MIN_VISIBLE_WORDS) {
-    errors.push(`thin content: ${words} visible words (minimum ${MIN_VISIBLE_WORDS}) — AdSense / E-E-A-T risk`);
+    errors.push(`thin content: ${words} visible words (minimum ${MIN_VISIBLE_WORDS}) — site editorial standard, not a Google requirement`);
   }
 
   // Accidental <pre> blocks (Astro turns 4+ leading spaces into <pre>)

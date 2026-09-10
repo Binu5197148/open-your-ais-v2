@@ -28,7 +28,7 @@ readTime: "8 min read"
 
 <p>I am not citing a study here, and I am not going to invent a percentage. I am describing a habit I watched change in myself, and then in everybody around me. The informational blog post is not dying because Google punished it. It is dying because the thing it was for now happens somewhere else, in a window that has no link in it.</p>
 
-<p>I wrote about the flood of machine written pages back when <a href="/blog/ai-content-flood-google-search-2026/">Google moved against it</a>, and about <a href="/blog/perplexity-vs-google-search-2026/">what replaced my own research habit</a>. Both of those were about quality. This is a different problem, and quality does not solve it. A brilliant page that answers a question is still a page that answers a question, and the answer now arrives without it.</p>
+<p>I wrote about the flood of machine written pages back when <a href="https://developers.google.com/search/docs/essentials/spam-policies#scaled-content">Google addressed scaled content abuse in its spam policies</a>, and about <a href="/blog/perplexity-vs-google-search-2026/">what replaced my own research habit</a>. Both of those were about quality. This is a different problem, and quality does not solve it. A brilliant page that answers a question is still a page that answers a question, and the answer now arrives without it.</p>
 
 <h2>The thing a model will not do for you</h2>
 

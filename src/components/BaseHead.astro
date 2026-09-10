@@ -122,11 +122,11 @@ const jsonLd = article
 <!-- Design tokens + editorial styles -->
 <link rel="stylesheet" href="/shared/tokens.css" />
 
-<!-- Google AdSense -->
-<script
+<!-- Keep account verification on published pages; never load ads on error pages. -->
+{!noindex && <script
   async
   src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_CLIENT}`}
-  crossorigin="anonymous"></script>
+  crossorigin="anonymous"></script>}
 
 <!-- Google Analytics -->
 <script async src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`}></script>
