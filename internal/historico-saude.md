@@ -546,3 +546,21 @@ Comparacao com 08/09:
 - **A unica mudanca de estado do dia: o ads.txt do axenworks caiu de Autorizado para Nao encontrado no painel do AdSense**, mesmo com o arquivo servindo 200 e com a linha correta nos dois hosts
 
 Nota da execucao: o arquivo da rotina ainda diz que o axenworks esta "Em preparacao, em analise". O painel diz outra coisa desde 02/09 e diz de novo hoje: **Necessaria atencao, Low value content**. Os dois sites estao no mesmo estado de reprovacao. Nada foi submetido nem pedido nesta execucao.
+
+## 2026-09-10
+
+**BLOQUEIO DE MEDICAO: o Claude in Chrome nao conectou nesta execucao.** Cinco tentativas, todas com "extension isn't reachable". Sem ele nao ha como ler GA4, Search Console, painel do AdSense nem o painel do Vercel, que sao contas logadas. Nenhum numero dessas quatro fontes foi coletado hoje, e por isso nenhum foi escrito aqui. Tentativa alternativa pela API do Vercel via MCP: `get_web_analytics` respondeu 404 "Web Analytics not found" tanto por slug quanto por project id (prj_FeYfIYhY3m5n4a8wWSXMKMAPwLJf), entao a API tambem nao serviu de substituto.
+
+**openyourais.com**
+- tecnico: sem bloqueio. Home 16972 bytes em 91ms, robots liberando, sitemap-index com **127 URLs** (era 126), 30 testadas todas 200, canonical coerente, paginas legais no ar, ads.txt e llms.txt presentes (site-health.mjs)
+- coleta viva: tag G-EBZ4F0ZXRY presente na home, 1 ocorrencia (curl)
+- ads.txt no ar: apex 200 com a linha correta; www responde 308 para o apex, que responde 200 (curl)
+- GA4, Search Console e AdSense: **nao lidos hoje**, Chrome fora do ar
+
+**axenworks.com**
+- tecnico: sem bloqueio. Home 39927 bytes em 1062ms, robots liberando, sitemap com 20 URLs, todas 200, canonical coerente, paginas legais no ar, ads.txt e llms.txt presentes (site-health.mjs)
+- coleta viva: /_vercel/insights/script.js responde 200 (curl)
+- ads.txt no ar: apex 200 com a linha correta `google.com, pub-4722208859927111, DIRECT, f08c47fec0942fa0`; www responde 308 para o apex, que responde 200. Ontem o www respondia 200 direto, hoje redireciona, o que e comportamento normal de host canonico e nao muda o conteudo servido (curl)
+- Vercel, Search Console e AdSense: **nao lidos hoje**, Chrome fora do ar
+
+Comparacao com 09/09: so da para comparar a parte tecnica, e ela nao mudou em nenhum dos dois, fora o sitemap do openyourais que subiu de 126 para 127 URLs. Trafego, indexacao e estado de aprovacao ficaram sem medicao.

@@ -49,3 +49,48 @@ Nao e reclamacao. E aviso para nao comprar no placar dos outros.
 O metodo de 5 passos que eu rodo quando sai modelo novo, e que custa uma tarde em vez de um projeto:
 
 https://openyourais.com/blog/gpt-6-astra-benchmarks-creative-director-review/
+
+## 10/09/2026 - entrega do dia: a folha de historia, preenchida antes de gerar um frame
+Artigo: https://openyourais.com/blog/ai-storytelling-video-story-first-method-director/
+
+### LinkedIn
+
+Procura vídeo de storytelling com IA e você já viu todos eles.
+
+Uma figura sozinha andando na chuva. Uma cidade acesa. Uma voz falando de destino em cima de um pad de cordas. A geração está limpa, a luz está correta, e não acontece nada.
+
+O modelo não é o problema. Eu gero no Seedance e no Kling quase todo dia útil, e a falha está sempre antes do render. Ideia preguiçosa devolve espetáculo que já foi visto um milhão de vezes, porque é exatamente isso que a máquina foi treinada para devolver. Dê a ela uma história genérica e ela devolve a média de todas as histórias genéricas que ela viu. Não é defeito. É a máquina fazendo o que foi pedido.
+
+História precisa de alguém que quer uma coisa e não pode ter. Esse é o mecanismo inteiro, e é mais velho que o cinema.
+
+Então escrevi a folha que eu preencho antes de abrir qualquer ferramenta. Ela é para copiar:
+
+QUER: quem quer o quê, concreto. Não paz nem liberdade. Uma porta aberta, uma carta respondida, uma dívida paga.
+OBSTÁCULO: o que impede, com cara ou pelo menos com forma.
+CUSTO: o que a pessoa entrega para conseguir.
+VIRADA: o momento em que não dá mais para voltar.
+ÚLTIMA IMAGEM: o que o fim mostra que o começo não podia mostrar.
+DESCRIÇÕES TRAVADAS: personagem, figurino, locação e luz escritos uma vez e colados iguais em todo plano.
+
+O último bloco é o chato e é o que decide se a sequência corta. Reescreveu com outras palavras no plano quatro, o modelo lê como ordem nova e te devolve outra pessoa em outra sala. Consistência não é configuração. É disciplina de copiar e colar.
+
+E tem uma inversão que economiza mais que qualquer ajuste de prompt: gere o último plano primeiro. Se o fim não sustenta, nada antes dele importa, e você acabou de não pagar para construir estrada até um lugar que não valia nada.
+
+Dirigi um manifesto em stop motion para a Forno de Minas com o Estúdio Fue, feito um quadro por vez. Stop motion ensina uma coisa que serve direto aqui: quando cada quadro custa uma decisão física, você para de filmar o que não justificou. A geração deixou o quadro de graça, e quadro de graça deixou todo mundo relaxado. Essa disciplina tem que ser recolocada na mão.
+
+A folha inteira, mais a ordem de geração que eu sigo:
+https://openyourais.com/blog/ai-storytelling-video-story-first-method-director/
+
+### X
+
+Procura vídeo de storytelling com IA e você já viu todos eles. Uma figura na chuva, uma cidade acesa, uma voz falando de destino.
+
+A geração está limpa e não acontece nada.
+
+O modelo não é o problema. Ideia preguiçosa devolve a média de tudo que a máquina já viu.
+
+História é alguém que quer uma coisa e não pode ter. O resto é decoração.
+
+A folha que eu preencho antes de gerar um frame, e a inversão que mais economiza: gerar o último plano primeiro.
+
+https://openyourais.com/blog/ai-storytelling-video-story-first-method-director/

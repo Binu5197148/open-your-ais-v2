@@ -99,3 +99,20 @@ impressoes na posicao 59,3. O site ranqueia para isso e esta enterrado.
 Host duplicado www: aparece com 144 impressoes no historico, mas o defeito ja
 esta corrigido. Hoje www responde 308 para o apex e o canonical esta certo.
 Aquelas impressoes sao anteriores a correcao de 03/09.
+| 10/09 | seedance-2-0-bytedance-ai-video-capabilities-copyright-controversy | Why I Still Use Seedance 2.0 | seedance 2.5 | 3.125.668 (vs 404.669 do "seedance 2.0", que caiu 56,1%) | ESTADO SUPERADO E CONTRADICAO COM A STACK. O artigo de marco dizia "don't try to access it now and don't use it for any commercial work" e chamava a restricao geografica de academica, sendo que o Seedance 2.0 e o cavalo de batalha dele no Higgsfield. Nota datada no topo. Titulo do vidIQ nota 94. Descartei "The Seedance 2.5 Scam: Don't Fall For It" (94) porque "scam" afirma fraude que o artigo nao prova, e "The Seedance 2.5 Trap: What You Need To Know" (94) por repetir a construcao "What You Need to Know" usada em 09/09. REGRA DA ENTREGA: ganhou o H2 com a pergunta mais buscada ("how to use seedance 2.5 for free", 95.503, +215%), a resposta honesta (nao da), a rotina de 5 passos que ele roda, e links para Higgsfield e ByteDance |
+| 10/09 | midjourney-v7-commercial-concept-boards-visual-development-directors-guide | Midjourney for Pitch Decks: Ditch Pinterest | how to prompt midjourney with an image | 13.979 com competicao de so 6,2, a melhor oportunidade da lista | Search Console de 09/09 marcava a consulta "midjourney v7 update february 27 2026 news" em posicao 11,2 com 66 impressoes e 0% de clique, prioridade 1 do plano. O artigo nao respondia a pergunta de melhor oportunidade. Ganhou H2 no formato da pergunta, o bloco colavel de estrutura de prompt com --sref e --sw, e a doc oficial. Titulo do vidIQ nota 85; descartei os de 91 e 87 por serem quase identicos ao titulo que ja estava no ar, o que nao move CTR nenhum, e por comecarem com "I" igual ao titulo do Seedance escolhido hoje |
+| 10/09 | ai-video-prompting-cinematography-director-guide-2026 | The Secret to Directing AI | ai filmmaking | 379.161 (vs 4.099 de "ai video prompting", que era o alvo antigo) | ERRO DE RAIZ, 92x. Mirava um termo de 4 mil tendo a raiz com 379 mil, exatamente o caso do Kling descrito no plano. Titulo do vidIQ nota 81; descartei "Unlocking AI's Creative Potential" (74) pelo cliche banido "Unlock". REGRA DA ENTREGA: ganhou o template de 8 camadas colavel e 2 links internos |
+| 10/09 | ai-storytelling-video-story-first-method-director | artigo NOVO | ai storytelling | 164.392 com competicao de 29,2 | METODO, nao ferramenta, porque o WebSearch estava fora do ar hoje e nenhuma noticia passaria na regra das 2 fontes. Buraco de demanda puro: 164 mil buscas e o site nao tinha nenhuma pagina de storytelling. Pergunta alvo "how to make ai storytelling videos" cresceu 240%. Titulo do vidIQ nota 76; descartei tres de nota 83, sendo "The Secret to Unique AI Stories" por repetir a construcao usada hoje no artigo do prompting, e "AI Video Creation Made Easy" porque o texto argumenta o contrario e o corpo tem que pagar a promessa do titulo. Ancora biografica: Forno de Minas em stop motion com o Estudio Fue, que esta na lista verificada |
+
+## Regra aprendida em 10/09
+Artigo listado como "nao tratado" numa leitura de Search Console de 3 meses pode ja
+ter sido tratado dias antes. Os dois alvos de prioridade 1 anotados em 09/09
+(davinci em posicao 14,6 e filmustage em 18,6) tinham sido tratados em 02/09 e
+01/09. A janela de 3 meses do relatorio mostra a posicao velha. Antes de tratar um
+alvo vindo do Search Console, cruzar com este ledger primeiro, senao se gasta a
+cota diaria mexendo de novo no que ja foi mexido e ainda nem teve tempo de medir.
+
+Segunda regra do dia: quando o titulo do vidIQ com maior nota e praticamente igual
+ao titulo que ja esta no ar, ele nao serve, porque o objetivo da Etapa 2c e mudar
+CTR e titulo igual nao muda nada. Isso aconteceu no Midjourney, onde as notas 91 e
+87 eram reformulacoes do titulo vigente.
