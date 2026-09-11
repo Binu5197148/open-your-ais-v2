@@ -90,6 +90,16 @@ readTime: "7 min read"
 
 <p>I am proud of Toninho because those private recordings have become a project I can develop further. They represent only one of the stories I have told. The pleasure is still the same as it was when I sent the audio to a friend: making a character feel present enough that somebody wants to keep listening.</p>
 
+<section class="editorial-cta" id="try-higgsfield" aria-label="Try Higgsfield">
+<p class="editorial-cta__eyebrow">MAKE YOUR OWN SCENE</p>
+<h2>Try the platform I used for Toninho</h2>
+<p>I used Higgsfield to develop characters and generate scenes for this project. If you want to try this workflow, explore the platform and its plans through my link.</p>
+<p class="editorial-cta__actions"><a class="editorial-cta__button" href="https://higgsfield.ai?fpr=ulisses-2ed0b5" rel="sponsored noopener">Explore Higgsfield →</a></p>
+<p class="editorial-cta__disclosure">Affiliate link: I may earn a commission if you purchase through this link. Your purchase can also help support Open Your AIs.</p>
+</section>
+
+<p>For a practical starting point, follow my <a href="/blog/higgsfield-character-consistency-toninho-workflow/">character consistency tutorial and download the free prompt kit</a>.</p>
+
 <h2>Production sources and scope</h2>
 
 <p>This account draws on my September 10, 2026 description of the project, its August 2 project DNA and the production making-of document. The illustrated assets are the Bianchi character sheet and bar reference from the second development set. Their captions identify them as generated images. The article does not claim a verified total budget, festival acceptance or a measured advantage of one model over another.</p>
