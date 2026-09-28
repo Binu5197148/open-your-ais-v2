@@ -1,9 +1,10 @@
 ---
 id: "art-175"
-title: "AI Short Drama: The Format Built Around AI's Flaws"
-description: "Ninety second vertical episodes hide most of what generative video still gets wrong. The fit is structural, not a happy accident, and it will not hold."
+title: "How to Build an AI Series That Doesn't Break"
+description: "AI drama is the one format where generated video is not a compromise. A step-by-step method to build a series that holds, from character sheets to paywall."
 pubDate: "2026-08-27"
-toolVersion: "2026-08"
+updatedDate: "2026-09-28"
+toolVersion: "2026-09"
 category: "AI"
 tags:
   - "AI Short Drama"
@@ -16,6 +17,8 @@ heroImage: "https://images.unsplash.com/photo-1490971774356-7fac993cc438?ixid=M3
 author: "Ulisses Balbino"
 readTime: "7 min read"
 ---
+
+<p><em>Updated September 28, 2026. Since this was written, the format stopped being a trend and became regulated. China's Administrative Measures for the Development of Micro-Dramas took effect on September 1, 2026, covering every series with episodes under 20 minutes, and they require AI-generated micro-dramas to carry a prominent AI label in every episode. The same reporting counts 367,000 micro-dramas released in China in the first half of 2026, more than 74 per cent of them AI-generated. The Busan panel described below still runs October 10 to 13. The step-by-step method near the end now includes a series bible you can copy.</em></p>
 
 <p>Yesterday, on August 26, 2026, the Asian Contents and Film Market in Busan published the lineup for InnoAsia 2026. Google DeepMind. Amazon Web Services. Alibaba Cloud. Kling AI. BytePlus. Netflix's VFX studio Eyeline Studios. The program runs October 10 to 13 at BEXCO, and Kling AI is co-hosting two of its own sessions with the market itself.</p>
 
@@ -53,7 +56,7 @@ readTime: "7 min read"
 
 <p>The obvious objection is that this is disposable content and beneath discussion. I do not believe that, and I think the people saying it have not looked at what constraint does to writing.</p>
 
-<p>I directed advertising for fourteen years. Starbucks, Nestlé, Yamaha, Carrefour, Benefit. The thirty second slot was not handed down by an artist. It was set by media buyers who were not thinking about my work for one second. That constraint produced some of the sharpest directing of the last fifty years, because a form with a hard wall forces you to decide what the thing is about before you shoot a frame of it. Brazilian television learned the same lesson from the telenovela. A chapter a day, a hook at the end of every one, and out of that machine came writers who could build a scene faster than almost anyone alive.</p>
+<p>I directed advertising for years. Starbucks, Nestlé, Yamaha. The thirty second slot was not handed down by an artist. It was set by media buyers who were not thinking about my work for one second. That constraint produced some of the sharpest directing of the last fifty years, because a form with a hard wall forces you to decide what the thing is about before you shoot a frame of it. Brazilian television learned the same lesson from the telenovela. A chapter a day, a hook at the end of every one, and out of that machine came writers who could build a scene faster than almost anyone alive.</p>
 
 <p>So the format is not the problem. Here is the problem.</p>
 
@@ -61,7 +64,7 @@ readTime: "7 min read"
 
 <p>And a generative pipeline makes that worse, not better, because it removes the last piece of friction that used to protect the writing. When shooting an episode costs a day and a crew, somebody in the room asks whether the scene is any good. When it costs a render, nobody asks. You just make another one.</p>
 
-<h2>What I would actually do this week</h2>
+<h2>How to make an AI drama, step by step</h2>
 
 <p>If you want to build one, the order of operations matters more than the model you pick.</p>
 
@@ -73,6 +76,38 @@ readTime: "7 min read"
 
 <p>And keep your own copies of everything. Character sheets, approved frames, the seed of every take you liked. Access to these models is a rental, and the terms move under you. Alibaba's last four flagship video releases shipped with <a href="/blog/wan-3-0-ships-closed-open-line-stopped-at-2-2/">no weights at all</a>. If your series lives inside somebody's account, so does your season two.</p>
 
+<p>Here is the series bible I would fill in before the first render. Copy it into a document and do not open a video model until every line has an answer:</p>
+
+<pre><code>SERIES BIBLE, AI DRAMA
+Title / logline (one sentence):
+Episode length target (seconds):        Episodes in season:
+Free episodes before the paywall:       Paywall episode number:
+
+CHARACTERS (one sheet each, locked before episode 1)
+  Name / role / one-line want:
+  Character sheet file + approved front, 3/4 and profile frames:
+  Voice (clone or voice ID) and the line you use to test it:
+
+LOCATIONS (keep it to three or four)
+  Name / reference frame / lighting note:
+
+HOOK MAP (written by hand, never by the model)
+  Ep 1 hook:            Ep 2 hook:            ...
+  Paywall hook (the one that has to hurt):
+
+SHOT RULES
+  Max shot length the model holds for this cast:
+  Start and end frames fixed for every dialogue shot: yes / no
+  Speech generated with picture, not added later: yes / no
+
+ARCHIVE (after every approved take)
+  Seed / prompt / references / model and version / date:
+
+DISCLOSURE
+  AI label required where the series will run: yes / no, and where it goes</code></pre>
+
+<p>The tools I would reach for, with the official pages: <a href="https://higgsfield.ai" target="_blank" rel="noopener">Higgsfield</a> for Nano Banana Pro character sheets, Kling and Seedance in one place, and <a href="https://elevenlabs.io" target="_blank" rel="noopener">ElevenLabs</a> for a consistent voice across a season. If your series is going to China, read the disclosure rule before episode one, not after.</p>
+
 <h2>The honest close</h2>
 
 <p>Busan did not put a microdrama panel next to Google DeepMind by accident. A film market schedules what money is moving toward, and the money is moving toward the one format where generated footage is not a compromise.</p>
@@ -80,3 +115,5 @@ readTime: "7 min read"
 <p>I am not going to pretend that makes me comfortable. There is something bleak about a form whose grammar was written by a retention graph. But I have been in this industry long enough to have watched the same complaint made about the thirty second spot, about music video, about the telenovela chapter, and every one of those turned out to be a school. What decides it is not the format. It is whether a person is still choosing where the cut lands and why the scene exists.</p>
 
 <p>The models will hand you the footage. Keep the hooks. That is the whole job.</p>
+
+<p><em>Sources for the September update: <a href="https://technode.com/2026/09/03/from-wild-growth-to-tech-driven-growth-in-chinas-ai-short-drama-industry/" target="_blank" rel="noopener">TechNode, September 3, 2026: China's AI short drama industry</a> | <a href="https://english.news.cn/20260917/62224fd5e67a441dbc2c97717c9c2942/c.html" target="_blank" rel="noopener">Xinhua, September 17, 2026: China backs live-action dramas as AI-made micro-dramas dominate releases</a> | <a href="https://insideai.news/news/ai-policy-and-regulation/china-ai-micro-drama-regulation/9598/" target="_blank" rel="noopener">Inside AI News: China enforces first AI micro-drama rules</a></em></p>
