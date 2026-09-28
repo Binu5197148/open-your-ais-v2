@@ -3,6 +3,11 @@
 Single source of truth for all AI agents, skills, and pipelines that generate content for this site.
 Update this file whenever the tool stack changes. Always include the date.
 
+## Coordenação vigente: 28/09/2026
+
+O fluxo de publicação está em `internal/OPERACAO-EDITORIAL.md` e se sobrepõe às instruções operacionais antigas. Codex/GPT lidera este site e corrige defeitos; Claude executa conteúdo e prepara posts; guardiões reportam. Nenhum agente editorial publica diretamente na main.
+A tabela de ferramentas abaixo é um registro de agosto, não uma confirmação de versões atuais. Verificar com fonte atual antes de afirmar novidade ou uso pessoal.
+
 ---
 
 ## ULISSES BALBINO — CURRENT TOOL STACK
