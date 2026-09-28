@@ -1,3 +1,11 @@
+# Revisão de direitos pendente, 28/09/2026
+
+A classificação histórica abaixo não autoriza redistribuição. Sanitização não prova autoria nem licença.
+vox-skill, vox-motion-graphics, vox-motion-solution, video-prompt-builder, nanobanana-prompt-builder e ugc-avatar-builder ficam SEM LIBERAÇÃO PARA NOVAS DISTRIBUIÇÕES até documentar origem, licença e permissões. Isso não afirma infração comprovada. Auditar os pacotes já publicados separadamente, preservando cópia e URLs em inventário.
+Para qualquer skill, verificar os arquivos efetivos, dependências e recursos incluídos. Código de terceiro pode permitir redistribuição sob condições; não presumir proibição só porque não é autoral. Crédito não substitui autorização.
+
+---
+
 # Acervo de skills, catálogo para doação
 
 Levantamento feito em 22/08/2026 nesta máquina.
