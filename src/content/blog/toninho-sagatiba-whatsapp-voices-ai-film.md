@@ -100,6 +100,8 @@ readTime: "7 min read"
 
 <p>For a practical starting point, follow my <a href="/blog/higgsfield-character-consistency-toninho-workflow/">character consistency tutorial and download the free prompt kit</a>.</p>
 
+<p>Other creative suites cover similar ground. <a href="https://www.krea.ai/features/ai-video-generator" rel="sponsored noopener">Krea</a> is an AI creative suite for image and video generation and editing.</p>
+
 <h2>Production sources and scope</h2>
 
 <p>This account draws on my September 10, 2026 description of the project, its August 2 project DNA and the production making-of document. The illustrated assets are the Bianchi character sheet and bar reference from the second development set. Their captions identify them as generated images. The article does not claim a verified total budget, festival acceptance or a measured advantage of one model over another.</p>
