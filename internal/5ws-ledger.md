@@ -599,3 +599,17 @@ Corrigida na especificacao nesta sessao, com nota de data.
 - **Candidato novo a vigiar:** fechar a ficha do acervo com "nao ha LICENSE no zip". Apareceu
   na 5 e na 6. A terceira seguida dispara cooldown, e a solucao real e ele decidir por um
   arquivo de licenca nos zips.
+
+### Revisao da edicao 6, 2026-09-29 (observacoes do Codex em REVISAO-PR-2.md)
+
+- **Ficha 5 trocada.** `seedance-lab-starter` saiu: o README assinado nao comprova a autoria do
+  kit (observacao 7) e a regra de 28/09 permite pular a ficha do acervo sem direitos comprovados.
+  Entrou `jtydhr88/screenwriting-skills` (MIT com NOTICE, commit 357d134), categoria escrita.
+  Esta edicao fica SEM ficha do acervo. O zip continua publicado pelo artigo do Toninho; nada
+  foi mexido nele.
+- A pegadinha nova (NOTICE: MIT nao cobre as citacoes; corpo da skill em chines, sem auditoria
+  pelo leitor) e de tom diferente das outras quatro.
+- O fecho "nao ha LICENSE no zip" saiu junto com a ficha: o cooldown vigiado nao dispara.
+- SUPIR, ADR do notebooklm-py e SKILL.md agora linkados em commit fixo. Renomeacao para Gemini
+  Notebook confirmada no blog oficial do Google (16/07/2026).
+- "How I checked" e fontes sem bastidor de maquina (sem CLI, rate limit, curl, segundos).
