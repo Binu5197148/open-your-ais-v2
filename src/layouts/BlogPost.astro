@@ -114,6 +114,11 @@ const latestHref = all[0] ? `/blog/${all[0].id}/` : '/blog/';
         <div class="prose">
           <slot />
           <div class="prose__end" aria-hidden="true">◎</div>
+          <aside class="preferred-source" aria-label="Follow Open Your AIs on Google">
+            <p>Want more from Open Your AIs in your Google results? Add us as a preferred source.</p>
+            <div google-add-preferred-source-btn></div>
+          </aside>
+          <script is:inline async src="https://news.google.com/swg/js/v1/publisher.js"></script>
           {articleSlot && !noindex && <AdSenseSlot slot={articleSlot} responsive={false} />}
         </div>
       </div>
@@ -172,6 +177,8 @@ const latestHref = all[0] ? `/blog/${all[0].id}/` : '/blog/';
 </BaseLayout>
 
 <style is:global>
+  .preferred-source { margin-top: 2rem; padding-block: 1.5rem; border-top: 1px solid var(--c-rule); }
+  .preferred-source p { font-family: var(--font-sans); font-size: 1rem; line-height: 1.5; color: var(--c-fg-muted); margin: 0 0 1rem; }
   .post-head { padding-top: calc(var(--s-9) + 40px); }
   .post-head__meta { display:flex; gap: 12px; color: var(--c-fg-muted); margin-bottom: var(--s-7); align-items:center; flex-wrap: wrap; }
   .post-head__title {
