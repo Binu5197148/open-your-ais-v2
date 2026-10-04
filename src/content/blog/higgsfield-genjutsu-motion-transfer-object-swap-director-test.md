@@ -1,9 +1,10 @@
 ---
 id: "art-183"
 title: "How to Use Higgsfield Genjutsu Without Going Broke"
-description: "Genjutsu recasts a shot and keeps the camera move. What it costs per clip, the cheap-first order I run, and two numbers Higgsfield contradicts."
+description: "Genjutsu recasts a shot and keeps the camera move. What it costs per clip, the cheap-first order I run, and the input limits Higgsfield now agrees on."
 pubDate: "2026-09-08"
-toolVersion: "2026-09"
+updatedDate: "2026-10-04"
+toolVersion: "2026-10"
 category: "AI"
 tags:
   - "AI Tools"
@@ -18,7 +19,7 @@ featured: true
 
 <p>Higgsfield Genjutsu shipped in the first week of September 2026, and the search curve for it went from nothing to a peak in three days. I run Higgsfield as my main hub, so this one landed on a tool I already have open. I spent the first day of it doing the boring thing: reading the pricing table and the spec sheet before generating anything.</p>
 
-<p>Two things came out of that. The first is that Genjutsu does something genuinely different from the motion tools I already use. The second is that its own pages do not agree with each other about what it accepts, and the price per clip is high enough that the difference matters before you start, not after.</p>
+<p>Two things came out of that. The first is that Genjutsu does something genuinely different from the motion tools I already use. The second is that, at launch, its own pages did not agree with each other about what it accepts, and the price per clip is high enough that the difference matters before you start, not after.</p>
 
 <p><strong>Scope:</strong> This is an analysis of Higgsfield's published documentation and pricing, with a proposed workflow adapted from existing practice. Genjutsu had not been used on a paid job before publication; this article does not report a production benchmark.</p>
 
@@ -44,9 +45,11 @@ featured: true
 <li><strong>Only then go up.</strong> Re-run the approved version at the resolution you are delivering, or take the cheaper render into an upscale. Both are valid, and one is a lot less expensive.</li>
 </ol>
 
-<p>The tool is at <a href="https://higgsfield.ai/genjutsu" target="_blank" rel="noopener">higgsfield.ai/genjutsu</a>, and Higgsfield's own walkthrough of the two modes is on <a href="https://higgsfield.ai/blog/higgsfield-genjutsu" target="_blank" rel="noopener">their blog</a>. Read the second one before the first, because the marketing page and the documentation page do not say the same thing.</p>
+<p>The tool is at <a href="https://higgsfield.ai/genjutsu" target="_blank" rel="noopener">higgsfield.ai/genjutsu</a>, and Higgsfield's own walkthrough of the two modes is on <a href="https://higgsfield.ai/blog/higgsfield-genjutsu" target="_blank" rel="noopener">their blog</a>. At launch the two pages gave different input limits. As of October 4, 2026 they match, and the blog post is still the one with the full spec table.</p>
 
-<h2>The two numbers that do not match</h2>
+<h2>The two numbers that did not match</h2>
+
+<p><strong>Update, October 4, 2026:</strong> the gap is closed. Higgsfield's <a href="https://higgsfield.ai/genjutsu" target="_blank" rel="noopener">product page</a> now says what the <a href="https://higgsfield.ai/blog/higgsfield-genjutsu" target="_blank" rel="noopener">blog post</a> said from the start: one source video from <strong>4 to 30 seconds</strong> and up to <strong>30 reference images</strong>. Plan on those numbers. What follows is how it read on September 8, kept because the habit it argues for still applies.</p>
 
 <p>The gap, stated plainly, because I could not resolve it by reading and I am not going to pretend I did.</p>
 
@@ -54,7 +57,7 @@ featured: true
 
 <p>Those are small differences and they are not small in practice. If you have built a character sheet with thirty five references and the real cap is thirty, you find out at submission, after the work. If your driving clip is three and a half seconds and the real floor is four, same story.</p>
 
-<p>I do not know which page is current. The most likely explanation is boring: one of them was written against a build that changed, and nobody went back. That happens on every product I have ever worked near. But the fix on your end is to test the edge before you plan around it, with one throwaway generation, rather than trusting either number.</p>
+<p>On September 8 I did not know which page was current. It turned out to be the blog. The most likely explanation is boring: one of them was written against a build that changed, and nobody went back. That happens on every product I have ever worked near. But the fix on your end is to test the edge before you plan around it, with one throwaway generation, rather than trusting either number.</p>
 
 <h2>What it costs, and why that changes the plan</h2>
 
@@ -88,7 +91,8 @@ featured: true
 Every figure here was read on September 8, 2026 from Higgsfield's own pages, not from third party summaries.
 The two modes, Motion Transfer and Object Swap, appear identically on the Genjutsu product page and on Higgsfield's blog post about it.
 The conflict is real and is reported as found: the product page and the coverage that followed state 3 seconds minimum and up to 40 reference images; Higgsfield's own blog post states 4 seconds and up to 30. Neither page was updated between the two readings on this date.
+UPDATE, October 4, 2026: both pages re-read. The product page now states "reference videos from 4-30 seconds" and "up to 30 reference images", matching the blog post. The 15 second prices of 40, 104 and 144 credits (about $2.00, $5.20 and $7.20) are unchanged on the blog post.
 Pricing (approximately $2.00 at 480p, $5.20 at 720p and $7.20 at 1080p for a 15 second generation, capped at 1080p output) comes from Higgsfield's blog post and is quoted in US dollars as listed there. Credit costs are displayed before generation in the product itself, which is the number to trust at the moment of use.
-The launch is described as the first week of September 2026 rather than a specific date, because Higgsfield's own post says only that Genjutsu "just launched" and gives no date. The search demand curve for the term begins on September 2, 2026.
+The launch is described as the first week of September 2026 rather than a specific date, because Higgsfield's own post says only that Genjutsu "just launched"; the post itself carries a publish date of September 1, 2026. The search demand curve for the term begins on September 2, 2026.
 Genjutsu was NOT run on a paid job before this was published. The workflow described is the one I already use for expensive generation tiers, applied to this tool, and is labelled as such rather than as a result.</p>
 </section>
