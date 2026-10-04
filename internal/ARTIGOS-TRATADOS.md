@@ -116,3 +116,12 @@ Segunda regra do dia: quando o titulo do vidIQ com maior nota e praticamente igu
 ao titulo que ja esta no ar, ele nao serve, porque o objetivo da Etapa 2c e mudar
 CTR e titulo igual nao muda nada. Isso aconteceu no Midjourney, onde as notas 91 e
 87 eram reformulacoes do titulo vigente.
+
+## 04/10/2026 (guardiao, branch guardiao/2026-10-04)
+
+- higgsfield-genjutsu-motion-transfer-object-swap-director-test: correcao factual datada, sem troca
+  de titulo. Pagina mais clicada do site (16 cliques, 802 impressoes, posicao 10,9, CTR 2% em 28
+  dias). O artigo dizia que a pagina de produto e o blog da Higgsfield se contradiziam (3 s e 40
+  referencias contra 4 s e 30). Relido em 04/10: as duas paginas agora dizem 4 a 30 s e ate 30
+  referencias. Nota datada no topo da secao, description e nota de verificacao ajustadas,
+  updatedDate 2026-10-04, toolVersion 2026-10. Precos (40/104/144 creditos) conferidos, sem mudanca.
