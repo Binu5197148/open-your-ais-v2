@@ -125,3 +125,12 @@ CTR e titulo igual nao muda nada. Isso aconteceu no Midjourney, onde as notas 91
   referencias contra 4 s e 30). Relido em 04/10: as duas paginas agora dizem 4 a 30 s e ate 30
   referencias. Nota datada no topo da secao, description e nota de verificacao ajustadas,
   updatedDate 2026-10-04, toolVersion 2026-10. Precos (40/104/144 creditos) conferidos, sem mudanca.
+- youtube-ai-dubbing-27-languages-what-it-cannot-do: nota datada no topo. A pagina de ajuda do
+  Google, relida em 04/10, ainda diz "You cannot edit automatic dubs" (a tese do artigo segue de
+  pe). Novo desde a publicacao: dublagem em tempo real para lives anunciada no Made on YouTube de
+  23/09, piloto no inicio de 2027 (Google + Slator). Idiomas do piloto nao publicados, nao citados.
+- remotion-claude-code-video-variations-director-method: o repositorio oficial
+  remotion-dev/skills tem 12 skills em 04/10; o artigo e a description diziam 11. Corrigido com
+  data. Versao do pacote 4.0.532 em 01/10 acrescentada. Precos da licenca NAO reconferidos (as
+  paginas da Remotion nao entregaram a tabela para leitura automatica); o artigo ja manda o leitor
+  checar os termos atuais.
