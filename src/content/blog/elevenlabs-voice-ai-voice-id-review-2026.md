@@ -3,8 +3,8 @@ id: "art-059"
 title: "ElevenLabs: Can It Replace Human Voice Actors?"
 description: "Cloned voice cleared my corporate narration test, stumbled on the commercial and broke on character work. The answer is no, and the reason is not quality."
 pubDate: "2026-03-02"
-toolVersion: "2026-09"
-updatedDate: "2026-09-02"
+toolVersion: "2026-10"
+updatedDate: "2026-10-05"
 category: "AI"
 tags:
   - "ElevenLabs"
@@ -16,6 +16,8 @@ author: "Ulisses Balbino"
 readTime: "7 min read"
 ---
 
+<p><em>Updated October 5, 2026. On September 28 ElevenLabs released Eleven v4 and v4 Turbo, and the language numbers below moved with them. Professional voice cloning now covers every language in the v4 family, more than 90, where it covered 32 on Flash v2.5. An instant clone now starts from 10 seconds of audio. The tests in this review were not rerun on v4.</em></p>
+
 <p><em>Updated September 2, 2026. Pricing was stale: Starter is 6 dollars a month, and the 22 dollar Creator tier gives roughly 100 minutes, not 500. So was the language count: professional cloning covers 32, not 29. And the platform moved past this review twice over. Dubbing v2 opened to the API on August 6, 2026, project based, with source transcripts and translations kept as editable JSON. Then on August 31 the CLI hit v1, built agents first, every API operation a subcommand returning structured JSON you can chain, with a dry run flag and agent configuration stored as files you push and pull like code. The test results below are unchanged. What changed is that a cloned voice is no longer something you fetch from a web app.</em></p>
 
 <h2>The Technology</h2>
@@ -25,9 +27,9 @@ readTime: "7 min read"
 <h2>How Does Voice Cloning Work in ElevenLabs?</h2>
 <p>Voice ID is ElevenLabs' voice cloning feature, now refined to a point where the results are genuinely production-usable. Here's the technical breakdown:</p>
 <ul>
-<li><strong>Input:</strong> Upload 30 seconds to 3 minutes of clean voice audio. The more you provide, the better the clone.</li>
+<li><strong>Input:</strong> Upload 30 seconds to 3 minutes of clean voice audio. The more you provide, the better the clone. Since Eleven v4 (September 28, 2026) an instant clone can start from 10 seconds of audio.</li>
 <li><strong>Output:</strong> A voice model that can speak any text in that voice. Type your script, select the cloned voice, generate audio.</li>
-<li><strong>Languages:</strong> Three different numbers get quoted as if they were one, so keep them apart. Professional voice cloning covers 32 languages, the set Flash v2.5 supports. Text to speech on Eleven v3 reaches past 70. Dubbing v2 covers more than 90. Your English clone reading a script in Portuguese, Japanese or Arabic is the first number, 32, and that is the one that matters when someone sells you on the other two.</li>
+<li><strong>Languages:</strong> Until September 2026 three different numbers got quoted as if they were one: 32 for professional cloning on Flash v2.5, past 70 for text to speech on Eleven v3, more than 90 for Dubbing v2. Eleven v4 collapsed them. ElevenLabs now states that professional voice cloning supports every language in the v4 family, more than 90. Coverage is not the same as quality in each language, so test your clone in the target language before you promise it to a client.</li>
 <li><strong>Controls:</strong> Adjust stability (how consistent the voice stays), similarity (how close to the original), and style (how expressive the delivery is).</li>
 <li><strong>Speed:</strong> Generation is near-instant. A 60-second voiceover takes about 5 seconds to generate.</li>
 </ul>
@@ -51,7 +53,7 @@ readTime: "7 min read"
 <ul>
 <li><strong>Consistency:</strong> Same voice across unlimited content. No studio time needed after the initial clone. You can produce 100 videos with the same narrator without scheduling a single session.</li>
 <li><strong>Speed:</strong> Generate hundreds of variations in minutes. Need three versions of a voiceover (one casual, one formal, one urgent)? Done in 60 seconds.</li>
-<li><strong>Languages and localization:</strong> Clone a voice and use it across the 32 languages professional cloning supports. Since this review was written the localization side moved further than the cloning side. Dubbing v2 handles more than 90 languages while keeping the original speaker's voice, pacing and delivery, with translation that lines the starts and stops up against the original, and it opened to the API on August 6, 2026 as a project based endpoint where transcripts and translations stay editable JSON. Studio 3.0 puts narration, video, captions, music and effects on one timeline. What used to mean hiring voice actors in every market is now a job you brief once.</li>
+<li><strong>Languages and localization:</strong> Clone a voice and use it across the more than 90 languages professional cloning supports on Eleven v4. Since this review was written the localization side moved further than the cloning side. Dubbing v2 handles more than 90 languages while keeping the original speaker's voice, pacing and delivery, with translation that lines the starts and stops up against the original, and it opened to the API on August 6, 2026 as a project based endpoint where transcripts and translations stay editable JSON. Studio 3.0 puts narration, video, captions, music and effects on one timeline. What used to mean hiring voice actors in every market is now a job you brief once.</li>
 <li><strong>Iteration speed:</strong> Client wants a word changed? A different emphasis? A longer pause? Regenerate in seconds. No booking studio time, no waiting for talent availability, no re-recording fees.</li>
 <li><strong>Cost:</strong> Starter is 6 dollars a month and unlocks instant cloning, around 30 minutes of generation. Creator is 22 dollars a month for roughly 100 minutes, and it is the first tier that gives you professional voice cloning. Compare that to voice actors charging 100 to 500 dollars per finished minute. The economics are brutal for commodity voice work.</li>
 </ul>
@@ -102,4 +104,4 @@ readTime: "7 min read"
 <p>My advice to voice actors: stop competing on volume. Start competing on quality. The AI can read a script. You can give a performance. Make sure your clients understand the difference.</p>
 <p><strong>Rating: 8/10</strong>. Impressive technology that will automate commodity voice work and transform localization economics. Premium performers are safe because AI can replicate a voice but can't replicate a performance. The ethical questions remain the biggest unresolved issue.</p>
 
-<p><em>Sources: <a href="https://elevenlabs.io/blog/elevenlabs-cli-v1" target="_blank" rel="noopener">ElevenLabs, CLI v1, agents as code</a> | <a href="https://elevenlabs.io/blog/dubbing-api" target="_blank" rel="noopener">ElevenLabs, Dubbing v2 in the API</a> | <a href="https://elevenlabs.io/dubbing-studio" target="_blank" rel="noopener">ElevenLabs, Dubbing v2</a> | <a href="https://elevenlabs.io/docs/help-center/product/voices/voice-cloning/what-languages-are-supported-with-professional-voice-cloning-pvc" target="_blank" rel="noopener">ElevenLabs, languages supported with professional voice cloning</a></em></p>
+<p><em>Sources: <a href="https://elevenlabs.io/blog/eleven-v4" target="_blank" rel="noopener">ElevenLabs, Eleven v4</a> | <a href="https://elevenlabs.io/docs/changelog/2026/9/28" target="_blank" rel="noopener">ElevenLabs changelog, September 28, 2026</a> | <a href="https://techcrunch.com/2026/09/28/elevenlabs-new-v4-speech-model-supports-more-expression-control-and-90-languages/" target="_blank" rel="noopener">TechCrunch, v4 launch</a> | <a href="https://elevenlabs.io/blog/elevenlabs-cli-v1" target="_blank" rel="noopener">ElevenLabs, CLI v1, agents as code</a> | <a href="https://elevenlabs.io/blog/dubbing-api" target="_blank" rel="noopener">ElevenLabs, Dubbing v2 in the API</a> | <a href="https://elevenlabs.io/dubbing-studio" target="_blank" rel="noopener">ElevenLabs, Dubbing v2</a> | <a href="https://elevenlabs.io/docs/help-center/product/voices/voice-cloning/what-languages-are-supported-with-professional-voice-cloning-pvc" target="_blank" rel="noopener">ElevenLabs, languages supported with professional voice cloning</a></em></p>
