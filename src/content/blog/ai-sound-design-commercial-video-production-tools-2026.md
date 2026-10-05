@@ -3,6 +3,8 @@ id: "art-098"
 title: "AI Sound Design: The Whole Audio Chain and Its Limits"
 description: "Sound effects, music and voice are production ready in 2026. The clearance line is the part nobody prints: where broadcast still refuses AI audio, and why."
 pubDate: "2026-03-15"
+updatedDate: "2026-10-05"
+toolVersion: "2026-10"
 category: "AI"
 tags:
   - "AI Audio"
@@ -15,6 +17,8 @@ heroImage: "https://images.unsplash.com/photo-1764763179282-99bc5e89b996?ixid=M3
 author: "Ulisses Balbino"
 readTime: "8 min read"
 ---
+
+<p><em>Updated October 5, 2026. Where this guide names Eleven v3, read it as the model current in March 2026. ElevenLabs released Eleven v4 and v4 Turbo on September 28, 2026, with more than 90 languages. The workflow below works the same with the newer model, and the clearance limits are unchanged. Sources: <a href="https://elevenlabs.io/blog/eleven-v4" target="_blank" rel="noopener">ElevenLabs, Eleven v4</a> | <a href="https://techcrunch.com/2026/09/28/elevenlabs-new-v4-speech-model-supports-more-expression-control-and-90-languages/" target="_blank" rel="noopener">TechCrunch, v4 launch</a>.</em></p>
 
 <h2>The Audio Line Item That Disappears</h2>
 <p>Commercial audio post-production has historically been a separate budget line from video post-production. Sound design, music licensing or composition, voiceover recording, final mix, mastering: the audio chain for a 60-second commercial can represent 15-25% of the total production budget, and for productions where music licensing is required for broadcast, that percentage can be higher.</p>
