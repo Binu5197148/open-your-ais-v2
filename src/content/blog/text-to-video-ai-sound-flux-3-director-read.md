@@ -1,10 +1,10 @@
 ---
 id: "art-147"
-title: "Text to Video AI: FLUX 3 Adds Room Tone and Lines"
-description: "FLUX 3 makes dialogue, effects and room tone in the same pass as the picture. Twenty seconds is the wrong number to judge it by, and sound explains why."
+title: "FLUX 3 Video: What You Need to Know"
+description: "FLUX 3 Video makes dialogue and room tone in the same pass as the picture. Is it out, how to get access, and why sound is the right test, not 20 seconds."
 pubDate: "2026-07-25"
-updatedDate: "2026-07-27"
-toolVersion: "2026-07"
+updatedDate: "2026-10-06"
+toolVersion: "2026-10"
 category: "AI"
 tags:
   - "Text to Video"
@@ -18,6 +18,11 @@ author: "Ulisses Balbino"
 readTime: "6 min read"
 ---
 
+<section class="article-note note-correction">
+<h2>Update</h2>
+<p>Updated Oct 6, 2026: this article was written on July 25, during gated early access. Since then FLUX 3 Video became <a href="https://bfl.ai/blog/flux-3-video">generally available through the BFL API and select partners</a> (Black Forest Labs, August 4), <a href="https://bfl.ai/blog/flux-video-upscale">FLUX Video Upscale</a> added regeneration up to 4K (August 20), and the robotics variant <a href="https://bfl.ai/blog/flux-3-action">FLUX 3 Action shipped with open weights</a> (September 23). FLUX 3 Image and an open-weight FLUX 3 Dev are still on the roadmap with no date. The Sora API mentioned below did go dark on September 24. Where the text says "early access" or "later this year", read it as the July state. A new section answers whether FLUX 3 is out and how to get access.</p>
+</section>
+
 <h2>What does FLUX 3 change about text to video AI?</h2>
 
 <p>On July 23, 2026, Black Forest Labs announced FLUX 3, and the specification that matters is not the one in the headline. Text to video AI in this model arrives with its own sound. FLUX 3 Video generates clips of up to 20 seconds in a single generation, and the dialogue, the effects, and the room ambience are produced in the same pass as the picture, not bolted on afterward.</p>
@@ -26,11 +31,11 @@ readTime: "6 min read"
 
 <p>The rollout is narrow. FLUX 3 Video and FLUX 3 Action went out first through gated early access to selected partners, with FLUX 3 Image following in the coming weeks and an open-weight release planned for later in the year. The early access list includes Canva, Burda, Krea, Picsart, and Magnific.</p>
 
-<p>That last name is why I am writing this today rather than reading about it. Magnific sits in my working stack for image enhancement and upscaling. When a partner list includes a tool already open on my second monitor, the release stops being industry news and becomes a scheduling question.</p>
+<p>That last name is why I am writing this today rather than reading about it. Magnific is one of the AI hubs in my working stack. When a partner list includes a tool already open on my second monitor, the release stops being industry news and becomes a scheduling question.</p>
 
 <h2>The number everyone will lead with is the wrong number</h2>
 
-<p>Twenty seconds will read as a step backward to anyone keeping score, and Black Forest Labs has not published an output resolution ceiling at all. What it published instead was a preference benchmark run on 10-second clips at 720p. <a href="/blog/seedance-2-5-30-second-4k-single-pass-director-take/">Seedance already runs 30 continuous seconds at 4K in a single pass</a>, and I wrote at the time that the unbroken take was the real story there. By the only two metrics the coverage tends to use, length and resolution, FLUX 3 does not even bring a number to the fight.</p>
+<p>Twenty seconds will read as a step backward to anyone keeping score, and Black Forest Labs has not published an output resolution ceiling at all. What it published instead was a preference benchmark run on 10-second clips at 720p. <a href="/blog/seedance-2-5-30-second-4k-single-pass-director-take/">Seedance already runs 30 continuous seconds in a single pass, with 4K through upscaling</a>, and I wrote at the time that the unbroken take was the real story there. By the only two metrics the coverage tends to use, length and resolution, FLUX 3 does not even bring a number to the fight.</p>
 
 <p>Which is exactly why the scoreboard is the wrong instrument. These two releases are not competing for the same job. One is chasing the longest, cleanest picture. The other is chasing a picture that arrives already carrying its own world.</p>
 
@@ -60,7 +65,7 @@ readTime: "6 min read"
 
 <p>Two practical notes, from someone who has to answer for what goes out the door.</p>
 
-<p>First, treat early access as weather, not ground. <a href="/blog/sora-shutdown-disney-partnership-ai-creative-tools/">Sora is the lesson still sitting in front of everyone</a>. OpenAI shut the app down in April of this year and the API goes dark on September 24. People built pipelines, and in some cases businesses, on a frontier model from the most visible AI company on earth, and it was withdrawn. FLUX 3 Video today is a gated API with private weights held by a handful of partners. Build a look on it if the work is yours. Do not promise a client a campaign that only one gated model can deliver.</p>
+<p>First, treat early access as weather, not ground. <a href="/blog/sora-shutdown-disney-partnership-ai-creative-tools/">Sora is the lesson still sitting in front of everyone</a>. OpenAI shut the app down in April of this year and the API went dark on September 24. People built pipelines, and in some cases businesses, on a frontier model from the most visible AI company on earth, and it was withdrawn. FLUX 3 Video today is a gated API with private weights held by a handful of partners. Build a look on it if the work is yours. Do not promise a client a campaign that only one gated model can deliver.</p>
 
 <p>Second, when the sound arrives for free, listen to it as an editor rather than an owner. Mute the clip and watch it once. Decide what it should sound like before you hear what the model decided. Then unmute. If the two agree, you got lucky and you kept your judgment. If they disagree, you just found the actual creative decision in the shot, and it was hiding in a track you would otherwise have accepted without noticing.</p>
 
@@ -68,8 +73,23 @@ readTime: "6 min read"
 
 <p>The models keep getting better at filling rooms. None of them has learned what a room is for. That question still walks in with a person, and it is still the whole job.</p>
 
+<h2>Is FLUX 3 out, and how do you get access?</h2>
+
+<p>Yes, the video model is out. The rest of the family is not, yet.</p>
+
+<ol>
+<li><strong>FLUX 3 Video:</strong> generally available since August 4, 2026 through the <a href="https://bfl.ai/blog/flux-3-video">BFL API and select partners</a>. Clips run up to 20 seconds, with dialogue, effects and ambience generated alongside the picture, at HD with Full HD through upscaling.</li>
+<li><strong>Higher resolution:</strong> <a href="https://bfl.ai/blog/flux-video-upscale">FLUX Video Upscale</a> regenerates a clip at roughly 1080p, 2K or 4K, in a Precise or a Creative mode, through the same API and the BFL playground.</li>
+<li><strong>Through a tool you already use:</strong> several platforms list FLUX 3 in their model menus, <a href="https://invideo.io/blog/flux-3-ai-video-generator/">invideo among them</a>. Check the partner you work with before opening a new account.</li>
+<li><strong>Open weights:</strong> not for video yet. Black Forest Labs lists an open-weight FLUX 3 Dev on its roadmap. The only FLUX 3 weights published so far are FLUX 3 Action, a robotics model, under separate non-commercial and self-hosted commercial terms.</li>
+<li><strong>FLUX 3 Image:</strong> announced, not released.</li>
+</ol>
+
+<p>The practical rule from the client section above still holds. A gated model became an API model, which is better ground. It is still one company's API, and the weights that would put it in everyone's pipeline have not shipped.</p>
+
 <section class="article-note note-sources">
 <h2>Sources and verification</h2>
 <p>Published Jul 25, 2026. FLUX 3 launch date, architecture, variant availability, and early access partner list verified against Black Forest Labs' own announcement on GlobeNewswire (Jul 23, 2026). The 20-second native-audio specification verified against VentureBeat, The Decoder, Decrypt, and TechTimes. Sora shutdown dates verified against The Decoder and TechCrunch.</p>
+<p>Rechecked Oct 6, 2026 against Black Forest Labs: <a href="https://bfl.ai/blog/flux-3">FLUX 3 announcement</a>, <a href="https://bfl.ai/blog/flux-3-video">FLUX 3 Video</a>, <a href="https://bfl.ai/blog/flux-video-upscale">FLUX Video Upscale</a>, <a href="https://bfl.ai/blog/flux-3-action">FLUX 3 Action</a>; and OpenAI's <a href="https://developers.openai.com/api/docs/deprecations">API deprecations page</a> for the September 24 Sora 2 shutdown. This is a documentary analysis, not a hands-on test.</p>
 <p>Corrected Jul 27, 2026, by the daily fact-check pass: the article originally stated FLUX 3 Video outputs "up to 20 seconds at 720p" and built the comparison paragraph on that figure. Black Forest Labs has published no output resolution ceiling for FLUX 3 Video. The 720p figure comes from its human-preference benchmark, which used 10-second clips at 720p (confirmed against The Decoder, MarkTechPost, and TestingCatalog). The two affected sentences were rewritten to attribute 720p to the benchmark rather than to the model's output specification. The argument, that sound matters more than resolution, is unchanged.</p>
 </section>
