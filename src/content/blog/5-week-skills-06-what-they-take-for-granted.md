@@ -1,7 +1,7 @@
 ---
 id: "art-188"
 title: "Five Claude Skills and What They Take for Granted"
-description: "Five Claude skills read line by line: a Word redliner, a palette extractor, a ComfyUI kit, a NotebookLM driver and a screenwriting pack, and what each assumes."
+description: "Five Claude skills reviewed from their own files: a Word redliner, a palette tool, a ComfyUI kit, a NotebookLM driver and a screenwriting pack, with limits."
 pubDate: "2026-09-28"
 toolVersion: "2026-09"
 category: "AI"
@@ -25,7 +25,7 @@ featured: true
 
 <h2>How I checked</h2>
 
-<p>This is a documentary review, not a hands-on test. I read each repository's own files on September 28 and 29, 2026: the README, the <code>SKILL.md</code>, and where the real sentence lives deeper, that document too, named in each entry. Star counts and dates come from GitHub on those days. Where a claim depends on one file, the link goes to that file at a fixed commit, so it still says what I quote after the repository moves on.</p>
+<p>This is a documentary review, not a hands-on test. I read each repository's own files on September 28 and 29, 2026: the README, the <code>SKILL.md</code>, and where the real sentence lives deeper, that document too, named in each entry. One exception: screenwriting-skills keeps its skill bodies in Chinese, and I reviewed it through its English README and its NOTICE only. Star counts and dates come from GitHub on those days. Where a claim depends on one file, the link goes to that file at a fixed commit, so it still says what I quote after the repository moves on.</p>
 
 <p>I did not install or run any of the five. Where I describe behaviour, I read it in a file, and the author's words stay the author's.</p>
 
@@ -172,7 +172,7 @@ notebooklm skill install</code></pre>
 
 <h2>What I did not verify</h2>
 
-<p>I did not install or run any of the four GitHub skills.</p>
+<p>I did not install or run any of the five GitHub skills.</p>
 
 <p>I did not reproduce docx-cli's benchmark or design-dna's colour example. Both numbers are theirs, and both repositories publish how they got them.</p>
 
@@ -180,7 +180,7 @@ notebooklm skill install</code></pre>
 
 <p>I did not read Google's terms of service on the login path notebooklm-py uses. "ToS-grey" is the author's word, not mine, and I did not check it against the terms.</p>
 
-<p>I read screenwriting-skills in English. I cannot audit the Chinese skill bodies line by line, and I did not check any of its quotations against the books they come from.</p>
+<p>I reviewed screenwriting-skills through its English README and NOTICE. I did not read the Chinese skill bodies, and I did not check any of its quotations against the books they come from.</p>
 
 <p>I did not watch onetake's films or open its scripts. I stopped at the licence, which was enough for this column and says nothing about the quality of the work.</p>
 
