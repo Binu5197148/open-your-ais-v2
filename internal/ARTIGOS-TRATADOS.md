@@ -116,3 +116,13 @@ Segunda regra do dia: quando o titulo do vidIQ com maior nota e praticamente igu
 ao titulo que ja esta no ar, ele nao serve, porque o objetivo da Etapa 2c e mudar
 CTR e titulo igual nao muda nada. Isso aconteceu no Midjourney, onde as notas 91 e
 87 eram reformulacoes do titulo vigente.
+
+## 05/10/2026, guardiao (branch guardiao/2026-10-05)
+
+Correcao factual datada, sem troca de titulo. Gatilho: Eleven v4 e v4 Turbo, lancados em 28/09/2026. A pagina oficial de idiomas da clonagem profissional passou de 32 (Flash v2.5) para "90+" (familia v4).
+
+| data | artigo | titulo | o que mudou |
+|---|---|---|---|
+| 05/10 | elevenlabs-voice-ai-voice-id-review-2026 | mantido | 32 idiomas virou 90+ em tres trechos, clone instantaneo com 10 s, nota datada no topo, 3 fontes novas. Testes nao refeitos no v4, dito no texto |
+| 05/10 | elevenlabs-eleven-v3-dubbing-localization-what-producers-need | mantido | nota datada: descreve o v3 de marco, v4 e o atual, 70+ e numero do v3 |
+| 05/10 | ai-sound-design-commercial-video-production-tools-2026 | mantido | nota datada: Eleven v3 lido como modelo de marco, v4 e o atual |
