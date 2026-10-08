@@ -29,7 +29,7 @@ readTime: "6 min read"
 
 <p>The company trained one set of weights on images, video, and audio together, then extended the same architecture to predict robot actions. Co-founder and CEO Robin Rombach put the thesis bluntly in the announcement: "You can't cheat reality." A model that only ever learns pictures, the argument goes, can only ever make pictures.</p>
 
-<p>The rollout is narrow. FLUX 3 Video and FLUX 3 Action went out first through gated early access to selected partners, with FLUX 3 Image following in the coming weeks and an open-weight release planned for later in the year. The early access list includes Canva, Burda, Krea, Picsart, and Magnific.</p>
+<p>At launch in July the rollout was narrow. FLUX 3 Video and FLUX 3 Action went out first through gated early access to selected partners, with FLUX 3 Image following in the coming weeks and an open-weight release planned for later in the year. The early access list includes Canva, Burda, Krea, Picsart, and Magnific.</p>
 
 <p>That last name is why I am writing this today rather than reading about it. Magnific is one of the AI hubs in my working stack. When a partner list includes a tool already open on my second monitor, the release stops being industry news and becomes a scheduling question.</p>
 
@@ -75,7 +75,7 @@ readTime: "6 min read"
 
 <h2>Is FLUX 3 out, and how do you get access?</h2>
 
-<p>Yes, the video model is out. The rest of the family is not, yet.</p>
+<p>Partly. As of October 8, 2026, two members of the family are out and two are not. FLUX 3 Video has been generally available since August 4, and FLUX 3 Action, the robotics model, shipped with open weights on September 23. FLUX 3 Image and an open-weight FLUX 3 Dev are still presented as roadmap items, with no date on the <a href="https://bfl.ai/blog">Black Forest Labs blog</a>.</p>
 
 <ol>
 <li><strong>FLUX 3 Video:</strong> generally available since August 4, 2026 through the <a href="https://bfl.ai/blog/flux-3-video">BFL API and select partners</a>. Clips run up to 20 seconds, with dialogue, effects and ambience generated alongside the picture, at HD with Full HD through upscaling.</li>
@@ -85,11 +85,11 @@ readTime: "6 min read"
 <li><strong>FLUX 3 Image:</strong> announced, not released.</li>
 </ol>
 
-<p>The practical rule from the client section above still holds. A gated model became an API model, which is better ground. It is still one company's API, and the weights that would put it in everyone's pipeline have not shipped.</p>
+<p>The practical rule from the client section above still holds. The video model that was gated in July is now an API model, which is better ground. It is still one company's API, and the weights that would put it in everyone's pipeline have not shipped.</p>
 
 <section class="article-note note-sources">
 <h2>Sources and verification</h2>
 <p>Published Jul 25, 2026. FLUX 3 launch date, architecture, variant availability, and early access partner list verified against Black Forest Labs' own announcement on GlobeNewswire (Jul 23, 2026). The 20-second native-audio specification verified against VentureBeat, The Decoder, Decrypt, and TechTimes. Sora shutdown dates verified against The Decoder and TechCrunch.</p>
-<p>Rechecked Oct 6, 2026 against Black Forest Labs: <a href="https://bfl.ai/blog/flux-3">FLUX 3 announcement</a>, <a href="https://bfl.ai/blog/flux-3-video">FLUX 3 Video</a>, <a href="https://bfl.ai/blog/flux-video-upscale">FLUX Video Upscale</a>, <a href="https://bfl.ai/blog/flux-3-action">FLUX 3 Action</a>; and OpenAI's <a href="https://developers.openai.com/api/docs/deprecations">API deprecations page</a> for the September 24 Sora 2 shutdown. This is a documentary analysis, not a hands-on test.</p>
+<p>Rechecked Oct 8, 2026 against Black Forest Labs: <a href="https://bfl.ai/blog/flux-3">FLUX 3 announcement</a>, <a href="https://bfl.ai/blog/flux-3-video">FLUX 3 Video</a>, <a href="https://bfl.ai/blog/flux-video-upscale">FLUX Video Upscale</a>, <a href="https://bfl.ai/blog/flux-3-action">FLUX 3 Action</a>, <a href="https://bfl.ai/models/flux-3-action">FLUX 3 Action model page</a>; and OpenAI's <a href="https://developers.openai.com/api/docs/deprecations">API deprecations page</a> for the September 24 Sora 2 shutdown. This is a documentary analysis, not a hands-on test.</p>
 <p>Corrected Jul 27, 2026, by the daily fact-check pass: the article originally stated FLUX 3 Video outputs "up to 20 seconds at 720p" and built the comparison paragraph on that figure. Black Forest Labs has published no output resolution ceiling for FLUX 3 Video. The 720p figure comes from its human-preference benchmark, which used 10-second clips at 720p (confirmed against The Decoder, MarkTechPost, and TestingCatalog). The two affected sentences were rewritten to attribute 720p to the benchmark rather than to the model's output specification. The argument, that sound matters more than resolution, is unchanged.</p>
 </section>
