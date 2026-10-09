@@ -3,7 +3,7 @@ id: "art-147"
 title: "FLUX 3 Video: What You Need to Know"
 description: "FLUX 3 Video makes dialogue and room tone in the same pass as the picture. Is it out, how to get access, and why sound is the right test, not 20 seconds."
 pubDate: "2026-07-25"
-updatedDate: "2026-10-06"
+updatedDate: "2026-10-09"
 toolVersion: "2026-10"
 category: "AI"
 tags:
@@ -65,11 +65,12 @@ readTime: "6 min read"
 
 <p>Two practical notes, from someone who has to answer for what goes out the door.</p>
 
-<p>First, treat early access as weather, not ground. <a href="/blog/sora-shutdown-disney-partnership-ai-creative-tools/">Sora is the lesson still sitting in front of everyone</a>. OpenAI shut the app down in April of this year and the API went dark on September 24. People built pipelines, and in some cases businesses, on a frontier model from the most visible AI company on earth, and it was withdrawn. FLUX 3 Video today is a gated API with private weights held by a handful of partners. Build a look on it if the work is yours. Do not promise a client a campaign that only one gated model can deliver.</p>
+<!-- Correction 2026-10-09: removed present-tense "gated API" claim; FLUX 3 Video is GA via API since 2026-08-04 (bfl.ai/blog/flux-3-video). -->
+<p>First, treat early access as weather, not ground. <a href="/blog/sora-shutdown-disney-partnership-ai-creative-tools/">Sora is the lesson still sitting in front of everyone</a>. OpenAI shut the app down in April of this year and the API went dark on September 24. People built pipelines, and in some cases businesses, on a frontier model from the most visible AI company on earth, and it was withdrawn. FLUX 3 Video is now <a href="https://bfl.ai/blog/flux-3-video">generally available through an API</a>, but its video weights remain private. Build a look on it if the work is yours. Do not promise a client a campaign that depends entirely on one provider.</p>
 
 <p>Second, when the sound arrives for free, listen to it as an editor rather than an owner. Mute the clip and watch it once. Decide what it should sound like before you hear what the model decided. Then unmute. If the two agree, you got lucky and you kept your judgment. If they disagree, you just found the actual creative decision in the shot, and it was hiding in a track you would otherwise have accepted without noticing.</p>
 
-<p>The open-weight release later this year is when this genuinely changes for people working outside the partner list. That is the version worth preparing for, because that is the version that ends up in everyone's pipeline.</p>
+<p>An open-weight video release, which Black Forest Labs still lists only as roadmap, is when this genuinely changes for people who cannot depend on one hosted API. That is the version worth preparing for, because that is the version that ends up in everyone's pipeline.</p>
 
 <p>The models keep getting better at filling rooms. None of them has learned what a room is for. That question still walks in with a person, and it is still the whole job.</p>
 
