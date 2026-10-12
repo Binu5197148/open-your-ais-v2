@@ -3,6 +3,8 @@ id: "art-084"
 title: "ElevenLabs Dubbing: Ready for Ads, Not Yet for Broadcast"
 description: "Eleven v3 removes the recording stage from a five language delivery, but not the sync pass. I mark where AI dubbing already ships and where it fails QC."
 pubDate: "2026-03-15"
+updatedDate: "2026-10-05"
+toolVersion: "2026-10"
 category: "AI"
 tags:
   - "ElevenLabs"
@@ -15,6 +17,8 @@ heroImage: "https://images.unsplash.com/photo-1641277132336-ae9d6432b8c5?ixid=M3
 author: "Ulisses Balbino"
 readTime: "8 min read"
 ---
+
+<p><em>Updated October 5, 2026. This piece describes Eleven v3 as it stood in March 2026. On September 28, 2026 ElevenLabs released Eleven v4 and v4 Turbo, now its current speech models, with more than 90 languages, and professional voice cloning now covers every language in the v4 family. The 70+ figure below is the v3 number. The sync and QC argument has not changed: a new model does not remove the review pass. Sources: <a href="https://elevenlabs.io/blog/eleven-v4" target="_blank" rel="noopener">ElevenLabs, Eleven v4</a> | <a href="https://elevenlabs.io/docs/changelog/2026/9/28" target="_blank" rel="noopener">ElevenLabs changelog, September 28, 2026</a>.</em></p>
 
 <h2>The Production Cost Nobody Talks About</h2>
 <p>When brands and production companies talk about the cost of localization, they usually mean translation. That's the visible expense: a document goes in, a translated document comes out. The real cost is the audio production chain that follows: script adaptation, voice casting in each language, studio time, direction, sync adjustment, and final mastering. For a 60-second commercial adapted to five languages, the post-production audio cost can easily exceed the original production audio budget.</p>

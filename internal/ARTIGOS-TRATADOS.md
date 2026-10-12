@@ -142,3 +142,12 @@ Search Console 3 meses: 31 cliques, 5,32 mil impressoes, CTR 0,6%, posicao 22,8.
 | 28/09 | ai-short-drama-format-the-models-were-built-for | How to Build an AI Series That Doesn't Break (antes: AI Short Drama: The Format Built Around AI's Flaws) | ai drama | 866.701/mes, competicao 26,9; pergunta "how to make ai drama" 113.206, +125% | PRIORIDADE 1: posicao 8,6 com 63 impressoes e zero clique. Nota datada com a regra chinesa de 01/09 (selo de IA em todo episodio) e 367 mil microdramas no 1o semestre, mais de 74% por IA. H2 "What I would actually do this week" virou "How to make an AI drama, step by step", e ganhou um series bible colavel. CORRECAO BIOGRAFICA: tirei "fourteen years" (numero nao verificado) e reduzi a lista de clientes de 5 para 3, regra da paleta. Titulo vidIQ nota 96, sem descarte |
 
 Etapa 0 do dia: a edicao 5 do 5 Week Skills (21/09) entrou com description de 203 caracteres. Encurtada para 155.
+## 05/10/2026, guardiao (branch guardiao/2026-10-05)
+
+Correcao factual datada, sem troca de titulo. Gatilho: Eleven v4 e v4 Turbo, lancados em 28/09/2026. A pagina oficial de idiomas da clonagem profissional passou de 32 (Flash v2.5) para "90+" (familia v4).
+
+| data | artigo | titulo | o que mudou |
+|---|---|---|---|
+| 05/10 | elevenlabs-voice-ai-voice-id-review-2026 | mantido | 32 idiomas virou 90+ em tres trechos, clone instantaneo com 10 s, nota datada no topo, 3 fontes novas. Testes nao refeitos no v4, dito no texto |
+| 05/10 | elevenlabs-eleven-v3-dubbing-localization-what-producers-need | mantido | nota datada: descreve o v3 de marco, v4 e o atual, 70+ e numero do v3 |
+| 05/10 | ai-sound-design-commercial-video-production-tools-2026 | mantido | nota datada: Eleven v3 lido como modelo de marco, v4 e o atual |
