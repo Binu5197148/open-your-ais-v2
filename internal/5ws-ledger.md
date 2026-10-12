@@ -613,3 +613,70 @@ Corrigida na especificacao nesta sessao, com nota de data.
 - SUPIR, ADR do notebooklm-py e SKILL.md agora linkados em commit fixo. Renomeacao para Gemini
   Notebook confirmada no blog oficial do Google (16/07/2026).
 - "How I checked" e fontes sem bastidor de maquina (sem CLI, rate limit, curl, segundos).
+
+---
+
+## Notas da edicao 7, escritas em 2026-10-12
+
+```
+| 07 | artigo   | 2026-10-12 | A9 | F3 | -   | -     | 1 axenworks | nenhum |
+| 07 | linkedin | AAAA-MM-DD | -  | -  | P11 | 1146  | sim         | nenhum |
+| 07 | x        | AAAA-MM-DD | -  | -  | P5  | 572   | sim         | nenhum |
+```
+
+- **Nao foi para a main.** Branch `5ws-edicao-07`, criada em cima de `5ws-edicao-06` (PR 2,
+  aprovado pelo Codex em 08/10 e ainda sem merge), para o ledger continuar a mesma sequencia.
+  PR aberto contra a branch da edicao 6. A data acima e o `pubDate`; se o merge sair em outro
+  dia, corrigir aqui e no frontmatter. Sem URL 200, indexacao no Search Console NAO pedida.
+- **Abertura A9, a entrada fria.** Era obrigatoria ate a edicao 9 (ultima na 3). Tres linhas e
+  a ficha 1. Fecho **F3**, sem fecho: a ficha 5 termina, vem "What I did not verify" e a linha
+  da semana que vem. Sem bloco "What I still do not know" desta vez.
+- **As cinco skills**: lemo-opuscar (video, filme feito em codigo), ffmpeg-skill (automacao),
+  dissect (pesquisa e organizacao de referencia), podcast-to-article (documento) e Scrolline
+  (web e apresentacao). **Nenhuma do acervo**: as que sobram na classe A tem duvida de
+  direitos ou de credito em aberto (ver edicoes 4 e 6), e a regra de 28/09 permite pular.
+- **Descartadas**: artemchuikin/youtube-skills (funil de API paga por creditos),
+  cclank/lanshu-create-ai-presenter-video (boa, guardada para outra semana; video de novo
+  pesaria a edicao), Vincentwei1021/video-talkcraft (licenca NOASSERTION, nao li).
+- **Um link para axenworks**, na ficha 2, pagina `timecode-calculator`, primeira vez usada.
+  A pergunta nasce da skill: toda flag de tempo aceita timecode SMPTE com `@fps`, e a taxa
+  digitada decide em que quadro o corte cai. Sem autobiografia.
+- **Nenhum vicio da 3.1 gasto** no artigo nem nos posts.
+- Snapshot unico: 2026-10-12, 12h55 a 12h59 UTC, `gh` autenticado. Doze URLs com `curl` as
+  12h58m53s a 12h59m04s, todas 200 (cinco repositorios, galeria do opuscar, a pagina da
+  axenworks e cinco arquivos em commit fixo).
+- Tom das cinco pegadinhas, para a trava 8: obrigacao de credito CC BY escondida num arquivo
+  em chines (opuscar); diagnostico que diz ok com a ferramenta de legenda quebrada
+  (ffmpeg-skill); decisao automatica de se passar pelo Chrome quando o site bloqueia
+  (dissect); verificador que so mede texto em chines (podcast-to-article); a skill e o
+  repositorio inteiro, 143 MiB e 4.321 imagens, com SKILL.md em coreano (Scrolline).
+  Cinco tons diferentes.
+- **Regra do contador, duas vezes, bateu nas duas.** 43 estilos no opuscar (44 pastas, uma e
+  o `_template`) e 42 ferramentas na ffmpeg-skill (42 scripts publicos). A Scrolline nao
+  anuncia numero de arquivos; a contagem publicada e minha, pela arvore.
+- **Candidato a vigiar:** idioma da skill como pegadinha. Edicao 6 (screenwriting, corpo em
+  chines) e edicao 7 (podcast-to-article, verificador em chines; Scrolline, SKILL.md em
+  coreano, como segunda linha). Se a edicao 8 fechar uma pegadinha principal com idioma, sao
+  tres seguidas e entra em cooldown.
+- **Comunidade:** busca no Reddit e no Hacker News pelos cinco nomes, ultimos 60 dias, sem
+  resultado. Registrado no bloco 5 do artigo.
+- **Capa:** a primeira sorteada (palco, homem de bracos abertos, plateia) foi descartada por
+  encostar em stand-up, que e alegacao banida. A segunda ja era a capa da edicao 6: o `--pick`
+  rodado na main nao enxerga a branch da 6. A usada e a terceira, conferida em todas as branches
+  abertas.
+
+## Leitura das travas para a edicao 8
+
+- **Aberturas.** A9 acabou de ser gasta: fora ate a 12 (obrigacao zerada ate a 13). A7 fora ate
+  a 11, A4 ate a 10, A3 ate a 9. A abertura da 8 sai de A1, A2, A5, A6, A8 ou A10.
+- **Fechos.** F3 fora ate a 10, F1 ate a 9. F4 volta na 8. A 8 sai de F2, F4, F5 ou F6.
+- **Formatos de post** (contam da publicacao). Publicados ate 12/10: ed 1 (P4, P11), ed 2 X (P6),
+  ed 3 X (P9), ed 5 (LinkedIn P9, X P10, em 24/09). Pendentes de aprovacao: ed 4 (P3, P8), ed 6
+  (P6, P2), ed 7 (P11, P5). Livres para a 8 com seguranca: P1, P4, P7, P12, mais os pendentes que
+  nao sairem.
+- **Trava 4.** X ainda deve um post abaixo de 200 caracteres na janela 6 a 10 (o da 6, 245, e o
+  da 7, 572, nao pagam). LinkedIn deve um abaixo de 400; o acima de 1.200 depende do P6 da 6
+  (1.123 nao paga) e do P11 da 7 (1.146 nao paga). As duas pontas do LinkedIn estao devendo.
+- **Trava 7.** LinkedIn da 7 abre com sintagma nominal, X com numeral.
+- **Vicios da 3.1.** Sem gasto novo. Segmentacao do leitor fora do LinkedIn ate a 8; "nao X, X"
+  fora do artigo ate a 10.
