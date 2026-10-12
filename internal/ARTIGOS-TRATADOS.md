@@ -116,3 +116,44 @@ Segunda regra do dia: quando o titulo do vidIQ com maior nota e praticamente igu
 ao titulo que ja esta no ar, ele nao serve, porque o objetivo da Etapa 2c e mudar
 CTR e titulo igual nao muda nada. Isso aconteceu no Midjourney, onde as notas 91 e
 87 eram reformulacoes do titulo vigente.
+
+## 04/10/2026 (guardiao, branch guardiao/2026-10-04)
+
+- higgsfield-genjutsu-motion-transfer-object-swap-director-test: correcao factual datada, sem troca
+  de titulo. Pagina mais clicada do site (16 cliques, 802 impressoes, posicao 10,9, CTR 2% em 28
+  dias). O artigo dizia que a pagina de produto e o blog da Higgsfield se contradiziam (3 s e 40
+  referencias contra 4 s e 30). Relido em 04/10: as duas paginas agora dizem 4 a 30 s e ate 30
+  referencias. Nota datada no topo da secao, description e nota de verificacao ajustadas,
+  updatedDate 2026-10-04, toolVersion 2026-10. Precos (40/104/144 creditos) conferidos, sem mudanca.
+- youtube-ai-dubbing-27-languages-what-it-cannot-do: nota datada no topo. A pagina de ajuda do
+  Google, relida em 04/10, ainda diz "You cannot edit automatic dubs" (a tese do artigo segue de
+  pe). Novo desde a publicacao: dublagem em tempo real para lives anunciada no Made on YouTube de
+  23/09, piloto no inicio de 2027 (Google + Slator). Idiomas do piloto nao publicados, nao citados.
+- remotion-claude-code-video-variations-director-method: o repositorio oficial
+  remotion-dev/skills tem 12 skills em 04/10; o artigo e a description diziam 11. Corrigido com
+  data. Versao do pacote 4.0.532 em 01/10 acrescentada. Precos da licenca NAO reconferidos (as
+  paginas da Remotion nao entregaram a tabela para leitura automatica); o artigo ja manda o leitor
+  checar os termos atuais.
+## 28/09/2026, primeira execucao depois da volta (branch guardiao/2026-09-28, PR para revisao do GPT)
+Search Console 3 meses: 31 cliques, 5,32 mil impressoes, CTR 0,6%, posicao 22,8.
+
+| 28/09 | seedance-2-5-1080p-what-the-resolution-upgrade-costs | Is Native 1080p Worth It? Seedance 2.5 Guide (antes: Seedance 2.5 1080p: The Upgrade Costs You 10 Seconds) | seedance 2.5 | 2.042.696/mes; pergunta "how to use seedance 2.5" 77.354 | PRIORIDADE 1: posicao 6,3 com 126 impressoes e zero clique. ESTADO SUPERADO: o Draft Mode saiu em 22/09 (API, Volcano Engine) e 23/09 (Higgsfield), e o 1080p deixou de ser exclusivo do Higgsfield. Nota datada, H2 com passo a passo do Draft Mode (semente travada, janela de 7 dias, aviso de regiao do changelog), H2 "Is native 1080p worth it now?" com a rotina real dele (720p + upscale, conforme CLAUDE.md), links oficiais. Titulo vidIQ nota 94, o de maior nota, nenhum descartado |
+| 28/09 | suno-commercial-rights-sync-licensing-what-producers-need-2026 | Suno AI Copyright: You Don't Own Your Songs (antes: Suno Copyright: What Breaks When You Monetize the Track) | suno ai copyright | 9.838 (raiz "suno copyright" 21.456; "suno ai copyright issue" 42.086); pergunta "how to make suno ai song copyright free" 8.547, +85% | PRIORIDADE 2: 298 impressoes, posicao 24,2. ESTADO SUPERADO: termos novos em 03/09 (download em plano pago e o que da uso comercial; free = 7 downloads de teste, sem uso comercial), v6 em 09/09 com Warner como parceira, novo processo Sony + Universal em 18/09 (60.202 gravacoes, ate US$ 9 bi). H2 no formato da pergunta, checklist de entrega, links para os termos. Titulo vidIQ nota 85 (empate com "Can You Monetize Suno AI? The Legal Reality", 85; escolhi o que responde a pergunta mais buscada) |
+| 28/09 | ai-short-drama-format-the-models-were-built-for | How to Build an AI Series That Doesn't Break (antes: AI Short Drama: The Format Built Around AI's Flaws) | ai drama | 866.701/mes, competicao 26,9; pergunta "how to make ai drama" 113.206, +125% | PRIORIDADE 1: posicao 8,6 com 63 impressoes e zero clique. Nota datada com a regra chinesa de 01/09 (selo de IA em todo episodio) e 367 mil microdramas no 1o semestre, mais de 74% por IA. H2 "What I would actually do this week" virou "How to make an AI drama, step by step", e ganhou um series bible colavel. CORRECAO BIOGRAFICA: tirei "fourteen years" (numero nao verificado) e reduzi a lista de clientes de 5 para 3, regra da paleta. Titulo vidIQ nota 96, sem descarte |
+
+Etapa 0 do dia: a edicao 5 do 5 Week Skills (21/09) entrou com description de 203 caracteres. Encurtada para 155.
+## 05/10/2026, guardiao (branch guardiao/2026-10-05)
+
+Correcao factual datada, sem troca de titulo. Gatilho: Eleven v4 e v4 Turbo, lancados em 28/09/2026. A pagina oficial de idiomas da clonagem profissional passou de 32 (Flash v2.5) para "90+" (familia v4).
+
+| data | artigo | titulo | o que mudou |
+|---|---|---|---|
+| 05/10 | elevenlabs-voice-ai-voice-id-review-2026 | mantido | 32 idiomas virou 90+ em tres trechos, clone instantaneo com 10 s, nota datada no topo, 3 fontes novas. Testes nao refeitos no v4, dito no texto |
+| 05/10 | elevenlabs-eleven-v3-dubbing-localization-what-producers-need | mantido | nota datada: descreve o v3 de marco, v4 e o atual, 70+ e numero do v3 |
+| 05/10 | ai-sound-design-commercial-video-production-tools-2026 | mantido | nota datada: Eleven v3 lido como modelo de marco, v4 e o atual |
+## Guardião 06/10/2026
+Escolha pelo Search Console de 28 dias (06/09 a 03/10), prioridade 1 do plano: posição entre 5 e 15, zero clique, nunca tratados neste ledger nem nos PRs abertos #1, #6 e #7. Análise documental, nenhuma ferramenta executada.
+
+| 06/10 | ltx-2-5-multi-shot-the-model-is-making-your-cut | LTX 2.5 Multi-Shot: Why You Shouldn't Let AI Cut Your Film | ltx 2.5 | 547.700 (o título antigo já tinha o termo; o problema era o clique) | 50 impressões, posição 8,9, CTR 0%. LTX 2.5 segue sendo o modelo atual; desde setembro a Lightricks publicou IC-LoRAs oficiais no Hugging Face. Nota datada, H2 "Where can you run LTX 2.5, and is it free?" respondendo as perguntas "where to run ltx 2.5" e "how to download ltx 2.5", e links clicáveis nas fontes, que antes eram só nomes. Título vidIQ nota 95, o maior da leva, nenhum descartado |
+| 06/10 | text-to-video-ai-sound-flux-3-director-read | FLUX 3 Video: What You Need to Know | flux 3 | 113.206 (vs 47.568 de "text to video", que abria o título antigo) | 24 impressões, posição 3,8, CTR 0%. ESTADO SUPERADO: o texto descrevia o acesso restrito de julho. Hoje o vídeo é API pública desde 04/08, tem upscale até 4K desde 20/08, e o FLUX 3 Action saiu com pesos abertos em 23/09; Image e Dev seguem no roadmap. Nota datada, H2 "Is FLUX 3 out, and how do you get access?". Duas correções factuais: Magnific descrito como só upscale (contraria o CLAUDE.md) e Seedance "30 s em 4K num passe" (o próprio artigo do Seedance corrigiu para 4K via upscale). Sora: "goes dark" virou "went dark". Título vidIQ nota 91, o maior |
+| 06/10 | higgsfield-cinema-studio-4-emotion-wheel-director-read | Why 'Be Sad' Ruins Your AI Film | higgsfield cinema studio | 123.157; pergunta "how to use higgsfield cinema studio" 28.699, +64% | 41 impressões, posição 6,4, CTR 0%. Cinema Studio 4.0 segue atual. Lista das 8 emoções conferida no anúncio oficial. Magnific "for enhancement" retirado da frase de stack. Ganhou H2 com passo a passo e um prompt colável (circunstância primeiro, tag de emoção por último). Título vidIQ nota 92, o maior; atenção: ele não tem a palavra Higgsfield, risco anotado no PR |

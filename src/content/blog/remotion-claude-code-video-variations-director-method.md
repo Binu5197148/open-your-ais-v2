@@ -1,9 +1,10 @@
 ---
 id: "art-180"
 title: "Remotion vs. AI: Why you need code for professional video"
-description: "Remotion renders video from React code instead of guessing it. The install, the 11 Claude Code agent skills, and the campaign job no AI model can do."
+description: "Remotion renders video from React code instead of guessing it. The install, the 12 Claude Code agent skills, and the campaign job no AI model can do."
 pubDate: "2026-09-03"
-toolVersion: "2026-09"
+updatedDate: "2026-10-04"
+toolVersion: "2026-10"
 category: "Workflow"
 tags:
   - "Remotion"
@@ -26,11 +27,11 @@ featured: false
 
 <h2>What Is Remotion, and What Does It Have to Do With Claude?</h2>
 <p>The framework has been around for years. What changed in 2026 is that it became something you can direct through an agent instead of typing yourself, and that is why the search traffic around it exploded into questions like "how to use Remotion with Claude Code" rather than "what is Remotion".</p>
-<p>The connection is a set of Agent Skills that Remotion publishes and maintains. They are plain instructions that teach a coding agent the house rules of a Remotion project: how the markup differs from a normal React app, how to preview in the Studio, how to render, how to handle captions and media. Eleven of them ship today, with <code>/remotion-best-practices</code> acting as the umbrella that covers the rest. The documentation names Claude Code, Codex, Kimi Code and Cursor as the agents they are written for.</p>
+<p>The connection is a set of Agent Skills that Remotion publishes and maintains. They are plain instructions that teach a coding agent the house rules of a Remotion project: how the markup differs from a normal React app, how to preview in the Studio, how to render, how to handle captions and media. Twelve of them ship as of October 4, 2026, up from eleven when this was first published (see the <a href="https://github.com/remotion-dev/skills/tree/main/skills" target="_blank" rel="noopener">skills folder</a> for the current list), with <code>/remotion-best-practices</code> acting as the umbrella that covers the rest. The documentation names Claude Code, Codex, Kimi Code and Cursor as the agents they are written for.</p>
 <p>The install is two commands and about a minute:</p>
 <pre><code>npx remotion skills add
 npx remotion skills update</code></pre>
-<p>The first pulls the skills into <code>.agents/skills</code> in your project, and symlinks <code>.claude/skills</code> to the same place so Claude Code finds them without extra configuration. The second is the one people forget: the skills are versioned alongside a framework shipping at a near daily pace, so an install from three months ago is teaching your agent stale patterns. As I write this, the <code>remotion</code> package sits at 4.0.520, published on September 1, 2026, four releases after 4.0.516 on August 24. That cadence is the reason the update command exists.</p>
+<p>The first pulls the skills into <code>.agents/skills</code> in your project, and symlinks <code>.claude/skills</code> to the same place so Claude Code finds them without extra configuration. The second is the one people forget: the skills are versioned alongside a framework shipping at a near daily pace, so an install from three months ago is teaching your agent stale patterns. As I write this, the <code>remotion</code> package sits at 4.0.520, published on September 1, 2026, four releases after 4.0.516 on August 24. By October 1 it was already at 4.0.532. That cadence is the reason the update command exists.</p>
 <p>You can also install through the general skills registry with <code>npx skills add remotion-dev/skills</code>, which is the route to use if you are collecting skills from several projects in one place.</p>
 
 <h2>The Job Nobody Writes About</h2>
