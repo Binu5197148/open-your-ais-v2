@@ -1,9 +1,10 @@
 ---
 id: "art-169"
-title: "LTX 2.5 Multi-Shot: Who Decides Where the Cut Lands"
-description: "One generation now returns several connected shots, so the model decides where the cut lands. Why that is a directing call and when to keep it manual."
+title: "LTX 2.5 Multi-Shot: Why You Shouldn't Let AI Cut Your Film"
+description: "LTX 2.5 returns several connected shots in one pass, so the model picks your cut. Where to run it free, what changed since launch, and when to cut by hand."
 pubDate: "2026-08-21"
-toolVersion: "2026-08"
+updatedDate: "2026-10-06"
+toolVersion: "2026-10"
 category: "AI"
 tags:
   - "LTX 2.5"
@@ -16,6 +17,11 @@ heroImage: "https://images.unsplash.com/photo-1583482183620-f692113aafc3?ixid=M3
 author: "Ulisses Balbino"
 readTime: "7 min read"
 ---
+
+<section class="article-note note-correction">
+<h2>Update</h2>
+<p>Updated Oct 6, 2026: LTX 2.5 is still the current Lightricks model, with no new version since the August 11 release. What changed is around it: since September, Lightricks has published a family of official IC-LoRAs for LTX 2.5 on Hugging Face, and this article now answers where to run the model and whether it is free. Source links were added to the verification list. The argument about the cut is unchanged.</p>
+</section>
 
 <p>LTX 2.5 landed on August 11, 2026 with open weights, and the thing that made it interesting took another week to show up. Not the model. The workflows. On August 19 and 20 the ComfyUI community published the all-in-one graphs and the low-VRAM builds, which is the moment a research release turns into something a working person can actually open on a Tuesday.</p>
 
@@ -85,9 +91,24 @@ readTime: "7 min read"
 
 <p>And when the model hands you four shots already cut together, treat that as a first assembly from an assistant who has never seen the film. Which is what it is. Assemblies are useful. They are just not the movie, and the difference between them has always been somebody deciding where to cut.</p>
 
+<h2>Where can you run LTX 2.5, and is it free?</h2>
+
+<p>Short answer: the weights are free to download, the licence is free for most small studios, and the official route is ComfyUI.</p>
+
+<ol>
+<li><strong>Get the weights.</strong> The model lives on <a href="https://huggingface.co/Lightricks/LTX-2.5">Hugging Face under Lightricks/LTX-2.5</a>. The repository is gated, so you accept the licence terms with a Hugging Face account before the files unlock.</li>
+<li><strong>Check the licence against your company, not your project.</strong> Use is free for organisations under USD 10 million in annual recurring revenue. Above that, Lightricks negotiates separately. Read the licence file in the repository yourself before a client job.</li>
+<li><strong>Pick the variant your machine can carry.</strong> Lightricks ships a full dev model and a distilled one, and the distilled transformer also comes in int8 and NVFP4 builds that are lighter on memory. Community low-VRAM workflows exist, but they are third-party, and quality trades against memory.</li>
+<li><strong>Open it in ComfyUI.</strong> Official workflow templates ship through the <a href="https://github.com/Lightricks/ComfyUI-LTXVideo">ComfyUI-LTXVideo</a> nodes. If your own GPU cannot hold it, a cloud ComfyUI runs the same graph. I use Comfy Cloud for exactly that reason.</li>
+<li><strong>Add the official IC-LoRAs when you need a specific job.</strong> Since September, Lightricks has published single-purpose LoRAs for LTX 2.5, among them Restore, Refine Details, SDR to HDR, Clean Plate, Day to Night and Layout to Render. They are <a href="https://huggingface.co/Lightricks">listed on the Lightricks Hugging Face page</a>.</li>
+</ol>
+
+<p>That last item is the one that fits the argument above. A model you can adapt with your own material, and with narrow tools aimed at one problem each, is a model you can bend toward a look. Multi-shot is still the part to treat as a first assembly.</p>
+
 <section class="article-note note-sources">
 <h2>Sources and verification</h2>
 <p>Facts verified August 21, 2026 against two or more independent sources per claim.</p>
+<p>Rechecked October 6, 2026. Links: <a href="https://blog.comfy.org/">ComfyUI blog</a>, <a href="https://comfyui-wiki.com/en/news/2026-08-11-ltx-2-5-open-weights-release">ComfyUI Wiki release note for LTX-2.5</a>, <a href="https://huggingface.co/Lightricks/LTX-2.5">Lightricks/LTX-2.5 on Hugging Face</a>, <a href="https://github.com/Lightricks/ComfyUI-LTXVideo">ComfyUI-LTXVideo on GitHub</a>. This is a documentary analysis: the model was not benchmarked for this article.</p>
 <ol>
 <li>LTX-2.5 released August 11, 2026 with open weights: datanorth.ai news item "LTX releases LTX-2.5: Open weights video world model", VentureBeat ("LTX-2.5 can generate a 10-second AI video from an image in just 6.8 seconds on Nvidia superchips and it's open weights"), and blog.comfy.org "LTX-2.5 is now available in ComfyUI".</li>
 <li>Speed: 10-second 720p clip in 6.8 seconds on two NVIDIA GB200 GPUs self-hosted, 23.7 seconds via API: datanorth.ai, corroborated by the VentureBeat headline figure.</li>
