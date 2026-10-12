@@ -468,10 +468,10 @@ Escrito aqui para nao ser esquecido.
   O limite que sobra e outro e continua aberto: **nenhum zip carrega arquivo de
   licenca.** A pagina resolve isso com uma frase de permissao no rodape, o que nao e a mesma coisa
   que um `LICENSE` dentro da pasta. Enquanto for assim, quem baixar depende de ter lido o rodape.
-- A gauntlet-loop nao esta na pagina, de proposito. A edicao 1 diz ao leitor que ela nao da para
-  instalar e que so sai na edicao 5, em 21 de setembro. Enquanto o artigo disser isso, o zip fica
-  fora de `public/skills/` e fora de `/skills`. Se ela ficar pronta antes, quem muda primeiro e o
-  artigo, nunca o site sozinho.
+- **Corrigido em 2026-09-28 pela edicao 6.** Este item dizia que a gauntlet-loop nao estava em
+  `public/skills/` nem na pagina `/skills`. Ela esta nos dois desde 22/08, e o artigo da edicao 1
+  nunca disse que ela era ininstalavel. A divergencia foi registrada no ledger nas edicoes 3, 4 e
+  5. Quem estava desatualizada era esta especificacao, nao o site.
 - Nao ha revisor humano definido. A coluna verifica ferramentas de terceiros, mas ninguem
   verifica a coluna.
 
