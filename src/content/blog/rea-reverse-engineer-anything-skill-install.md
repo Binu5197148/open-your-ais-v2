@@ -1,7 +1,7 @@
 ---
 id: "art-189"
-title: "REA and the App You Build for Yourself: Why It Worries Me"
-description: "REA lets an agent take any app apart and explain it. I tested it on my own site. The app on demand is coming, and I worry about who it leaves out."
+title: "Free REA Skill Download, and the App on Demand That Worries Me"
+description: "Download REA free: the skill that lets your agent take any app apart and explain it. I tested it, and here is why the app on demand worries me."
 pubDate: "2026-10-13"
 toolVersion: "2026-10"
 category: "AI"
@@ -21,7 +21,9 @@ readTime: "7 min read"
 
 <p>The pitch fits on one line of its README: see a feature you like in an app, then understand how it works, down to the binary level. Your agent inspects the shipped files, explains the feature, shows the evidence, and can build a version of it for your own project.</p>
 
-<p>I installed it this morning and ran it on the build of this website. At the end of this piece you get the skill and the exact steps. But the tool is not what kept me thinking all day. What kept me thinking is where it points.</p>
+<p>I installed it this morning and ran it on the build of this website, and I am giving it to you. <a href="#download-rea">Download the REA skill free</a> or open the repository, with the exact install steps, further down this page.</p>
+
+<p>But the tool is not what kept me thinking all day. What kept me thinking is where it points.</p>
 
 <h2>What I installed and what I ran</h2>
 
@@ -69,7 +71,7 @@ readTime: "7 min read"
 
 <p>REA is that pause button for software. Its own <a href="https://github.com/morluto/rea/blob/main/DISCLAIMER.md">disclaimer</a> draws the same line the pause button always had: study, security research, interoperability and auditing software you own, yes. Breaking DRM or license checks, building cheats, bypassing logins, or copying someone's protected code, no. Reverse engineering can also be restricted by law where you live, or by a program's license. That is why my test ran on my own site.</p>
 
-<h2>Download REA</h2>
+<h2 id="download-rea">Download REA</h2>
 
 <p>I am putting the repository here so you can use it. REA is open source under the MIT license, and all credit goes to its authors. Get it straight from the source, which is always the newest version, or download the skill I packaged from it today.</p>
 
