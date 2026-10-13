@@ -69,10 +69,22 @@ readTime: "7 min read"
 
 <p>REA is that pause button for software. Its own <a href="https://github.com/morluto/rea/blob/main/DISCLAIMER.md">disclaimer</a> draws the same line the pause button always had: study, security research, interoperability and auditing software you own, yes. Breaking DRM or license checks, building cheats, bypassing logins, or copying someone's protected code, no. Reverse engineering can also be restricted by law where you live, or by a program's license. That is why my test ran on my own site.</p>
 
-<h2>How to get it</h2>
+<h2>Download REA</h2>
+
+<p>I am putting the repository here so you can use it. REA is open source under the MIT license, and all credit goes to its authors. Get it straight from the source, which is always the newest version, or download the skill I packaged from it today.</p>
+
+<section class="editorial-cta">
+<h3>REA, Reverse Engineer Anything</h3>
+<p>The full repository on GitHub, with the MCP server, the skill, the docs and the disclaimer.</p>
+<p class="editorial-cta__actions"><a class="editorial-cta__button" href="https://github.com/morluto/rea" rel="noopener noreferrer">Open the REA repository →</a></p>
+<p>Or download just the skill: the <code>reverse-engineer-anything</code> folder copied from the repository on October 13, 2026, with the MIT license and a short README. The skill teaches your agent how to use REA. The tools themselves come from <code>npx rea-agents setup</code>.</p>
+<p class="editorial-cta__actions"><a class="editorial-cta__button" href="/skills/rea-reverse-engineer-anything.zip" download>Download the REA skill free ↓</a></p>
+</section>
+
+<h2>How to install it</h2>
 
 <ul>
-  <li><strong>Source and docs:</strong> <a href="https://github.com/morluto/rea">github.com/morluto/rea</a> and <a href="https://rea.tools/">rea.tools</a>.</li>
+  <li><strong>Docs:</strong> <a href="https://rea.tools/">rea.tools</a> has setup guides and case studies.</li>
   <li><strong>Install:</strong> <code>npx rea-agents setup</code>. It works with Claude Code, Codex, Cursor, Gemini CLI and other agents. Restart the agent afterwards.</li>
   <li><strong>Node.js:</strong> use 22, 24 or 26. If setup stops at <code>needs_human</code>, check this first.</li>
   <li><strong>First test:</strong> <code>npx -y rea-agents@latest analyze-javascript-application /absolute/path --json</code> on something you own. Read the <code>limitations</code> field before the findings.</li>
