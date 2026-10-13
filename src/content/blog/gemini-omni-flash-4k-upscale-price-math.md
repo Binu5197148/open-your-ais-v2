@@ -95,7 +95,8 @@ readTime: "7 min read"
 
 <p>The draft call, adapted from Google's own example:</p>
 
-<pre><code>from google import genai
+```python
+from google import genai
 import base64
 
 client = genai.Client()
@@ -106,7 +107,7 @@ draft = client.interactions.create(
 )
 with open("draft.mp4", "wb") as f:
     f.write(base64.b64decode(draft.output_video.data))
-</code></pre>
+```
 
 <p>Two limits to know before you plan a job around it. Editing or extending uploaded videos is not available in the EEA, Switzerland or the UK, and uploaded clips must be ten seconds or shorter.</p>
 

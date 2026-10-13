@@ -94,7 +94,8 @@ readTime: "6 min read"
 
 <p>This is the call sheet format from above, as a block you can fill in. Keep the beats in order and give each one a time.</p>
 
-<pre><code>SHOT: [one line: what this shot is for in the cut]
+```text
+SHOT: [one line: what this shot is for in the cut]
 DURATION: [e.g. 20 s]
 CAMERA: [locked / slow push in / handheld follow], [lens feel: wide, 35mm, long lens]
 LIGHT: [source and direction, e.g. hard sun from frame left, late afternoon]
@@ -111,7 +112,7 @@ Audio:  [track or line]                   (timing, lip sync)
 Video:  [clip]                            (only for a move you can point at)
 
 DO NOT: [the one thing that would ruin it, e.g. no zoom, no slow motion]
-</code></pre>
+```
 
 <p>Run it at 480p first and judge one thing only: do the beats happen, in order, in the time you gave them. If you want the longer case for rendering at 720p and upscaling instead of paying for native 1080p, it is in <a href="/blog/seedance-2-5-1080p-what-the-resolution-upgrade-costs/">the Seedance 2.5 1080p cost breakdown</a>.</p>
 
