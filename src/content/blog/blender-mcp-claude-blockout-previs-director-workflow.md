@@ -60,6 +60,7 @@ featured: false
 <h2>How Do You Install Blender MCP with Claude?</h2>
 <p>There are two different things called Blender MCP, and the searches mix them up.</p>
 <p>The first is the open-source project published on GitHub as ahujasid/blender-mcp, the one most tutorials mean. It is MIT licensed, it is free, and it talks to Claude directly with no Higgsfield account. Its package has been renamed to <code>mcp-for-blender</code>; the README says the old <code>blender-mcp</code> name still works. You need Blender 3.0 or newer, Python 3.10 or newer, and the uv package manager installed from its official installer, not through pip.</p>
+
 ```bash
 # 1. Install the Blender add-on
 uvx mcp-for-blender install-addon
@@ -77,6 +78,7 @@ claude mcp add blender uvx mcp-for-blender
 
 # 3. In Blender: press N in the viewport, open the "MCP for Blender" tab, click Start MCP Server
 ```
+
 <p>Run one client at a time against it, Claude Desktop or Cursor, not both.</p>
 <p>The second is Higgsfield's add-on, the one this piece is about. It needs Blender 5.1 or later on Windows or macOS. You download the zip from Higgsfield, drag it onto an open Blender window without unzipping, and sign in on the bar that appears over the viewport. To let Claude act inside the open scene, you add <code>bridge.higgsfield.ai/mcp</code> as a connector in Claude and sign in. Generations spend Higgsfield credits, the same pool as the web platform, and the cost shows on the button before you run it.</p>
 <p>Now the warning, and it is not a formality. The open-source server includes a tool that runs arbitrary Python inside Blender, and its socket has no authentication or encryption. Anyone who can reach that port can run code on your machine. Keep it on localhost, save your file before you let an agent touch it, and consider the optional safe mode, <code>BLENDER_MCP_SAFE_MODE=1</code>, which blocks file access, network calls and launching other programs. The README also says a minimal anonymous usage record is sent by default unless you set <code>DISABLE_TELEMETRY=true</code>.</p>
