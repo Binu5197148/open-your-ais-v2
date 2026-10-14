@@ -1,8 +1,10 @@
 ---
 id: "art-055"
-title: "Cursor AI Review: Where It Breaks on Real Projects"
-description: "One month, four real tasks, one live site. Where Cursor saved days, where it wrote confident nonsense, plus the developer who should skip it entirely."
+title: "Is Cursor AI Worth It Now? The Real Risks"
+description: "Cursor now sells as one plan with Grok and X, Claude costs extra and OpenAI leaves on Nov 12. New prices, the $8 trap and a checklist before you switch."
 pubDate: "2026-03-02"
+updatedDate: "2026-10-14"
+toolVersion: "2026-10"
 category: "AI"
 tags:
   - "Cursor"
@@ -11,90 +13,55 @@ tags:
   - "Tools"
 heroImage: "https://images.unsplash.com/photo-1570785910568-62040c41db1a?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHwxMHx8ZmlsbSUyMHJlZWwlMjAzNW1tJTIwYW5hbG9nfGVufDF8MHx8fDE3NzY3MjQyNjB8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85&sat=-100&con=10"
 author: "Ulisses Balbino"
-readTime: "7 min read"
+readTime: "6 min read"
 ---
 
-<h2>The Promise</h2>
-<p>Every developer I know is talking about Cursor. It's being called "the end of coding as we know it." As someone who directs films, runs a production company, and builds web projects on the side, I was skeptical. I've seen too many tools promise to replace skilled work, only to create a different kind of work.</p>
-<p>But I've been using Cursor as my primary development environment for the past month. I built and maintain the entire Open Your AIs website with it. Here's what actually happened, from the perspective of a non-developer who codes out of necessity.</p>
+<!-- Rewrite 2026-10-14 (guardiao): the March version described four first-person tests, a client job and a claim that this site was built in Cursor. None of that could be verified, and the site is built and maintained with Claude Code and Codex. The piece is now a documentary analysis of Cursor's current state, with sources linked. Pricing read on cursor.com/pricing on October 14, 2026. -->
 
-<h2>What It Does</h2>
-<p>Cursor is a code editor (forked from VS Code) with deeply integrated AI capabilities. It's not a chatbot that writes code when you ask. It's an editor that understands your entire codebase and can modify it based on natural language instructions.</p>
-<p>Key features:</p>
+<p><em>Updated October 14, 2026. This piece was rewritten. The March version read like a hands-on review, and it should not have: I have not used Cursor on a paid job, and this site is built and maintained with Claude Code and Codex. What follows is an analysis of Cursor as it stands today, from its own pages and the reporting linked at the end. Two things changed this year that matter more than any feature: who owns Cursor, and how you pay for it.</em></p>
+
+<h2>Cursor AI in October 2026: what changed</h2>
+<p>Cursor is still the same idea it was in March: a code editor forked from VS Code, with agents that read your whole project and change several files at once. What changed is everything around it.</p>
+<p>SpaceX agreed in June to buy Anysphere, the company behind Cursor, for 60 billion dollars, and the deal closed in August. On August 28, OpenAI told SpaceX it would wind down its contract and cut Cursor off from its models on November 12, 2026, saying it could not be confident its technology would be used within its terms. Cursor's CEO, Michael Truell, said OpenAI models were about 5 percent of user traffic, and that Anthropic, Google and Grok models stay available.</p>
+<p>Then, this week, the price list stopped being a Cursor price list. On October 12 and 13, SpaceXAI launched one subscription that bundles Grok, Cursor and X Premium. The pricing page at cursor.com now sells that bundle.</p>
+
+<h2>How much does Cursor cost now?</h2>
+<p>Read on the official page on October 14, 2026:</p>
 <ul>
-<li><strong>Codebase awareness:</strong> Cursor indexes your entire project and understands how files relate to each other. When you ask it to modify a component, it knows which other files are affected.</li>
-<li><strong>Chat + Apply:</strong> Describe what you want in plain English. Cursor generates the code and shows you a diff. Accept it, reject it, or modify it.</li>
-<li><strong>Agent mode:</strong> Give Cursor a higher-level task, "add a dark mode toggle to the site", and it plans and executes multiple file changes autonomously.</li>
-<li><strong>Tab completion:</strong> As you type, Cursor predicts your next lines based on context. Not generic autocomplete: context-aware predictions that understand what you're building.</li>
-<li><strong>Inline editing:</strong> Select a block of code, describe what you want changed, and Cursor rewrites it in place.</li>
+<li><strong>Free, $0.</strong> Limited AI usage, including limited agent requests.</li>
+<li><strong>Plus, $8 a month.</strong> A shared usage pool, but only Grok models.</li>
+<li><strong>Premium, $30 a month.</strong> Four times the Plus usage, the latest Grok models, and third-party models in Cursor.</li>
+<li><strong>Super, $100</strong> (15 times Plus) and <strong>Ultra, $200</strong> (50 times Plus).</li>
+<li><strong>Teams</strong> from $30 per user, and Enterprise on request.</li>
 </ul>
+<p>Two lines on that page decide whether this is a good deal for you. First, the allowance is one pool shared across Cursor and Grok, and it refreshes weekly. Second, third-party models in Cursor are not included in the monthly price. They are billed separately, at the provider's API list price. If your habit was Cursor with Claude inside it, that is now a second bill on top of the subscription.</p>
+<p>Existing Cursor subscribers do not have to switch. According to the coverage of the launch, the option to move appears gradually in billing settings, comes with a prorated refund, and is permanent once the accounts are unified. The old plans are closed to new sign-ups.</p>
 
-<h2>Real-World Test</h2>
-<p>I didn't test Cursor with toy projects. I used it for real work that ships to real users. Here are four scenarios from the past month:</p>
+<h2>Can you use Cursor AI for free?</h2>
+<p>Yes, with a ceiling you cannot see in advance. The Free tier includes a starter allowance for Cursor's agents, but the page describes it only as limited, and usage costs vary by product, so it does not translate into a fixed number of prompts. Treat it as a trial of the workflow, not a way to run a project.</p>
+<p>The cheapest paid tier is the trap to watch. Plus is 8 dollars and looks like the obvious upgrade, but it runs Grok models only. If the reason you want Cursor is a specific model, the real entry price is Premium, plus whatever that model costs at list price.</p>
 
-<h3>Test 1: Building a Complete Article System</h3>
-<p>Open Your AIs needed a new article management system: article pages, category filtering, tag navigation, search functionality, and SEO optimization. I described the requirements to Cursor in plain English across several sessions.</p>
-<p>Result: Cursor built a functional article system in about 3 days of part-time work. The component structure was clean, the routing worked, and the SEO implementation was solid. What would have cost me $3,000-$5,000 to hire a developer for was done for $20 (my Cursor subscription).</p>
-<p>The caveat: I had to make 20-30 corrections along the way. Cursor would occasionally implement something that technically worked but wasn't what I meant. The specificity of my descriptions improved over time. I learned to speak "Cursor" the way I learned to speak "Midjourney."</p>
+<h2>What Cursor does well</h2>
+<p>The documented strengths have not moved. Cursor indexes the project, so an instruction can touch every file it needs. Agent mode plans a multi-file change and shows you the diff before anything lands. Tab completion predicts from context, not from a generic pattern.</p>
+<p>The recent changelog points in one direction, toward agents that work while you are not watching. September brought Cursor Projects, a beta in which one agent coordinates others on multi-month work, and a Security Review bot that flags exploitable bugs on pull requests. On October 6 Cursor added remote control of local agents from its iOS app. On October 13 its Origin product opened an app marketplace.</p>
 
-<h3>Test 2: Refactoring Legacy Code</h3>
-<p>I had old website code from 2019 that I was genuinely afraid to touch. Spaghetti JavaScript, inline styles, no component structure. Cursor refactored an entire component library in an afternoon: extracting components, creating proper interfaces, converting inline styles to CSS modules.</p>
-<p>This would have taken me a week of careful manual work. Cursor did it in 4 hours. And the code was cleaner than what I would have written myself, because it followed modern patterns that I hadn't learned yet.</p>
+<h2>Is Cursor AI worth it?</h2>
+<p>That depends less on the editor than on your tolerance for one company owning the whole stack: the editor, the default model, and now the subscription that also sells you a social network. The tool did not get worse this year. The ground under it moved twice, and both moves were decided far from the people writing code.</p>
+<p>I have written about this pattern from the film side, when <a href="/blog/sora-api-shutdown-platform-dependency-filmmakers/">Sora's API shut down and took people's pipelines with it</a>. The lesson transfers exactly. If a model switch, a price change or a contract dispute between two companies can stop your work, you do not own your workflow. You rent it.</p>
+<p>That is the reason I build with tools I can swap. This site runs on Claude Code and Codex side by side, and the part that holds the work together is not either agent. It is the <a href="/blog/claude-code-agents-gauntlet-loop-verification/">verification loop that checks whatever the agent produced</a>. Swap the agent and the loop still catches the same mistakes.</p>
+<p>The limits that every serious write-up of AI coding names still apply here, whichever model you pick. Agents invent API calls that sound right. They over-build simple requests. They write code that works before it is safe, so input validation and authentication are your job. None of that is specific to Cursor, and none of it is fixed by a bigger plan.</p>
 
-<h3>Test 3: Debugging a Production Issue</h3>
-<p>A routing bug was causing 404 errors on certain article pages. I pasted the error, described the behavior, and asked Cursor to diagnose. It identified the issue (a dynamic route parameter conflict), explained why it was happening, and fixed it in 3 minutes.</p>
-<p>Without Cursor, I would have spent hours googling error messages, reading Stack Overflow answers from 2018, and trying solutions until something worked. Cursor understood my specific codebase and gave me a targeted fix.</p>
+<h2>Before you switch to the new plan: a checklist</h2>
+<ol>
+<li><strong>List the models you actually use.</strong> If any of them is from OpenAI, plan for November 12. If it is Claude or another third party, price it at API list rates, on top of the plan.</li>
+<li><strong>Check your current plan before you unify.</strong> The switch is described as permanent. Compare your real monthly usage with the weekly pool, not the monthly price.</li>
+<li><strong>Set a spending cap</strong> on third-party usage before you turn it on.</li>
+<li><strong>Keep your project portable.</strong> Rules, prompts and skills in plain files in the repository move with you to any editor. Settings locked inside one product do not.</li>
+<li><strong>Try the Free tier on a throwaway branch first,</strong> and read the diff of every agent change before you accept it.</li>
+</ol>
 
-<h3>Test 4: Adding a New Feature Under Pressure</h3>
-<p>A client needed a specific feature added to a web project within 24 hours. The feature: an interactive image gallery with filtering, lazy loading, and responsive grid layout. I described it to Cursor and it generated the entire component, including the CSS, the filtering logic, and the lazy loading implementation.</p>
-<p>From request to working feature: 2 hours. From request to polished, production-ready feature: 4 hours (including my manual refinements). Without Cursor: this would have been a "sorry, I can't do it in 24 hours" conversation.</p>
+<h2>Who should use it</h2>
+<p>Cursor still makes sense for developers who want an editor first and an agent second, and who are comfortable with Grok as the house model or happy to pay list price for another. It makes less sense if your work depends on one specific outside model, or if a contract between two companies you do not control is a risk you cannot absorb.</p>
+<p>The deciding question was never which editor writes code fastest. It is who is responsible for the code once it ships. That has always been the person reading the diff, and no subscription tier changes it.</p>
 
-<h2>What Works</h2>
-<ul>
-<li><strong>Speed of iteration:</strong> I can describe what I want in plain English and get working code. Not pseudocode. Not "almost working" code. Working code that I can deploy. The iteration cycle (describe, generate, review, refine) is dramatically faster than manual coding.</li>
-<li><strong>Learning accelerator:</strong> I'm not a programmer by training. I'm a filmmaker who learned to code out of necessity. I've learned more about how web development actually works in one month with Cursor than in years of trying to teach myself. It explains what it's doing while it does it. Every code generation is a mini-lesson.</li>
-<li><strong>Refactoring without fear:</strong> Old code, messy code, someone-else's code: Cursor handles it all. The anxiety of touching legacy systems is gone because Cursor can explain what the code does, identify risks, and make changes surgically.</li>
-<li><strong>Context awareness:</strong> Unlike generic AI chatbots, Cursor understands your project. It knows your file structure, your component patterns, your variable naming conventions. This means its suggestions actually fit your codebase instead of being generic examples you need to adapt.</li>
-<li><strong>Agent mode for complex tasks:</strong> The ability to say "add dark mode to the entire site" and have Cursor modify 15 files consistently is remarkable. It plans the changes, executes them, and shows you everything before you accept.</li>
-</ul>
-
-<h2>What Doesn't Work</h2>
-<ul>
-<li><strong>Complex architecture decisions:</strong> For big-picture planning (should I use Next.js or Remix? How should I structure my database? What's the right caching strategy?), you still need a human who understands the tradeoffs. Cursor is brilliant at executing a vision. Terrible at creating one.</li>
-<li><strong>Debugging its own errors:</strong> Here's the irony: when Cursor creates bugs, they're often harder to fix than bugs I'd create myself. Because the logic is more complex and the AI doesn't always explain its reasoning. I've had situations where Cursor's fix for a Cursor-created bug introduced a third bug. The cycle can be frustrating.</li>
-<li><strong>Security awareness:</strong> Cursor writes functional code, not secure code. It won't automatically add input validation, CSRF protection, or proper authentication patterns unless you specifically ask. For anything that handles user data, you need security expertise that Cursor doesn't provide.</li>
-<li><strong>Hallucination in APIs:</strong> Cursor sometimes invents API methods that don't exist. It will confidently use a function name that sounds right but isn't real, leading to errors that are confusing until you realize the AI made it up.</li>
-<li><strong>Over-engineering:</strong> When given a simple task, Cursor sometimes produces overly complex solutions. Ask for a toggle button and you might get a state management system. You need to know enough about code to recognize when the solution is bigger than the problem.</li>
-</ul>
-
-<h2>Pros and Cons</h2>
-<h3>Pros</h3>
-<ul>
-<li>Dramatically faster development for standard web projects</li>
-<li>Excellent learning tool for non-developers building web projects</li>
-<li>Codebase-aware suggestions that actually fit your project</li>
-<li>Agent mode handles multi-file changes coherently</li>
-<li>$20/month replaces thousands in development costs for simple projects</li>
-</ul>
-<h3>Cons</h3>
-<ul>
-<li>Creates bugs that are harder to diagnose than human-created bugs</li>
-<li>No architectural judgment: you need to make the big decisions</li>
-<li>Security is not handled automatically</li>
-<li>Occasional API hallucinations that waste debugging time</li>
-<li>Tendency to over-engineer simple features</li>
-<li>Code is sent to AI servers: consider NDAs and sensitive projects</li>
-</ul>
-
-<h2>Who It's For</h2>
-<p><strong>Non-developer creators:</strong> If you're a filmmaker, designer, writer, or creator who needs web development capabilities but isn't a trained programmer, Cursor is transformative. It bridges the gap between having a vision and having a website. This is my use case, and it's where Cursor delivers the most value.</p>
-<p><strong>Solo founders:</strong> Building an MVP without a development team? Cursor lets you go from idea to functional prototype in days instead of weeks. The savings in development costs alone justify the subscription many times over.</p>
-<p><strong>Junior developers:</strong> Cursor accelerates learning and handles the boilerplate so you can focus on understanding patterns and architecture. It's like having a senior developer sitting next to you.</p>
-<p><strong>Experienced developers:</strong> For boilerplate, refactoring, documentation, and repetitive patterns, Cursor saves real time. It won't replace your architectural thinking, but it will free you to focus on it.</p>
-<p><strong>Not ideal for:</strong> Security-critical applications, projects under strict NDAs where sending code to AI servers is a concern, or teams that need their own proprietary development tooling.</p>
-
-<h2>The Verdict</h2>
-<p>Cursor isn't replacing developers. It's replacing the parts of development that developers hate: boilerplate, repetitive patterns, documentation, basic CRUD operations, and the hours spent googling how to do something you've done differently 50 times before.</p>
-<p>What it can't replace: creative problem-solving, architectural decisions, understanding what users actually need, security expertise, and the judgment to know when code is "right" versus merely "working."</p>
-<p>For me, a filmmaker who also builds web products, Cursor has been the single most impactful tool I've adopted. It turned me from "someone who struggles with code" into "someone who builds functional web applications." That's not incremental improvement. That's a category change.</p>
-<p><strong>Rating: 8/10</strong>. Essential for modern development, especially for non-developers building web projects. Loses points for debugging its own errors, security blind spots, and the occasional hallucination. But the productivity gain is undeniable.</p>
+<p><em>Sources, checked October 14, 2026: <a href="https://cursor.com/pricing" target="_blank" rel="noopener">Cursor, pricing (plans, shared weekly pool, third-party models billed separately)</a> | <a href="https://cursor.com/changelog" target="_blank" rel="noopener">Cursor, changelog (Projects, Security Review, remote control, Origin marketplace)</a> | <a href="https://www.teslarati.com/spacex-just-combined-grok-cursor-and-x-into-one-mega-plan/" target="_blank" rel="noopener">Teslarati, the combined Grok, Cursor and X plan (October 13, 2026)</a> | <a href="https://www.freepressjournal.in/tech/x-launches-unified-subscription-bundling-grok-cursor-and-premium-all-details" target="_blank" rel="noopener">Free Press Journal, X unified subscription details (October 13, 2026)</a> | <a href="https://www.cnbc.com/2026/06/16/spacex-spcx-cursor-acquisition-ipo.html" target="_blank" rel="noopener">CNBC, SpaceX to acquire Cursor for 60 billion dollars</a> | <a href="https://www.cnbc.com/2026/08/29/openai-cursor-spacex-model-access.html" target="_blank" rel="noopener">CNBC, OpenAI to end model access to Cursor (August 29, 2026)</a></em></p>
