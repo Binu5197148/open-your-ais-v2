@@ -86,7 +86,7 @@ readTime: "6 min read"
 
 <h2>Can you use Seedance 2.5 for free?</h2>
 
-<p>A little, and not where most people look first. Higgsfield has no free tier for Seedance 2.5; its cheapest plan that includes the model is the $49 one. What it does offer is a trial on the 1080p version: five generations of up to 20 seconds, usable within 24 hours, with card verification and no charge. Dreamina, ByteDance's own app, has a free tier with daily bonus credits, capped per day and not available in every region. Treat both as a way to test the method below, not as a production budget.</p>
+<p>A little, and not where most people look first. Higgsfield has no free tier for Seedance 2.5; its cheapest plan that includes the model is the $49 one. On August 14 it announced a trial on the 1080p version, described as a temporary offer for new users: five generations of up to 20 seconds, usable within 24 hours, with card verification and no charge. That was the August announcement; confirm on Higgsfield that the trial is still running before you count on it. Dreamina, ByteDance's own app, has a free tier with daily bonus credits, capped per day and not available in every region. Treat both as a way to test the method below, not as a production budget.</p>
 
 <p>The credit math is the reason to draft. On Higgsfield's own published pricing, an 8 second clip costs 24 credits at 480p and 52 at 720p. Every failed take you catch at 480p saves you more than half.</p>
 
