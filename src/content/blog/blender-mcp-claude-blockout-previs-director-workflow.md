@@ -1,9 +1,10 @@
 ---
 id: "art-179"
-title: "Blender MCP and Claude: A Director's Analysis"
-description: "Higgsfield put Blender MCP behind an agent bridge. It does not model, it blocks out, and cheap blockout changes what gets decided before a shoot day."
+title: "Blender MCP vs Manual Previs: Is it Worth It?"
+description: "Blender MCP can generate models, but the job worth giving it is blockout. Why that makes previs cheap for every shot, plus Claude install steps and the risk."
 pubDate: "2026-09-02"
-toolVersion: "2026-09"
+updatedDate: "2026-10-13"
+toolVersion: "2026-10"
 category: "Workflow"
 tags:
   - "Blender"
@@ -19,10 +20,14 @@ readTime: "9 min read"
 featured: false
 ---
 
+<!-- Refresh 2026-10-13: install section added for the open-source MCP for Blender (github.com/ahujasid/blender-mcp, package now mcp-for-blender) and for the Higgsfield add-on and bridge (Blender 5.1+, Higgsfield credits). Security notes taken from the repository README. -->
+
+<p><em>Updated October 13, 2026. Most people searching for Blender MCP want to install it, and this piece only covered Higgsfield's add-on. A new section near the end gives the setup for both routes: the open-source MCP for Blender, which connects Blender to Claude directly, and Higgsfield's bridge. It also covers the one security warning you should read before you connect anything. The argument about blockout is unchanged. This is an analysis of the tools and their documentation, not a review of a paid job.</em></p>
+
 <h2>The Announcement Everyone Read Wrong</h2>
 <p>On August 25, 2026, Higgsfield shipped an add-on that puts Blender MCP in front of a much wider audience than the 3D crowd. You prompt the scene and it builds the blockout. You describe the camera move and it animates it. You adjust anything by hand, then ask for the whole shot to be reblocked. The bridge runs at bridge.higgsfield.ai/mcp, which means an agent can work inside the Blender scene you already have open.</p>
 <p>The reaction I saw was some version of "AI does 3D now". That is the wrong read, and the wrong read is going to cost people a week of disappointment.</p>
-<p>It does not model. It blocks out. Those are different jobs, and the second one is the one worth automating.</p>
+<p>It can model. Higgsfield's guide lists a 3D Model tab that generates meshes, materials and UVs. But that is not the job I would hand it. The job worth automating is blockout, and those are different jobs.</p>
 
 <h2>What Does Blender MCP Do in a Real Shot?</h2>
 <p>Blockout is the grey stage. Boxes standing in for a car, a cylinder standing in for a column, a plane where the wall goes. No materials, no lighting design, nothing you would ever show a client as a finished frame. Its only job is to answer geometry questions: can the camera get there, does the move read, is the subject blocked by that pillar at second four.</p>
@@ -48,13 +53,43 @@ featured: false
 <p>The reason I bring it up in a piece about a Blender plugin is that a cheap tool does not create initiative. It only removes the excuse. If blockout was too expensive to bother with yesterday and it costs twenty minutes today, and you still skip it, the problem was never the price.</p>
 
 <h2>What It Does Not Replace</h2>
-<p>A blockout is not an asset. Nothing in this workflow gives you a finished model, a clean topology, a rig you would trust in a hero shot, or lighting that survives a grade. The people who do that work are still doing that work, and if anything they get handed a better brief, because the camera is already decided when the scene reaches them.</p>
+<p>A blockout is not an asset. Nothing in the blockout workflow I am describing gives you a finished model, a clean topology, a rig you would trust in a hero shot, or lighting that survives a grade. The people who do that work are still doing that work, and if anything they get handed a better brief, because the camera is already decided when the scene reaches them.</p>
 <p>There is also a failure mode worth naming. Plain language is precise about intent and vague about scale. Ask for a room and you will get a room, but the door will be the wrong height and you will not notice until the character walks through it. Fix the scale by hand early, before you build anything on top of it. The reblock is fast, which tempts you to regenerate instead of correct, and regenerating a wrong assumption gives you the same wrong assumption in a new shape.</p>
 <p>And the thing this does not touch at all is the decision. Which move serves the scene. Where the cut wants to be. Whether the shot is saying what the script asked it to say. I wrote about this when I <a href="/blog/higgsfield-cinema-studio-ai-director-control-review/">tested Higgsfield Cinema Studio on three commercial scenarios</a>, and the finding has not moved: the tool is very good at giving you more options and completely uninterested in which one is right.</p>
+
+<h2>How Do You Install Blender MCP with Claude?</h2>
+<p>There are two different things called Blender MCP, and the searches mix them up.</p>
+<p>The first is the open-source project published on GitHub as ahujasid/blender-mcp, the one most tutorials mean. It is MIT licensed, it is free, and it talks to Claude directly with no Higgsfield account. Its package has been renamed to <code>mcp-for-blender</code>; the README says the old <code>blender-mcp</code> name still works. You need Blender 3.0 or newer, Python 3.10 or newer, and the uv package manager installed from its official installer, not through pip.</p>
+
+```bash
+# 1. Install the Blender add-on
+uvx mcp-for-blender install-addon
+#    then in Blender: Edit > Preferences > Add-ons > enable "Interface: MCP for Blender"
+
+# 2. Claude Code: one line
+claude mcp add blender uvx mcp-for-blender
+
+# 3. In Blender: press N in the viewport, open the "MCP for Blender" tab, click Start MCP Server
+```
+
+<p>If you use Claude Desktop instead of Claude Code, skip step 2. Open Settings, Developer, Edit Config, paste this into the config file (not into a terminal), then fully quit and reopen Claude Desktop:</p>
+
+```json
+{
+  "mcpServers": {
+    "blender": { "command": "uvx", "args": ["mcp-for-blender"] }
+  }
+}
+```
+
+<p>Run one client at a time against it, Claude Desktop or Cursor, not both.</p>
+<p>The second is Higgsfield's add-on, the one this piece is about. It needs Blender 5.1 or later on Windows or macOS. You download the zip from Higgsfield, drag it onto an open Blender window without unzipping, and sign in on the bar that appears over the viewport. To let Claude act inside the open scene, you add <code>bridge.higgsfield.ai/mcp</code> as a connector in Claude and sign in. Generations spend Higgsfield credits, the same pool as the web platform, and the cost shows on the button before you run it.</p>
+<p>Now the warning, and it is not a formality. The open-source server includes a tool that runs arbitrary Python inside Blender, and its socket has no authentication or encryption. Anyone who can reach that port can run code on your machine. Keep it on localhost, save your file before you let an agent touch it, and consider the optional safe mode, <code>BLENDER_MCP_SAFE_MODE=1</code>. It checks every script before it runs and blocks risky code, such as reading or writing files directly, running other programs or reaching the network. It is a script check, not a full sandbox: the README says normal Blender work, including saving, import and export, still goes through. The README also says a minimal anonymous usage record is sent by default unless you set <code>DISABLE_TELEMETRY=true</code>.</p>
+<p>For blockout you will never miss what safe mode blocks. Grey boxes do not need the network.</p>
 
 <h2>The Part That Changes</h2>
 <p>Cheap previs is a bigger deal than a new model release, and it will get a fraction of the attention, because it is not photogenic. Nobody makes a launch video about grey boxes.</p>
 <p>But this is where the leverage sits for anyone directing rather than rendering. The tool removed a cost that used to decide whether a question got asked at all. When answering "does this move work" drops from two days to twenty minutes, you stop rationing the question. You ask it about every shot, and the work gets better in a boring, structural way that nobody will credit to a plugin.</p>
 <p>That is the whole thesis of this site in one plugin. The machine did not become a director. It made directing cheaper to practice, and what you do with the room it opened is still entirely on you.</p>
 
-<p><em>Sources: <a href="https://higgsfield.ai/plugins/blender" target="_blank" rel="noopener">Higgsfield, Blender add-on</a> | <a href="https://higgsfield.ai/blog/higgsfield-blender-plugin" target="_blank" rel="noopener">Higgsfield, features, installation and MCP bridge setup</a> | <a href="https://www.explainx.ai/blog/higgsfield-blender-mcp-ai-blockout-august-2026" target="_blank" rel="noopener">explainx.ai, Higgsfield Blender MCP, August 2026</a></em></p>
+<p><em>Sources: <a href="https://higgsfield.ai/plugins/blender" target="_blank" rel="noopener">Higgsfield, Blender add-on</a> | <a href="https://higgsfield.ai/blog/higgsfield-blender-plugin" target="_blank" rel="noopener">Higgsfield, features, installation and MCP bridge setup</a> | <a href="https://www.explainx.ai/blog/higgsfield-blender-mcp-ai-blockout-august-2026" target="_blank" rel="noopener">explainx.ai, Higgsfield Blender MCP, August 2026</a> | <a href="https://github.com/ahujasid/blender-mcp/blob/7a0373ec9199183cb460068c4f96aed9c579fb4f/README.md" target="_blank" rel="noopener">MCP for Blender, README at commit 7a0373e (security notes, safe mode, MIT license; checked October 13, 2026)</a></em></p>
