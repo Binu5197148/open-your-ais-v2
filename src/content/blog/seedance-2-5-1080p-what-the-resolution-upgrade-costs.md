@@ -1,9 +1,10 @@
 ---
 id: "art-167"
-title: "Seedance 2.5 1080p: The Upgrade Costs You 10 Seconds"
-description: "The 1080p trial caps generations at 20 seconds while the model natively runs 30. Why that trade goes the wrong way, plus the one delivery worth paying for."
+title: "Is Native 1080p Worth It? Seedance 2.5 Guide"
+description: "Seedance 2.5 Draft Mode lets you re-roll cheap 480p takes and render only the keeper at 1080p. When native 1080p pays off, and the exact steps to run it."
 pubDate: "2026-08-16"
-toolVersion: "2026-08"
+updatedDate: "2026-09-28"
+toolVersion: "2026-09"
 category: "AI"
 tags:
   - "Seedance 2.5"
@@ -16,6 +17,8 @@ heroImage: "https://images.unsplash.com/photo-1486693128850-a77436e7ba3c?ixid=M3
 author: "Ulisses Balbino"
 readTime: "6 min read"
 ---
+
+<p><em>Updated September 28, 2026. This is an analysis written from the published changelogs and pricing, not a hands-on benchmark. Two things changed since it was written in August. First, 1080p is no longer a Higgsfield exclusive: Picsart, OpenArt and ComfyUI now offer it too. Second, and more important, ByteDance shipped Draft Mode for Seedance 2.5 on September 22, and Higgsfield added it on September 23. Draft Mode is the exact workflow this piece argued for in August, now built into the model: rehearse cheap at 480p, then roll the approved take at 1080p. The new section at the end explains how it works and when it changes the math.</em></p>
 
 <p>On August 14, 2026, Higgsfield shipped Seedance 2.5 1080p in early access, included with Plus plans and above. The way it was announced tells you what everyone thinks the story is. Full HD. Sharper. The only place you can currently get Seedance 2.5 at that resolution. Within a day there were quality tests on YouTube putting 480p, 720p and 1080p side by side, which is exactly the comparison the framing invites you to make.</p>
 
@@ -73,7 +76,30 @@ readTime: "6 min read"
 
 <p>Resolution has never once decided whether something was worth watching. I have never seen an audience leave because a frame was soft, and I have watched plenty of rooms go quiet because a shot held two seconds too long. Seedance 2.5 in 1080p is a good addition and I will use it on masters. It is not the upgrade. The upgrade was time, and it is still the thing almost nobody is writing for.</p>
 
+<h2>How to use Seedance 2.5 Draft Mode, step by step</h2>
+
+<p>Draft Mode splits one generation into two passes. The draft renders at 480p and is billed as a normal 480p render. When a take works, you send that same take to a final pass at 1080p, and the model reuses the prompt, the references, the seed, the duration, the aspect ratio and the audio setting instead of rolling a fresh interpretation. You keep the composition and the motion you approved. ByteDance's own estimate is that twenty drafts plus one final cost up to 77 per cent less than twenty full 1080p takes.</p>
+
+<p>Here is the routine, in the order I would run it on a job:</p>
+
+<ol>
+  <li><strong>Write the beat sheet first.</strong> One line per beat, in order, with the time each beat should land. The draft exists to check this, so it has to exist before you spend anything.</li>
+  <li><strong>Draft at 480p and judge timing only.</strong> Composition, motion, pacing, and whether the audio lands on the picture. Ignore texture. A soft frame tells you everything a sharp one would about blocking.</li>
+  <li><strong>Re-roll the draft, not the final.</strong> Adjust the prompt or the references between drafts. Every change you make at this stage is cheap.</li>
+  <li><strong>Lock the seed before you send the final.</strong> In ComfyUI this is manual: with a random seed, the next run creates a new draft instead of reusing the take. On Higgsfield and Picsart the final is launched from the selected draft.</li>
+  <li><strong>Render the final within 7 days.</strong> A draft stays renderable at 1080p for seven days after it was created. After that, you are starting over.</li>
+  <li><strong>Check your region.</strong> Higgsfield's changelog lists Draft Mode in all regions except the US, where the model is unavailable on the provider's side. Check before you plan a job around it.</li>
+</ol>
+
+<h2>Is native 1080p worth it now?</h2>
+
+<p>Draft Mode removes most of the argument against native 1080p that I made above. The expensive part was never the final render. It was paying 1080p prices for every failed attempt on the way to it. When the attempts cost 480p money and only the keeper costs 1080p money, a native master becomes something you can budget for on a real job.</p>
+
+<p>It does not remove all of it. Seedance 2.5 at 1080p is still expensive, and on most paid work my own routine is still to run 720p and upscale afterwards, because the social deliverables that make up most of the volume get recompressed on upload anyway. Draft Mode changes the call for the one shot that has to hold up at full width on a good screen. That is where the extra spend is now easy to defend, and the split by deliverable in the list above still stands.</p>
+
+<p>Official pages, if you want to run it yourself: the <a href="https://higgsfield.ai/creator-hub/changelog" target="_blank" rel="noopener">Higgsfield changelog entry for Draft Mode</a>, the <a href="https://higgsfield.ai/seedance-2.5" target="_blank" rel="noopener">Seedance 2.5 model page on Higgsfield</a>, and the <a href="https://comfyui-wiki.com/en/news/2026-09-25-seedance-2-5-draft-mode" target="_blank" rel="noopener">ComfyUI notes on the draft node</a>. For the prompt side, the method is in <a href="/blog/how-to-use-seedance-2-5-director-prompting-method/">my Seedance 2.5 prompting piece</a>.</p>
+
 <section class="article-note note-sources">
 <h2>Sources and verification</h2>
-<p>Facts verified August 16, 2026. Higgsfield changelog (higgsfield.ai/creator-hub/changelog), entry dated August 14, 2026, verbatim: "Seedance 2.5 now generates in 1080p on Higgsfield, in early access. It's included with Plus plans and above." Free trial, verbatim from the same entry: "Five 1080p generations, up to 20 seconds each, over 24 hours. No charge, card verification only." Independently corroborated by Alvaro Cintas on X (post dated August 14, 2026, stating Higgsfield is currently the only place to generate Seedance 2.5 in full HD and that new users get free generations for zero credits) and by third-party coverage at clipdance.ai and ugccopilot.ai noting that prior Higgsfield unlimited windows for Seedance 2.5 ran at up to 720p. JSFILMZ (120,000 subscribers) published "Seedance 2.5 1080p Update: Higgsfield Review &amp; Quality Test" on August 14, 2026, confirming the rollout date from a third party. Native generation resolutions of 480p and 720p, and credit costs of 52 credits for 8 seconds at 720p and 24 credits for 8 seconds at 480p, come from Higgsfield's own published pricing page. Seedance 2.5 base specification (30-second single native pass, up to 50 references, region-level editing, audio generated in the same pass) was verified for an earlier article on August 9, 2026 against BytePlus, Morphic, XenoSpectrum, kie.ai and Higgsfield's model page. No claim is made here about model benchmarks or rankings.</p>
+<p>Facts verified August 16, 2026. Higgsfield changelog (higgsfield.ai/creator-hub/changelog), entry dated August 14, 2026, verbatim: "Seedance 2.5 now generates in 1080p on Higgsfield, in early access. It's included with Plus plans and above." Free trial, verbatim from the same entry: "Five 1080p generations, up to 20 seconds each, over 24 hours. No charge, card verification only." Independently corroborated by Alvaro Cintas on X (post dated August 14, 2026, stating Higgsfield is currently the only place to generate Seedance 2.5 in full HD and that new users get free generations for zero credits) and by third-party coverage at clipdance.ai and ugccopilot.ai noting that prior Higgsfield unlimited windows for Seedance 2.5 ran at up to 720p. JSFILMZ (120,000 subscribers) published "Seedance 2.5 1080p Update: Higgsfield Review &amp; Quality Test" on August 14, 2026, confirming the rollout date from a third party. Native generation resolutions of 480p and 720p, and credit costs of 52 credits for 8 seconds at 720p and 24 credits for 8 seconds at 480p, come from Higgsfield's own published pricing page. Seedance 2.5 base specification (30-second single native pass, up to 50 references, region-level editing, audio generated in the same pass) was verified for an earlier article on August 9, 2026 against BytePlus, Morphic, XenoSpectrum, kie.ai and Higgsfield's model page. No claim is made here about model benchmarks or rankings. Update verified September 28, 2026: Draft Mode launch on the Seedance 2.5 API on September 22 reported by PANews and Phemex citing Volcano Engine; Higgsfield changelog entry dated September 23, 2026, verbatim: "1080p final: run the selected draft's prompt, references, seed, aspect ratio, and duration on Seedance 2.5," with the availability note "all regions except the US, where the model is unavailable on the provider's side." The 7-day renderable window and the seed-locking requirement come from comfyui-wiki.com (September 25, 2026) and Picsart's Draft Mode explainer; the "up to 77%" saving is ByteDance's estimate as reported by Picsart and AlphaSignal. 1080p availability on Picsart, OpenArt and ComfyUI confirmed on their model pages.</p>
 </section>

@@ -1,7 +1,7 @@
 ---
 id: "art-187"
 title: "Five Claude Skills and the Check the Install Command Skips"
-description: "Five Claude skills opened on September 21. NVIDIA counted one vulnerability in every four skills it analyzed, then wrote down what its own scanner cannot read. The check each of these five leaves to you."
+description: "NVIDIA found a flaw in one in four agent skills it scanned, then listed what its scanner cannot read. Five new Claude skills and the check each leaves you."
 pubDate: "2026-09-21"
 toolVersion: "2026-09"
 category: "AI"

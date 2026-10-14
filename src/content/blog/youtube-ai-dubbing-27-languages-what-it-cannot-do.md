@@ -3,7 +3,8 @@ id: "art-181"
 title: "You Can't Edit YouTube's New AI Dubs (Big Problem)"
 description: "YouTube auto dubbing is on by default in 27 languages, and Google's own page says you cannot edit the result. What that costs you on paid work."
 pubDate: "2026-09-07"
-toolVersion: "2026-09"
+updatedDate: "2026-10-04"
+toolVersion: "2026-10"
 category: "Workflow"
 tags:
   - "YouTube"
@@ -18,6 +19,8 @@ author: "Ulisses Balbino"
 readTime: "8 min read"
 featured: false
 ---
+
+<p><em>Updated October 4, 2026. The rule this piece is built on has not moved: Google's <a href="https://support.google.com/youtube/answer/15569972" target="_blank" rel="noopener">auto dubbing help page</a>, re-read today, still says "You cannot edit automatic dubs." What is new is live. At Made on YouTube on September 23, 2026, YouTube <a href="https://blog.google/products-and-platforms/products/youtube/made-on-youtube-updates-2026/" target="_blank" rel="noopener">announced real-time auto dubbing</a> for livestreams, and the pilot <a href="https://slator.com/youtube-real-time-livestream-dubbing/" target="_blank" rel="noopener">starts in early 2027</a>. A live dub is even less editable than a recorded one, so the argument below gets stronger, not weaker.</em></p>
 
 <p>YouTube AI dubbing has been switched on for every creator on the platform since February 4, 2026. No waitlist, no application, no minimum subscriber count. If your channel is eligible, it is already running, and it was probably running before you noticed.</p>
 
@@ -96,6 +99,7 @@ featured: false
 <li>34 supported original languages, English dubbing into 23 languages, enabled by default for eligible creators, the 120 minute and copyright ineligibility rules, and the statement that automatic dubs cannot be edited: Google's official YouTube Help page on automatic dubbing.</li>
 <li>Lip Sync is experimental and limited to select channels: Google's official YouTube Help page, corroborated as a pilot in the YouTube blog post.</li>
 <li>ElevenLabs Dubbing v2 is the default model with 90 plus languages, and Dubbing Studio is in maintenance mode receiving critical bug fixes only, reachable by selecting the v1 model: ElevenLabs official product documentation for dubbing.</li>
+<li>Update, October 4, 2026: the help page still states "You cannot edit automatic dubs." Real-time auto dubbing for livestreams was announced at Made on YouTube on September 23, 2026 (Google's official recap of the event) and reported as a pilot beginning in early 2027 (Slator, September 25, 2026). Languages and eligible creators for that pilot were not published in either source, so none are named here.</li>
 <li>No claim is made here about YouTube's internal roadmap, about when Lip Sync leaves testing, or about revenue effects on any specific localization business, because none of that is published.</li>
 </ol>
 </section>

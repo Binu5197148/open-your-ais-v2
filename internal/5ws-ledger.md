@@ -522,3 +522,94 @@ nao identificado. Decisao dele.
   continuam inteiros.
 - **Cooldown em vigilancia.** O verbo "check" no titulo, duas edicoes de cinco.
   Terceira dispara.
+
+---
+
+## Notas da edicao 6, escritas em 2026-09-28
+
+```
+| 06 | artigo   | 2026-09-28 | A7 | F1 | -   | -     | 1 axenworks | nenhum |
+| 06 | linkedin | AAAA-MM-DD | -  | -  | P6  | 1123  | sim         | nenhum |
+| 06 | x        | AAAA-MM-DD | -  | -  | P2  | 245   | sim         | nenhum |
+```
+
+- **O artigo NAO foi para a main.** Desde 27/09 a regra dele e: branch, PR, revisao do
+  GPT/Codex, merge. A tarefa agendada ainda manda "commit e push para main"; segui a regra
+  mais nova. Branch `5ws-edicao-06`. A data da linha acima e a do `pubDate`; se o merge
+  sair em outro dia, corrigir aqui e no frontmatter. Sem merge nao ha URL 200, entao a
+  indexacao no Search Console NAO foi pedida nesta sessao.
+- **Abertura A7, o corte**: Rope, de Hitchcock, e os cortes escondidos, ligados a onetake,
+  a skill que ficou de fora pela licenca PolyForm Noncommercial. Fecho **F1**, a duvida que
+  ficou: onde termina pegar o clima de uma referencia e comeca pegar o trabalho.
+- **As cinco skills**: docx-cli (documento), design-dna (web e design), ComfyUI-Agent-Kit
+  (automacao e video), notebooklm-py (organizacao e pesquisa) e seedance-lab-starter
+  (acervo, video). A do acervo fecha a edicao.
+- **Um link para axenworks**, na ficha 3, pagina `prores-file-size-calculator`. A pergunta
+  nasce da skill: o kit escreve ProRes pelos nos OCIO. A mesma pagina saiu na edicao 1,
+  cinco edicoes atras; as outras quatro paginas ja usadas foram evitadas.
+- **Nenhum vicio da 3.1 gasto.** Duas frases que repetiam a edicao 5 foram reescritas antes
+  de publicar ("a permission in a sentence, not a licence in a folder" e "a photograph, not a
+  fact"): as duas estavam virando fecho fixo de ficha e de bloco 5.
+- Snapshot unico: 2026-09-28, 12h57 a 13h05m17s UTC, `gh` autenticado. Oito URLs testadas
+  com `curl` as 13h05m20s, todas 200.
+- Tom das cinco pegadinhas, para a trava 8: sobrescreve no lugar sem desfazer, e le as
+  alteracoes pendentes como aceitas (docx-cli); baixa o asset real do site de referencia
+  (design-dna); peso de modelo nao comercial recomendado pela regra geral sem o aviso
+  (ComfyUI-Agent-Kit); credencial da conta inteira recomendada antes do aviso (notebooklm-py);
+  exemplo que nao e geracao registrada e escopo so de plano mudo (seedance-lab-starter).
+  Cinco tons diferentes.
+- **Titulo trocado antes de publicar.** O primeiro era "the Permission Nobody Asks For", que
+  encosta no padrao 27 (prometer o bastidor de algo que esta a vista nos arquivos). Saiu
+  "What They Take for Granted". Sem "check" no titulo: o cooldown vigiado da edicao 5 nao
+  disparou.
+- **Descartadas**: onetake (PolyForm Noncommercial, proibe uso comercial),
+  PleasePrompto/notebooklm-skill (arquivado em setembro de 2026), e tres skills do acervo por
+  duvida de direitos (abaixo).
+
+### Acervo: tres skills fora por duvida de direitos
+
+`vox-skill`, `vox-motion-graphics` e `nanobanana-prompt-builder` nao foram consideradas para a
+ficha do acervo desta semana. As tres tem pergunta de credito ou de procedencia em aberto. O
+detalhe foi para o relatorio da sessao de 28/09, direto para ele, e nao para este arquivo,
+porque este repositorio e publico. Decisao dele. Nada foi mexido no site nem nos zips.
+A ficha do acervo e a `seedance-lab-starter`, que o README assina como dele.
+
+### Divergencia da secao 9, fechada
+
+Corrigida na especificacao nesta sessao, com nota de data.
+
+---
+
+## Leitura das travas para a edicao 7
+
+- **Aberturas.** A7 acabou de ser gasta: fora ate a edicao 11. A4 fora ate a 10, A3 ate a 9.
+  **A9 e obrigatoria ate a edicao 9** (ultima na 3, regra de uma a cada 6). A10 e A2 livres.
+  A abertura da 7 sai de A1, A2, A5, A6, A8, A9 ou A10.
+- **Fechos.** F1 acabou de ser gasto: fora ate a 9. F4 fora ate a 8. F3 volta na 7.
+  O fecho da 7 sai de F2, F3, F5 ou F6.
+- **Formatos de post.** Se os da 6 sairem: P6 e P2 fora ate a 9. P9 e P10 fora ate a 8.
+  Livres para a 7: P1, P4, P5, P11, P12 (P3, P7 e P8 dependem de a edicao 4 ter saido; conferir
+  no Blotato antes).
+- **Trava 4.** X ainda deve um post abaixo de 200 caracteres nesta janela (edicoes 6 a 10).
+  LinkedIn deve um abaixo de 400 e um acima de 1.200.
+- **Trava 7.** A 7 precisa de classe diferente de conjuncao no LinkedIn e de oracao existencial
+  no X.
+- **Vicios da 3.1.** Sem gasto novo. Segmentacao do leitor fora do LinkedIn ate a 8; "nao X, X"
+  fora do artigo ate a 10.
+- **Candidato novo a vigiar:** fechar a ficha do acervo com "nao ha LICENSE no zip". Apareceu
+  na 5 e na 6. A terceira seguida dispara cooldown, e a solucao real e ele decidir por um
+  arquivo de licenca nos zips.
+
+### Revisao da edicao 6, 2026-09-29 (observacoes do Codex em REVISAO-PR-2.md)
+
+- **Ficha 5 trocada.** `seedance-lab-starter` saiu: o README assinado nao comprova a autoria do
+  kit (observacao 7) e a regra de 28/09 permite pular a ficha do acervo sem direitos comprovados.
+  Entrou `jtydhr88/screenwriting-skills` (MIT com NOTICE, commit 357d134), categoria escrita.
+  Esta edicao fica SEM ficha do acervo. O zip continua publicado pelo artigo do Toninho; nada
+  foi mexido nele.
+- A pegadinha nova (NOTICE: MIT nao cobre as citacoes; corpo da skill em chines, sem auditoria
+  pelo leitor) e de tom diferente das outras quatro.
+- O fecho "nao ha LICENSE no zip" saiu junto com a ficha: o cooldown vigiado nao dispara.
+- SUPIR, ADR do notebooklm-py e SKILL.md agora linkados em commit fixo. Renomeacao para Gemini
+  Notebook confirmada no blog oficial do Google (16/07/2026).
+- "How I checked" e fontes sem bastidor de maquina (sem CLI, rate limit, curl, segundos).
