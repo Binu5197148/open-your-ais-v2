@@ -97,7 +97,7 @@ https://openyourais.com/blog/ai-storytelling-video-story-first-method-director/
 
 ## 14/10/2026, guardião: Cursor virou pacote com Grok e X
 
-Aguardando aprovação do texto exato pelo Ulisses. Nada publicado nem agendado. Link do X só vale depois do merge do PR do dia e do deploy confirmado.
+APROVADOS pelo Ulisses no chat em 14/10/2026, com o final do LinkedIn trocado pela versão abaixo. Nada publicado nem agendado ainda. Link do X só vale depois do merge do PR 14 e do deploy confirmado.
 
 ### LinkedIn (modo 1, opinião pura, sem link). Pede imagem: uma chave de aluguel ou um recibo de aluguel, foto forte, sem logo de marca.
 
@@ -114,10 +114,10 @@ Ninguém que escreve código nesse editor votou em nada disso.
 
 Eu não uso Cursor. Uso Claude Code e Codex, lado a lado, e troco um pelo outro quando preciso. Não porque sou mais esperto. Porque já vi esse filme no vídeo. A OpenAI fechou a API do Sora e levou junto o pipeline de muita gente.
 
-Se o seu trabalho para quando duas empresas brigam, ele não é seu. É delas.
+Se a OpenAI e a SpaceX brigam e o seu trabalho para, o trabalho não é seu.
 
-Ferramenta se aluga.
-Ofício não.
+Ferramenta muda de dono, muda de preço, perde modelo. Isso eu não controlo.
+O que eu controlo é saber fazer, com qualquer uma delas.
 ```
 
 ### X (modo 3, entrega, link completo)
