@@ -97,7 +97,7 @@ https://openyourais.com/blog/ai-storytelling-video-story-first-method-director/
 
 ## 14/10/2026, guardião: Cursor virou pacote com Grok e X
 
-APROVADOS pelo Ulisses no chat em 14/10/2026, com o final do LinkedIn trocado pela versão abaixo. Nada publicado nem agendado ainda. Link do X só vale depois do merge do PR 14 e do deploy confirmado.
+APROVADOS pelo Ulisses no chat em 14/10/2026, com o final do LinkedIn trocado pela versão abaixo. LinkedIn PUBLICADO em 14/10/2026 via Blotato, sem imagem: https://linkedin.com/feed/update/urn:li:share:7516138094576791552 . X ainda não publicado. Link do X só vale depois do merge do PR 14 e do deploy confirmado.
 
 ### LinkedIn (modo 1, opinião pura, sem link). Pede imagem: uma chave de aluguel ou um recibo de aluguel, foto forte, sem logo de marca.
 
