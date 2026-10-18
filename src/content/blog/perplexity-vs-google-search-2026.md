@@ -80,7 +80,7 @@ Do not add new claims.</code></pre>
 <li>You want agents, file and app creation at volume and early features: Max, and only if you will use it weekly.</li>
 <li>Most of your searches are places, products and videos: stay on Google, now with AI Mode on top.</li>
 </ul>
-<p>For a working creative, the choice is rarely exclusive. The research for a pitch and the hunt for a reference frame are different jobs, and each tool is built for one of them. The judgment about which source to trust is still yours, and that part does not come with any plan. For how AI answers are reshaping what the web publishes, see <a href="/blog/ai-content-flood-google-search-2026/">the AI content flood in Google Search</a>, and for the models these engines route to, <a href="/blog/gpt-6-astra-benchmarks-creative-director-review/">the GPT-6 Astra read</a>.</p>
+<p>For a working creative, the choice is rarely exclusive. The research for a pitch and the hunt for a reference frame are different jobs, and each tool is built for one of them. The judgment about which source to trust is still yours, and that part does not come with any plan. For what AI answers do to the pages they summarize, see <a href="/blog/static-content-ai-eats-interactive-tools-it-recommends/">why static pages lose to AI search</a>, and for the models these engines route to, <a href="/blog/gpt-6-astra-benchmarks-creative-director-review/">the GPT-6 Astra read</a>.</p>
 
 <h2>Sources</h2>
 <ul>
