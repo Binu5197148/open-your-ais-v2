@@ -1,8 +1,10 @@
 ---
 id: "art-049"
-title: "Adobe Quick Cut Review: A Rough Cut in 12 Minutes"
-description: "Four hours of footage, one assembly, no human pass. Fourteen years of commercial editing say where that helps and where the cut falls apart on you."
+title: "Adobe Quick Cut: Before You Let AI Edit Your Video"
+description: "Adobe Quick Cut picks shots by focus, action and dialogue, so it skips the quiet beats. How to run it in Firefly, three prompts and when to trust the draft."
 pubDate: "2026-03-03"
+updatedDate: "2026-10-18"
+toolVersion: "2026-10"
 category: "AI"
 tags:
   - "Adobe"
@@ -12,7 +14,78 @@ tags:
   - "Review"
 heroImage: "https://images.unsplash.com/photo-1524834671419-aa7d41c1c657?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHw2fHxiYWNrc3RhZ2UlMjBwcm9kdWN0aW9uJTIwY3Jld3xlbnwxfDB8fHwxNzg3NjEyNDE2fDA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85&sat=-100&con=10"
 author: "Ulisses Balbino"
-readTime: "12 min read"
+readTime: "7 min read"
 ---
 
-<h2>The Problem Adobe Just Solved</h2><p>I've been editing commercial work since 2012: Disney products and marketing, Starbucks (including the Nutella partnership film), Yamaha, Carrefour, Benefit. The part of post-production nobody talks about is assembly. Watching hours of footage, marking selects, organizing B-roll, building a rough timeline that makes any sense. Days of work before the real creative edit even begins.</p><p>Last month, Adobe released Quick Cut in their Firefly video tool suite. I got early access and spent three days stress-testing it on real projects. The result? This tool would have shaved days off nearly every commercial edit I've done in the past decade. But it would have also required a human who knows what they're doing to make it work.</p><p>Here's what actually happens when AI tries to edit like someone who's been cutting commercials for 14 years.</p><h2>What Quick Cut Actually Does</h2><p>The premise is simple: you upload raw footage and/or B-roll, describe what you want, and the AI creates a first draft. It analyzes your footage, identifies what's usable, and assembles it based on basic editing principles.</p><p>In practice, this means the AI can watch three hours of interview footage and pull the best takes based on clarity, energy, and logical flow. It can sequence B-roll over talking heads. It can create basic transitions that don't make your eyes bleed.</p><p>But more importantly: it does the one thing junior editors hate most, the initial assembly. The part where you're staring at a blank timeline wondering how to structure 50 clips into something coherent.</p><h3>My Real Test</h3><p>I fed Quick Cut two projects:</p><ul><li><strong>A talking-head interview:</strong> 4 hours of footage, two cameras, one subject</li><li><strong>A product showcase:</strong> 200 shots of a beverage, multiple angles, macro details</li></ul><p>On the interview, Quick Cut produced a usable rough cut in 12 minutes. Not perfect (pacing was generic, it missed one crucial emotional beat, and the B-roll placement was predictable), but it was a starting point. Something I could refine instead of build from scratch.</p><p>On the product showcase, it was genuinely impressive. The AI understood which shots showed the product best, sequenced them with reasonable energy, and even matched some movement between cuts. It wasn't ready for broadcast, but it was ready for client review.</p><h2>Where It Shines</h2><h3>Assembly Speed</h3><p>The single most tedious part of editing is over. Watching footage, marking selects, organizing clips: this is what takes time in post-production. Quick Cut reduces this from hours to minutes.</p><p>For a corporate training video I tested, the assembly that normally takes 4 hours was done in 18 minutes. Was it perfect? No. Was it a solid foundation? Absolutely.</p><h3>B-Roll Intelligence</h3><p>The AI is surprisingly good at identifying coverage material. It knows when you have a wide shot and a close-up of the same moment. It can sequence inserts over interview segments without completely botching the timing.</p><p>This matters because B-roll assembly is where most new editors struggle. They either use too little and create dead air, or use too much and create visual chaos. Quick Cut finds a reasonable middle ground.</p><h3>Learning From Feedback</h3><p>Here's the interesting part: when I rejected cuts and explained why, the AI started adjusting. "Too fast here" led to longer holds. "Need more energy" led to quicker pacing. It's not mind-reading, but it's closer than you'd expect.</p><h2>Where It Falls Apart</h2><h3>Emotional Intelligence: Zero</h3><p>Quick Cut doesn't understand why we edit the way we do. It knows that cuts happen on action, that J-cuts work for dialogue, that pacing should match energy. But it doesn't know that sometimes you need to hold on a face for three extra seconds because the silence says more than any cut would.</p><p>In the interview test, the AI completely missed the emotional climax. The subject choked up, paused, and recovered: a powerful moment. Quick Cut cut away to B-roll during the pause because "nothing was happening." Technically, it was right. Emotionally, it was catastrophic.</p><h3>Generic Pacing</h3><p>Every edit Quick Cut produces feels similar. Same rhythm, same structure, same predictable flow. This isn't surprising. It's learning from patterns, not creating art. But it means everything has that "corporate video" energy even when the content deserves something more cinematic.</p><h3>The Confidence Problem</h3><p>Quick Cut acts like it knows what it's doing. It presents cuts with certainty, even when it's wrong. This is dangerous for beginners who might not recognize when the AI has made a bad choice. An experienced editor sees the mistake immediately. A novice might not.</p><h2>Who This Is Actually For</h2><h3>Solo Creators</h3><p>If you're making content by yourself, Quick Cut is a legitimate time-saver. It won't replace your judgment, but it will handle the tedious parts so you can focus on creative decisions.</p><h3>Fast Turnaround Shops</h3><p>For agencies juggling multiple quick-turn projects, this is ammunition. Produce roughs for client review in minutes instead of hours. Just make sure someone with taste reviews before it goes live.</p><h3>Learning Editors</h3><p>Paradoxically, Quick Cut is great for people learning to edit. Not because it replaces learning, but because it provides a starting point to analyze. "Why did the AI cut here?" is a legitimate learning question.</p><h2>Who Should Avoid It</h2><h3>Narrative Filmmakers</h3><p>If you're telling stories with emotional arcs, stay away. The AI doesn't understand subtext, tension, or character development. It will sabotage your work.</p><h3>High-End Commercials</h3><p>Budget work, sure. But anything with client expectations and real money on the line needs human judgment from frame one.</p><h3>Artistic Projects</h3><p>This should go without saying, but AI can't make art. It can make content. If you're trying to create something meaningful, use tools that serve your vision, not replace it.</p><h2>The Bottom Line</h2><p>After 14 years of editing, here's what I know: the tools don't make the editor. I've seen terrible work come out of million-dollar suites and brilliant work cut in iMovie. Quick Cut is just another tool in the arsenal: powerful for some tasks, useless for others, dangerous in the wrong hands.</p><p>For assembly and rough cuts on straightforward projects, it saves real time. For anything requiring taste, emotion, or creative judgment, it will disappoint you.</p><p>The future of editing isn't AI replacing humans. It's AI handling the parts we hate (assembly) so we can focus on the parts we're good at (creative decisions). Quick Cut gets us closer to that future, but it's not the destination.</p><p>My recommendation? Use it for what it's good at. Don't expect magic. And always, always have a human review before it goes live.</p><p><strong>Rating: 7/10</strong>. Legitimate time-saver for specific use cases. Not a replacement for craft.</p>
+<!-- Rewrite 2026-10-18 (guardiao): the March version described early access, three days of testing, a 4-hour interview cut in 12 minutes, a 200-shot product test, an 18-minute corporate assembly, a "14 years" career figure and a 7/10 rating. None of that could be substantiated, so it was removed. The piece is now a documentary analysis built on Adobe's help pages (last updated June 16, 2026, read October 18, 2026) and launch coverage. -->
+
+<p><em>Updated October 18, 2026. This piece was rewritten. The earlier hands-on claims could not be substantiated and have been removed. This article is a documentary analysis of Adobe Quick Cut as Adobe documents it today, plus an editor's reading of what that documentation implies. No footage was run through the tool for this version.</em></p>
+
+<h2>What Adobe Quick Cut is, in October 2026</h2>
+<p>Quick Cut is a feature of the Firefly video editor that builds a first draft of an edit from media you upload. Adobe announced it on February 25, 2026, and its help pages, last updated June 16, 2026, still label the Firefly video editor as beta.</p>
+<p>Adobe's own description is precise about the job: it "automatically assembles an initial cut" so you do not have to sort clips by hand, and it is meant to be a starting point that you then fine-tune on the timeline. That framing matters. Adobe is not selling an editor. It is selling an assembly.</p>
+<p>At launch, Adobe's product lead for AI and next-generation video tools, Mike Folgner, told TechCrunch that the biggest problem creators communicate is the need for fast turnaround. Quick Cut is the answer to that sentence, and only to that sentence.</p>
+
+<h2>How Quick Cut decides what to keep</h2>
+<p>The help center lists four mechanisms, and reading them closely tells you more than any demo reel:</p>
+<ul>
+<li><strong>Automatic scene detection:</strong> it spots visual or audio changes and splits the footage into clips at suitable cut points.</li>
+<li><strong>Smart shot selection:</strong> it picks shots by analyzing focus, composition and action.</li>
+<li><strong>Audio analysis:</strong> it detects key dialogue and sound cues so important moments survive.</li>
+<li><strong>Customizable preferences:</strong> aspect ratio, duration and an optional B-roll track.</li>
+</ul>
+<p>Every one of those criteria is measurable from the frame or the waveform. Focus, composition, action, a change in audio, a line of dialogue. That is the right design for an assembly, and it is also the boundary of the tool.</p>
+
+<h2>What an editor should expect it to miss</h2>
+<p>This is an inference from Adobe's own list, not a test result, and it is worth saying plainly. The moments that make a commercial or a documentary work are often the ones that score badly on those criteria.</p>
+<p>A pause before an answer has no dialogue in it. A slightly soft frame where the subject looks away can be the most honest shot of the day. A held face after the line ends has no action. A selection logic built on focus, composition, action and speech will, by design, favor the clean and the busy over the quiet.</p>
+<p>That does not make Quick Cut bad. It means the draft it hands you is a list of what is technically usable, and the editing still starts after it. If you know that going in, you use the draft to find material faster, not to decide the story.</p>
+
+<h2>How to use Quick Cut in the Firefly video editor, step by step</h2>
+<p>This is the flow from Adobe's help page, condensed. You need a Firefly account with access to the video editor and your video, audio or image files.</p>
+<ol>
+<li>On the Firefly home, select <strong>Timeline</strong>, then <strong>Create new project</strong>.</li>
+<li>Upload media with <strong>Select files</strong> or drag and drop, then <strong>Open</strong>, name the project and select <strong>Create project</strong>.</li>
+<li>Select the <strong>Quick cut</strong> icon in the lower right corner.</li>
+<li>Choose the <strong>video type</strong>: Dialogue-driven for interviews, conversations and reviews, or Visual-only for footage with little or no speech.</li>
+<li>In <strong>Use media from</strong>, pick Current Project, Current Timeline or Current Timeline Selection.</li>
+<li>Describe the video in the prompt box. Adobe's tip: describe mood, pacing and narrative flow rather than technical details.</li>
+<li>Set the <strong>aspect ratio</strong> (Automatic, 16:9, 2:1, 4:3, 5:4, 3:2, 3:4, 9:16, 1:1, 4:5, 2:3) and the <strong>duration</strong> (Auto, 30 or 60 or 90 seconds, 3, 5, 10 or 15 minutes).</li>
+<li>Optionally select <strong>Create B-roll track</strong>. It is not available for Visual-only, and Adobe warns it can increase processing time.</li>
+<li>Select <strong>Create</strong>, then refine with the editor's transcript, timing, transition and effects tools.</li>
+</ol>
+
+<h2>Prompts that give the assembly something to work with</h2>
+<p>Because Adobe asks for mood, pacing and narrative flow, write the prompt the way you would brief an assistant editor on day one. Three templates you can paste and adapt:</p>
+<pre><code>Interview, dialogue-driven:
+A calm, reflective 90-second piece. Open on the subject's strongest
+answer about why they started. Keep pauses before important answers.
+Build slowly, end on a line that resolves the opening question.
+
+Product, visual-only:
+A 30-second product film with a slow, tactile start: close details
+first, the full product only in the last third. Rhythm speeds up
+in the middle and holds the final shot for two seconds.
+
+Event recap, dialogue-driven with B-roll:
+A 60-second recap for social. Start with crowd energy, then two short
+quotes from speakers, then a fast montage. End on the venue wide shot.</code></pre>
+<p>Notice what the templates do: they tell the tool where the silence goes. That is the part its criteria will not find by themselves.</p>
+
+<h2>Is Adobe Quick Cut worth using?</h2>
+<p>Use this checklist instead of a score:</p>
+<ul>
+<li><strong>Worth it:</strong> event recaps, talking-head content with clean audio, social cutdowns, first passes on large amounts of coverage where the bottleneck is logging, not storytelling.</li>
+<li><strong>Worth it with care:</strong> client roughs. A draft for review is fine, as long as everyone knows it is an assembly.</li>
+<li><strong>Not the tool:</strong> narrative work and anything where the meaning lives in performance, subtext or timing. There, use it to log, never to decide.</li>
+<li><strong>Check before relying on it:</strong> it is still beta in Adobe's documentation, so features and access can change, and plan or credit terms should be read on Adobe's current Firefly pages before you build a workflow around it.</li>
+</ul>
+<p>The bigger point holds for every AI editor on the market: the machine can take the logging, which nobody remembers, and leave you the decisions, which are the job. For how the same assembly logic is spreading through the suite, see <a href="/blog/adobe-premiere-26-ai-object-mask-what-editors-actually-get/">Premiere 26's object mask</a> and <a href="/blog/ai-video-editing-where-the-argument-gets-made/">where the argument in AI video editing gets made</a>.</p>
+
+<h2>Sources</h2>
+<ul>
+<li>Adobe Help Center, "Quick Cut overview," last updated June 16, 2026: <a href="https://helpx.adobe.com/firefly/web/firefly-video-editor/create-quick-cut/quick-cut-overview.html">helpx.adobe.com</a></li>
+<li>Adobe Help Center, "Create video quick cuts," last updated June 16, 2026: <a href="https://helpx.adobe.com/firefly/web/firefly-video-editor/create-quick-cut/create-video-quick-cut.html">helpx.adobe.com</a></li>
+<li>TechCrunch, February 25, 2026, launch coverage with Mike Folgner's quote: <a href="https://techcrunch.com/2026/02/25/adobe-fireflys-video-editor-can-now-automatically-create-a-first-draft-from-footage">techcrunch.com</a></li>
+<li>Adobe, Firefly AI video editor product page: <a href="https://www.adobe.com/products/firefly/features/ai-video-editor.html">adobe.com</a></li>
+</ul>
