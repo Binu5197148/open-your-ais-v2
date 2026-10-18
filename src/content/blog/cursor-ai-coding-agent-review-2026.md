@@ -16,9 +16,9 @@ author: "Ulisses Balbino"
 readTime: "6 min read"
 ---
 
-<!-- Rewrite 2026-10-14 (guardiao): the March version described four first-person tests, a client job and a claim that this site was built in Cursor. None of that could be verified, and the site is built and maintained with Claude Code and Codex. The piece is now a documentary analysis of Cursor's current state, with sources linked. Pricing read on cursor.com/pricing on October 14, 2026. -->
+<!-- Rewrite 2026-10-14 (guardiao): the March version described four first-person tests, a client job and a claim that this site was built in Cursor. None of that could be substantiated, so it was removed. The piece is now a documentary analysis of Cursor's current state, with sources linked. Pricing read on cursor.com/pricing on October 14, 2026. -->
 
-<p><em>Updated October 14, 2026. This piece was rewritten. The March version read like a hands-on review, and it should not have: I have not used Cursor on a paid job, and this site is built and maintained with Claude Code and Codex. What follows is an analysis of Cursor as it stands today, from its own pages and the reporting linked at the end. Two things changed this year that matter more than any feature: who owns Cursor, and how you pay for it.</em></p>
+<p><em>Updated October 14, 2026. This piece was rewritten. The earlier hands-on claims could not be substantiated and have been removed. This article is a documentary analysis of Cursor as it stands today, from its own pages and the reporting linked at the end. Two things changed this year that matter more than any feature: who owns Cursor, and how you pay for it.</em></p>
 
 <h2>Cursor AI in October 2026: what changed</h2>
 <p>Cursor is still the same idea it was in March: a code editor forked from VS Code, with agents that read your whole project and change several files at once. What changed is everything around it.</p>

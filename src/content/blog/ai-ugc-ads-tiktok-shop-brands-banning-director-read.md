@@ -1,6 +1,6 @@
 ---
 id: "art-150"
-title: "The AI UGC Strategy That Won't Get You Banned"
+title: "The Truth About Using AI UGC on TikTok Shop"
 description: "TikTok allows AI UGC ads with a label, yet brands strip commissions for them. How to make AI UGC ads a brand will pay for, with a pre-post checklist."
 pubDate: "2026-07-27"
 updatedDate: "2026-10-14"
