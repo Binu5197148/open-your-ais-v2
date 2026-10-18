@@ -1,9 +1,10 @@
 ---
 id: "art-100"
-title: "AI Script Breakdown: Filmustage Tested on a Commercial"
-description: "Filmustage tags cast, props and locations at 86 percent accuracy. What the missing 14 percent costs on a real commercial, and who still has to fix it."
+title: "100 Hours to 2 Minutes: The Truth About Filmustage"
+description: "Filmustage claims a script breakdown in 2 minutes. What the free plan covers, what the AI misses in implied elements, and a 7-point review checklist."
 pubDate: "2026-03-15"
-updatedDate: "2026-09-01"
+updatedDate: "2026-10-14"
+toolVersion: "2026-10"
 category: "Tools"
 tags:
   - "Filmustage"
@@ -17,30 +18,48 @@ author: "Ulisses Balbino"
 readTime: "8 min read"
 ---
 
-<!-- Freshness pass 2026-09-01: March article, still accurate on accuracy figures; dated note added for the AI agent, free tier availability, Multi-Episodic Projects and VFX bidding packages shipped since. -->
+<!-- Rewrite 2026-10-14 (guardiao): the March version reported a first-person test on a 90-second commercial and an "86 percent" tagging accuracy. No Filmustage page, press piece or review found on October 14, 2026 publishes that figure, and the test could not be verified, so both were removed. Plans, free tier, exports and the AI Dude agent were read on filmustage.com the same day. -->
 
-<p><em>Updated September 1, 2026. This was written on March 15, 2026, and the test below still holds. Eighty six percent is still the published tagging accuracy, and the missing fourteen percent still lands on exactly the implied elements that need an experienced eye. What changed is the shape of the product around it. Filmustage now runs an AI agent inside the project that takes instructions in plain language, so reorganizing a schedule, running a VFX analysis or generating a vendor ready bidding package happens in conversation instead of in menus, and it is on every plan including the free one. It also handles Multi-Episodic Projects, seasons of sixty to a hundred episodes tagged as a single workflow, which is the vertical format I wrote about in <a href="/blog/ai-short-drama-format-the-models-were-built-for/">AI short drama and the models it was built for</a>. The accuracy argument below did not change. The question of who the tool is for did.</em></p>
+<p><em>Updated October 14, 2026. This piece was rewritten. Earlier versions quoted an 86 percent tagging accuracy and described a test on a commercial script. I could not find that figure on any Filmustage page or in the coverage, and I am not going to keep a number nobody can check, so both are gone. What follows is an analysis of what Filmustage says it does today, what it costs, and the checklist I would hand anyone reviewing an AI script breakdown before it reaches a schedule.</em></p>
 
-<h2>The Pre-Production Problem That Never Gets Fixed</h2>
-<p>Script breakdown is one of the most time-consuming parts of commercial pre-production, and it's also one of the most invisible. Nobody in a client meeting ever asks about the breakdown. Nobody on set thinks about the hours spent tagging elements, organizing shooting days, and generating call sheets. It's the foundation that everything else sits on, and it gets built the hard way: manually, by a 1st AD or production coordinator who knows what they're doing and charges accordingly.</p>
-<p>For a one-page commercial script, a skilled 1st AD can do a complete breakdown in two to three hours. For a longer branded film or a campaign with multiple spots, the breakdown is a day or more of pre-production time. Filmustage claims to automate this in minutes. After testing it on a recent commercial production, here's what that actually looks like in practice.</p>
+<h2>What is a script breakdown, and why does it eat days?</h2>
+<p>Script breakdown is one of the most time-consuming parts of pre-production, and one of the most invisible. Nobody in a client meeting asks about it. Nobody on set thinks about the hours spent tagging every element, organizing shooting days and building call sheets. It is the foundation everything else sits on, and it usually gets built by hand, by a 1st AD or production coordinator who knows what they are doing and charges for it.</p>
+<p>Each scene gets read line by line, and every element is tagged into a category: cast, extras, props, wardrobe, locations, vehicles, animals, stunts, VFX. Those tags become the schedule, and the schedule becomes the budget. A missed prop is a missed line in the budget and a problem on the shoot day.</p>
+<p>Filmustage says it turns a job that can take up to 100 hours into about two minutes. That is the claim worth examining.</p>
 
-<h2>What Filmustage Does</h2>
-<p>Filmustage is an AI-powered pre-production platform that takes your script as input and automatically identifies and tags every production element: cast, locations, props, wardrobe, animals, VFX requirements, stunts, and special effects. The AI uses natural language processing to read the script and categorize elements the same way a human 1st AD would, except it does it across the entire script in about 30 seconds per page rather than 5-10 minutes.</p>
-<p>Once the breakdown is tagged, the platform auto-generates a shooting schedule based on the elements identified, produces budget line items for every category, and can generate call sheets directly from the schedule. Storyboards auto-sync with the script elements and breakdown. VFX sequences are identified and structured for department planning.</p>
-<p>The platform integrates with industry-standard tools: Movie Magic, Gorilla Scheduling, and Final Draft. Breakdown data exports in formats compatible with these systems, so you're not locked into Filmustage's native environment if your production uses established pipeline tools.</p>
+<h2>What Filmustage does in 2026</h2>
+<p>You upload a script, in any language or format according to the company, and the AI splits it into scenes and tags the elements: cast, props, locations, costumes, VFX and more, color coded. From the breakdown it builds a schedule, a budget, storyboards, call sheets, a synopsis and a script analysis. Reports export as PDF, XLSX or Movie Magic Scheduling files, so the work can move into the tools a production office already uses.</p>
+<p>The biggest change since March is the agent. Filmustage now runs what it calls an AI Production Agent, named AI Dude. You describe a goal, such as rescheduling around a cast conflict or grading scenes for VFX complexity, the agent shows the impact as a preview, and nothing changes until you approve. That preview step is the right design. It is the difference between an assistant and an autopilot.</p>
+<p>The product also handles multi-episodic projects, which matters for the vertical series format I wrote about in <a href="/blog/ai-short-drama-format-the-models-were-built-for/">how to build an AI series that does not break</a>, where one season can run to dozens of short episodes.</p>
 
-<h2>The Accuracy Reality: 86% Is Not 100%</h2>
-<p>Filmustage claims up to 86% accuracy in element identification. In my testing on a 90-second commercial script across three different spots, that figure held approximately true, with important caveats about where the errors occurred.</p>
-<p>The misses were not random. The AI was most reliable on explicit elements: named characters, specific locations stated directly in scene headings, clearly described props. It was least reliable on implied elements: props referenced in action that aren't explicitly named ("she reaches into her bag" without specifying what's in the bag), locations that are described by atmosphere rather than stated directly, and VFX requirements implied by described action rather than explicitly marked.</p>
-<p>In production terms, the 14% gap represents exactly the elements that require the most experienced production judgment to identify correctly. A skilled 1st AD knows to flag "she opens the refrigerator" as a prop requirement even when no specific items are mentioned, because they know from experience that kitchen refrigerator contents are always a production consideration. The AI doesn't have that inferential experience base yet.</p>
-<p>The workflow implication: Filmustage replaces the mechanical tagging of explicit elements (about 80% of a breakdown) while reducing but not eliminating the need for experienced review on implied and contextual elements. The production coordinator reviewing an AI-generated breakdown starts from a near-complete document rather than a blank sheet, which changes the time requirement from two to three hours to 30-45 minutes of review and completion. That is a genuine efficiency gain even with the accuracy limitation.</p>
+<h2>Is Filmustage free?</h2>
+<p>Partly. Read on the pricing page on October 14, 2026:</p>
+<ul>
+<li><strong>Free.</strong> All the non-AI tools, one active project, a demo project with a full breakdown, and an AI breakdown limited to 20 percent of your scenes.</li>
+<li><strong>Director's Cut,</strong> from 49 dollars a month or 408 dollars a year. Full AI breakdown, synopsis and analysis, unlimited active projects, and 1,000 coins per billing cycle. Coins are spent only when the AI does work.</li>
+<li><strong>Enterprise</strong> on request, and an academic plan with no public price.</li>
+</ul>
+<p>The free tier is enough to judge the tagging on part of a real script. It is not enough to break down a whole job. If you test it, upload a script you already broke down by hand, so you have something to compare against.</p>
 
-<h2>The Auto-Generated Schedule and Budget</h2>
-<p>The shooting schedule generated from the AI breakdown reflects the elements identified, organized into shooting days using standard industry scheduling logic. For a commercial where the shooting order is primarily driven by location availability and talent scheduling rather than complex script logic, the AI schedule is a solid first draft that requires adjustment for practical constraints but not a rebuild from scratch.</p>
-<p>The auto-generated budget line items are the most practically useful output for the commercial production context. Every tagged element becomes a budget line immediately: cast (based on the roles identified), locations (based on identified location types), specific props, wardrobe, VFX. The budget structure reflects the breakdown without requiring a separate data entry step. For the initial budget estimate that goes to a client before production is confirmed, having a structured document that reflects the actual script elements is more credible than a template-based estimate that doesn't connect to the specific production.</p>
+<h2>Where an AI breakdown needs a human</h2>
+<p>Filmustage does not publish an accuracy figure on its product pages, and Unite.AI's roundup of pre-production tools says it plainly: the AI tagging needs review by an experienced producer or assistant director. The useful question is where to look.</p>
+<p>Explicit elements are the easy part. A named character, a location in a scene heading, a prop the action line spells out. Any decent model gets most of those.</p>
+<p>The risk sits in what the script implies. "She reaches into her bag" does not say what is in the bag, but somebody has to put something there. "She opens the refrigerator" is a dressing requirement even when no item is named, because an empty fridge on camera reads as a mistake. A location described by mood instead of by name, an effect implied by an action, a costume change that happens between two scenes without being written. Those are the elements an experienced AD flags from memory, and the ones a tagger reading text has the least to go on.</p>
+<p>That is not an argument against the tool. Starting the review from a near complete document instead of a blank sheet is a real gain. It is an argument for reviewing in the right place, instead of scanning the tags that were never going to be wrong.</p>
 
-<h2>Who Gets the Most Value</h2>
-<p>My honest assessment: Filmustage provides the most value for production contexts where pre-production time is compressed and experienced 1st AD availability is limited. For small production companies working on digital commercial content (the category of work where pre-production time is shortest and budgets don't always accommodate a full-time 1st AD), the AI breakdown accelerates the process enough to be significant. For large-budget productions with a full production department, the efficiency gain exists but is proportionally smaller relative to the overall production infrastructure.</p>
-<p>The platform is best thought of as an intelligent first pass rather than a complete solution. It does 80% of the mechanical work of a script breakdown in minutes and gives your production team a structured starting point for the remaining 20% that requires experienced judgment. That is an honest characterization of what AI-assisted pre-production looks like in 2026: genuinely useful, not fully autonomous, and worth the time to test on your next production before committing to it as a primary pipeline tool.</p>
-<p><em>Sources: <a href="https://filmustage.com/script-breakdown/" target="_blank" rel="noopener">Filmustage: Automate Script Breakdown with AI</a> | <a href="https://noamkroll.com/review-testing-filmustages-ai-powered-script-breakdown-app-on-a-feature-film/" target="_blank" rel="noopener">Noam Kroll: Testing Filmustage on a Feature Film</a> | <a href="https://www.unite.ai/best-ai-pre-production-tools-for-filmmakers/" target="_blank" rel="noopener">Unite.AI: Best AI Pre-Production Tools for Filmmakers 2026</a></em></p>
+<h2>How to review an AI script breakdown: a checklist</h2>
+<ol>
+<li><strong>Read every action line for hands.</strong> Anything a character holds, opens, eats, drinks or reaches for is a prop, named or not.</li>
+<li><strong>Check every interior for dressing.</strong> Fridges, drawers, shelves and screens on camera need content.</li>
+<li><strong>Follow wardrobe across scene breaks.</strong> Time jumps, rain, blood and dirt imply changes the script never lists.</li>
+<li><strong>Turn mood into a place.</strong> "A cold, empty office" still needs an address on the schedule.</li>
+<li><strong>Flag implied VFX and stunts.</strong> Screens, reflections, crowds, falls and vehicles in motion carry cost even when nobody wrote VFX.</li>
+<li><strong>Read the schedule against reality.</strong> The generated order follows the script; the real one follows talent availability, daylight and location access.</li>
+<li><strong>Treat the budget as a structure, not a number.</strong> Every tagged element becomes a line, which is useful. The prices on those lines are yours to set.</li>
+</ol>
+
+<h2>Who gets the most out of it</h2>
+<p>The value is largest where pre-production is short and an experienced AD is not always on the budget: small production companies, digital commercial work, vertical series, film schools. I have directed commercials since Pichorra Filmes started in São Paulo in 2012, and the argument that decides a preproduction meeting is rarely about texture. It is about whether everything the scene needs is on the list. On a large production with a full department the gain still exists, but it is a smaller share of a much bigger machine.</p>
+<p>Think of it as a fast first pass with an agent that waits for your approval. The machine reads the text. Somebody who has stood on a set still has to read what the text leaves out.</p>
+
+<p><em>Sources, checked October 14, 2026: <a href="https://filmustage.com/script-breakdown/" target="_blank" rel="noopener">Filmustage, script breakdown (2 minutes instead of up to 100 hours, exports)</a> | <a href="https://filmustage.com/pricing/" target="_blank" rel="noopener">Filmustage, pricing (Free, Director's Cut, coins)</a> | <a href="https://filmustage.com/" target="_blank" rel="noopener">Filmustage, AI Dude production agent</a> | <a href="https://www.unite.ai/best-ai-pre-production-tools-for-filmmakers/" target="_blank" rel="noopener">Unite.AI, best AI pre-production tools for filmmakers</a> | <a href="https://noamkroll.com/review-testing-filmustages-ai-powered-script-breakdown-app-on-a-feature-film/" target="_blank" rel="noopener">Noam Kroll, testing Filmustage on a feature film</a></em></p>

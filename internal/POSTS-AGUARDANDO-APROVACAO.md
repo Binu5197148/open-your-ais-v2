@@ -94,3 +94,47 @@ História é alguém que quer uma coisa e não pode ter. O resto é decoração.
 A folha que eu preencho antes de gerar um frame, e a inversão que mais economiza: gerar o último plano primeiro.
 
 https://openyourais.com/blog/ai-storytelling-video-story-first-method-director/
+
+## 14/10/2026, guardião: Cursor virou pacote com Grok e X
+
+APROVADOS pelo Ulisses no chat em 14/10/2026, com o final do LinkedIn trocado pela versão abaixo. LinkedIn PUBLICADO em 14/10/2026 via Blotato, sem imagem: https://linkedin.com/feed/update/urn:li:share:7516138094576791552 . X ainda não publicado. Link do X só vale depois do merge do PR 14 e do deploy confirmado.
+
+### LinkedIn (modo 1, opinião pura, sem link). Pede imagem: uma chave de aluguel ou um recibo de aluguel, foto forte, sem logo de marca.
+
+```
+Na segunda-feira o Cursor deixou de ser vendido sozinho.
+
+Agora ele vem num pacote com o Grok e com o X. Uma assinatura só. Editor de código, chatbot e rede social na mesma conta.
+
+O detalhe que quase ninguém vai ler: o plano de 8 dólares só roda Grok. Quer o Claude dentro do Cursor? Paga à parte, a preço de API.
+
+E em 12 de novembro a OpenAI sai de lá. Decisão dela.
+
+Ninguém que escreve código nesse editor votou em nada disso.
+
+Eu não uso Cursor. Uso Claude Code e Codex, lado a lado, e troco um pelo outro quando preciso. Não porque sou mais esperto. Porque já vi esse filme no vídeo. A OpenAI fechou a API do Sora e levou junto o pipeline de muita gente.
+
+Se a OpenAI e a SpaceX brigam e o seu trabalho para, o trabalho não é seu.
+
+Ferramenta muda de dono, muda de preço, perde modelo. Isso eu não controlo.
+O que eu controlo é saber fazer, com qualquer uma delas.
+```
+
+### X (modo 3, entrega, link completo)
+
+```
+Cursor stopped being sold on its own this week.
+
+SpaceXAI now sells one subscription for Grok, Cursor and X. Five tiers, $0 to $200. Three lines on the pricing page decide whether it is a deal for you:
+
+1. The $8 Plus tier runs Grok models only.
+2. Claude and other third-party models in Cursor are billed separately, at API list price.
+3. The usage pool is shared with Grok and refreshes weekly.
+
+And OpenAI cuts Cursor off from its models on November 12.
+
+I wrote up the new prices, whether the free tier is usable, and a 5-step checklist before you switch plans. The switch is permanent, so read it first:
+https://openyourais.com/blog/cursor-ai-coding-agent-review-2026/?utm_source=x&utm_medium=social&utm_campaign=cursor-ai-worth-it
+
+I don't use Cursor. I build with Claude Code and Codex side by side, so either one can be swapped out. That is the whole point of the checklist.
+```
