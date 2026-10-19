@@ -1,5 +1,5 @@
 ---
-id: "art-189"
+id: "art-190"
 title: "Five Claude Skills for Video, and What Each One Leaves to You"
 description: "Five Claude skills read from their own files: films made in code, a local FFmpeg kit, a video dissector, a podcast editor and a scroll deck, with limits."
 pubDate: "2026-10-12"
