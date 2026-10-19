@@ -1,7 +1,7 @@
 ---
 id: "art-049"
 title: "Adobe Quick Cut: Before You Let AI Edit Your Video"
-description: "Adobe Quick Cut picks shots by focus, action and dialogue, so it skips the quiet beats. How to run it in Firefly, three prompts and when to trust the draft."
+description: "Adobe Quick Cut picks shots by focus, action and dialogue. The risk for an editor is the quiet beat. How to run it in Firefly, with three prompts to start."
 pubDate: "2026-03-03"
 updatedDate: "2026-10-18"
 toolVersion: "2026-10"
@@ -36,9 +36,9 @@ readTime: "7 min read"
 </ul>
 <p>Every one of those criteria is measurable from the frame or the waveform. Focus, composition, action, a change in audio, a line of dialogue. That is the right design for an assembly, and it is also the boundary of the tool.</p>
 
-<h2>What an editor should expect it to miss</h2>
+<h2>What an editor should check for in the draft</h2>
 <p>This is an inference from Adobe's own list, not a test result, and it is worth saying plainly. The moments that make a commercial or a documentary work are often the ones that score badly on those criteria.</p>
-<p>A pause before an answer has no dialogue in it. A slightly soft frame where the subject looks away can be the most honest shot of the day. A held face after the line ends has no action. A selection logic built on focus, composition, action and speech will, by design, favor the clean and the busy over the quiet.</p>
+<p>A pause before an answer has no dialogue in it. A slightly soft frame where the subject looks away can be the most honest shot of the day. A held face after the line ends has no action. A selection logic built on focus, composition, action and speech may rank the clean and the busy above the quiet. Adobe does not say it does, and we have not tested it, so treat this as a risk to check in your own draft, not as a known behavior.</p>
 <p>That does not make Quick Cut bad. It means the draft it hands you is a list of what is technically usable, and the editing still starts after it. If you know that going in, you use the draft to find material faster, not to decide the story.</p>
 
 <h2>How to use Quick Cut in the Firefly video editor, step by step</h2>
@@ -70,7 +70,7 @@ in the middle and holds the final shot for two seconds.
 Event recap, dialogue-driven with B-roll:
 A 60-second recap for social. Start with crowd energy, then two short
 quotes from speakers, then a fast montage. End on the venue wide shot.</code></pre>
-<p>Notice what the templates do: they tell the tool where the silence goes. That is the part its criteria will not find by themselves.</p>
+<p>Notice what the templates do: they tell the tool where the silence goes, instead of hoping its criteria will find it.</p>
 
 <h2>Is Adobe Quick Cut worth using?</h2>
 <p>Use this checklist instead of a score:</p>

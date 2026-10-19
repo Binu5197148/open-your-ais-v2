@@ -29,7 +29,7 @@ readTime: "6 min read"
 
 <h2>What each one is built to do</h2>
 <p><strong>Google</strong> is still an index first. The AI layer sits on top of the largest web index, Maps, Shopping and YouTube. When the question is about a place, a product in stock or a video, the answer comes from data Google owns.</p>
-<p><strong>Perplexity</strong> is an answer engine first. Every response is a synthesis with numbered citations, and its paid tiers add model choice, file analysis and the tools for creating files and apps that the help center lists under Pro and Max. It does not own a map, a store catalog or a video platform.</p>
+<p><strong>Perplexity</strong> is an answer engine first. Its research answers come as a synthesis with numbered source citations, and its paid tiers add model choice, file analysis and the tools for creating files and apps that the help center lists under Pro and Max. It does not own a map, a store catalog or a video platform.</p>
 <p>That difference predicts most of the practical split without anyone running a test. Questions that need synthesis across sources favor the answer engine. Questions that need inventory, location or video favor the index.</p>
 
 <h2>Perplexity plans and prices today</h2>
@@ -43,7 +43,7 @@ readTime: "6 min read"
 <p>Enterprise Pro starts at $40 per seat per month. The Comet browser itself is a free download. Prices change, so open the plan page before paying; the links are at the end.</p>
 
 <h2>How to use Perplexity AI without trusting it blindly</h2>
-<p>The most searched question about the tool is how to use it. The useful answer is a routine, not a feature list, because the risk with any answer engine is the same: a confident paragraph with a citation that does not say what the paragraph says.</p>
+<p>A common question about the tool is how to use it. The useful answer is a routine, not a feature list, because the risk with any answer engine is the same: a confident paragraph with a citation that does not say what the paragraph says.</p>
 <ol>
 <li><strong>Ask the full question, with the constraint.</strong> "Which AI video models support start and end frames, as of this month" returns a different answer than "best AI video models."</li>
 <li><strong>Put the date in the question.</strong> Answer engines, like search engines, will happily return the most linked page instead of the most recent one.</li>

@@ -114,18 +114,18 @@ A pausa antes da resposta não tem fala.
 O rosto que fica depois da frase não tem ação.
 O plano meio fora de foco, quando a pessoa desvia o olho, às vezes é o mais honesto do dia.
 
-Pelos critérios do manual, os três perdem.
+Nenhum dos três tem o que esses critérios medem. O manual não diz que eles ficam de fora, e eu não testei. Mas é ali que eu olharia primeiro.
 
 Não é defeito da ferramenta. Ela foi feita para montar um primeiro corte, e isso ela faz. O problema é quem acha que o primeiro corte já é o filme.
 
-Eu monto no Premiere. E o que eu mais protejo na timeline é justamente o que o algoritmo descarta: o silêncio, a palavra torta, a pausa fora do lugar.
+Eu monto no Premiere. E o que eu mais protejo na timeline é justamente o que critério nenhum mede: o silêncio, a palavra torta, a pausa fora do lugar.
 
 A máquina escolhe o que está certo.
 Você escolhe o que é verdade.
 
 ### X (modo 3, entrega). Link só depois do merge e da URL conferida em produção.
 
-Google added more inline links to AI Mode on October 15. Perplexity still answers with numbered citations.
+Google added more inline links to AI Mode on October 15. Perplexity's research answers still come with numbered citations.
 
 Both can hand you a confident sentence the cited source never said.
 
