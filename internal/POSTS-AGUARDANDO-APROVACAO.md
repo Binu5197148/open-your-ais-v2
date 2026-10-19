@@ -94,3 +94,50 @@ História é alguém que quer uma coisa e não pode ter. O resto é decoração.
 A folha que eu preencho antes de gerar um frame, e a inversão que mais economiza: gerar o último plano primeiro.
 
 https://openyourais.com/blog/ai-storytelling-video-story-first-method-director/
+
+## 18/10/2026, guardião (rascunhos, NADA publicado, aguardando o Ulisses)
+
+Leitura do feed em 18/10 (contra 21/09): "Não existe atalho" 8.280 → 8.553; "IA DEGENERATIVA" 1.925; "IA DEGENERATIVA, parte 2" (Suno) 1.042; Toninho selecionado 244 → 334; Cursor (15/10, modo 1, sem link) 63; posts da rotina com lnkd.in seguem entre 67 e 235.
+O que anda: a série IA DEGENERATIVA, opinião dele com alvo nomeado e sem link. O post do Cursor, mesmo sem link, ficou em 63: notícia de ferramenta não engaja o público dele, a briga sobre ofício engaja.
+
+### LinkedIn (modo 1, opinião pura, sem link). Pede imagem: uma timeline com um buraco preto no meio.
+
+A Adobe explica no próprio manual como o Quick Cut escolhe o que fica no corte.
+
+Foco. Composição. Ação. Fala.
+
+Quatro critérios. Todos medem alguma coisa que dá para ver no quadro ou ouvir na onda.
+
+Agora pensa no melhor plano que você já montou.
+
+A pausa antes da resposta não tem fala.
+O rosto que fica depois da frase não tem ação.
+O plano meio fora de foco, quando a pessoa desvia o olho, às vezes é o mais honesto do dia.
+
+Nenhum dos três tem o que esses critérios medem. O manual não diz que eles ficam de fora, e eu não testei. Mas é ali que eu olharia primeiro.
+
+Não é defeito da ferramenta. Ela foi feita para montar um primeiro corte, e isso ela faz. O problema é quem acha que o primeiro corte já é o filme.
+
+Eu monto no Premiere. E o que eu mais protejo na timeline é justamente o que critério nenhum mede: o silêncio, a palavra torta, a pausa fora do lugar.
+
+A máquina escolhe o que está certo.
+Você escolhe o que é verdade.
+
+### X (modo 3, entrega). Link só depois do merge e da URL conferida em produção.
+
+Google added more inline links to AI Mode on October 15. Perplexity's research answers still come with numbered citations.
+
+Both can hand you a confident sentence the cited source never said.
+
+The follow-up worth pasting after any AI answer you plan to act on:
+
+"For each factual claim in your last answer:
+1. Quote the exact sentence from the cited source that supports it.
+2. Give the publication or update date of that source.
+3. Say whether the source is primary or secondary.
+4. Flag any claim you cannot support with a direct quote.
+Do not add new claims."
+
+You see in one screen which parts of the answer are standing on something.
+
+Plans, prices and where Google still wins: https://openyourais.com/blog/perplexity-vs-google-search-2026/?utm_source=x&utm_medium=social&utm_campaign=perplexity-vs-google-search-2026
