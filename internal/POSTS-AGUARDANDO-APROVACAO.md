@@ -94,3 +94,81 @@ História é alguém que quer uma coisa e não pode ter. O resto é decoração.
 A folha que eu preencho antes de gerar um frame, e a inversão que mais economiza: gerar o último plano primeiro.
 
 https://openyourais.com/blog/ai-storytelling-video-story-first-method-director/
+
+## 19/10/2026, guardião (rascunhos, NADA publicado, aguardando o Ulisses)
+
+Leitura do feed em 19/10 (contra 18/10): nenhum post novo. "Não existe atalho" 8.553 → 8.555; "IA DEGENERATIVA" 1.925 → 1.926; "parte 2" 1.042 → 1.045; Toninho selecionado 334, igual; Cursor 63 → 70. O post do Quick Cut de 18/10 ainda não saiu.
+Blotato: 165 agendamentos futuros, todos de Arquivo 13 e V3rso Diário. Zero para LinkedIn (13743) ou X (13071).
+
+### LinkedIn (modo 1, opinião pura, sem link). Pede imagem: fita de marcação no chão de um set, sem ninguém.
+
+O Kling 4.0 saiu na quinta. Todo mundo vai falar dos 30 segundos.
+
+Eu fui ler o comunicado inteiro. A linha que me interessa está no meio.
+
+Eles chamam de recriação criativa. Você dá um vídeo de referência, o modelo guarda o ritmo, o enquadramento e o movimento, e você troca o personagem, o produto, o cenário.
+
+Isso não é novidade pra mim. É o motivo de eu usar o Motion Control do Kling em job: repetir um movimento e trocar o que está em volta.
+
+A novidade é outra. O modelo principal agora pede um brief do jeito que um set pede.
+O movimento, numa referência.
+A câmera, em outra.
+As batidas da cena, em até dez quadros-chave.
+E espaço pra escrever o que não pode mudar.
+
+Nenhum operador de câmera trabalha com "faz algo cinematográfico". Ele trabalha com o movimento mostrado, a marca no chão e o que ninguém pode mexer.
+
+Ainda não rodei o 4.0. Comunicado não é take. Não sei se o rosto aguenta até o segundo 27.
+
+Mas a ferramenta começou a falar a língua do set.
+Quem nunca pisou num set continua sem saber o que pedir.
+
+### X (modo 3, entrega). Link só depois do merge e da URL conferida em produção.
+
+Kling 4.0 launched October 15. Everyone is quoting the 30 seconds.
+
+Read Kuaishou's own release and three things are still in the future tense: 4K, 1080p and 21:9 ("will also support"), the two-minute extension ("will soon"), and the API ("will soon be made available").
+
+What did ship is the part that matters if you direct: Omni Reference. Up to 15 references, up to 10 keyframes, and "creative recreation", where you keep a reference video's movement and pacing and swap the character, the product or the set.
+
+That is the logic of Kling Motion Control, now inside the flagship model.
+
+On October 19 it was not on Higgsfield yet. Kling 3.0 Motion Control still is.
+
+What shipped vs what is coming, a keyframe brief you can copy, and the free-tier question:
+https://openyourais.com/blog/kling-4-0-30-second-long-take-what-directors-get/?utm_source=x&utm_medium=social&utm_campaign=kling-4-0
+
+## 20/10/2026, guardião. Rascunhos, nada publicado
+
+Modo 1 (opinião pura, sem link). Motivo: o Kling 4.0 ainda não está no ar no site (PR #17 sem merge), e post com link no LinkedIn morre. Fato conferido na página de planos do Kling em 20/10, visão mensal: Standard US$ 6,99 no 1º mês e US$ 8,80 depois, 660 créditos; a própria página mostra "100 Credits = $1.06", calculado sobre o preço do 1º mês. Imagem sugerida: print do card do plano Standard com os dois preços.
+
+### LinkedIn (PT)
+
+O Kling 4.0 saiu semana passada, e a página de planos mostra 100 créditos por 1 dólar e 6 centavos.
+
+Esse número é do primeiro mês.
+
+No segundo mês o mesmo plano custa 8 dólares e 80. A conta vira 1 dólar e 33 por 100 créditos. Um quarto a mais, na linha pequena embaixo do preço grande.
+
+Não é golpe. Está escrito lá, quem procura acha.
+Mas o número que vira print, que vira vídeo de "tá barato", é o da promoção.
+
+Orçamento de cliente não dura um mês.
+Job que fecha em novembro paga preço de dezembro.
+
+Faça a conta pelo preço da renovação.
+Se a ferramenta só fecha no preço de lançamento, ela não fecha.
+
+Lançamento vende o primeiro mês. O segundo é você que paga.
+
+### X (EN)
+
+Kling 4.0's plans page says 100 credits cost $1.06.
+
+That's the first month. Standard renews at $8.80 for the same 660 credits, about $1.33 per 100. A quarter more, in the small line under the big number.
+
+Not a trick. It's printed right there. But the number that ends up in every "it's so cheap" thread is the promo one.
+
+Client budgets don't last a month. A job that closes in November pays December prices.
+
+Budget on the renewal price. If a tool only works at launch pricing, it doesn't work.
