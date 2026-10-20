@@ -1,7 +1,7 @@
 ---
 id: "art-083"
 title: "Stop Using Runway Until You See This: Kling Motion Control"
-description: "Kling published a 1,667% win rate over Runway Act-Two. The benchmark is marketing. Multi shot from one prompt is the part that held up on real work."
+description: "Kling published a 1,667% win rate over Runway Act-Two. The benchmark is marketing. Repeating one move to swap the set is what Motion Control is for."
 pubDate: "2026-03-15"
 updatedDate: "2026-10-19"
 toolVersion: "2026-10"

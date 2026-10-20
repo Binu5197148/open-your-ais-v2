@@ -1,5 +1,5 @@
 ---
-id: "art-191"
+id: "art-192"
 title: "The Truth About Kling 4.0: A Director's Analysis"
 description: "Kling 4.0 launched October 15 with 30 second takes, 10 keyframes and 15 references. What changed, what is still coming soon, and how to use it today."
 pubDate: "2026-10-19"
@@ -47,7 +47,7 @@ readTime: "6 min read"
 <li><strong>API access</strong> for enterprise customers and developers: "will soon be made available."</li>
 </ul>
 
-<p>If a client brief depends on 4K delivery or a two-minute continuous piece out of Kling 4.0, it does not today, on Kling's own wording. Check the model page in the app before you promise anything.</p>
+<p>That is the wording of the October 16 release, and a release alone cannot tell you whether those features have shipped since. If a client brief depends on 4K delivery or a two-minute continuous piece out of Kling 4.0, check the model page in the app on the day before you promise anything.</p>
 
 <h2>How to use Kling 4.0, step by step</h2>
 
@@ -80,7 +80,7 @@ DO NOT: add cuts, change wardrobe, change the time of day</code></pre>
 
 <h2>Can you use Kling 4.0 for free?</h2>
 
-<p>The plans page lists a free Basic tier, but the 4.0 discount row starts at Pro, and the page does not state whether a free account can run 4.0 at all. It also marks commercial use and watermark removal as paid benefits. The honest answer on October 19: check the model picker on a free account, and do not use free output on client work. Paid tiers range from 660 credits a month on Standard to 57,000 on Ultra+, with the price per 100 credits falling from $1.06 to $0.71.</p>
+<p>The plans page lists a free Basic tier, but the 4.0 discount row starts at Pro, and the page does not state whether a free account can run 4.0 at all. It also marks commercial use and watermark removal as paid benefits. The honest answer on October 19: check the model picker on a free account, and do not use free output on client work. Paid tiers range from 660 credits a month on Standard to 57,000 on Ultra+. The page shows a price per 100 credits falling from $1.06 to $0.71, but on October 20 that figure was calculated on the discounted first month: Standard renews at $8.80 and Ultra+ at $544.99 on the monthly plan, roughly $1.33 and $0.96 per 100 credits. Budget on the renewal price, not the launch offer.</p>
 
 <h2>The part that matters to a director: creative recreation</h2>
 
