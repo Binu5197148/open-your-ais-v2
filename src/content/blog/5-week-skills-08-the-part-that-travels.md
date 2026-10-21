@@ -62,7 +62,7 @@ npm i playwright-core</code></pre>
 
 <p><strong>Who it is for.</strong> The social editor on a documentary or a talk show who has to turn yesterday's interview into three shareable cards with the subject's actual words, from the actual cut.</p>
 
-<p><strong>What it saves.</strong> Scrubbing for clean frames between subtitle changes and lining up strips by hand in Photoshop. If you make one card a month, it saves an afternoon a month and costs a Python setup.</p>
+<p><strong>What it saves.</strong> Scrubbing for clean frames between subtitle changes and lining up strips by hand in Photoshop. How much time that gives back depends on the footage and was not measured here, since no skill in this edition was run. The cost is a Python setup.</p>
 
 <p><strong>Cost to install.</strong> Four commands for local video, plus <code>yt-dlp</code> if you want links.</p>
 
@@ -101,7 +101,7 @@ python3 native-subtitle-quote-image/skills/native-subtitle-quote-image/scripts/c
 
 <p><strong>The catch.</strong> It is the first step, and it runs by default. The intake script sends the photo to reverse image search on Baidu and Yandex: in <a href="https://github.com/Oldcircle/geo-sleuth/blob/16e9429416e1151562836a613acefe74f3b8f0d5/skills/geo-sleuth/scripts/intake.py#L136-L140" target="_blank" rel="noopener"><code>intake.py</code>, lines 136 to 140</a>, the engines default to <code>baidu,yandex</code>, the search is on unless you pass <code>--no-rev</code>, and each engine also searches up to four cropped variants of the image. The <code>SKILL.md</code> starts every job with that intake. The README does document it, under the setup section, and its own local test command adds <code>--no-rev</code> so you can try the pipeline offline.</p>
 
-<p>For a public photo that is fine. For a client's unreleased campaign still, a frame from a film in post, or a photo with a person in it, the first thing the skill does is publish it to two search engines in two other countries. Tell the agent to start with <code>--no-rev</code> when the image is not yours to share, and accept a slower search. The README ends with a line about consent: run it on your own photos or ones you have permission to analyze, never to find people who have not agreed to be found.</p>
+<p>For a public photo that is fine. For a client's unreleased campaign still, a frame from a film in post, or a photo with a person in it, the first thing the skill does is upload it to two outside reverse image search services, Baidu and Yandex. What those services keep, and where they process it, is set by their own terms, which this edition did not read. Tell the agent to start with <code>--no-rev</code> when the image is not yours to share, and accept a slower search. The README ends with a line about consent: run it on your own photos or ones you have permission to analyze, never to find people who have not agreed to be found.</p>
 
 <p><strong>Verified.</strong> October 19, 2026, at commit <code>16e9429</code>. 3,420 stars, 460 forks, MIT, last push October 18. Read: the README, <code>SKILL.md</code>, and the argument and search sections of <code>scripts/intake.py</code>. Tables in <code>data/</code> derived from Wikipedia are CC BY-SA 4.0, and OpenStreetMap results need the credit line the README gives when you publish them.</p>
 
