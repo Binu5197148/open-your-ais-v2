@@ -680,3 +680,77 @@ Corrigida na especificacao nesta sessao, com nota de data.
 - **Trava 7.** LinkedIn da 7 abre com sintagma nominal, X com numeral.
 - **Vicios da 3.1.** Sem gasto novo. Segmentacao do leitor fora do LinkedIn ate a 8; "nao X, X"
   fora do artigo ate a 10.
+
+---
+
+## Notas da edicao 8, escritas em 2026-10-19
+
+```
+| 08 | artigo   | 2026-10-19 | A5 | F4 | -   | -     | 1 axenworks | nenhum |
+| 08 | linkedin | AAAA-MM-DD | -  | -  | P1  | 1307  | sim         | nenhum |
+| 08 | x        | AAAA-MM-DD | -  | -  | P7  | 277 (181 na contagem do X) | sim | nenhum |
+```
+
+- **Nao foi para a main.** Branch `5ws-edicao-08`, empilhada em `5ws-edicao-07` (PR 10, ainda
+  sem merge). PR aberto contra a branch da 7; depois do merge da 7, apontar para main. A data
+  acima e o `pubDate`; se o merge sair em outro dia, corrigir aqui e no frontmatter. Sem URL
+  200, indexacao no Search Console NAO pedida.
+- **PR 10 (edicao 7) finalizado nesta sessao**: as duas sugestoes do Codex aplicadas, branch
+  rebaseada em main, base trocada para main, e o `id` trocado de art-189 para art-190, porque
+  art-189 ja e o artigo do REA na main.
+- **Abertura A5, o objeto**: o arquivo de lower third, oito segundos quase todos vazios. Sem
+  biografia, sem cena inventada. Fecho **F4**, a regra pratica: antes de uma skill tocar arquivo
+  de cliente, saber o que ela manda para fora e o que ela escreve quando algo falha.
+- **As cinco skills**: lower-thirds da iart-ai (automacao e video, overlay com alfa),
+  native-subtitle-quote-image (video para imagem social), geo-sleuth (pesquisa de locacao),
+  effective-html com o html-plan (documento e organizacao), logo-design-skill (design).
+  **Nenhuma do acervo**, terceira edicao seguida. Ver abaixo.
+- **Descartadas**: microsoft/skill-recorder (exige conta com acesso ao Copilot e manda a gravacao
+  para a nuvem do GitHub na analise; e um app, nao uma skill), Cassette-Editor/oh-my-cassette
+  (exige conta Cassette), cclank/lanshu-create-ai-presenter-video (rota de apresentador depende
+  de geracao paga; video de novo), Leonxlnx/cinetic e howseen-ai/claude-motion-design (filme em
+  codigo, repetiria a opuscar da 7), iart-ai/motion-skills como hub (entrou so o pacote de
+  lower thirds).
+- **Um link para axenworks**, na ficha 1, pagina `prores-file-size-calculator`. A pergunta nasce
+  da skill: o script chama o `.mov` ProRes 4444 de "large", e sai um arquivo por convidado.
+  Terceira vez desta pagina (edicoes 1, 6 e 8). Na 9, evitar.
+- **Nenhum vicio da 3.1 gasto.** Dois "nao X, Y" que apareceram no rascunho do artigo foram
+  reescritos antes do build ("re-render, not a redesign" e "not accuracy on new ones").
+- Snapshot unico: 2026-10-19, 10h12 a 10h17 UTC, `gh` autenticado. Treze URLs testadas as
+  10h17 UTC, todas 200 (cinco repositorios, o hub da iart-ai, cinco arquivos em commit fixo,
+  a pagina da axenworks e o guia do effective-html).
+- Tom das cinco pegadinhas, para a trava 8: o render escreve o arquivo com a fonte errada e
+  avisa depois da linha de sucesso (lower-thirds); o rotulo de "pos-produzido" mora nas
+  instrucoes do agente e nao no JPG (native-subtitle); a foto vai para Baidu e Yandex no
+  primeiro passo, por padrao (geo-sleuth); a skill so dispara se chamada pelo nome
+  (html-plan); 1.432 marcas registradas fora da MIT dentro da pasta (logo-design). Cinco tons.
+- **Idioma nao virou pegadinha.** O SKILL.md da native-subtitle e em chines e isso entrou como
+  fato no custo de instalar, nao como pegadinha. O cooldown vigiado nao dispara.
+- **Regra do contador**: logo-design diz "1,400+" e o TRADEMARKS.md diz 1.432; contei 1.432 SVG
+  na arvore, cerca de 8,5 MB. Bateu.
+- **Comunidade**: Hacker News sem mencao aos cinco nomes nos ultimos 60 dias. Reddit devolveu
+  403 para a busca e a ferramenta de busca nao le reddit.com: nao verificado, registrado no bloco
+  5 do artigo.
+- **Capa**: estudio de TV com cameras e luzes, a segunda sorteada pelo `--pick`, conferida em
+  todas as branches remotas. Combina com a ficha 1 (broadcast).
+- **Titulo** sem "What" (6 e 7 comecaram com "What"; a terceira seguida dispararia cooldown).
+
+### Acervo: terceira edicao seguida sem ficha
+
+Das skills da classe A que ainda nao sairam, as que restam estao travadas pela revisao de direitos
+de 28/09 ou tem autoria nao demonstrada (a `higgsfield` documenta um CLI de terceiro e o README
+do zip nao prova autoria). Pela regra de 28/09, pular e permitido. Mas a composicao "uma do
+acervo" da tarefa agendada nao se cumpre mais sem decisao dele. Pergunta levada no relatorio.
+
+## Leitura das travas para a edicao 9
+
+- **Aberturas.** A5 acabou de ser gasta: fora ate a 13. A9 fora ate a 12, A7 ate a 11, A4 ate a
+  10. A3 volta na 9. A abertura da 9 sai de A1, A2, A3, A6, A8 ou A10.
+- **Fechos.** F4 fora ate a 11, F3 ate a 10. F1 volta na 9. A 9 sai de F1, F2, F5 ou F6.
+- **Formatos de post** (contam da publicacao). Pendentes de aprovacao: ed 4 (P3, P8), ed 6
+  (P6, P2), ed 7 (P11, P5), ed 8 (P1, P7). Se nenhum sair, a 9 continua livre para quase tudo;
+  conferir no Blotato antes.
+- **Trava 4.** Se os da 8 sairem: LinkedIn paga a ponta de cima (1.307) e X paga a de baixo (181
+  na contagem do X). LinkedIn ainda deve um abaixo de 400.
+- **Trava 7.** LinkedIn da 8 abre com imperativo, X com sintagma nominal.
+- **Axenworks.** Evitar a pagina de ProRes na 9.

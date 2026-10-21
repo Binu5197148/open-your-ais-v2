@@ -24,6 +24,8 @@ Atualizado: 28/09/2026. Responsável pela coordenação: Codex/GPT, por instruç
 | ID | Trabalho | Responsável | Estado / aceite |
 |---|---|---|---|
 | E06 | Edição 6, PR #2 | Claude ajusta, Codex revisa | Corrigir observações em REVISAO-PR-2.md. Sem novo artigo duplicado |
+| E07 | Edição 7, PR #10 | Codex revisa e integra | Sugestões da revisão de 12/10 aplicadas em 19/10, base trocada para main, id art-190. Aguarda merge |
+| E08 | Edição 8, PR empilhado na branch 5ws-edicao-07 | Codex revisa | Apontar para main depois do merge do #10. Posts em draft |
 | TECH-01 | Privacidade e afirmações sobre anúncios | Codex | Branch codex/adsense-editorial-2026-09-28; build e revisão |
 | RIGHTS-01 | Origem/licenças dos pacotes apontados | Claude pesquisa, Codex decide implementação | Inventário com fontes e hash, sem nova distribuição até comprovar |
 | CMP-01 | Consentimento para anúncios/analytics | Codex | Conferir painel e comportamento regional; ainda não validado |
