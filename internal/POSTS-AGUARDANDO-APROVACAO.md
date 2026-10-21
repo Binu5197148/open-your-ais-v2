@@ -94,3 +94,36 @@ História é alguém que quer uma coisa e não pode ter. O resto é decoração.
 A folha que eu preencho antes de gerar um frame, e a inversão que mais economiza: gerar o último plano primeiro.
 
 https://openyourais.com/blog/ai-storytelling-video-story-first-method-director/
+
+## 21/10/2026, guardião. NÃO PUBLICADOS. Esperando o OK do Ulisses no texto exato.
+Assunto: DaVinci Resolve 21.1 (servidor MCP no Studio). Artigo no PR #19; o link do X só vale depois do merge.
+
+### LinkedIn (modo 1, opinião pura, sem link)
+A Blackmagic colocou o Claude dentro do DaVinci Resolve.
+
+Desde a versão 21.1, de 8 de setembro, o Resolve Studio tem um servidor que deixa o Claude, o Claude Code e o Codex mexerem no projeto.
+
+E o que a própria Blackmagic diz que o assistente faz?
+Organizar mídia. Montar um corte de melhores momentos. Renderizar em lote. Mudar configuração de projeto.
+
+Só isso. O fabricante do programa não promete a montagem.
+
+A documentação também não explica permissão, nem o que impede o agente de apagar alguma coisa. E a API ainda não corta, apara e divide clipe como uma pessoa faz na timeline.
+
+Quem vende skill que "edita sozinha" está prometendo mais do que a empresa que fez o editor.
+
+A máquina fica com a tarefa que ninguém foi pra escola de cinema aprender. O corte continua sendo de quem sabe cortar.
+
+Não existe atalho.
+
+### X (modo 3, entrega com link)
+DaVinci Resolve 21.1 shipped an MCP server. Claude, Claude Code and Codex can now drive Resolve Studio.
+
+Read the job list before you get excited: organize media, cut a highlight reel, batch render, change project settings. Blackmagic itself doesn't promise the edit.
+
+It's Studio only. The free version doesn't get it, and 21.1 also pulled advanced Python scripting out of the free build.
+
+Setup is File > Setup AI Assistants. Work on a copy of the project: the docs don't cover permissions or protection against destructive operations.
+
+Step by step, and what the Studio license earns you:
+https://openyourais.com/blog/davinci-resolve-20-ai-features-production-workflow-breakdown/?utm_source=x&utm_medium=social&utm_campaign=davinci-resolve-21-studio-vs-free
