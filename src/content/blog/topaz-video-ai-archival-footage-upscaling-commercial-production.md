@@ -1,9 +1,10 @@
 ---
 id: "art-090"
-title: "Topaz Video AI: Is It Worth the $299 Subscription?"
-description: "The app is now called Topaz Video and sells by subscription only. Which model to pick, the batch workflow, and where it still fails on old tape."
+title: "What Topaz Video AI Can't Do"
+description: "No free plan, $299 a year, and a diffusion model that can drift between frames. Where Topaz Video AI fails on archive footage, and the test to run first."
 pubDate: "2026-03-15"
-updatedDate: "2026-09-09"
+updatedDate: "2026-10-21"
+toolVersion: "2026-10"
 category: "Tools"
 tags:
   - "Topaz Video AI"
@@ -17,6 +18,7 @@ author: "Ulisses Balbino"
 readTime: "8 min read"
 ---
 
+<p><em>Updated October 21, 2026. Prices were reread on Topaz's <a href="https://www.topazlabs.com/pricing" target="_blank" rel="noopener">pricing page</a> today: Topaz Video alone is $299 a year, the Pro license for companies above one million dollars in revenue is $699, and Topaz now sells a Topaz Studio bundle with every app for $399 a year, offered at $199.50 for the first year at the time of writing. The model list moved too: Starlight Precise 2.6 replaced 2.5 in Topaz Video 1.7. This update also corrects how the article described Magnific, and softens a claim that Topaz "doesn't hallucinate". It is a reading of Topaz's documentation, not a new test.</em></p>
 <p><em>Updated 9 September 2026. Two things changed since this was first published, and both cost money. Topaz dropped the "AI" from the product name, so what you download today is called Topaz Video. And the buy-it-once perpetual license is gone for new buyers. It is a subscription now. Everything below about models, settings and where the thing fails still holds.</em></p>
 
 <h2>The Archival Footage Problem Is Older Than AI</h2>
@@ -33,8 +35,9 @@ readTime: "8 min read"
 <p>For commercial work, frame interpolation matters in specific situations: archive footage shot at 25fps being incorporated into 60fps social content, slow-motion extensions from standard-speed footage, and stabilization of handheld shots where frame duplication creates judder. Aion handles large motions and high resolutions (4K+) with significantly fewer of the artifacts that made earlier interpolation tools obvious to any viewer paying attention to motion quality.</p>
 
 <h2>The Topaz vs. Magnific Distinction</h2>
-<p>A confusion worth clearing up: Topaz Video AI and Magnific AI serve fundamentally different purposes. Magnific is an image upscaler that uses generative AI to imagine what higher-resolution detail would look like. It's closer to image generation than restoration, which is why its output can be visually stunning but sometimes invents details that weren't in the original. For archival footage in commercial production, that is a liability. You cannot have an AI model add detail to footage of real events that wasn't actually there.</p>
-<p>Topaz is trained on restoration: recovering what was present, not generating what could be present. The output stays visually faithful to the source material, which is exactly what commercial and documentary applications require. The visual quality is excellent within those constraints. The model doesn't hallucinate. It restores.</p>
+<!-- Correction 2026-10-21: Magnific was described as an image upscaler. It is a hub of AI models, like Higgsfield, and its upscalers are one part of it. -->
+<p>A confusion worth clearing up: Topaz Video AI and Magnific are different kinds of product. Magnific is not one upscaler. It is a hub that runs many image and video models under one account, the same way Higgsfield does, and it is a hub I use. Its creative upscalers are generative: they imagine what higher-resolution detail would look like. That is closer to image generation than restoration, which is why the output can be visually stunning but sometimes invents details that weren't in the original. For archival footage in commercial production, that is a liability. You cannot have an AI model add detail to footage of real events that wasn't actually there.</p>
+<p>Topaz's restoration models are built the other way: to recover what was present, not to generate what could be present, and that faithfulness to the source is exactly what commercial and documentary work requires. One caution the March version left out. Starlight, Topaz's flagship family, is itself a diffusion model, and Topaz users report frame-to-frame inconsistency on <a href="https://community.topazlabs.com/t/starlight-precise-2-6-inconsistency-between-frames/105325" target="_blank" rel="noopener">Starlight Precise 2.6</a> in its own forum. "It restores, it never invents" is the goal, not a guarantee. Check faces, text and logos frame by frame on anything a client will recognise.</p>
 <p>Choosing between them is straightforward: if your source is real-world footage that must be recognized as authentic, Topaz. If your source is AI-generated imagery that you want to enhance with additional detail, Magnific becomes more relevant.</p>
 
 <h2>The Workflow in Commercial Practice</h2>
@@ -45,22 +48,26 @@ readTime: "8 min read"
 
 <h2>Where It Doesn't Work</h2>
 <p>Topaz Video AI is not a solution for every archival footage problem. Extremely degraded tape transfers with significant signal corruption (dropout artifacts, color bleed, sync damage) produce inconsistent results because the restoration model is working from source data that doesn't have a coherent reference for what the scene should look like. Footage shot with a very narrow depth of field where focus is critically soft produces mixed results depending on the model and settings. And footage that is historically significant in ways where any alteration of the visual record would be inappropriate should be presented as-is, regardless of the technical capability to upscale.</p>
+<p>Two failures show up on exactly the footage people bring to it. Text and logos: signage, lower thirds and product labels in old footage can come back with letters that are sharper but wrong, which is why "upscale without text imperfections" is one of the most searched Topaz questions. Mask the text and treat it separately, or rebuild it as a graphic. And faces at small sizes: a face that is twenty pixels tall in the source has to be guessed, and a guessed face on a real founder is a problem no setting fixes.</p>
 <p>For the standard commercial production archival case (brand history footage, event documentation, early product shots) it works well and the quality improvement is substantial enough to change editorial decisions about how much archival material to include.</p>
 <h2>Is It Worth $299 a Year?</h2>
-<p>That is the number that matters now, because the one-time purchase is no longer on the table for new buyers. As of today the plans read like this: $299 for a year paid upfront, $39 a month if you take the annual plan and pay monthly, or $59 a month with no commitment. There are Pro tiers above that. Check the current numbers yourself before you buy, because this is the part of the product that has moved most.</p>
+<p>That is the number that matters now, because the one-time purchase is no longer on the table for new buyers. On October 21, 2026 the pricing page reads: Topaz Video at $299 a year; Topaz Video Pro at $699 a year, which you need for full commercial rights if your company bills more than one million dollars a year; and Topaz Studio, the bundle with Video, Photo, Gigapixel and the web and mobile apps, at $399 a year, discounted to $199.50 for the first year while that offer runs. The page also lists annual-billed-monthly and monthly options; in September those were $39 and $59 a month, and they were not reconfirmed for this update. Check the current numbers yourself before you buy, because this is the part of the product that has moved most.</p>
 <p>My honest answer depends on one question: do you generate footage, or only receive it?</p>
-<p>If archival work lands on your desk twice a year, take the month at $59, run the job, cancel. That is what the monthly plan is for and there is no shame in using it that way.</p>
+<p>If archival work lands on your desk twice a year, take a monthly plan, run the job, cancel. That is what the monthly plan is for and there is no shame in using it that way.</p>
 <p>If you generate video with AI, the math is different and it favors the subscription. I render at 720p on purpose, because the 1080p tier of the model I use is expensive enough to change what a project costs, and then I bring the frames up afterwards. The upscale is not a rescue in that workflow, it is a budget decision made at the start. Used that way the subscription pays for itself inside one job.</p>
-<p>What you are renting, concretely, is the model library. Locally you get Starlight Precise, Proteus, Iris, Nyx, Rhea and Rhea XL, Artemis, Gaia, Theia, Apollo, Chronos, Aion, Themis, plus SDR to HDR and stabilization. There are cloud models too, Starlight Mini, Sharp, HQ and Fast, which matter when your machine is the bottleneck rather than the footage.</p>
+<p>What you are renting, concretely, is the model library. Locally you get Starlight Precise (version 2.6 since Topaz Video 1.7), Proteus, Iris, Nyx, Rhea and Rhea XL, Artemis, Gaia, Theia, Apollo, Chronos, Aion, Themis, plus SDR to HDR and stabilization. There are cloud models too, Starlight Mini, Sharp, HQ and Fast, which matter when your machine is the bottleneck rather than the footage.</p>
+<h2>Is There a Free Version of Topaz Video AI?</h2>
+<p>No. There is no free plan, and the perpetual license is gone for new buyers. Whether you get a trial at all is unclear today: Topaz's product and pricing pages, read on October 21, 2026, do not mention one, and third-party guides disagree, some describing a watermarked trial and others saying there is no desktop trial at all. So treat any site offering a free or no-watermark download as what it almost certainly is, a cracked build, which on a client machine is a security problem before it is a legal one. The honest options are three: a monthly plan for a single job, the browser version, Topaz for Web, listed at $199 for the first year, or whatever trial or refund terms Topaz shows you at checkout. Read them there, then run the test below inside that window.</p>
+
 <h2>Before You Pay, Run This</h2>
 <p>Four steps, in this order. They take an afternoon and they answer the question better than any review.</p>
 <ol>
 <li>Pull the worst clip in the batch, not the best one. The best clip always upscales well and tells you nothing.</li>
-<li>Run it through the trial twice, once on a restoration model and once on enhancement, and cut both against your 4K master on a real timeline.</li>
+<li>Run it twice, once on a restoration model and once on enhancement, and cut both against your 4K master on a real timeline.</li>
 <li>Watch it on the delivery screen, not your grading monitor. Social compression forgives things a broadcast master will not.</li>
 <li>Check the file size before you commit the drive. Upscaling multiplies footage weight, and that cost arrives after you have already said yes.</li>
 </ol>
 <p>If step two already looks acceptable at 720p, you did not need the subscription and you just saved $299.</p>
 <p>Plans and the current model list: <a href="https://www.topazlabs.com/topaz-video" target="_blank" rel="noopener">Topaz Video, official page</a>. If the file size question is the one biting you, I keep a <a href="https://axenworks.com/prores-file-size-calculator/" target="_blank" rel="noopener">ProRes file size calculator</a> that answers it before the render, not after.</p>
 
-<p><em>Sources: <a href="https://www.topazlabs.com/topaz-video" target="_blank" rel="noopener">Topaz Labs, Topaz Video AI</a> | <a href="https://chasejarvis.com/blog/topaz-vs-magnific-best-ai-image-scaler/" target="_blank" rel="noopener">Chase Jarvis, Topaz vs Magnific: Which Is a Better AI Upscaler?</a> | <a href="https://curiousrefuge.com/blog/best-ai-image-upscalers-for-2026" target="_blank" rel="noopener">Curious Refuge, Best AI Image Upscalers for 2026</a></em></p>
+<p><em>Sources: <a href="https://www.topazlabs.com/topaz-video" target="_blank" rel="noopener">Topaz Labs, Topaz Video AI</a> | <a href="https://www.topazlabs.com/pricing" target="_blank" rel="noopener">Topaz Labs, Pricing</a> | <a href="https://community.topazlabs.com/t/topaz-video-1-7-0/104328" target="_blank" rel="noopener">Topaz Community, Topaz Video 1.7.0 release notes</a> | <a href="https://chasejarvis.com/blog/topaz-vs-magnific-best-ai-image-scaler/" target="_blank" rel="noopener">Chase Jarvis, Topaz vs Magnific: Which Is a Better AI Upscaler?</a> | <a href="https://curiousrefuge.com/blog/best-ai-image-upscalers-for-2026" target="_blank" rel="noopener">Curious Refuge, Best AI Image Upscalers for 2026</a></em></p>
