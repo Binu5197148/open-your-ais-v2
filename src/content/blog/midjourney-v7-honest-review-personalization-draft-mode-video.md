@@ -1,10 +1,10 @@
 ---
 id: "art-077"
-title: "The Truth About Using Midjourney for Professional Work"
-description: "Draft Mode halves the credits at ten times the speed. The video model needs three hours per generation. What a director keeps and what he skips."
+title: "Midjourney Professional Use: What You Need to Know"
+description: "Midjourney V8.2 is the default and a Thinking Mode rerun is in testing. What V7 got right for pro work, what the video model really does, and how to start."
 pubDate: "2026-03-15"
-updatedDate: "2026-09-03"
-toolVersion: "2026-09"
+updatedDate: "2026-10-22"
+toolVersion: "2026-10"
 category: "AI"
 tags:
   - "Workflow"
@@ -19,6 +19,8 @@ readTime: "8 min read"
 ---
 
 <p><em>Updated September 3, 2026: this review was written in March 2026, when V7 was the current Midjourney model. It no longer is. V8 arrived as an alpha on March 17, 2026, two days after this was published, and V8.2 shipped on July 24, 2026. Read what follows as a record of what V7 did, not as a description of the model you get when you open Midjourney today. The current model list is in the <a href="https://docs.midjourney.com/hc/en-us/articles/32199405667853-Version" target="_blank" rel="noopener">official version documentation</a>.</em></p>
+
+<p><em>Updated October 22, 2026: V8.2 is still the default. The newest change is a test, not a release. On October 8 Midjourney started trying a "Rerun (Thinking)" button on its alpha site, which regenerates a finished job with more reasoning to fix prompt accuracy, typography and coherence. Midjourney says it might ship it broadly or might not, so treat it as a preview (<a href="https://updates.midjourney.com/testing-thinking-mode/" target="_blank" rel="noopener">Midjourney update, October 8</a>). The video section below was also corrected on this date.</em></p>
 
 <h2>The Mixed Reviews Are Telling</h2>
 <p>Midjourney V7 launched and immediately generated something unusual for a major model release: mixed reviews. Not uniformly bad, not uniformly good. Split.</p>
@@ -41,8 +43,9 @@ readTime: "8 min read"
 <p>The voice feature will likely matter more once Midjourney develops the conversational iteration capability it has hinted at, where you can refine through dialogue rather than regeneration cycles.</p>
 
 <h2>The Video V1 Model: What It Does and What It Doesn't</h2>
-<p>Midjourney launched its V1 Video Model, allowing users to animate still images into short clips. The implementation: six images generate roughly 60 seconds of video, with processing time of approximately three hours.</p>
-<p>The three-hour processing time is the honest limiting factor here. For real production workflows where iteration speed matters, this makes the video feature impractical for anything requiring multiple rounds. You can generate overnight, evaluate in the morning, and regenerate the next night. That is a 24-hour iteration cycle, which is workable for some projects and completely incompatible with others.</p>
+<!-- Correction 2026-10-22: the earlier text said six images produce about 60 seconds of video in roughly three hours. Midjourney's own launch post describes four 5-second clips per job, extendable in roughly 4-second steps up to four times, at about 8x the cost of an image job. Corrected below. -->
+<p>Midjourney launched its V1 Video Model in June 2025, allowing users to animate still images into short clips. Each job gives you four clips of five seconds. You can extend a clip about four seconds at a time, up to four times, which tops out around 21 seconds. Midjourney priced a video job at roughly eight times an image job (<a href="https://updates.midjourney.com/introducing-our-v1-video-model/" target="_blank" rel="noopener">Midjourney launch post</a>).</p>
+<p>The limiting factor is not speed. It is control. You animate a still with a short motion prompt and you get the model's idea of how that frame moves. There is no start and end frame, no motion reference, no way to hold a character across a cut. For mood and motion reference that is enough. For a shot that has to land on a specific beat, it is not.</p>
 <p>The output quality for the video feature is solid for concept visualization and mood reference. It is not at the level of Runway Gen-4.5, Kling 3.0, or Sora 2 for production-quality output. But Midjourney was never primarily a video tool. The image quality advantage of the platform is what makes it useful, and the video feature extends that into motion reference.</p>
 
 <h2>Where V7 Fits in the Current Image Generation Landscape</h2>
@@ -51,7 +54,20 @@ readTime: "8 min read"
 <p>The mixed reviews are largely from users expecting a dramatic quality leap from V6. The improvement is more about workflow efficiency (Draft Mode, personalization) than raw quality ceiling. For power users who integrate Midjourney into a broader production workflow, these efficiency gains matter. For casual users expecting to be immediately blown away, the upgrade may feel underwhelming.</p>
 
 <h2>What I would skip in V7</h2>
-<p>The video model. Not because it is bad. The output is decent. Because three hours per generation kills any iteration loop a director can work inside. If you need motion reference, generating a still in Draft Mode and animating it in Kling or Seedance gives you results in minutes, not hours.</p>
+<p>The video model. Not because it is bad. The output is decent. Because it gives a director almost nothing to steer with. If you need a shot rather than a mood, generate the still in Midjourney and animate it in Kling or Seedance, where start frames, end frames and motion control exist.</p>
 <p>The V7 video feature is for people who want one tool that does everything. The reality of production is that the best workflow is rarely one tool. Use Midjourney for what it is best at (image quality with a specific aesthetic) and let purpose-built video models handle the motion.</p>
+
+<h2>How do you use Midjourney today?</h2>
+<p>If you are opening Midjourney for the first time in October 2026, this is the order I would follow. It is a working routine, not a feature tour.</p>
+<ol>
+<li><strong>Use the web app, not Discord.</strong> Everything below lives at <a href="https://www.midjourney.com" target="_blank" rel="noopener">midjourney.com</a>. Discord still works, but the editor, moodboards and settings are easier to reach on the site.</li>
+<li><strong>Check the version.</strong> In settings, confirm the model is V8.2, the default since July 24, 2026. Older articles, this one included, describe V7 behaviour.</li>
+<li><strong>Rate before you judge.</strong> Personalization learns from images you rank. Spend the first session rating, then generate. Otherwise you are judging the generic baseline.</li>
+<li><strong>Explore in Draft, finish in full.</strong> Run concept directions in Draft Mode, pick the frame that solves the brief, and only then spend full renders on it.</li>
+<li><strong>Write the shot, not the adjective.</strong> Lens, camera height, light direction, what the subject is doing. "Cinematic" tells the model nothing a 35mm lens at eye level does not say better.</li>
+<li><strong>Lock the look with references.</strong> Once a frame is approved, use it as an image or style reference for the next ones instead of rewriting the description every time.</li>
+<li><strong>Send motion elsewhere.</strong> Midjourney is the still. If the job needs a shot that moves on cue, take the still into a video model built for control.</li>
+</ol>
+<p>The one thing no setting fixes is taste. Midjourney will give you a beautiful frame for a weak idea as fast as for a strong one. Deciding which is which is still the job.</p>
 
 <p><em>Sources: <a href="https://venturebeat.com/ai/midjourney-v7-launches-with-voice-prompting-and-faster-draft-mode-why-is-it-getting-mixed-reviews" target="_blank" rel="noopener">VentureBeat: Midjourney V7 launches with voice prompting and Draft Mode</a> | <a href="https://updates.midjourney.com/v7-alpha/" target="_blank" rel="noopener">Midjourney: V7 Alpha release notes</a></em></p>
