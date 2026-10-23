@@ -94,3 +94,36 @@ História é alguém que quer uma coisa e não pode ter. O resto é decoração.
 A folha que eu preencho antes de gerar um frame, e a inversão que mais economiza: gerar o último plano primeiro.
 
 https://openyourais.com/blog/ai-storytelling-video-story-first-method-director/
+
+## 23/10/2026 (guardião, rascunhos, nada publicado)
+
+### LinkedIn, modo 1 (opinião, sem link). Sugestão de imagem: print da cláusula 9 do regulamento.
+IA DEGENERATIVA, parte 3.
+
+O resultado do festival de 1 milhão de dólares da Higgsfield sai na última semana de outubro. Data exata, segundo eles, ainda a confirmar.
+
+Antes de ver quem ganhou, eu fui ler o regulamento inteiro.
+
+Todo filme inscrito, ganhando ou não, dá à Higgsfield uma licença perpétua, irrevogável, mundial e gratuita para exibir e reproduzir o filme e pedaços dele. Inclusive em anúncio pago dos produtos dela.
+
+O prompt público eles anunciaram alto. O anúncio ficou no regulamento.
+
+Catorze inscrições dividem o prêmio. O resto entregou, de graça e para sempre, material de propaganda para a plataforma.
+
+Não sou contra festival de IA. Sou contra confundir festival com campanha.
+
+O filme é seu. Lê antes de assinar.
+
+### X, modo 3 (entrega, link só depois do merge)
+Higgsfield's $1M AI film festival names its winners in the last week of October.
+
+Before you watch, read section 9 of the official rules.
+
+Every eligible entry, winner or not, gives Higgsfield a "non-exclusive, perpetual, irrevocable, worldwide, royalty-free license" to screen and reproduce the film and fragments of it. Including in paid advertising for Higgsfield's products.
+
+The public prompts were announced loudly. This part sits in the rules.
+
+And reuse is narrower than most people think. Other users can copy your prompts only if you switched on Open-Source Mode, and only to generate on Higgsfield. Your images and video are not licensed to anyone.
+
+Every clause that matters, with the official links, so you can decide before the next festival like this one:
+https://openyourais.com/blog/higgsfield-1m-film-festival-open-prompts-director-take/?utm_source=x&utm_medium=social&utm_campaign=higgsfield-festival-rules
