@@ -1,5 +1,5 @@
 # Operação única do Open Your AIs
-Atualizado: 28/09/2026. Responsável pela coordenação: Codex/GPT, por instrução de Ulisses.
+Atualizado: 28/09/2026; agendador trocado para o Postiz em 24/10/2026. Responsável pela coordenação: Codex/GPT, por instrução de Ulisses.
 
 ## Responsabilidades
 - Codex: revisão factual/editorial final, código, SEO técnico, privacidade, anúncios, testes e integração. Revisão não garante aprovação do AdSense.
@@ -8,6 +8,7 @@ Atualizado: 28/09/2026. Responsável pela coordenação: Codex/GPT, por instruç
 - Cinco Week Skills: uma edição por semana, sem duplicar trabalho em PR aberto. Pode pular skill autoral se os direitos não estiverem comprovados.
 - Saúde AdSense: medir e registrar defeitos com URL, data, evidência e impacto; encaminhar ao Codex. Não consertar código nem pedir revisão AdSense automaticamente. Regras do outro site permanecem próprias.
 - Ulisses aprova os textos exatos dos posts antes de publicação social. A autorização para preparar conteúdo não libera postagem automática.
+- Agendamento e publicação social só pelo Postiz (postiz.quantumwork.co), desde 24/10/2026. Blotato e Zernio foram cancelados: não criar post, não subir mídia, não usar como analytics.
 
 ## Fluxo obrigatório
 1. Ler este arquivo, CLAUDE.md, fila abaixo e PRs abertos. Reservar item com responsável e branch.
