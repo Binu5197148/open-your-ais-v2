@@ -78,11 +78,14 @@ Objetivo declarado, em ordem de importancia:
 
 ### Dia e horario
 
+Desde 2026-10-24 todo post sai pelo Postiz. Blotato e Zernio foram cancelados; a contagem de julho
+abaixo foi feita no Blotato e continua valendo como registro historico.
+
 | Peca | Quando | Onde |
 |---|---|---|
 | Artigo da edicao | Segunda, 07h00 America/Sao_Paulo | `src/content/blog/` |
-| Post de LinkedIn (portugues) | Segunda, 08h30 | Blotato, accountId 13743 |
-| Post de X (ingles) | Terca, 09h00 | Blotato, accountId 13071 |
+| Post de LinkedIn (portugues) | Segunda, 08h30 | Postiz, canal LinkedIn (ID via `integrationList`) |
+| Post de X (ingles) | Terca, 09h00 | Postiz, canal X (ID via `integrationList`) |
 
 Calendario das cinco primeiras: 24/08, 31/08, 07/09, 14/09, 21/09 de 2026.
 
