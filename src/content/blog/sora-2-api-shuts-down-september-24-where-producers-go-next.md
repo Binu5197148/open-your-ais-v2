@@ -1,9 +1,10 @@
 ---
 id: "art-178"
-title: "Sora 2 API Shuts Down Sept 24: Where Producers Go Next"
-description: "The Sora 2 API is removed on September 24 and OpenAI named no replacement. What a working pipeline loses, and why the swap should take an afternoon."
+title: "Is Your Sora 2 Code Dead? Run This Command"
+description: "The Sora 2 API went dark on September 24 with no replacement. One command finds the dead calls, and three steps move your pipeline to another model."
 pubDate: "2026-09-01"
-toolVersion: "2026-09"
+updatedDate: "2026-10-24"
+toolVersion: "2026-10"
 category: "Tools"
 tags:
   - "Sora"
@@ -18,7 +19,9 @@ readTime: "9 min read"
 featured: false
 ---
 
-<p>The Sora 2 API has twenty three days left. OpenAI's deprecation page gives the date in one line, without ceremony: the Videos API and every Sora 2 alias, including sora-2, sora-2-pro and the dated snapshots, are removed from the API on September 24, 2026. Developers were notified on March 24. The column where a recommended replacement would go is empty.</p>
+<p><em>Updated October 24, 2026. The removal happened on schedule. Since September 24 the Videos API and every Sora 2 alias are gone, and <a href="https://developers.openai.com/api/docs/deprecations" target="_blank" rel="noopener">OpenAI's deprecations page</a> still shows an empty replacement column. No successor model has been announced. The countdown below is kept as written on September 1. The new section near the end answers what to do now that the date has passed. This is a documentary analysis of the notice, not a test of any API.</em></p>
+
+<p>The Sora 2 API had twenty three days left. OpenAI's deprecation page gives the date in one line, without ceremony: the Videos API and every Sora 2 alias, including sora-2, sora-2-pro and the dated snapshots, are removed from the API on September 24, 2026. Developers were notified on March 24. The column where a recommended replacement would go is empty.</p>
 
 <p>That empty column is the whole story, and almost nobody is writing about it. Every piece I have read this week treats the Sora shutdown as a business obituary. Costs were reported at around a million dollars a day. Active users fell off. The consumer app went dark back on April 26. All true, all already covered, and none of it is the part that lands on a production schedule.</p>
 
@@ -68,4 +71,19 @@ featured: false
 
 <p>The craft response to that is not loyalty to a model and it is not cynicism about the field. It is building the way a production department builds. You do not write a schedule that only works if one specific rental house stays open. You write it so a truck from anywhere can pull up on the day.</p>
 
-<p>Twenty three days. Go find your calls.</p>
+<h2>Is the Sora 2 API still available?</h2>
+
+<p>No. As of October 24, 2026, every model in the deprecation entry is removed: sora-2, sora-2-pro and the three dated snapshots, along with the Videos API itself. A call to any of them fails. The consumer app closed earlier, on April 26. OpenAI has not named a replacement, so there is nothing to point an old request at.</p>
+
+<p>If something in your pipeline still references Sora, it has been failing for a month. The first job is to find out where. Run this from the root of any repository or scripts folder that ever touched video generation:</p>
+
+<pre><code>grep -rnE "sora-2(-pro)?(-2025-[0-9]{2}-[0-9]{2})?|/v1/videos" . \
+  --include=*.py --include=*.js --include=*.ts --include=*.json --include=*.yaml --include=*.env</code></pre>
+
+<p>Every line it prints is a call that no longer answers. Then do the three things from the list above, in the same order, with one change. The second step is now a check, not a download: open whatever storage you used and confirm your takes exist outside OpenAI. Anything that only lived inside the Sora product should be treated as lost until you prove otherwise.</p>
+
+<p>For the replacement, the honest answer is the same as on September 1. Pick the model by the shot, not by loyalty, and put its name in one config file. In my own pipeline Seedance 2.0 carries most of the volume and Kling 3.0 handles Motion Control, both reached through the <a href="https://higgsfield.ai/" target="_blank" rel="noopener">Higgsfield</a> hub. Higgsfield published its own <a href="https://higgsfield.ai/blog/sora-api-migration-guide" target="_blank" rel="noopener">Sora migration guide</a>. Read it as a vendor's recommendation, because it is one.</p>
+
+<p>The date has passed. Go find your calls.</p>
+
+<p><em>Sources: <a href="https://developers.openai.com/api/docs/deprecations" target="_blank" rel="noopener">OpenAI API deprecations, entry of 2026-03-24</a> | <a href="https://higgsfield.ai/blog/sora-api-migration-guide" target="_blank" rel="noopener">Higgsfield: Sora API migration guide</a> | <a href="https://en.wikipedia.org/wiki/Sora_(text-to-video_model)" target="_blank" rel="noopener">Wikipedia: Sora (text-to-video model)</a></em></p>
