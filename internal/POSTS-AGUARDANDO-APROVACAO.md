@@ -94,3 +94,48 @@ História é alguém que quer uma coisa e não pode ter. O resto é decoração.
 A folha que eu preencho antes de gerar um frame, e a inversão que mais economiza: gerar o último plano primeiro.
 
 https://openyourais.com/blog/ai-storytelling-video-story-first-method-director/
+
+## Guardião 24/10/2026: Sora 2 API, um mês depois (aguardando aprovação, nada agendado)
+
+Artigo: /blog/sora-2-api-shuts-down-september-24-where-producers-go-next/ (só divulgar depois do merge do PR do dia, porque a versão no ar ainda é a contagem regressiva de 01/09).
+Continua a tese do post dele de 14/10 (Cursor), que já citava o fechamento da API do Sora.
+
+LinkedIn, modo 1 (opinião pura, sem link). Imagem sugerida: print da linha do Sora na página de deprecações da OpenAI, com a coluna de substituto vazia.
+
+```
+Faz um mês que a API do Sora fechou.
+
+24 de setembro. Quem tinha pipeline chamando o Sora 2 acordou no dia 25 com tudo parado. Não ficou pior. Parou.
+
+A página de descontinuação da OpenAI tem uma coluna chamada substituto recomendado.
+
+Continua vazia.
+
+Seis meses de aviso. Nenhum lugar para ir.
+
+E eu vejo gente montando o negócio inteiro em cima de um modelo, como se modelo fosse chão. Não é. Modelo é aluguel.
+
+O que é seu é o resto. O roteiro, a ficha do personagem, a decisão de cada plano, o jeito de montar. Isso muda de ferramenta numa tarde.
+
+O que não é seu fecha numa quinta-feira e não deixa endereço.
+
+A coluna continua vazia.
+```
+
+X, modo 3 (entrega, link completo com UTM):
+
+```
+The Sora 2 API has been dead for a month.
+
+September 24. Every call to sora-2, sora-2-pro and their dated snapshots now fails. OpenAI's deprecation page has a column for the recommended replacement. It is still empty.
+
+If anything in your pipeline still points there, it has been failing quietly for 30 days. One command finds it:
+
+grep -rnE "sora-2(-pro)?|/v1/videos" .
+
+Then three steps. List every call. Confirm your takes exist somewhere outside OpenAI. Put the model name in one config file, so the next shutdown is a one line edit instead of a rebuild.
+
+The model was never the asset. The pipeline around it is.
+
+The full command and the checklist: https://openyourais.com/blog/sora-2-api-shuts-down-september-24-where-producers-go-next/?utm_source=x&utm_medium=social&utm_campaign=sora-2-api-shutdown
+```
