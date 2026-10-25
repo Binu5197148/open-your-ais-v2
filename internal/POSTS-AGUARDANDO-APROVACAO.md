@@ -94,3 +94,85 @@ História é alguém que quer uma coisa e não pode ter. O resto é decoração.
 A folha que eu preencho antes de gerar um frame, e a inversão que mais economiza: gerar o último plano primeiro.
 
 https://openyourais.com/blog/ai-storytelling-video-story-first-method-director/
+
+## 23/10/2026 (guardião, rascunhos, nada publicado)
+
+### LinkedIn, modo 1 (opinião, sem link). Sugestão de imagem: print da cláusula 9 do regulamento.
+IA DEGENERATIVA, parte 3.
+
+O resultado do festival de 1 milhão de dólares da Higgsfield sai na última semana de outubro. Data exata, segundo eles, ainda a confirmar.
+
+Antes de ver quem ganhou, eu fui ler o regulamento inteiro.
+
+Todo filme inscrito, ganhando ou não, dá à Higgsfield uma licença perpétua, irrevogável, mundial e gratuita para exibir e reproduzir o filme e pedaços dele. Inclusive em anúncio pago dos produtos dela.
+
+O prompt público eles anunciaram alto. O anúncio ficou no regulamento.
+
+Catorze inscrições dividem o prêmio. O resto entregou, de graça e para sempre, material de propaganda para a plataforma.
+
+Não sou contra festival de IA. Sou contra confundir festival com campanha.
+
+O filme é seu. Lê antes de assinar.
+
+### X, modo 3 (entrega, link só depois do merge)
+Higgsfield's $1M AI film festival names its winners in the last week of October.
+
+Before you watch, read section 9 of the official rules.
+
+Every eligible entry, winner or not, gives Higgsfield a "non-exclusive, perpetual, irrevocable, worldwide, royalty-free license" to screen and reproduce the film and fragments of it. Including in paid advertising for Higgsfield's products.
+
+The public prompts were announced loudly. This part sits in the rules.
+
+And reuse is narrower than most people think. Other users can copy your prompts only if you switched on Open-Source Mode, and only to generate on Higgsfield. Your images and video are not licensed to anyone.
+
+Every clause that matters, with the official links, so you can decide before the next festival like this one:
+https://openyourais.com/blog/higgsfield-1m-film-festival-open-prompts-director-take/?utm_source=x&utm_medium=social&utm_campaign=higgsfield-festival-rules
+
+## 25/10/2026, guardião (posts sobre o regulamento do festival Higgsfield, artigo do PR #21)
+
+Nada publicado nem agendado. Fonte conferida em 25/10: https://higgsfield.ai/contests/higgsfield-global-film-festival?tab=rules (seção 9; resultado previsto para "End week of October 2026").
+
+LinkedIn, modo 1 (opinião pura, sem link). Pede imagem: print da seção 9 do regulamento com a frase do anúncio pago marcada.
+
+```
+Essa semana sai o resultado do festival da Higgsfield.
+
+Antes de olhar quem ganhou, lê a seção 9 do regulamento.
+
+Quem inscreveu deu à Higgsfield uma licença perpétua, irrevogável, mundial e sem pagamento para exibir e reproduzir o filme. Inclusive em anúncio pago dos produtos dela.
+
+Vale para todo filme inscrito. Ganhando ou não.
+
+O copyright continua seu. Está escrito lá.
+O filme é seu. O comercial é deles.
+
+Não é escondido. Não é ilegal. Ninguém foi obrigado a se inscrever.
+
+Catorze filmes levam prêmio. Todo o resto pode virar material de campanha. Para sempre.
+
+Eu já falei aqui do que vi nesse festival. Muita coisa linda e vazia, muita cena copiada de filme que a gente já viu um milhão de vezes.
+
+Agora o regulamento conta o resto: o filme que não ganhou continua trabalhando. Para quem vende a ferramenta.
+
+Lê a seção 9 antes de entrar no próximo.
+
+O filme é seu. O comercial é deles.
+```
+
+X, modo 2 (opinião com destino; o destino é o regulamento oficial, não o site, porque a correção do artigo ainda está no PR #21):
+
+```
+The Higgsfield film festival announces its winners this week. Before you look at who won, read section 9 of the rules.
+
+Every entrant gave Higgsfield a non-exclusive, perpetual, irrevocable, worldwide, royalty-free license to screen and reproduce their film. That includes paid advertising for Higgsfield's products. It applies to every entry, winning or not, and it attaches the moment you hit final submission.
+
+Your copyright stays yours. The rules say so, and that part is fair.
+
+But 14 films get a prize. Every other film can keep working as marketing for the company that sells the tool. Forever, for free.
+
+It was not hidden. Nobody was forced to enter. It is just the trade. Read it before you sign the next one.
+
+Your film. Their commercial.
+
+https://higgsfield.ai/contests/higgsfield-global-film-festival?tab=rules
+```
