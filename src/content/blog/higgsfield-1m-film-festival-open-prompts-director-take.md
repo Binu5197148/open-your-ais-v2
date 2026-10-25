@@ -35,7 +35,7 @@ readTime: "6 min read"
 
 <h2>What mattered before the deadline</h2>
 
-<p>For independent filmmakers who have been building in AI tools, the practical calculus here is not complicated. The entry cost is a Higgsfield subscription and a finished three-minute short. The potential return is $500,000 and a jury credit from working professionals who have stood inside the industry for decades.</p>
+<p>For independent filmmakers who have been building in AI tools, the practical calculus here is not complicated. The entry cost was a finished three-minute short made in Cinema Studio. The current rules say no paid subscription was required to submit, so the real cost was the credits the film used. The potential return is $500,000 and a jury credit from working professionals who have stood inside the industry for decades.</p>
 
 <p>A few things worth knowing before you begin:</p>
 
@@ -54,7 +54,7 @@ readTime: "6 min read"
 
 <p>This is different from what happens at Sundance. If your film wins there, your methodology stays yours for as long as you choose to keep it private. The specific creative path that produced the work, the knowledge of what worked and what did not, stays with you. You can teach it, withhold it, or build a career on the advantage it gives.</p>
 
-<p>After the deadline at Higgsfield, anyone can see exactly how Hell Grind was made. Anyone can see exactly how your film was made. The prize recognizes the vision. The path becomes common property.</p>
+<p>After the deadline at Higgsfield, anyone can see exactly how Hell Grind was made. Anyone can see exactly how your film was made. The prize recognizes the vision. The path becomes visible. Visible is not the same as owned: the rules keep copyright in your generations with you, let others reuse your prompts only under Open-Source Mode and only on Higgsfield, and say that publishing them does not put them in the public domain. What spreads is the method, and a method you can see is a method someone can learn from.</p>
 
 <p>This is not a reason to stay out. The money is real and the jury carries weight. It is a description of what you are trading when you submit, and that trade deserves a clear look before signing the form.</p>
 
