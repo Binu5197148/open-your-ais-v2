@@ -1,9 +1,10 @@
 ---
 id: "art-089"
-title: "DaVinci Resolve AI: Paid Studio vs Free"
-description: "IntelliScript, SmartSwitch and the Audio Assistant put against the free build. Which Resolve AI tools justify paying for Studio, and which get switched off."
+title: "DaVinci Resolve 21: Studio vs Free AI Features"
+description: "Resolve 21.1 put an AI assistant server for Claude and Codex in Studio only. What it can do, how to switch it on, and when the Studio licence earns its keep."
 pubDate: "2026-03-15"
-updatedDate: "2026-09-02"
+updatedDate: "2026-10-21"
+toolVersion: "2026-10"
 category: "Tools"
 tags:
   - "Workflow"
@@ -18,7 +19,8 @@ author: "Ulisses Balbino"
 readTime: "8 min read"
 ---
 
-<p><em>Updated September 2, 2026: DaVinci Resolve 21 shipped in June 2026 and is now the current release. The AI editing tools reviewed below carried over into 21, so the verdict on each one still applies.</em></p>
+<p><em>Updated October 21, 2026: DaVinci Resolve 21 is still the current release, and the free 21.1 update of September 8 added the biggest change since: a built-in server that lets Claude, Claude Code and ChatGPT Codex drive Resolve Studio. That is covered in a new section below. This update also corrects an earlier claim about which AI tools come with the free version, and the Studio price, which Blackmagic's page lists at 236 dollars today. This article is a reading of Blackmagic's documentation and trade coverage, not a hands-on test of 21.1.</em></p>
+<p><em>Updated September 2, 2026: DaVinci Resolve 21 shipped in June 2026. The AI editing tools reviewed below carried over into 21, so the verdict on each one still applies.</em></p>
 
 <h2>Blackmagic Does AI Differently</h2>
 <p>Most AI feature announcements in video production tools follow the same pattern: a demo with ideal footage, a capability described in marketing language, and a real-world implementation that works under specific conditions but fails in the situations you meet on a production. I've tested enough of these to have developed a healthy skepticism about feature launches.</p>
@@ -45,6 +47,20 @@ readTime: "8 min read"
 <p>For social content that will be viewed without audio (which is the majority of social video consumption), subtitles that are visually integrated with the content rather than legibility-only captions change the viewing experience measurably.</p>
 
 <h2>Is DaVinci Resolve Studio Worth It for AI Editing?</h2>
-<p>DaVinci Resolve 20's AI features are available in the free version, with the exception of capabilities that specifically require the Neural Engine processing in the Studio version. The free tier gets IntelliScript, Audio Assistant, SmartSwitch, and Animated Subtitles. The Studio version adds depth map, advanced magic mask, and certain rendering acceleration features. For most production workflows, the free version covers the AI toolset that matters day to day.</p>
-<p>Resolve 20 ended its run at version 20.3.2. DaVinci Resolve 21 became the current release in June 2026, carrying this AI editing set forward and adding a Photo page plus IntelliSearch and CineFocus. Studio still costs 295 dollars as a one-time licence, and the update path from an older install is free.</p>
-<p><em>Sources: <a href="https://larryjordan.com/articles/ai-powered-features-in-davinci-resolve-20/" target="_blank" rel="noopener">Larry Jordan, AI-Powered Features in DaVinci Resolve 20</a> | <a href="https://www.cined.com/davinci-resolve-20-released-with-handful-of-ai-assisted-features/" target="_blank" rel="noopener">CineD, DaVinci Resolve 20 AI Features</a> | <a href="https://www.blackmagicdesign.com/products/davinciresolve/whatsnew" target="_blank" rel="noopener">Blackmagic Design, What's New in DaVinci Resolve</a></em></p>
+<!-- Correction 2026-10-21: the earlier text said the free tier gets IntelliScript, Audio Assistant, SmartSwitch and Animated Subtitles. Sources conflict on that and Blackmagic does not list a tier per tool, so the claim was removed. -->
+<p>An earlier version of this article said the free version gets IntelliScript, Audio Assistant, SmartSwitch and Animated Subtitles. That was stated with more certainty than the sources allow. Independent write-ups disagree tool by tool, and Blackmagic's own <a href="https://www.blackmagicdesign.com/products/davinciresolve/studio" target="_blank" rel="noopener">Studio page</a> describes the difference as one thing: Studio adds the DaVinci AI Neural Engine, which it says powers features found only in Studio, without naming each one. So this article no longer assigns a tier to each tool.</p>
+<p>What is documented as Studio only, as of 21.1: the AI assistant server described in the next section, and advanced Python scripting, which Blackmagic moved out of the free version because, in its own words reported by <a href="https://digitalproduction.com/2026/09/08/resolve-21-1-adds-mcp-and-finally-gets-presets/" target="_blank" rel="noopener">Digital Production</a>, the API had been used to switch on Studio features in the free build. The practical test before paying is simple: install the free version, open a project you cut for a client, and see which AI items in the Edit, Fairlight and Color pages are greyed out. That list, on your own footage, is the only one that matters for the purchase.</p>
+<p>Resolve 20 ended its run at version 20.3.2. DaVinci Resolve 21 became the current release in June 2026, carrying this AI editing set forward and adding a Photo page plus IntelliSearch and CineFocus. Studio is a one-time licence. On October 21, 2026, Blackmagic's page shows it at 236 dollars, marked down from 295, so check whether that reduction is still running before you budget for it. Updates within a major version are free.</p>
+
+<h2>How Do You Set Up the AI Assistant in DaVinci Resolve 21.1?</h2>
+<p>This is the part of 21.1 that changes the conversation for anyone who already works with an agent. Blackmagic built an MCP server, the same open protocol Claude uses to talk to outside tools, straight into Resolve Studio. Once it is connected, you ask for work in the assistant's normal chat window and Resolve does it. The assistants named in the coverage from <a href="https://www.cined.com/davinci-resolve-21-1-released-ai-assistant-integration-via-mcp-individual-hdr-trims-and-python-scripting-moves-to-studio/" target="_blank" rel="noopener">CineD</a> and <a href="https://digitalproduction.com/2026/09/08/resolve-21-1-adds-mcp-and-finally-gets-presets/" target="_blank" rel="noopener">Digital Production</a> are Claude, Claude Code and ChatGPT Codex.</p>
+<ol>
+<li>Update to DaVinci Resolve Studio 21.1 or later from the <a href="https://www.blackmagicdesign.com/support/family/davinci-resolve-and-fusion" target="_blank" rel="noopener">Blackmagic support page</a>. The free version does not include the server.</li>
+<li>In Resolve, open <strong>File &gt; Setup AI Assistants</strong> and pick the assistant you use.</li>
+<li>Open a copy of a project, not the master. Start with a read-only request, such as asking the assistant to describe the Media Pool and the timelines, so you see what it can reach.</li>
+<li>Then give it one mechanical job with a checkable result. Blackmagic's own example, as reported: take a long clip from the Media Pool, build a three-minute highlight edit, remove edits shorter than one second, and render an H.265 file for review.</li>
+<li>Review the timeline it built the way you would review an assistant editor's first pass, cut by cut.</li>
+</ol>
+<p>The documented jobs are project analysis, media organisation, project-setting changes, cutting highlight reels and batch rendering. That is the list of work nobody went to film school to do, which is exactly where an agent belongs. The choice of which take, which pause, which reaction shot stays where it was. It is the same split described in <a href="/blog/remotion-claude-code-video-variations-director-method/">the Remotion method for re-rendering variations with Claude Code</a>: the agent repeats, the editor decides.</p>
+<p>Two limits are worth knowing before you hand it a real job. Digital Production notes that Blackmagic's primer does not explain permissions, protection against destructive operations, logging, or access control on shared machines, which is why step 3 says to work on a copy. And the scripting interface underneath still cannot move, trim or split clips with the freedom a person has on the timeline, so the assistant assembles and renders; it does not finesse.</p>
+<p><em>Sources: <a href="https://larryjordan.com/articles/ai-powered-features-in-davinci-resolve-20/" target="_blank" rel="noopener">Larry Jordan, AI-Powered Features in DaVinci Resolve 20</a> | <a href="https://www.cined.com/davinci-resolve-20-released-with-handful-of-ai-assisted-features/" target="_blank" rel="noopener">CineD, DaVinci Resolve 20 AI Features</a> | <a href="https://www.blackmagicdesign.com/products/davinciresolve/whatsnew" target="_blank" rel="noopener">Blackmagic Design, What's New in DaVinci Resolve</a> | <a href="https://www.cined.com/davinci-resolve-21-1-released-ai-assistant-integration-via-mcp-individual-hdr-trims-and-python-scripting-moves-to-studio/" target="_blank" rel="noopener">CineD, DaVinci Resolve 21.1 Released</a> | <a href="https://digitalproduction.com/2026/09/08/resolve-21-1-adds-mcp-and-finally-gets-presets/" target="_blank" rel="noopener">Digital Production, Resolve 21.1 Adds MCP</a></em></p>
