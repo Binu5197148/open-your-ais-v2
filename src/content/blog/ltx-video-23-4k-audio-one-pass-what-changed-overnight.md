@@ -36,7 +36,7 @@ featured: true
 <li><strong>Less frozen image to video.</strong> Starting from a still produces fewer slow pans and dead frames.</li>
 </ul>
 
-<p>Notice what is not on the list. Nothing in the release says faces in sustained close up were solved. That was the constraint on LTX-2, and nobody at Lightricks claimed 2.3 removed it. Plan around it the same way: environments, objects, atmosphere, motion. Not the hero close up where a face carries the scene.</p>
+<p>Notice what is not on the list. Nothing in the release mentions faces in sustained close up, and the documentation does not establish how 2.3 performs there, in either direction. So before you give it the hero close up where a face carries the scene, test it on your own material and judge the take, not the release notes.</p>
 
 <h2>Why the 4K and audio story spread anyway</h2>
 

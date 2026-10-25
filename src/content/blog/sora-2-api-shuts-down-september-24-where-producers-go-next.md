@@ -77,10 +77,11 @@ featured: false
 
 <p>If something in your pipeline still references Sora, it has been failing for a month. The first job is to find out where. Run this from the root of any repository or scripts folder that ever touched video generation:</p>
 
-<pre><code>grep -rnE "sora-2(-pro)?(-2025-[0-9]{2}-[0-9]{2})?|/v1/videos" . \
-  --include=*.py --include=*.js --include=*.ts --include=*.json --include=*.yaml --include=*.env</code></pre>
+<pre><code>grep -rnE --include="*.py" --include="*.js" --include="*.ts" \
+  --include="*.json" --include="*.yaml" --include="*.env" \
+  "sora-2(-pro)?(-2025-[0-9]{2}-[0-9]{2})?|/v1/videos" .</code></pre>
 
-<p>Every line it prints is a call that no longer answers. Then do the three things from the list above, in the same order, with one change. The second step is now a check, not a download: open whatever storage you used and confirm your takes exist outside OpenAI. Anything that only lived inside the Sora product should be treated as lost until you prove otherwise.</p>
+<p>The quotes around each pattern matter: without them zsh, the default shell on a Mac, stops with "no matches found" before grep even runs. Every line it prints is a reference to inspect, not proof of a broken call. grep also finds comments, old config and code that never runs, so open each hit and decide whether it is live. The ones that are live point at endpoints OpenAI removed on September 24. Then do the three things from the list above, in the same order, with one change. The second step is now a check, not a download: open whatever storage you used and confirm your takes exist outside OpenAI. Anything that only lived inside the Sora product should be treated as lost until you prove otherwise.</p>
 
 <p>For the replacement, the honest answer is the same as on September 1. Pick the model by the shot, not by loyalty, and put its name in one config file. In my own pipeline Seedance 2.0 carries most of the volume and Kling 3.0 handles Motion Control, both reached through the <a href="https://higgsfield.ai/" target="_blank" rel="noopener">Higgsfield</a> hub. Higgsfield published its own <a href="https://higgsfield.ai/blog/sora-api-migration-guide" target="_blank" rel="noopener">Sora migration guide</a>. Read it as a vendor's recommendation, because it is one.</p>
 
