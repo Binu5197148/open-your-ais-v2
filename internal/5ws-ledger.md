@@ -754,3 +754,61 @@ acervo" da tarefa agendada nao se cumpre mais sem decisao dele. Pergunta levada 
   na contagem do X). LinkedIn ainda deve um abaixo de 400.
 - **Trava 7.** LinkedIn da 8 abre com imperativo, X com sintagma nominal.
 - **Axenworks.** Evitar a pagina de ProRes na 9.
+
+---
+
+## Notas da edicao 9, escritas em 2026-10-26
+
+```
+| 09 | artigo   | 2026-10-26 | A3 | F1 | -   | -     | 1 axenworks | nenhum |
+| 09 | linkedin | AAAA-MM-DD | -  | -  | P3  | 386   | nao         | nenhum |
+| 09 | x        | AAAA-MM-DD | -  | -  | P8  | 285 (197 na contagem do X) | sim | nenhum |
+```
+
+- **Nao foi para a main.** Branch `5ws-edicao-09`, empilhada em `5ws-edicao-08` (PR 18, parecer
+  favoravel do Codex em 24/10, sem merge). PR aberto contra a branch da 8. A data acima e o
+  `pubDate`; se o merge sair em outro dia, corrigir aqui e no frontmatter. Sem URL 200,
+  indexacao no Search Console NAO pedida. `id` art-193 (art-192 e do PR 17).
+- **Abertura A3, o numero que eu conferi**: os 50 testes da blender-skills. Contei 50; o ultimo
+  run publico (16/10) deu 47 passaram, 3 pulados, e os 3 pulados sao os renders, porque o CI nao
+  tem GPU. Fecho **F1**, a duvida que ficou: se um ACCEPT de maquina pode fechar um plano pago
+  sem nome de pessoa ao lado.
+- **As cinco skills**: video-demo (web para video), shotkit (organizacao de pre-producao),
+  blender-skills (automacao 3D), big-arrow-on-the-screen (tela e tutorial), sepia (documento).
+  **Nenhuma do acervo**, quarta edicao seguida: as da classe A ou ja sairam (gauntlet-loop,
+  dublagem, scroll-world, world-film, ugc-avatar-builder) ou estao travadas por direitos
+  (video-prompt-builder, roteiros-virais, nanobanana, vox-*, higgsfield). Decisao dele.
+- **Descartadas**: appariciojunior/video-editor-skills (CC BY-NC 4.0, proibe uso em servico
+  vendido, mesma regra que tirou a onetake), dennisonbertram/emulsion (dois commits num dia de
+  julho e nada depois; o SKILL.md manda o agente abrir PR no repositorio do autor sozinho),
+  undefined-ui/second-brain-os (repetiria a obsidian-second-brain), oil-oil/oil-subtitle (sem
+  licenca), rossark-motion e outros de filme em codigo (repetiriam opuscar e lower-thirds).
+- **Um link para axenworks**, na ficha 3, pagina `shutter-angle-calculator`, primeira vez usada.
+  A pergunta nasce do script de chuva, que fixa a estria em meio quadro (obturador de 180 graus).
+- **Nenhum vicio da 3.1 gasto.** Tres contrastes "Y, nao X" do rascunho foram reescritos antes do
+  build, e saiu uma frase sobre "a maioria rola sem som" que nao tinha fonte.
+- Snapshot unico: 2026-10-26, 10h11 a 10h16 UTC, `gh` autenticado. Hacker News nao respondeu
+  daqui e Reddit nao foi lido: comunidade nao verificada, registrado no bloco 5.
+- Tom das cinco pegadinhas, para a trava 8: recusa legenda por design (video-demo); o ACCEPT e
+  de um modelo e o registro nao guarda quem aprovou (shotkit); testes de render pulados no CI e
+  instalador que apaga pasta de mesmo nome e instala links (blender-skills); a permissao vai
+  para o terminal inteiro (big-arrow); "verificado" quer dizer instalado (sepia). Cinco tons.
+- **Regra do contador**, tres vezes, bateu nas tres: 22 skills e 50 testes (blender-skills),
+  10 adaptadores (shotkit). Idioma nao entrou como pegadinha.
+- **Capa**: set de filmagem com camera e performer, primeira sorteada pelo `--pick`, conferida
+  contra os 176 slugs de todas as branches remotas. A chave do Unsplash foi lida pelo
+  `node --env-file`, sem passar pelo shell.
+- **Titulo** sem "What" e sem "check".
+
+## Leitura das travas para a edicao 10
+
+- **Aberturas.** A3 acabou de ser gasta: fora ate a 14. A5 fora ate a 13, A9 ate a 12, A7 ate a
+  11. A4 volta na 10. A10 obrigatoria se aparecer erro publicado. A abertura da 10 sai de A1, A2,
+  A4, A6, A8 ou A10.
+- **Fechos.** F1 fora ate a 12, F4 ate a 11. F3 volta na 10. A 10 sai de F2, F3, F5 ou F6.
+- **Formatos de post** (contam da publicacao; nada publicado desde a edicao 5). Rascunhos
+  pendentes: 4 (P3, P8), 6 (P6, P2), 7 (P11, P5), 8 (P1, P7), 9 (P3, P8). Para a 10, preferir
+  P4, P9, P10 ou P12, que nao aparecem em rascunho recente.
+- **Trava 4.** Se os da 9 sairem: LinkedIn paga a ponta de baixo (386) e X a de baixo (197).
+- **Trava 7.** LinkedIn da 9 abre com pergunta, X com numeral.
+- **Axenworks.** Paginas ainda nao usadas: braw, gopro, e as de 32gb a 2tb exceto 1tb.
