@@ -94,3 +94,40 @@ História é alguém que quer uma coisa e não pode ter. O resto é decoração.
 A folha que eu preencho antes de gerar um frame, e a inversão que mais economiza: gerar o último plano primeiro.
 
 https://openyourais.com/blog/ai-storytelling-video-story-first-method-director/
+
+## 26/10/2026 - entrega do dia: como desligar ou revisar a dublagem automática do YouTube
+
+### LinkedIn (modo 1, opinião pura, sem link)
+
+O YouTube tem um botão para você ouvir a dublagem antes dela ir ao ar.
+
+Vem desmarcado.
+
+O padrão é este: a dublagem automática liga sozinha no seu canal, gera a sua fala em outro idioma e publica. Ninguém ouviu. Nem você.
+
+E se sair errada, o Google é claro na própria página de ajuda: você não pode editar. Pode despublicar, pode apagar, pode mandar gerar tudo de novo. Corrigir a frase, não.
+
+Para canal de tutorial, tudo bem. Ninguém liga para a voz de quem explica atalho de teclado.
+
+Mas tem gente cuja voz é o trabalho. Ator, locutor, quem passou anos fazendo o público reconhecer um jeito de falar. Para essa gente, o padrão é ter a própria voz trocada por uma voz genérica, em vinte idiomas, sem ninguém ter ouvido antes.
+
+Eu uso clone de voz o tempo todo. Mas é a minha voz, e eu escuto antes de qualquer um.
+
+Ouvir antes não é detalhe técnico. É assinar o que vai sair com o seu nome.
+
+Se a sua voz é o seu trabalho, marca a caixa.
+
+### X (modo 3, entrega, link só depois do merge)
+
+YouTube auto dubbing is on by default, it publishes on its own, and Google's own help page says you cannot edit a dub.
+
+What you can do, as of today:
+
+1. Turn it off: YouTube Studio > Settings > Channel > Advanced settings > uncheck "Allow automatic dubbing".
+2. Keep it but approve first: check "Manually review dubs before publishing" in the same place.
+3. Pull a bad dub: Content > your video > Languages > Audio column > Unpublish. Delete can't be undone.
+4. Viewers: switch the audio track in the player, or add your language to preferred languages.
+
+Free dubbing is for reach. When the voice is the product, or a client can send a note about line 14, pay for a dub you can edit.
+
+Full guide: https://openyourais.com/blog/youtube-ai-dubbing-27-languages-what-it-cannot-do/?utm_source=x&utm_medium=social&utm_campaign=youtube-ai-dubbing
