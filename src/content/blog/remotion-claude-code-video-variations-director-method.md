@@ -1,9 +1,9 @@
 ---
 id: "art-180"
-title: "Remotion vs. AI: Why you need code for professional video"
-description: "Remotion renders video from React code instead of guessing it. The install, the 12 Claude Code agent skills, and the campaign job no AI model can do."
+title: "Why Your Video Needs Code, Not Just AI"
+description: "How to use Remotion with Claude Code: the official plugin, a 7 step walkthrough, a prompt to paste, and why code gives exact variations AI cannot."
 pubDate: "2026-09-03"
-updatedDate: "2026-10-04"
+updatedDate: "2026-10-27"
 toolVersion: "2026-10"
 category: "Workflow"
 tags:
@@ -20,6 +20,8 @@ readTime: "8 min read"
 featured: false
 ---
 
+<p><em>Updated October 27, 2026. Three things moved since the last check. Remotion now ships an official <a href="https://www.remotion.dev/docs/ai/claude-code-plugin" target="_blank" rel="noopener">Claude Code plugin</a> that bundles the skills, installable from the plugin directory in the Claude desktop app or from the terminal. On October 22 the docs added a GitHub CLI route, <code>gh skill install remotion-dev/skills</code>. And the package reached 4.0.539 on October 26. Still twelve skills, still no 5.0 release, and the license prices below were reread on the <a href="https://www.remotion.pro/license" target="_blank" rel="noopener">official page</a> today without change. A step by step section now answers the question people search most: how to use Remotion with Claude Code.</em></p>
+
 <h2>The Tool That Refuses to Roll the Dice</h2>
 <p>Remotion is a framework that builds video out of React code. You write components, the frames are computed, and a renderer turns them into a file. There is no model in the middle deciding what the shot looks like. Every pixel is the consequence of something you wrote, which means the same input produces the same output on Tuesday that it produced on Monday.</p>
 <p>That last sentence is the entire argument, and it is the opposite of what the rest of my work looks like. I direct commercials in São Paulo and I run Kling, Seedance and Gemini Omni on paying jobs. Those models are extraordinary and they are also slot machines. You prompt, you get something, you prompt again with the same words and you get a cousin of it. For a hero shot that is fine, because you only need the one. For the forty things that come after the hero shot, it is a catastrophe.</p>
@@ -33,6 +35,24 @@ featured: false
 npx remotion skills update</code></pre>
 <p>The first pulls the skills into <code>.agents/skills</code> in your project, and symlinks <code>.claude/skills</code> to the same place so Claude Code finds them without extra configuration. The second is the one people forget: the skills are versioned alongside a framework shipping at a near daily pace, so an install from three months ago is teaching your agent stale patterns. As I write this, the <code>remotion</code> package sits at 4.0.520, published on September 1, 2026, four releases after 4.0.516 on August 24. By October 1 it was already at 4.0.532. That cadence is the reason the update command exists.</p>
 <p>You can also install through the general skills registry with <code>npx skills add remotion-dev/skills</code>, which is the route to use if you are collecting skills from several projects in one place.</p>
+
+<h2>How to Use Remotion With Claude Code, Step by Step</h2>
+<p>This is the sequence from an empty folder to a rendered file, using the commands in the official docs as of October 27, 2026. It works the same on a Mac and on Windows once Node is installed.</p>
+<ol>
+<li><strong>Create the project.</strong> In a terminal, run <code>npx create-video --yes --blank my-video</code>, or run <code>npx create-video</code> with no arguments and let the interactive setup ask you, including whether to add the skills.</li>
+<li><strong>Connect Claude Code.</strong> Pick one route. In the Claude desktop app, open Code, then Customize, then Plugins and Discover, search for remotion and click Add. In the terminal, run <code>claude plugin marketplace add remotion-dev/claude-code-plugin</code> and then <code>claude plugin install remotion@remotion</code>, and restart Claude Code. If you prefer plain skills inside the project, run <code>npx remotion skills add</code> or <code>npx skills add remotion-dev/skills</code> from the project folder instead.</li>
+<li><strong>Open a session in that folder</strong> and ask for one small thing, with the create skill: <code>/remotion:remotion-create</code> through the plugin, or <code>/remotion-create</code> with the project skills, followed by your brief.</li>
+<li><strong>Look at it.</strong> Ask for <code>/remotion-studio</code>, or run <code>npx remotion studio</code>, and judge the motion in the preview before anything renders.</li>
+<li><strong>Feed it real data,</strong> as a props object or a JSON file: the actual price, the actual legal line, the actual three languages.</li>
+<li><strong>Render two variants</strong> with <code>/remotion-render</code> or <code>npx remotion render</code> and put them side by side. Identical apart from the data is the pass mark.</li>
+<li><strong>Keep it current.</strong> Run <code>npx remotion skills update</code> before each new job, or update the plugin, because the framework ships several releases a month.</li>
+</ol>
+<p>A brief I would paste on step three, for a price end card:</p>
+<pre><code>/remotion-create A 5 second end card, 1080x1920. Props: productName,
+price, currency, legalLine. Product name springs in from below, price
+counts up over 20 frames, legal line fades in last at 60% opacity.
+Also expose a 16:9 and a 1:1 composition that reuse the same component
+and reflow the layout. Do not hardcode any text.</code></pre>
 
 <h2>The Job Nobody Writes About</h2>
 <p>Most of what is published about Remotion and Claude right now is a demo. Somebody prompts an agent, a video appears, the video is a bar chart with a title card, everyone claps. That demo is true and it is also the least interesting thing the pairing does.</p>

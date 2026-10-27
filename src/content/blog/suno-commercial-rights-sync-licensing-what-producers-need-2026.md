@@ -1,9 +1,9 @@
 ---
 id: "art-088"
-title: "Can You Copyright Suno AI Songs? The Truth"
-description: "On a paid plan Suno hands you its rights in the song, but no copyright is promised. What the September terms really say, and what to check before delivery."
+title: "The Sony Lawsuit: Is Your Suno AI Music Illegal?"
+description: "Suno AI copyright after the Sony lawsuit: what a paid plan gives you, why your song got a copyright claim, how to fix it, and what to check before delivery."
 pubDate: "2026-03-15"
-updatedDate: "2026-10-08"
+updatedDate: "2026-10-27"
 toolVersion: "2026-09"
 category: "AI"
 tags:
@@ -18,19 +18,21 @@ author: "Ulisses Balbino"
 readTime: "9 min read"
 ---
 
+<p><em>Updated October 27, 2026. No new Suno terms since September 3 and nothing newer than the September 18 lawsuit on the rights side as of today. A new section answers the search people run most around this topic, the copyright claim, separating a YouTube claim after publishing from a block inside Suno before generation.</em></p>
+
 <!-- Correction 2026-10-08: earlier versions said a paid plan gives a license and not ownership. The terms effective 2026-09-03 assign Suno's rights in Pro/Premier output to the user; corrected throughout. -->
 <p><em>Corrected October 8, 2026. An earlier version of this piece said a paid plan gets you a license to the track and not ownership. That was wrong under the current terms. On Pro and Premier, Suno assigns to you whatever rights it holds in the song. What Suno does not promise is that any copyright exists in it. The sections below now keep those two things apart.</em></p>
 
 <p><em>Updated September 28, 2026. This is an analysis for producers, not legal advice and not a hands-on test. Three things moved in September. Suno's new terms took effect on September 3 and changed how downloads and commercial use work. Suno v6 launched on September 9 with Warner Music as a licensing partner. And on September 18, Sony Music and Universal Music filed a second lawsuit, this one aimed at v6 itself. The two new sections below cover what changed and what to check before delivery.</em></p>
 
-<p><em>Updated August 31, 2026. This was written on March 15, 2026, and describes the rights picture as it stood then. Terms of service on AI music platforms change without announcement, and the tier you pay for is the one that decides what you own, so confirm the current wording on your own account before you deliver a track to broadcast or sync. What has not changed is the question this piece exists to ask, which is who is actually liable when a client legal team looks at the invoice.</em></p>
+<p><em>Updated August 31, 2026. This was written on March 15, 2026, and describes the rights picture as it stood then. Terms of service on AI music platforms change without announcement, and the tier you pay for is the one that decides what you own, so confirm the current wording on your own account before you deliver a track to broadcast or sync. What has not changed is the question this piece exists to ask, which is who is liable when a client legal team looks at the invoice.</em></p>
 
 <h2>The Music Nobody Asked About Until the Invoice Arrived</h2>
 <p>Every producer I know has used AI-generated music at some point in the past two years. For scratch tracks, presentation reels, internal content, social posts: AI music fills gaps that previously required either a music budget or royalty-free library tracks that sounded like they were composed in 2009. Suno in particular has become the default for this use case: open browser, describe the vibe, download, cut in. Fast, free on the basic plan, and good enough for most purposes.</p>
 <p>The question nobody asks until a client's legal team does: what are the actual commercial rights you hold to that track, and what happens when it goes to broadcast, sync, or a platform that checks?</p>
 <p>The answer in 2026 is more specific than it was two years ago, and some of the specifics are not what people assume.</p>
 
-<h2>What Suno's Current License Actually Says</h2>
+<h2>What Suno's Current License Says</h2>
 <p>Three different questions get mixed up here, and the terms answer each one separately.</p>
 <p><strong>Who holds Suno's rights in the song.</strong> On Pro and Premier, the <a href="https://suno.com/terms-of-service" target="_blank" rel="noopener">Terms of Service effective September 3, 2026</a> say Suno "hereby assigns to you all of its right, title and interest" in output it owns that you generated through the service. Suno's own help center puts it plainly: songs made on a Pro or Premier plan are yours, and on the free Basic plan Suno keeps ownership and you may only use them for non-commercial purposes.</p>
 <p><strong>Whether there is any copyright to hold.</strong> This is the part people miss. The same terms say Suno "makes no representation or warranty to you that any copyright will vest in any Output." Suno can only hand over what it has. Its <a href="https://help.suno.com/en/articles/2746945" target="_blank" rel="noopener">help article on copyright</a> notes that under US law music made entirely by AI would not qualify for copyright protection, while lyrics you wrote yourself are yours. So you may own the song and still have little to enforce against someone who makes something close to it.</p>
@@ -68,6 +70,17 @@ readTime: "9 min read"
   <li>The client told in writing that the track is AI generated, that Suno's rights were assigned under a paid plan, and that copyright protection is not guaranteed.</li>
 </ol>
 <p>Read the source documents yourself before a delivery: <a href="https://suno.com/terms-of-service" target="_blank" rel="noopener">Suno Terms of Service</a>, <a href="https://help.suno.com/en/articles/2416769" target="_blank" rel="noopener">Suno's help page on ownership</a> and <a href="https://suno.com/blog/suno-updates-tos" target="_blank" rel="noopener">Suno's post on the September downloads policy</a>.</p>
+
+<h2>Why Did My Suno Song Get a Copyright Claim, and How Do I Fix It?</h2>
+<p>Two different things get called a "copyright claim" around Suno, and they need different fixes. Suno does not publish a help page for either one as of October 27, 2026, so what follows is built from the documents that do exist: <a href="https://support.google.com/youtube/answer/7002106" target="_blank" rel="noopener">YouTube's page on copyright claims</a> and Suno's own <a href="https://help.suno.com/en/articles/2746945" target="_blank" rel="noopener">copyright</a> and ownership articles.</p>
+<p><strong>A claim on YouTube, after you publish.</strong> This is usually Content ID, YouTube's automatic matcher, finding your track inside someone else's registered audio, or someone else's track inside yours. It is not a strike. It can redirect your ad revenue or block the video in some territories, depending on what the claimant chose. Before you dispute it, check three things in order:</p>
+<ol>
+<li><strong>Which plan made the song.</strong> Suno's help center says songs made on Basic, the free plan, belong to Suno and are for non-commercial use. A monetized video on a free-plan song has no ground to dispute from.</li>
+<li><strong>Who the claimant is.</strong> If it is a distributor you or a collaborator used, the song may have been registered in Content ID by someone on your own side. Fix it with them, not with YouTube.</li>
+<li><strong>Whether the lyrics are yours.</strong> Suno is explicit that lyrics you wrote are yours and can be registered on their own. Fully generated music may not be protected at all, which cuts both ways: it weakens the claimant's position against you and yours against anyone copying you.</li>
+</ol>
+<p>If the song came from a paid plan and the claimant has no right to it, dispute the claim in YouTube Studio and keep the generation date, the account and the plan on record. That is the paper trail the checklist above asks you to log.</p>
+<p><strong>A block inside Suno, before the song exists.</strong> This is the lyrics or upload refusal people search as "how to fix the copyright claim of lyrics in Suno". Suno refuses some lyrics and uploaded audio as matching existing material, without documenting the rule publicly. When it fires on text you wrote, the useful move is diagnostic, not evasive: run the lyrics with a neutral style prompt to see whether the trigger is the style field, then test the lyrics in sections to find the line that trips it. Artist names and quoted lines from known songs are the usual suspects. If you need someone else's lyrics to pass, the filter is doing its job, and getting around it only moves the risk to your client.</p>
 
 <h2>The Practical Recommendation</h2>
 <p>Use Suno for what it's genuinely good at without legal exposure: scratch tracks, pitches, internal presentations, and social content on platforms where you're not seeking sync licensing or distributing commercially through the music supply chain. For those use cases, a paid plan gives you Suno's rights in the track and commercial use through a permitted download, which is enough for most practical purposes.</p>
