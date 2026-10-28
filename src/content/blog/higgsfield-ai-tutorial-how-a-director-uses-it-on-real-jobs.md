@@ -1,8 +1,10 @@
 ---
 id: "art-140"
-title: "Higgsfield AI Tutorial: Real Jobs, Not a Demo Reel"
-description: "Which model for which shot, how to prompt like a camera department, and the four stages that happen before anyone types a word into the tool."
+title: "Is Higgsfield AI Free? The Truth About Professional Use"
+description: "What Higgsfield AI costs for client work, why its unlimited offers skip the MCP, and the four-stage workflow a director runs before typing a prompt."
 pubDate: "2026-07-17"
+updatedDate: "2026-10-28"
+toolVersion: "2026-10"
 category: "AI"
 tags:
   - "Workflow"
@@ -50,6 +52,22 @@ readTime: "7 min read"
 <p>I think of these models as a modern child with hyperfocus. It has absorbed more images than every living cinematographer combined, and it still cannot decide what any of it is for. Its hyperfocus is unfolding the problem you hand it. Hand it something poor and it amplifies noise in every direction. Hand it something rich, a real shot list, a real palette, a real intention, and it amplifies your idea into work that looks like it cost ten times your budget. Everything starts from the author.</p>
 
 <p>Not because the tool is weak. Because amplification is what it is. The economists arguing about <a href="/blog/ai-replacing-jobs-nobel-economists-letter-directors-answer/">whether AI replaces jobs</a> are having the wrong argument for our corner of the industry. On a set, the question was settled the day these tools arrived: the work moved up a floor, from executing frames to deciding them.</p>
+
+<h2>Is Higgsfield AI free?</h2>
+
+<p><em>Added October 28, 2026.</em> It is the question most people type before they ever ask how to use it, so here is the straight answer from the official <a href="https://higgsfield.ai/pricing" target="_blank" rel="noopener">pricing page</a>, read on October 28, 2026.</p>
+
+<p>For professional use, no. The plans that page shows are paid, priced per seat and billed in credits. Team is listed at $65 per seat per month on annual billing, with a two-seat minimum, and Scale at $150 per seat per month on annual billing, with 12,500 credits a month shared across five seats. Commercial use is listed as included on those plans. Third-party explainers disagree about whether a free tier with a handful of daily credits still exists, and the pricing page did not settle it on the day I checked, so treat any "free Higgsfield" promise with suspicion and confirm it on the page itself before you plan around it.</p>
+
+<p>Three things on that page matter more than the headline price:</p>
+
+<ul>
+<li><strong>Credits are per model, and the spread is huge.</strong> Five seconds of Kling 3.0 at 720p is listed around 6 credits. The same five seconds of Seedance 2.0 at 1080p is around 60. Picking the model per shot, the way I describe above, is also how you keep a budget alive.</li>
+<li><strong>The unlimited offers are browser-only.</strong> The page says it in small print: unlimited models and free generations on plans work only on higgsfield.ai, not through the MCP or CLI. If, like me, you drive Higgsfield from Claude through the MCP, every generation there spends credits. Plan the expensive takes accordingly.</li>
+<li><strong>Promotions rotate.</strong> In late October the page was running time-limited unlimited Seedance 2.5 and Seedance 2.0 windows on the team plans. Those windows end. Do not build a production schedule on a promo.</li>
+</ul>
+
+<p>My working habit follows from that list: prototype framing on the cheap models, and spend on the expensive one only for the take that is going into the cut. That is not a Higgsfield trick. It is how a production has always protected its money: rehearse cheap, roll expensive.</p>
 
 <h2>A starting checklist</h2>
 
