@@ -94,3 +94,38 @@ História é alguém que quer uma coisa e não pode ter. O resto é decoração.
 A folha que eu preencho antes de gerar um frame, e a inversão que mais economiza: gerar o último plano primeiro.
 
 https://openyourais.com/blog/ai-storytelling-video-story-first-method-director/
+
+## 28/10/2026, guardiao (aguardando aprovacao do Ulisses, nada agendado)
+
+### LinkedIn, modo 1 (opiniao pura, sem link). Pede imagem: um still P&B dele, nada do episodio (direitos).
+
+IA DEGENERATIVA, parte 3.
+
+No dia 23 o Grok Imagine soltou o primeiro episódio da Odisseia feita com IA. Sete minutos.
+Em julho o Musk tinha prometido um longa até o fim do ano.
+
+No mesmo ano em que o Nolan levou a Odisseia dele pro cinema.
+
+Fui ler as críticas. Quase todas dizem a mesma coisa: os cenários são bonitos, as pessoas não são.
+O mar impressiona. O Ulisses não.
+
+E é exatamente isso.
+A IA segura o mundo. Ela não segura um rosto que sente alguma coisa.
+
+Cenário você descreve. Atuação alguém tem que ter.
+
+Uma história de três mil anos, contada de novo, por uma máquina que aprendeu com todas as versões anteriores.
+Cópia de cópia de cópia, de novo.
+
+Não falta ferramenta. Falta alguém com algo a dizer.
+
+### X, modo 3 (entrega, link completo, vale so depois do merge)
+
+YouTube will pay for AI video. It won't pay for the author being missing.
+
+The official monetization page names three things: templated, repetitive videos; shock bait and AI clips stitched together with no story; and synthetic "experts" giving health, legal, financial or political advice.
+
+Disclosing AI use does not cut your reach or your money. YouTube says so on its own help page. Hiding it is what costs you the Partner Program.
+
+I wrote the 7 questions I'd run before any AI upload, straight from the policy wording:
+https://openyourais.com/blog/youtube-ai-monetization-rules-authorship-test/?utm_source=x&utm_medium=social&utm_campaign=youtube-ai-monetization-rules-authorship-test
