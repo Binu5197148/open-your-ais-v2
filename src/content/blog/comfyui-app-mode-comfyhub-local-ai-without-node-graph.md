@@ -1,10 +1,10 @@
 ---
 id: "art-082"
 title: "I Failed ComfyUI Twice. This Changed Everything"
-description: "The node graph kept most directors out of ComfyUI for two years. App Mode turns any workflow into a clean interface you can share with a single link."
+description: "The node graph kept most directors out of ComfyUI. App Mode hides it, and Comfy Agent now builds the workflow by chat. The no-nodes path, step by step."
 pubDate: "2026-03-15"
-updatedDate: "2026-09-03"
-toolVersion: "2026-09"
+updatedDate: "2026-10-29"
+toolVersion: "2026-10"
 category: "AI"
 tags:
   - "Workflow"
@@ -19,6 +19,8 @@ heroImage: "https://images.unsplash.com/photo-1763311159952-3afa0ee330c2?ixid=M3
 author: "Ulisses Balbino"
 readTime: "9 min read"
 ---
+
+<p><strong>Update, October 29, 2026:</strong> App Mode, App Builder and ComfyHub are still the current way to run a ComfyUI workflow without the graph; no replacement has been announced. Two things arrived after this piece was written. Comfy MCP, announced June 30, lets an agent such as Claude Code, Cursor or Codex drive ComfyUI on Comfy Cloud or on your own machine. Comfy Agent, a chat assistant inside ComfyUI that builds, edits and runs workflows, is now listed as generally available on Comfy Cloud, with Comfy Desktop support marked as coming soon. On models, LTX-2.3 below is the March state; the current Lightricks model is <a href="/blog/ltx-2-5-multi-shot-the-model-is-making-your-cut/">LTX 2.5</a>. The new step by step section answers the question most people type: how to use ComfyUI at all.</p>
 
 <h2>The Node Graph Was the Wall</h2>
 <p>ComfyUI has been the most powerful local AI generation tool available for the past two years. It runs on your own machine, uses open-source models, costs nothing beyond electricity and hardware, and gives you granular control over every aspect of generation: model selection, sampling parameters, conditioning, chaining, custom logic. If you knew how to build a node graph, you had capabilities that cloud tools couldn't match at any subscription price.</p>
@@ -46,10 +48,23 @@ readTime: "9 min read"
 <h2>Where Do You Start If Nodes Beat You Before?</h2>
 <p>Download it from <a href="https://www.comfy.org" target="_blank" rel="noopener">comfy.org</a>, and read the App Mode section of <a href="https://docs.comfy.org" target="_blank" rel="noopener">the official documentation</a> before you open the graph. That order matters, because the graph is what stopped most people the first time.</p>
 <p>Do not build a workflow from scratch on day one. Take an existing workflow that already does one job you need, switch it to App Mode, and use it as an app for a week without touching a node. You find out whether the output is worth anything to you before you spend any time learning the wiring. If it is, the wiring is worth learning. If it is not, you lost an afternoon instead of a month.</p>
-<p>One caveat worth stating plainly, since this piece argues hard for running locally: I now run ComfyUI on Comfy Cloud rather than on my own machine. The argument below about privacy and cost still holds for anyone with the hardware, and it is why local remains the right call for client footage that cannot leave the building. It stopped being my default for the ordinary reason that I would rather not maintain a workstation.</p>
+<p>One caveat worth stating plainly, since this piece argues hard for running locally: I now run ComfyUI on Comfy Cloud rather than on my own machine. The argument above about privacy and cost still holds for anyone with the hardware, and it is why local remains the right call for client footage that cannot leave the building. It stopped being my default for the ordinary reason that I would rather not maintain a workstation.</p>
+
+<h2>How to use ComfyUI in 2026 without building a node graph</h2>
+<p>This is the shortest honest path for a beginner, in the order that wastes the least time. None of these steps asks you to wire a node.</p>
+<ol>
+<li><strong>Decide where it runs.</strong> If you do not have a recent NVIDIA GPU, or you do not want to maintain a workstation, start on <a href="https://docs.comfy.org/get_started/cloud" target="_blank" rel="noopener">Comfy Cloud</a>, which has a free tier and paid plans. If the footage cannot leave the building, install locally from <a href="https://www.comfy.org" target="_blank" rel="noopener">comfy.org</a>.</li>
+<li><strong>Open a template, not a blank canvas.</strong> Pick a workflow that already does one job you need, image to video or an upscale, and run it once as it ships.</li>
+<li><strong>Switch it to App Mode.</strong> The graph disappears and only the inputs you need stay on screen. Use it like that for a week.</li>
+<li><strong>When you need a change, ask instead of wiring.</strong> On Comfy Cloud, <a href="https://docs.comfy.org/agent-tools/in-app-agent" target="_blank" rel="noopener">Comfy Agent</a> explains the selected workflow and edits it from a plain request, like "add an upscale at the end".</li>
+<li><strong>If you already work in an agent, connect it.</strong> <a href="https://docs.comfy.org/agent-tools/mcp" target="_blank" rel="noopener">Comfy MCP</a> documents a cloud connection at cloud.comfy.org/mcp and a local one. In Claude Code the cloud connection is one command:</li>
+</ol>
+<pre><code>claude mcp add --transport http comfy-cloud https://cloud.comfy.org/mcp</code></pre>
+<p>The cloud connection needs an active Comfy Cloud subscription. The local one drives the ComfyUI you installed yourself, with your own models and custom nodes.</p>
+<p>The order matters for the same reason it did in March. You learn whether the output is worth anything to you before you invest in how it works. The graph is still there when you want it, and by then you will know which three nodes you actually care about.</p>
 
 <h2>The Shift in Where Power Lives</h2>
 <p>There's a broader implication worth naming. When AI workflows are distributable as shareable apps, the value shifts from access to configuration. The person who builds the optimized workflow (who understands the models, the parameters, the quality/speed tradeoffs) creates something deployable. The person who just needs good output uses the app.</p>
 <p>That is a different skill set than general-purpose AI platform use. It rewards deep technical knowledge of specific workflows. For production professionals willing to invest in understanding the tools at a workflow level rather than just a user level, the leverage is significant.</p>
 <p>The barriers to local AI just dropped. The question is who builds the workflows worth sharing.</p>
-<p><em>Sources: <a href="https://www.globenewswire.com/news-release/2026/03/10/3253141/0/en/comfyui-launches-app-mode-app-builder-and-comfyhub-enabling-anyone-to-run-ai-workflows-without-touching-a-node-graph.html" target="_blank" rel="noopener">GlobeNewswire: ComfyUI Launches App Mode, App Builder, and ComfyHub</a> | <a href="https://blogs.nvidia.com/blog/rtx-ai-garage-flux-ltx-video-comfyui-gdc/" target="_blank" rel="noopener">NVIDIA Blog: NVIDIA and ComfyUI at GDC 2026</a> | <a href="https://blockchain.news/news/nvidia-rtx-video-tools-gdc-2026-comfyui-upgrade" target="_blank" rel="noopener">Blockchain.news: NVIDIA RTX Video Tools Major Upgrade at GDC 2026</a></em></p>
+<p><em>Sources (re-read October 29, 2026): <a href="https://docs.comfy.org/agent-tools/index" target="_blank" rel="noopener">Comfy docs: Agent Tools, MCP, CLI and Comfy Agent</a> | <a href="https://comfyui-wiki.com/en/news/2026-06-30-comfy-mcp-agent-integration" target="_blank" rel="noopener">ComfyUI Wiki: Comfy MCP announcement, June 30, 2026</a> | <a href="https://www.globenewswire.com/news-release/2026/03/10/3253141/0/en/comfyui-launches-app-mode-app-builder-and-comfyhub-enabling-anyone-to-run-ai-workflows-without-touching-a-node-graph.html" target="_blank" rel="noopener">GlobeNewswire: ComfyUI Launches App Mode, App Builder, and ComfyHub</a> | <a href="https://blogs.nvidia.com/blog/rtx-ai-garage-flux-ltx-video-comfyui-gdc/" target="_blank" rel="noopener">NVIDIA Blog: NVIDIA and ComfyUI at GDC 2026</a> | <a href="https://blockchain.news/news/nvidia-rtx-video-tools-gdc-2026-comfyui-upgrade" target="_blank" rel="noopener">Blockchain.news: NVIDIA RTX Video Tools Major Upgrade at GDC 2026</a></em></p>
