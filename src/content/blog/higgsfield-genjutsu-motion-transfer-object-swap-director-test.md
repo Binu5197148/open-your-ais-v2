@@ -1,9 +1,9 @@
 ---
 id: "art-183"
-title: "How to Use Higgsfield Genjutsu Without Going Broke"
-description: "Genjutsu recasts a shot and keeps the camera move. What it costs per clip, the cheap-first order I run, and the input limits Higgsfield now agrees on."
+title: "Higgsfield Genjutsu vs. Lite: Which Plan Saves Money?"
+description: "Genjutsu Lite costs about a third of the full model. What each one does, the price of a 15 second clip, and which to run first so your tests stay cheap."
 pubDate: "2026-09-08"
-updatedDate: "2026-10-04"
+updatedDate: "2026-10-29"
 toolVersion: "2026-10"
 category: "AI"
 tags:
@@ -16,6 +16,8 @@ author: "Ulisses Balbino"
 readTime: "9 min read"
 featured: true
 ---
+
+<p><strong>Update, October 29, 2026:</strong> Higgsfield added <strong>Genjutsu Lite</strong> on October 20. It is faster, costs about a third of the full model on higgsfield.ai, takes up to 10 reference images instead of 30, renders at 720p or 1080p, and applies the change on its own instead of letting you pick Motion Transfer or Object Swap. Higgsfield also lists Lite on its API, MCP and CLI. The comparison and the "is it free" answer are in the two new sections below. The rest of the article is the September reading, with the October fixes kept.</p>
 
 <p>Higgsfield Genjutsu shipped in the first week of September 2026, and the search curve for it went from nothing to a peak in three days. I run Higgsfield as my main hub, so this one landed on a tool I already have open. I spent the first day of it doing the boring thing: reading the pricing table and the spec sheet before generating anything.</p>
 
@@ -35,7 +37,7 @@ featured: true
 
 <h2>How do you use Higgsfield Genjutsu?</h2>
 
-<p>This is the part worth copying, because the order matters more than the settings. The sequence below is the one I run, and it is built to spend money once rather than four times.</p>
+<p>This is the part worth copying, because the order matters more than the settings. The sequence below is the cheap-first habit I already use on expensive tiers like Seedance, applied to Genjutsu, and it is built to spend money once rather than four times.</p>
 
 <ol>
 <li><strong>Pick the driving video first, not the idea.</strong> Genjutsu inherits whatever the source does. A source with a lazy camera gives you a lazy result in a new costume. If the original move is not good, nothing downstream fixes it.</li>
@@ -46,6 +48,25 @@ featured: true
 </ol>
 
 <p>The tool is at <a href="https://higgsfield.ai/genjutsu" target="_blank" rel="noopener">higgsfield.ai/genjutsu</a>, and Higgsfield's own walkthrough of the two modes is on <a href="https://higgsfield.ai/blog/higgsfield-genjutsu" target="_blank" rel="noopener">their blog</a>. At launch the two pages gave different input limits. As of October 4, 2026 they match, and the blog post is still the one with the full spec table.</p>
+
+<h2>Genjutsu vs. Genjutsu Lite: which one to run</h2>
+
+<p>The two models are not a cheap version and an expensive version of the same thing. They answer different questions.</p>
+
+<ul>
+<li><strong>Genjutsu (full):</strong> you choose the mode, Motion Transfer or Object Swap. Source clip from 4 to 30 seconds, up to 30 reference images, output up to 1080p. About $2.00, $5.20 and $7.20 for 15 seconds at 480p, 720p and 1080p, per Higgsfield's blog.</li>
+<li><strong>Genjutsu Lite:</strong> no mode choice, the model decides what to change. Same 4 to 30 second window, up to 10 reference images, 720p or 1080p. Higgsfield describes it as about a third of the price and does not publish a Lite credit table; the exact cost shows before you generate.</li>
+</ul>
+
+<p>The practical split follows from the reference cap. If the job is one character or one product that has to stay identical across many shots, ten references is thin, and the full model is the one built for it. If the job is a trend format, a quick recast for a social cut, or a test of whether the source clip is worth recasting at all, Lite is the cheaper way to get the answer.</p>
+
+<p>That makes Lite a natural first step in the cheap-first order above: judge the source with Lite, and only move to the full model, with the full reference stack, once you know the shot deserves it. One caution. Because Lite chooses what to change by itself, a Lite test tells you whether the motion survives, not whether a precise Object Swap will behave. Test the mode you will actually deliver with before you commit a budget to it.</p>
+
+<h2>Is Higgsfield Genjutsu free?</h2>
+
+<p>No. Neither model is listed as free. Both run on Higgsfield's credit system, and each generation shows its credit cost before you confirm it. The cheapest documented path is the full model at 480p, about two dollars for fifteen seconds, or Lite at its lower rate. Free credits from promotions or plan trials can cover a few tests, but those offers rotate, so check the <a href="https://higgsfield.ai/pricing" target="_blank" rel="noopener">pricing page</a> on the day rather than trusting a video that promised free Genjutsu last month.</p>
+
+<p>If what you want is a free way to learn the idea, the closest thing is to practise with clips you already generated. Genjutsu accepts AI footage as input, so the source costs nothing extra. The spend is only the recast.</p>
 
 <h2>The two numbers that did not match</h2>
 
@@ -91,6 +112,7 @@ featured: true
 Every figure here was read on September 8, 2026 from Higgsfield's own pages, not from third party summaries.
 The two modes, Motion Transfer and Object Swap, appear identically on the Genjutsu product page and on Higgsfield's blog post about it.
 The conflict is real and is reported as found: the product page and the coverage that followed state 3 seconds minimum and up to 40 reference images; Higgsfield's own blog post states 4 seconds and up to 30. Neither page was updated between the two readings on this date.
+UPDATE, October 29, 2026: both pages re-read. The <a href="https://higgsfield.ai/blog/higgsfield-genjutsu" target="_blank" rel="noopener">blog post</a> (marked last updated October 20, 2026) describes Genjutsu Lite: 4 to 30 second clips, up to 10 reference images, 720p or 1080p, no mode choice, about one third of the cost on higgsfield.ai, and availability through API, MCP, CLI and plugins. The <a href="https://higgsfield.ai/genjutsu" target="_blank" rel="noopener">product page</a> labels Lite as new: "Faster and cheaper. Up to 30s, 720p/1080p". No Lite credit table is published. The full-model prices on the blog are still marked as verified in September 2026. Lite was not run for this update.
 UPDATE, October 4, 2026: both pages re-read. The product page now states "reference videos from 4-30 seconds" and "up to 30 reference images", matching the blog post. The 15 second prices of 40, 104 and 144 credits (about $2.00, $5.20 and $7.20) are unchanged on the blog post.
 Pricing (approximately $2.00 at 480p, $5.20 at 720p and $7.20 at 1080p for a 15 second generation, capped at 1080p output) comes from Higgsfield's blog post and is quoted in US dollars as listed there. Credit costs are displayed before generation in the product itself, which is the number to trust at the moment of use.
 The launch is described as the first week of September 2026 rather than a specific date, because Higgsfield's own post says only that Genjutsu "just launched"; the post itself carries a publish date of September 1, 2026. The search demand curve for the term begins on September 2, 2026.
