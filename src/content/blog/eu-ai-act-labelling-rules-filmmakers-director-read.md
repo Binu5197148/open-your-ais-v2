@@ -1,9 +1,10 @@
 ---
 id: "art-155"
-title: "EU AI Act Labelling: The Carve-Out for Artistic Work"
-description: "Article 50(4) limits the duty to a disclosure that does not hamper the work, and a cleanup pass is not a generated performance. Where that line falls for you."
+title: "Is Your AI Film Compliant? EU AI Act Update"
+description: "Article 50 disclosure has applied since August 2, and older AI tools must watermark by December 2, 2026. The artistic carve-out, plus a delivery note to copy."
 pubDate: "2026-08-03"
-toolVersion: "2026-08"
+updatedDate: "2026-10-30"
+toolVersion: "2026-10"
 category: "AI"
 tags:
   - "EU AI Act"
@@ -17,13 +18,15 @@ author: "Ulisses Balbino"
 readTime: "6 min read"
 ---
 
+<p><em>Updated October 30, 2026. Two things moved since this piece was published on August 3. The Digital Omnibus package left the Article 50 disclosure duties untouched, so they have applied since August 2 with no delay, and kept one transition for machine-readable marking under 50(2): generative systems already on the market before August 2 have until December 2, 2026 (<a href="https://labs.cloudsecurityalliance.org/research/csa-research-note-eu-ai-act-article50-watermarking-deadline/" target="_blank" rel="noopener">Cloud Security Alliance</a>, <a href="https://usercentrics.com/knowledge-hub/eu-ai-act-high-risk-delay-article-50-transparency-consent/" target="_blank" rel="noopener">Usercentrics</a>). The high-risk rules, which do not touch most film work, moved to December 2027. And the Commission's final <a href="https://digital-strategy.ec.europa.eu/en/news/commission-publishes-code-practice-marking-and-labelling-ai-generated-content" target="_blank" rel="noopener">Code of Practice on marking and labelling AI-generated content</a>, published June 10, is voluntary and is the closest thing to an official manual for how a deepfake label should look. A delivery note you can copy is at the end of this article.</em></p>
+
 <p>On August 2, 2026, the EU AI Act stopped being a calendar item and started being enforced. The European Commission's AI Office and national market surveillance authorities began applying the transparency rules in Article 50 that same day: chatbots have to say they are chatbots, synthetic media has to carry machine-readable marking, and anyone deploying a deepfake has to disclose it. The penalty ceiling for breaching those duties is 15 million euros or 3 percent of worldwide annual turnover, whichever is higher.</p>
 
-<p>I read the coverage the way most working directors did, which is to say I looked for the sentence that tells me what changes on Monday. Most of it was written for compliance officers. Almost none of it was written for the person who actually assembles the shot.</p>
+<p>I read the coverage the way most working directors did, which is to say I looked for the sentence that tells me what changes on Monday. Most of it was written for compliance officers. Almost none of it was written for the person who assembles the shot.</p>
 
 <p>So I went and read Article 50 itself. There is something in there that the legal briefings mention in passing and the tech coverage skips entirely, and it is the part that matters most to anyone making films.</p>
 
-<h2>What the EU AI Act actually requires from August 2</h2>
+<h2>What the EU AI Act requires from August 2</h2>
 
 <p>Two obligations sit at the center of this, and they land on two different people.</p>
 
@@ -35,7 +38,7 @@ readTime: "6 min read"
 
 <h2>Does the EU AI Act apply if you are not in Europe?</h2>
 
-<p>This is the question I got asked three times in two days, and the honest answer is that geography is the wrong axis. The Act attaches to where the output lands, not to where the edit suite sits. If the film, the ad, or the social cut reaches an audience in the European Union, you are inside the scope. I work out of São Paulo. Commercial work I have delivered over fourteen years has run in more than one market, for brands like Nestlé and Carrefour, and nobody on those jobs ever asked me which continent the color pass happened on.</p>
+<p>This is the question I got asked three times in two days, and the honest answer is that geography is the wrong axis. The Act attaches to where the output lands, not to where the edit suite sits. If the film, the ad, or the social cut reaches an audience in the European Union, you are inside the scope. I work out of São Paulo. Commercial work I have delivered has run in more than one market<!-- 30/10/2026: removido "over fourteen years", numero de anos de carreira nao verificado -->, for brands like Nestlé and Carrefour, and nobody on those jobs ever asked me which continent the color pass happened on.</p>
 
 <p>The other thing worth knowing: enforcement is not only top down. Any person, including a competitor, can file a complaint with a national market surveillance authority. That is a different pressure than an audit. That is the market policing itself.</p>
 
@@ -51,7 +54,7 @@ readTime: "6 min read"
 
 <p>The catch is that the exemption is anchored on the word "evidently." It protects the artistic frame, not the artist. Something presented as a document, a testimonial, a piece of reportage, or a real person saying real words does not get the lighter treatment, and it should not. That is the boundary, and it is a boundary about honesty, not about technology.</p>
 
-<h2>Who actually carries the burden</h2>
+<h2>Who carries the burden</h2>
 
 <p>The anxiety I keep hearing is that labelling will mark AI work as second class, that a disclosure line is a scarlet letter, that audiences will discount anything that carries it.</p>
 
@@ -71,6 +74,32 @@ readTime: "6 min read"
 
 <p>None of this is legal advice, and a piece running to an EU audience with money attached deserves an actual lawyer. What I can tell you is what the text says and where the interesting part is.</p>
 
+<h2>EU AI Act explained: the delivery note to copy</h2>
+<p>The law does not hand you a form. This is the one I would attach to any cut that might reach an EU audience. It follows the two duties above: what the tool marked, and what you disclosed. The legal text itself is <a href="https://eur-lex.europa.eu/eli/reg/2024/1689/oj" target="_blank" rel="noopener">Regulation (EU) 2024/1689 on EUR-Lex</a>, and Article 50 alone is easier to read at <a href="https://artificialintelligenceact.eu/article/50/" target="_blank" rel="noopener">artificialintelligenceact.eu</a>.</p>
+<pre><code>AI DELIVERY NOTE (attach to every cut that may reach an EU audience)
+
+Project: ___________   Cut / version: ___________   Date: ___________
+
+1. Generated or manipulated elements
+   Timecode | What it is | Tool and model | Resembles a real person,
+   place or event? (Y/N)
+
+2. Is the piece evidently artistic, fictional or satirical?
+   YES -&gt; Article 50(4) carve-out: disclose in a way that does not
+          hamper the work (end credits, description, delivery package).
+   NO  -&gt; Testimonial, reportage, a real person saying real words:
+          clear deepfake label where the audience sees it.
+
+3. Machine-readable marking
+   Does the generating tool mark its output? Record what it says.
+   Tools on the market before August 2, 2026 have until December 2, 2026.
+
+4. Who signed off
+   Name, role, date.
+
+Not legal advice. Money plus an EU audience means a lawyer reads this first.
+</code></pre>
+
 <h2>Where this lands</h2>
 
 <p>The EU AI Act did not make AI filmmaking harder on August 2. It made the author visible.</p>
@@ -83,5 +112,5 @@ readTime: "6 min read"
 
 <section class="article-note note-sources">
 <h2>Sources and verification</h2>
-<p>Facts verified August 3, 2026 against independent sources: European Commission ("Safer and more transparent AI", commission.europa.eu, 2026-08-02) and the Commission's digital-strategy notice "Commission starts enforcing AI Act rules and new transparency requirements on 2 August"; the consolidated text of Article 50 at artificialintelligenceact.eu/article/50 (quoted directly for the artistic carve-out in 50(4) and the assistive-editing exemption in 50(2)); Greenberg Traurig (2026-06) and Herbert Smith Freehills Kramer (2026-03) client briefings on Article 50; The AI Journal and Technology.org coverage of the 2 August 2026 application date. All sources independently confirm: general application of the AI Act from 2 August 2026; Article 50 transparency obligations enforceable from that date; machine-readable marking under 50(2) with a 2 December 2026 deadline for generative systems already on the market before 2 August 2026; penalty tiers of up to 35M EUR / 7% (prohibited practices), 15M EUR / 3% (breach of duties including transparency), 7.5M EUR / 1% (incorrect or misleading information); complaints admissible from any person or competitor to the national market surveillance authority. This article is a filmmaker's reading of a public legal text, not legal advice.</p>
+<p>Facts verified August 3, 2026 against independent sources: European Commission ("Safer and more transparent AI", commission.europa.eu, 2026-08-02) and the Commission's digital-strategy notice "Commission starts enforcing AI Act rules and new transparency requirements on 2 August"; the consolidated text of Article 50 at artificialintelligenceact.eu/article/50 (quoted directly for the artistic carve-out in 50(4) and the assistive-editing exemption in 50(2)); Greenberg Traurig (2026-06) and Herbert Smith Freehills Kramer (2026-03) client briefings on Article 50; The AI Journal and Technology.org coverage of the 2 August 2026 application date. All sources independently confirm: general application of the AI Act from 2 August 2026; Article 50 transparency obligations enforceable from that date; machine-readable marking under 50(2) with a 2 December 2026 deadline for generative systems already on the market before 2 August 2026; penalty tiers of up to 35M EUR / 7% (prohibited practices), 15M EUR / 3% (breach of duties including transparency), 7.5M EUR / 1% (incorrect or misleading information); complaints admissible from any person or competitor to the national market surveillance authority. Updated October 30, 2026 against the Commission's Code of Practice page (published 2026-06-10), the Cloud Security Alliance research note on the Article 50(2) deadline and Usercentrics on the Digital Omnibus, which agree that Article 50(4) applies since 2 August 2026 with no delay and that the 50(2) transition ends 2 December 2026. This article is a filmmaker's reading of a public legal text, not legal advice.</p>
 </section>
