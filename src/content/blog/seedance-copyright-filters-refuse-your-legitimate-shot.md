@@ -1,9 +1,10 @@
 ---
 id: "art-170"
-title: "Seedance Copyright Filters: They Fail the Wrong People"
-description: "ByteDance signed with the MPA and the guardrails are output filters. They rarely stop the person copying Iron Man. They stop the shot due on Friday."
+title: "Don't Trust Seedance Filters: A Critical Analysis"
+description: "The Seedance copyright pact with the MPA is an output filter, not a license. It rarely stops the copier. It stops your shot due Friday. The checklist inside."
 pubDate: "2026-08-22"
 toolVersion: "2026-08"
+updatedDate: "2026-10-31"
 category: "AI"
 tags:
   - "Seedance"
@@ -17,13 +18,17 @@ author: "Ulisses Balbino"
 readTime: "7 min read"
 ---
 
+<section class="article-note note-update">
+<p><strong>Update, October 31, 2026:</strong> searched again today. Neither ByteDance nor the MPA has published what the guardrails refuse or how enforcement works since the August 17 memorandum, so the state below is still the latest one.</p>
+</section>
+
 <p>On August 17, 2026, ByteDance signed a memorandum of understanding with Hollywood's Motion Picture Association covering Seedance and Seedream, the video and image models behind the AI features in TikTok, CapCut and Dreamina. The Seedance copyright question that had been sitting open since February, when Disney and other studios objected to the tools generating recognizable characters and celebrity likenesses, got its first formal answer.</p>
 
 <p>The coverage read it one way. Hollywood pushed, ByteDance moved, the guardrails go up. The MPA said the agreement reflects a determination to "further fortify those guardrails" on the platforms.</p>
 
 <p>I use Seedance 2.0 and 2.5 on paid jobs, through Higgsfield, in São Paulo. So I read that sentence differently, and I think most of the people writing about it have never had a generation refused with a client on the call.</p>
 
-<h2>What the Seedance copyright deal actually changes</h2>
+<h2>What the Seedance copyright deal changes</h2>
 
 <p>Read what the agreement is and what it is not, because the gap between those two things is the whole story.</p>
 
@@ -33,9 +38,9 @@ readTime: "7 min read"
 
 <p>So the thing that got settled is the cheap half. Output filtering is the part you can ship in a model update and announce in a press release. Whether the library was scraped to teach the model what a superhero looks like is the expensive half, and the expensive half is exactly the half that was left out. That was already the open question when <a href="/blog/seedance-2-0-bytedance-ai-video-capabilities-copyright-controversy/">Seedance 2.0 arrived with the controversy attached</a>, and it is still the open question now, with a signature next to it.</p>
 
-<h2>Who actually pays for an output filter?</h2>
+<h2>Who pays for an output filter?</h2>
 
-<p>Here is the part nobody is saying, and it is not complicated once you have been on the receiving end of a content filter.</p>
+<p>This is the part nobody is saying, and it is not complicated once you have been on the receiving end of a content filter.</p>
 
 <p>A filter tuned to refuse is a filter that refuses. It does not have a special sense for intent. It does not know that you are not trying to make Iron Man. It knows that something in your prompt, or something in your reference image, or something in the shape of the face it just rendered, crossed a threshold.</p>
 
@@ -63,7 +68,7 @@ readTime: "7 min read"
 
 <p>Pichorra produced for WMcCann as a production company, so I have sat through the clearance rounds where legal goes through a board frame by frame asking what that logo is, whose face that is, and where the music came from. Nobody in that room ever accepted "the software would have stopped me" as an answer. They should not start now.</p>
 
-<h2>What I would actually change on Monday</h2>
+<h2>What I would change on Monday</h2>
 
 <p>Three things, and they are boring, which is usually the sign that they are the real ones.</p>
 
@@ -73,11 +78,29 @@ readTime: "7 min read"
 
 <p>Write the clearance step into the schedule as a line item with hours attached. Not as something you do at the end if there is time. The industry got very good at treating AI generation as the step that removes production overhead, and this agreement is a reminder that it also adds a category of overhead that did not exist before, which is proving that the machine did not hand you something you are not allowed to use. That work is real, it takes time, and somebody is paying for it whether or not it appears on the budget.</p>
 
+<h2>Is Seedance safe to use for client work?</h2>
+
+<p>Safe enough to use, not safe enough to trust blind. The agreement changes what the model refuses, not who answers for what you deliver. The three Monday changes above, as a checklist you can paste into a production doc:</p>
+
+<pre><code>SEEDANCE COPYRIGHT CHECKLIST (per job)
+
+[ ] List every face, costume, car, logo and mark the campaign needs.
+[ ] Generate those during the pitch, not delivery week.
+[ ] Log any refusal with date, prompt and model version.
+[ ] Keep a fallback path outside the same filter
+   (another model, another vendor, or a camera).
+[ ] Book clearance hours in the schedule as a line item.
+[ ] Legal review of the final file: likeness, marks, music.
+[ ] Remember: the MOU is not an indemnity. Exposure stays
+   with the production company and the client.</code></pre>
+
+<p>Primary reading: <a href="https://thenextweb.com/news/bytedance-mpa-ai-copyright-pact-seedance" target="_blank" rel="noopener">The Next Web on the MPA pact</a> and the <a href="https://www.hollywoodreporter.com/business/business-news/mpa-cease-and-desist-bytedance-seedance-2-0-1236510957/" target="_blank" rel="noopener">Hollywood Reporter on the February cease-and-desist</a>.</p>
+
 <h2>The honest read</h2>
 
 <p>The MPA got a framework. ByteDance got to stop being the defendant in the story. Both of those are real outcomes and neither of them is bad.</p>
 
-<p>What did not happen is the thing that would actually matter to anyone who makes a living from this, which is a licensing structure that pays for the catalogues and settles the training question. That is still open, and until it closes, every one of these agreements is a filter update with a signature on it.</p>
+<p>What did not happen is the thing that would matter to anyone who makes a living from this, which is a licensing structure that pays for the catalogues and settles the training question. That is still open, and until it closes, every one of these agreements is a filter update with a signature on it.</p>
 
 <p>The guardrail went up. Check who it is standing in front of. In my experience it is rarely the person it was built for, and it is almost always the person carrying the delivery.</p>
 
