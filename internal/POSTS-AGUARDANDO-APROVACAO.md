@@ -94,3 +94,42 @@ História é alguém que quer uma coisa e não pode ter. O resto é decoração.
 A folha que eu preencho antes de gerar um frame, e a inversão que mais economiza: gerar o último plano primeiro.
 
 https://openyourais.com/blog/ai-storytelling-video-story-first-method-director/
+
+## 31/10/2026, guardiao (rascunhos, nada agendado)
+
+### LinkedIn, modo 1 (opiniao pura, sem link)
+Motivo: continua a tese de "IA DEGENERATIVA" (1.926 e 1.047 impressoes), a linha que mais anda depois do touro. Imagem recomendada: um frame forte em P&B, nao print de artigo. CONFIRMAR antes: se ele assistiu ao Nightborne; o texto foi escrito sem afirmar que assistiu.
+
+Treze minutos. Trinta e duas pessoas reais emprestando rosto e voz. Seedance 2.0 do primeiro ao último plano.
+
+O Neill Blomkamp, diretor de Distrito 9, lançou o Nightborne em julho e anunciou um estúdio inteiro para fazer longa desse jeito.
+
+A crítica caiu em cima. Continuidade, ritmo, atuação.
+
+E todo mundo foi culpar a ferramenta.
+
+Só que a ferramenta fez o que pediram. O que não apareceu foi o motivo do filme existir.
+
+Antes, filme ruim tinha desculpa. Faltou verba. Choveu no set. O ator ficou doente.
+
+Agora a máquina executa quase tudo que você descreve. Sobra só o que você escolheu descrever.
+
+E não tem mais onde esconder.
+
+A IA não substitui o autor.
+Ela só para de esconder que ele não estava lá.
+
+### X, modo 3 (entrega, link completo)
+
+Most of the character drift I fixed on Toninho Sagatiba was a prep problem, not a model problem.
+
+The fixes that held were boring:
+
+1. One sheet per character. Portrait, front, back, wardrobe written next to it.
+2. References that agree. If two images disagree on the shirt, fix the image. Don't add prompt text.
+3. Approve the first frame at full size before animating. Face, hands, eye-line.
+4. Re-attach every sheet on every generation. Never send the frame alone.
+5. Compare the result to the frame, scrub, log the earliest failure, change one input.
+
+Full checklist, a prompt you can paste, and a free starter kit:
+https://openyourais.com/blog/higgsfield-character-consistency-toninho-workflow/?utm_source=x&utm_medium=social&utm_campaign=character-drift-higgsfield
