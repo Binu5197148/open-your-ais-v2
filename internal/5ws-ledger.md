@@ -812,3 +812,79 @@ acervo" da tarefa agendada nao se cumpre mais sem decisao dele. Pergunta levada 
 - **Trava 4.** Se os da 9 sairem: LinkedIn paga a ponta de baixo (386) e X a de baixo (197).
 - **Trava 7.** LinkedIn da 9 abre com pergunta, X com numeral.
 - **Axenworks.** Paginas ainda nao usadas: braw, gopro, e as de 32gb a 2tb exceto 1tb.
+
+---
+
+## Notas da edicao 10, escritas em 2026-11-02
+
+```
+| 10 | artigo   | 2026-11-02 | A4 | F3 | -   | -     | 0 axenworks | nenhum |
+| 10 | linkedin | AAAA-MM-DD | -  | -  | P9  | 1210  | NAO         | nenhum |
+| 10 | x        | AAAA-MM-DD | -  | -  | P10 | 476 (391 na contagem do X) | sim | nenhum |
+```
+
+- **Nao foi para a main.** Branch `5ws-edicao-10`, empilhada em `5ws-edicao-09` (PR 25, parecer
+  favoravel do Codex em 27/10, sem merge). PR aberto contra a branch da 9. A data acima e o
+  `pubDate`; se o merge sair em outro dia, corrigir aqui e no frontmatter. Sem URL 200,
+  indexacao no Search Console NAO pedida. `id` art-194 (maior id em todas as branches remotas:
+  art-193).
+- **PR 25 finalizado nesta sessao**: o ajuste nao bloqueante do Codex (linha 120, permissao de
+  Acessibilidade da big-arrow limitada ao processo hospedeiro) aplicado no commit c8ff999 da
+  branch `5ws-edicao-09`.
+- **Abertura A4, a pergunta sem resposta**: copiar uma animacao de outro site quadro a quadro ate
+  zero pixel de diferenca entrega referencia ou copia? Pergunta real, puxada do README da
+  reanimate, que tambem nao responde. Fecho **F3**, sem fecho: depois de "What I did not verify"
+  vem so a lista dos descartados e a linha da semana que vem. Sem bloco de duvida final.
+- **As cinco skills**: reanimate (video e motion, clona animacao de site ou video em codigo),
+  Drama Skills (organizacao e pre-producao de serie vertical), OfficeCLI (documento: Word, Excel,
+  PowerPoint), Diagram Design (web e documento: diagramas em HTML), yutu (automacao de YouTube).
+  **Nenhuma do acervo**, quinta edicao seguida. Mesma situacao da 8 e da 9: o que sobra na classe A
+  esta travado por direitos ou autoria. Decisao dele, ainda sem resposta.
+- **Descartadas**: latent-spaces/brag (video de lancamento, seria a quarta ferramenta de video em
+  tres edicoes), ZeroPointRepo/youtube-skills (API paga de transcricao por creditos),
+  scenario-labs/skills (infra paga), Alisa0808/vox-director (encosta no formato vox do acervo
+  dele).
+- **Zero link para axenworks.** Nenhuma das cinco cria pergunta de peso de arquivo, cartao ou
+  bitrate. Forcar seria propaganda (secao 6, regra 6).
+- **Nenhum vicio da 3.1 gasto.** Tres frases do rascunho passavam do que a fonte diz e foram
+  corrigidas antes do build: atualizacao do OfficeCLI "aplicada" em segundo plano (o README diz so
+  "checada"); token do yutu "vale ate revogar" (nao verificado, e o Google limita usuario de
+  teste); uma generalizacao sobre plataformas de video cobrarem job morto, sem fonte.
+- Snapshot unico: 2026-11-02, 15h43 a 15h46 UTC, `gh` autenticado. 24 URLs do artigo testadas
+  as 15h49 UTC, todas 200, mais a capa.
+- Tom das cinco pegadinhas, para a trava 8: direito de uso dos assets copiados (reanimate); job
+  morto pode ja ter sido cobrado (Drama Skills); arquivo so chega ao disco segundos depois, e exit
+  code 2 ambiguo (OfficeCLI); cada abertura do diagrama chama o Google Fonts (Diagram Design);
+  token da conta salvo na pasta atual, e SKILL.md que declara MIT num repositorio Apache (yutu).
+  Cinco tons.
+- **Idioma nao virou pegadinha.** A skill de escrita da Drama Skills escreve roteiro em chines;
+  entrou como fato no custo de instalar.
+- **Regra do contador**: Drama Skills diz 11 skills, contei 11 pastas, bateu. Diagram Design diz
+  45 tipos, contei 45 arquivos de tipo, bateu. reanimate: legenda do video fala em 18 exemplos,
+  tabela do README lista 14, arquivo de exemplos do site tem 26 entradas. Nao consegui conciliar;
+  publicado com o metodo, sem acusacao.
+- **Comunidade**: busca do Hacker News nao respondeu daqui, Reddit devolveu 403. Nao verificado,
+  registrado no bloco 5.
+- **Capa**: dois quadros de pelicula em branco (Kodak GC 400), terceira sorteada pelo `--pick`,
+  conferida contra os 177 slugs de todas as branches remotas. Combina com a ficha 1.
+- **Titulo e descricao mudaram de forma de proposito.** As edicoes 7, 8 e 9 usaram "Five Claude
+  Skills for X, and Y" no titulo e "Five Claude skills read from their own files:" na descricao.
+  Tres seguidas: gatilho automatico de cooldown da secao 3.1. A 10 sai como "After Done: Claude
+  Skills That Clone Motion, Edit Decks and Run YouTube". As duas formas antigas ficam fora ate a 15.
+- **Postiz conferido em 02/11**: nenhum post da coluna publicado desde a edicao 5. No mesmo
+  painel, varios posts de TikTok de outros projetos em ERROR ("App not approved for public
+  posting") e alguns de YouTube em ERROR sem mensagem. Fora do escopo desta rotina; so registro.
+
+## Leitura das travas para a edicao 11
+
+- **Aberturas.** A4 acabou de ser gasta: fora ate a 15. A3 fora ate a 14, A5 ate a 13, A9 ate a
+  12. A7 volta na 11. A abertura da 11 sai de A1, A2, A6, A7, A8 ou A10.
+- **Fechos.** F3 fora ate a 13, F1 ate a 12. F4 volta na 11. A 11 sai de F2, F4, F5 ou F6.
+- **Formatos de post** (contam da publicacao; nada publicado desde a edicao 5). Rascunhos
+  pendentes: 4 (P3, P8), 6 (P6, P2), 7 (P11, P5), 8 (P1, P7), 9 (P3, P8), 10 (P9, P10). Para a 11,
+  preferir P4 ou P12, os unicos sem rascunho recente.
+- **Trava 4.** Se os da 10 sairem: LinkedIn paga a ponta de cima (1.210).
+- **Trava 7.** LinkedIn da 10 abre com sintagma nominal, X tambem.
+- **Titulo**: fora "Five Claude Skills for X, and Y" e a descricao "Five Claude skills read from
+  their own files" ate a 15.
+- **Axenworks.** Paginas ainda nao usadas: braw, gopro, e as de 32gb a 2tb exceto 1tb.
