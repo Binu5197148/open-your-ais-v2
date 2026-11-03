@@ -94,3 +94,43 @@ História é alguém que quer uma coisa e não pode ter. O resto é decoração.
 A folha que eu preencho antes de gerar um frame, e a inversão que mais economiza: gerar o último plano primeiro.
 
 https://openyourais.com/blog/ai-storytelling-video-story-first-method-director/
+
+## 03/11/2026, guardiao. Rascunhos, NAO publicar sem aprovacao do texto exato
+
+### LinkedIn (modo 1, opiniao pura, sem link). Imagem sugerida: um rosto em close cortado ao meio, metade foto, metade wireframe.
+
+Quinze segundos.
+
+É o que a HeyGen pede hoje para fazer um avatar seu. O Avatar V grava o rosto, as mãos, o jeito de olhar. Depois você dirige a atuação por texto: inclina pra frente, baixa a voz, sorri na última palavra.
+
+Funciona. E é exatamente aí que mora o problema.
+
+Quinze segundos guardam o seu rosto. Não guardam o que você ia dizer.
+
+Eu uso muito clone de voz. Sei o quanto ele economiza. E sei também que a voz clonada só presta quando quem escreveu a fala sabe onde ela respira. A máquina copia o timbre. A pausa ainda é sua.
+
+Tem muita gente vendendo avatar como substituto de apresentador. Para treinamento interno, tutorial, aviso de atualização, ótimo, eu indicaria. Para filme de marca, rosto conhecido, banco, saúde, qualquer coisa em que a confiança vem da pessoa, é a escolha barata. E o público sente, mesmo sem saber explicar.
+
+O rosto virou arquivo.
+A atuação não.
+
+E antes de gravar os quinze segundos de alguém, pegue a assinatura. Rosto não é banco de imagem.
+
+### X (modo 3, entrega, link completo; so depois do merge e do deploy)
+
+HeyGen's Avatar V builds a digital twin from a 15-second recording. Since May you can direct its performance in plain text.
+
+The model keeps whatever those 15 seconds give it. So the recording is the whole job.
+
+What I'd check before anyone hits record:
+
+Signed consent: person, use, markets, dates.
+One take, 15 seconds minimum, eye level, upper body in frame.
+Soft key light, nothing moving behind.
+Record at the energy the scripts will need. A flat read gives you a flat twin.
+Render one test line and check mouth, teeth and hands before writing a single script.
+
+Plans run on credits now, no unlimited tier. Creator is $29 for 600 credits with limited Avatar V. Pro is $49 for 1,000.
+
+The full checklist, and the jobs where an avatar is still the wrong call:
+https://openyourais.com/blog/heygen-avatar-iv-ai-spokesperson-localization-commercial-production/?utm_source=x&utm_medium=social&utm_campaign=heygen-avatar-v
