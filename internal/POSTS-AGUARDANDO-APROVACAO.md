@@ -99,25 +99,25 @@ https://openyourais.com/blog/ai-storytelling-video-story-first-method-director/
 
 Feed lido em 04/11: nenhum post novo dele desde o do Cursor (2 semanas, 114 impressoes). Ranking atual: "Nao existe atalho" 8.555, "IA DEGENERATIVA" 1.926, "IA DEGENERATIVA parte 2" (Suno) 1.047, Toninho selecionado 339. Os de link lnkd.in seguem entre 67 e 312.
 
-### LinkedIn, modo 1 (opiniao pura, sem link)
+### LinkedIn, modo 1 (opinião pura, sem link)
 
 O sindicato dos atores de Hollywood escreveu no contrato uma frase que eu queria ver em todo briefing.
 
-Para usar um ator sintetico, o produtor tem que provar que ele traz "valor adicional significativo". Comparado a um ator de verdade. E comparado tambem a replica digital desse ator.
+Para usar um ator sintético, o produtor tem que provar que ele traz "valor adicional significativo". Comparado a um ator de verdade. E comparado também à réplica digital desse ator.
 
-Nao e taxa. Nao e multa. E prova.
+Não é taxa. Não é multa. É prova.
 
-91% dos atores votaram sim, em junho. Vale ate 2030.
+91% dos atores votaram sim, em junho. Vale até 2030.
 
-E o melhor detalhe: ninguem definiu o que e "valor adicional significativo". Vai ser discutido caso a caso, na frente de um arbitro.
+E o melhor detalhe: ninguém definiu o que é "valor adicional significativo". Vai ser discutido caso a caso, na frente de um árbitro.
 
-Eu quero ver alguem sentar nessa mesa e explicar por que o personagem precisava ser gerado. Nao porque ficou mais barato. Nao porque dava pra entregar na sexta. Por que ele e melhor que uma pessoa.
+Eu quero ver alguém sentar nessa mesa e explicar por que o personagem precisava ser gerado. Não porque ficou mais barato. Não porque dava pra entregar na sexta. Por que ele é melhor que uma pessoa.
 
-Na maioria das vezes nao tem resposta. E esse e o ponto.
+Na maioria das vezes não tem resposta. E esse é o ponto.
 
-Quem faz comercial com IA, e eu faco, devia se fazer essa pergunta antes do sindicato fazer.
+Quem faz comercial com IA, e eu faço, devia se fazer essa pergunta antes do sindicato fazer.
 
-A IA nao precisa de motivo pra estar na cena. Voce precisa.
+A IA não precisa de motivo pra estar na cena. Você precisa.
 
 ### X, modo 3 (entrega, link so depois do merge)
 
