@@ -94,3 +94,39 @@ História é alguém que quer uma coisa e não pode ter. O resto é decoração.
 A folha que eu preencho antes de gerar um frame, e a inversão que mais economiza: gerar o último plano primeiro.
 
 https://openyourais.com/blog/ai-storytelling-video-story-first-method-director/
+
+## 04/11/2026, guardiao (rascunhos, NADA agendado)
+
+Feed lido em 04/11: nenhum post novo dele desde o do Cursor (2 semanas, 114 impressoes). Ranking atual: "Nao existe atalho" 8.555, "IA DEGENERATIVA" 1.926, "IA DEGENERATIVA parte 2" (Suno) 1.047, Toninho selecionado 339. Os de link lnkd.in seguem entre 67 e 312.
+
+### LinkedIn, modo 1 (opiniao pura, sem link)
+
+O sindicato dos atores de Hollywood escreveu no contrato uma frase que eu queria ver em todo briefing.
+
+Para usar um ator sintetico, o produtor tem que provar que ele traz "valor adicional significativo". Comparado a um ator de verdade. E comparado tambem a replica digital desse ator.
+
+Nao e taxa. Nao e multa. E prova.
+
+91% dos atores votaram sim, em junho. Vale ate 2030.
+
+E o melhor detalhe: ninguem definiu o que e "valor adicional significativo". Vai ser discutido caso a caso, na frente de um arbitro.
+
+Eu quero ver alguem sentar nessa mesa e explicar por que o personagem precisava ser gerado. Nao porque ficou mais barato. Nao porque dava pra entregar na sexta. Por que ele e melhor que uma pessoa.
+
+Na maioria das vezes nao tem resposta. E esse e o ponto.
+
+Quem faz comercial com IA, e eu faco, devia se fazer essa pergunta antes do sindicato fazer.
+
+A IA nao precisa de motivo pra estar na cena. Voce precisa.
+
+### X, modo 3 (entrega, link so depois do merge)
+
+If your pipeline still calls veo-3.1-generate-preview, it has been failing since October 22.
+
+Google shut down all three Veo 3.1 preview models in the Gemini API (generate, fast, lite) and points developers to gemini-omni-1.1-flash. The GA Veo 3.1 models are still on Google Cloud if you need Veo specifically.
+
+Inside YouTube, the newer path is Gemini Omni in Shorts Remix, free, rolling out since May.
+
+The surface changed. The method did not. Three references decide the clip: talent, product, environment. The full three ingredient brief, the one I'd hand a team before any generation, is in a copyable block here:
+
+https://openyourais.com/blog/veo-3-1-ingredients-to-video-youtube-shorts-what-brand-creators-need/?utm_source=x&utm_medium=social&utm_campaign=veo-31-omni-shorts
