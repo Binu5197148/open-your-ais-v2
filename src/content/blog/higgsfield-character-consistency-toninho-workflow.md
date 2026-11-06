@@ -1,8 +1,9 @@
 ---
-title: "Higgsfield Character Consistency: My Toninho Prompt Workflow"
-description: "Build character references, review a scene frame and diagnose continuity errors using lessons from Toninho Sagatiba, with a free Seedance Lab prompt kit."
+title: "How to Fix AI Character Drift in Higgsfield"
+description: "Consistent AI characters in Higgsfield start before the prompt: one sheet, references that agree, an approved first frame. Prompt and free kit inside."
 pubDate: "2026-09-10"
 toolVersion: "2026-09"
+updatedDate: "2026-10-31"
 category: "Filmmaking"
 tags:
   - "Higgsfield"
@@ -95,6 +96,29 @@ inputs, duration and estimated cost. Wait for my approval.</code></pre>
 <p>These are investigation steps drawn from the project and the skill, not guarantees about every Seedance generation. Change one relevant input and compare again. Keeping the previous version makes it possible to notice when a correction fixed one thing and damaged another.</p>
 
 <p>When you add dialogue, listen to the actual output against the source recording. My notes describe transcription normalizing a mispronounced word into the expected spelling. A matching transcript alone does not establish that the performance survived.</p>
+
+<h2>How do you create a consistent character in Higgsfield?</h2>
+
+<p>The short answer is that consistency is decided before the generation, in the materials you attach. The checklist below condenses the steps above into the order I would run them. Copy it into your notes or hand it to your agent.</p>
+
+<pre><code>CHARACTER CONSISTENCY CHECKLIST (Higgsfield + Seedance)
+
+1. One sheet per character: close portrait, front view, back view,
+   fixed wardrobe and accessories written next to it.
+2. Sheets for everything recurring: costume, vehicle, prop, product.
+3. Resolve conflicts first. If two references disagree on clothes,
+   fix the reference, do not add more prompt text.
+4. Location reference fixed: doorway, counter, furniture positions.
+5. Approve the starting frame at full size before any animation:
+   face, hands, eye-line, objects near the hands.
+6. Re-attach every sheet on every generation, including regenerations,
+   plus the approved starting frame. Never send the frame alone.
+7. Ask the agent for mode, supported inputs, duration and estimated
+   cost before it generates. Approve, then run.
+8. Compare result and starting frame side by side, then scrub.
+   Write down the earliest visible failure, change one input, repeat.</code></pre>
+
+<p>The official route for connecting Claude to the platform is Higgsfield's <a href="https://higgsfield.ai/creator-hub/help-center/integrations/how-do-i-connect-higgsfield-to-ai-agent">agent connection guide</a>. The longer production story behind these rules is in <a href="/blog/ai-character-consistency-prep-problem-not-model-problem/">why character consistency is a prep problem</a>.</p>
 
 <h2>Download the exercise kit</h2>
 
