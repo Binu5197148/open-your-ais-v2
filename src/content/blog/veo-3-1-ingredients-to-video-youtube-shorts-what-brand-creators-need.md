@@ -1,9 +1,10 @@
 ---
 id: "art-085"
 title: "Veo 3.1 vs Gemini Omni: Shorts Update 2026"
-description: "Veo 3.1 previews left the Gemini API on Oct 22 and Omni took over Shorts Remix. How to run the three ingredient method today, with a brand brief to copy."
+description: "Veo 3.1 previews left the Gemini API on Oct 22 and Omni runs Shorts Remix. What each surface takes as input today, plus a creative brief to adapt to it."
 pubDate: "2026-03-15"
-updatedDate: "2026-11-04"
+updatedDate: "2026-11-06"
+toolVersion: "2026-11"
 category: "AI"
 tags:
   - "Veo 3.1"
@@ -51,7 +52,7 @@ readTime: "7 min read"
 <li><strong>Inside Google Flow.</strong> Flow is now built around Gemini Omni. I covered what that means for paid work in <a href="/blog/google-flow-2026-unified-ai-video-workspace-creators/">the Google Flow piece</a>, and the price math of Omni at 4K in <a href="/blog/gemini-omni-flash-4k-upscale-price-math/">this breakdown</a>.</li>
 <li><strong>Through the API.</strong> If your code calls <code>veo-3.1-generate-preview</code>, <code>veo-3.1-fast-generate-preview</code> or <code>veo-3.1-lite-generate-preview</code>, it stopped working on October 22. Migrate to <code>gemini-omni-1.1-flash</code> in the Gemini API, or to the generally available Veo 3.1 models on Google Cloud if you need Veo specifically.</li>
 </ul>
-<p>Whatever the surface, the method does not change. The model is only as good as the three references you hand it, and that is a pre production job, not a prompting trick. The brief I would put on the table before any generation looks like this:</p>
+<p>These surfaces do not take the same inputs. Three references and eight seconds describe Ingredients to Video as Google documented it. Shorts Remix starts from an existing Short and takes prompts or images, and I found nothing saying it is the same three reference flow. So what follows is my recommendation for a creative brief, not a settings sheet for every interface. Write it first, then give each tool only what that tool asks for:</p>
 <pre><code>INGREDIENT 1, TALENT
   One clean, front lit photo. Neutral expression. No sunglasses, no hands on face.
   Same person, same wardrobe the brand approved.
@@ -68,12 +69,12 @@ PROMPT
   Who does what with the product, in one sentence.
   Camera: one move only (slow push in, or locked off).
   Sound: what we hear, in plain words.
-  Length: 8 seconds, vertical 9:16.
+  Length: whatever this surface allows, vertical 9:16.
 
 CHECK BEFORE APPROVAL
   Face matches ingredient 1 in every frame.
   Label is legible and not mutated.
   AI disclosure label is on, as the platform requires.</code></pre>
-<p>Run the same brief on the old path and on Omni, side by side, before you decide. The difference you see on your own product is the only benchmark that matters for your client.</p>
+<p>To compare, run the same brief on Omni and on a Veo 3.1 path still available on Google Cloud, not on the closed previews, before you decide. The difference you see on your own product is the only benchmark that matters for your client.</p>
 <p>My suggestion: test the Ingredients to Video feature on your next brand campaign with a product that photographs clearly. Run the generation with proper brief inputs: quality talent reference, clear product shot, strong environmental reference. Evaluate the output against your current social production standard. The gap you find will tell you exactly where the tool fits in your workflow right now, and where to watch for improvement over the next six months.</p>
 <p><em>Sources: <a href="https://blog.youtube/news-and-events/youtube-news-google-io-2026/" target="_blank" rel="noopener">YouTube Blog: All the YouTube news from Google I/O 2026</a> | <a href="https://aistudio.google.com/docs/video" target="_blank" rel="noopener">Gemini API: video generation docs and Veo 3.1 preview shutdown</a> | <a href="https://blog.google/innovation-and-ai/technology/ai/veo-3-1-ingredients-to-video/" target="_blank" rel="noopener">Google Blog: Veo 3.1 Ingredients to Video</a> | <a href="https://www.cined.com/google-veo-3-1-ingredients-to-video-update-adds-native-vertical-format-4k-upscaling-and-enhanced-character-consistency/" target="_blank" rel="noopener">CineD, Veo 3.1 Update: Vertical Format, 4K Upscaling, Character Consistency</a> | <a href="https://chromeunboxed.com/google-upgrades-ai-video-generation-with-veo-3-1-and-native-vertical-support/" target="_blank" rel="noopener">Chrome Unboxed: Google upgrades AI video with Veo 3.1</a></em></p>

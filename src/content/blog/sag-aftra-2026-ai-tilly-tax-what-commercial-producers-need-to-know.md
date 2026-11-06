@@ -3,7 +3,7 @@ id: "art-099"
 title: "SAG-AFTRA's New AI Rules: A Producer's Survival Guide"
 description: "The 2026 SAG-AFTRA deal passed with 91% and no flat AI royalty. What it demands of synthetic performers, what the ads contract adds, and a producer checklist."
 pubDate: "2026-03-15"
-updatedDate: "2026-11-04"
+updatedDate: "2026-11-06"
 category: "AI"
 tags:
   - "SAG-AFTRA"
@@ -66,11 +66,13 @@ readTime: "8 min read"
    -> Signed Digital Replica Rider, with the exact uses listed.
 3. Does any shot use a fully synthetic performer?
    -> Commercials: contact the union about the contribution before the shoot.
-   -> TV/Theatrical: write down the "significant additional value" reason now.
+   -> TV/Theatrical: write down the "significant additional value" reason now,
+      then give the union notice and negotiate terms before use, on the
+      contract's timetable. The reason alone does not clear the shot.
 4. Will any footage from this job train a voice clone or avatar model?
    -> Written SAG-AFTRA permission before any third party touches it.
 5. Does every vendor contract (avatar, voice, edit house) repeat 2 to 4?
 6. Who on the team signs off that 1 to 5 are done?</code></pre>
 <p>None of this replaces a lawyer or the union's own guidance. It makes sure the questions get asked before the edit, when they are still cheap.</p>
 
-<p><em>Sources: <a href="https://www.thewrap.com/industry-news/labor-unions/sag-aftra-members-ratify-new-contract/" target="_blank" rel="noopener">TheWrap: SAG-AFTRA members ratify new contract</a> | <a href="https://fortune.com/2026/06/05/sag-aftra-approves-four-year-contract-studios-streamers/" target="_blank" rel="noopener">Fortune: SAG-AFTRA approves four-year contract</a> | <a href="https://www.dlapiper.com/insights/publications/2025/04/2025-sag-aftra-commercials-contracts-moas-transform-in-the-digital-age" target="_blank" rel="noopener">DLA Piper: 2025 Commercials Contracts</a> | <a href="https://deadline.com/2025/05/sag-aftra-artificial-intelligence-protections-2026-1236384968/" target="_blank" rel="noopener">Deadline: SAG-AFTRA AI Protections for 2026 Contract</a> | <a href="https://www.hollywoodreporter.com/business/business-news/sag-aftra-commercials-contracts-refine-union-approach-ai-1236221770/" target="_blank" rel="noopener">Hollywood Reporter: SAG-AFTRA Commercials Contracts and AI</a> | <a href="https://nofilmschool.com/2026-wga-contract-negotiations" target="_blank" rel="noopener">No Film School: 2026 WGA and SAG-AFTRA Negotiations</a></em></p>
+<p><em>Sources: <a href="https://www.sagaftra.org/sag-aftra-members-approve-2026-tvtheatrical-contracts-tentative-agreement" target="_blank" rel="noopener">SAG-AFTRA: members approve the 2026 TV/Theatrical contracts</a> | <a href="https://www.sagaftra.org/message-your-president-chief-negotiator-0" target="_blank" rel="noopener">SAG-AFTRA: message from the president and chief negotiator</a> | <a href="https://www.sagaftra.org/contracts-industry-resources/contracts/2026-tvtheatrical-contracts" target="_blank" rel="noopener">SAG-AFTRA: 2026 TV/Theatrical contract documents</a> | <a href="https://www.thewrap.com/industry-news/labor-unions/sag-aftra-members-ratify-new-contract/" target="_blank" rel="noopener">TheWrap: SAG-AFTRA members ratify new contract</a> | <a href="https://fortune.com/2026/06/05/sag-aftra-approves-four-year-contract-studios-streamers/" target="_blank" rel="noopener">Fortune: SAG-AFTRA approves four-year contract</a> | <a href="https://www.dlapiper.com/insights/publications/2025/04/2025-sag-aftra-commercials-contracts-moas-transform-in-the-digital-age" target="_blank" rel="noopener">DLA Piper: 2025 Commercials Contracts</a> | <a href="https://deadline.com/2025/05/sag-aftra-artificial-intelligence-protections-2026-1236384968/" target="_blank" rel="noopener">Deadline: SAG-AFTRA AI Protections for 2026 Contract</a> | <a href="https://www.hollywoodreporter.com/business/business-news/sag-aftra-commercials-contracts-refine-union-approach-ai-1236221770/" target="_blank" rel="noopener">Hollywood Reporter: SAG-AFTRA Commercials Contracts and AI</a> | <a href="https://nofilmschool.com/2026-wga-contract-negotiations" target="_blank" rel="noopener">No Film School: 2026 WGA and SAG-AFTRA Negotiations</a></em></p>

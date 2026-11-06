@@ -127,6 +127,6 @@ Google shut down all three Veo 3.1 preview models in the Gemini API (generate, f
 
 Inside YouTube, the newer path is Gemini Omni in Shorts Remix, free, rolling out since May.
 
-The surface changed. The method did not. Three references decide the clip: talent, product, environment. The full three ingredient brief, the one I'd hand a team before any generation, is in a copyable block here:
+Each surface takes different inputs, so don't assume one flow carries over. Shorts Remix starts from an existing Short, not from three references. What travels is the creative brief: talent, product, environment. It's in a copyable block here, to adapt to each tool:
 
 https://openyourais.com/blog/veo-3-1-ingredients-to-video-youtube-shorts-what-brand-creators-need/?utm_source=x&utm_medium=social&utm_campaign=veo-31-omni-shorts

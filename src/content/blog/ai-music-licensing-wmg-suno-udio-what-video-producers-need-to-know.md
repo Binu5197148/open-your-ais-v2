@@ -3,7 +3,7 @@ id: "art-073"
 title: "Why Your Client Work Is at Risk With AI Music"
 description: "Warner settled with Suno, but Universal and Sony sued Suno again in September over v6. What that means for paid brand video, plus a checklist before delivery."
 pubDate: "2026-03-15"
-updatedDate: "2026-11-04"
+updatedDate: "2026-11-06"
 category: "AI"
 tags:
   - "AI Music"
@@ -20,7 +20,9 @@ readTime: "8 min read"
 
 <p><em>Updated November 4, 2026. The headline of the first section below aged badly. The lawsuit era did not end. On September 18, 2026, Universal Music and Sony Music filed a second copyright suit against Suno, this time over 60,202 recordings and the new v6 models, which the labels call "the fruit of the same poisoned tree," as reported by <a href="https://www.musicbusinessworldwide.com/universal-and-sony-sue-suno-for-a-second-time-claiming-platforms-v6-models-are-the-fruit-of-the-same-poisoned-tree/" target="_blank" rel="noopener">Music Business Worldwide</a> and <a href="https://www.digitalmusicnews.com/2026/09/18/universal-music-suno-lawsuit-second/" target="_blank" rel="noopener">Digital Music News</a>. Suno says the claims are flawed and, on October 30, asked the court to pause the new case until rulings arrive in the first one, per <a href="https://law360.com/articles/2544762" target="_blank" rel="noopener">Law360</a>. The Warner settlement with Suno and the Universal settlement with Udio still stand. The new section near the end says what this means for a paid job today. This is an analysis of public reporting, not legal advice.</em></p>
 
-<h2>The Lawsuit Era Is Ending. The Partnership Era Is Starting.</h2>
+<p><em>From here down to "Can You Use Suno Music in Client Work in 2026?" is the March text, kept as a record. Its headlines and advice describe that moment. The current guidance starts at that section.</em></p>
+
+<h2>March Reading: The Lawsuit Era Looked Like It Was Ending</h2>
 <p>For most of 2024 and into 2025, using AI-generated music in commercial video was a legal grey area that no serious producer wanted to navigate. The major labels had sued Suno and Udio, alleging copyright infringement at massive scale, and the outcome was unclear enough that most professional productions stayed away from AI music entirely.</p>
 <p>That changed. Warner Music Group settled with both Suno and Udio in November 2025, the Suno deal described as a partnership on "next-generation licensed AI music." Universal Music Group settled with Udio in October. Sony Music is the remaining holdout among the three majors, but the trajectory is clear. <em>(November 2026: it was not. Universal and Sony are both still in court with Suno, see the note at the top.)</em></p>
 <p>This is not a minor legal footnote. It is a structural shift in what AI-generated music can be used for commercially.</p>
@@ -41,7 +43,7 @@ readTime: "8 min read"
 <p>Sony Music has not settled. If you are producing something with significant distribution that touches Sony-connected repertoire territory, the risk profile is different. The platforms themselves have clear terms of service around commercial use. Read them before delivering anything to a client where the music is central to the piece.</p>
 <p>High-stakes productions (broadcast, theatrical, anything with international distribution) still warrant the involvement of a music supervisor who can navigate the specifics. AI music for commercial video is a practical solution in many contexts. It is not yet a blanket replacement for professional music licensing in all contexts.</p>
 
-<h2>What to Do Right Now</h2>
+<h2>What I Recommended in March</h2>
 <p>If you have been avoiding AI music for commercial work because of the legal uncertainty, the situation has changed enough that it is worth revisiting. Specifically:</p>
 <p>Test Suno for music generation quality in the genres you most commonly need. Their v5 model is a significant improvement over earlier versions and handles instrumentation specificity better than most competitors. <em>(November 2026: v6 replaced v5 in September, and v6 is the model named in the second lawsuit.)</em></p>
 <p>Read the commercial licensing terms on both Suno and Udio carefully. They have paid tiers that explicitly address commercial use. Understand exactly what is covered before you deliver to a client.</p>
@@ -53,22 +55,28 @@ readTime: "8 min read"
 <p>It is the same boring discipline you would apply to any music track. AI does not change that part.</p>
 
 <h2>Can You Use Suno Music in Client Work in 2026?</h2>
-<p>Yes, with a narrower margin than the March text suggested. Here is the state on November 4, 2026:</p>
+<p>With conditions, and with a narrower margin than the March text suggested. Here is the state on November 6, 2026:</p>
 <ul>
 <li><strong>Warner and Suno:</strong> settled in November 2025, with a licensing partnership. Under it, Suno moved downloads behind paid plans (<a href="https://news.bloomberglaw.com/ip-law/warner-music-settles-lawsuit-with-ai-music-startup-suno" target="_blank" rel="noopener">Bloomberg Law</a>).</li>
 <li><strong>Universal and Udio:</strong> settled in October 2025, with a plan for a new platform trained on licensed music (<a href="https://www.bostonglobe.com/2025/10/30/business/universal-music-ai-song-udio/" target="_blank" rel="noopener">Boston Globe</a>).</li>
-<li><strong>Universal and Sony against Suno:</strong> the first case continues, and the second one, filed on September 18, 2026, targets v6 directly.</li>
+<li><strong>Universal and Sony against Suno:</strong> the first case continues, and the second one, filed on September 18, 2026, targets v6 directly. These are allegations from the labels, known here through reporting, not from my own reading of the filing, and Suno calls the suit "fundamentally flawed on both the facts and the law" (<a href="https://www.digitalmusicnews.com/2026/09/22/suno-comments-umg-sony-lawsuit/" target="_blank" rel="noopener">Digital Music News</a>).</li>
 <li><strong>Free plans:</strong> Suno's <a href="https://suno.com/terms" target="_blank" rel="noopener">terms</a> tie commercial use to songs made on a paid plan. A track made on a free account is not a deliverable.</li>
+<li><strong>Download:</strong> the same terms bar commercial use of Output that you did not download through a Suno channel. Stream rips and recordings do not count.</li>
+<li><strong>Remixes:</strong> a Remix, as those terms define it, stays personal and non-commercial on every plan, paid ones included. Check that your track is your own Output and not a Remix.</li>
+<li><strong>Udio:</strong> none of the above carries over. Read Udio's terms on their own.</li>
 </ul>
-<p>What that means in practice: the platform's license covers your relationship with Suno. It does not settle the labels' claim against Suno. On a social cut with a short life, most producers will accept that. On a broadcast spot, a long running campaign or anything a client will put money behind for a year, the gap is the client's risk, and they should hear about it from you before the music is locked. I went deeper on what Suno's own terms say in <a href="/blog/suno-commercial-rights-sync-licensing-what-producers-need-2026/">the Suno copyright piece</a>.</p>
+<p>What that means in practice: the platform's license covers your relationship with Suno. It does not settle the labels' claim against Suno. Accepting that on a social cut with a short life is a decision for the producer and the client to make out loud, not a default. On a broadcast spot, a long running campaign or anything a client will put money behind for a year, the gap is the client's risk, and they should hear about it from you before the music is locked. I went deeper on what Suno's own terms say in <a href="/blog/suno-commercial-rights-sync-licensing-what-producers-need-2026/">the Suno copyright piece</a>.</p>
 <p>The checklist I would attach to any delivery that uses AI music:</p>
 <pre><code>1. Generated on a paid plan? Screenshot the plan page on the day of generation.
-2. Platform and model version written in the delivery notes (e.g. Suno v6).
-3. Prompt saved. No artist names, no "in the style of" a real band.
-4. Distribution named: social only, paid media, broadcast, territory, months.
-5. Client told in writing that label litigation against the platform is open.
-6. Broadcast or long campaign? Music supervisor signs off, or license a track.
-7. Final mix checked on phone, laptop and monitors for low end and hi-hat artifacts.</code></pre>
+2. Downloaded through the platform's own download channel? No rips, no recordings.
+3. Your own Output, not a Remix? On Suno, Remixes are non-commercial on every plan.
+4. Use checked against the platform's current terms and conditions of use.
+5. Platform and model version written in the delivery notes (e.g. Suno v6).
+6. Prompt saved. No artist names, no "in the style of" a real band.
+7. Distribution named: social only, paid media, broadcast, territory, months.
+8. Client told in writing that label litigation against the platform is open.
+9. Broadcast or long campaign? Music supervisor signs off, or license a track.
+10. Final mix checked on phone, laptop and monitors for low end and hi-hat artifacts.</code></pre>
 <p>The tool is fast. The paperwork is what makes it deliverable.</p>
 
-<p><em>Sources: <a href="https://www.musicbusinessworldwide.com/universal-and-sony-sue-suno-for-a-second-time-claiming-platforms-v6-models-are-the-fruit-of-the-same-poisoned-tree/" target="_blank" rel="noopener">Music Business Worldwide: Universal and Sony sue Suno a second time</a> | <a href="https://www.digitalmusicnews.com/2026/09/18/universal-music-suno-lawsuit-second/" target="_blank" rel="noopener">Digital Music News: second suit against Suno</a> | <a href="https://law360.com/articles/2544762" target="_blank" rel="noopener">Law360: Suno asks to pause second suit</a> | <a href="https://news.bloomberglaw.com/ip-law/warner-music-settles-lawsuit-with-ai-music-startup-suno" target="_blank" rel="noopener">Bloomberg Law: Warner settles with Suno</a> | <a href="https://www.bostonglobe.com/2025/10/30/business/universal-music-ai-song-udio/" target="_blank" rel="noopener">Boston Globe: Universal and Udio settle</a> | <a href="https://www.musicbusinessworldwide.com/eleven-music-new-ai-rival-to-suno-launches-with-merlin-kobalt-licensing-deals-in-the-bag/" target="_blank" rel="noopener">Music Business Worldwide: Eleven Music launches with Merlin, Kobalt deals</a> | <a href="https://techcrunch.com/2025/08/05/elevenlabs-launches-an-ai-music-generator-which-it-claims-is-cleared-for-commercial-use/" target="_blank" rel="noopener">TechCrunch: ElevenLabs launches AI music generator cleared for commercial use</a></em></p>
+<p><em>Sources: <a href="https://suno.com/terms" target="_blank" rel="noopener">Suno Terms of Service, effective September 3, 2026</a> | <a href="https://www.wmg.com/news/warner-music-group-and-suno-forge-groundbreaking-partnership" target="_blank" rel="noopener">Warner Music Group: partnership with Suno</a> | <a href="https://www.universalmusic.com/universal-music-group-and-udio-announce-udios-first-strategic-agreements-for-new-licensed-ai-music-creation-platform/" target="_blank" rel="noopener">Universal Music Group: agreement with Udio</a> | <a href="https://www.musicbusinessworldwide.com/universal-and-sony-sue-suno-for-a-second-time-claiming-platforms-v6-models-are-the-fruit-of-the-same-poisoned-tree/" target="_blank" rel="noopener">Music Business Worldwide: Universal and Sony sue Suno a second time</a> | <a href="https://www.digitalmusicnews.com/2026/09/18/universal-music-suno-lawsuit-second/" target="_blank" rel="noopener">Digital Music News: second suit against Suno</a> | <a href="https://law360.com/articles/2544762" target="_blank" rel="noopener">Law360: Suno asks to pause second suit</a> | <a href="https://news.bloomberglaw.com/ip-law/warner-music-settles-lawsuit-with-ai-music-startup-suno" target="_blank" rel="noopener">Bloomberg Law: Warner settles with Suno</a> | <a href="https://www.bostonglobe.com/2025/10/30/business/universal-music-ai-song-udio/" target="_blank" rel="noopener">Boston Globe: Universal and Udio settle</a> | <a href="https://www.musicbusinessworldwide.com/eleven-music-new-ai-rival-to-suno-launches-with-merlin-kobalt-licensing-deals-in-the-bag/" target="_blank" rel="noopener">Music Business Worldwide: Eleven Music launches with Merlin, Kobalt deals</a> | <a href="https://techcrunch.com/2025/08/05/elevenlabs-launches-an-ai-music-generator-which-it-claims-is-cleared-for-commercial-use/" target="_blank" rel="noopener">TechCrunch: ElevenLabs launches AI music generator cleared for commercial use</a></em></p>
