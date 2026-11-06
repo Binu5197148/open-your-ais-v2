@@ -3,7 +3,7 @@ id: "art-155"
 title: "Is Your AI Film Compliant? EU AI Act Update"
 description: "Article 50 disclosure has applied since August 2, and older AI tools must watermark by December 2, 2026. The artistic carve-out, plus a delivery note to copy."
 pubDate: "2026-08-03"
-updatedDate: "2026-10-30"
+updatedDate: "2026-11-06"
 toolVersion: "2026-10"
 category: "AI"
 tags:
@@ -38,7 +38,7 @@ readTime: "6 min read"
 
 <h2>Does the EU AI Act apply if you are not in Europe?</h2>
 
-<p>This is the question I got asked three times in two days, and the honest answer is that geography is the wrong axis. The Act attaches to where the output lands, not to where the edit suite sits. If the film, the ad, or the social cut reaches an audience in the European Union, you are inside the scope. I work out of São Paulo. Commercial work I have delivered has run in more than one market<!-- 30/10/2026: removido "over fourteen years", numero de anos de carreira nao verificado -->, for brands like Nestlé and Carrefour, and nobody on those jobs ever asked me which continent the color pass happened on.</p>
+<p>The honest answer is that geography is the wrong axis. The Act attaches to where the output lands, not to where the edit suite sits. If the film, the ad, or the social cut reaches an audience in the European Union, you are inside the scope. I work out of São Paulo. Commercial work I have delivered has run in more than one market<!-- 30/10/2026: removido "over fourteen years", numero de anos de carreira nao verificado -->, for brands like Nestlé and Carrefour, and nobody on those jobs ever asked me which continent the color pass happened on.</p>
 
 <p>The other thing worth knowing: enforcement is not only top down. Any person, including a competitor, can file a complaint with a national market surveillance authority. That is a different pressure than an audit. That is the market policing itself.</p>
 
@@ -68,14 +68,14 @@ readTime: "6 min read"
 
 <p>Very little, and that is the point of saying it out loud.</p>
 
-<p>I already log what was generated, with which model, at which stage, because when a client asks a question six months later I want an answer instead of a guess. That log is now most of a compliance record. The one thing I have added is a delivery note that states plainly where synthetic elements appear in the piece, written for a producer rather than a lawyer.</p>
+<p>Log what was generated, with which model, at which stage, because when a client asks a question six months later you want an answer instead of a guess. That log is most of a compliance record. The one addition is a delivery note that states plainly where synthetic elements appear in the piece, written for a producer rather than a lawyer.</p>
 
 <p>If you do not keep that log, start this week. Not because a regulator is coming for a São Paulo edit suite. Because the first time a client asks you to certify what is in a cut and you have to reconstruct it from memory, you will discover it is unreconstructable, and the loss will be yours before it is ever the law's.</p>
 
 <p>None of this is legal advice, and a piece running to an EU audience with money attached deserves an actual lawyer. What I can tell you is what the text says and where the interesting part is.</p>
 
 <h2>EU AI Act explained: the delivery note to copy</h2>
-<p>The law does not hand you a form. This is the one I would attach to any cut that might reach an EU audience. It follows the two duties above: what the tool marked, and what you disclosed. The legal text itself is <a href="https://eur-lex.europa.eu/eli/reg/2024/1689/oj" target="_blank" rel="noopener">Regulation (EU) 2024/1689 on EUR-Lex</a>, and Article 50 alone is easier to read at <a href="https://artificialintelligenceact.eu/article/50/" target="_blank" rel="noopener">artificialintelligenceact.eu</a>.</p>
+<p>The law does not hand you a form. This is the one I would attach to any cut that might reach an EU audience. It follows the two duties above: what the tool marked, and what you disclosed. Treat it as your record, not as the disclosure. A private note to the client never reaches the audience, and Article 50(5) asks for clear information to the people exposed, at the latest at first exposure. Article 50(4) covers deep fakes, content that resembles real people, objects, places or events and would falsely appear authentic, and for evidently artistic work it limits the duty to a lighter disclosure. It does not remove it. The legal text itself is <a href="https://eur-lex.europa.eu/eli/reg/2024/1689/oj" target="_blank" rel="noopener">Regulation (EU) 2024/1689 on EUR-Lex</a>, and Article 50 alone is easier to read at <a href="https://artificialintelligenceact.eu/article/50/" target="_blank" rel="noopener">artificialintelligenceact.eu</a>.</p>
 <pre><code>AI DELIVERY NOTE (attach to every cut that may reach an EU audience)
 
 Project: ___________   Cut / version: ___________   Date: ___________
@@ -85,8 +85,10 @@ Project: ___________   Cut / version: ___________   Date: ___________
    place or event? (Y/N)
 
 2. Is the piece evidently artistic, fictional or satirical?
-   YES -&gt; Article 50(4) carve-out: disclose in a way that does not
-          hamper the work (end credits, description, delivery package).
+   YES -&gt; Article 50(4) still asks for disclosure, in a lighter form:
+          in the work or its distribution, in a way that does not
+          hamper it (end credits, description). This note alone is
+          not disclosure.
    NO  -&gt; Testimonial, reportage, a real person saying real words:
           clear deepfake label where the audience sees it.
 
