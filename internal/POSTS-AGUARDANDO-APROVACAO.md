@@ -94,3 +94,40 @@ História é alguém que quer uma coisa e não pode ter. O resto é decoração.
 A folha que eu preencho antes de gerar um frame, e a inversão que mais economiza: gerar o último plano primeiro.
 
 https://openyourais.com/blog/ai-storytelling-video-story-first-method-director/
+
+## 06/11/2026, guardiao (rascunhos, NADA agendado)
+
+Feed lido em 06/11: nenhum post novo dele ha 3 semanas. "Nao existe atalho" 8.555, IA DEGENERATIVA 1.927, parte 2 1.047, Toninho selecionado 339, Cursor 117. Nada subiu desde ontem.
+
+### LinkedIn, modo 1 (opiniao pura, sem link)
+
+O Ben Affleck deu entrevista sobre Animals, o filme dele.
+
+Usou IA pra mudar luz, ajustar ótica, tirar efeito visual. Treinada só com o material do próprio filme.
+
+E disse que a ideia é ser invisível.
+
+Eu entendo a palavra. Invisível é o maior elogio da pós. Ninguém sai do cinema falando do composite bom.
+
+Só que o compositor é invisível na tela e tem o nome nos créditos.
+
+O Toninho Sagatiba leva cartela dizendo que tem IA ali. Não é modéstia. É ficha técnica.
+
+Invisível na tela, tudo bem.
+Invisível na ficha técnica, não.
+
+### X, modo 3 (entrega, link so depois do merge do PR 27)
+
+Grok Imagine 1.5 does not give you 14 references and 1080p in the same shot.
+
+xAI's own docs: reference to video tops out at 720p. Native 1080p belongs to text to video and image to video.
+
+Two more things most write-ups skip.
+
+The three "voice references" are preset voices from a catalog. Your own audio is for trusted partners, on request.
+
+And Lite has no reference mode at all, so a cheap test can't check your references.
+
+The scene method, step by step, with what each lock buys and the shot it kills:
+
+https://openyourais.com/blog/grok-imagine-video-reference-control-director-read/?utm_source=x&utm_medium=social&utm_campaign=grok-imagine-modes
