@@ -4,7 +4,7 @@ title: "Why Blomkamp's AI Movie Was a Disaster"
 description: "Nightborne ran 13 minutes on Seedance 2.0 with 32 real faces, and critics called it awful. What the backlash misses, plus a checklist for your own AI movie."
 pubDate: "2026-07-26"
 toolVersion: "2026-07"
-updatedDate: "2026-10-31"
+updatedDate: "2026-11-06"
 category: "AI"
 tags:
   - "Seedance"
@@ -68,11 +68,11 @@ readTime: "6 min read"
 
 <p>The tool does not replace the author. It stops concealing the absence of one.</p>
 
-<h2>How do you make an AI movie the way Nightborne was structured?</h2>
+<h2>How do you make an AI movie? A checklist inspired by Nightborne</h2>
 
-<p>Whatever you think of the result, the structure is readable from the coverage, and it is the part worth copying. The order matters more than the model. A checklist you can paste into a project doc:</p>
+<p>The coverage confirms a thirteen minute film, Seedance 2.0, concept artists and 32 real people. It does not document the production order or any one minute test. So the checklist below is my recommendation for an AI short, inspired by the reported production, not a record of how Nightborne was made. Paste it into a project doc:</p>
 
-<pre><code>AI MOVIE STRUCTURE CHECKLIST (from the Nightborne coverage)
+<pre><code>AI SHORT CHECKLIST (my recommendation, inspired by the reported production)
 
 1. Story and premise written before any generation.
 2. Visual vocabulary first: concept art or sheets for every character,
