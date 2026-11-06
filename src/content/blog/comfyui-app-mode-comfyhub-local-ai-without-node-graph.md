@@ -3,7 +3,7 @@ id: "art-082"
 title: "I Failed ComfyUI Twice. This Changed Everything"
 description: "The node graph kept most directors out of ComfyUI. App Mode hides it, and Comfy Agent now builds the workflow by chat. The no-nodes path, step by step."
 pubDate: "2026-03-15"
-updatedDate: "2026-10-29"
+updatedDate: "2026-11-06"
 toolVersion: "2026-10"
 category: "AI"
 tags:
@@ -60,7 +60,7 @@ readTime: "9 min read"
 <li><strong>If you already work in an agent, connect it.</strong> <a href="https://docs.comfy.org/agent-tools/mcp" target="_blank" rel="noopener">Comfy MCP</a> documents a cloud connection at cloud.comfy.org/mcp and a local one. In Claude Code the cloud connection is one command:</li>
 </ol>
 <pre><code>claude mcp add --transport http comfy-cloud https://cloud.comfy.org/mcp</code></pre>
-<p>The cloud connection needs an active Comfy Cloud subscription. The local one drives the ComfyUI you installed yourself, with your own models and custom nodes.</p>
+<p>That command only registers the server. To finish, run <code>/mcp</code> inside Claude Code, select comfy-cloud, choose Authenticate and sign in on the browser page that opens. You need a Comfy account for that, and searching templates, models and nodes stays free. Running generations needs an active Comfy Cloud subscription, per the docs, though new users get five free runs. The local connection drives the ComfyUI you installed yourself, with your own models and custom nodes.</p>
 <p>The order matters for the same reason it did in March. You learn whether the output is worth anything to you before you invest in how it works. The graph is still there when you want it, and by then you will know which three nodes you actually care about.</p>
 
 <h2>The Shift in Where Power Lives</h2>

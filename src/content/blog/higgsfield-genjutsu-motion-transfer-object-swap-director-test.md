@@ -1,9 +1,9 @@
 ---
 id: "art-183"
-title: "Higgsfield Genjutsu vs. Lite: Which Plan Saves Money?"
+title: "Don't Pick the Wrong Higgsfield Model"
 description: "Genjutsu Lite costs about a third of the full model. What each one does, the price of a 15 second clip, and which to run first so your tests stay cheap."
 pubDate: "2026-09-08"
-updatedDate: "2026-10-29"
+updatedDate: "2026-11-06"
 toolVersion: "2026-10"
 category: "AI"
 tags:
@@ -58,7 +58,7 @@ featured: true
 <li><strong>Genjutsu Lite:</strong> no mode choice, the model decides what to change. Same 4 to 30 second window, up to 10 reference images, 720p or 1080p. Higgsfield describes it as about a third of the price and does not publish a Lite credit table; the exact cost shows before you generate.</li>
 </ul>
 
-<p>The practical split follows from the reference cap. If the job is one character or one product that has to stay identical across many shots, ten references is thin, and the full model is the one built for it. If the job is a trend format, a quick recast for a social cut, or a test of whether the source clip is worth recasting at all, Lite is the cheaper way to get the answer.</p>
+<p>The practical split starts from the documented limits, and the rest is my recommendation, not a tested result. Lite was not run for this piece, so I cannot tell you where its consistency breaks. If the job needs more than ten reference images, or explicit control of the mode, the full model is the one that accepts that. Either way, judge consistency on the clips you get. If the job is a trend format, a quick recast for a social cut, or a test of whether the source clip is worth recasting at all, Lite is the cheaper way to get the answer.</p>
 
 <p>That makes Lite a natural first step in the cheap-first order above: judge the source with Lite, and only move to the full model, with the full reference stack, once you know the shot deserves it. One caution. Because Lite chooses what to change by itself, a Lite test tells you whether the motion survives, not whether a precise Object Swap will behave. Test the mode you will actually deliver with before you commit a budget to it.</p>
 
