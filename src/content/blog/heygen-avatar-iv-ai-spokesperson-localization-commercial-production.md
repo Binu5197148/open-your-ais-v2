@@ -1,9 +1,9 @@
 ---
 id: "art-093"
-title: "Don't Use HeyGen Until You Watch This"
+title: "HeyGen Avatar V: Where It Works and Where It Doesn't"
 description: "HeyGen Avatar V builds a twin from 15 seconds of video. What each plan covers, how to record it right, and the jobs where an avatar is still wrong."
 pubDate: "2026-03-15"
-updatedDate: "2026-11-03"
+updatedDate: "2026-11-06"
 toolVersion: "2026-11"
 category: "AI"
 tags:
