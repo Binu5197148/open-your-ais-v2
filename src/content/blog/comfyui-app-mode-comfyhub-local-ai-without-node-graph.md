@@ -1,9 +1,9 @@
 ---
 id: "art-082"
-title: "I Failed ComfyUI Twice. This Changed Everything"
+title: "The New Way to Use ComfyUI: No Nodes Needed"
 description: "The node graph kept most directors out of ComfyUI. App Mode hides it, and Comfy Agent now builds the workflow by chat. The no-nodes path, step by step."
 pubDate: "2026-03-15"
-updatedDate: "2026-11-06"
+updatedDate: "2026-11-08"
 toolVersion: "2026-10"
 category: "AI"
 tags:
@@ -24,7 +24,7 @@ readTime: "9 min read"
 
 <h2>The Node Graph Was the Wall</h2>
 <p>ComfyUI has been the most powerful local AI generation tool available for the past two years. It runs on your own machine, uses open-source models, costs nothing beyond electricity and hardware, and gives you granular control over every aspect of generation: model selection, sampling parameters, conditioning, chaining, custom logic. If you knew how to build a node graph, you had capabilities that cloud tools couldn't match at any subscription price.</p>
-<p>The problem: almost nobody outside technical communities knew how to build a node graph. The interface looked like a circuit diagram. Adding a new capability meant dragging nodes, connecting ports, understanding data types, and debugging silent failures. I tried it twice before getting anything working. Most directors and motion designers I know never got past the installation step.</p>
+<p>The problem: almost nobody outside technical communities knew how to build a node graph. The interface looked like a circuit diagram. Adding a new capability meant dragging nodes, connecting ports, understanding data types, and debugging silent failures. For a director or a motion designer, that was a lot to learn before the first frame.</p>
 <p>On March 10, 2026, ComfyUI launched App Mode. The node graph is now optional.</p>
 
 <h2>What App Mode, App Builder and ComfyHub Do</h2>
