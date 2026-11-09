@@ -888,3 +888,71 @@ acervo" da tarefa agendada nao se cumpre mais sem decisao dele. Pergunta levada 
 - **Titulo**: fora "Five Claude Skills for X, and Y" e a descricao "Five Claude skills read from
   their own files" ate a 15.
 - **Axenworks.** Paginas ainda nao usadas: braw, gopro, e as de 32gb a 2tb exceto 1tb.
+
+---
+
+## Notas da edicao 11, escritas em 2026-11-09
+
+```
+| 11 | artigo   | 2026-11-09 | A6 | F4 | -   | -     | 1 axenworks | nenhum |
+| 11 | linkedin | AAAA-MM-DD | -  | -  | P6  | 1109 | sim      | nenhum |
+| 11 | x        | AAAA-MM-DD | -  | -  | P2  | 317 (216 na contagem do X) | sim      | nenhum |
+```
+
+- **Nao foi para a main.** A tarefa agendada ainda manda push na main; vale a coordenacao de 28/09.
+  Branch `5ws-edicao-11`, empilhada em `5ws-edicao-10` (PR 32). PR aberto contra a branch da 10. A
+  data acima e o `pubDate`; se o merge sair em outro dia, corrigir aqui e no frontmatter. Sem URL
+  200, indexacao no Search Console NAO pedida. `id` art-195 (maior id em todas as branches: art-194).
+- **PR 32 finalizado nesta sessao**: os tres ajustes do Codex de 03/11 aplicados no commit aaa6c5f
+  da branch `5ws-edicao-10` (zero pixel virou criterio de 2 por cento e ate cinco rodadas;
+  renderizacao do PNG separada do PNG pronto; escopo da licenca do yutu sem suposicao). O erro nao
+  chegou a ser publicado, entao A10 nao era obrigatoria.
+- **Abertura A6, a recusa**, numa leitura honesta: a skill foi lida e deixada de fora, nao testada.
+  chengfeng-videocut-skills, plugin de Codex, cujo README avisa que o runtime publico nao atende a
+  skill nova. Fecho **F4**, a regra pratica: ler a frase seguinte a palavra do selo.
+- **As cinco skills**: audio-tldr (organizacao, transcricao), Higgsfield AI Prompt Skill (video,
+  prompt), Open 3D Skills (web), youtube-scout (documento, planilha de pesquisa), Motion Video Kit
+  (automacao de revisao, comercial). **Nenhuma do acervo**, sexta edicao seguida. Mesma situacao
+  das anteriores: o que sobra na classe A esta travado por direitos ou autoria, e a classe B
+  (thestoryteller) pede sanitizacao que uma rotina nao faz sozinha.
+- **Descartadas**: chengfeng-videocut-skills (Codex, ver acima), Melvynx/video-agent-skills (suite
+  grande, publicacao e auditoria dependem de servico externo; vale uma leitura propria),
+  fatihaydost/brand-identity-skill (repetiria o terreno da logo-design da 8), OpenMontage (ja saiu
+  na 2), equalang-skill (servico externo de traducao), marswaveai/skills (idem).
+- **Um link para axenworks**, na ficha 3, pagina `video-bitrate-calculator`, segunda vez (a
+  primeira foi na edicao 3). A pergunta nasce da skill: video com alfa empilhado custa 1,3 vez os
+  bytes e sai em duas larguras.
+- **Primeira pessoa com fato do stack**: a ficha 3 diz que ele gera em 720p e faz upscale quando
+  o 1080p sai caro. Vem do CLAUDE.md (Seedance 2.5). **Conferir no OK do texto.**
+- **Nenhum vicio da 3.1 gasto.**
+- Snapshot unico: 2026-11-09, 10h12m39s UTC, `gh` autenticado. 38 URLs do artigo testadas as
+  10h16 UTC, todas 200.
+- Tom das cinco pegadinhas, para a trava 8: o texto sai da maquina e fica em texto puro
+  (audio-tldr); especificacao vencida pela propria regra e atualizacao que pede credencial em CI
+  (Higgsfield); regra estetica que briga com o pipeline, e peso do arquivo (Open 3D); bloqueio
+  por IP e direito de redistribuir (youtube-scout); aprovacao de maquina nao e aprovacao de
+  cliente (Motion Video Kit). Cinco tons.
+- **Regra do contador**: 35 sub-skills contra 32 na descricao do repositorio (Higgsfield, README
+  certo); 48 colunas bateu (65 nomes menos 17 opcionais, youtube-scout); 8 skills e 28 filmes
+  bateram.
+- **Idioma nao virou pegadinha.**
+- **Comunidade**: Hacker News nao respondeu daqui; Reddit nao foi lido. Registrado no bloco 5.
+- **Capa**: camera de cinema, terceira sorteada pelo `--pick`, conferida contra os 178 slugs de
+  todas as branches remotas e olhada antes de usar.
+- **Titulo** sem "What", sem "check" e fora da forma "Five Claude Skills for X, and Y". Descricao
+  sem "Week NN of 5 Week Skills" nem "read from their own files".
+- **Secao extra no artigo:** "One rule for this week", curta, para abrigar o F4 fora do bloco 5.
+
+## Leitura das travas para a edicao 12
+
+- **Aberturas.** A6 acabou de ser gasta: fora ate a 16. A4 fora ate a 15, A3 ate a 14, A5 ate a
+  13. A9 volta na 13 e fica obrigatoria ate a 13 (ultima na 7). A abertura da 12 sai de A1, A2, A7,
+  A8 ou A10.
+- **Fechos.** F4 fora ate a 14, F3 ate a 13. F1 volta na 12. A 12 sai de F1, F2, F5 ou F6.
+- **Formatos de post** (contam da publicacao; nada publicado desde a edicao 5). Rascunhos
+  pendentes: 4 (P3, P8), 6 (P6, P2), 7 (P11, P5), 8 (P1, P7), 9 (P3, P8), 10 (P9, P10), 11 (P6, P2).
+  Preferir P1, P5, P7 ou P11 na 12.
+- **Trava 4.** Janela 11 a 15: o X da 11 (216 na contagem do X) nao paga a ponta de baixo; ainda deve um abaixo de 200 na contagem
+  do X. LinkedIn deve as duas pontas.
+- **Trava 7.** LinkedIn da 11 abre com verbo, X com numeral.
+- **Axenworks.** Paginas ainda nao usadas: braw, gopro, e as de 32gb a 2tb exceto 1tb.
