@@ -37,7 +37,7 @@ readTime: "9 min read"
 <li>Go to the Color page and select the clip.</li>
 <li>Click the Magic Mask icon to open the tool.</li>
 <li>In the viewer, click on the subject. Each click adds a point. Use as few as possible, and split a person into areas (face, hair, clothing) rather than clicking everywhere.</li>
-<li>Track in both directions and wait. Expect it to take longer than in Premiere or Final Cut.</li>
+<li>Track in both directions and wait. In Larry Jordan's April test on the Resolve 21 beta, tracking took about twice as long as in Final Cut or Premiere. Your machine and version may differ.</li>
 <li>Scrub the clip and look at the edges, hair first.</li>
 <li>If the edge breaks, raise Quality to Better, adjust Radius, Blur Radius and Clean Black, and track again.</li>
 <li>Grade inside that node, so the correction applies only to the isolated subject, or connect the matte to an alpha output if you are compositing.</li>
