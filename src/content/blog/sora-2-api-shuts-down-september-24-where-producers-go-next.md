@@ -75,7 +75,7 @@ featured: false
 
 <p>No. As of October 24, 2026, every model in the deprecation entry is removed: sora-2, sora-2-pro and the three dated snapshots, along with the Videos API itself. A call to any of them fails. The consumer app closed earlier, on April 26. OpenAI has not named a replacement, so there is nothing to point an old request at.</p>
 
-<p>If something in your pipeline still references Sora, it has been failing for a month. The first job is to find out where. Run this from the root of any repository or scripts folder that ever touched video generation:</p>
+<p>If a live job in your pipeline still calls Sora, it has been failing since September 24. A leftover reference may be inactive. The first job is to find out where. Run this from the root of any repository or scripts folder that ever touched video generation:</p>
 
 <pre><code>grep -rnE --include="*.py" --include="*.js" --include="*.ts" \
   --include="*.json" --include="*.yaml" --include="*.env" \
