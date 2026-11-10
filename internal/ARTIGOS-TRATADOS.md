@@ -330,3 +330,9 @@ Correção do PR 28 pelo caminho que o parecer do Codex de 06/11 ofereceu (anál
 |---|---|---|---|
 | 08/11 | higgsfield-cinema-studio-ai-director-control-review | mantido: AI vs. Human Director: Who Wins? | Saíram teste de março, notas 8/10 e 7.5/10, 40 abordagens em duas horas. Os três cenários viraram checklist para o leitor. Description nova |
 | 08/11 | comfyui-app-mode-comfyhub-local-ai-without-node-graph | The New Way to Use ComfyUI: No Nodes Needed (antes: I Failed ComfyUI Twice. This Changed Everything) | comfyui, 1.212.998/mês. vidIQ 89, primeiro da lista, nenhum candidato descartado. Saíram as duas tentativas pessoais |
+
+## Guardião 09/11/2026
+Escolha por estado superado, sem Search Console (Chrome desconectado, navegador interno sem login). Análise documental, nenhuma ferramenta executada. Dois tratados, não três.
+
+| 09/11 | gemini-omni-flash-4k-upscale-price-math | Gemini Omni 1.2 Flash: What They Don't Say (antes: Gemini Omni Flash: Your 4K Is an Upscale Anyway) | gemini omni | 140.660; "gemini omni flash" 58.253; pergunta "how to use google gemini omni for free" 10.721 | ESTADO SUPERADO: Omni 1.2 Flash em 05/11. Nota datada, H2 com tabela 1.1 x 1.2, H2 sobre acesso gratuito, rotina colável, data de roteamento do 1.1 (03/12). Corrigido erro antigo: o 4K custava vinte centavos acima do 720p, não quinze. Título vidIQ nota 87, o maior, nenhum descartado |
+| 09/11 | kling-3-0-motion-control-multi-shot-director-review | mantido | kling motion control | 97.579; "kling 4.0" 1.097.558 | ESTADO SUPERADO: Kling 4.0 em 15/10. Nota datada e H2 "Is Kling 4.0 out, and does it replace Motion Control?". Guia oficial de Motion Control cobre só 3.0 e 2.6; ausência de versão 4.0 escrita como "não encontramos" |

@@ -854,3 +854,39 @@ Then /mcp, Authenticate, sign in.
 
 The full no-nodes path, step by step:
 https://openyourais.com/blog/comfyui-app-mode-comfyhub-local-ai-without-node-graph/?utm_source=x&utm_medium=social&utm_campaign=comfyui-no-nodes
+## 09/11/2026, guardião (aguardando aprovação, nada agendado)
+
+### LinkedIn (modo 1, sem link, pede imagem forte)
+
+O Google lançou o Omni 1.2 na quinta e todo mundo correu para dizer: 4K por 21 centavos o segundo.
+
+Esse 4K não existe.
+
+Está na documentação do próprio Google, entre parênteses: "4K output (upscaled)".
+O modelo gera até 720p. O resto é esticar.
+
+Esticar não é crime. Eu gero em 720p e faço upscale depois, todo dia.
+Crime é botar "4K" no orçamento do cliente achando que comprou resolução.
+
+Você comprou um resize.
+
+A linha que importa é a de baixo da tabela. 360p a 2 centavos o segundo.
+Movimento, enquadramento, tempo de corte: dá para ver tudo em 360p. Nunca precisei de 4K para saber que a câmera andou errado.
+
+Copião sempre foi assim. Corta no barato, trava, e o caro acontece uma vez, no fim.
+
+A máquina faz o arquivo. Qual plano sobrevive, quem decide é você.
+
+### X (modo 3, link só vale depois do merge)
+
+Gemini Omni 1.2 Flash dropped Thursday and the headline everywhere is 4K at 21 cents a second.
+
+Open Google's own API docs. It says "4K output (upscaled)". Same for 1080p. The model stops making new pixels at 720p.
+
+Upscaling is fine. I generate at 720p and upscale after. Just don't put 4K in a budget thinking you bought resolution.
+
+The line that changes the work is the cheap one. 360p at about 2 cents a second. Motion, framing and timing all read fine there.
+
+Full price table for 1.1 vs 1.2, what's free, the Dec 3 date when 1.1 calls start routing to 1.2, and the 7 step draft routine you can copy:
+
+https://openyourais.com/blog/gemini-omni-flash-4k-upscale-price-math/?utm_source=x&utm_medium=social&utm_campaign=gemini-omni-1-2

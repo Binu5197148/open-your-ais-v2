@@ -3,8 +3,8 @@ id: "art-083"
 title: "Stop Using Runway Until You See This: Kling Motion Control"
 description: "Kling published a 1,667% win rate over Runway Act-Two. The benchmark is marketing. Repeating one move to swap the set is what Motion Control is for."
 pubDate: "2026-03-15"
-updatedDate: "2026-10-19"
-toolVersion: "2026-10"
+updatedDate: "2026-11-09"
+toolVersion: "2026-11"
 category: "AI"
 tags:
   - "Workflow"
@@ -19,7 +19,7 @@ author: "Ulisses Balbino"
 readTime: "7 min read"
 ---
 
-<p><em>Updated October 19, 2026. Kling 4.0 launched on October 15, with 30-second takes, up to 10 keyframes and a reference system that folds the Motion Control idea into the flagship model. <a href="/blog/kling-4-0-30-second-long-take-what-directors-get/">What Kling 4.0 ships and what is still coming soon</a> is covered separately. Kling 3.0 Motion Control is still offered on Kling and on Higgsfield, so the method below still applies. The comparison with Runway and Veo describes the March 2026 leaderboard. An earlier version of this piece reported test impressions that could not be substantiated; those lines were removed.</em></p>
+<p><em>Updated November 9, 2026. Kling 4.0 launched on October 15, so this is no longer the newest Kling model. On the date of this note, Kling's own Motion Control guide still covers versions 3.0 and 2.6 only, which is why this page stays useful. The leaderboard positions and rival models below are the March picture. The new section near the end has the current state, read from Kling's and Kuaishou's published pages. Kling 4.0 was not tested for this update. An earlier version of this piece reported test impressions that could not be substantiated; those lines were removed.</em></p>
 <!-- Correction 2026-10-19: removed "I tested it myself" and "From my testing..." comparative results (no evidence of the tests); dated the competitor section to March 2026; added Kling 4.0 note. -->
 
 <h2>The Claim That Stopped Me</h2>
@@ -45,6 +45,11 @@ readTime: "7 min read"
 <p>As of March 2026, the video model landscape was not winner-take-all. Runway Gen-4.5 sat at number one on the Video Arena leaderboard for overall quality. Kling 3.0 occupied seven spots in the top 15, with a 1243 ELO score competitive with the strongest models then available. Google's Veo 3.1 was the resolution benchmark. Each had a different strength profile, and the board has moved since, so check a current leaderboard before choosing.</p>
 <p>At the time, Kling 3.0 had the highest ceiling for multi-shot sequences and structured character motion, Runway Gen-4.5 led on single-shot photoreal detail, and Veo 3.1 led on raw resolution. The practical answer for professional work is to understand which tool is strongest for the specific task, rather than committing to a single platform for everything.</p>
 
+<h2>Is Kling 4.0 out, and does it replace Motion Control?</h2>
+<p>It is out. <a href="https://bernama.com/en/press/news.php?id=2622471" target="_blank" rel="noopener">Kuaishou's launch release</a> dates it to October 15, with up to 30 seconds in a single pass, up to 15 reference assets and up to 10 keyframes. <a href="https://kling.ai/blog/kling-4-vs-3" target="_blank" rel="noopener">Kling's own comparison</a> sets that against 3 to 15 seconds and start and end frames only on 3.0, and adds two channel stereo and more languages, Portuguese among them. The <a href="https://kling.ai/dev/model-release/kling-4" target="_blank" rel="noopener">model page</a> lists a lighter Kling 4.0 Flash at 3 to 20 seconds and 720p only.</p>
+<p>Replacing Motion Control is a different question, and the documents do not settle it. <a href="https://kling.ai/quickstart/motion-control-user-guide" target="_blank" rel="noopener">Kling's Motion Control guide</a> covers 3.0 and 2.6, and we found no Motion Control page for 4.0 on November 9. Kling describes a Creative Recreation mode on 4.0 that rebuilds an existing video with new assets, which sounds adjacent, but nothing published says it holds a performance the way Motion Control does.</p>
+<p>So the working split today: if the job is repeating one specific movement while you swap the character or the set, stay on 3.0 Motion Control. If the job is a long take with several planned beats, 4.0 keyframes are the new thing to test. Launch reports disagreed on whether the API was open yet, so check <a href="https://kling.ai/dev" target="_blank" rel="noopener">Kling's developer page</a> before you build on it.</p>
+
 <h2>How Do You Try Kling Motion Control Yourself?</h2>
 <p>The capability lives inside Kling itself, so there is nothing to install. You go to <a href="https://klingai.com" target="_blank" rel="noopener">klingai.com</a>, open the video tools, and give it two things: a reference clip carrying the movement you want, and a still of the character you want to carry it.</p>
 <p>The part that decides whether you get a usable take is the reference, not the prompt. Pick a clip where the body is fully in frame, the movement is unobstructed, and the camera holds reasonably still. A reference where the subject leaves frame or gets cropped at the knees will produce exactly the drift you are trying to avoid. Match the framing of your still to the framing of the reference before you spend a generation on it.</p>
@@ -53,4 +58,4 @@ readTime: "7 min read"
 <h2>The Honest Assessment</h2>
 <p>Kling 3.0 Motion Control is a genuinely useful tool for structured, multi-shot short-form content. The director-like workflow (specifying shots, controlling motion, maintaining character consistency across cuts) is the capability I've been waiting to see in AI video. It's not yet at the level where it replaces production for content where quality matters most. But it has crossed the threshold where it's useful for real work, not just demos.</p>
 <p>The 1,667% win rate claim is a number I'll continue to ignore. The capability behind it is worth your time.</p>
-<p><em>Sources: <a href="https://magichour.ai/blog/kling-30-review" target="_blank" rel="noopener">Magic Hour, Kling 3.0 Review: 15-Second Multi-Shot Storytelling</a> | <a href="https://curiousrefuge.com/blog/kling-30-review" target="_blank" rel="noopener">Curious Refuge, Kling 3.0: New King of AI Video Generators</a> | <a href="https://weandthecolor.com/kling-3-0-is-the-ai-video-model-that-finally-thinks-like-a-director/208623" target="_blank" rel="noopener">We and the Color, Kling 3.0 Thinks Like a Director</a></em></p>
+<p><em>Sources: <a href="https://magichour.ai/blog/kling-30-review" target="_blank" rel="noopener">Magic Hour, Kling 3.0 Review: 15-Second Multi-Shot Storytelling</a> | <a href="https://curiousrefuge.com/blog/kling-30-review" target="_blank" rel="noopener">Curious Refuge, Kling 3.0: New King of AI Video Generators</a> | <a href="https://weandthecolor.com/kling-3-0-is-the-ai-video-model-that-finally-thinks-like-a-director/208623" target="_blank" rel="noopener">We and the Color, Kling 3.0 Thinks Like a Director</a> | <a href="https://kling.ai/quickstart/motion-control-user-guide" target="_blank" rel="noopener">Kling, Motion Control user guide</a> | <a href="https://kling.ai/blog/kling-4-vs-3" target="_blank" rel="noopener">Kling, 4.0 vs 3.0</a></em></p>
