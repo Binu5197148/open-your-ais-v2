@@ -33,7 +33,7 @@ Do not reference a tool that is not listed here as "current". If writing about a
 | **ElevenLabs** | Trilha, locução, dubbing e **clone de voz**, que ele usa muito. Não é avatar |
 | **HeyGen** | Avatar-led video |
 | **ComfyUI / Comfy Cloud** | Node-level control; runs on Comfy Cloud, not local |
-| **Postiz** and **Blotato** | Scheduling and automating social publishing |
+| **Postiz** | The only scheduler and publisher for every social channel, self-hosted at postiz.quantumwork.co (since 2026-10-24). Blotato and Zernio are cancelled: never write that he uses them now |
 | **Remotion** | Programmatic motion rendered from code, driven by Claude. Used when a piece needs variations re-rendered instead of regenerated |
 | **Topaz Labs** | Upscale (confirmed in use 2026-08-27, on the Toninho Sagatiba pilot) |
 
