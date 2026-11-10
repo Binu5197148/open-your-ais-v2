@@ -816,3 +816,41 @@ And Lite has no reference mode at all, so a cheap test can't check your referenc
 The scene method, step by step, with what each lock buys and the shot it kills:
 
 https://openyourais.com/blog/grok-imagine-video-reference-control-director-read/?utm_source=x&utm_medium=social&utm_campaign=grok-imagine-modes
+## 08/11/2026 - rascunhos, nada agendado
+
+### LinkedIn (modo 1, sem link)
+
+O ComfyUI escondeu os nós.
+
+Um clique e o grafo some. Sobra um campo de texto e um botão de gerar. E agora tem um agente que monta o workflow numa conversa.
+
+A barreira de entrar acabou.
+
+A de saber não.
+
+Alguém decidiu qual modelo, em que resolução gera, onde entra o upscale. O App Mode não apaga nenhuma dessas decisões. Só esconde de quem está usando.
+
+Se foi você que decidiu, você virou a pessoa que monta a ferramenta.
+
+Se não foi, você está apertando o botão de outra pessoa e chamando de método.
+
+Apertar botão não tem problema nenhum.
+
+O problema é achar que isso é saber.
+
+Não existe atalho.
+
+### X (modo 3, link só depois do merge do PR 28)
+
+ComfyUI no longer makes you build a node graph.
+
+Open a template that already does one job. Switch it to App Mode. The graph disappears and only the inputs stay on screen. Use it like that for a week before you touch a wire.
+
+When you need a change, Comfy Agent edits the workflow from a plain request on Comfy Cloud. If you already work in Claude Code, one command registers it:
+
+claude mcp add --transport http comfy-cloud https://cloud.comfy.org/mcp
+
+Then /mcp, Authenticate, sign in.
+
+The full no-nodes path, step by step:
+https://openyourais.com/blog/comfyui-app-mode-comfyhub-local-ai-without-node-graph/?utm_source=x&utm_medium=social&utm_campaign=comfyui-no-nodes

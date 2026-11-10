@@ -322,3 +322,11 @@ Nenhum artigo novo tratado, de proposito. Dez PRs estavam com ajustes pedidos pe
 Pendentes: PR 28 item 1 (teste de marco do Cinema Studio e as duas tentativas no ComfyUI, dependem do Ulisses) e PR 32 (edicao 10, rotina 5 Week Skills).
 Licao: o guardiao vinha abrindo um PR por dia sem voltar aos pareceres. Antes de tratar artigo novo, ler o ultimo comentario de cada PR aberto.
 Search Console lido no Chrome (28 dias, ate 03/11): 37 cliques, 5,15 mil impressoes, CTR 0,7%, posicao 10,1, igual a ontem.
+
+## Guardião 08/11/2026
+Correção do PR 28 pelo caminho que o parecer do Codex de 06/11 ofereceu (análise documental). Nenhuma ferramenta executada.
+
+| data | artigo | título | o que mudou |
+|---|---|---|---|
+| 08/11 | higgsfield-cinema-studio-ai-director-control-review | mantido: AI vs. Human Director: Who Wins? | Saíram teste de março, notas 8/10 e 7.5/10, 40 abordagens em duas horas. Os três cenários viraram checklist para o leitor. Description nova |
+| 08/11 | comfyui-app-mode-comfyhub-local-ai-without-node-graph | The New Way to Use ComfyUI: No Nodes Needed (antes: I Failed ComfyUI Twice. This Changed Everything) | comfyui, 1.212.998/mês. vidIQ 89, primeiro da lista, nenhum candidato descartado. Saíram as duas tentativas pessoais |
