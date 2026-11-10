@@ -1,9 +1,10 @@
 ---
 id: "art-154"
-title: "MiniMax H3: 2K Video and Native Audio in One Pass"
-description: "Fifteen seconds of 2K with stereo sound from a single generation, around $0.13 per second. What collapsing image and sound into one pass costs the craft."
+title: "Can You Run MiniMax H3 Locally?"
+description: "Yes, the weights shipped in August, but your GPU gets 768p and the 2K pass stays on the API. What the open release includes, and what one-pass sound costs."
 pubDate: "2026-08-02"
-toolVersion: "2026-08"
+updatedDate: "2026-11-10"
+toolVersion: "2026-11"
 category: "AI"
 tags:
   - "MiniMax H3"
@@ -16,11 +17,13 @@ author: "Ulisses Balbino"
 readTime: "6 min read"
 ---
 
+<p><em>Updated November 10, 2026. When this was written, open weights were only promised. MiniMax published them on August 3, 2026, under the MiniMax H3 Community License. The new section below explains what you can and cannot run on your own machine. Sources: <a href="https://www.minimax.io/news/minimax-h3-open-source" target="_blank" rel="noopener">MiniMax, H3 open source</a> | <a href="https://huggingface.co/MiniMaxAI/MiniMax-H3" target="_blank" rel="noopener">Hugging Face, MiniMaxAI/MiniMax-H3</a>.</em></p>
+
 <h2>What the model does</h2>
 
 <p>On July 31, 2026, MiniMax released H3. Not a video model with audio layered on afterward. A model that generates both in the same forward pass, from the same prompt, at the same time. Fifteen seconds of 2K footage. Native stereo audio. One generation. No separate sound step.</p>
 
-<p>The model accepts text, still images, video clips, and audio as input, and it handles image-to-video, text-to-video, first-and-last-frame animation, subject reference, and motion reference through a unified pretraining approach rather than a stack of separate tools. The API is live now under the model ID MiniMax-H3. Consumer access runs through the Hailuo AI app at around $0.13 per second. Open weights are promised for release within days.</p>
+<p>The model accepts text, still images, video clips, and audio as input, and it handles image-to-video, text-to-video, first-and-last-frame animation, subject reference, and motion reference through a unified pretraining approach rather than a stack of separate tools. The API is live now under the model ID MiniMax-H3. Consumer access runs through the Hailuo AI app at around $0.13 per second. Open weights were promised for release within days, and arrived on August 3.</p>
 
 <p>The announcement covers capability claims and comparison tables, as these announcements do. What it does not address is the stranger question sitting underneath the technical specs. For the entire history of cinema as a professional practice, image and sound have been two departments. Two budgets. Two unions. A director of photography on one side, a sound designer on the other, with a director somewhere in between trying to make those two timelines mean the same thing.</p>
 
@@ -59,6 +62,23 @@ readTime: "6 min read"
 <p>When that pipeline compresses, the entry point changes. Not because the craft disappears, but because the path through execution to vision gets shorter, and the space that used to buy a young professional time to develop a point of view gets smaller. That is a different problem than "jobs are being automated." It is a structural problem about how craft knowledge actually transfers from one generation to the next.</p>
 
 <p>H3 is not a threat to the sound designer who knows what a scene should hear. It is a problem for the pipeline that used to train that person.</p>
+
+<h2>Can you run MiniMax H3 locally?</h2>
+
+<p>Yes, with two limits that matter for real work. On August 3, 2026, MiniMax released two BF16 checkpoints on Hugging Face and ModelScope: <strong>H3 Base FL2VA</strong>, for text to audio and video and for first and last frame animation, and <strong>H3 Base Ref2VA</strong>, for reference driven generation. Both come with the text encoder, the visual and audio VAEs and full weights for fine tuning.</p>
+
+<p>The limits:</p>
+
+<ul>
+  <li><strong>Local output is 768p.</strong> The 2K picture in the launch material comes from a hosted module, H3 Regenerate 2K, which is still API only. So is H3 Context IR.</li>
+  <li><strong>Full attention only.</strong> Sparse attention, the part that makes it cheaper to run, was announced for a later update with no date as of today.</li>
+  <li><strong>Hardware.</strong> MiniMax does not publish a minimum. Its own SGLang examples use four GPUs. Plan for a rented multi GPU machine, not a laptop.</li>
+  <li><strong>Licence.</strong> It is a community licence, not Apache 2.0. The model card adds an application form for users in the USA, the EU, the UK and South Korea. Read it before you put the output in a paid delivery.</li>
+</ul>
+
+<p>Clips run 4 to 15 seconds at 24 fps with 32 kHz stereo, and MiniMax lists stable dialogue in 11 languages. For a director, the open release is useful for exactly one thing the API cannot give you: a version you can pin, so the look you sold in a test is still reproducible when the client asks for changes.</p>
+
+<p>Where to get it: <a href="https://huggingface.co/MiniMaxAI/MiniMax-H3" target="_blank" rel="noopener">Hugging Face</a> | <a href="https://www.minimax.io/blog/minimax-h3" target="_blank" rel="noopener">MiniMax research post</a> | <a href="https://hailuoai.video/" target="_blank" rel="noopener">Hailuo AI app</a> | <a href="https://platform.minimax.io/docs/release-notes/models" target="_blank" rel="noopener">API release notes</a>.</p>
 
 <h2>Where this lands</h2>
 

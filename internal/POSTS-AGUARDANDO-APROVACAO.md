@@ -890,3 +890,39 @@ The line that changes the work is the cheap one. 360p at about 2 cents a second.
 Full price table for 1.1 vs 1.2, what's free, the Dec 3 date when 1.1 calls start routing to 1.2, and the 7 step draft routine you can copy:
 
 https://openyourais.com/blog/gemini-omni-flash-4k-upscale-price-math/?utm_source=x&utm_medium=social&utm_campaign=gemini-omni-1-2
+## Guardião 10/11/2026 (rascunhos, nada agendado)
+
+Feed do LinkedIn NÃO lido: extensão Claude in Chrome desconectada nesta execução.
+
+### LinkedIn, modo 1 (opinião pura, sem link)
+
+"Open source" virou palavra de lançamento.
+
+A MiniMax abriu os pesos do H3 em agosto. Fui ler o que veio dentro.
+
+No seu computador, 768p.
+O 2K do vídeo de lançamento? Continua na API deles.
+A licença? Não é Apache. É uma licença própria, com formulário.
+
+A Alibaba nem fingiu. O Wan 3.0 saiu fechado, o quarto Wan seguido sem peso nenhum para baixar.
+
+Não estou reclamando de empresa cobrar pelo que faz. Estou reclamando da palavra.
+
+Porque pra quem entrega para cliente, "aberto" quer dizer uma coisa só: a versão que eu testei em agosto ainda vai existir quando o cliente pedir ajuste em dezembro.
+
+Se a parte que importa mora no servidor de outro, não é aberto. É amostra grátis.
+
+Leia o que vem dentro antes de acreditar no que está escrito na caixa.
+
+### X, modo 3 (entrega, link só depois do merge)
+
+Two "can I run it locally" questions, two different answers.
+
+MiniMax H3: yes. Weights on Hugging Face since August 3. But your GPU gets 768p, the 2K pass stays on their API, and the licence is their own community licence with an application form, not Apache.
+
+Wan 3.0: no. No checkpoint anywhere. API only, $0.05 to $0.20 per second depending on resolution. Fourth Wan release in a row without weights.
+
+If you deliver to clients, the question is not quality. It is whether the version you tested still exists when they ask for changes.
+
+Both answers, with the official links:
+https://openyourais.com/blog/minimax-h3-when-sound-stopped-being-separate/
