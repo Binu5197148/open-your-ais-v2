@@ -1,6 +1,6 @@
 ---
 id: "art-183"
-title: "Don't Pick the Wrong Higgsfield Model"
+title: "Higgsfield Genjutsu vs Lite: Don't Pick the Wrong One"
 description: "Genjutsu Lite costs about a third of the full model. What each one does, the price of a 15 second clip, and which to run first so your tests stay cheap."
 pubDate: "2026-09-08"
 updatedDate: "2026-11-06"
