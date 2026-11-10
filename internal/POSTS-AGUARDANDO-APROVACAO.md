@@ -561,3 +561,41 @@ In 2026 you don't need the graph to start:
 
 The full path, with the command:
 https://openyourais.com/blog/comfyui-app-mode-comfyhub-local-ai-without-node-graph/?utm_source=x&utm_medium=social&utm_campaign=comfyui-no-nodes
+## 30/10/2026, guardiao (aguardando aprovacao do Ulisses, nada agendado)
+
+### LinkedIn, modo 1 (opiniao pura, sem link). Pede imagem: foto de set em P&B, equipe de costas.
+
+O orçamento caiu. E levou junto o diretor de fotografia que discordava de você.
+
+Todo mundo fala do que a IA economiza. Ninguém fala do que vinha de brinde com o dinheiro.
+
+O DP que olha o seu enquadramento e diz que não.
+O montador que acha o corte que você não viu.
+O ator que tropeça na fala, e aquela vira a melhor take.
+
+Nada disso estava no orçamento. Vinha junto.
+
+Hoje uma pessoa sozinha faz o que uma equipe fazia. Ótimo. Só que sozinho ninguém discorda de você. E a máquina não discorda. Ela entrega a paleta fácil, o ritmo fácil, a trilha fácil. Nada errado. Nada que você teria escolhido.
+
+O atrito que a equipe dava de graça agora tem que ser agendado.
+
+Bota alguém na sala para dizer que não. Um amigo, um montador, qualquer um.
+
+Senão você não dirigiu nada. Você aprovou.
+
+### X, modo 3 (entrega, link completo, vale so depois do merge)
+
+If your AI film reaches an audience in Europe, the EU AI Act already applies to you. It has since August 2.
+
+Where you edit doesn't matter. Where it plays does.
+
+Two duties, two people. The tool that generates the image has to watermark it, and older tools got a grace period that ends December 2, 2026. You, the person who puts the cut in front of an audience, have to disclose deepfakes. No grace period for that one.
+
+The part almost nobody reads: Article 50(4) has a carve-out for evidently artistic, fictional or satirical work. There the disclosure only has to not hamper the film. End credits, not a banner over the second act.
+
+The catch is the word "evidently". A testimonial, reportage, a real person saying words they never said: full label.
+
+I wrote the delivery note I'd attach to every cut. Timecode, tool, what it resembles, who signed off. Copy it:
+https://openyourais.com/blog/eu-ai-act-labelling-rules-filmmakers-director-read/?utm_source=x&utm_medium=social&utm_campaign=eu-ai-act-labelling-rules-filmmakers-director-read
+
+Not legal advice. Money plus an EU audience means a lawyer reads it first.
