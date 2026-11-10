@@ -1,9 +1,9 @@
 ---
 id: "art-181"
-title: "You Can't Edit YouTube's New AI Dubs (Big Problem)"
-description: "YouTube auto dubbing is on by default in 27 languages, and Google's own page says you cannot edit the result. What that costs you on paid work."
+title: "YouTube's New AI Dubs: A Major Problem"
+description: "YouTube auto dubbing is on by default and Google says you cannot edit the dub. How to turn it off, review it before it goes live, and when to pay for one."
 pubDate: "2026-09-07"
-updatedDate: "2026-10-04"
+updatedDate: "2026-10-26"
 toolVersion: "2026-10"
 category: "Workflow"
 tags:
@@ -20,13 +20,15 @@ readTime: "8 min read"
 featured: false
 ---
 
+<p><em>Updated October 26, 2026. Re-read today, Google's help page still says "You cannot edit automatic dubs," but two details moved. The page now lists 30 supported original languages and 20 target languages for English videos (it said 34 and 23 in September), and it documents a "Manually review dubs before publishing" setting plus per-language Unpublish and Delete. Both are covered in the new section on turning auto dubbing off. On the paid side, ElevenLabs Dubbing v2 now allows editing a single segment in its web interface, corrected below.</em></p>
+
 <p><em>Updated October 4, 2026. The rule this piece is built on has not moved: Google's <a href="https://support.google.com/youtube/answer/15569972" target="_blank" rel="noopener">auto dubbing help page</a>, re-read today, still says "You cannot edit automatic dubs." What is new is live. At Made on YouTube on September 23, 2026, YouTube <a href="https://blog.google/products-and-platforms/products/youtube/made-on-youtube-updates-2026/" target="_blank" rel="noopener">announced real-time auto dubbing</a> for livestreams, and the pilot <a href="https://slator.com/youtube-real-time-livestream-dubbing/" target="_blank" rel="noopener">starts in early 2027</a>. A live dub is even less editable than a recorded one, so the argument below gets stronger, not weaker.</em></p>
 
 <p>YouTube AI dubbing has been switched on for every creator on the platform since February 4, 2026. No waitlist, no application, no minimum subscriber count. If your channel is eligible, it is already running, and it was probably running before you noticed.</p>
 
 <p>The number that should stop you is not the language count. In December, YouTube averaged more than six million daily viewers who watched at least ten minutes of auto dubbed content. That is not a pilot. That is an audience the size of a national broadcaster, listening to synthetic voices, every day, mostly without thinking about it.</p>
 
-<p>So the obvious question for anybody who charges money for localization is whether the job just evaporated. I sell dubbing and voice work on real productions out of São Paulo, so I have a direct interest in the answer being no. That is exactly why I want to be careful here instead of reassuring.</p>
+<p>So the obvious question for anybody who charges money for localization is whether the job just evaporated. I use ElevenLabs for dubbing and voice cloning on paid work out of São Paulo, so I have a direct interest in the answer being no. That is exactly why I want to be careful here instead of reassuring.</p>
 
 <p>The honest answer is that YouTube took most of the job. It left one part, the part almost nobody writes about, and that part is worth more than the part it took.</p>
 
@@ -34,7 +36,7 @@ featured: false
 
 <p>Be fair to it first, because it is good, and pretending otherwise is how people end up selling something the market stopped wanting.</p>
 
-<p>Auto dubbing covers 27 languages. On the support side the picture is wider: 34 original languages are supported as a source, and an English video can be dubbed into 23 of them. Most non-English sources primarily get English back, which is a detail that matters if you are Brazilian and assumed this was symmetrical. It is not.</p>
+<p>YouTube announced auto dubbing in 27 languages. The help page, read on October 26, 2026, lists 30 supported original languages, and an English video can be dubbed into 20 of them. Most non-English sources primarily get English back, which is a detail that matters if you are Brazilian and assumed this was symmetrical. It is not.</p>
 
 <p>On top of that sits Expressive Speech, available in eight languages: English, French, German, Hindi, Indonesian, Italian, Portuguese and Spanish. It preserves pitch and intonation from the original audio, which is the difference between a translation that sounds like a person and one that sounds like a lift announcement. There is also a Lip Sync feature that alters the speaker's mouth to match the dubbed audio, but be careful how you plan around that one: it is experimental and limited to select channels, not something you can promise a client.</p>
 
@@ -46,7 +48,7 @@ featured: false
 
 <p>Here is the sentence that decides it, and it is in Google's own documentation rather than in my opinion: <strong>you cannot edit automatic dubs.</strong></p>
 
-<p>Read that again with a production head on. Not "editing is limited". Not "editing is coming". You cannot edit them. If the machine mistranslates the one line that carries the joke, or flattens the one word the client spent a week arguing about, your only lever is to change the video's original language setting and ask it to regenerate the whole thing and hope.</p>
+<p>Read that again with a production head on. Not "editing is limited". Not "editing is coming". You cannot edit them. If the machine mistranslates the one line that carries the joke, or flattens the one word the client spent a week arguing about, your levers are to change the video's original language setting and ask it to regenerate the whole thing, or to unpublish or delete that language. None of them touches line 14.</p>
 
 <p>Anybody who has delivered paid work knows what that means, because the note always comes back. It is never the whole dub. It is line 14. The client heard line 14 and it lands wrong in their market and they want it changed by Thursday. On a tool with no edit, there is no Thursday. There is only regenerate and pray, or take the dub down.</p>
 
@@ -56,9 +58,9 @@ featured: false
 
 <h2>What I run instead when the dub has to hold up</h2>
 
-<p>When a dub is a deliverable rather than a convenience, it goes through ElevenLabs, which is where my trilha, locução and voice cloning already live. Two things about the current state are worth knowing before you plan a job around it, because they moved recently.</p>
+<p>When a dub is a deliverable rather than a convenience, it goes through ElevenLabs, which is where my music, narration and voice cloning already live. Two things about the current state are worth knowing before you plan a job around it, because they moved recently.</p>
 
-<p>Dubbing v2 is the default now and it covers 90 plus languages. It is fully automatic, which means it is fast and it does not let you sit inside a line and change it. To get that, you have to select the older v1 model to reach Dubbing Studio, and ElevenLabs is blunt about the cost: Dubbing Studio is in maintenance mode and receives critical bug fixes only. Find that out now, not on a delivery day. I went through where each piece of this holds up in <a href="/blog/elevenlabs-voice-ai-video-production-workflow/">the longer breakdown of ADR, versioning and narration on paid work</a>.</p>
+<p><!-- Correction 2026-10-26: this paragraph said Dubbing v2 did not allow editing inside a line. The ElevenLabs dubbing guide now documents transcript and translation editing with single-segment regeneration in the v2 web interface. --> Dubbing v2 is the default now and it covers 90 plus languages. Unlike YouTube's dub, it lets you change the transcript or translation of one segment and regenerate only that segment in the web interface, which is exactly the Thursday note. Through the API, that editing is documented as Enterprise only. The older Dubbing Studio editor is still reachable through the v1 model, but ElevenLabs is blunt about its state: it is in maintenance mode and receives critical bug fixes only. Find that out now, not on a delivery day. I went through where each piece of this holds up in <a href="/blog/elevenlabs-voice-ai-video-production-workflow/">the longer breakdown of ADR, versioning and narration on paid work</a>.</p>
 
 <p>The part YouTube does not offer at any price is the cloned voice. Not a voice that sounds professional, but the performer's own voice, speaking a language the performer does not speak, still recognisable as them. That is the thing a client is buying when they pay for localization, and I wrote about how it holds up and what it costs in <a href="/blog/elevenlabs-voice-ai-voice-id-review-2026/">the voice cloning review</a>.</p>
 
@@ -74,11 +76,25 @@ featured: false
 
 <p>The mistake is to compete with free on the thing free is good at. Nobody wins that. Sell the note. Sell the voice that belongs to somebody.</p>
 
+<h2>How to turn off auto dubbing on YouTube</h2>
+
+<p>This is the most searched question about the feature, and the answer depends on which side of the screen you are on. Steps below are from <a href="https://support.google.com/youtube/answer/15569972?hl=en&co=GENIE.Platform%3DDesktop" target="_blank" rel="noopener">Google's help page</a>, read on October 26, 2026.</p>
+
+<p><strong>If you are the creator, on a computer.</strong> Sign in to YouTube Studio, open Settings, then Channel, then Advanced settings. Uncheck "Allow automatic dubbing" and save. That stops new dubs on the channel.</p>
+
+<p><strong>If you are the creator, in the Studio app.</strong> Tap your profile picture, then Settings, and under Content tap Automatic dubbing to switch it off.</p>
+
+<p><strong>If you want to keep it but approve every dub.</strong> In the same Advanced settings, check "Manually review dubs before publishing." Dubs then wait for you instead of going live on their own. This does not let you edit a line, but it lets you listen first and refuse.</p>
+
+<p><strong>If one dub is already live and wrong.</strong> In Studio, open Content, select the video, click Languages, hover over the language and use the icon in the Audio column to Unpublish or Delete it. Google warns that a deleted dub cannot be republished, so unpublish when you are unsure.</p>
+
+<p><strong>If you are a viewer.</strong> There is no single switch that turns dubbing off everywhere. On a dubbed video you can change the audio track back to the original in the player settings, and if you add a language to your preferred languages, videos originally in that language are not dubbed into another one for you, as <a href="https://blog.youtube/creator-and-artist-stories/youtube-auto-dubbing-explained/" target="_blank" rel="noopener">YouTube explains in its own guide</a>.</p>
+
 <h2>How to set this up on your own channel today</h2>
 
 <p>The practical part, in the order I would do it.</p>
 
-<p><strong>Find out whether it is already on.</strong> YouTube Studio, then Content, then Automatic dubbing. It is enabled by default for eligible creators, so check before assuming.</p>
+<p><strong>Find out whether it is already on.</strong> YouTube Studio, then Settings, Channel, Advanced settings. It is enabled by default for eligible creators, so check before assuming.</p>
 
 <p><strong>Listen to one dub in a language you speak.</strong> Not the language you want to reach. One you can judge. If you speak Portuguese or Spanish, you have Expressive Speech, so you are hearing the good version, not the floor.</p>
 
@@ -100,6 +116,7 @@ featured: false
 <li>Lip Sync is experimental and limited to select channels: Google's official YouTube Help page, corroborated as a pilot in the YouTube blog post.</li>
 <li>ElevenLabs Dubbing v2 is the default model with 90 plus languages, and Dubbing Studio is in maintenance mode receiving critical bug fixes only, reachable by selecting the v1 model: ElevenLabs official product documentation for dubbing.</li>
 <li>Update, October 4, 2026: the help page still states "You cannot edit automatic dubs." Real-time auto dubbing for livestreams was announced at Made on YouTube on September 23, 2026 (Google's official recap of the event) and reported as a pilot beginning in early 2027 (Slator, September 25, 2026). Languages and eligible creators for that pilot were not published in either source, so none are named here.</li>
+<li>Update, October 26, 2026: the desktop help page lists 30 original languages and 20 target languages for English videos, documents the "Manually review dubs before publishing" setting, the desktop and app steps to turn auto dubbing off, and per-language Unpublish and Delete. YouTube's May 15, 2026 explainer documents the audio track switch and the preferred languages behavior for viewers. The ElevenLabs dubbing guide documents segment editing in the Dubbing v2 web interface, with API editing limited to Enterprise.</li>
 <li>No claim is made here about YouTube's internal roadmap, about when Lip Sync leaves testing, or about revenue effects on any specific localization business, because none of that is published.</li>
 </ol>
 </section>

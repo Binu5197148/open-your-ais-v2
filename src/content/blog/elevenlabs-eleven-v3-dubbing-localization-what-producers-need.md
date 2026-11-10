@@ -1,9 +1,9 @@
 ---
 id: "art-084"
-title: "ElevenLabs Dubbing: Ready for Ads, Not Yet for Broadcast"
-description: "Eleven v3 removes the recording stage from a five language delivery, but not the sync pass. I mark where AI dubbing already ships and where it fails QC."
+title: "Why ElevenLabs Isn't Ready for TV Yet"
+description: "ElevenLabs dubbing now runs on Dubbing v2 in 90+ languages and lets you fix single lines. Where it ships for ads, where it still fails broadcast QC, and how."
 pubDate: "2026-03-15"
-updatedDate: "2026-10-05"
+updatedDate: "2026-10-26"
 toolVersion: "2026-10"
 category: "AI"
 tags:
@@ -19,6 +19,8 @@ readTime: "8 min read"
 ---
 
 <p><em>Updated October 5, 2026. This piece describes Eleven v3 as it stood in March 2026. On September 28, 2026 ElevenLabs released Eleven v4 and v4 Turbo, now its current speech models, with more than 90 languages, and professional voice cloning now covers every language in the v4 family. The 70+ figure below is the v3 number. The sync and QC argument has not changed: a new model does not remove the review pass. Sources: <a href="https://elevenlabs.io/blog/eleven-v4" target="_blank" rel="noopener">ElevenLabs, Eleven v4</a> | <a href="https://elevenlabs.io/docs/changelog/2026/9/28" target="_blank" rel="noopener">ElevenLabs changelog, September 28, 2026</a>.</em></p>
+
+<p><em>Updated October 26, 2026. This is a documentary analysis built on ElevenLabs' published documentation, not a hands-on test of the current release. What changed in dubbing itself: <a href="https://elevenlabs.io/docs/product-guides/products/dubbing" target="_blank" rel="noopener">the dubbing guide</a>, re-read today, says Dubbing v2 is the default model, covers 90+ languages, and now lets you edit the transcript and translation and regenerate a single segment in the web interface. Dubbing Studio, the older editor, is in maintenance mode and receives critical bug fixes only. The step-by-step section near the end reflects that state.</em></p>
 
 <h2>The Production Cost Nobody Talks About</h2>
 <p>When brands and production companies talk about the cost of localization, they usually mean translation. That's the visible expense: a document goes in, a translated document comes out. The real cost is the audio production chain that follows: script adaptation, voice casting in each language, studio time, direction, sync adjustment, and final mastering. For a 60-second commercial adapted to five languages, the post-production audio cost can easily exceed the original production audio budget.</p>
@@ -43,8 +45,21 @@ readTime: "8 min read"
 <p>For everything else, the test is practical: run a localization pilot on your next campaign before committing to a traditional dubbing budget. Use the AI workflow to produce a quality reference, have a qualified voice director review it, and determine what the actual gap is between AI output and your quality standard. The answer will vary by language, by content type, and by quality expectations. Some producers will find it ready now. Others will find it ready in 12 months.</p>
 <p>The variable is not whether AI dubbing reaches broadcast quality. It will. The variable is how quickly your production pipeline is positioned to integrate it when it does. The production companies that have piloted the tools now will move faster than those building from scratch when the quality threshold is crossed.</p>
 
+<h2>How to do ElevenLabs dubbing, step by step</h2>
+<p>This is the sequence as ElevenLabs documents it on October 26, 2026. Menu names can move between releases, so treat the <a href="https://elevenlabs.io/docs/product-guides/products/dubbing" target="_blank" rel="noopener">official dubbing guide</a> as the reference when something looks different.</p>
+<ol>
+<li><strong>Check the plan before the upload.</strong> Dubbing exists on every plan, including free, but free dubs carry a watermark that cannot be removed. For anything a client will see, that alone decides the plan.</li>
+<li><strong>Prepare the file inside the limits.</strong> On the website, a Dubbing v2 upload has to stay under 2 GB and under 180 minutes, both at once. Long-form work gets split before it gets uploaded.</li>
+<li><strong>Create the dub with the default model.</strong> Dubbing v2 is selected by default. Pick the source language explicitly rather than trusting detection, then pick the target languages.</li>
+<li><strong>Read the transcript before you listen.</strong> Product names, people's names and brand terms are where errors start. Fixing the source text first saves you from correcting the same mistake in every language.</li>
+<li><strong>Fix the line, not the whole dub.</strong> In the v2 interface you can change the transcript or the translation of one segment and regenerate only that segment. This is the feature that turns a dub into a deliverable, because the client note is always about one line.</li>
+<li><strong>Do the sync pass with a person.</strong> Timing and lip sync on picture are still a human review step for anything above social delivery. Budget that time even when the generation took minutes.</li>
+<li><strong>Know the API boundary.</strong> Creating and downloading dubs through the API works on all plans. Editing segments through the API is documented as Enterprise only.</li>
+</ol>
+<p>If you need the older line-by-line editor, Dubbing Studio is still reachable by choosing the v1 model, but ElevenLabs states it is in maintenance mode. Planning a recurring client workflow around a tool in maintenance mode is a risk worth naming in the quote. For where voice cloning fits in the same chain, see <a href="/blog/elevenlabs-voice-ai-voice-id-review-2026/">the voice cloning review</a>, and for what the free alternative on YouTube cannot do, <a href="/blog/youtube-ai-dubbing-27-languages-what-it-cannot-do/">the piece on YouTube auto dubbing</a>.</p>
+
 <h2>The Localization Advantage for Independent Producers</h2>
 <p>I'll be direct about what this means from the perspective of a small production company: international content distribution was previously cost-prohibitive for independent producers. A well-produced brand film was viable for one market. Adapting it for three or five markets required budget that only larger clients had.</p>
 <p>AI dubbing changes the economics of international distribution for independent production. A commercial produced for a domestic market can be adapted for three additional markets at a fraction of the previous cost. Clients who previously saw international distribution as out of scope can reconsider. That opens a category of work that was structurally inaccessible to small production companies before.</p>
 <p>That is not a marginal change. It's a structural one.</p>
-<p><em>Sources: <a href="https://blockchain.news/ainews/elevenlabs-launches-elevencreative-account-multimodal-ai-for-voice-cloning-70-language-dubbing-and-music-generation-latest-2026-update" target="_blank" rel="noopener">Blockchain News: ElevenLabs ElevenCreative Launch, March 2026</a> | <a href="https://www.cloudthat.com/resources/blog/elevenlabs-eleven-v3-redefines-expressive-ai-voice-generation" target="_blank" rel="noopener">CloudThat: Eleven v3 Redefines Expressive AI Voice</a> | <a href="https://hyperight.com/meta-and-elevenlabs-partner-to-power-ai-voices-in-reels-and-the-metaverse/" target="_blank" rel="noopener">Hyperight: Meta and ElevenLabs Partnership</a></em></p>
+<p><em>Sources: <a href="https://elevenlabs.io/docs/product-guides/products/dubbing" target="_blank" rel="noopener">ElevenLabs: Dubbing product guide, read October 26, 2026</a> | <a href="https://blockchain.news/ainews/elevenlabs-launches-elevencreative-account-multimodal-ai-for-voice-cloning-70-language-dubbing-and-music-generation-latest-2026-update" target="_blank" rel="noopener">Blockchain News: ElevenLabs ElevenCreative Launch, March 2026</a> | <a href="https://www.cloudthat.com/resources/blog/elevenlabs-eleven-v3-redefines-expressive-ai-voice-generation" target="_blank" rel="noopener">CloudThat: Eleven v3 Redefines Expressive AI Voice</a> | <a href="https://hyperight.com/meta-and-elevenlabs-partner-to-power-ai-voices-in-reels-and-the-metaverse/" target="_blank" rel="noopener">Hyperight: Meta and ElevenLabs Partnership</a></em></p>
