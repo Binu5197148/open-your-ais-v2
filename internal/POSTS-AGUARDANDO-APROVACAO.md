@@ -737,3 +737,46 @@ Inside YouTube, the newer path is Gemini Omni in Shorts Remix, free, rolling out
 Each surface takes different inputs, so don't assume one flow carries over. Shorts Remix starts from an existing Short, not from three references. What travels is the creative brief: talent, product, environment. It's in a copyable block here, to adapt to each tool:
 
 https://openyourais.com/blog/veo-3-1-ingredients-to-video-youtube-shorts-what-brand-creators-need/?utm_source=x&utm_medium=social&utm_campaign=veo-31-omni-shorts
+## 05/11/2026, guardiao
+
+Feed lido em 05/11: nenhum post novo dele ha 3 semanas. Serie IA DEGENERATIVA 1.927 e 1.047; "Nao existe atalho" 8.555; Cursor 116.
+
+### LinkedIn, modo 1 (opiniao pura, sem link)
+
+O Ben Affleck disse no Joe Rogan que IA é ferramenta. Tipo efeito visual.
+Menos de dois meses depois, a Netflix comprou a empresa de IA dele.
+
+Ferramenta de quê?
+Trocar fundo. Corrigir luz. Consertar o plano que faltou.
+
+Sabe quem faz isso hoje? Quem acabou de entrar na pós.
+
+Ninguém começa dirigindo. Você começa limpando frame, acertando cor, refazendo o que mandaram refazer. É chato. E é ali que se aprende a olhar.
+
+Um supervisor de composição da DNEG disse que o maior impacto vai ser na entrada.
+
+Todo mundo pergunta quem vai perder o emprego.
+Eu quero saber quem vai aprender.
+
+Daqui a dez anos a gente vai precisar de gente com olho. E olho não vem de prompt.
+
+A IA pode ficar com o trabalho chato.
+Só que o trabalho chato era a escola.
+
+### X, modo 3 (entrega, link so depois do merge)
+
+Claude Design is leaving its own site.
+
+claude.ai/design closes on December 14. The tool now lives inside every Claude chat, Free plan included.
+
+Two things people will miss:
+
+Design systems have to be moved before the closure. Moving projects is still rolling out gradually to paid plans, so export what matters now.
+
+The separate weekly allowance is gone. A long design session now eats the same limits as Claude Code.
+
+The tool got easier to reach. It did not get better taste. That part is still yours.
+
+Seven step migration checklist, ready to copy:
+
+https://openyourais.com/blog/claude-design-end-of-gatekeeping-not-end-of-designers/?utm_source=x&utm_medium=social&utm_campaign=claude-design-migration
