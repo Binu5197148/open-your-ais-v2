@@ -1,6 +1,6 @@
 ---
 id: "art-189"
-title: "Free REA Skill Download, and the App on Demand That Worries Me"
+title: "I Used Reverse Engineer Anything & It's Scary"
 description: "Download REA free: the skill that lets your agent take any app apart and explain it. I tested it, and here is why the app on demand worries me."
 pubDate: "2026-10-13"
 toolVersion: "2026-10"
