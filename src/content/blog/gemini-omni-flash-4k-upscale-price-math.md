@@ -1,9 +1,10 @@
 ---
 id: "art-177"
-title: "Gemini Omni Flash: Your 4K Is an Upscale Anyway"
-description: "Google's new video model charges ten times more for 4K than for a 360p draft. Its own API docs call that 4K an upscale. Here is how I read the tier list."
+title: "Don't Pay for 4K: Gemini Omni Truth"
+description: "Google's own API docs call Gemini Omni Flash 4K an upscale of a 720p render. What a second really costs, the 360p draft, and how to use it step by step."
 pubDate: "2026-08-31"
-toolVersion: "2026-08"
+updatedDate: "2026-10-13"
+toolVersion: "2026-10"
 category: "AI"
 tags:
   - "Gemini Omni"
@@ -17,6 +18,10 @@ author: "Ulisses Balbino"
 readTime: "7 min read"
 ---
 
+<!-- Correction and refresh 2026-10-13: billing model corrected (token based, not a flat per-second list), source of the 360p/1080p/4K per-second figures clarified, how-to section and source links added. State checked against the Gemini API pricing page (last updated 2026-10-09) and the Omni API docs. -->
+
+<p><em>Updated October 13, 2026. Gemini Omni 1.1 Flash is still Google's current Omni video model, and the API docs still label 1080p and 4K as upscaled. One correction: the Gemini API bills Omni by output tokens, not by a flat price per second. Google's pricing page, last updated October 9, gives a rate only for 720p, about ten cents a second. The 360p, 1080p and 4K per-second figures below come from the launch coverage and reseller listings, so check the API pricing page before you budget. This piece is a reading of Google's documentation, not a hands-on test. A step-by-step section and source links were added at the end.</em></p>
+
 <p>On August 27, Google DeepMind put Gemini Omni 1.1 Flash into general availability and published a price list with four lines on it. Three cents a second for 360p. Ten cents for 720p. Fifteen cents for 1080p. Thirty cents for 4K. Every roundup I read that week ran the same headline, which was that 4K video now costs thirty cents a second.</p>
 
 <p>That is the least useful way to read this table. Read it from the bottom instead, and a different document appears. Google's own API parameter documentation labels the top two tiers as "1080p output (upscaled)" and "4k output (upscaled)". Not marketing copy. The literal parameter description. The model generates at 720p, and everything above that line is an upscale you are renting by the second.</p>
@@ -25,7 +30,7 @@ readTime: "7 min read"
 
 <p>Be precise, because the precision is the whole argument.</p>
 
-<p>Gemini Omni 1.1 Flash is available through the Gemini API, Google AI Studio and Google's enterprise Agent Platform, with consumer access through Flow and scene extension inside the Gemini app for eligible subscribers. Billing is per second of generated video, at the four tiers above.</p>
+<p>Gemini Omni 1.1 Flash is available through the Gemini API, Google AI Studio and Google's enterprise Agent Platform, with consumer access through Flow and scene extension inside the Gemini app for eligible subscribers. Billing on the Gemini API is by output tokens, at $17.50 per million video tokens. A second of 720p uses 5,792 of them, which is where the ten cents comes from. Google states the 360p draft as one third of the 720p cost; the 1080p and 4K figures circulate through resellers rather than the pricing page.</p>
 
 <p>Scene extension is the headline feature. You can extend a clip in ten second increments up to a cumulative forty seconds, and each pass now reads up to ten seconds of preceding video for context instead of only the final second. That last detail is the real engineering. Continuity across a chain of extensions fails when the model can only see the last frame, because a single frame carries no motion vector and no rhythm. Ten seconds of context carries both.</p>
 
@@ -39,7 +44,7 @@ readTime: "7 min read"
 
 <p>This matters for a reason that has nothing to do with Google and everything to do with physics. An upscale cannot invent detail that was never captured at generation resolution. It can sharpen edges, it can clean compression noise, it can make a file that plays nicely on a large display. It cannot add the texture of fabric that the model never rendered, or resolve the strands of hair it approximated as a shape. If the 720p generation was soft in the face, the 4K version is a larger soft face.</p>
 
-<p>So the question stops being "can I afford 4K" and becomes "who should do my upscale". Google will do it inside the same API call at fifteen cents a second above the 720p price. I already own <a href="/blog/seedance-2-5-1080p-what-the-resolution-upgrade-costs/">a dedicated upscaler and a habit of using it</a>, because this is exactly how I already run Seedance. I generate at 720p and I upscale afterwards in Topaz, not because I am being clever but because the 1080p tier on that model is expensive enough that the math stopped being close.</p>
+<p>So the question stops being "can I afford 4K" and becomes "who should do my upscale". Google will do it inside the same API call, at a per-second premium over the 720p price. I already own <a href="/blog/seedance-2-5-1080p-what-the-resolution-upgrade-costs/">a dedicated upscaler and a habit of using it</a>, because this is exactly how I already run Seedance. I generate at 720p and I upscale afterwards in Topaz, not because I am being clever but because the 1080p tier on that model is expensive enough that the math stopped being close.</p>
 
 <p>The convenience of an in call upscale is real and I am not going to pretend otherwise. If you are shipping a social cut in a hurry and the difference is one API parameter versus exporting into another application, take the parameter. But do not enter that number into a budget believing you bought resolution. You bought a resize.</p>
 
@@ -72,3 +77,45 @@ readTime: "7 min read"
 <p>And I would not read this launch as Google winning anything. It is a price list that tells you, with unusual honesty, where the model actually stops generating. Most vendors bury that. This one wrote it into the parameter description.</p>
 
 <p>The useful skill here was never picking the highest number on a tier list. It is knowing which tier does the work, which tier does the showing off, and doing the expensive step once, on purpose, at the end. That was true when the answer print cost real money, and the arithmetic has not changed. Only the units did.</p>
+
+<h2>How do you use Gemini Omni Flash, and is it free?</h2>
+
+<p>On the API it is not free. Both Omni models show "Not available" in the free tier column of Google's pricing page, so every second you generate is billed. The consumer route is Google Flow, where Omni 1.1 is included for Google AI Plus, Pro and Ultra subscribers, and the Gemini app, where those same plans get scene extension.</p>
+
+<p>If you work through the API, the draft first method above comes down to one parameter. Resolution sits inside <code>response_format</code>, with the values <code>360p</code>, <code>720p</code>, <code>1080p</code> and <code>4k</code>, and 720p is the default. This is the order I would run it in:</p>
+
+<ol>
+<li>Write the shot down before you generate: what the camera does, what the subject does, where the cut lands.</li>
+<li>Generate three to five variations at <code>360p</code>. Judge only motion, framing and timing.</li>
+<li>Re-render the one survivor at <code>720p</code>, the highest tier where the model creates new pixels.</li>
+<li>Need more than 10 seconds? Extend forward in 10 second steps, up to 40 in total. Plan the first ten carefully, everything after is conditioned on them.</li>
+<li>Need a correction? Send a text instruction against the previous generation instead of starting over. The docs say unmentioned elements are preserved.</li>
+<li>Upscale last, and decide on purpose whether that is the API's <code>1080p</code>/<code>4k</code> option or your own upscaler. Look at the result on a large screen before it goes to a client.</li>
+</ol>
+
+<p>The draft call, adapted from Google's own example:</p>
+
+```python
+from google import genai
+import base64
+
+client = genai.Client()
+draft = client.interactions.create(
+    model="gemini-omni-1.1-flash",
+    input="Slow push in on a lone chair in an empty theatre, side light from stage left.",
+    response_format={"type": "video", "resolution": "360p"},
+)
+with open("draft.mp4", "wb") as f:
+    f.write(base64.b64decode(draft.output_video.data))
+```
+
+<p>Two limits to know before you plan a job around it. Editing or extending uploaded videos is not available in the EEA, Switzerland or the UK, and uploaded clips must be ten seconds or shorter.</p>
+
+<h2>Sources</h2>
+
+<ul>
+<li><a href="https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/" rel="noopener">Google: Gemini Omni 1.1 Flash lets you build with more control (August 27, 2026)</a></li>
+<li><a href="https://ai.google.dev/gemini-api/docs/omni" rel="noopener">Gemini API docs: Omni video generation, resolutions and editing</a></li>
+<li><a href="https://ai.google.dev/gemini-api/docs/pricing" rel="noopener">Gemini API pricing (last updated October 9, 2026)</a></li>
+<li><a href="https://opper.ai/google/gemini-omni-1-1-flash" rel="noopener">Opper reseller listing with 1080p and 4K per-second rates</a></li>
+</ul>
