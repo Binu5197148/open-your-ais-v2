@@ -1,6 +1,6 @@
 ---
 id: "art-189"
-title: "I Used Reverse Engineer Anything & It's Scary"
+title: "REA Skill: Free Download and How to Install It"
 description: "Download REA free: the skill that lets your agent take any app apart and explain it. I tested it, and here is why the app on demand worries me."
 pubDate: "2026-10-13"
 toolVersion: "2026-10"

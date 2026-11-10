@@ -453,3 +453,43 @@ What you can do, as of today:
 Free dubbing is for reach. When the voice is the product, or a client can send a note about line 14, pay for a dub you can edit.
 
 Full guide: https://openyourais.com/blog/youtube-ai-dubbing-27-languages-what-it-cannot-do/?utm_source=x&utm_medium=social&utm_campaign=youtube-ai-dubbing
+## Guardião 27/10/2026 (aguardando aprovação, nada agendado)
+
+### LinkedIn, modo 1 (opinião pura, sem link). Continua a série "IA DEGENERATIVA" (parte 2, Suno, fez 1.046)
+
+IA DEGENERATIVA, parte 3.
+
+O que mais se procura sobre o Suno no YouTube hoje não é como fazer uma música melhor.
+É como resolver a reclamação de direitos.
+Onze mil buscas por mês só para tirar o aviso da letra.
+
+Quase ninguém pergunta de quem é a música.
+
+A resposta está na ajuda do próprio Suno.
+No plano grátis, a música é do Suno. Não é sua.
+No plano pago, ela é sua no papel. E o mesmo texto avisa que pode não existir direito autoral nenhum ali.
+
+Então você leva uma reclamação de direitos numa música que talvez ninguém possa reclamar. Nem você.
+
+Tirar o aviso não resolve nada. Só empurra o problema para quem comprou o vídeo.
+
+A letra que você escreveu é sua. Essa ninguém tira.
+O resto é de quem, mesmo?
+
+### X, modo 3 (entrega, link completo). Vale depois do merge do PR
+
+Remotion now ships an official Claude Code plugin, and it changes the setup from "read the docs for an hour" to four commands.
+
+npx create-video --yes --blank my-video
+claude plugin marketplace add remotion-dev/claude-code-plugin
+claude plugin install remotion@remotion
+/remotion:remotion-create
+
+That last one is a prompt, not a command. You brief it in words and it writes the React composition.
+
+Why this matters if you make ads: a generated video can only be regenerated, and regenerating gives you a different film. A Remotion composition can be re-rendered. The price is a prop, the language is a prop, the aspect ratio is a parameter. Change the data, render again, and every frame the client approved stays approved.
+
+Kling and Seedance for the hero shot. Code for the forty versions that come after it.
+
+The full 7 step walkthrough, a pasteable end card prompt and the license math:
+https://openyourais.com/blog/remotion-claude-code-video-variations-director-method/?utm_source=x&utm_medium=social&utm_campaign=remotion-claude-code
