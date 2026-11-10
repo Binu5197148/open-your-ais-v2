@@ -527,3 +527,37 @@ Disclosing AI use does not cut your reach or your money. YouTube says so on its 
 
 I wrote the 7 questions I'd run before any AI upload, straight from the policy wording:
 https://openyourais.com/blog/youtube-ai-monetization-rules-authorship-test/?utm_source=x&utm_medium=social&utm_campaign=youtube-ai-monetization-rules-authorship-test
+## 29/10/2026, guardiao (rascunhos, nada agendado)
+
+### LinkedIn (modo 1, opiniao pura, sem link; pede uma imagem forte: um plano de cinema com o rosto do ator recortado)
+
+A Higgsfield lançou o Genjutsu Lite semana passada. Um terço do preço.
+
+Agora ficou barato trocar o elenco de um vídeo que já existe. A câmera fica, o movimento fica, o tempo fica. Muda a pessoa, muda o lugar, muda a roupa.
+
+Ou seja: ficou barato copiar.
+
+Copiar a trend. Copiar o clipe. Copiar o plano que alguém pensou, filmou e decidiu onde começava e onde terminava.
+
+A ferramenta carrega a decisão de outra pessoa com uma fidelidade absurda. Ela não sabe se a decisão era boa.
+
+Eu uso a Higgsfield todo dia. O problema não é ela. É achar que trocar o figurino do plano dos outros é fazer filme.
+
+Ficou barato copiar.
+Pensar continua caro.
+E é a única parte que alguém vai pagar.
+
+### X (modo 3, entrega; link vale depois do merge)
+
+The node graph kept most directors out of ComfyUI.
+
+In 2026 you don't need the graph to start:
+
+1. Run it on Comfy Cloud if you don't have the GPU.
+2. Open a template, not a blank canvas.
+3. Switch it to App Mode. The wiring disappears.
+4. Ask Comfy Agent to change the workflow in plain words.
+5. Already in Claude Code? One command connects Comfy MCP.
+
+The full path, with the command:
+https://openyourais.com/blog/comfyui-app-mode-comfyhub-local-ai-without-node-graph/?utm_source=x&utm_medium=social&utm_campaign=comfyui-no-nodes
