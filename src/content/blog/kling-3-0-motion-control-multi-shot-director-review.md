@@ -1,10 +1,10 @@
 ---
 id: "art-083"
 title: "Stop Using Runway Until You See This: Kling Motion Control"
-description: "Kling published a 1,667% win rate over Runway Act-Two. The benchmark is marketing. Multi shot from one prompt is the part that held up on real work."
+description: "Kling published a 1,667% win rate over Runway Act-Two. The benchmark is marketing. Repeating one move to swap the set is what Motion Control is for."
 pubDate: "2026-03-15"
-updatedDate: "2026-09-03"
-toolVersion: "2026-09"
+updatedDate: "2026-10-19"
+toolVersion: "2026-10"
 category: "AI"
 tags:
   - "Workflow"
@@ -19,9 +19,12 @@ author: "Ulisses Balbino"
 readTime: "7 min read"
 ---
 
+<p><em>Updated October 19, 2026. Kling 4.0 launched on October 15, with 30-second takes, up to 10 keyframes and a reference system that folds the Motion Control idea into the flagship model. <a href="/blog/kling-4-0-30-second-long-take-what-directors-get/">What Kling 4.0 ships and what is still coming soon</a> is covered separately. Kling 3.0 Motion Control is still offered on Kling and on Higgsfield, so the method below still applies. The comparison with Runway and Veo describes the March 2026 leaderboard. An earlier version of this piece reported test impressions that could not be substantiated; those lines were removed.</em></p>
+<!-- Correction 2026-10-19: removed "I tested it myself" and "From my testing..." comparative results (no evidence of the tests); dated the competitor section to March 2026; added Kling 4.0 note. -->
+
 <h2>The Claim That Stopped Me</h2>
 <p>I've learned to ignore benchmark claims from AI companies. Win rates, ELO scores, head-to-head comparisons: most of them are structured to favor the company releasing the press release. So when Kling 3.0's Motion Control variant launched on March 4 with a stated 1,667% win rate over Runway Act-Two in head-to-head benchmarking, my first reaction was skepticism.</p>
-<p>Then I looked at the specific capability being compared: character motion control and movement direction. And I tested it myself. The number is marketing, but the underlying capability is real and worth understanding.</p>
+<p>Then I looked at the specific capability being compared: character motion control and movement direction. The number is marketing. The capability underneath it became the Kling feature I use most on real jobs, and it is worth understanding.</p>
 
 <h2>What Multi-Shot Generation Changes in the Edit</h2>
 <p>The headline feature in Kling 3.0 is multi-shot generation from a single structured prompt. You can produce up to 15 seconds of video containing multiple distinct cuts (different framings, different camera positions, different moments in a narrative sequence) from one generation request, with visual consistency maintained across all shots.</p>
@@ -30,7 +33,7 @@ readTime: "7 min read"
 
 <h2>Motion Control: Where the Difference Shows</h2>
 <p>Motion Control in Kling 3.0 is a structured system for directing character movement within a generation. You specify how subjects should move (direction, speed, and type of motion), and the model executes that specification with high fidelity. The comparison benchmark against Runway Act-Two was specifically about this: how accurately does each system execute directed character motion?</p>
-<p>From my testing, Kling 3.0 handles motion direction with noticeably better precision than earlier versions. Complex movements (a character turning, gesturing, walking with realistic weight) render with fewer of the distorted limb artifacts that have been the persistent quality problem in AI video. The "smooth and stable" description in the reviews is accurate for most use cases.</p>
+<p>The reason it earns a place on a job is simple. Because it repeats a movement from a reference, you can keep the take and swap the set or the object around it, or rebuild a scene whose movement is too complex to describe in a prompt. That is a director's problem, and it is the one this feature solves.</p>
 <p>Where it gets interesting for production work: you can specify character motion in multi-shot sequences. The same character walks toward camera in shot one, turns in shot two, is in a close-up in shot three, with visual consistency maintained across all three. That is a director's workflow applied to AI generation in a way that earlier tools simply couldn't replicate.</p>
 
 <h2>The Audio Layer</h2>
@@ -39,8 +42,8 @@ readTime: "7 min read"
 <p>The trajectory here is clear. Native multilingual audio generation in AI video is improving rapidly. Within 12 months, it is likely to be at a quality level where localization decisions get made earlier in the production process, changing how commercial content is planned rather than just executed.</p>
 
 <h2>Where It Stands Against the Competition</h2>
-<p>The current video model landscape is not winner-take-all. Runway Gen-4.5 sits at number one on the Video Arena leaderboard for overall quality. Kling 3.0 occupies seven spots in the top 15, with its 1243 ELO score competitive with the strongest models available. Google's Veo 3.1 delivers native 4K at 60fps. Each has a different strength profile.</p>
-<p>For multi-shot narrative sequences and structured character motion, Kling 3.0's ceiling is the highest. For single-shot cinematic quality and photoreal micro-detail, Runway Gen-4.5 leads. For raw resolution output, Veo 3.1 is the benchmark. The practical answer for professional work is to understand which tool is strongest for the specific task, rather than committing to a single platform for everything.</p>
+<p>As of March 2026, the video model landscape was not winner-take-all. Runway Gen-4.5 sat at number one on the Video Arena leaderboard for overall quality. Kling 3.0 occupied seven spots in the top 15, with a 1243 ELO score competitive with the strongest models then available. Google's Veo 3.1 was the resolution benchmark. Each had a different strength profile, and the board has moved since, so check a current leaderboard before choosing.</p>
+<p>At the time, Kling 3.0 had the highest ceiling for multi-shot sequences and structured character motion, Runway Gen-4.5 led on single-shot photoreal detail, and Veo 3.1 led on raw resolution. The practical answer for professional work is to understand which tool is strongest for the specific task, rather than committing to a single platform for everything.</p>
 
 <h2>How Do You Try Kling Motion Control Yourself?</h2>
 <p>The capability lives inside Kling itself, so there is nothing to install. You go to <a href="https://klingai.com" target="_blank" rel="noopener">klingai.com</a>, open the video tools, and give it two things: a reference clip carrying the movement you want, and a still of the character you want to carry it.</p>
