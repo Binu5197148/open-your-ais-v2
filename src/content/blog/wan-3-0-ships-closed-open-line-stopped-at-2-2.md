@@ -1,9 +1,10 @@
 ---
 id: "art-174"
-title: "Wan 3.0 Ships Closed: 30 Seconds, No Weights"
-description: "Thirty second clips with audio in one pass, and no weights to download. Why the licence decides more of a working pipeline than any benchmark does."
+title: "Can You Run Wan 3.0 Locally? (The Truth)"
+description: "No, there are no weights to download. How Wan 3.0 is accessed today, what each second costs from 480p to 1080p, and why the licence shapes your pipeline."
 pubDate: "2026-08-25"
-toolVersion: "2026-08"
+updatedDate: "2026-11-10"
+toolVersion: "2026-11"
 category: "AI"
 tags:
   - "Wan 3.0"
@@ -16,6 +17,8 @@ heroImage: "https://images.unsplash.com/photo-1518929458119-e5bf444c30f4?ixid=M3
 author: "Ulisses Balbino"
 readTime: "6 min read"
 ---
+
+<p><em>Updated November 10, 2026. The state described here still holds: Wan 3.0 is the current Wan flagship, there is still no downloadable checkpoint, and no newer Wan version has been announced. Alibaba Cloud's model page for wan3.0-video, last revised October 11, 2026, lists 480p, 720p and 1080p up to 30 seconds. The new section below answers the question most people search for. Sources: <a href="https://www.alibabacloud.com/help/en/model-studio/wan3-0-video" target="_blank" rel="noopener">Alibaba Cloud, wan3.0-video model information</a> | <a href="https://thenextweb.com/news/alibaba-wan3-video-model-after-share-sale" target="_blank" rel="noopener">The Next Web, Wan3.0 launch</a>.</em></p>
 
 <p>Wan 3.0 launched yesterday. On August 24, 2026, Alibaba took its video model out of the public beta it had been running since August 6, days after raising about 10 billion dollars in a Hong Kong share placement to pay for exactly this kind of thing. Thirty second clips, native, up to 1080p, with the audio generated in the same pass. Double the ceiling of the model before it.</p>
 
@@ -50,6 +53,27 @@ readTime: "6 min read"
 <p>Put yesterday next to two weeks ago and the split is almost comic. On August 11, <a href="/blog/ltx-2-5-multi-shot-the-model-is-making-your-cut/">LTX 2.5 arrived with open weights</a> and a commercial licence free to any company under ten million dollars in annual recurring revenue. Thirteen days later the other major release of the month arrived closed. Same month, same category, opposite directions.</p>
 
 <p>The open one is worse at several things. It is also the one a two person company can actually plan around.</p>
+
+<h2>Can you run Wan 3.0 locally, or use it for free?</h2>
+
+<p>No to the first, and only in a limited way to the second. As of November 10, 2026 there is no Wan 3.0 checkpoint on Hugging Face, on ModelScope or in Alibaba's GitHub, so any page offering a "Wan 3.0 download" or a local ComfyUI install is offering something else. The workflows that run on your own GPU are still built on Wan 2.2.</p>
+
+<p>Here is how you actually reach the model today:</p>
+
+<ul>
+  <li><strong>Alibaba Cloud Model Studio.</strong> The API model ID is <code>wan3.0-video</code>, with a playground in the console. Inputs listed on the official page: text, image, video, audio, files and links.</li>
+  <li><strong>Price per second of output</strong> on the international (Singapore) region: $0.05 at 480p, $0.10 at 720p, $0.20 at 1080p. A thirty second clip at 1080p is six dollars before any promotion. Other regions list different rates, so check yours before you quote a client.</li>
+  <li><strong>wan.video</strong>, the consumer site Alibaba announced as a members platform.</li>
+</ul>
+
+<p>A practical routine if you want to test it without burning budget:</p>
+
+<pre><code>1. Draft at 480p, 8 to 10 seconds, until the shot works.
+2. Lock the prompt, the reference images and the seed in a text file.
+3. Only then render the full length at 1080p.
+4. Export and archive the master the same day. The model can change, the file cannot.</code></pre>
+
+<p>Official pages: <a href="https://www.alibabacloud.com/help/en/model-studio/wan3-0-video" target="_blank" rel="noopener">wan3.0-video model information</a> | <a href="https://www.alibabacloud.com/help/en/model-studio/model-pricing" target="_blank" rel="noopener">Model Studio pricing</a> | <a href="https://github.com/Wan-Video/Wan2.2" target="_blank" rel="noopener">Wan 2.2 open weights on GitHub</a>.</p>
 
 <h2>The deck is not the film</h2>
 
