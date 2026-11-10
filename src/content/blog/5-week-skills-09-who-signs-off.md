@@ -1,6 +1,6 @@
 ---
 id: "art-193"
-title: "Five Claude Skills for Previz, Demos and Docs, and Who Signs Off"
+title: "Five Claude Skills for Previz, Demos and Docs"
 description: "Five Claude skills read from their own files: web demo videos, storyboards, Blender, on-screen arrows and de-AI writing, and who approves each step."
 pubDate: "2026-10-26"
 toolVersion: "2026-10"

@@ -62,7 +62,7 @@ description: Run before sending any cut to a client. Checks
   format, captions, loudness and file naming.
 ---
 
-# Client delivery check
+&#35; Client delivery check
 
 Before a cut goes out, verify each item and report what fails.
 

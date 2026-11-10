@@ -1,6 +1,6 @@
 ---
 id: "art-191"
-title: "Five Claude Skills for Editors and Producers, and the Part That Travels"
+title: "Five Claude Skills for Editors and Producers"
 description: "Five Claude skills read from their own files: lower thirds with alpha, subtitle quote cards, photo geolocation, HTML plans and logo design, with limits."
 pubDate: "2026-10-19"
 toolVersion: "2026-10"

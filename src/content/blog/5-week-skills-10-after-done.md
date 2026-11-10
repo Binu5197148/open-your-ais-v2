@@ -1,6 +1,6 @@
 ---
 id: "art-194"
-title: "After Done: Claude Skills That Clone Motion, Edit Decks and Run YouTube"
+title: "Claude Skills That Clone Motion, Edit Decks, Run YouTube"
 description: "Week 10 of 5 Week Skills: a motion cloner, an Office CLI, a diagram kit, a YouTube CLI and a short-drama suite, and what each one does after it says done."
 pubDate: "2026-11-02"
 toolVersion: "2026-11"

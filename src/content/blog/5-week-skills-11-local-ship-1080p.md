@@ -1,7 +1,7 @@
 ---
 id: "art-195"
-title: "Local, Ship, 1080p: The Small Words Inside This Week's Claude Skills"
-description: "A private transcriber, a Higgsfield prompt library, a 3D web kit, a YouTube research workbook and a critic loop for commercials, each with one word to read twice."
+title: "Five Claude Skills and the Small Words Inside Them"
+description: "A private transcriber, a Higgsfield prompt library, a 3D web kit, a YouTube research workbook and a critic loop for commercials, with one word to read twice."
 pubDate: "2026-11-09"
 toolVersion: "2026-11"
 category: "AI"
