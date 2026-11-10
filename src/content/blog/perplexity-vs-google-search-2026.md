@@ -1,8 +1,10 @@
 ---
 id: "art-061"
-title: "Perplexity vs Google: 30 Searches a Day for Two Weeks"
-description: "Two weeks with every research query moved off Google. Where the answers came back faster, where the citations broke, plus the 20 percent that went back."
+title: "Perplexity AI vs Google Search"
+description: "Google put more links in AI Mode on Oct 15. Perplexity sells Pro at $20 and Max at $200. What each is built for, plus a citation check you can paste."
 pubDate: "2026-03-02"
+updatedDate: "2026-10-18"
+toolVersion: "2026-10"
 category: "AI"
 tags:
   - "Perplexity"
@@ -15,81 +17,77 @@ author: "Ulisses Balbino"
 readTime: "6 min read"
 ---
 
-<h2>The Switch</h2>
-<p>Two weeks ago, I stopped using Google for research. Completely. Everything (article research, tool comparisons, fact-checking, competitive analysis) now goes through Perplexity. The results have been eye-opening, and not just in the "this is cool" sense. In the "this is fundamentally better" sense.</p>
-<p>I've used Google since 2005. I've watched it go from "just works" to "filter through the noise." At some point in the last few years, searching stopped being about finding answers and started being about dodging ads, SEO spam, affiliate content farms, and AI-generated garbage that says nothing in 3,000 words.</p>
-<p>Perplexity isn't perfect. But it's replaced Google for 80% of my research needs. Here's the honest comparison after two weeks of exclusive use.</p>
+<!-- Rewrite 2026-10-18 (guardiao): the March version described a two-week personal switch, a 20-search head-to-head, an "80 percent" replacement figure and an 8/10 rating. None of that could be substantiated, so it was removed. The piece is now a documentary analysis with sources linked. Perplexity plans read on its help center and Google's update read on blog.google on October 18, 2026. -->
 
-<h2>My Research Workflow: Before and After</h2>
-<p>Context matters here. I'm not a casual searcher. I run a production company and a content site. My daily research includes: checking AI tool updates, comparing software features, researching article topics, fact-checking claims, finding production equipment specs, and investigating market trends. I search 30-50 times per day.</p>
+<p><em>Updated October 18, 2026. This piece was rewritten. The earlier hands-on claims could not be substantiated and have been removed. This article is a documentary analysis of Perplexity and Google Search as they stand today, built from their own pages and the reporting linked at the end. No timed test was run for this version.</em></p>
 
-<h3>The Google Workflow (Before)</h3>
-<p>Search a topic. Scan 10 results. Open 3-4 tabs. Skim each article looking for the actual answer buried under 500 words of SEO filler. Close tabs. Refine search. Repeat. Total time per research question: 5-15 minutes.</p>
-<p>The frustration isn't the time. It's the cognitive load. Every Google search in 2026 requires you to be a human spam filter. You're not searching; you're excavating.</p>
+<h2>Perplexity vs Google in October 2026: what changed</h2>
+<p>The March version of this article framed the choice as answers against links. That framing aged badly, because both sides moved toward the middle.</p>
+<p>Google now puts generated answers on top of its results through AI Overviews and AI Mode. On October 15, 2026, Google announced that those answers would carry more inline links, placed higher in the response, plus a test of a section that highlights official websites at the top of some answers, wider news carousels and clickable creator profiles. The post is signed by Hema Budaraju, Google's VP of Product Management for Search.</p>
+<p>Perplexity went the other way. It started as an answer engine and kept adding things that look less like search: the Comet browser, released free to everyone on October 2, 2025, and Perplexity Computer, an agent that its help center now describes as the place where its memory feature, Brain, runs for Max subscribers.</p>
+<p>So the honest comparison in October 2026 is not "AI answer against ten blue links." It is two products that both answer, and differ in what sits underneath the answer and what they want you to do next.</p>
 
-<h3>The Perplexity Workflow (After)</h3>
-<p>Ask a question in natural language. Get a synthesized answer with cited sources. Follow up with a clarifying question if needed. Total time per research question: 1-3 minutes.</p>
-<p>The difference isn't subtle. It's a 5x improvement in speed and a dramatic reduction in mental fatigue.</p>
+<h2>What each one is built to do</h2>
+<p><strong>Google</strong> is still an index first. The AI layer sits on top of the largest web index, Maps, Shopping and YouTube. When the question is about a place, a product in stock or a video, the answer comes from data Google owns.</p>
+<p><strong>Perplexity</strong> is an answer engine first. Its research answers come as a synthesis with numbered source citations, and its paid tiers add model choice, file analysis and the tools for creating files and apps that the help center lists under Pro and Max. It does not own a map, a store catalog or a video platform.</p>
+<p>That difference predicts most of the practical split without anyone running a test. Questions that need synthesis across sources favor the answer engine. Questions that need inventory, location or video favor the index.</p>
 
-<h2>What Perplexity Does Better</h2>
-<h3>Actual Answers, Not Links</h3>
-<p>This is the core value proposition and it's real. I ask "what are the key differences between Kling 2.0 and Veo 3 for commercial video production?" and I get a structured comparison with specific features, pricing, and limitations. On Google, I'd get 10 links to articles that each bury the comparison in a 2,000-word piece after 800 words of introduction.</p>
-<p>For a solo creator who needs information quickly to make decisions, this is transformative.</p>
-
-<h3>Context Retention</h3>
-<p>This is underrated. I can search "best AI video tools for commercial work," get an answer, then follow up with "which of those has the best camera control?" and Perplexity knows what I'm talking about. It's a conversation, not a series of disconnected queries.</p>
-<p>In my production workflow, this means I can explore a topic in depth without reframing my question every time. I start broad and drill down naturally.</p>
-
-<h3>No SEO Spam</h3>
-<p>The results are actually relevant. There are no content farm articles ranking because they have 47 backlinks and 3,000 words of nothing. Perplexity synthesizes information from multiple sources and presents what matters. Revolutionary concept, I know.</p>
-
-<h3>Source Transparency</h3>
-<p>Every claim is cited with a clickable source. If I want to verify something or read deeper, I can go directly to the original. This is better than Google in an unexpected way: Google shows you links and hopes you find the answer. Perplexity shows you the answer and proves where it came from.</p>
-
-<h3>Research Depth</h3>
-<p>Perplexity Pro's research mode is genuinely impressive. It performs multiple searches, synthesizes information from dozens of sources, and produces a comprehensive answer that would take me 30 minutes to assemble manually from Google results. For article research, competitive analysis, and market trend reports, this feature alone justifies the $20/month subscription.</p>
-
-<h2>Where Google Still Wins</h2>
-<h3>Local Results</h3>
-<p>Perplexity is terrible at finding nearby restaurants, stores, or services. "Best coffee shop near me" returns generic chain recommendations. Google Maps integration makes local search a completely different experience. For anything location-dependent, Google is still essential.</p>
-
-<h3>Shopping and Product Search</h3>
-<p>Google still owns product search. Price comparisons, product availability, reviews aggregation: the entire shopping infrastructure is built on Google. Perplexity can tell you about a product, but it can't tell you where to buy it cheapest or whether it's in stock at the store down the street.</p>
-
-<h3>Extremely Niche Technical Queries</h3>
-<p>For highly specific technical questions (obscure error codes, legacy software documentation, niche hardware specs), Google sometimes surfaces forum posts and documentation that Perplexity misses. The long tail of the internet is still Google's domain.</p>
-
-<h3>Image and Video Search</h3>
-<p>Google Image Search and YouTube Search are irreplaceable. When I need visual references for a production ("copper lighting setup for beverage photography"), I still go to Google. Perplexity can describe what I need but can't show me.</p>
-
-<h3>Real-Time Information</h3>
-<p>Breaking news, live events, rapidly changing information: Google's crawl speed and news integration are still faster. Perplexity can lag by hours on very recent developments.</p>
-
-<h2>Practical Comparison: Same Query, Both Platforms</h2>
-<p>I ran 20 of my actual daily searches through both platforms and tracked which gave me a useful answer faster:</p>
+<h2>Perplexity plans and prices today</h2>
+<p>According to Perplexity's help center on October 18, 2026, the individual plans are:</p>
 <ul>
-<li><strong>Perplexity won:</strong> 14 out of 20. Especially dominant for comparisons, explanations, trend analysis, and fact-checking.</li>
-<li><strong>Google won:</strong> 4 out of 20. Local searches, shopping, image references, and one extremely niche technical question.</li>
-<li><strong>Tie:</strong> 2 out of 20. Both got me to the answer in roughly the same time, just through different paths.</li>
+<li><strong>Standard (free):</strong> practically unlimited basic searches, a very limited number of Pro Searches, limited file uploads, no advanced models.</li>
+<li><strong>Pro:</strong> extended Pro Search, advanced models, image and video generation, up to 50 file uploads per project. Perplexity lists it at $20 a month.</li>
+<li><strong>Education Pro:</strong> $10 a month with SheerID verification, everything in Pro plus Learn Mode.</li>
+<li><strong>Max:</strong> everything in Pro, highest access to frontier models, extended limits for creating files and apps, early access to new products, Brain in research preview, priority support. It launched in July 2025 at $200 a month or $2,000 a year.</li>
 </ul>
-<p>The 70/30 split in Perplexity's favor is consistent with my overall experience. For knowledge-seeking queries, Perplexity is better. For action-oriented queries (buy, find, navigate), Google is better.</p>
+<p>Enterprise Pro starts at $40 per seat per month. The Comet browser itself is a free download. Prices change, so open the plan page before paying; the links are at the end.</p>
 
-<h2>Cost Comparison</h2>
-<p>Google Search: Free (you pay with attention to ads and data collection).</p>
-<p>Perplexity Pro: $20/month. This gets you unlimited Pro searches with enhanced research capabilities, access to multiple AI models, and file upload for analysis.</p>
-<p>Is $20/month worth it? If you search 30+ times a day for work, absolutely. The time saved pays for itself within the first week. If you search casually a few times a day, the free tier is probably sufficient.</p>
+<h2>How to use Perplexity AI without trusting it blindly</h2>
+<p>A common question about the tool is how to use it. The useful answer is a routine, not a feature list, because the risk with any answer engine is the same: a confident paragraph with a citation that does not say what the paragraph says.</p>
+<ol>
+<li><strong>Ask the full question, with the constraint.</strong> "Which AI video models support start and end frames, as of this month" returns a different answer than "best AI video models."</li>
+<li><strong>Put the date in the question.</strong> Answer engines, like search engines, will happily return the most linked page instead of the most recent one.</li>
+<li><strong>Open the two citations that carry the main claim.</strong> Not all of them. The two that the key sentence depends on.</li>
+<li><strong>Check that the source says the sentence.</strong> Same number, same product version, same date. If the citation is a reseller or an aggregator, find the original.</li>
+<li><strong>Follow up inside the thread.</strong> Ask "what is the primary source for that number" and see if it changes its answer.</li>
+<li><strong>Switch to Google for inventory, places and video.</strong> Stock, opening hours, a reference clip on YouTube.</li>
+</ol>
 
-<h2>My Current Setup</h2>
-<p>After two weeks of testing, here's where I've landed:</p>
+<h2>A citation check you can paste</h2>
+<p>This is the follow-up prompt to send after any answer you plan to act on, in either Perplexity or Google's AI Mode:</p>
+<pre><code>For each factual claim in your last answer:
+1. Quote the exact sentence from the cited source that supports it.
+2. Give the publication or update date of that source.
+3. Say whether the source is primary (the company, the paper, the filing)
+   or secondary (a blog, a reseller, an aggregator).
+4. Flag any claim you cannot support with a direct quote.
+Do not add new claims.</code></pre>
+<p>The point is not that the tool will always comply. The point is that you see, in one screen, which parts of the answer are standing on something.</p>
+
+<h2>Where Google still has the structural edge</h2>
 <ul>
-<li><strong>Perplexity:</strong> All research, fact-checking, comparisons, trend analysis, article research, competitive intelligence.</li>
-<li><strong>Google:</strong> Local search, shopping, image references, YouTube, and the occasional niche technical query.</li>
-<li><strong>Claude:</strong> Long-form writing assistance, complex analysis, and brainstorming (different use case entirely).</li>
+<li><strong>Local:</strong> Maps data, hours, reviews and directions.</li>
+<li><strong>Shopping:</strong> price comparison and availability come from merchant feeds Google holds.</li>
+<li><strong>Images and video:</strong> Image search and YouTube are reference libraries, not summaries. For a director looking for a lighting reference, a picture beats a description.</li>
+<li><strong>Breaking news:</strong> the October update itself pushes news carousels and Preferred Sources into AI answers, which is Google using its news index as an advantage.</li>
 </ul>
-<p>Google isn't dead. It's not even dying. But its monopoly on search is cracking for the first time in two decades. Perplexity has found the wedge: give people answers instead of making them hunt.</p>
 
-<h2>Recommendations</h2>
-<p>If you're a creator, researcher, or knowledge worker who searches heavily for work: try Perplexity Pro for one month. Track how many times you reach for Google out of habit versus necessity. I bet you'll find, like I did, that most of those Google searches were habit, and Perplexity does them better.</p>
-<p>If you're a casual searcher who mostly uses Google for directions, shopping, and quick lookups: stay with Google. Perplexity solves problems you don't have.</p>
-<p>The future of search is conversational, cited, and synthesized. Perplexity is building that future. Google is defending its past. For the first time in 15 years, there's a real alternative. And for research, it's better.</p>
-<p><strong>Rating: 8/10.</strong> Replaced Google for 80% of my research needs. Essential for knowledge workers. Still needs Google for local, shopping, and visual search.</p>
+<h2>Is Perplexity Pro worth it?</h2>
+<p>It depends on the kind of question that fills your day, and a short checklist settles it better than a rating:</p>
+<ul>
+<li>Most of your searches are comparisons, explanations or research across several sources: the free tier first, Pro if you hit the Pro Search limit.</li>
+<li>You upload documents and want them analyzed against the web: Pro.</li>
+<li>You want agents, file and app creation at volume and early features: Max, and only if you will use it weekly.</li>
+<li>Most of your searches are places, products and videos: stay on Google, now with AI Mode on top.</li>
+</ul>
+<p>For a working creative, the choice is rarely exclusive. The research for a pitch and the hunt for a reference frame are different jobs, and each tool is built for one of them. The judgment about which source to trust is still yours, and that part does not come with any plan. For what AI answers do to the pages they summarize, see <a href="/blog/static-content-ai-eats-interactive-tools-it-recommends/">why static pages lose to AI search</a>, and for the models these engines route to, <a href="/blog/gpt-6-astra-benchmarks-creative-director-review/">the GPT-6 Astra read</a>.</p>
+
+<h2>Sources</h2>
+<ul>
+<li>Google, "More ways to connect with the web from Search," October 15, 2026: <a href="https://blog.google/products-and-platforms/products/search/updates-ai-mode-overviews-explore-web/">blog.google</a></li>
+<li>Perplexity Help Center, "Which Perplexity subscription plan is right for you?": <a href="https://www.perplexity.ai/help-center/en/articles/11187416-which-perplexity-subscription-plan-is-right-for-you">perplexity.ai/help-center</a></li>
+<li>Perplexity Help Center, "Perplexity Max": <a href="https://www.perplexity.ai/help-center/en/articles/11680686-perplexity-max">perplexity.ai/help-center</a></li>
+<li>Perplexity, "Introducing Perplexity Max," July 2, 2025 (Pro at $20 a month): <a href="https://www.perplexity.ai/hub/blog/introducing-perplexity-max">perplexity.ai/hub/blog</a></li>
+<li>SiliconANGLE, Max launch at $200 a month or $2,000 a year, July 2, 2025: <a href="https://siliconangle.com/2025/07/02/perplexity-ai-launches-new-max-subscription-priced-200-month">siliconangle.com</a></li>
+<li>Perplexity, Comet released free worldwide, October 2, 2025: <a href="https://www.perplexity.ai/hub/blog/comet-is-now-available-to-everyone-worldwide">perplexity.ai/hub/blog</a></li>
+</ul>
