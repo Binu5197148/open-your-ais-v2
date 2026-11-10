@@ -637,3 +637,29 @@ The fixes that held were boring:
 
 Full checklist, a prompt you can paste, and a free starter kit:
 https://openyourais.com/blog/higgsfield-character-consistency-toninho-workflow/?utm_source=x&utm_medium=social&utm_campaign=character-drift-higgsfield
+## 02/11/2026, guardiao (rascunho, NAO publicar sem aprovacao do texto exato)
+
+LinkedIn, modo 1 (opiniao pura, sem link). Pede imagem: uma barra de progresso em 100% sobre um frame errado.
+
+Agente de IA não erra feio. Erra bonito.
+
+Se você não diz o que é "pronto", ele inventa uma linha de chegada. E entrega uma coisa com cara de pronta.
+
+Ninguém revisa o que parece terminado.
+
+Esse erro já existia antes da IA. O assistente que entrega o corte sem saber o que o diretor queria. A diferença é que agora ele entrega em vinte minutos. E entrega cem.
+
+O Claude é o meu orquestrador hoje. Roteiro, sheet, storyboard, a direção de cada geração passa por ele. E toda tarefa que eu passo começa pela mesma linha: o que significa pronto.
+
+A máquina executa. A linha de chegada continua sendo sua.
+
+X, modo 3 (entrega, link so depois do merge e do deploy):
+
+Claude Cowork no longer has its own button. Since September 16 it lives inside regular Claude chat, which is why people keep asking where it went.
+
+It pays off on jobs with a finish line: a document from a pile of notes, a folder reorganized, a brief turned into a shot list, the same report every Monday.
+
+It fails on the job you cannot describe yet. Without a finish line, the agent invents one, and the result looks done. Nobody checks work that looks done.
+
+The brief I hand it, plus the step by step and the full timeline from Anthropic's release notes:
+https://openyourais.com/blog/anthropic-claude-cowork-enterprise-agents-2026/?utm_source=x&utm_medium=social&utm_campaign=claude-cowork
