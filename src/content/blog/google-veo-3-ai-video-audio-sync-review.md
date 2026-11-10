@@ -3,6 +3,7 @@ id: "art-052"
 title: "Veo 3 Audio: Four Tests From a Commercial Director"
 description: "Product reveal, street ambience, emotional close-up and high energy action, scored in one pass. Where the sync held and where the footsteps drifted slightly."
 pubDate: "2026-03-02"
+updatedDate: "2026-10-15"
 category: "AI"
 tags:
   - "Google"
@@ -39,7 +40,7 @@ readTime: "7 min read"
 <h2>Where It Falls Short</h2>
 <ul>
 <li><strong>Brand-specific sound identity:</strong> Every major brand has a distinct audio signature. Starbucks has a very specific sonic vibe: warm, acoustic, intimate. Nestle has another. Yamaha another. Veo 3 cannot replicate that level of brand-specific sound design. It generates appropriate music, not branded music. For final commercial deliverables, you still need a composer or music supervisor who understands the brand.</li>
-<li><strong>Dialogue:</strong> Veo 3 does not generate dialogue. It handles music and ambient sound, but if your scene involves people talking, you are still on your own for voice work. This is a major limitation for narrative content.</li>
+<li><strong>Dialogue:</strong> Veo 3 can generate spoken dialogue as well as sound effects and ambience, as documented in <a href="https://deepmind.google/models/veo/prompt-guide/">Google DeepMind's Veo 3 prompt guide</a>. Dialogue support should not be confused with a guarantee that a generated performance will meet a production brief. Review the delivered speech and synchronization before using a clip.</li>
 <li><strong>Musical sophistication:</strong> The generated music is competent but safe. It will not surprise you. It will not take creative risks. It will not produce the kind of unexpected musical choice that makes a scene memorable. It gives you exactly what you would expect, which is useful but not inspired.</li>
 <li><strong>Mixing and mastering:</strong> The audio comes as a single mixed track. You cannot separate the music from the ambient sounds, adjust individual levels, or do any post-production audio work. For professional workflows where you need control over the audio mix, this is a dealbreaker.</li>
 <li><strong>Consistency across scenes:</strong> If you are generating a multi-scene project, each clip gets its own independent audio. There is no way to maintain a consistent musical theme or sound palette across multiple generations. For anything longer than a single scene, you will need to handle audio continuity manually.</li>
@@ -49,11 +50,11 @@ readTime: "7 min read"
 <p><strong>Solo creators and indie filmmakers:</strong> If you cannot afford a composer and you are producing content for social media, YouTube, or client pitches, Veo 3 just eliminated one of the biggest friction points in your workflow. You can now produce complete audio-visual content without leaving a single platform.</p>
 <p><strong>Production companies doing pre-vis:</strong> For my own work at Pichorra Filmes, this is where Veo 3 earns its place. Instead of showing clients a silent AI-generated concept, I can present a fully scored scene that communicates the mood, pacing, and emotional intent of the final product. That is a massive upgrade for client presentations.</p>
 <p><strong>Social media managers:</strong> Quick, polished video content with matching audio, generated in minutes. For platforms where content velocity matters more than perfection, this is a game changer.</p>
-<p><strong>Not for:</strong> Premium commercial production requiring brand-specific audio, narrative projects with dialogue, anything requiring sophisticated musical composition, or projects where audio post-production control is essential.</p>
+<p><strong>Not for:</strong> Premium commercial production requiring brand-specific audio, projects requiring exact control over spoken performances, anything requiring sophisticated musical composition, or projects where audio post-production control is essential.</p>
 
 <h2>Conclusion</h2>
 <p>Veo 3 is the first AI video tool that treats audio as a first-class citizen rather than an afterthought. The synchronization between generated visuals and generated audio is genuinely impressive. Not perfect, but far ahead of anything else on the market.</p>
 <p>For solo creators and production teams doing concept work, this changes the workflow fundamentally. You no longer need to generate video in one tool, find music in another, and sync everything in an editor. One prompt, one output, complete with sound.</p>
-<p>The limitations are real (no dialogue, no brand-specific sound, no audio separation), but they are the kind of limitations that will shrink with each update. The foundation is solid. The direction is right.</p>
+<p>Native dialogue is supported. For production work, the question is whether a particular result meets the brief and whether the delivery format gives the editor enough control. Those requirements need checking in the interface and model version being used.</p>
 <p>Google did not just improve AI video. They redefined what AI video means by acknowledging that video without audio is only half a product. Every competitor will need to follow. And for creators like me who have been duct-taping audio onto AI visuals for two years, that is a very welcome change.</p>
-<p><strong>Rating: 8.5/10</strong>. Finally, AI video with real audio. The synchronization is genuinely impressive. Still not replacing professional composers or sound designers, but it just became unnecessary to hire one for most projects. The missing 1.5 points are for the lack of dialogue support, limited mixing control, and brand audio limitations.</p>
+<p><strong>Correction, October 15, 2026:</strong> An earlier version incorrectly stated that Veo 3 could not generate dialogue and used that claim in its rating. Google DeepMind documents native dialogue support. The unsupported rating has been removed.</p>

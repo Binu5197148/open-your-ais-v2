@@ -3,6 +3,7 @@ id: "art-105"
 title: "LTX Video 2 Review: What It Delivers on Real Briefs"
 description: "A week of production tests on LTX Video 2: product reveal, emotional beat, lifestyle B-roll. Which came back usable, and which came back wrong, shot by shot."
 pubDate: "2026-03-28"
+updatedDate: "2026-10-15"
 category: "AI"
 tags:
   - "LTX-Video"
@@ -22,7 +23,7 @@ readTime: "10 min read"
 <p>The results surprised me, not because LTX-Video 2 is magic, but because it's genuinely different from Kling and Sora in ways that matter to working directors. Here's my unfiltered assessment.</p>
 
 <h2>What Is LTX-Video 2?</h2>
-<p>LTX-Video is an open-source video generation model developed by Lightricks, the company behind Facetune and other creative tools. Unlike Kling (ByteDance) or Sora (OpenAI), LTX-Video is fully open: the model weights are public, you can run it locally, and it's available cheaply through inference platforms like fal.ai.</p>
+<p>LTX-Video is an open-source video generation model developed by Lightricks, the company behind Facetune and other creative tools. Unlike <a href="https://ir.kuaishou.com/news-releases/news-release-details/kuaishou-kling-ai-integrates-deepseek-lowering-entry-barrier-ai">Kling (Kuaishou)</a> or Sora (OpenAI), LTX-Video is fully open: the model weights are public, you can run it locally, and it's available cheaply through inference platforms like fal.ai.</p>
 <p>Version 2 represents a significant quality jump from the original. The motion is smoother, the temporal consistency is better, meaning objects and people don't morph weirdly between frames, and the model handles cinematic prompts more reliably than its predecessor. The "fast" configuration, which runs through cloud APIs, produces a 5-second clip in roughly 30-60 seconds at a cost of around $0.02-0.05 per generation.</p>
 <p>For context: Kling 2.1 costs significantly more per clip and requires Chinese platform accounts. Sora is still limited in access. LTX-Video 2 is right now the most accessible high-quality option for production-grade testing.</p>
 
