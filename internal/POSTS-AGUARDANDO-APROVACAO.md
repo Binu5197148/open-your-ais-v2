@@ -702,3 +702,38 @@ Plans run on credits now, no unlimited tier. Creator is $29 for 600 credits with
 
 The full checklist, and the jobs where an avatar is still the wrong call:
 https://openyourais.com/blog/heygen-avatar-iv-ai-spokesperson-localization-commercial-production/?utm_source=x&utm_medium=social&utm_campaign=heygen-avatar-v
+## 04/11/2026, guardiao (rascunhos, NADA agendado)
+
+Feed lido em 04/11: nenhum post novo dele desde o do Cursor (2 semanas, 114 impressoes). Ranking atual: "Nao existe atalho" 8.555, "IA DEGENERATIVA" 1.926, "IA DEGENERATIVA parte 2" (Suno) 1.047, Toninho selecionado 339. Os de link lnkd.in seguem entre 67 e 312.
+
+### LinkedIn, modo 1 (opinião pura, sem link)
+
+O sindicato dos atores de Hollywood escreveu no contrato uma frase que eu queria ver em todo briefing.
+
+Para usar um ator sintético, o produtor tem que provar que ele traz "valor adicional significativo". Comparado a um ator de verdade. E comparado também à réplica digital desse ator.
+
+Não é taxa. Não é multa. É prova.
+
+91% dos atores votaram sim, em junho. Vale até 2030.
+
+E o melhor detalhe: ninguém definiu o que é "valor adicional significativo". Vai ser discutido caso a caso, na frente de um árbitro.
+
+Eu quero ver alguém sentar nessa mesa e explicar por que o personagem precisava ser gerado. Não porque ficou mais barato. Não porque dava pra entregar na sexta. Por que ele é melhor que uma pessoa.
+
+Na maioria das vezes não tem resposta. E esse é o ponto.
+
+Quem faz comercial com IA, e eu faço, devia se fazer essa pergunta antes do sindicato fazer.
+
+A IA não precisa de motivo pra estar na cena. Você precisa.
+
+### X, modo 3 (entrega, link so depois do merge)
+
+If your pipeline still calls veo-3.1-generate-preview, it has been failing since October 22.
+
+Google shut down all three Veo 3.1 preview models in the Gemini API (generate, fast, lite) and points developers to gemini-omni-1.1-flash. The GA Veo 3.1 models are still on Google Cloud if you need Veo specifically.
+
+Inside YouTube, the newer path is Gemini Omni in Shorts Remix, free, rolling out since May.
+
+Each surface takes different inputs, so don't assume one flow carries over. Shorts Remix starts from an existing Short, not from three references. What travels is the creative brief: talent, product, environment. It's in a copyable block here, to adapt to each tool:
+
+https://openyourais.com/blog/veo-3-1-ingredients-to-video-youtube-shorts-what-brand-creators-need/?utm_source=x&utm_medium=social&utm_campaign=veo-31-omni-shorts
