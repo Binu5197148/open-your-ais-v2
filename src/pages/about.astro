@@ -116,7 +116,7 @@ const fmtLong = (d: Date) =>
           <li>
             <span class="mono">{fmtLong(post.data.pubDate)}</span>
             <a href={`/blog/${post.id}/`} style="color:inherit">
-              <h3>{post.data.title}</h3>
+              <h2>{post.data.title}</h2>
             </a>
             <span class="mono">{post.data.category || 'Dispatch'}{post.data.readTime ? ` · ${post.data.readTime}` : ''}</span>
           </li>
@@ -266,7 +266,7 @@ const fmtLong = (d: Date) =>
     border-top: 1px solid var(--c-rule);
   }
   .ab-work__list li:last-child { border-bottom: 1px solid var(--c-rule); }
-  .ab-work__list h3 {
+  .ab-work__list h2 {
     font-family: var(--font-serif);
     font-size: clamp(22px, 2.4vw, 36px);
     letter-spacing: -0.02em;
@@ -274,9 +274,9 @@ const fmtLong = (d: Date) =>
     line-height: 1.1;
     margin: 0;
   }
-  .ab-work__list h3 em { font-style: italic; font-variation-settings: 'opsz' 144, 'SOFT' 100, 'WONK' 1; }
+  .ab-work__list h2 em { font-style: italic; font-variation-settings: 'opsz' 144, 'SOFT' 100, 'WONK' 1; }
   .ab-work__list .mono { color: var(--c-fg-muted); }
-  .ab-work__list a:hover h3 { color: var(--c-accent); transition: color 300ms var(--ease-editorial); }
+  .ab-work__list a:hover h2 { color: var(--c-accent); transition: color 300ms var(--ease-editorial); }
 
   .ab-colo { margin-top: var(--s-9); }
   .ab-colo__grid {
