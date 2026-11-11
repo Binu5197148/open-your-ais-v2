@@ -1,15 +1,15 @@
 ---
 id: "art-105"
-title: "LTX Video 2 Review: What It Delivers on Real Briefs"
-description: "A week of production tests on LTX Video 2: product reveal, emotional beat, lifestyle B-roll. Which came back usable, and which came back wrong, shot by shot."
+title: "LTX 2.5 vs LTX 2: What Changed?"
+description: "LTX Video 2 was the open weights video model of early 2026. What LTX 2.5 changed, how to download and run it locally, and where open video still breaks."
 pubDate: "2026-03-28"
-updatedDate: "2026-10-15"
+updatedDate: "2026-11-11"
+toolVersion: "2026-11"
 category: "AI"
 tags:
   - "LTX-Video"
   - "AI Video"
   - "Video Production"
-  - "fal.ai"
   - "Commercial Production"
   - "Filmmaking"
   - "AI Tools Review"
@@ -18,60 +18,64 @@ author: "Ulisses Balbino"
 readTime: "10 min read"
 ---
 
-<h2>Why LTX-Video 2 Deserves Your Attention</h2>
-<p>I've spent the last week putting LTX-Video 2 through real production tests. Not demo prompts. Not "generate a sunset" challenges. Actual briefs of the type I used to shoot with a crew: product reveals, emotional brand moments, lifestyle footage for social campaigns. The kind of work where every second costs money and every creative decision has a client consequence.</p>
-<p>The results surprised me, not because LTX-Video 2 is magic, but because it's genuinely different from Kling and Sora in ways that matter to working directors. Here's my unfiltered assessment.</p>
+<p><em>Updated November 11, 2026. This page was written in March about LTX Video 2 and now compares it with the current model, LTX 2.5. It is an analysis built from Lightricks' model cards, licence and release coverage, not a hands-on benchmark. The March version described a week of tests and a side by side with Kling 2.1 that are not documented anywhere, so those passages were rewritten as prompts and checks you can run yourself. The per clip prices, the 5 second ceiling and the access notes about Kling and Sora were the March picture and have been removed.</em></p>
 
-<h2>What Is LTX-Video 2?</h2>
-<p>LTX-Video is an open-source video generation model developed by Lightricks, the company behind Facetune and other creative tools. Unlike <a href="https://ir.kuaishou.com/news-releases/news-release-details/kuaishou-kling-ai-integrates-deepseek-lowering-entry-barrier-ai">Kling (Kuaishou)</a> or Sora (OpenAI), LTX-Video is fully open: the model weights are public, you can run it locally, and it's available cheaply through inference platforms like fal.ai.</p>
-<p>Version 2 represents a significant quality jump from the original. The motion is smoother, the temporal consistency is better, meaning objects and people don't morph weirdly between frames, and the model handles cinematic prompts more reliably than its predecessor. The "fast" configuration, which runs through cloud APIs, produces a 5-second clip in roughly 30-60 seconds at a cost of around $0.02-0.05 per generation.</p>
-<p>For context: Kling 2.1 costs significantly more per clip and requires Chinese platform accounts. Sora is still limited in access. LTX-Video 2 is right now the most accessible high-quality option for production-grade testing.</p>
+<h2>Why LTX still deserves your attention</h2>
+<p>Most AI video is rented. You pay per second, the model lives on someone else's server, and the day the company changes its mind your pipeline changes with it. OpenAI removed the Sora API on September 24, 2026, which I covered in <a href="/blog/sora-api-shutdown-platform-dependency-filmmakers/">the piece on renting a platform</a>. Google retired the Veo 3 endpoints in its Gemini API on June 30.</p>
+<p>LTX is the other kind of tool. Lightricks, the company behind Facetune, publishes the weights. You download them, you run them on your own machine, and nobody can switch them off. That was the reason to pay attention in March. It is a better reason now.</p>
 
-<h2>The Tests I Ran</h2>
-<h3>Test 1: Product Reveal (Cosmetics)</h3>
-<p>Brief: A foundation bottle emerging from soft morning light, with warm golden bokeh in the background. The kind of shot you'd spend half a day setting up with a beauty specialist.</p>
-<p>Prompt: <em>"Product reveal shot: a sleek cosmetics bottle slowly rising from white surface, soft golden morning light from behind creating warm bokeh, shallow depth of field, clean white negative space, luxurious and minimal, slow motion, 9:16 vertical, cinematic"</em></p>
-<p><strong>Result:</strong> Surprisingly clean. The motion was smooth. The lighting rendered well. The bottle had some temporal inconsistency: the label shifted slightly between frames. But for a social cutdown or a B-roll insert, this would be usable. Not hero footage. Usable insert.</p>
+<h2>What was LTX Video 2?</h2>
+<p>LTX-2 was announced by Lightricks in October 2025, and <a href="https://www.opensourceforu.com/2026/01/ltx-2-from-lightricks-delivers-native-4k-audio-video-with-fully-open-weights/" target="_blank" rel="noopener">the full weights followed in January 2026</a>. It was the release that put native 4K and synchronized audio into a video model you could download. The research behind it is public too, in the paper <a href="https://huggingface.co/papers/2601.03233" target="_blank" rel="noopener">"LTX-2: Efficient Joint Audio-Visual Foundation Model"</a>.</p>
+<p>In March 2026 came LTX 2.3, an interim version with a retrained decoder and native portrait. I went through that one in <a href="/blog/ltx-video-23-4k-audio-one-pass-what-changed-overnight/">the LTX 2.3 article</a>, including the cases where a working 2.3 pipeline is still the right thing to keep.</p>
 
-<h3>Test 2: Emotional Human Moment</h3>
-<p>Brief: A woman looking out a rain-streaked window, contemplative, warm interior light against cold exterior. Classic brand mood film material.</p>
-<p>Prompt: <em>"Medium shot of woman gazing through rain-streaked window, warm amber interior light, cold blue exterior, reflection visible in glass, contemplative expression, handheld subtle movement, Terrence Malick visual language, film grain, 9:16"</em></p>
-<p><strong>Result:</strong> This is where LTX-Video 2 gets complicated. The composition was good. The mood was right. But the face had the classic AI problem: micro-expressions that feel slightly mechanical, like the model is approximating human emotion rather than capturing it. In a 5-second clip where you see the back of someone's head, you'd never notice. In a close-up with the face visible, you would. The rule I've established: <strong>use AI-generated clips for atmosphere, not for faces.</strong></p>
-
-<h3>Test 3: Landscape / Establishing Shot</h3>
-<p>Brief: Aerial drift over misty mountain forest at dawn. The kind of shot that costs $2,000 in drone permits and crew time.</p>
-<p>Prompt: <em>"Aerial slow drift over ancient forest at dawn, morning mist in valleys, golden light breaking through trees, serene and vast, cinematic scale, slow motion, Roger Deakins lighting palette"</em></p>
-<p><strong>Result:</strong> This was the strongest test. LTX-Video 2 handles landscape and nature footage significantly better than human subjects. The mist movement was organic, the light transition was beautiful, and there were no consistency artifacts. I would use this in a real project. Not as hero footage for a national broadcast, but absolutely for a digital campaign, a social video, or a pitch treatment.</p>
-
-<h2>LTX-Video 2 vs. Kling 2.1: The Real Comparison</h2>
-<p>I ran parallel tests on both models with identical prompts. The honest comparison:</p>
+<h2>LTX 2.5 vs LTX 2: what changed?</h2>
+<p>LTX 2.5 arrived on August 11, 2026, according to <a href="https://datanorth.ai/news/ltx-releases-ltx-2-5-open-weights-video-world-model" target="_blank" rel="noopener">DataNorth's release report</a>. On the date of this update, the <a href="https://huggingface.co/Lightricks" target="_blank" rel="noopener">Lightricks page on Hugging Face</a> shows nothing newer, so 2.5 is the current state. Read against LTX 2, five things are different:</p>
 <ul>
-<li><strong>Motion quality:</strong> Kling 2.1 still edges out LTX-Video 2 for complex motion, especially human movement. The difference is noticeable on close-up action.</li>
-<li><strong>Atmospheric and environmental footage:</strong> LTX-Video 2 is competitive or better. Landscapes, mist, light effects: this is where open-source has caught up.</li>
-<li><strong>Cost:</strong> LTX-Video 2 is dramatically cheaper. For a 10-clip project, the cost difference can be $2 vs. $20+. At scale, that compounds.</li>
-<li><strong>Accessibility:</strong> LTX-Video 2 wins completely. No waitlists, no Chinese platform accounts, available instantly through fal.ai or runnable locally.</li>
-<li><strong>Iteration speed:</strong> Because it's cheaper and faster, you can run 20 LTX-Video 2 variations in the time you'd run 3 Kling clips. This changes the creative workflow significantly.</li>
+<li><strong>Several shots in one pass.</strong> The model card lists "Native multishot generation", holding character, environment and style across cuts. LTX 2 gave you one shot per generation and you built the sequence in the edit. I have an opinion about letting the model choose the cut, and it is in <a href="/blog/ltx-2-5-multi-shot-the-model-is-making-your-cut/">the multi-shot piece</a>.</li>
+<li><strong>A new decoder.</strong> The stage that turns the model's internal representation back into pixels now comes in two versions: a higher quality diffusion decoder, which the card calls DiffVAE, and a faster conventional one. LTX 2 had a reputation for soft output, and this is the part of the pipeline that answers it.</li>
+<li><strong>Speed, on the right hardware.</strong> <a href="https://venturebeat.com/technology/ltx-2-5-can-generate-a-10-second-ai-video-from-an-image-in-just-6-8-seconds-on-nvidia-superchips-and-its-open-weights" target="_blank" rel="noopener">VentureBeat reported</a> a 10 second clip from an image in 6.8 seconds on NVIDIA's datacenter chips. That is not your desktop. Treat it as a ceiling, not a promise.</li>
+<li><strong>A duration head.</strong> If you leave the frame count out, a small extra model predicts how long the clip should be. In LTX 2 you always chose.</li>
+<li><strong>A licence you can read in one sitting.</strong> The LTX-2.x Community License allows commercial and production use at no cost for organizations under 10 million dollars in annual revenue, counted across the whole entity. Above that you need a paid agreement, and the card warns that transferring fine-tunes may require one too.</li>
 </ul>
+<p>What did not change is the reason the line exists. Picture and sound still come out of the same pass, and the weights are still yours to keep.</p>
 
-<h2>My Production Workflow with LTX-Video 2</h2>
-<p>After this week of testing, here's how I'm integrating LTX-Video 2 into actual work:</p>
-<p><strong>Phase 1, Concept exploration:</strong> Use LTX-Video 2 to quickly generate mood references for client presentations. 5-10 clips in 30 minutes, showing the visual direction before any real budget is committed. This is the equivalent of a rough storyboard but moving. Clients respond better to motion than static frames.</p>
-<p><strong>Phase 2, B-roll and atmosphere:</strong> For projects where I'm shooting primary footage but need supplemental material (establishing shots, transitions, abstract visual elements), LTX-Video 2 fills those gaps at near-zero cost.</p>
-<p><strong>Phase 3, Full AI campaigns:</strong> For social-first content where the brief is "we need 30 pieces of content per month," combining LTX-Video 2 clips with AI-generated images and a strong editorial direction produces work that is indistinguishable from low-budget production on a phone screen. Not on a broadcast monitor. On Instagram.</p>
+<h2>How to download LTX 2.5 and run it locally</h2>
+<p>This is the question people type most about this model, so here is the path in order, taken from the official model card:</p>
+<ol>
+<li><strong>Open the model page and accept the gate.</strong> The weights live at <a href="https://huggingface.co/Lightricks/LTX-2.5" target="_blank" rel="noopener">huggingface.co/Lightricks/LTX-2.5</a>. The download is gated: you log in and agree to share your Hugging Face information before the files unlock.</li>
+<li><strong>Read the licence before any client work.</strong> If the company you are delivering for is above the revenue line, the free terms do not cover the job.</li>
+<li><strong>Pick the transformer your machine can carry.</strong> The distilled model runs a fixed 8 step schedule and is the fast one. The dev model is the full, trainable one. There are int8 builds for ComfyUI that are lighter on memory, and an NVFP4 build of the distilled model for NVIDIA's Blackwell cards.</li>
+<li><strong>Pick your route.</strong> ComfyUI has official workflow templates. If you prefer code, the <code>ltx-pipelines</code> package is in the <a href="https://github.com/Lightricks/LTX-2" target="_blank" rel="noopener">LTX-2 GitHub repository</a>. There is also a Diffusers version, which at the time of the card needs Diffusers installed from its main branch.</li>
+<li><strong>Respect the two rules that break first renders.</strong> The frame count has to be a multiple of 8 plus 1, so 121 works and 120 does not. Width and height have to be divisible by 32.</li>
+<li><strong>Short on memory?</strong> The card gives no minimum VRAM figure. It lists the options instead: fp8 casting with CPU offload in the Python pipeline, model offload and VAE tiling in Diffusers. The low memory workflows you see in video tutorials are community builds, and quality trades against memory.</li>
+</ol>
+<p>No machine for it? Lightricks keeps an API playground linked from the same model card, and the documentation is at <a href="https://docs.ltx.io" target="_blank" rel="noopener">docs.ltx.io</a>.</p>
+
+<h2>Three prompts to run before you trust it</h2>
+<p>A spec sheet tells you what a model can do. A brief tells you what it does to your work. These are three briefs of the kind a commercial director gets every month, written as prompts, with the thing to look at in each result.</p>
+<h3>Test 1: product reveal</h3>
+<p>Prompt: <em>"Product reveal shot: a sleek cosmetics bottle slowly rising from white surface, soft golden morning light from behind creating warm bokeh, shallow depth of field, clean white negative space, luxurious and minimal, slow motion, 9:16 vertical, cinematic"</em></p>
+<p><strong>What to check:</strong> the label. Step through the clip frame by frame and watch the text on the bottle. Fine print and logos are where video models drift between frames. If the label holds, you have a hero shot. If it shifts, you have an insert for a social cutdown, and that is still worth having.</p>
+<h3>Test 2: emotional human moment</h3>
+<p>Prompt: <em>"Medium shot of woman gazing through rain-streaked window, warm amber interior light, cold blue exterior, reflection visible in glass, contemplative expression, handheld subtle movement, Terrence Malick visual language, film grain, 9:16"</em></p>
+<p><strong>What to check:</strong> the face, and only the face. Composition and mood are the easy part. The question is whether the expression reads as a person thinking or as a model approximating one. If it reads mechanical, do what you would do with a weak performance on set: change the frame. Profile, back of the head, the reflection in the glass.</p>
+<h3>Test 3: landscape and establishing shot</h3>
+<p>Prompt: <em>"Aerial slow drift over ancient forest at dawn, morning mist in valleys, golden light breaking through trees, serene and vast, cinematic scale, slow motion, Roger Deakins lighting palette"</em></p>
+<p><strong>What to check:</strong> whether the mist moves like weather or like a texture sliding over the image, and whether the light changes over the length of the shot. No faces, no text, no hands. This is the friendliest brief you can give any video model, so if it fails here, stop.</p>
+
+<h2>Is LTX 2.5 ready for commercial work?</h2>
+<p>It depends on the deliverable, not on the model. Three situations, in order of how comfortable I would be:</p>
+<p><strong>Concept and mood.</strong> Moving references for a client presentation, before any real budget is committed. Clients respond better to motion than to static frames, and a model you run locally lets you make twenty variations without watching a credit counter.</p>
+<p><strong>B-roll and atmosphere.</strong> Establishing shots, transitions, abstract elements around footage you shot or generated elsewhere. Test 3 is the audition for this.</p>
+<p><strong>Faces, logos and complex action.</strong> Here you run Test 1 and Test 2 on your own brief first, and you believe the result over any review, this one included.</p>
+<p>For the record, my own paid work runs mostly on Seedance inside Higgsfield. I am not telling you LTX is what I deliver with. I am telling you it is the one model in this category that nobody can take away from you, and that is worth an afternoon of your time.</p>
 <p>The key is always the same: clear creative direction before prompting. The tool amplifies your vision. It cannot replace it.</p>
 
-<h2>The Honest Limitations</h2>
-<p>I won't oversell this. LTX-Video 2 has real limitations:</p>
-<ul>
-<li>Human faces in close-up remain problematic. The uncanny valley is real and visible.</li>
-<li>Complex action sequences (sports, fast movement, detailed hand gestures) are inconsistent.</li>
-<li>Brand-specific details (logos, specific products, custom assets) don't transfer reliably.</li>
-<li>5-second clips require creative editing to build anything longer. This is a constraint, not a dealbreaker. Good editors work with constraints.</li>
-</ul>
-<p>These limitations define where AI video belongs in the production stack: as a capable tool for specific applications, not as a replacement for production on projects where faces, action, and brand precision matter.</p>
+<h2>What this means for the next 12 months</h2>
+<p>I have been through enough technology cycles to recognize the pattern. Open video today is roughly where affordable drone footage was in 2016: impressive for the price, limited in application, and pointing clearly at a near future where those limits move.</p>
+<p>The people who learned drones early, who worked out what to ask of an operator and how to set a client's expectations, were the ones who benefited when the technology matured. The same thing is happening now, with one difference. LTX went from LTX 2 to 2.3 to 2.5 in about ten months. You do not rebuild every quarter. You keep the model name in one place in your pipeline and you run the three prompts above every time the number changes.</p>
 
-<h2>What This Means for the Next 12 Months</h2>
-<p>I've been through enough technology cycles to recognize the pattern. What LTX-Video 2 can do today is roughly equivalent to what affordable drone footage could do in 2016: impressive for the price, limited in application, but pointing clearly toward a near future where those limitations disappear.</p>
-<p>The studios that adapted to drone footage (learning to prompt operators, integrating it into workflows, building client expectations appropriately) are the ones who benefited when the technology matured. The same dynamic is playing out now with AI video.</p>
-<p>The question isn't whether to adopt AI video generation. It's whether to adopt it while the learning curve is steep (and the competitive advantage is real) or after it's become table stakes. I know which side I want to be on.</p>
-<p>LTX-Video 2 is available on fal.ai now. Run a test. The cost of entry is less than a coffee.</p>
+<section class="article-note note-sources">
+<h2>Sources and verification</h2>
+<p>Verified November 11, 2026. LTX 2.5 capabilities, checkpoint variants, frame and resolution rules, low memory options and licence terms: the official model card at huggingface.co/Lightricks/LTX-2.5. Current version: the Lightricks organization page on Hugging Face, which lists no model newer than LTX 2.5 on this date. Release date of August 11, 2026: DataNorth. Speed figure: VentureBeat. LTX-2 announcement in October 2025 and open weights in January 2026: Open Source For You. Sora API removal on September 24, 2026 and Veo 3 retirement on June 30, 2026: OpenAI's and Google's deprecation pages, covered in the linked articles. No generation was run for this article.</p>
+</section>
