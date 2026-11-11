@@ -926,3 +926,40 @@ If you deliver to clients, the question is not quality. It is whether the versio
 
 Both answers, with the official links:
 https://openyourais.com/blog/minimax-h3-when-sound-stopped-being-separate/
+
+## 11/11/2026, guardião. Rascunhos, nada agendado. Feed do LinkedIn NÃO lido hoje (Chrome desconectado).
+
+### LinkedIn, modo 1 (opinião pura, sem link)
+
+Uma skill gratuita do Claude faz animação sozinha.
+Um tutorial sobre ela passou de 300 mil views em uma semana.
+
+Fui ver os vídeos que saíram dela.
+
+O mesmo boneco palito.
+O mesmo zoom no mapa.
+O mesmo "e se" com outro país no título.
+
+A skill é de graça. Todo mundo instalou.
+E todo mundo pediu a primeira coisa que veio na cabeça.
+
+Ferramenta barata não é o problema.
+Ideia preguiçosa é.
+
+Animação nunca foi o keyframe.
+É decidir o que se mexe, quando, e o que fica parado para o movimento significar alguma coisa.
+
+A máquina entrega o movimento.
+A ideia continua sendo sua.
+
+### X, modo 3 (entrega, com link)
+
+"The Claude animation skill" everyone is searching for is not one thing. It is four.
+
+Remotion's official skills: React, free for individuals, paid licence for companies over 3 people.
+HyperFrames: HTML, Apache 2.0.
+claude-animation-skill: the hand-drawn one, MIT, four commits old.
+Claude Motion: not a skill. Team and Enterprise only.
+
+Which one to install, what each licence costs, and a brief to paste before you prompt:
+https://openyourais.com/blog/claude-animation-skill-free-or-paid-which-to-install/
