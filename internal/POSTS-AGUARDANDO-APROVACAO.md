@@ -963,3 +963,36 @@ Claude Motion: not a skill. Team and Enterprise only.
 
 Which one to install, what each licence costs, and a brief to paste before you prompt:
 https://openyourais.com/blog/claude-animation-skill-free-or-paid-which-to-install/
+
+## 12/11/2026, guardião. Rascunhos, nada agendado. Feed do LinkedIn lido hoje no Chrome.
+
+Feed: nenhum post novo no perfil pessoal em 4 semanas. "Não existe atalho" 8.555 (era 8.280 em 21/09), "IA DEGENERATIVA" 1.928, "IA DEGENERATIVA, parte 2" 1.047, Toninho selecionado 339, Cursor 131, Seedance e Toninho com openyourais.com 108, NVIDIA 89, Astra com lnkd.in 76, Remotion com lnkd.in 67.
+
+### LinkedIn, modo 1 (opinião pura, sem link). Pede imagem.
+
+IA DEGENERATIVA, parte 3.
+
+No dia 4 de novembro a Higgsfield lançou o Shorts Studio. Você sobe a foto de um personagem, a foto do produto e um vídeo de referência de 10 a 120 segundos. A ferramenta tira o movimento desse vídeo e coloca no apresentador que ela gerou.
+
+Está escrito assim no guia deles: o movimento é extraído e transferido.
+
+Movimento de quem?
+
+O jeito que uma pessoa segura o produto, inclina o corpo pra câmera e espera meio segundo antes de falar é atuação. Alguém fez aquilo, e fez bem, senão ninguém ia querer copiar.
+
+O próprio guia avisa lá embaixo que o vídeo de referência precisa ter os direitos liberados. Quinze segundos custam 4 dólares e 41. Eu duvido que alguém vá pagar isso e depois ligar pedindo autorização pra dona do gesto.
+
+Primeiro copiaram a cena. Depois a música. Agora é o corpo de quem atua.
+
+Quer usar? Grava você a referência, ou paga quem gravar. Aí é ferramenta. Do outro jeito é só mais uma cópia.
+
+### X, modo 3 (entrega, com link)
+
+Higgsfield Shorts Studio launched November 4. The headline price is $4.41 for a 15 second short with an AI presenter.
+
+The table behind it: 6 credits a second on Basic, 16 on High. A 2 minute short on High is 1,920 credits. The Plus plan gives you 1,000 a month.
+
+And that is per attempt. Higgsfield's own guide lists five things to check before posting: the face, the product label, the speech, the copied motion, the frame edges. Each one is a reason to regenerate at full price.
+
+The full price table and a brief to paste before you generate:
+https://openyourais.com/blog/higgsfield-shorts-studio-pricing-ai-presenter-director-read/
