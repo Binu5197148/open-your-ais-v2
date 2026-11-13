@@ -996,3 +996,45 @@ And that is per attempt. Higgsfield's own guide lists five things to check befor
 
 The full price table and a brief to paste before you generate:
 https://openyourais.com/blog/higgsfield-shorts-studio-pricing-ai-presenter-director-read/
+
+## 13/11/2026, guardião. Rascunhos, nada agendado. Feed do LinkedIn lido hoje no Chrome.
+
+Feed: nenhum post novo no perfil pessoal em 4 semanas. "Não existe atalho" 8.562 (era 8.555 em 12/11), "IA DEGENERATIVA" 1.928, "IA DEGENERATIVA, parte 2" 1.047, Toninho (teaser) 586, Toninho selecionado 339, Pixel2Motion com lnkd.in 312, Cursor 135 (era 131), Seedance e Toninho com openyourais.com 108, NVIDIA 89, Astra com lnkd.in 76, Remotion com lnkd.in 67. Seguidores: 741. Postiz não conectou nesta sessão, fila futura não conferida.
+
+### LinkedIn, modo 1 (opinião pura, sem link). Pede imagem.
+
+O Adobe MAX foi na segunda. A palavra em todo slide era agente.
+
+Agente no Premiere, no After Effects, no Illustrator, no Frame.io. E o Claude abrindo o projeto e trabalhando dentro do Premiere, ao vivo no palco.
+
+Fui ler o que saiu.
+
+Disponível pra todo mundo hoje: o Color Mode do Premiere 27. Que nem IA é.
+Remoção generativa de objeto: beta.
+O assistente que organiza projeto, sincroniza multicam e monta string-out: beta.
+O agente no Premiere do celular: beta fechado.
+O Claude dentro do Premiere: prévia. Beta fechado no começo de 2027.
+
+Uma linha pronta. O resto é promessa.
+
+Não é crítica à Adobe. Keynote mostra pra onde vai, e eu gostei de pra onde vai. O problema é quem sai de lá e posta que o Claude já edita no Premiere. Não edita. Eu uso os dois todo dia e queria muito que editasse.
+
+E repara no que o assistente faz: organizar, sincronizar, montar na ordem do roteiro. Tudo que vem antes da decisão. Escolher o take continua sendo de quem assistiu o material.
+
+Palco não é release note. Orçamento se escreve em cima do que dá pra abrir na segunda.
+
+### X, modo 3 (entrega, com link)
+
+Adobe MAX 2026 put an agent in every app on Monday. This is what an editor can open today, going by the three trade reports I could read:
+
+Generally available: Color Mode in Premiere 27.0. Not an AI feature.
+Beta: Generative Remove. The AI Assistant in Premiere and After Effects (bin cleanup, multicam sync, string-outs, expressions).
+Private beta: the agent in Premiere mobile.
+Preview: outside agents like Claude working inside Premiere and After Effects. Private beta planned for early 2027.
+
+One shipped line. Everything with the word agent on it is a beta or a preview.
+
+Not a complaint. A keynote shows direction, a release note shows what you can bill. Just do not promise a client the Claude integration this year.
+
+The status table, a 7 step Monday checklist and the three things I could not confirm:
+https://openyourais.com/blog/adobe-max-2026-premiere-agents-what-you-can-use-today/
