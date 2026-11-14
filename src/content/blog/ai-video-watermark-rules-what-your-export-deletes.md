@@ -1,10 +1,10 @@
 ---
 id: "art-168"
-title: "AI Watermark Rules: Your Export Strips the Credential"
-description: "The EU marking duty is live and the vendors did their half. The other half breaks the first time you export a master. What changes in delivery, step by step."
+title: "SynthID vs C2PA: Why Your Export Fails Compliance"
+description: "C2PA metadata dies at the first export; SynthID survives the grade. What the EU rules ask of you before the December 2 deadline, plus a provenance line to copy."
 pubDate: "2026-08-20"
-updatedDate: "2026-08-21"
-toolVersion: "2026-08"
+updatedDate: "2026-11-14"
+toolVersion: "2026-11"
 category: "AI"
 tags:
   - "AI Video"
@@ -17,6 +17,8 @@ heroImage: "https://images.unsplash.com/photo-1637250096679-c10f2751def8?ixid=M3
 author: "Ulisses Balbino"
 readTime: "7 min read"
 ---
+
+<p><em>Updated November 14, 2026: two things the original version left out. The European Commission published the final, voluntary Code of Practice on marking and labelling AI-generated content on June 10, 2026, with a providers section, a deployers section and EU icons for labelling. And the grace period for generators already on the market before August 2 ends on December 2, 2026, eighteen days from this update. Both are covered in a new section below. The rest of the argument stands.</em></p>
 
 <p>On August 18, 2026, InfoQ reported that the major model providers had shipped the AI video watermark and image marking machinery needed to comply with European regulation. Google had folded SynthID into Gemini and open-sourced parts of the implementation. OpenAI was embedding C2PA metadata manifests alongside SynthID pixel watermarks. Meta had done both across its consumer endpoints. The trigger was two weeks earlier: on August 2, 2026, the transparency obligations in Article 50 of the EU AI Act became enforceable, requiring synthetic output to be marked in a machine-readable format.</p>
 
@@ -76,6 +78,31 @@ readTime: "7 min read"
 
 <p>Third, I stopped assuming any platform's behaviour is stable. I will not tell you what a given video tool embeds today, because that changes without an announcement, and I have already written about <a href="/blog/sora-api-shutdown-platform-dependency-filmmakers/">how expensive it is to build a pipeline on a vendor's current behaviour</a>. Verify per delivery. It takes minutes.</p>
 
+<h2>What changes on December 2, 2026?</h2>
+
+<p>The transitional window closes. Any generator that was already on the market before August 2 has to mark its output in a machine-readable way from December 2. After that date there is no tool left in a grace period, which means "the vendor is still getting there" stops being a possible answer.</p>
+
+<p>The deployer side never had a grace period. Disclosing a deepfake you deliver has been your duty since August 2. The Commission's Code of Practice, published on June 10, splits the work the same way the regulation does: one section for providers on marking and detection, one for deployers on labelling deepfakes and AI-generated text on matters of public interest. The Code is voluntary, but it is the clearest written description so far of what "doing it properly" looks like, and the Commission published a set of EU icons for the visible label. If a client asks how you label, pointing at that document is a better answer than improvising one.</p>
+
+<h2>Can you remove an AI watermark from video?</h2>
+
+<p>It is one of the most searched questions about this topic, so here is the plain answer for a producer.</p>
+
+<p>The visible logo some tools stamp on free outputs is a plan feature, and paid plans usually drop it. That is not the watermark the regulation is about. The invisible pixel watermark, SynthID, is designed to survive compression, cropping, grading and re-encoding, so a normal post pipeline does not take it out. The C2PA manifest, on the other hand, disappears on its own at the first unaware export, which is the whole problem this article is about.</p>
+
+<p>None of that changes the legal position. If what you deliver is a deepfake and it reaches an audience in the EU, the disclosure duty is yours whatever is or is not left in the file. Removing a mark does not remove the obligation, it only removes your evidence that you met it.</p>
+
+<p>Copy this line into the delivery sheet, next to codec and colour space:</p>
+
+<pre><code>PROVENANCE
+Synthetic shots: [list shot numbers]
+Generated with: [tool / model / date]
+Assistive edits only (filmed material): [list]
+Deepfake of a real person: [yes / no]  Visible label applied: [yes / no]
+C2PA manifest on master: [present / stripped at export]
+Disclosure owner: [production company / agency]
+</code></pre>
+
 <h2>Why this is good news</h2>
 
 <p>Here is my contrarian read, and I hold it seriously.</p>
@@ -102,5 +129,6 @@ readTime: "7 min read"
 <li>C2PA fragility: manifests are carried in the file container (JUMBF boxes in MP4 and MOV) and are lost when a non-C2PA-aware tool resaves the file, and platform transcoding strips them: c2pa.org FAQ, truescreen.io, softwareseni.com.</li>
 <li>SynthID pixel watermarking is designed to survive compression, cropping, colour grading and re-encoding: Google DeepMind documentation as reported by simalabs.ai and c2paviewer.com.</li>
 <li>OpenAI and Google announced a dual-layer C2PA plus SynthID provenance model on May 19, 2026: c2paviewer.com. No claim is made here about what any specific video generation platform embeds today, because that changes without notice and has to be verified per delivery. UPDATE 2026-08-21 (guardiao-claude): added the Article 50(2) transitional period. Generative AI systems already on the market before 2 August 2026 have until 2 December 2026 to meet the machine-readable marking requirement; systems placed on the market on or after 2 August 2026 have no grace period. Verified against two independent sources: Cooley, "EU AI Act: Transparency Obligations Take Effect 2 August 2026" (2026-08-03), and praxikon.com, "2 December 2026: the next AI Act date and what applies then"; consistent with artificialintelligenceact.eu/transparency-rules-article-50. No existing claim was found to be false.</li>
+<li>UPDATE 2026-11-14 (guardiao-claude): the European Commission published the final, voluntary Code of Practice on marking and labelling AI-generated content on 10 June 2026, with sections for providers and deployers and EU labelling icons: <a href="https://digital-strategy.ec.europa.eu/en/news/commission-publishes-code-practice-marking-and-labelling-ai-generated-content" target="_blank" rel="noopener">European Commission, Shaping Europe's digital future</a> and <a href="https://www.jonesday.com/en/insights/2026/06/european-commission-publishes-final-code-of-practice-on-marking-and-labelling-aigenerated-content" target="_blank" rel="noopener">Jones Day, June 2026</a>. The 2 December 2026 end of the Article 50(2) transitional period, unchanged by the May 2026 Digital Omnibus agreement, and the absence of any grace period for deployer disclosure: <a href="https://labs.cloudsecurityalliance.org/research/csa-research-note-eu-ai-act-article50-watermarking-deadline/" target="_blank" rel="noopener">Cloud Security Alliance research note, 21 September 2026</a>. No newer change to these dates was found on November 14, 2026.</li>
 </ol>
 </section>
