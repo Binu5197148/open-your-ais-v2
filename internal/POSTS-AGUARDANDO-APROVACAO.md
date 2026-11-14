@@ -1038,3 +1038,41 @@ Not a complaint. A keynote shows direction, a release note shows what you can bi
 
 The status table, a 7 step Monday checklist and the three things I could not confirm:
 https://openyourais.com/blog/adobe-max-2026-premiere-agents-what-you-can-use-today/
+
+## 14/11/2026, guardião. Rascunhos, nada agendado. Feed do LinkedIn lido hoje no Chrome.
+
+Feed: post novo dele, Adobe MAX (modo 1, sem link, sem imagem), 1.005 impressões em 18 horas, 5 reações. É o quarto maior do perfil e o maior em um mês. "Não existe atalho" 8.563 (era 8.562), "IA DEGENERATIVA" 1.928, parte 2 1.047, Toninho (teaser) 586, Toninho selecionado 340 (era 339), Cursor 142 (era 135). Os de lnkd.in continuam entre 67 e 312. Seguidores: 741. Postiz: nada futuro no LinkedIn pessoal nem na página Open Your AIs; a fila tem só a Saga de Toninho Sagatiba no Balba Bossa (YouTube, Instagram, Facebook, 14 a 18/11).
+
+### LinkedIn, modo 1 (opinião pura, sem link). Imagem opcional.
+
+A pergunta mais buscada no YouTube sobre marca d'água de IA não é o que ela é. É como tirar.
+Quase 20 mil buscas por mês.
+
+Dia 2 de dezembro acaba a carência na Europa. Todo gerador que já estava no mercado antes de agosto passa a ter que marcar o que sai dele de um jeito que máquina lê.
+
+Só que são duas marcas.
+Uma é metadado. Some sozinha no primeiro export, no primeiro upload, na primeira vez que alguém reencoda pra mandar o link de aprovação.
+A outra está nos pixels. Foi feita pra sobreviver a corte, compressão e cor. O seu grade não tira.
+
+E nenhuma das duas é o problema. Se o que você entrega é deepfake e roda na Europa, avisar que é IA é dever de quem entrega. Não do modelo. Seu. Desde agosto, sem carência nenhuma.
+
+Tirar a marca não tira o dever. Só tira a sua prova de que cumpriu.
+
+Põe uma linha a mais na ficha de entrega, do lado do codec: o que foi gerado, com o quê, e quem assina.
+
+### X, modo 3 (entrega, com link)
+
+The most searched question about AI watermarks on YouTube is not what they are. It is how to remove them.
+
+On December 2 the EU grace period ends. Every generator that was already on the market before August 2 has to mark its output in a machine-readable way.
+
+There are two marks, and they fail in opposite ways.
+C2PA is metadata in the file container. It disappears at the first export, the first upload, the first re-encode for a review link.
+SynthID is written into the pixels. It is built to survive cropping, compression and grading. Your grade does not take it out.
+
+Neither one is your real problem. If you deliver a deepfake to an EU audience, disclosing it is your duty, not the model's. That has applied since August 2, with no grace period.
+
+Removing a mark does not remove the obligation. It only removes your evidence that you met it.
+
+What changes on December 2, what the EU Code of Practice asks of deployers, and a provenance line to paste into your delivery sheet:
+https://openyourais.com/blog/ai-video-watermark-rules-what-your-export-deletes/
