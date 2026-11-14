@@ -1,9 +1,10 @@
 ---
 id: "art-176"
-title: "AI Character Consistency: The Prep Nobody Shows You"
-description: "Junkyard King Chapter 2 held six characters across fifteen minutes. The method behind it was built before a single frame was ever generated."
+title: "Why Your AI Characters Keep Changing (And How to Fix It)"
+description: "Your AI character drifts because the prompt keeps redescribing it. The fix is a character sheet built once and referenced, with a copyable checklist inside."
 pubDate: "2026-08-30"
-toolVersion: "2026-08"
+updatedDate: "2026-11-14"
+toolVersion: "2026-11"
 category: "AI"
 tags:
   - "AI Character Consistency"
@@ -71,6 +72,36 @@ readTime: "7 min read"
 <p>Write down your recipe. Not the prompts, the decisions. Which model for which job, which lighting logic, which lens language, what the aesthetic actually is. Daubrez calls it reducing randomness and that is precisely right. A recipe is a document that stops you renegotiating settled questions at two in the morning. There is a longer version of how I structure that kind of pipeline in <a href="/blog/oiioii-ai-animation-pipeline-seven-agents-director-read/">this breakdown of a multi stage animation pipeline</a>.</p>
 
 <p>And keep the assets on your own drive. Every sheet, every approved frame, every seed that worked. These models are rented and the terms move under you, which is why Alibaba's recent flagship video releases shipping with <a href="/blog/wan-3-0-ships-closed-open-line-stopped-at-2-2/">no open weights at all</a> is a production risk and not a licensing footnote. If your character only exists inside somebody's account, so does your second season.</p>
+
+<h2>How do you create a consistent character with AI?</h2>
+
+<p>This is the question people actually type, and the answer is a sequence, not a setting. It works the same in Higgsfield, in Google Flow or in any tool that accepts reference images, because none of it depends on a single model.</p>
+
+<ol>
+<li><strong>Write the character down first.</strong> Age, build, face shape, hair, the one wardrobe item that identifies them, and the lighting logic they live in. Two short paragraphs, decided once.</li>
+<li><strong>Generate the sheet, not a shot.</strong> One image set with front, three quarter, profile, full body and two expressions on a neutral background. Redo it until you would sign it.</li>
+<li><strong>Make sheets for everything that repeats.</strong> Costume, helmet, vehicle, prop, product. If it appears in two shots, it needs its own reference.</li>
+<li><strong>Attach every sheet to every generation.</strong> Every still, every regeneration, every animation pass. Not only the sheet of the character in the foreground, all of them, plus the approved still you are animating.</li>
+<li><strong>Animate from approved stills.</strong> Use the approved frame as the start frame, and an end frame or Motion Control when the movement has to repeat.</li>
+<li><strong>Check the sequence, not the shot.</strong> Lay the frames side by side before the edit. Drift is invisible one shot at a time.</li>
+</ol>
+
+<p>Copy this into the first page of the production folder:</p>
+
+<pre><code>CHARACTER SHEET CHECKLIST
+[ ] Written description (face, build, hair, signature wardrobe, light)
+[ ] Front / three quarter / profile / full body
+[ ] Two expressions (neutral + one emotional extreme)
+[ ] Separate sheets: costume, props, vehicles, products
+[ ] Sheet approved and saved on your own drive
+[ ] All sheets attached to every generation, not only the lead
+[ ] Approved still used as start frame for animation
+[ ] Sequence check: frames side by side before the edit
+</code></pre>
+
+<p>Free tools can follow the same steps as long as they accept image references. The tool changes the price. It does not change the order.</p>
+
+<p><em>State check, November 14, 2026: we found no Chapter 3 of Junkyard King announced since the August release, so Chapter 2 remains the reference point here. Nano Banana Pro and Seedance 2.0 are still the tools named in this article.</em></p>
 
 <h2>The honest close</h2>
 
