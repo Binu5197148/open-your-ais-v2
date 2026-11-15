@@ -1,7 +1,7 @@
 ---
 id: "art-142"
-title: "Google, A24 and AI Tools: A Director Says No"
-description: "Google put $75 million into A24 for DeepMind tools. An A24 director says he would erase generative AI forever. Both positions hold. The deal shows why."
+title: "Don't Let AI Ruin Your Studio: Lessons from A24"
+description: "Google put a reported $75 million into A24 for DeepMind tools. Five months on nothing has shipped. Six questions to ask before a partner studies your process."
 pubDate: "2026-07-19"
 category: "AI"
 tags:
@@ -12,8 +12,27 @@ tags:
 heroImage: "https://images.unsplash.com/photo-1450133064473-71024230f91b?auto=format&fit=crop&w=1800&q=85&sat=-100&con=10"
 author: "Ulisses Balbino"
 readTime: "7 min read"
-updatedDate: "2026-07-23"
+updatedDate: "2026-11-15"
 ---
+
+<!-- Freshness pass 2026-11-15: no follow-up to the June 22 announcement found. Dated note, a question section, a six-question check and attribution of the $75 million figure added. Opinion text unchanged apart from two headings. Document-based. -->
+
+<p><em>Updated November 15, 2026. Nothing has shipped. We looked for a tool, a release date or a second announcement from Google DeepMind or A24 and found none since June 22. The state is the one <a href="https://the-decoder.com/google-deepmind-and-a24-team-up-on-ai-filmmaking-research/" target="_blank" rel="noopener">The Decoder</a> described that day: "There are no concrete products or results yet." One precision on the money: the figure of roughly $75 million comes from the Wall Street Journal's reporting, repeated by the outlets linked at the end. The July text follows the two sections below.</em></p>
+
+<h2>Is A24 using AI in its films?</h2>
+<p>Not in any film we could find announced. What is on the record is narrower. Google DeepMind and A24 have a long-term research partnership in which A24 filmmakers try tools inside their daily work and DeepMind gets the feedback. Variety reported that A24's library stays off limits to Google. No title has been named as made with these tools, and the director of A24's own Backrooms said, before the deal, that he would make generative AI disappear if he could. So the accurate answer today is that A24 has let an AI lab study how it works. It has not said that the lab's output is on screen.</p>
+
+<h2>Lessons from A24: six questions before a partner studies your process</h2>
+<p>You do not need $75 million on the table to face the same choice. A plugin vendor offering a free pilot, a platform asking to "learn your workflow", a client's innovation team sitting in on prep: it is the same deal at a smaller size. The terms A24 made public, and the ones it did not, give you the list.</p>
+<pre><code>RESEARCH PARTNER CHECK (before anyone studies your workflow)
+1. What do they see: finished work, dailies, scripts, or only the process?
+2. Is my library excluded in writing, including from training?
+3. Who decides which step counts as friction: us or them?
+4. Can a director on the roster opt out without losing the slot?
+5. What do we own of a tool built on our process?
+6. Is it exclusive, and where does the learning go when it ends?
+</code></pre>
+<p>A24 answered the second question in public and the sixth in part, since the deal is reported as non-exclusive. The third is the one this article is about. The same lab is also inside Darren Aronofsky's company, which we read in <a href="/blog/ai-film-studio-aronofsky-primordial-soup-director-take/">the Primordial Soup piece</a>.</p>
 
 <h2>The announcement</h2>
 <p>On June 22, Variety, Deadline, and IndieWire confirmed what had been circulating in industry circles for weeks: Google is investing $75 million in A24, tied to a research partnership with Google DeepMind to build new AI-powered tools for filmmakers. It is the first time Google's parent company, Alphabet, has taken a stake in a film studio.</p>
@@ -22,14 +41,14 @@ updatedDate: "2026-07-23"
 <p>And the studio's own roster had already spoken. Weeks before the deal became public, Kane Parsons, the director A24 backed for Backrooms, told The Australian: "If I could snap my fingers and make generative AI disappear forever, I probably would. Creatively, I get no enjoyment from using those tools."</p>
 <p>That is an A24 director, on the record about the kind of tools A24 has now accepted $75 million to help build. He was not reacting to the deal. The deal landed on top of his position, which makes the tension sharper, not softer.</p>
 
-<h2>What A24 actually is</h2>
+<h2>What A24 is</h2>
 <p>Before unpacking the contradiction, it is worth being precise about what A24 has built and why people care so much when it moves.</p>
 <p>A24 is not a prestige studio in the conventional sense. It does not have the institutional inertia of a Warner or the franchise obligations of a Disney. Its value proposition is curatorial: it bets on projects that do not fit the commercial math, backs filmmakers before their second film, and positions those bets as a brand statement. When you see the A24 logo, you have learned over fourteen years that the film probably takes a risk.</p>
-<p>That curatorial identity is not a marketing claim. It is the actual product. The reason filmmakers want A24 backing and the reason audiences follow the logo is that someone inside that company keeps saying yes to the wrong-looking thing.</p>
+<p>That curatorial identity is not a marketing claim. It is the product. The reason filmmakers want A24 backing and the reason audiences follow the logo is that someone inside that company keeps saying yes to the wrong-looking thing.</p>
 <p>Walter Benjamin wrote in 1935 that the aura of an original is not a property of the object. It is what someone chooses to witness. A24's aura is not its catalog. It is the pattern of choices embedded in that catalog. The willingness to fund Ari Aster's grief horror before anyone knew his name. The commitment to Yorgos Lanthimos's distorted comedies. The bet on Moonlight in a year when nobody expected it to find an audience.</p>
 <p>The question the deal raises is not whether AI tools can help make storyboards faster. They can. The question is what happens to the choosing when the infrastructure of choice is built by an optimization company.</p>
 
-<h2>What the tools actually are</h2>
+<h2>What the tools are</h2>
 <p>A24 partner Scott Belsky tried to be specific in early coverage. The tools in development focus on storyboarding and specific pre-production stages. They "won't look anything like the prompted generation type of AI that people feel uncomfortable with." The goal, in Belsky's framing, is to "preserve creative control and support risk-taking."</p>
 <p>That is an honest and reasonable goal. AI-generated storyboards, used well, can compress the gap between what a director envisions and what a production team can visualize before the camera is on. That gap is genuinely expensive. It is where miscommunication happens, where late pivots get born, where projects lose weeks of momentum to alignment problems that a clearer image could have prevented.</p>
 <p>I have worked on enough productions to know the pre-visualization problem is real. A stop-motion campaign I directed required every decision to be made before the first frame was captured, because the cost of revision mid-shoot was prohibitive. The ability to iterate visually before committing to physical execution would have compressed weeks of preparation into days. The tool would have served the work.</p>
