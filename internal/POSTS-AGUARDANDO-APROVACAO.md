@@ -1076,3 +1076,54 @@ Removing a mark does not remove the obligation. It only removes your evidence th
 
 What changes on December 2, what the EU Code of Practice asks of deployers, and a provenance line to paste into your delivery sheet:
 https://openyourais.com/blog/ai-video-watermark-rules-what-your-export-deletes/
+
+## 15/11/2026, guardião. Rascunhos, nada agendado. Feed do LinkedIn lido hoje no Chrome.
+
+Feed: o post dele do Adobe MAX (modo 1, sem link, sem imagem) dobrou em um dia, de 1.005 para 2.034 impressões, 11 reações e 1 comentário. Já é o segundo maior do perfil, atrás só de "Não existe atalho" (8.563, parado). "IA DEGENERATIVA" 1.928, parte 2 1.047, Toninho (teaser) 586, Toninho selecionado 340, Cursor 143 (era 142): todos parados. Os de lnkd.in continuam entre 67 e 312. Seguidores: 741, igual. Postiz: nada futuro no LinkedIn pessoal nem na página Open Your AIs; a fila tem só a Saga de Toninho Sagatiba no Balba Bossa (YouTube, Instagram, Facebook, 15 a 18/11).
+
+### LinkedIn, modo 1 (opinião pura, sem link). Imagem opcional: print da linha do Sora na página de deprecations da OpenAI.
+
+A API do Sora saiu do ar em 24 de setembro.
+
+Fui ler a página onde a OpenAI lista o que ela desliga.
+Aviso: 24 de março.
+Desligamento: 24 de setembro.
+Substituto: "No one-to-one replacement".
+
+O motivo, na boca da diretora financeira deles: falta de computação. O Wall Street Journal publicou o custo, perto de 1 milhão de dólares por dia.
+
+Nada disso tem a ver com a qualidade da imagem.
+Ferramenta boa também é desligada.
+
+A Disney tinha um acordo de 1 bilhão em cima disso. Saiu no dia seguinte ao aviso.
+
+E o aviso ficou seis meses numa página pública. Quem leu teve tempo.
+
+Eu uso Kling e Seedance toda semana. Não sei se algum dos dois fecha, e ninguém de fora sabe.
+O que dá pra saber é o que acontece com o meu job se fechar.
+
+Três perguntas por ferramenta:
+Se ela fechar em 30 dias, qual trabalho para?
+Já rodei o mesmo plano em outra?
+O master e os prompts estão guardados fora dela?
+
+E a que quase ninguém faz: onde essa empresa publica o aviso de desligamento, e quando foi a última vez que eu abri essa página.
+
+### X, modo 3 (entrega, com link)
+
+The Sora API went dark on September 24.
+
+OpenAI's own deprecations page has the whole story in one row. Notice: March 24. Shutdown: September 24. Replacement: "No one-to-one replacement".
+
+The reason, in their CFO's words: "We just are facing a lack of compute." The Wall Street Journal put the running cost at about $1 million a day.
+
+None of that is about the quality of the pictures. A good tool can still be switched off. Disney had a $1 billion deal built on it and walked the day after the notice.
+
+The notice sat on a public page for six months. Whoever read it had time.
+
+Nobody outside the vendor can tell you if Kling, Seedance or Veo is next. What you can know is what happens to your job if it is.
+
+So there is an exit sheet, one per rented tool: which job stops, whether a second tool has run the same shot, whether masters and prompts live outside the platform, and where the vendor posts shutdown notices.
+
+Copy it here:
+https://openyourais.com/blog/sora-api-shutdown-platform-dependency-filmmakers/
