@@ -1,10 +1,10 @@
 ---
 id: "art-172"
-title: "Claude Skills Weekly: Five Checked, One Left Rotting"
-description: "Five Claude skills opened and counted on August 22, not recalled from memory, plus the copy on my own drive that had sat five months out of date."
+title: "Claude Skills Analysis: Don't Get Left Behind"
+description: "Five Claude skills checked on GitHub, plus the copy on my own drive that sat five months out of date. Re-checked November 16, with the command to compare."
 pubDate: "2026-08-22"
-updatedDate: "2026-08-24"
-toolVersion: "2026-08"
+updatedDate: "2026-11-16"
+toolVersion: "2026-11"
 category: "AI"
 tags:
   - "AI Tools"
@@ -31,6 +31,19 @@ featured: true
 <p>The tool that names that exact failure, by number, has been sitting on my hard drive for five months in a version that does not contain it.</p>
 
 <p>So that is the column. Five Claude skills a week, checked by me, with the line the README does not put on the badge. Four from GitHub, one from my own shelf. This is number one.</p>
+
+<section class="article-note">
+<h2>Re-checked November 16, 2026</h2>
+<p>Everything below the next heading is the snapshot of August 22, left as written. The same repositories were read again on November 16 at 10:11 UTC. Read, not installed. What changed in twelve weeks:</p>
+<ul>
+<li><strong>humanizer is now 4.0.0</strong>, released November 10. 69,661 stars. Its <code>SKILL.md</code> now has 26 numbered patterns, not 35, so the pattern numbers quoted in this article belong to version 2.11.2 and no longer match the file.</li>
+<li><strong>The stale copy is stale again.</strong> The copy on this machine, pulled up to 2.11.2 on August 24, still reads 2.11.2. Upstream reads 4.0.0. The point of this article repeated itself without anyone touching it.</li>
+<li><strong>html-anything was renamed.</strong> The repository is now <code>nexu-io/openmotion</code> and describes itself as an open-source motion and video studio. The link in section 3 still works because GitHub redirects it. The permissive flags described there were read in the August README and were not re-read for this update.</li>
+<li><strong>video-shotcraft changed its own count.</strong> The README now says 124 recipe cards in 10 categories and 150 shots. In August there were 152 cards. 20,327 stars.</li>
+<li><strong>planning-with-files is at v3.28.1</strong>, released November 7. 28,088 stars. The benchmark discussed in section 4 is now further behind the current version than it was.</li>
+<li><strong>gauntlet-loop.</strong> The zip at openyourais.com/skills answered 200.</li>
+</ul>
+</section>
 
 <h2>How I checked</h2>
 
@@ -183,6 +196,26 @@ pnpm -F @html-anything/next dev</code></pre>
 <p>That list is why this skill is scheduled for week five rather than week one. Putting it last buys four weeks of work, and telling you that is more useful than pretending the schedule was editorial instinct.</p>
 
 <p><strong>Verified.</strong> August 22, 2026. Local file at <code>~/.claude/skills/gauntlet-loop/SKILL.md</code>, 156 lines, 9,115 bytes, last modified August 12, 2026. My own name appears in it three times, on lines 3, 103 and 152, all of which have to go before it ships. Shumer is credited twice, on lines 3 and 54, so the attribution is already there. Eight long dashes, zero short ones. The <code>references/</code> directory contains no files.</p>
+
+<h2>How do you install Claude skills from GitHub, and keep them current?</h2>
+
+<p>Two routes cover most repositories. The skills CLI, <code>npx skills add owner/repo</code>, copies the skill into the current project, and <code>--global</code> puts it in your user folder. The plugin route runs inside Claude Code, <code>/plugin marketplace add owner/repo</code> followed by <code>/plugin install name@name</code>, and it is the one to use when the skill depends on hooks, as planning-with-files does.</p>
+
+<p>Neither route tells you when upstream moves. A skill installed by copy is a photograph of the repository on the day you ran the command. The check that would have caught the five month gap at the top of this article is three lines. Copy them, put your own names in, and run them once a month:</p>
+
+<pre><code>IS MY INSTALLED SKILL BEHIND?
+
+# what is on my machine
+grep -m1 -i "version" ~/.claude/skills/SKILLNAME/SKILL.md
+
+# what the author last released
+gh api repos/OWNER/REPO/releases/latest --jq '[.tag_name,.published_at]'
+
+# what the file on the main branch says today
+curl -sL https://raw.githubusercontent.com/OWNER/REPO/HEAD/SKILL.md | grep -m1 -i "version"
+</code></pre>
+
+<p>If the three answers disagree, read the changelog before you update. A new major version can renumber or remove the rule you were relying on, which is what humanizer did between 2.11.2 and 4.0.0.</p>
 
 <h2>What I did not verify</h2>
 
