@@ -956,3 +956,86 @@ acervo" da tarefa agendada nao se cumpre mais sem decisao dele. Pergunta levada 
   do X. LinkedIn deve as duas pontas.
 - **Trava 7.** LinkedIn da 11 abre com verbo, X com numeral.
 - **Axenworks.** Paginas ainda nao usadas: braw, gopro, e as de 32gb a 2tb exceto 1tb.
+
+---
+
+## Notas da edicao 12, escritas em 2026-11-16
+
+```
+| 12 | artigo   | 2026-11-16 | A7 | F1 | -   | -     | 0 axenworks | nenhum |
+| 12 | linkedin | AAAA-MM-DD | -  | -  | P7  | 1300  | NAO (link no 1o comentario) | segmentacao do leitor |
+| 12 | x        | AAAA-MM-DD | -  | -  | P11 | 299 (199 na contagem do X) | sim | nenhum |
+```
+
+- **Foi direto para a main**, pela regra de 10/11 ("autorizo as rotinas"): worktree limpa em cima de
+  `origin/main`, `npm run build` com verify-indexability passando (146 URLs no sitemap, 135 artigos),
+  `site-health` sem bloqueio, push `06c10cf`. URL 200 em producao as 10h19m33s UTC, no primeiro
+  teste: https://openyourais.com/blog/5-week-skills-12-percent-of-what/
+  `id` art-199 (maior na main antes: art-198).
+- **As edicoes 6 a 11 estao na main** (conferido na arvore de `origin/main` hoje). As notas acima que
+  dizem "nao foi para a main" descrevem o dia em que foram escritas.
+- **Indexacao solicitada no Search Console** as 10h21 UTC, propriedade `sc-domain:openyourais.com`,
+  pelo Chrome logado. O painel confirmou "Indexacao solicitada". Uma solicitacao gasta. O link
+  direto de inspecao deu 404; funcionou abrindo a propriedade e usando o campo de inspecao.
+- **Abertura A7, o corte**: o experimento atribuido a Kuleshov (um rosto neutro, tres planos ao
+  lado), com a ressalva de que o material se perdeu e os relatos divergem, e link para a Wikipedia.
+  Liga com o angulo: cada README abre com um numero, e o sentido vem da unidade ao lado. Fecho
+  **F1**, a duvida que ficou: de quem e a trilha que um agente escreveu nota por nota.
+- **As cinco skills**: rea-video (video, analise de referencia), music-skill (audio, trilha escrita
+  em notas), Papermorph (documento para web: livro animado e narrado), astro-conversion-kit (web:
+  WordPress para Astro), skill-diet (organizacao: enxugar as skills instaladas). **Nenhuma do
+  acervo**, oitava edicao seguida, pelo mesmo motivo: o que sobra esta travado por direitos ou
+  autoria. A REA publicada no site e de terceiro (morluto/rea), nao e do acervo.
+- **Descartadas**: heydamir/unslop (repetiria a Hallmark), win4r/video-director e outras de filme em
+  codigo (terreno ja coberto), kurbaitaev/ghost-editor e axtonliu/video-illustrator (video de novo),
+  mikehasa/golive-skill (README longo, fica para outra semana), zhuyansen/new-term-radar (nao
+  consegui dizer em uma frase como serve a quem produz audiovisual), YTruman/better-skill (mesmo
+  terreno da skill-diet), Vibha-Ramprakash/claude-video-effects e Motionsites-AI/claude-skill
+  (licenca "other", nao lida), appariciojunior/video-editor-skills (CC BY-NC, ja recusada na 9).
+- **Zero link para axenworks.** Nenhuma das cinco cria pergunta de cartao, bitrate ou peso de video.
+- **Um vicio da 3.1 gasto**, no LinkedIn: a segmentacao do leitor, forma natural do P7. Nenhum no
+  artigo nem no X. Tres frases do rascunho do artigo foram corrigidas antes do build: o tempo do
+  adaptador da skill-diet (de "4 a 16" para "de menos de 4 a 16 minutos"), "child" por "girl" no
+  relato de Kuleshov, e uma frase sobre contrato de cliente que afirmava um habito dele sem fonte.
+- Snapshot unico: 2026-11-16, 10h11m51s UTC, `gh` autenticado. 40 URLs do artigo testadas as 10h18
+  UTC, todas 200, mais a capa.
+- Tom das cinco pegadinhas, para a trava 8: o que a acuracia cobre, arquivo original contra download
+  de plataforma, e som fora da conta (rea-video); ninguem ouviu o arquivo que a maquina rendeu
+  (music-skill); preco por capitulo, nao por livro (Papermorph); os 83 minutos acabam no PR, staging
+  publico por padrao e nenhuma pergunta sobre de quem e o site (astro-conversion-kit); "sem queda"
+  vale para 10 a 15 tarefas de teste, tiradas dos seus logs (skill-diet). Cinco tons.
+- **Regra do contador**: rea-video, 15 + 9 + 7 videos no arquivo de resultados contra 15 e 16 na
+  tabela do README, bateu. music-skill, seis pecas de exemplo, bateu. skill-diet, duas skills, bateu.
+  astro-conversion-kit nao anuncia numero; contei oito pastas com SKILL.md. Papermorph: a pasta da
+  skill tem 141 arquivos e cerca de 1,6 MB; o repositorio inteiro, 7.753 arquivos e cerca de 778 MB
+  pela soma da arvore.
+- **Idioma nao virou pegadinha.** O arquivo de resultados e o SKILL.md do rea-video sao em chines;
+  entrou como fato.
+- **Comunidade**: a busca do Hacker News nao devolveu JSON daqui e o Reddit respondeu 403. Nao
+  verificado, registrado no bloco 5 do artigo.
+- **Capa**: poltronas de cinema vazias, primeira sorteada pelo `--pick` rodado na worktree
+  atualizada, conferida contra todas as branches remotas e olhada antes de usar.
+- **Titulo**: "99 Percent of What? Five Claude Skills and Their Units", 54 caracteres. Sem "check",
+  sem comecar com "What", fora da forma "Five Claude Skills for X, and Y". Descricao com 156.
+- **Postiz conferido em 16/11**: nenhum post da coluna publicado nem agendado entre 02/11 e 30/11.
+  O X aparece conectado (`cmvmhajb70001oz808g37d8mk`), ao contrario do que a tarefa agendada diz.
+
+## Leitura das travas para a edicao 13
+
+- **Aberturas.** **A9 e obrigatoria na 13** (ultima na 7, regra de uma a cada 6). A7 acabou de ser
+  gasta: fora ate a 17. A6 fora ate a 16, A4 ate a 15, A3 ate a 14.
+- **Fechos.** F1 acabou de ser gasto: fora ate a 15. F4 fora ate a 14. F3 volta na 13. A 13 sai de
+  F2, F3, F5 ou F6.
+- **Formatos de post** (contam da publicacao; nada publicado desde a edicao 5). Rascunhos
+  pendentes: 4 (P3, P8), 6 (P6, P2), 7 (P11, P5), 8 (P1, P7), 9 (P3, P8), 10 (P9, P10),
+  11 (P6, P2), 12 (P7, P11). Preferir P1, P4, P5 ou P12 na 13.
+- **Trava 4.** Janela 11 a 15. Se os da 12 sairem: LinkedIn paga a ponta de cima (1.300) e o X paga
+  a de baixo (199 na contagem do X). O LinkedIn ainda deve um abaixo de 400.
+- **Trava 7.** Os dois canais abriram com sintagma nominal na 12. A 13 precisa de outra classe.
+- **Vicios da 3.1.** Segmentacao do leitor gasta no LinkedIn da 12: fora do canal por cinco posts.
+- **Candidatos a vigiar.** (1) Titulo "Five Claude Skills and ...": apareceu na 11 e, deslocado para
+  depois da pergunta, na 12. Na 13, titulo sem essa sequencia. (2) O angulo "o rotulo contra a letra
+  miuda": palavras na 11, numeros na 12. Terceira seguida dispara cooldown; a 13 precisa de outro
+  eixo. (3) Bloco final "What I still do not know" apareceu na 9 e na 12; com F1 fora ate a 15, nao
+  volta tao cedo.
+- **Axenworks.** Paginas ainda nao usadas: braw, gopro, e as de 32gb a 2tb exceto 1tb.
