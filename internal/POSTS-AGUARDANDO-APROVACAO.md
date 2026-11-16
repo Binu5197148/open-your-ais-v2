@@ -1127,3 +1127,49 @@ So there is an exit sheet, one per rented tool: which job stops, whether a secon
 
 Copy it here:
 https://openyourais.com/blog/sora-api-shutdown-platform-dependency-filmmakers/
+
+## 16/11/2026, guardião. Rascunhos, nada agendado. Feed do LinkedIn lido hoje no Chrome.
+
+Feed: o post dele do Adobe MAX (modo 1, sem link, sem imagem) foi de 2.034 para 3.492 impressões em um dia, 17 reações e 2 comentários. Segundo maior do perfil e ainda subindo. "Não existe atalho" 8.563, "IA DEGENERATIVA" 1.928, parte 2 1.047, Toninho (teaser) 586, Toninho selecionado 340: parados. Cursor 147 (era 143). Os de lnkd.in continuam entre 67 e 312. Seguidores: 742 (eram 741). Postiz: nada futuro no LinkedIn pessoal nem na página Open Your AIs; a fila tem só a Saga de Toninho Sagatiba no Balba Bossa (YouTube, Instagram, Facebook, 16 a 18/11).
+
+### LinkedIn, modo 1 (opinião pura, sem link). Imagem opcional: print do terminal com os três 503.
+
+Em setembro eu abri os arquivos de uma skill de design com 29 mil estrelas no GitHub.
+
+Lá dentro, uma instrução: quando a página precisar de foto de gente, comida ou produto, buscar num endereço da Unsplash.
+
+O endereço respondia 503. Fora do ar.
+
+Ninguém escolhe esse endereço. A skill escolhe, num arquivo que quase ninguém abre. Site de restaurante, página de elenco, lançamento de produto: é nesses que a foto é o assunto, e é nesses que vinha o buraco.
+
+Hoje fui olhar de novo.
+
+O endereço continua morto. Três pedidos, três 503.
+A skill tem 55 mil estrelas e não manda mais ninguém pra lá. Agora o arquivo proíbe o que antes recomendava.
+
+Só que quem instalou em setembro continua com o arquivo de setembro na máquina.
+Ninguém avisa.
+
+Outra que eu li em agosto, pra montar deck em HTML, mudou de nome. Hoje se apresenta como estúdio de vídeo.
+
+Skill instalada é uma foto do repositório no dia do comando.
+Estrela conta quem clicou. Não conta quem leu.
+
+Eu uso skill todo dia. Abro os arquivos antes de instalar, e abro de novo um mês depois.
+
+### X, modo 3 (entrega, com link)
+
+In September a design skill with 29,000 GitHub stars told the agent to fetch real-subject photos from an Unsplash address.
+
+That address answered 503. You never pick it. The skill picks it, in a file almost nobody opens.
+
+I looked again today. The address is still dead: three requests, three 503s. The skill is at 55,000 stars and no longer sends anyone there. The file now forbids what it used to recommend.
+
+Anyone who installed it in September still has September's file on their machine. Nothing tells you.
+
+An installed skill is a photograph of the repository on the day you ran the command.
+
+So there is a six-line check to run before any install: is the repo alive, which addresses it calls on its own, what each one answers, what it publishes or uploads, which tools it assumes, and which version you are getting.
+
+Copy it here:
+https://openyourais.com/blog/5-week-skills-04-the-step-you-never-chose/
