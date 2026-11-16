@@ -1,9 +1,10 @@
 ---
 id: "art-186"
-title: "Five Claude Skills and the Choice They Make for You"
-description: "Five Claude skills opened on September 17. One sends your photo slots to a server answering 503. What each one does in the step you never chose."
+title: "Claude Code Skills: What You Need to Check First"
+description: "Five Claude skills read file by file and re-checked on November 16. One fixed its dead photo address, one publishes your deck. What to check before installing."
 pubDate: "2026-09-17"
-toolVersion: "2026-09"
+updatedDate: "2026-11-16"
+toolVersion: "2026-11"
 category: "AI"
 tags:
   - "AI Tools"
@@ -22,6 +23,21 @@ featured: true
 <p>On its own that number is somebody else's outage. It lands in this column because a design skill with almost 29,000 stars on GitHub tells the agent to use that address whenever a page needs a photograph of a real subject. You never pick it. The skill picks it, in a step you do not see, and you find out when the client opens the link.</p>
 
 <p>So this week I read each skill for the same thing: what it does on its own when you do not choose. Every one of the five makes a decision like that, and in each case the decision is written down in a file you can read before installing. That is where I looked.</p>
+
+<section class="article-note">
+<h2>Re-checked November 16, 2026</h2>
+<p>Everything below the next heading is the snapshot of September 17, left as written. Two months later the same requests were repeated, on November 16 at 10:11 UTC. Read, not installed. What changed:</p>
+<ul>
+<li><strong>The Unsplash address is still dead.</strong> Three requests to <code>source.unsplash.com</code>, portrait, food and random, answered 503 three times.</li>
+<li><strong>Hallmark stopped sending you there.</strong> The skill is now version 2.0.0. The placeholder ladder described in section 1 is gone from the repository. Images are now handled by <code>skills/hallmark/references/imagery.md</code>, last changed October 21, which tells the agent never to take an image URL from a stock site, and the skill's own linter flags <code>source.unsplash.com/random</code> as a placeholder. The catch in section 1 describes version 1.1.0. If you installed Hallmark before October, your copy may still carry the old ladder, so check which version you have.</li>
+<li><strong>Hallmark's install line changed.</strong> The README now gives <code>npx skills add nutlope/hallmark -g</code>, and a plugin route. 55,776 stars, last push November 11.</li>
+<li><strong>polysync did not move.</strong> PyPI still lists 0.3.0 as the newest release and the repository's last push is still May 25. The skills repository that calls it was pushed on November 16.</li>
+<li><strong>Frontend Slides did not move.</strong> Last push is still June 23, so the deploy and PDF scripts described in section 3 are the ones being served. 32,386 stars.</li>
+<li><strong>shuohao-skills kept moving.</strong> 6,704 stars, last push November 9. The image step was not re-read for this update.</li>
+<li><strong>world-film.</strong> The zip at openyourais.com/skills answered 200.</li>
+</ul>
+<p>The lesson of the first item is the one worth keeping. A catch in a skill has a version number. The address stayed broken and the skill changed around it.</p>
+</section>
 
 <h2>How I checked</h2>
 
@@ -169,6 +185,42 @@ cd shuohao-skills
 <p>None of that breaks the generation or the assembly, which are the parts that matter. It does mean you should read Step 6 before running it, and replace the voice, the folder and the title handoff with your own. The credit estimate is also mine and dated: the skill says it observed roughly 40 to 55 credits per video in July 2026 on my plan, and it tells the agent to measure one still and one video before trusting any number, which is the instruction I would keep.</p>
 
 <p><strong>Verified.</strong> September 17, 2026, 13:30 UTC. The zip served at <code>openyourais.com/skills/world-film.zip</code> answered 200 and is byte identical to the file in the site repository. Five files: a README of 867 bytes, a <code>SKILL.md</code> of 16,363 bytes, <code>pipeline.md</code>, <code>prompts.md</code> and <code>assemble.py</code>. The folder, voice and <code>novelty</code> lines were read in that <code>SKILL.md</code> and in <code>pipeline.md</code>. Instructions are in English, with the exceptions above.</p>
+
+<h2>How do you install skills in Claude Code?</h2>
+
+<p>The five skills above use the three routes you will meet almost everywhere, and each one puts files in a different place.</p>
+
+<ul>
+<li><strong>The skills CLI:</strong> <code>npx skills add owner/repo</code> copies the skill folder into the current project, or into your user folder with <code>-g</code>. It needs Node.</li>
+<li><strong>The plugin route, inside Claude Code:</strong> <code>/plugin marketplace add owner/repo</code>, then <code>/plugin install name@name</code>, sent as two separate messages. This is the route that can also register hooks.</li>
+<li><strong>By hand:</strong> clone or unzip, then copy the folder that contains <code>SKILL.md</code> into <code>~/.claude/skills/</code>.</li>
+</ul>
+
+<p>Installing is the short part. The reading is what this column is about, and it fits in one block. Copy it and run it against the repository before the install command:</p>
+
+<pre><code>BEFORE YOU INSTALL A CLAUDE SKILL
+
+# 1. Is it alive, and under which licence?
+gh api repos/OWNER/REPO --jq '[.pushed_at,.archived,.license.spdx_id]'
+
+# 2. Clone it somewhere neutral and list every address it calls on its own
+git clone https://github.com/OWNER/REPO /tmp/skill-read
+grep -rnE "https?://" /tmp/skill-read --include="*.md" --include="*.sh" --include="*.py" --include="*.mjs"
+
+# 3. Request each address once. Anything that is not 200 is a question.
+curl -s -o /dev/null -w "%{http_code}\n" "ADDRESS"
+
+# 4. Find the steps that publish, upload or deploy
+grep -rniE "deploy|--prod|upload|publish|--yes" /tmp/skill-read
+
+# 5. Find the tools it assumes you have
+grep -rniE "codex|ffmpeg|pip install|api[_ ]key" /tmp/skill-read
+
+# 6. Write down the version in SKILL.md and today's date
+grep -m1 -i "version" /tmp/skill-read/SKILL.md
+</code></pre>
+
+<p>Step 3 is how the 503 above was found. Step 4 is how the public deploy in Frontend Slides was found. Step 6 is why the note at the top of this article exists.</p>
 
 <h2>What I did not verify</h2>
 
