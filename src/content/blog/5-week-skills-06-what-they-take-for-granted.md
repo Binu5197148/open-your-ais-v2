@@ -3,7 +3,8 @@ id: "art-188"
 title: "Five Claude Skills and What They Take for Granted"
 description: "Five Claude skills reviewed from their own files: a Word redliner, a palette tool, a ComfyUI kit, a NotebookLM driver and a screenwriting pack, with limits."
 pubDate: "2026-09-28"
-toolVersion: "2026-09"
+updatedDate: "2026-11-17"
+toolVersion: "2026-11"
 category: "AI"
 tags:
   - "AI Tools"
@@ -22,6 +23,40 @@ featured: true
 <p>The skill I liked most this week works exactly like that. It is called <a href="https://github.com/feitangyuan/onetake" target="_blank" rel="noopener">onetake</a>, it went public on GitHub on September 26, and by this morning it had 639 stars. It makes motion films where every beat grows out of the one before, and it measures the joins with a script before a human sees the cut. I read the README to the bottom, and the last section settles it: the licence is PolyForm Noncommercial 1.0.0, and the file says in bold that commercial use is not permitted. This column is read by people who deliver paid work, so onetake is not one of the five.</p>
 
 <p>That is the week. None of the five below forbids commercial use in its own licence. That is not the same as saying everything they touch is cleared for a paid job, and each entry separates the licence of the code from the models, accounts and material it reaches. Each one also assumes something you never said out loud: about your file, someone else's images, a model's licence, your Google account, or quotations that belong to other people.</p>
+
+<section class="article-note">
+<h2>Re-checked November 17, 2026</h2>
+<p>Everything below the next two headings is the snapshot of September 28 and 29, left as written. The same repositories were read again on November 17 at 10:16 UTC. Read, not installed. What changed in seven weeks:</p>
+<ul>
+<li><strong>onetake now sells the permission it withheld.</strong> The licence is still PolyForm Noncommercial 1.0.0 and the README still says in bold that commercial use is not permitted. The same README now offers onetake Pro, a commercial licence with the source of every film, for 79 dollars, one time. I read the offer in the README and did not open the sales page. 4,200 stars, up from 639.</li>
+<li><strong>docx-cli is at v0.29.0</strong>, released November 6. It was v0.26.0 here. 249 stars, MIT, last push November 12.</li>
+<li><strong>design-dna has not been pushed to since August 28.</strong> Eleven weeks. 2,133 stars, MIT.</li>
+<li><strong>ComfyUI-Agent-Kit</strong> has 123 stars, Apache 2.0, last push November 2. Its latest tagged release is still v3.2.0 from August, and <code>ATTRIBUTION.md</code> is still at the root.</li>
+<li><strong>notebooklm-py is at v0.8.6</strong>, released October 29, pushed to on November 15. 20,263 stars. Its description now says Google Gemini Notebook. PleasePrompto/notebooklm-skill is still archived.</li>
+<li><strong>screenwriting-skills</strong> has 2,104 stars, MIT, last push October 3. The NOTICE file is still at the root.</li>
+</ul>
+</section>
+
+<h2>Can you use Claude skills for paid client work?</h2>
+
+<p>Only if the licence says so, and the badge at the top of the page is not the licence. This edition has the three cases in one place. onetake shows a badge and forbids commercial use in the file under it, unless you buy the separate licence. screenwriting-skills shows MIT and ships a NOTICE for material the MIT text does not reach. ComfyUI-Agent-Kit is Apache 2.0 for its own code and keeps the licence of each component it reaches in a separate table, <code>ATTRIBUTION.md</code>.</p>
+
+<p>GitHub will not always tell you. Asked for onetake's licence today, its API answered <code>NOASSERTION</code>, which means it found a file and could not classify it. These four lines are the ones I ran on November 17 to read the licences above. Swap in the repository you are about to install. They need the <code>gh</code> CLI, signed in.</p>
+
+<pre><code># 1. What licence does GitHub detect?
+gh api repos/OWNER/REPO --jq '.license.spdx_id'
+
+# 2. NOASSERTION or null: read the top of the file yourself
+gh api repos/OWNER/REPO/license --jq '.content' | base64 -d | head -20
+
+# 3. Does the README sell a separate commercial licence?
+gh api repos/OWNER/REPO/readme --jq '.content' | base64 -d | grep -n -i 'commercial'
+
+# 4. Is there a file the badge does not cover?
+gh api repos/OWNER/REPO/contents --jq '.[].name' | grep -i 'notice\|attribution\|third'
+</code></pre>
+
+<p>That covers the code. It does not cover the models a skill calls, the accounts it logs into or the material it quotes, which is what the five entries below are about. How to get a skill onto the machine in the first place is in <a href="/blog/5-week-skills-04-the-step-you-never-chose/">edition 4</a>, and the ones I publish myself are at <a href="/skills/">openyourais.com/skills</a>.</p>
 
 <h2>How I checked</h2>
 
