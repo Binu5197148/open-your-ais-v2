@@ -1173,3 +1173,43 @@ So there is a six-line check to run before any install: is the repo alive, which
 
 Copy it here:
 https://openyourais.com/blog/5-week-skills-04-the-step-you-never-chose/
+
+## 17/11/2026, guardião. Rascunhos, nada agendado. Feed do LinkedIn NÃO lido hoje (o LinkedIn abriu deslogado no Chrome).
+
+Feed: sem leitura hoje. Última leitura, 16/11: o post dele do Adobe MAX (modo 1, sem link, sem imagem) em 3.492 impressões e subindo; "Não existe atalho" 8.563; os de lnkd.in entre 67 e 312. Postiz: nada futuro no LinkedIn pessoal, na página Open Your AIs nem no X; a fila tem só a Saga de Toninho Sagatiba no Balba Bossa (YouTube, Instagram, Facebook, 17 e 18/11).
+
+### LinkedIn, modo 1 (opinião pura, sem link). Sem imagem, como o do Adobe MAX.
+
+Em março o Spielberg disse no SXSW: "Nunca usei IA em nenhum dos meus filmes, ainda."
+
+Todo mundo ficou no "ainda". Metade leu como porta aberta, a outra metade como bandeira contra.
+
+Em maio ele explicou, no podcast da Michelle Obama.
+"Use a IA como ferramenta, mas não como a palavra final em nada criativo. É aí que eu traço a linha."
+
+Ele disse que a IA pode poupar muito trabalho braçal, como procurar locação.
+E disse onde ela não entra: na cadeira de alguém. Na sala de roteiro dele, "todos os lugares estão ocupados".
+
+Então o "ainda" nunca foi sobre filme gerado. Era sobre quem carrega equipamento e quem senta à mesa.
+
+Dá pra fazer essa pergunta em qualquer job, antes de começar:
+Onde a IA entra aqui, ela está fazendo trabalho braçal ou tomando decisão?
+Quem dá a palavra final nisso, com nome?
+Se o cliente perguntar quem escolheu, a resposta é uma pessoa?
+
+Se a resposta for "a ferramenta", falta alguém na mesa.
+
+### X, modo 3 (entrega, com link)
+
+Spielberg at SXSW in March: "I've never used AI on any of my films yet."
+
+Everyone argued about the "yet". In May, on the IMO podcast with Michelle Obama and Craig Robinson, he said where the line is: "Use AI as a tool, but do not use AI as the final word on anything creative. That's where I draw the line."
+
+He said AI could "save us a lot of legwork", like scouting locations. And in his writers' rooms, "all the seats are occupied."
+
+So the "yet" was never a door left open for a generated film. The tool can carry equipment. It does not get a chair.
+
+Those two interviews turn into a five-line check to run before a job: is the tool doing legwork or making a decision, whose chair would be empty without it, who has the final word by name, did that person see it before the client, and can you answer "who made this choice" with a person.
+
+Copy it here:
+https://openyourais.com/blog/spielberg-no-ai-sxsw-2026-director-perspective/
