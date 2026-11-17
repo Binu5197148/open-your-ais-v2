@@ -3,7 +3,8 @@ id: "art-187"
 title: "Five Claude Skills and the Check the Install Command Skips"
 description: "NVIDIA found a flaw in one in four agent skills it scanned, then listed what its scanner cannot read. Five new Claude skills and the check each leaves you."
 pubDate: "2026-09-21"
-toolVersion: "2026-09"
+updatedDate: "2026-11-17"
+toolVersion: "2026-11"
 category: "AI"
 tags:
   - "AI Tools"
@@ -26,6 +27,42 @@ featured: true
 <p>I write my skills in Portuguese. Half of what I install comes out of Chinese, Korean and Japanese repositories. So which number covers me? I do not know. I do not know what the scanner sees in a Portuguese instruction file, and I do not know why 11,315 skills in that dataset were left out of the analysis. Nothing in the README says.</p>
 
 <p>That is the week. Each of the five below is doing real work, and each one quietly leaves one check on your desk that the install command does not run for you.</p>
+
+<section class="article-note">
+<h2>Re-checked November 17, 2026</h2>
+<p>Everything below the next two headings is the snapshot of September 21, left as written. The same repositories were read again on November 17 at 10:16 UTC. Read, not installed. What changed in eight weeks:</p>
+<ul>
+<li><strong>SkillSpector is at v2.13.6</strong>, released November 16. 26,531 stars, up from 17,961. The research figures at the top of its README are the same ones quoted here, and the README still does not say why 11,315 skills were left out. The Limitations section still carries the line about non-English content and has gained a fifth item, about running the dependency check offline.</li>
+<li><strong>Its install line changed.</strong> The README now pins the interpreter: <code>uv tool install --python 3.13 git+https://github.com/NVIDIA/skillspector.git</code>. The line in section 3 is the September one.</li>
+<li><strong>huashu-design is at v3.3.0</strong>, released November 10, and now describes itself as Huashu Design 3.0. 29,695 stars, MIT. The 191 file count in section 1 belongs to September and was not recounted.</li>
+<li><strong>reference-video-director did not move.</strong> Still 0 stars, last push August 7. The old L4A-ai address still redirects and answered 200.</li>
+<li><strong>Distilly</strong> has 26,621 stars, MIT, last push October 13.</li>
+<li><strong>ugc-avatar-builder.</strong> The zip at openyourais.com/skills answered 200. It still has no LICENSE file inside: five entries, a README, a SKILL.md and one reference file. The gap named in section 5 is still open.</li>
+</ul>
+</section>
+
+<h2>Are Claude skills safe to install?</h2>
+
+<p>Nobody checks them at the door, so the answer depends on what you do before the copy. The public measurement this column has is the one NVIDIA cites: in the 31,132 skills analysed, 26.1 per cent had at least one vulnerability and 5.2 per cent showed likely malicious intent. A skill is a folder of instructions and scripts that your agent follows with your permissions, which is why <a href="/blog/5-week-skills-04-the-step-you-never-chose/">the install routes</a> matter less than what is in the folder.</p>
+
+<p>Three sentences in the scanner's own README change how you should read its result. It never executes the skill it scans, so it cannot see what the skill does at runtime. It is, in its words, "defense-in-depth, not a sandbox". And with LLM analysis on, which is the default, the contents of the files are sent to the configured provider, so a skill that sits next to client material should be scanned with <code>--no-llm</code>.</p>
+
+<p>These lines are copied from the README as it stood on November 17. I did not run them for this update.</p>
+
+<pre><code># 1. Install the scanner
+uv tool install --python 3.13 git+https://github.com/NVIDIA/skillspector.git
+
+# 2. Scan the repository before anything lands in ~/.claude/skills
+skillspector scan https://github.com/OWNER/REPO --no-llm
+
+# 3. Keep the report with the job
+skillspector scan ./the-skill-folder/ --no-llm --format markdown --output report.md
+
+# 4. Exit code 0 covers both SAFE and CAUTION. To fail on any finding:
+skillspector scan ./the-skill-folder/ --no-llm --fail-on-findings
+</code></pre>
+
+<p>Line four is the one to remember. A scan that exits 0 has told you the risk score is 50 or lower. It has not told you the folder is clean, and it has not read anything written in an image, in compiled code, or possibly in a language other than English.</p>
 
 <h2>How I checked</h2>
 
