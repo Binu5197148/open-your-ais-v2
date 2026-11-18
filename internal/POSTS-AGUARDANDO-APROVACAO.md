@@ -1213,3 +1213,38 @@ Those two interviews turn into a five-line check to run before a job: is the too
 
 Copy it here:
 https://openyourais.com/blog/spielberg-no-ai-sxsw-2026-director-perspective/
+
+## 18/11/2026, guardião. Rascunhos, nada agendado. Feed do LinkedIn lido no Chrome, mas DESLOGADO (só reações, sem impressões).
+
+Feed: o post dele do Adobe MAX (modo 1, sem link) está em 29 reações e 2 comentários. Impressões não aparecem sem login. Postiz: nada futuro no LinkedIn pessoal nem na página Open Your AIs; a fila tem só a Saga de Toninho Sagatiba no Balba Bossa (YouTube, Instagram, Facebook, 18/11 às 22h UTC).
+
+### LinkedIn, modo 1 (opinião pura, sem link, sem imagem)
+
+Uma skill tem 4.200 estrelas no GitHub e a licença diz, em negrito, que uso comercial não é permitido.
+
+Chama onetake. Faz filme de motion em que cada batida nasce da anterior. É boa.
+
+A licença é PolyForm Noncommercial. Em setembro o README parava aí. Hoje o mesmo README vende uma licença comercial, 79 dólares, uma vez.
+
+Nada errado nisso. O autor decide o que é de graça.
+
+O problema é quem instalou em setembro, botou no fluxo de cliente e nunca mais abriu o README.
+
+A gente trata skill como plugin. Instala, funciona, esquece.
+Mas skill é código de outra pessoa com regra de outra pessoa. E a regra muda sem avisar ninguém.
+
+Antes de uma skill encostar em job pago, duas coisas: a licença e a data do último push.
+Dez segundos. É o que separa ferramenta de problema com cliente.
+
+### X, modo 3 (entrega, com link)
+
+onetake has 4,200 stars on GitHub. Its license, PolyForm Noncommercial 1.0.0, says in bold that commercial use is not permitted. The same README now sells a commercial license: 79 dollars, one time.
+
+Fair. The author decides what is free.
+
+The risk is whoever installed it in September, wired it into client work and never reread the README.
+
+Skills are other people's code under other people's rules, and the rules change quietly. Before a skill touches paid work, check two things: the license and the last push.
+
+Four gh commands that do it, plus the license read on five Claude skills:
+https://openyourais.com/blog/5-week-skills-06-what-they-take-for-granted/
