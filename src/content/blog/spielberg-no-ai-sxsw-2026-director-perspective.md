@@ -1,6 +1,6 @@
 ---
 id: "art-069"
-title: "AI Film Debate: Spielberg's 'Yet' and the No AI Festival"
+title: "Steven Spielberg AI: Can Filmmaking Survive It?"
 description: "Spielberg says he has never used AI on a film yet. That sentence read from inside a working AI pipeline, beside the festival built on refusing the tools."
 pubDate: "2026-03-15"
 updatedDate: "2026-11-17"

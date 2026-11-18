@@ -421,3 +421,15 @@ Etapa 0: zero travessão em src e dist, nenhum título acima de 60, nenhuma desc
 Etapa 3: 159 links externos dos 27 artigos mexidos desde 10/11 conferidos, nenhum 404 (5 responderam 403 e 10 responderam 429, bloqueio de robô). Imagem do lead da home (cadeiras de plateia em P&B, 5 Week Skills 12) vista e mantida.
 Ainda pulado: when-ai-short-becomes-a-pitch-deck (duas colunas da Bloomberg que não abrem; dois hífens fazendo papel de travessão).
 
+
+## Guardião 18/11/2026 (direto na main)
+O vidIQ voltou com 44 créditos de bônus (renovação às 17h42 de Brasília). Prioridade do dia: fechar a fila de título dos três tratados ontem sem vidIQ. O conteúdo deles foi refeito em 17/11 e não mudou hoje.
+**SSD MAC_SSD01 chegou a 48 MB livres** e o `npm ci` falhou por falta de espaço. Apaguei só o `dist/` (saída de build, regenerável) de oito worktrees antigas do guardião de outubro, já na main, e o build rodou com 137 MB livres no fim.
+
+| 18/11 | spielberg-no-ai-sxsw-2026-director-perspective | Steven Spielberg AI: Can Filmmaking Survive It? (antes: AI Film Debate: Spielberg's 'Yet' and the No AI Festival) | steven spielberg ai | 1.000/mês no Google (OpenSEO, 17/11) | Só título. vidIQ nota 94, o maior, nenhum descartado |
+| 18/11 | 5-week-skills-05-the-check-the-install-skips | Are Your Claude Skills Safe? 4 Scans to Run (antes: Five Claude Skills and the Check the Install Command Skips) | claude skills | 40.500/mês no Google (OpenSEO, 17/11) | Só título. vidIQ nota 94, o primeiro dos três empatados; o corpo tem o H2 "Are Claude skills safe to install?" e os 4 comandos. Nenhum descartado |
+| 18/11 | 5-week-skills-06-what-they-take-for-granted | Is Your Claude Workflow Illegal? A Skill Audit (antes: Five Claude Skills and What They Take for Granted) | claude skills | 40.500/mês no Google (OpenSEO, 17/11) | Só título. vidIQ nota 95, o maior; o corpo paga a pergunta com a licença PolyForm Noncommercial do onetake e o H2 "Can you use Claude skills for paid client work?". Nenhum descartado |
+
+Artigo novo: não escrito hoje (SSD sem espaço e limite de 1 produção pesada por vez).
+Etapa 0: zero travessão em src e dist, nenhum título acima de 60, nenhuma description fora de 140 a 160, nenhuma duplicata, nenhum artigo abaixo de 800; quatro entre 800 e 830.
+Etapa 1: as 14 URLs em 200, lang en, AdSense e ads.txt corretos.

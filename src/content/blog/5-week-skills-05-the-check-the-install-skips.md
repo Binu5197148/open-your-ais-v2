@@ -1,6 +1,6 @@
 ---
 id: "art-187"
-title: "Five Claude Skills and the Check the Install Command Skips"
+title: "Are Your Claude Skills Safe? 4 Scans to Run"
 description: "NVIDIA found a flaw in one in four agent skills it scanned, then listed what its scanner cannot read. Five new Claude skills and the check each leaves you."
 pubDate: "2026-09-21"
 updatedDate: "2026-11-17"

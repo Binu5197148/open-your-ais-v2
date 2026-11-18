@@ -1,6 +1,6 @@
 ---
 id: "art-188"
-title: "Five Claude Skills and What They Take for Granted"
+title: "Is Your Claude Workflow Illegal? A Skill Audit"
 description: "Five Claude skills reviewed from their own files: a Word redliner, a palette tool, a ComfyUI kit, a NotebookLM driver and a screenwriting pack, with limits."
 pubDate: "2026-09-28"
 updatedDate: "2026-11-17"
