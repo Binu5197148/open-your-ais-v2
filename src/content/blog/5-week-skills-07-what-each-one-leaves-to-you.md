@@ -1,9 +1,10 @@
 ---
 id: "art-190"
-title: "Five Claude Skills for Video and What They Leave to You"
-description: "Five Claude skills read from their own files: films made in code, a local FFmpeg kit, a video dissector, a podcast editor and a scroll deck, with limits."
+title: "Five Claude Video Skills: What Remains for You?"
+description: "How to edit video with Claude, read from five skills: real cuts with FFmpeg, a reference dissector, films in code. One licence changed in November."
 pubDate: "2026-10-12"
-toolVersion: "2026-10"
+updatedDate: "2026-11-19"
+toolVersion: "2026-11"
 category: "AI"
 tags:
   - "AI Tools"
@@ -16,6 +17,11 @@ author: "Ulisses Balbino"
 readTime: "14 min read"
 featured: true
 ---
+
+<p><em>Updated November 19, 2026. I reread all five repositories this morning, between 10:10 and 10:20 UTC, and two of them changed in ways that turn an entry around. The entries below keep their October 12 reading, so read this first.</em></p>
+<p><em><strong>lemo-opuscar is no longer all MIT.</strong> Version 2.0.0 (November 12) brought 99 styles, 33 of them new, and one licence document with three licences in it. The code stays MIT. Every Markdown file, which includes the style guides and the skill itself, and the image prompts are now CC BY-NC 4.0, with an added permission that lets you and the people on your film follow and adapt them for your own films, client films included. Selling the docs, or putting them into a product or service run for commercial advantage, needs a commercial licence from the author. The demo films and stills are CC BY 4.0. The LICENSE says films you make with it are yours, commercial ones included, with no credit needed. Versions before 2.0.0 keep the MIT licence they shipped with. 18,524 stars, up from 2,008. Read the <a href="https://github.com/lemomo-ai/lemo-opuscar/blob/main/LICENSE" target="_blank" rel="noopener">LICENSE</a> before you build a paid tool on top of it, not before you make a film.</em></p>
+<p><em><strong>ffmpeg-skill's catch flipped.</strong> It is at version 3.13.2 (November 18). The README now says <code>doctor</code>'s overall <code>ok</code> turns false when any filter some tool needs is missing, so a Homebrew FFmpeg without <code>subtitles</code> now fails the overall check even though most tools run. The advice is the same, read <code>doctor --json</code> per tool, but the trap is now a false alarm, not a false all clear. Version 3.0.0 also dropped FFmpeg 5 and Python 3.9: it needs FFmpeg 6.1 or newer and Python 3.10 or newer, and it now runs as an MCP server too (<code>npx -y ffmpeg-skill mcp</code>). 8,110 stars, up from 1,925.</em></p>
+<p><em>dissect moved to 2.0.2 (November 11, a fix to how the timeline length is measured); line 196 still retries a blocked download with <code>--impersonate chrome</code>. podcast-to-article and Scrolline have no push since October 8.</em></p>
 
 <p>Five skills, all for people who cut, score or present moving pictures. Each one does real work and then hands one decision back to you, usually in a file you would not open on a Monday. The first one makes films with no video model at all.</p>
 
@@ -151,6 +157,24 @@ ln -s "$PWD" ~/.claude/skills/scrolline-deck</code></pre>
 <p>What does reach the agent is the <a href="https://github.com/gongnyang/awesome-html-scrolline-deck/blob/d17200400a6b9cd7e1e42929e4edef5b0f69c1cc/SKILL.md" target="_blank" rel="noopener"><code>SKILL.md</code></a>, and it is written in Korean, as are the six example decks. The README is in English. Your deck can be in English, the brief asks for the language. Video inside a deck needs your own Pexels or Pixabay key, kept in a git ignored <code>.env</code>, and the project blocks a commit if one leaks.</p>
 
 <p><strong>Verified.</strong> October 12, 2026, at commit <code>d172004</code>. 90 stars, 10 forks, MIT, last push October 8. Read: the README, the opening of <code>SKILL.md</code>, the branch list, and the repository tree for the file and image counts.</p>
+
+<h2>How do you edit video with Claude?</h2>
+<p>Claude does not open your timeline. It edits by running tools on files, so the question is which tool it runs. Read across, these five split the job into four different kinds of editing, and none of them replaces the edit suite.</p>
+<ul>
+  <li><strong>Cutting real footage:</strong> ffmpeg-skill. Claude calls typed tools for cut, join, silence removal, captions, loudness and delivery specs, then checks the written file. This is the closest to editing in the usual sense.</li>
+  <li><strong>Studying a reference before you cut:</strong> dissect. It measures someone else's video in frames and writes the pacing down, so your treatment starts from numbers.</li>
+  <li><strong>Making a film with no footage:</strong> lemo-opuscar. The picture is drawn in code, so there is nothing to edit in the old sense, only a style and a story. Same family as <a href="/blog/remotion-claude-code-video-variations-director-method/">rendering variations from code with Remotion</a>.</li>
+  <li><strong>Turning video into something else:</strong> podcast-to-article and Scrolline. The first turns a recording into text, the second turns material into a scrolling presentation.</li>
+</ul>
+<p>The order I would set up for a first test, written as a checklist you can paste into a project note. Nothing here was run for this column.</p>
+<pre><code>1. FFmpeg 6.1+ and Python 3.10+ on the machine        ffmpeg -version / python3 --version
+2. Install ffmpeg-skill and run the per-tool check    npx ffmpeg-skill
+                                                      npx ffmpeg-skill doctor --json
+3. Confirm the tool you need says usable              tools.caption, tools.cut, ...
+4. One short clip, one task, one output file          not the client master
+5. Open the contact sheet before believing "done"
+6. Licence of every skill read before client work     LICENSE, not only the README badge</code></pre>
+<p>Line 6 is the one this update added, and lemo-opuscar is why. For a wider look at what to check before installing any skill, see <a href="/blog/5-week-skills-05-the-check-the-install-skips/">the scans to run first</a>.</p>
 
 <h2>What I did not verify</h2>
 
