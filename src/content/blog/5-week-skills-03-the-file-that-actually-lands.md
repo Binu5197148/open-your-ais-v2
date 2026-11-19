@@ -1,9 +1,10 @@
 ---
 id: "art-182"
-title: "Don't Install Claude Skills Until You Check This File"
-description: "Five Claude skills opened repo by repo on September 7. One hides a 4K video exporter in neither manual. The file check I run before installing."
+title: "The Obsidian Second Brain Risk You Need to Know"
+description: "Once armed, obsidian-second-brain's agent skips permissions, with no spend cap. Four more Claude skills read file by file, and how to use one safely."
 pubDate: "2026-09-07"
-toolVersion: "2026-09"
+updatedDate: "2026-11-19"
+toolVersion: "2026-11"
 category: "AI"
 tags:
   - "AI Tools"
@@ -16,6 +17,9 @@ author: "Ulisses Balbino"
 readTime: "14 min read"
 featured: true
 ---
+
+<p><em>Updated November 19, 2026. I reread the five this morning, around 10:30 UTC. Three have not been touched since this column: Pixel2Motion (last push August 21, now 2,681 stars), draw-your-font (August 5, 884 stars) and mono-color (September 2, 3,687 stars). The scroll-world zip on this site is byte for byte the one described below, nine entries and 92,949 bytes. One project moved a lot.</em></p>
+<p><em><strong>obsidian-second-brain</strong> is at v0.20.0 (October 25) with pushes as recent as November 18 and 5,381 stars. The command count changed again: the README now says 49 in total, 48 outside Claude Code because the calendar command needs the Google Calendar MCP, and the <code>commands/</code> folder holds 49 files. It also added Crew, a shared logbook so Claude Code, Codex, Cursor and Grok Bot can see what each other did, and it works without Obsidian. The two lines this column flagged are still there in the same terms: the armed background agent runs with <code>--dangerously-skip-permissions</code> and still ships inert, and the research costs are still logged with "No hard caps. You're trusted to monitor your own spend."</em></p>
 
 <p>A skill is a promise about a file. You install it, you run it, and something lands in a folder.</p>
 
@@ -176,6 +180,23 @@ python3 -m venv .venv
 <p>The second thing is that the generation is not free and the seams are where the money goes. Every generation runs 3 to 8 minutes, and a connector that does not frame lock has to be regenerated, which is another paid job. The skill tells you to confirm you have credits for roughly N image jobs plus 2N minus 1 video jobs before it starts. That estimate assumes every seam works the first time. Mine did not.</p>
 
 <p><strong>Verified.</strong> September 7, 2026, 15:16 UTC. Read out of the published zip at <code>openyourais.com/skills</code>, which answered 200. Nine entries, 92,949 bytes unpacked: a README, a <code>SKILL.md</code> of 37,900 bytes, and five reference files including the scrub engine itself at 28,673 bytes. The clip arithmetic and both encoding figures were read in Step 6 of that <code>SKILL.md</code>, not recalled. Instructions are in English.</p>
+
+<h2>How do you use Claude skills once they are installed?</h2>
+<p>Mostly you do not call them. A skill sits in a folder with a short description at the top of its <code>SKILL.md</code>, and Claude loads it when what you ask matches that description. Skills that come inside a plugin can also bring their own slash commands, like the <code>/plugin install</code> line above, which are called by name. So the way to use a skill well is to ask for the thing it makes, in its own words, and then check the thing.</p>
+<p>That last part is what this column was about. Every one of the five lands a file, and four times the file was not the one the first line made me picture. A short routine for the first run of any skill, paste it into the project note:</p>
+<pre><code>Before the first run
+  1. Read the description at the top of SKILL.md     what will make Claude load it
+  2. Find where it says the output goes              folder, file name, format
+  3. Note what it needs that you have not installed  model, API key, FFmpeg, a zip
+
+First run
+  4. A small test request, not the client job
+  5. Open the file it wrote, not the chat summary
+  6. Compare with the first line of the README       is this the file it promised?
+
+Before trusting it on a job
+  7. Note the commit or version you tested           it will change, see the update above</code></pre>
+<p>For the install side of the same question, <a href="/blog/5-week-skills-04-the-step-you-never-chose/">what to check before you install</a> covers the three routes in. For skills you can take from this site, the zips are on <a href="/skills/">the skills page</a>.</p>
 
 <h2>What I did not verify</h2>
 
