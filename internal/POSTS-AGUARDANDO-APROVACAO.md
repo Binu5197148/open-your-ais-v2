@@ -1248,3 +1248,38 @@ Skills are other people's code under other people's rules, and the rules change 
 
 Four gh commands that do it, plus the license read on five Claude skills:
 https://openyourais.com/blog/5-week-skills-06-what-they-take-for-granted/
+
+## 19/11/2026, guardião. Rascunhos, nada agendado. Feed do LinkedIn NÃO lido (Chrome abriu o LinkedIn deslogado, terceira vez na semana).
+
+Postiz: nada futuro em nenhum canal (lista de 19/11/2026 a 19/11/2027 veio vazia).
+
+### LinkedIn, modo 1 (opinião pura, sem link, sem imagem)
+
+As gravadoras disseram ao juiz que o processo contra a Suno pode ir até 2028.
+
+Pensa no que isso quer dizer pra quem faz trilha com IA hoje.
+
+A música que você vende esse ano vai viver a vida comercial inteira dela antes de qualquer tribunal dizer se o modelo que gerou foi treinado de forma legal.
+
+Ninguém vai te dar essa resposta a tempo. Nem a Suno, nem a gravadora, nem o advogado do cliente.
+
+Então o que sobra é o papel.
+Qual conta gerou. Qual plano estava ativo no dia do download. Quem escreveu a letra. Se o cliente foi avisado por escrito.
+
+Parece burocracia. É a única parte dessa história que está na sua mão.
+
+Rascunho, trilha de pitch, rede social: segue usando.
+Broadcast e sync com carta de liberação: ainda não. E agora dá pra ver que esse "ainda" é longo.
+
+### X, modo 3 (entrega, com link)
+
+Universal and Sony told the court their first case against Suno could run into 2028.
+
+Read that as a planning number. A track you sell in 2026 lives its whole commercial life before any court says whether the model behind it was trained lawfully.
+
+What you control is the paper. Which account generated it, which plan was active on the download day, who wrote the lyrics, whether the client was told in writing.
+
+Also this week: the labels got DistroKid's documents on uploads a third-party model flagged as AI generated and distributed via Suno, with the royalties paid on them. Distributors are being watched now.
+
+Who can make money with Suno songs, where the two lawsuits stand, and the per-track record to copy into your project folder:
+https://openyourais.com/blog/suno-commercial-rights-sync-licensing-what-producers-need-2026/
