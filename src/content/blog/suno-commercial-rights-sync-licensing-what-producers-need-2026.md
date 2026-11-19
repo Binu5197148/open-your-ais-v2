@@ -1,10 +1,10 @@
 ---
 id: "art-088"
-title: "The Sony Lawsuit: Is Your Suno AI Music Illegal?"
-description: "Suno AI copyright after the Sony lawsuit: what a paid plan gives you, why your song got a copyright claim, how to fix it, and what to check before delivery."
+title: "Are Your Suno AI Songs Safe From Lawsuits?"
+description: "Suno copyright in November 2026: who can make money with Suno songs, what the Sony and Universal suits mean for your tracks, and the record to keep per song."
 pubDate: "2026-03-15"
-updatedDate: "2026-10-27"
-toolVersion: "2026-09"
+updatedDate: "2026-11-19"
+toolVersion: "2026-11"
 category: "AI"
 tags:
   - "Suno"
@@ -17,6 +17,8 @@ heroImage: "https://images.unsplash.com/photo-1766036388323-6f0394b476cd?ixid=M3
 author: "Ulisses Balbino"
 readTime: "9 min read"
 ---
+
+<p><em>Updated November 19, 2026. Still no new Suno terms since September 3. What moved is the court calendar: Suno asked to pause the second label lawsuit, the labels pushed back, and they told the court the first case could run into 2028. A new section below answers the money question, the one people search most after "how to use Suno", and says what the lawsuits mean for a track you sell this year.</em></p>
 
 <p><em>Updated October 27, 2026. No new Suno terms since September 3 and nothing newer than the September 18 lawsuit on the rights side as of today. A new section answers the search people run most around this topic, the copyright claim, separating a YouTube claim after publishing from a block inside Suno before generation.</em></p>
 
@@ -82,8 +84,30 @@ readTime: "9 min read"
 <p>If you conclude the claim is wrong, dispute it in YouTube Studio and keep the generation date, the account and the plan on record. That is the paper trail the checklist above asks you to log.</p>
 <p><strong>A block inside Suno, before the song exists.</strong> This is the lyrics or upload refusal people search as "how to fix the copyright claim of lyrics in Suno". Suno refuses some lyrics and uploaded audio as matching existing material, without documenting the rule publicly. When it fires on text you wrote, the useful move is diagnostic, not evasive: run the lyrics with a neutral style prompt to see whether the trigger is the style field, then test the lyrics in sections to find the line that trips it. Artist names and quoted lines from known songs are the usual suspects. If you need someone else's lyrics to pass, the filter is doing its job, and getting around it only moves the risk to your client.</p>
 
+<h2>Can you make money with Suno music?</h2>
+<p>Yes, on a paid plan, and only with a song you downloaded while that plan was active. That is the whole commercial right as the September 3 terms write it. A free account's trial downloads are not eligible for commercial use, so a track pulled from an editor's free login cannot earn anything, not on YouTube, not on streaming, not in a client delivery.</p>
+<p>Where the money actually comes from changes the risk:</p>
+<ul>
+  <li><strong>Your own videos and social content.</strong> The lowest risk use. You hold Suno's rights in the track and you are the only one who has to stand behind it. The open question is the platform's own rule on AI content, not Suno's, which I covered in <a href="/blog/youtube-ai-monetization-rules-authorship-test/">YouTube's AI monetization rules</a>.</li>
+  <li><strong>Streaming through a distributor.</strong> Possible, with disclosure. Distributors are now being asked by the labels themselves how many Suno tracks pass through them. In the case against Suno, Universal and Sony demanded DistroKid's documents on uploads a third-party model flagged as likely AI generated and distributed via Suno, and the royalties paid on them. DistroKid handed the documents over and the labels dropped the motion on November 17 (<a href="https://www.digitalmusicnews.com/2026/11/17/umg-v-suno-subpoena/" target="_blank" rel="noopener">Digital Music News</a>). Expect those royalties to be watched.</li>
+  <li><strong>Client work.</strong> Fine for pitch, social and internal pieces. For broadcast or a sync that asks for a clearance letter, nothing changed this month: no one can sign that letter for a Suno track yet.</li>
+</ul>
+<p><strong>Are your songs safe from the lawsuits?</strong> Both cases are aimed at Suno the company, over how its models were trained. Neither one names the people who made songs with it. The risk to you is indirect: a ruling against Suno would not delete your track, but it would make every client and every distributor ask harder questions about anything made with the old models. That is the risk the record below is for.</p>
+<p><strong>Where the lawsuits stand in November.</strong> In late October, Suno asked the court to freeze the second lawsuit, the one filed on September 18 over v6, until the first case decides fair use. Universal and Sony answered in mid-November that they oppose a full pause. They offered to pause only the recording-by-recording ownership fights over the 60,000-plus works, and to keep discovery running into v6, ongoing training, Suno's finances and its investor presentations (<a href="https://interspacemusic.com/blog/universal-music-and-sony-music-seek-partial-stay-in-suno-lawsuit/" target="_blank" rel="noopener">InterSpace</a>). In the same dispute the labels said the 2024 case "could realistically extend into 2028" (<a href="https://www.digitalmusicnews.com/2026/11/17/umg-v-suno-subpoena/" target="_blank" rel="noopener">Digital Music News</a>). No ruling on the pause had been reported as of today.</p>
+<p>Read that date as a planning number. If the first case may not end before 2028, a track you sell in 2026 will live its whole commercial life before any court says whether the model behind it was trained lawfully. That is not a reason to stop using Suno for the work it fits. It is a reason to keep the paper trail below with every track, because the paper is the only thing you control.</p>
+<p>The record I keep per track, copy it into the project folder:</p>
+<pre><code>Track:
+Suno account (owner):            production / personal
+Plan on the day of download:     Pro / Premier
+Download date:
+Model version shown in Suno:
+Lyrics written by:               me / generated
+Where it earns:                  own channel / distributor / client
+AI disclosure set at upload:     yes / no / not distributed
+Client told in writing:          yes / no</code></pre>
+
 <h2>The Practical Recommendation</h2>
 <p>Use Suno for what it's genuinely good at without legal exposure: scratch tracks, pitches, internal presentations, and social content on platforms where you're not seeking sync licensing or distributing commercially through the music supply chain. For those use cases, a paid plan gives you Suno's rights in the track and commercial use through a permitted download, which is enough for most practical purposes.</p>
 <p>For broadcast, cinema, commercial advertising with music licensing requirements, or any situation where the client or broadcaster will ask for a clearance letter or music rights documentation: use licensed music, whether that's library music with clear rights documentation or a work-for-hire composer who can provide the copyright ownership you need. AI music platforms are not there yet for that tier of commercial use, and the legal landscape won't be fully settled until the ongoing litigation concludes.</p>
 <p>The timeline for when AI music reaches full commercial clearability at the broadcast level is probably 12-24 months, depending on how the major label lawsuits resolve. Until then, the tier distinction is clear: scratch and social, yes. Broadcast and sync, not yet.</p>
-<p><em>Sources: <a href="https://www.digitalmusicnews.com/2025/12/22/suno-warner-music-deal-changes/" target="_blank" rel="noopener">Digital Music News: Suno Warner Music Deal 2025</a> | <a href="https://terms.law/ai-output-rights/suno/" target="_blank" rel="noopener">Terms.Law: Suno AI Commercial Use License 2026</a> | <a href="https://mystats.music/blog/suno-ai-legal-guide-2026" target="_blank" rel="noopener">Sonic Analytics: The 2026 Suno AI Legal Guide</a> | <a href="https://suno.com/blog/suno-updates-tos" target="_blank" rel="noopener">Suno: downloads policy and Terms of Service update (August 10, 2026, effective September 3)</a> | <a href="https://bedroomproducersblog.com/2026/09/26/suno-lawsuit/" target="_blank" rel="noopener">Bedroom Producers Blog: v6 and the new lawsuits</a> | <a href="https://runtimewire.com/article/sony-umg-suno-v6-copyright-lawsuit" target="_blank" rel="noopener">RuntimeWire: Sony and UMG sue Suno again over v6</a></em></p>
+<p><em>Sources: <a href="https://www.digitalmusicnews.com/2025/12/22/suno-warner-music-deal-changes/" target="_blank" rel="noopener">Digital Music News: Suno Warner Music Deal 2025</a> | <a href="https://terms.law/ai-output-rights/suno/" target="_blank" rel="noopener">Terms.Law: Suno AI Commercial Use License 2026</a> | <a href="https://mystats.music/blog/suno-ai-legal-guide-2026" target="_blank" rel="noopener">Sonic Analytics: The 2026 Suno AI Legal Guide</a> | <a href="https://suno.com/blog/suno-updates-tos" target="_blank" rel="noopener">Suno: downloads policy and Terms of Service update (August 10, 2026, effective September 3)</a> | <a href="https://bedroomproducersblog.com/2026/09/26/suno-lawsuit/" target="_blank" rel="noopener">Bedroom Producers Blog: v6 and the new lawsuits</a> | <a href="https://runtimewire.com/article/sony-umg-suno-v6-copyright-lawsuit" target="_blank" rel="noopener">RuntimeWire: Sony and UMG sue Suno again over v6</a> | <a href="https://interspacemusic.com/blog/universal-music-and-sony-music-seek-partial-stay-in-suno-lawsuit/" target="_blank" rel="noopener">InterSpace: labels seek a partial stay (November 16, 2026)</a> | <a href="https://www.digitalmusicnews.com/2026/11/17/umg-v-suno-subpoena/" target="_blank" rel="noopener">Digital Music News: the DistroKid subpoena (November 17, 2026)</a></em></p>
