@@ -1283,3 +1283,46 @@ Also this week: the labels got DistroKid's documents on uploads a third-party mo
 
 Who can make money with Suno songs, where the two lawsuits stand, and the per-track record to copy into your project folder:
 https://openyourais.com/blog/suno-commercial-rights-sync-licensing-what-producers-need-2026/
+
+
+## 20/11/2026, guardião. Rascunhos, nada agendado. Feed do LinkedIn lido hoje no Chrome (logado).
+
+Feed: o post dele do Adobe MAX (modo 1, sem link, sem imagem) foi de 3.492 em 16/11 para 6.323 impressões, de 17 para 30 reações, 2 comentários. Segundo maior do perfil. "Não existe atalho" 8.573 (era 8.563), "IA DEGENERATIVA" 1.928 e parte 2 1.047: parados. Cursor 156 (era 147). Os de lnkd.in continuam entre 67 e 312. Seguidores: 746 (eram 742). Postiz: nada futuro em nenhum canal (lista de 20/11/2026 a 20/11/2027 veio vazia).
+
+### LinkedIn, modo 1 (opinião pura, sem link). Imagem opcional: print da tabela da página de deprecations da OpenAI.
+
+Em maio a OpenAI tirou o DALL-E da API e indicou três modelos pra quem dependia dele.
+
+Fui ver hoje como estão os três.
+
+gpt-image-1: desligado em 23 de outubro.
+gpt-image-1-mini: desliga em 1º de dezembro.
+gpt-image-2: desliga em 10 de fevereiro. O aviso saiu faz dez dias.
+
+O que a página recomenda agora é o GPT Image 2.6. Tem dezesseis dias de vida.
+
+Não é crítica. Toda linha ali tem data de aviso e substituto indicado, e eu prefiro mil vezes isso a modelo que muda calado, com o mesmo nome, sem ninguém avisar.
+
+Mas muda o que é guardar um trabalho.
+
+O prompt sozinho não é registro. "Igual à última vez" não quer dizer nada quando a última vez rodou num modelo que não responde mais.
+
+O que vale anotar do lado de cada imagem aprovada: o modelo exato, o dia, e a data em que ele sai do ar, se já tiver uma.
+
+Em pós a gente nunca arquivou só o filme pronto. Arquiva o projeto.
+Com IA o projeto é esse papel.
+
+### X, modo 3 (entrega, com link)
+
+GPT Image 2.6 has been out for sixteen days and most of the coverage is about the GIF and the SVG.
+
+Read the docs and the numbers are small. The GIF is 2 to 16 frames, 9 by default at 200 ms. OpenAI's own example loops in 1.8 seconds. That's a flipbook, not a shot.
+
+The SVG is traced from a reference image, you pay two models for it, and the API can't edit it afterwards.
+
+The one I'd use is the quiet one: markup edits. You send the frame, plus a transparent layer with a circle drawn where the change goes. Client notes already arrive as a circle on a frame. Now the circle is a parameter.
+
+Three things the launch posts skipped: no dated snapshot to pin, Batch listed as not supported on the model page, and gpt-image-2 got its shutdown date six days later.
+
+Every new request field on one sheet you can copy, with the limits from the docs:
+https://openyourais.com/blog/gpt-image-2-6-svg-gif-markup-edits-director-read/
