@@ -226,6 +226,12 @@ const latestHref = all[0] ? `/blog/${all[0].id}/` : '/blog/';
   .post-body .article-note li { margin-bottom: .6rem; }
   .post-body .note-correction { border-top-color: var(--c-accent); }
 
+  /* Tabelas dentro do artigo: antes saiam sem espaco entre colunas. */
+  .post-body table { width: 100%; border-collapse: collapse; margin: 1.6rem 0; font-size: .92em; display: block; overflow-x: auto; }
+  .post-body th,
+  .post-body td { text-align: left; padding: .6rem 1rem .6rem 0; border-bottom: 1px solid var(--c-rule); vertical-align: top; }
+  .post-body th { font-family: var(--font-mono); font-size: .68rem; letter-spacing: .12em; text-transform: uppercase; color: var(--c-fg-muted); font-weight: 500; }
+
   .post-head__title .split-line { display: inline-block; white-space: pre; }
   .post-head__byline {
     display: grid;
