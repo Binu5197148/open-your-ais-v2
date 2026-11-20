@@ -1,10 +1,10 @@
 ---
 id: "art-175"
-title: "How to Build an AI Series That Doesn't Break"
-description: "AI drama is the one format where generated video is not a compromise. A step-by-step method to build a series that holds, from character sheets to paywall."
+title: "Why Your AI Series Fails and How to Fix It"
+description: "AI drama is the one format where generated video is not a compromise. How to make an AI drama series that holds, from character sheets to paywall hooks."
 pubDate: "2026-08-27"
-updatedDate: "2026-09-28"
-toolVersion: "2026-09"
+updatedDate: "2026-11-20"
+toolVersion: "2026-11"
 category: "AI"
 tags:
   - "AI Short Drama"
@@ -18,7 +18,7 @@ author: "Ulisses Balbino"
 readTime: "7 min read"
 ---
 
-<p><em>Updated September 28, 2026. Since this was written, the format stopped being a trend and became regulated. China's Administrative Measures for the Development of Micro-Dramas took effect on September 1, 2026, covering every series with episodes under 20 minutes, and they require AI-generated micro-dramas to carry a prominent AI label in every episode. The same reporting counts 367,000 micro-dramas released in China in the first half of 2026, more than 74 per cent of them AI-generated. The Busan panel described below still runs October 10 to 13. The step-by-step method near the end now includes a series bible you can copy.</em></p>
+<p><em>Updated November 20, 2026. Two things moved this month, and both point at the same place this article ends. On November 8, Global Times reported that China's broadcast regulator, the NRTA, told platforms that every AI micro-drama must go through full human review before release, and promised to go after AI-assisted plagiarism and the unauthorized use of people's faces and voices. On November 16, Variety reported that the 27 staff writers at the vertical-series app DramaWave won recognition with the Writers Guild of America, the first writing staff at a microdrama company to do so, and limits on AI in writing are on their bargaining list. The September state still holds: China's Administrative Measures for the Development of Micro-Dramas took effect on September 1, 2026, covering every series with episodes under 20 minutes, with a prominent AI label required in every episode, and the same reporting counted 367,000 micro-dramas released in China in the first half of 2026, more than 74 per cent of them AI-generated. The Busan panel described below was scheduled for October 10 to 13, so read that part as the moment the format walked into a film market. The series bible near the end gained two lines for the new rules.</em></p>
 
 <p>Yesterday, on August 26, 2026, the Asian Contents and Film Market in Busan published the lineup for InnoAsia 2026. Google DeepMind. Amazon Web Services. Alibaba Cloud. Kling AI. BytePlus. Netflix's VFX studio Eyeline Studios. The program runs October 10 to 13 at BEXCO, and Kling AI is co-hosting two of its own sessions with the market itself.</p>
 
@@ -26,7 +26,7 @@ readTime: "7 min read"
 
 <p>Read the schedule instead. Sitting in the same program is a panel called Microdrama: Data, AI, Formats and Audiences, China and Beyond, with executives from Mango TV, FlickReels and Vigloo. That panel is the actual news, and it tells you something no benchmark has managed to say in a year. AI short drama is not a side effect of the video models getting good. It is the format they were built for, whether or not anyone designed it that way.</p>
 
-<h2>What AI short drama actually is</h2>
+<h2>What AI short drama is</h2>
 
 <p>Be precise about the thing before arguing about it.</p>
 
@@ -64,7 +64,7 @@ readTime: "7 min read"
 
 <p>And a generative pipeline makes that worse, not better, because it removes the last piece of friction that used to protect the writing. When shooting an episode costs a day and a crew, somebody in the room asks whether the scene is any good. When it costs a render, nobody asks. You just make another one.</p>
 
-<h2>How to make an AI drama, step by step</h2>
+<h2>How do you make an AI drama video, step by step?</h2>
 
 <p>If you want to build one, the order of operations matters more than the model you pick.</p>
 
@@ -104,9 +104,11 @@ ARCHIVE (after every approved take)
   Seed / prompt / references / model and version / date:
 
 DISCLOSURE
-  AI label required where the series will run: yes / no, and where it goes</code></pre>
+  AI label required where the series will run: yes / no, and where it goes
+  Real faces or voices used: written authorization on file for each: yes / no
+  Human review before release: who watches every episode, and when</code></pre>
 
-<p>The tools I would reach for, with the official pages: <a href="https://higgsfield.ai" target="_blank" rel="noopener">Higgsfield</a> for Nano Banana Pro character sheets, Kling and Seedance in one place, and <a href="https://elevenlabs.io" target="_blank" rel="noopener">ElevenLabs</a> for a consistent voice across a season. If your series is going to China, read the disclosure rule before episode one, not after.</p>
+<p>The tools I would reach for, with the official pages: <a href="https://higgsfield.ai" target="_blank" rel="noopener">Higgsfield</a> for Nano Banana Pro character sheets, Kling and Seedance in one place, and <a href="https://elevenlabs.io" target="_blank" rel="noopener">ElevenLabs</a> for a consistent voice across a season. If your series is going to China, read the disclosure rule before episode one, not after. The November notice from the regulator adds a human in the review seat and a paper trail for every borrowed face and voice, which is the cheapest line in that bible to fill in early and the most expensive one to reconstruct late.</p>
 
 <h2>The honest close</h2>
 
@@ -115,5 +117,7 @@ DISCLOSURE
 <p>I am not going to pretend that makes me comfortable. There is something bleak about a form whose grammar was written by a retention graph. But I have been in this industry long enough to have watched the same complaint made about the thirty second spot, about music video, about the telenovela chapter, and every one of those turned out to be a school. What decides it is not the format. It is whether a person is still choosing where the cut lands and why the scene exists.</p>
 
 <p>The models will hand you the footage. Keep the hooks. That is the whole job.</p>
+
+<p><em>Sources for the November update: <a href="https://www.globaltimes.cn/page/202611/1373896.shtml" target="_blank" rel="noopener">Global Times, November 8, 2026: China reiterates support for live-action micro-dramas, vows to regulate AI productions</a> | <a href="https://variety.com/2026/digital/news/wga-dramawave-microdrama-deal-1236949691/" target="_blank" rel="noopener">Variety, November 16, 2026: DramaWave writers and the WGA</a> | <a href="https://kentertechhub.com/dramawave-wga-en" target="_blank" rel="noopener">K-EnterTech Hub, November 18, 2026: Microdrama writers reach the bargaining table for the first time</a>. This is an analysis of public reporting, not a production test.</em></p>
 
 <p><em>Sources for the September update: <a href="https://technode.com/2026/09/03/from-wild-growth-to-tech-driven-growth-in-chinas-ai-short-drama-industry/" target="_blank" rel="noopener">TechNode, September 3, 2026: China's AI short drama industry</a> | <a href="https://english.news.cn/20260917/62224fd5e67a441dbc2c97717c9c2942/c.html" target="_blank" rel="noopener">Xinhua, September 17, 2026: China backs live-action dramas as AI-made micro-dramas dominate releases</a> | <a href="https://insideai.news/news/ai-policy-and-regulation/china-ai-micro-drama-regulation/9598/" target="_blank" rel="noopener">Inside AI News: China enforces first AI micro-drama rules</a></em></p>
