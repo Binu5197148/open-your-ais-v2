@@ -1326,3 +1326,41 @@ Three things the launch posts skipped: no dated snapshot to pin, Batch listed as
 
 Every new request field on one sheet you can copy, with the limits from the docs:
 https://openyourais.com/blog/gpt-image-2-6-svg-gif-markup-edits-director-read/
+
+
+## 21/11/2026, guardião. Rascunhos, nada agendado. Feed do LinkedIn NÃO lido (extensão do Chrome desconectada). Postiz: nada futuro no LinkedIn pessoal nem na página Open Your AIs.
+
+### LinkedIn, modo 1 (opinião pura, sem link). Imagem opcional: print do trecho da página de ajuda do Google com a lista de erros.
+
+O YouTube escreveu na própria página de ajuda onde a dublagem automática erra.
+
+Nome próprio. Expressão. Jargão. Ruído de fundo.
+
+Lê de novo com cabeça de produtor.
+Nome próprio é a marca.
+Expressão é a piada.
+Jargão é o mercado.
+Ruído é tudo que foi filmado fora do estúdio.
+
+O que a máquina acha difícil é exatamente o que o cliente paga.
+
+A mesma página diz, com essas palavras, que você não pode editar a dublagem automática. Dá pra ler o roteiro, tirar do ar, ou trocar o idioma original e mandar gerar tudo de novo. Corrigir uma linha, não.
+
+Não acho ruim. Pra vídeo que ninguém ia pagar pra traduzir, é presente. Deixo ligado.
+
+Mas dublagem que não aceita nota não é entrega. É transmissão.
+
+A nota sempre volta. Nunca é o vídeo inteiro. É a linha 14.
+
+### X, modo 3 (entrega, com link)
+
+Blender MCP hit 2.3.1 on November 18 and setup is now one command: uvx mcp-for-blender setup
+
+It finds Claude Desktop, Claude Code, Codex and Cursor on your machine, installs the Blender add-on, and saves a backup of every config file it changes.
+
+Easier install, same warning. The README still says the socket has no authentication or encryption, and by default the agent can run any Python inside Blender. Keep it on localhost and set BLENDER_MCP_SAFE_MODE=1.
+
+And don't ask it for hero models. The job worth handing an agent is grey-box blockout: throwaway boxes and cameras, for every shot instead of the three you had budget to previs. Settle the crane move before there is a crane.
+
+Setup for Claude and Codex, the Higgsfield route, and the safe-mode line to copy:
+https://openyourais.com/blog/blender-mcp-claude-blockout-previs-director-workflow/
