@@ -1,10 +1,10 @@
 ---
 id: "art-179"
-title: "Blender MCP vs Manual Previs: Is it Worth It?"
-description: "Blender MCP can generate models, but the job worth giving it is blockout. Why that makes previs cheap for every shot, plus Claude install steps and the risk."
+title: "Why Blender MCP Changes Film Previs Forever"
+description: "Blender MCP now sets up Claude, Codex and Cursor in one command. Why the job worth giving it is blockout, how to connect it, and the security risk first."
 pubDate: "2026-09-02"
-updatedDate: "2026-10-13"
-toolVersion: "2026-10"
+updatedDate: "2026-11-21"
+toolVersion: "2026-11"
 category: "Workflow"
 tags:
   - "Blender"
@@ -21,6 +21,8 @@ featured: false
 ---
 
 <!-- Refresh 2026-10-13: install section added for the open-source MCP for Blender (github.com/ahujasid/blender-mcp, package now mcp-for-blender) and for the Higgsfield add-on and bridge (Blender 5.1+, Higgsfield credits). Security notes taken from the repository README. -->
+
+<p><em>Updated November 21, 2026. The open-source MCP for Blender is at version 2.3.1 (November 18) and its GitHub repository was renamed to ahujasid/mcp-for-blender. Since October it gained a one-command setup that configures Claude Desktop, Claude Code, Codex, Cursor and other clients for you, the add-on now starts its server when Blender opens, and it added Tripo, World Labs Gaussian-splat worlds (Blender 5.3 or later) and a paid Premium option for model generation. The install section below is rewritten to match, and now answers how to connect it to Codex. The security warning still stands: the README still says the socket has no authentication or encryption.</em></p>
 
 <p><em>Updated October 13, 2026. Most people searching for Blender MCP want to install it, and this piece only covered Higgsfield's add-on. A new section near the end gives the setup for both routes: the open-source MCP for Blender, which connects Blender to Claude directly, and Higgsfield's bridge. It also covers the one security warning you should read before you connect anything. The argument about blockout is unchanged. This is an analysis of the tools and their documentation, not a review of a paid job.</em></p>
 
@@ -59,7 +61,9 @@ featured: false
 
 <h2>How Do You Install Blender MCP with Claude?</h2>
 <p>There are two different things called Blender MCP, and the searches mix them up.</p>
-<p>The first is the open-source project published on GitHub as ahujasid/blender-mcp, the one most tutorials mean. It is MIT licensed, it is free, and it talks to Claude directly with no Higgsfield account. Its package has been renamed to <code>mcp-for-blender</code>; the README says the old <code>blender-mcp</code> name still works. You need Blender 3.0 or newer, Python 3.10 or newer, and the uv package manager installed from its official installer, not through pip.</p>
+<p>The first is the open-source project now published on GitHub as <a href="https://github.com/ahujasid/mcp-for-blender" target="_blank" rel="noopener">ahujasid/mcp-for-blender</a> (the old blender-mcp address redirects), the one most tutorials mean. It is MIT licensed, it is free, and it talks to Claude directly with no Higgsfield account. Its package has been renamed to <code>mcp-for-blender</code>; the README says the old <code>blender-mcp</code> name still works. You need Blender 3.0 or newer, Python 3.10 or newer, and the uv package manager installed from its official installer, not through pip.</p>
+
+<p>Since version 2.3, the shortest route is one command. If uv is already installed, run <code>uvx mcp-for-blender setup</code>. The README says it finds the MCP clients on your machine (Claude Desktop, Claude Code, Codex, Cursor, VS Code and others), lets you pick which to set up, installs and enables the Blender add-on, and only adds a <code>blender</code> entry to each config, saving a <code>.bak</code> of every file it changes. Then fully quit and reopen the AI app and open Blender. The project also offers a curl install script that installs uv for you; read any script before you pipe it into a shell. The manual route still works:</p>
 
 ```bash
 # 1. Install the Blender add-on
@@ -69,7 +73,8 @@ uvx mcp-for-blender install-addon
 # 2. Claude Code: one line
 claude mcp add blender uvx mcp-for-blender
 
-# 3. In Blender: press N in the viewport, open the "MCP for Blender" tab, click Start MCP Server
+# 3. The add-on starts its server when Blender opens. To check: press N in the
+#    viewport, open the "MCP for Blender" tab, click Start MCP Server if it is not running
 ```
 
 <p>If you use Claude Desktop instead of Claude Code, skip step 2. Open Settings, Developer, Edit Config, paste this into the config file (not into a terminal), then fully quit and reopen Claude Desktop:</p>
@@ -83,6 +88,7 @@ claude mcp add blender uvx mcp-for-blender
 ```
 
 <p>Run one client at a time against it, Claude Desktop or Cursor, not both.</p>
+<p><strong>How do you connect Blender MCP to Codex or ChatGPT?</strong> For the Codex CLI the README gives one line, <code>codex mcp add blender -- uvx mcp-for-blender</code>, and the repository also ships a Codex plugin. If Claude Desktop or Cursor fails with <code>spawn uvx ENOENT</code>, the app cannot see your terminal's PATH: run <code>which uvx</code> and put that full path in the config as the command.</p>
 <p>The second is Higgsfield's add-on, the one this piece is about. It needs Blender 5.1 or later on Windows or macOS. You download the zip from Higgsfield, drag it onto an open Blender window without unzipping, and sign in on the bar that appears over the viewport. To let Claude act inside the open scene, you add <code>bridge.higgsfield.ai/mcp</code> as a connector in Claude and sign in. Generations spend Higgsfield credits, the same pool as the web platform, and the cost shows on the button before you run it.</p>
 <p>Now the warning, and it is not a formality. The open-source server includes a tool that runs arbitrary Python inside Blender, and its socket has no authentication or encryption. Anyone who can reach that port can run code on your machine. Keep it on localhost, save your file before you let an agent touch it, and consider the optional safe mode, <code>BLENDER_MCP_SAFE_MODE=1</code>. It checks every script before it runs and blocks risky code, such as reading or writing files directly, running other programs or reaching the network. It is a script check, not a full sandbox: the README says normal Blender work, including saving, import and export, still goes through. The README also says a minimal anonymous usage record is sent by default unless you set <code>DISABLE_TELEMETRY=true</code>.</p>
 <p>For blockout you will never miss what safe mode blocks. Grey boxes do not need the network.</p>
@@ -92,4 +98,4 @@ claude mcp add blender uvx mcp-for-blender
 <p>But this is where the leverage sits for anyone directing rather than rendering. The tool removed a cost that used to decide whether a question got asked at all. When answering "does this move work" drops from two days to twenty minutes, you stop rationing the question. You ask it about every shot, and the work gets better in a boring, structural way that nobody will credit to a plugin.</p>
 <p>That is the whole thesis of this site in one plugin. The machine did not become a director. It made directing cheaper to practice, and what you do with the room it opened is still entirely on you.</p>
 
-<p><em>Sources: <a href="https://higgsfield.ai/plugins/blender" target="_blank" rel="noopener">Higgsfield, Blender add-on</a> | <a href="https://higgsfield.ai/blog/higgsfield-blender-plugin" target="_blank" rel="noopener">Higgsfield, features, installation and MCP bridge setup</a> | <a href="https://www.explainx.ai/blog/higgsfield-blender-mcp-ai-blockout-august-2026" target="_blank" rel="noopener">explainx.ai, Higgsfield Blender MCP, August 2026</a> | <a href="https://github.com/ahujasid/blender-mcp/blob/7a0373ec9199183cb460068c4f96aed9c579fb4f/README.md" target="_blank" rel="noopener">MCP for Blender, README at commit 7a0373e (security notes, safe mode, MIT license; checked October 13, 2026)</a></em></p>
+<p><em>Sources: <a href="https://higgsfield.ai/plugins/blender" target="_blank" rel="noopener">Higgsfield, Blender add-on</a> | <a href="https://higgsfield.ai/blog/higgsfield-blender-plugin" target="_blank" rel="noopener">Higgsfield, features, installation and MCP bridge setup</a> | <a href="https://www.explainx.ai/blog/higgsfield-blender-mcp-ai-blockout-august-2026" target="_blank" rel="noopener">explainx.ai, Higgsfield Blender MCP, August 2026</a> | <a href="https://github.com/ahujasid/blender-mcp/blob/7a0373ec9199183cb460068c4f96aed9c579fb4f/README.md" target="_blank" rel="noopener">MCP for Blender, README at commit 7a0373e (security notes, safe mode, MIT license; checked October 13, 2026)</a> | <a href="https://github.com/ahujasid/mcp-for-blender" target="_blank" rel="noopener">MCP for Blender, README and commits, read November 21, 2026 (v2.3.1)</a> | <a href="https://pypi.org/project/mcp-for-blender/" target="_blank" rel="noopener">PyPI, mcp-for-blender</a></em></p>
