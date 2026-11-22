@@ -1364,3 +1364,44 @@ And don't ask it for hero models. The job worth handing an agent is grey-box blo
 
 Setup for Claude and Codex, the Higgsfield route, and the safe-mode line to copy:
 https://openyourais.com/blog/blender-mcp-claude-blockout-previs-director-workflow/
+
+
+## 22/11/2026, guardião. Rascunhos, nada agendado. Feed do LinkedIn lido hoje no Chrome (logado).
+
+Feed: nenhum post novo dele desde o do Adobe MAX. Adobe MAX (modo 1, sem link, sem imagem) 6.399 impressões (eram 6.323 em 20/11), 30 reações, 2 comentários. "Não existe atalho" 8.575 (era 8.573). "IA DEGENERATIVA" 1.928 e parte 2 1.047: parados. Cursor 157 (era 156). Os de lnkd.in continuam entre 67 e 312. Seguidores: 745 (eram 746). Postiz: nada futuro no LinkedIn pessoal nem na página Open Your AIs; a fila tem só shorts do Arquivo 13 no YouTube (22/11 a 01/12) e os publicados do Lit to Watch.
+
+### LinkedIn, modo 1 (opinião pura, sem link). Imagem opcional: print do trecho do guia da Higgsfield que conta os quatro planos.
+
+A Higgsfield publicou na quarta o guia oficial de como gerar vídeo dentro do Claude.
+
+Tem uma frase lá no meio que eles contam como vantagem.
+
+No teste deles, o Claude pegou um pedido de um parágrafo e dividiu em quatro planos antes de gerar.
+
+Quatro planos. Ninguém pediu quatro.
+
+Onde um plano acaba é corte. E corte é decisão de quem está contando a história.
+
+O agente decidiu no seu lugar, com toda educação, antes de existir um frame. Depois mostrou a conta: 160 créditos por dez segundos em 1080p.
+
+O mesmo guia avisa que não existe limite de gasto. Quem segura é você, pedindo o custo antes de cada geração.
+
+Eu trabalho assim. O piloto do Toninho saiu desse jeito, Higgsfield dentro do Claude. Não é crítica à ferramenta.
+
+É que digitar um desejo num chat parece direção. Não é.
+O que você não decide, o agente decide pela média.
+
+Pedir nunca foi a parte difícil.
+
+### X, modo 3 (entrega, com link)
+
+Higgsfield's own guide to its Claude connector says there is no built-in spending limit.
+
+A 10-second Seedance 2.5 clip is 70 credits at 720p, 160 at 1080p, 280 in 4K. Unlimited plans don't carry over to the connector. Completed generations are charged whether you like them or not.
+
+Same guide, their own test: Claude split a one-paragraph request into four shots before generating. Nobody asked for four. Where a shot ends is a cut, and the agent just made it for you.
+
+So I wrote the block I'd paste at the top of any chat with the connector on. Seven rules: show the plan, show the cost, wait for my go, don't add shots I didn't write, attach every approved reference every time, one generation before any batch, report the balance after.
+
+Setup for Claude and Claude Code, the price table and the seven rules to copy:
+https://openyourais.com/blog/higgsfield-mcp-claude-setup-credits-director-rules/
