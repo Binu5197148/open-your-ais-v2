@@ -102,7 +102,7 @@ quotes from speakers, then a fast montage. End on the venue wide shot.</code></p
 <p>Notice what the templates do: they tell the tool where the silence goes, instead of hoping its criteria will find it.</p>
 
 <h2>Can Adobe Quick Cut replace a human editor?</h2>
-<p>No, and Adobe does not say it can. Its own pages call the output an initial cut, a preliminary rough draft and a starting point, three times in three pages. The four mechanisms it lists all measure what is in the frame or on the waveform. None of them measures what a scene means. An editor is paid for the second thing.</p>
+<p>No, and Adobe does not say it can. Its own pages call the output an initial cut, a preliminary rough draft and a starting point, across all three pages. The four mechanisms it lists all measure what is in the frame or on the waveform. None of them measures what a scene means. An editor is paid for the second thing.</p>
 <p>What it can replace is the first day of a job: the sorting, the stringing together, the pass where you find out what you have. That is real time saved, and nobody ever built a career on it.</p>
 
 <h2>Is Adobe Quick Cut worth using?</h2>
