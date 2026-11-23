@@ -1,8 +1,9 @@
 ---
 id: "art-196"
-title: "Claude Animation Skill: Is It Free or a Paid Trap?"
-description: "No single Claude animation skill exists. Four tools use the name: which one to install, what each licence costs, and a brief to paste before you prompt."
+title: "Claude Animation Skills Explained: Paid vs Free"
+description: "No single Claude animation skill exists. Four tools use the name: which to install for 3D, 2D or maps, what each licence costs, and a brief to paste."
 pubDate: "2026-11-11"
+updatedDate: "2026-11-23"
 toolVersion: "2026-11"
 category: "Workflow"
 tags:
@@ -14,8 +15,10 @@ tags:
   - "Workflow"
 heroImage: "https://images.unsplash.com/photo-1595292340185-f8a3c5e8b593?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHwxOHx8ZmlsbSUyMHNldCUyMGNpbmVtYXRvZ3JhcGh5fGVufDF8MHx8fDE3OTQzOTczNjd8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85&sat=-100&con=10"
 author: "Ulisses Balbino"
-readTime: "8 min read"
+readTime: "9 min read"
 ---
+
+<p><em>Updated November 23, 2026. Nothing was replaced since November 11, so the four tools below are still the four. What I rechecked today: Anthropic's own <a href="https://claude.com/pricing" target="_blank" rel="noopener">pricing page</a> still marks Claude Motion (beta) as No on Free, Pro and both Max plans, and Yes on Team and Enterprise. The claude-animation-skill repository went from 143 to 183 stars and still has four commits, the last one pushed on September 23. Remotion and HyperFrames both shipped new releases this morning. One section is new, because most people who search this want a specific kind of animation: 3D, 2D, stickman or a map.</em></p>
 
 <p>On November 4, a YouTube tutorial called <a href="https://www.youtube.com/watch?v=3tpaWHaiLQ8" target="_blank" rel="noopener">"I Made VIRAL Animation Videos Using Claude Code (FREE Plugin)"</a> went up. A week later it had passed 300,000 views, and a dozen copies of the idea followed it: free Claude skill for cartoon shorts, free Claude skill for map animations, free Claude skill for stickman videos.</p>
 
@@ -65,7 +68,28 @@ claude plugin install claude-animation@claude-animation-skill</code></pre>
 
 <p>On October 8, 2026, Anthropic launched a feature called Motion in beta, inside the Claude app. According to <a href="https://www.digitaltrends.com/computing/claude-can-now-build-live-dashboards-and-animated-explainers-from-your-data/" target="_blank" rel="noopener">Digital Trends</a> and <a href="https://testingcatalog.com/claude-launches-dashboards-and-motion-in-beta" target="_blank" rel="noopener">TestingCatalog</a>, it works on the same principle as the skills above: Claude writes code that animates text, charts, shapes and images, with no video model involved, and you export an MP4.</p>
 
-<p>The catch is access. Both reports say Motion is limited to Team and Enterprise plans, and on Enterprise an administrator has to switch it on. If you are on a personal plan and a tutorial tells you to "just use Claude Motion", that is why you cannot find it.</p>
+<p>The catch is access. Both reports say Motion is limited to Team and Enterprise plans, and on Enterprise an administrator has to switch it on. If you are on a personal plan and a tutorial tells you to "just use Claude Motion", that is why you cannot find it. Anthropic's pricing table confirmed the same split when I read it on November 23.</p>
+
+<h2>Can Claude make 3D, 2D or stickman animation?</h2>
+
+<p>Yes to all three, with one condition that changes what you install. None of these tools draws frames the way a video model does. Claude writes code, and the look comes from the library that code runs on. So the question is not which skill is best. It is which library makes the kind of picture you want.</p>
+
+<table>
+<thead>
+<tr><th>You want</th><th>Start with</th><th>What its own page says</th></tr>
+</thead>
+<tbody>
+<tr><td>3D objects, 3D type, camera moves</td><td>Remotion or HyperFrames</td><td>Remotion documents <a href="https://www.remotion.dev/docs/three" target="_blank" rel="noopener">@remotion/three</a>, its React Three Fiber integration. The HyperFrames README lists Three.js among its animation adapters and 3D among the blocks in its registry</td></tr>
+<tr><td>Hand-drawn 2D with characters</td><td>claude-animation-skill</td><td>"Hand-drawn 2D animation, written as code", with character rigs and example films in the repository</td></tr>
+<tr><td>Stickman</td><td>Any of the three</td><td>No README among the three names a stickman skill. It is a style, and it goes in the Style line of the brief below</td></tr>
+<tr><td>Maps with routes</td><td>Remotion</td><td>The <code>/remotion-maps</code> skill covers routes, markers and 3D geographic flyovers</td></tr>
+<tr><td>Charts and text from your data, no install</td><td>Claude Motion</td><td>Inside the Claude app, on Team and Enterprise only</td></tr>
+</tbody>
+</table>
+
+<p>Two limits worth knowing before you promise anything to a client. First, 3D here means 3D drawn by code in a browser engine. It is good for logos, type, product shapes and abstract scenes. It is not character animation with a rigged model, and for that kind of work the route is a 3D program, which is what <a href="/blog/blender-mcp-claude-blockout-previs-director-workflow/">Blender MCP</a> is for.</p>
+
+<p>Second, everything on this list ends in a video file. A lot of the searches around this topic are for Roblox animation, and none of the three READMEs mentions Roblox at all. If a tutorial shows a Roblox short made "with Claude", what you are watching is a video about Roblox, rendered as an MP4, not an animation that loads inside the game.</p>
 
 <h2>Is the Claude animation skill free?</h2>
 
@@ -115,5 +139,5 @@ Hold the last frame for 1.5 seconds. Show me a preview before rendering.</code><
 
 <section class="article-note note-sources">
 <h2>Sources and verification</h2>
-<p>Read on November 11, 2026. Remotion skills, install commands and skill list: remotion.dev/docs/ai/skills. Remotion licence terms: LICENSE.md in the remotion-dev/remotion repository. HyperFrames description, licence, install commands, requirements and the Pro marking on two core skills: the README at github.com/heygen-com/hyperframes. claude-animation-skill description, licence, requirements, star and commit counts: the repository page at github.com/buildwithhanif/claude-animation-skill, as shown that day. Claude Motion launch date, how it works and plan availability: Digital Trends and TestingCatalog, both dated October 8, 2026; I did not find the feature on a personal plan to confirm it first hand. View count for the YouTube tutorial is the public counter on November 11. No skill was installed or run for this article.</p>
+<p>Read on November 11, 2026. Remotion skills, install commands and skill list: remotion.dev/docs/ai/skills. Remotion licence terms: LICENSE.md in the remotion-dev/remotion repository. HyperFrames description, licence, install commands, requirements and the Pro marking on two core skills: the README at github.com/heygen-com/hyperframes. claude-animation-skill description, licence, requirements, star and commit counts: the repository page at github.com/buildwithhanif/claude-animation-skill, as shown that day. Claude Motion launch date, how it works and plan availability: Digital Trends and TestingCatalog, both dated October 8, 2026; I did not find the feature on a personal plan to confirm it first hand. View count for the YouTube tutorial is the public counter on November 11. No skill was installed or run for this article. Rechecked on November 23, 2026: the plan comparison table at claude.com/pricing for Claude Motion; star and commit counts on the claude-animation-skill repository; the Three.js and 3D lines in the HyperFrames README; remotion.dev/docs/three and the maps skill description at remotion.dev/docs/ai/skills. The three READMEs were searched for the words Roblox and stick, with no result.</p>
 </section>
