@@ -1405,3 +1405,59 @@ So I wrote the block I'd paste at the top of any chat with the connector on. Sev
 
 Setup for Claude and Claude Code, the price table and the seven rules to copy:
 https://openyourais.com/blog/higgsfield-mcp-claude-setup-credits-director-rules/
+
+## 23/11/2026, guardião. Rascunhos, nada agendado. Feed do LinkedIn NÃO lido (o LinkedIn pediu verificação no aplicativo do celular).
+
+Feed: sem leitura hoje. Últimos números, de 22/11: Adobe MAX 6.399, "Não existe atalho" 8.575, "IA DEGENERATIVA" 1.928 e 1.047, os de lnkd.in entre 67 e 312, 745 seguidores. Postiz: nada futuro no LinkedIn pessoal nem na página Open Your AIs; a fila tem só shorts do Arquivo 13 no YouTube (23/11 a 01/12) e os publicados do Lit to Watch.
+
+### LinkedIn, modo 1 (opinião pura, sem link). Imagem opcional: print da lista das seis ferramentas na página da Editing Room, com os limites de 2 a 15 s aparecendo.
+
+"A gente resolve na pós."
+
+Quem trabalha em set aprendeu a desconfiar dessa frase.
+
+Na sexta a Higgsfield transformou ela em produto. Chama Editing Room.
+
+Você sobe o vídeo que já filmou, marca um trecho e escolhe um de seis botões:
+
+Trocar a pessoa.
+Mudar o ângulo.
+Mudar a locação.
+Mexer a câmera.
+Refazer a luz.
+Pintar por cima e dizer o que vira.
+
+Agora lê de novo com a ordem do dia na mão.
+
+Elenco. Segunda câmera. Locação. Maquinista. Eletricista. Arte.
+
+Seis botões, seis funções.
+
+A leitura fácil é que essas funções ficaram baratas. Eu leio o contrário.
+
+No set nenhuma dessas pessoas só executa. O eletricista pergunta do que é a cena antes de subir um refletor. O câmera avisa que o segundo ângulo não corta com o primeiro. Eles discutem com o diretor antes do plano existir, e o filme melhora na discussão.
+
+O botão não discute. Ele responde outra pergunta: o que ainda dá pra salvar.
+
+A própria ferramenta diz o tamanho disso. Ângulo, câmera e luz valem para trechos de 2 a 15 segundos.
+
+Quinze segundos de luz nova é resgate. Não é plano de luz.
+
+Tem uso. Todo trabalho tem o take em que a atuação veio e a luz não.
+
+Mas alguém ainda precisa olhar o quadro e dizer qual luz está errada.
+
+Isso nenhum dos seis botões faz.
+
+### X, modo 3 (entrega, com link)
+
+Higgsfield shipped Editing Room on Friday. You upload footage you already shot, up to 10 minutes, mark a moment and pick one of six tools: swap person, change angle, change location, move camera, relight, or paint over an area and say what it becomes.
+
+The part the release note doesn't lead with is on the product page. Angle, camera move and relight work on 2 to 15 seconds, inside one cut. Swaps and the brush go to 30. Desktop only. No output resolution stated anywhere I could find.
+
+"We fix it in post" just became a product with six buttons. Each button is a job on a call sheet: casting, second camera, locations, dolly grip, gaffer, props. On set those people argue with you before the shot exists. The button answers a smaller question: what can still be saved.
+
+So before uploading anything I'd fill one sheet per moment: what is wrong, in set language. Which tool. The one change. What must not change. Stack order. Rights. Who judges the before and after.
+
+I haven't run a job through it. This is a read of Higgsfield's own pages, with the limits table, the steps and the sheet to copy:
+https://openyourais.com/blog/higgsfield-editing-room-video-to-video-director-read/
