@@ -1039,3 +1039,91 @@ acervo" da tarefa agendada nao se cumpre mais sem decisao dele. Pergunta levada 
   eixo. (3) Bloco final "What I still do not know" apareceu na 9 e na 12; com F1 fora ate a 15, nao
   volta tao cedo.
 - **Axenworks.** Paginas ainda nao usadas: braw, gopro, e as de 32gb a 2tb exceto 1tb.
+
+---
+
+## Notas da edicao 13, escritas em 2026-11-23
+
+```
+| 13 | artigo   | 2026-11-23 | A9 | F3 | -   | -     | 1 axenworks | nenhum |
+| 13 | linkedin | AAAA-MM-DD | -  | -  | P5  | 375   | NAO (link no 1o comentario) | nenhum |
+| 13 | x        | AAAA-MM-DD | -  | -  | P1  | 1115 (1018 na contagem do X) | sim | nenhum |
+```
+
+- **Foi direto para a main**, pela regra de 10/11: worktree limpa em cima de `origin/main`,
+  `npm run build` com verify-indexability passando (149 URLs no sitemap, 138 artigos), `site-health`
+  sem bloqueio, push `a654d4d`. URL 200 em producao as 10h17m33s UTC, no primeiro teste:
+  https://openyourais.com/blog/5-week-skills-13-written-down/
+  `id` art-202 (maior na main antes: art-201).
+- **Indexacao solicitada no Search Console** as 10h18 UTC, propriedade `sc-domain:openyourais.com`,
+  pelo Chrome logado. O painel confirmou "Indexacao solicitada". Uma solicitacao gasta. A conta
+  padrao do Chrome nao tem acesso a propriedade; funcionou pelo caminho `/u/1/` da URL.
+- **Abertura A9, a entrada fria**, obrigatoria nesta edicao (ultima na 7). Tres paragrafos curtos e
+  o bloco "How I checked". Fecho **F3**, sem fecho: depois de "What I did not verify" vem so a linha
+  da semana que vem. A proxima A9 obrigatoria cai ate a edicao 19.
+- **Eixo da semana: o caderno que cada skill mantem sobre o proprio trabalho** (ledger de rodadas,
+  lista de erros, log de escolhas ja usadas, changelog, caderno de correcoes). Eixo novo: nao e "o
+  rotulo contra a letra miuda" da 11 e da 12, entao o cooldown vigiado nao disparou.
+- **As cinco skills**: cook (automacao, loop longo de construcao visual), cutaway (web e 3D, objeto
+  que se desmonta), antialgorithm (criacao e design, nomes e posteres), STE80 Humanizer (documento),
+  fluxo-de-edicao (video, em portugues, autor Lucas Leite). **Nenhuma do acervo**, nona edicao
+  seguida, pelo mesmo motivo: o que sobra esta travado por direitos ou autoria. Decisao dele.
+- **Descartadas**: sybil-solutions/skill-distill (nao consegui dizer em uma frase como serve a quem
+  produz audiovisual), alexeyw/lot-map (e um mod de interface, nao uma skill; fica para outra
+  semana), caru-ini/stack-diagram (diagrama de arquitetura, publico de dev), lowdevco/Clip-Forge,
+  memoryoffish/film-director-skill-plugin e threerocks/article2media (nao lidas a fundo; video de
+  novo ou plataformas chinesas), nengong/download-anything (sem licenca), HeyChengC e outras com
+  licenca NOASSERTION (nao lidas).
+- **Um link para axenworks**, na ficha 5, pagina `timecode-calculator`, segunda vez (a primeira
+  foi na edicao 7). A pergunta nasce do guia de decisoes da skill: 29,97 e diferente de 30 e o erro
+  aparece como descompasso no fim. Sem autobiografia.
+- **Nenhum vicio da 3.1 gasto** no artigo nem nos posts. Cinco frases do rascunho foram corrigidas
+  antes do build por passarem do que a fonte diz: o plano "indisponivel para o resto" (cook), o
+  verificador que "nao tem o que medir" em portugues (STE80), "o README diz duas vezes"
+  (fluxo-de-edicao), a taxa de quadros sem link para a linha do guia, e a citacao "testado em videos
+  reais" sem dizer que e traducao minha.
+- Snapshot unico: 2026-11-23, 10h11m49s a 10h11m55s UTC, `gh` autenticado. 51 URLs do artigo
+  testadas as 10h16 UTC, todas 200, mais a capa.
+- Tom das cinco pegadinhas, para a trava 8: o tempo e piso e o uso e ritmado para 99 por cento da
+  janela, por padrao (cook); o metodo so esta provado para corpos parecidos com os tres exemplos, e
+  a lista de erros traz o custo em tokens de sair disso (cutaway); a fileira "com a skill" do
+  showcase foi escolhida entre uma duzia, e o log fica na pasta do usuario, comum a todos os
+  projetos (antialgorithm); padrao e verificador sao do ingles, e os testes sao quatro casos
+  (STE80); a skill nao traz script nenhum e o codigo nasce na sua maquina num clipe de teste
+  (fluxo-de-edicao). Cinco tons.
+- **Regra do contador**, bateu em todas: 12 arquivos no cook; 3 exemplos em 3 pastas e 12 amostras
+  CC0 no cutaway; 10 idiomas de README no antialgorithm; 26 sinais, 15 regras e 4 casos de teste no
+  STE80; 22 arquivos, todos de texto, e 7 guias para 8 etapas no fluxo-de-edicao (as duas primeiras
+  dividem um arquivo). Nota: a blader/humanizer upstream esta na versao 4.0.0 com 26 padroes; a
+  secao 3.1 da especificacao ainda cita a numeracao da 2.11.2 (35 padroes). Nao mexi na
+  especificacao nesta sessao.
+- **Idioma como pegadinha**: voltou na ficha 4 (padrao do ingles) depois de cinco edicoes fora. Na
+  ficha 5 o portugues entrou como fato, nao como pegadinha. Se a 14 fechar pegadinha principal com
+  idioma, sao duas seguidas.
+- **Comunidade**: a busca do Hacker News respondeu desta vez. Um Show HN do STE80 Humanizer; zero
+  resultado para os outros quatro nomes. Reddit devolveu 403. Registrado no bloco 5.
+- **Capa**: silhueta de operador de camera num set, terceira sorteada pelo `--pick` (as duas
+  primeiras, um retrato e uma rua a noite, nao tinham relacao com o tema), conferida contra todas
+  as branches remotas e olhada antes de usar.
+- **Titulo**: "Written Down: Claude Skills That Keep Their Own Ledger", 54 caracteres. Sem "check",
+  sem comecar com "What", sem "Five Claude Skills and". Descricao com 159.
+- **Postiz nao conferido nesta sessao.** A listagem de posts do periodo traz todos os canais de
+  todos os projetos; nao abri. Pela nota de 16/11, nada da coluna foi publicado desde a edicao 5.
+
+## Leitura das travas para a edicao 14
+
+- **Aberturas.** A9 acabou de ser gasta: fora ate a 18, obrigatoria de novo ate a 19. A7 fora ate a
+  17, A6 ate a 16, A4 ate a 15. A3 volta na 14. A abertura da 14 sai de A1, A2, A3, A5, A8 ou A10.
+- **Fechos.** F3 acabou de ser gasto: fora ate a 16. F1 fora ate a 15. F4 volta na 14. A 14 sai de
+  F2, F4, F5 ou F6.
+- **Formatos de post** (contam da publicacao; nada publicado desde a edicao 5). Rascunhos
+  pendentes: 4 (P3, P8), 6 (P6, P2), 7 (P11, P5), 8 (P1, P7), 9 (P3, P8), 10 (P9, P10),
+  11 (P6, P2), 12 (P7, P11), 13 (P5, P1). Preferir P4, P10 ou P12 na 14.
+- **Trava 4.** Janela 11 a 15. Se os da 13 sairem: LinkedIn paga a ponta de baixo (375). Com o da
+  12 (1.300) as duas pontas do LinkedIn ficam pagas; o X pagou a de baixo na 12 (199).
+- **Trava 7.** LinkedIn da 13 abre com verbo, X com sintagma preposicionado.
+- **Candidatos a vigiar.** (1) Titulo na forma "X: Claude Skills That ...": apareceu na 10 e na 13.
+  (2) Frase "the smallest repository this week" na linha Verified: apareceu na 12 e na 13; terceira
+  seguida dispara cooldown. (3) Linha fixa sobre o acervo no bloco 5 ("nothing from my own skill
+  library"): 12 e 13, com redacao diferente; na 14, ou ha ficha do acervo ou a linha muda de lugar.
+- **Axenworks.** Paginas ainda nao usadas: braw, gopro, e as de 32gb a 2tb exceto 1tb.
