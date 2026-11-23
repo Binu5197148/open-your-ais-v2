@@ -1,9 +1,10 @@
 ---
 id: "art-189"
-title: "REA Skill: Free Download and How to Install It"
-description: "Download REA free: the skill that lets your agent take any app apart and explain it. I tested it, and here is why the app on demand worries me."
+title: "Reverse Engineer Anything with REA: Is it Worth It?"
+description: "Download the REA skill free and see how to use Reverse Engineer Anything in Claude Code, Codex or OpenCode. Updated for version 6.10.1, with my worry."
 pubDate: "2026-10-13"
-toolVersion: "2026-10"
+updatedDate: "2026-11-23"
+toolVersion: "2026-11"
 category: "AI"
 tags:
   - "Claude Code"
@@ -16,6 +17,8 @@ readTime: "7 min read"
 ---
 
 <!-- Published Oct 13, 2026 -->
+
+<p><em>Updated November 23, 2026. REA moved fast since I wrote this. The npm package is at version 6.10.1, published November 20, and the <a href="https://github.com/morluto/rea">repository</a> shows 474,775 stars and 115,734 forks today. The supported Node.js versions got stricter, setup now covers 42 agents including OpenCode and Antigravity, and Kuna joined Hopper, Ghidra and IDA as an engine for native apps. Three sections near the end are new: how to use it, whether it is free, and which agents it works with. My test below is still the one from October 13, on version 6.4.0. I did not run it again for this update.</em></p>
 
 <p>On October 13, 2026, the <a href="https://github.com/morluto/rea">REA repository</a> on GitHub had 185,794 stars and 45,056 forks. REA stands for Reverse Engineer Anything. It is an MCP server plus a Claude skill, MIT licensed, and version 6.4.0 went out on npm on October 11.</p>
 
@@ -88,9 +91,65 @@ readTime: "7 min read"
 <ul>
   <li><strong>Docs:</strong> <a href="https://rea.tools/">rea.tools</a> has setup guides and case studies.</li>
   <li><strong>Install:</strong> <code>npx rea-agents setup</code>. It works with Claude Code, Codex, Cursor, Gemini CLI and other agents. Restart the agent afterwards.</li>
-  <li><strong>Node.js:</strong> use 22, 24 or 26. If setup stops at <code>needs_human</code>, check this first.</li>
+  <li><strong>Node.js:</strong> use 22, 24 or 26. If setup stops at <code>needs_human</code>, check this first. As of version 6.10.1 the package asks for at least 22.23.4, 24.22.1 or 26.12.1, so an older patch of the right major version can also stop it.</li>
+  <li><strong>Update:</strong> <code>npx rea-agents@latest setup</code> refreshes an existing install. Review the changes it lists and restart the agent.</li>
   <li><strong>First test:</strong> <code>npx -y rea-agents@latest analyze-javascript-application /absolute/path --json</code> on something you own. Read the <code>limitations</code> field before the findings.</li>
   <li><strong>Native apps:</strong> need Hopper, Ghidra or IDA. JavaScript and Electron need nothing else.</li>
 </ul>
+
+<h2>How do you use REA Reverse Engineer Anything?</h2>
+
+<p>Once setup is done, you do not call REA yourself. You ask your agent a question about a target, and the agent picks the tools. The <a href="https://github.com/morluto/rea#quick-start">README</a> gives the shape of the request: name the app, name the feature, ask for the evidence. This is the order I would follow, taken from the project's own docs.</p>
+
+<ol>
+  <li><strong>Run setup outside the project you want to study.</strong> The README asks for a trusted directory that is not the target. Choose your agent, read the plan it prints, approve it, and restart the agent.</li>
+  <li><strong>Start with something you own.</strong> Your own site build, your own Electron app, a tool you wrote. The disclaimer and the law both make that the safe first target.</li>
+  <li><strong>Ask about one feature, not the whole app.</strong> A narrow question returns evidence you can read. A broad one returns a pile.</li>
+  <li><strong>Read the limitations before the findings.</strong> Every result says what was inspected and what was not. In my October run it said the code was read as text and never executed.</li>
+  <li><strong>Only then ask it to build.</strong> If the explanation holds, ask for a version of the feature inside your project, with tests.</li>
+</ol>
+
+<p>Copy this and swap the two parts in capitals:</p>
+
+```text
+Use REA on /ABSOLUTE/PATH/TO/A/TARGET/I/OWN.
+Explain how THE FEATURE works, step by step.
+For each claim, show the evidence: file, line or record.
+List what you could not inspect and what stays unknown.
+Do not build anything yet. Wait for my go.
+```
+
+<p>The fourth line matters most. An agent that is not asked for its unknowns will fill them with guesses, and a guess about someone else's software is how you end up shipping a bug you cannot explain.</p>
+
+<h2>Is REA free?</h2>
+
+<p>Yes. REA's own code is under the MIT license and the package installs from npm at no cost. Static inspection of JavaScript, Electron and .NET needs nothing else, according to the README.</p>
+
+<p>The cost shows up on the native side. Hopper and IDA are commercial products with their own licenses, and the README says in bold that you must legally obtain them and that REA grants no license, key or activation. Ghidra is free. So "free" is accurate for the tool, and incomplete if your target is a compiled Mac or Windows app and you have no disassembler.</p>
+
+<p>If you only want the instructions without the MCP server, the <a href="https://github.com/morluto/rea/blob/main/docs/getting-started/installation.md#skill-only-installation">installation guide</a> has a skill-only route: <code>npx skills add morluto/rea --skill reverse-engineer-anything</code>. It installs the agent instructions and references. It does not register the tools.</p>
+
+<h2>Does REA work with Codex, OpenCode or Antigravity?</h2>
+
+<p>All three are in the supported list. The installation guide names 42 clients that setup can configure on November 23, 2026. These are the ones people ask about most, with the value you pass if you want to skip the menu:</p>
+
+<table>
+<thead>
+<tr><th>Agent</th><th>Value for <code>--client</code></th></tr>
+</thead>
+<tbody>
+<tr><td>Claude Code</td><td><code>claude_code</code></td></tr>
+<tr><td>Claude Desktop</td><td><code>claude_desktop</code></td></tr>
+<tr><td>Codex</td><td><code>codex</code></td></tr>
+<tr><td>Cursor</td><td><code>cursor</code></td></tr>
+<tr><td>Gemini CLI</td><td><code>gemini_cli</code></td></tr>
+<tr><td>OpenCode</td><td><code>opencode</code></td></tr>
+<tr><td>Antigravity</td><td><code>antigravity</code></td></tr>
+<tr><td>GitHub Copilot CLI</td><td><code>copilot_cli</code></td></tr>
+<tr><td>VS Code</td><td><code>vscode</code></td></tr>
+</tbody>
+</table>
+
+<p>To see what setup would change before it changes anything, the guide gives a dry run: <code>npx rea-agents setup --client codex --dry-run --json</code>. Swap the client value. If you use Claude Desktop, quit it fully before approving, because the guide warns that a running app can overwrite the registration.</p>
 
 <p>The app made for you is coming whether we like it or not. I would rather see it coming with rules, and with the people who know the work building the tools, than watch the market find out on its own who it no longer needs.</p>
