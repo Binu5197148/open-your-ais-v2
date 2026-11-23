@@ -1,10 +1,10 @@
 ---
 id: "art-084"
-title: "Why ElevenLabs Isn't Ready for TV Yet"
-description: "ElevenLabs dubbing now runs on Dubbing v2 in 90+ languages and lets you fix single lines. Where it ships for ads, where it still fails broadcast QC, and how."
+title: "Why TV Producers Can't Use ElevenLabs Yet"
+description: "ElevenLabs dubbing gives you a preview, not a master: stereo at most, no lip sync. Where Dubbing v2 ships for ads, where broadcast QC stops it, and how."
 pubDate: "2026-03-15"
-updatedDate: "2026-10-26"
-toolVersion: "2026-10"
+updatedDate: "2026-11-23"
+toolVersion: "2026-11"
 category: "AI"
 tags:
   - "ElevenLabs"
@@ -22,11 +22,13 @@ readTime: "8 min read"
 
 <p><em>Updated October 26, 2026. This is a documentary analysis built on ElevenLabs' published documentation, not a hands-on test of the current release. What changed in dubbing itself: <a href="https://elevenlabs.io/docs/product-guides/products/dubbing" target="_blank" rel="noopener">the dubbing guide</a>, re-read today, says Dubbing v2 is the default model, covers 90+ languages, and now lets you edit the transcript and translation and regenerate a single segment in the web interface. Dubbing Studio, the older editor, is in maintenance mode and receives critical bug fixes only. The step-by-step section near the end reflects that state.</em></p>
 
+<p><em>Updated November 23, 2026. No new dubbing model since October: Dubbing v2 is still the default and the <a href="https://elevenlabs.io/docs/product-guides/products/dubbing" target="_blank" rel="noopener">dubbing guide</a>, re-read today, still says 90+ languages. Two things are new in this piece. First, three limits the guide states in plain words and that I had not quoted: the dubbed video is a preview and not a production master, audio is stereo at most, and dubbing does not include lip sync. They get their own section below, because they are the real answer to the headline. Second, small changes from the <a href="https://elevenlabs.io/docs/changelog/2026/11/9" target="_blank" rel="noopener">November 9 changelog</a>: a source shorter than 0.1 seconds is now rejected before any charge, a target language that cannot start is marked as failed instead of hanging as pending, and the old manual mode only appears when you pick Dubbing v1. Still a reading of the documentation, not a test.</em></p>
+
 <h2>The Production Cost Nobody Talks About</h2>
 <p>When brands and production companies talk about the cost of localization, they usually mean translation. That's the visible expense: a document goes in, a translated document comes out. The real cost is the audio production chain that follows: script adaptation, voice casting in each language, studio time, direction, sync adjustment, and final mastering. For a 60-second commercial adapted to five languages, the post-production audio cost can easily exceed the original production audio budget.</p>
 <p>On March 12, 2026, ElevenLabs released Eleven v3. The commercial localization math changed.</p>
 
-<h2>What Eleven v3 Actually Delivers</h2>
+<h2>What Eleven v3 Delivers</h2>
 <p>Eleven v3 introduces fine-grained expressive controls over voice generation, not just which language or which voice style, but specific emotional register, pacing, emphasis, and cadence within a sentence. Previous versions produced good voice output but treated expression as a broad parameter: neutral, excited, sad. v3 allows direction at the level of individual phrases, matching the kind of nuanced performance direction that happens in a real voice session.</p>
 <p>Multi-speaker conversation handling is the other significant upgrade. In a scene with two or more characters, v3 manages the dynamic between voices, maintaining distinct identities for each speaker while handling interruptions, overlapping emotional states, and dialogue flow. For commercial content with multiple characters, this closes a gap that made earlier AI voice production feel artificial at the conversational level.</p>
 <p>Language expansion now covers 70+ languages with dialect and accent specificity within languages. Not just "Spanish" but regional Spanish variations. Not just "English" but accent profiles matched to target markets. For international brand content, the difference between a generic language voice and a market-specific accent is the difference between content that lands and content that feels foreign to local audiences.</p>
@@ -58,8 +60,45 @@ readTime: "8 min read"
 </ol>
 <p>If you need the older line-by-line editor, Dubbing Studio is still reachable by choosing the v1 model, but ElevenLabs states it is in maintenance mode. Planning a recurring client workflow around a tool in maintenance mode is a risk worth naming in the quote. For where voice cloning fits in the same chain, see <a href="/blog/elevenlabs-voice-ai-voice-id-review-2026/">the voice cloning review</a>, and for what the free alternative on YouTube cannot do, <a href="/blog/youtube-ai-dubbing-27-languages-what-it-cannot-do/">the piece on YouTube auto dubbing</a>.</p>
 
+<h2>How do you dub a YouTube video with ElevenLabs?</h2>
+<p>You do not need to download the video first. The guide describes a Paste URL tab on the Dubbing page, for a video "from YouTube, TikTok, etc." From there the sequence is short:</p>
+<ol>
+<li><strong>Open Dubbing and choose Paste URL.</strong> Paste the link of the video. Use it for a video you own or have the right to adapt. A dub of someone else's video is still someone else's video.</li>
+<li><strong>Choose the languages.</strong> You are charged per minute of source, for each language you select. The total is shown for you to confirm before the dub starts.</li>
+<li><strong>Set Speaker similarity.</strong> It runs from 0 to 10 and the default is 7. The guide says higher values keep more of the original voice and can carry the original accent into the new language. Lower values sound more natural in the target language and less like the speaker.</li>
+<li><strong>Generate, then read before you publish.</strong> Fix the transcript and the translation line by line, as in the steps above.</li>
+<li><strong>Download the audio, not the video.</strong> If your channel has YouTube's multi-language audio option, add it there as an extra audio track on your original upload, so the picture stays the one you mastered.</li>
+</ol>
+<p>That last step is not a preference of mine. It follows from what the guide says about the file you get back.</p>
+
+<h2>Why is an ElevenLabs dub not a broadcast master?</h2>
+<p>Because ElevenLabs says so. Three sentences in its own guide, read on November 23, 2026, settle most of the argument about television:</p>
+<ul>
+<li><strong>The video is a preview.</strong> "Dubbed video is a high-quality preview, not a production master." It is most commonly output at 1080p and may not match the resolution of your source.</li>
+<li><strong>The audio is stereo at most.</strong> Mono on Dubbing v1, at most stereo on Dubbing v2, "so 5.1 and other multichannel audio is not preserved."</li>
+<li><strong>There is no lip sync in Dubbing.</strong> The guide says ElevenLabs does not offer lip syncing as part of Dubbing. It exists elsewhere in the product, through third party models.</li>
+</ul>
+<p>None of this is a defect. It is the scope of the tool, stated by the company that makes it. But a broadcast delivery spec asks for the picture master untouched, a mix in the channel layout the broadcaster requires, and dialogue that holds on a close-up. A dub that returns a 1080p preview and a stereo file answers none of the three by itself. Somebody still has to take that audio into a session, rebuild the mix against the original music and effects, and check every close-up by eye.</p>
+<p>The instruction the guide gives is the right one, and it is the workflow I would put in a quote: download the dubbed audio and use it to replace the audio track on your original video. Here is that as a checklist to paste into the job folder:</p>
+
+```text
+DUB DELIVERY CHECK (one per language)
+[ ] Source: final locked picture, original M&E stems on hand
+[ ] Dub generated on a paid plan (free plan dubs are watermarked)
+[ ] Transcript read by a native speaker before listening
+[ ] Brand and product names checked line by line
+[ ] Dubbed AUDIO downloaded. Preview video not used for delivery
+[ ] Audio laid against the original picture master, not the 1080p preview
+[ ] Mix rebuilt with original music and effects in the required layout
+[ ] Every close-up with dialogue watched for sync, by a person
+[ ] Loudness measured to the spec of the destination
+[ ] Sign-off: name of the person who listened to the whole thing
+```
+
+<p>For social and digital ads, most of that list collapses into two or three lines and the tool is ready now. For television, every line is a person and an hour. That is the distance the headline is about.</p>
+
 <h2>The Localization Advantage for Independent Producers</h2>
 <p>I'll be direct about what this means from the perspective of a small production company: international content distribution was previously cost-prohibitive for independent producers. A well-produced brand film was viable for one market. Adapting it for three or five markets required budget that only larger clients had.</p>
 <p>AI dubbing changes the economics of international distribution for independent production. A commercial produced for a domestic market can be adapted for three additional markets at a fraction of the previous cost. Clients who previously saw international distribution as out of scope can reconsider. That opens a category of work that was structurally inaccessible to small production companies before.</p>
 <p>That is not a marginal change. It's a structural one.</p>
-<p><em>Sources: <a href="https://elevenlabs.io/docs/product-guides/products/dubbing" target="_blank" rel="noopener">ElevenLabs: Dubbing product guide, read October 26, 2026</a> | <a href="https://blockchain.news/ainews/elevenlabs-launches-elevencreative-account-multimodal-ai-for-voice-cloning-70-language-dubbing-and-music-generation-latest-2026-update" target="_blank" rel="noopener">Blockchain News: ElevenLabs ElevenCreative Launch, March 2026</a> | <a href="https://www.cloudthat.com/resources/blog/elevenlabs-eleven-v3-redefines-expressive-ai-voice-generation" target="_blank" rel="noopener">CloudThat: Eleven v3 Redefines Expressive AI Voice</a> | <a href="https://hyperight.com/meta-and-elevenlabs-partner-to-power-ai-voices-in-reels-and-the-metaverse/" target="_blank" rel="noopener">Hyperight: Meta and ElevenLabs Partnership</a></em></p>
+<p><em>Sources: <a href="https://elevenlabs.io/docs/product-guides/products/dubbing" target="_blank" rel="noopener">ElevenLabs: Dubbing product guide, read October 26 and November 23, 2026</a> | <a href="https://elevenlabs.io/docs/changelog/2026/11/9" target="_blank" rel="noopener">ElevenLabs changelog, November 9, 2026</a> | <a href="https://blockchain.news/ainews/elevenlabs-launches-elevencreative-account-multimodal-ai-for-voice-cloning-70-language-dubbing-and-music-generation-latest-2026-update" target="_blank" rel="noopener">Blockchain News: ElevenLabs ElevenCreative Launch, March 2026</a> | <a href="https://www.cloudthat.com/resources/blog/elevenlabs-eleven-v3-redefines-expressive-ai-voice-generation" target="_blank" rel="noopener">CloudThat: Eleven v3 Redefines Expressive AI Voice</a> | <a href="https://hyperight.com/meta-and-elevenlabs-partner-to-power-ai-voices-in-reels-and-the-metaverse/" target="_blank" rel="noopener">Hyperight: Meta and ElevenLabs Partnership</a></em></p>
