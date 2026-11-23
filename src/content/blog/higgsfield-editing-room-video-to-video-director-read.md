@@ -12,7 +12,7 @@ tags:
   - "Relight"
   - "Post-production"
   - "Workflow"
-heroImage: "https://images.unsplash.com/photo-1532005051008-7bdebde54683?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHwyMHx8ZmlsbSUyMHNldCUyMGNpbmVtYXRvZ3JhcGh5fGVufDF8MHx8fDE3OTUzNDI2ODJ8MA&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85&sat=-100&con=10"
+heroImage: "https://images.unsplash.com/photo-1587050007609-d9686b217bd6?ixid=M3w5MzA3NTd8MHwxfHNlYXJjaHwxMXx8ZmlsbSUyMGRpcmVjdG9yJTIwb24lMjBzZXR8ZW58MXwwfHx8MTc5NTQyOTIzNHww&ixlib=rb-4.1.0&auto=format&fit=crop&w=1800&q=85&sat=-100&con=10"
 author: "Ulisses Balbino"
 readTime: "7 min read"
 ---
