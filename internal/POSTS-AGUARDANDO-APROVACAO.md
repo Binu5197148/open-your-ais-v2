@@ -1461,3 +1461,44 @@ So before uploading anything I'd fill one sheet per moment: what is wrong, in se
 
 I haven't run a job through it. This is a read of Higgsfield's own pages, with the limits table, the steps and the sheet to copy:
 https://openyourais.com/blog/higgsfield-editing-room-video-to-video-director-read/
+
+
+## 24/11/2026 (guardião). AGUARDANDO APROVAÇÃO, nada agendado
+
+### LinkedIn, modo 1 (opinião pura, sem link). Imagem sugerida: print da tabela de preço da Higgsfield com o 300 circulado.
+
+```
+A Higgsfield mexeu no preço do Genjutsu no dia 2 e quase ninguém viu.
+
+Em setembro, 15 segundos em 1080p custavam uns 7 dólares.
+Hoje são 300 créditos. Uns 14,70.
+
+Dobrou.
+
+E o Lite, que chegou vendido como "mais rápido e mais barato"? Em 720p ele sai 9% mais barato. Nove. E nem faz 480p.
+
+Não é crítica à Higgsfield. É o meu hub, eu abro todo dia. É conta.
+
+Genjutsu não se usa uma vez. A graça dele é variação: o mesmo filme com quatro elencos, seis cenários, três figurinos. Quarenta variações em 1080p dá quase 600 dólares. E a conta chega antes de você saber quais prestam.
+
+Então a ordem é sempre a mesma. Testa em 480p, julga, e só sobe a resolução do plano que já foi aprovado. A interface deixa você fazer ao contrário. Em silêncio.
+
+Etiqueta de "mais barato" não é tabela de preço. Abre a tabela.
+```
+
+### X, modo 3 (entrega, link completo)
+
+```
+Higgsfield repriced Genjutsu on November 2.
+
+15 seconds at 1080p: about $7.20 in September. Now 300 credits, about $14.70.
+
+Genjutsu Lite, sold as "faster and cheaper": 9% cheaper at 720p. And no 480p at all.
+
+So the cheapest test is still the full model at 480p, 45 credits. Judge the shot there. Re-run only the approved one at 1080p.
+
+The full price table, how to run Genjutsu from Claude through the Higgsfield MCP, and a brief you can paste that makes the agent tell you the cost before it spends a credit:
+https://openyourais.com/blog/higgsfield-genjutsu-motion-transfer-object-swap-director-test/
+```
+
+Feed (lido no Chrome hoje, logado): nenhum post novo dele desde o do Adobe MAX. Adobe MAX 6.470 impressões (eram 6.399 em 22/11), 31 reações, 2 comentários. "Não existe atalho" 8.577 (era 8.575). "IA DEGENERATIVA" 1.931 e parte 2 1.049. Cursor 165. Os de lnkd.in continuam entre 67 e 312. Seguidores: 746. Postiz: nada futuro no LinkedIn pessoal nem na página Open Your AIs; a fila tem só shorts do Arquivo 13 no YouTube (24/11 a 01/12) e os publicados do Lit to Watch.
