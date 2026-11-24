@@ -1,10 +1,10 @@
 ---
 id: "art-059"
-title: "Is ElevenLabs Worth It? A Director's Analysis"
-description: "ElevenLabs voice cloning on Eleven v4: how to clone a voice in 6 steps, why the free plan cannot, and where a clone still falls short of a voice actor."
+title: "ElevenLabs vs. Real Voice Actors: Can It Compete?"
+description: "How to clone a voice in ElevenLabs on Eleven v4: the 10 second minimum, the new clone strength slider, which plan you need, and where a clone falls short."
 pubDate: "2026-03-02"
-toolVersion: "2026-10"
-updatedDate: "2026-10-27"
+toolVersion: "2026-11"
+updatedDate: "2026-11-24"
 category: "AI"
 tags:
   - "ElevenLabs"
@@ -16,10 +16,12 @@ author: "Ulisses Balbino"
 readTime: "7 min read"
 ---
 
+<p><em>Updated November 24, 2026. Two changes on cloning since the last check, both from the ElevenLabs <a href="https://elevenlabs.io/docs/changelog" target="_blank" rel="noopener">changelog</a>. On November 2, Professional Voice Clone fine-tuning for Eleven v4 and v4 Turbo opened to every workspace: an existing professional clone is trained on v4 from My Voices, with the plus button next to Eleven v4. And since late October every voice fine-tuned for a v4 model has a clone strength slider next to stability and similarity. The plans are unchanged: free has no cloning, Starter at 6 dollars is the first with instant cloning, Creator at 22 dollars the first with professional cloning. The one dollar first month mentioned below ended; until December 1 ElevenLabs is running a Black Friday price on Creator and Pro with annual billing, so read the <a href="https://elevenlabs.io/pricing" target="_blank" rel="noopener">pricing page</a> on the day. The step by step section now carries the exact upload minimums and a recording checklist to copy.</em></p>
+
 <p><em>Updated October 5, 2026. On September 28 ElevenLabs released Eleven v4 and v4 Turbo, and the language numbers below moved with them. Professional voice cloning now covers every language in the v4 family, more than 90, where it covered 32 on Flash v2.5. An instant clone now starts from 10 seconds of audio.</em></p>
 
 <!-- Correction 2026-10-27: Creator credits corrected from "roughly 100 minutes" to 121,000 credits, per elevenlabs.io/pricing read on 2026-10-27. -->
-<p><em>Updated October 27, 2026. Plans reread on the <a href="https://elevenlabs.io/pricing" target="_blank" rel="noopener">official pricing page</a> today: the free plan still has no voice cloning, Starter at 6 dollars a month is the first with Instant Voice Cloning, and Creator at 22 dollars now carries 121,000 credits a month and is the first with Professional Voice Cloning. Eleven v4, from September 28, remains the current model; nothing newer on cloning had shipped by today. A step by step section on how to clone a voice in ElevenLabs, and on what the free plan really allows, is new.</em></p>
+<p><em>Updated October 27, 2026. Plans reread on the <a href="https://elevenlabs.io/pricing" target="_blank" rel="noopener">official pricing page</a> today: the free plan still has no voice cloning, Starter at 6 dollars a month is the first with Instant Voice Cloning, and Creator at 22 dollars now carries 121,000 credits a month and is the first with Professional Voice Cloning. Eleven v4, from September 28, remains the current model; nothing newer on cloning had shipped by today. A step by step section on how to clone a voice in ElevenLabs, and on what the free plan allows, is new.</em></p>
 
 <!-- Correction 2026-10-08: earlier versions described three first-person cloning tests and production credits that could not be documented. They were removed and the piece reframed as a documentary analysis. -->
 <p><em>Corrected October 8, 2026. Earlier versions of this piece described three cloning tests and a production background that could not be documented, so they were removed. What remains is an analysis of ElevenLabs' own documentation and of what voice work asks for. It is not a hands-on test. ElevenLabs does not sell a product called Voice ID: the features are Instant Voice Cloning and Professional Voice Cloning, and the text now uses those names.</em></p>
@@ -28,7 +30,7 @@ readTime: "7 min read"
 
 <h2>The Technology</h2>
 <p>ElevenLabs offers two kinds of voice clone, and most arguments about "AI voices" blur them. <a href="https://elevenlabs.io/docs/product-guides/voices/voice-cloning" target="_blank" rel="noopener">Instant Voice Cloning</a> builds a voice from a short sample almost immediately, without training a dedicated model. Professional Voice Cloning trains a dedicated model on a much larger set of recordings and is the one meant for work where the voice has to hold up over hours of material.</p>
-<p>The question this piece asks is narrower than "is it good". Voice work has three very different layers, the narrated explainer, the commercial read and the character performance, and a clone does not meet them equally. The documentation tells you what the tool is built to do. The craft tells you what each layer actually asks for.</p>
+<p>The question this piece asks is narrower than "is it good". Voice work has three very different layers, the narrated explainer, the commercial read and the character performance, and a clone does not meet them equally. The documentation tells you what the tool is built to do. The craft tells you what each layer asks for.</p>
 
 <h2>How Does Voice Cloning Work in ElevenLabs?</h2>
 <p>The two cloning modes share a workflow but differ in what they ask from you. The breakdown, from ElevenLabs' own documentation:</p>
@@ -36,23 +38,35 @@ readTime: "7 min read"
 <li><strong>Input:</strong> ElevenLabs recommends one to two minutes of clean audio for an instant clone, and 30 to 180 minutes for a professional one. Since Eleven v4 (September 28, 2026) an instant clone can start from 10 seconds of audio. A professional clone also goes through a verification step, and ElevenLabs says you can only create one of your own voice.</li>
 <li><strong>Output:</strong> A voice model that can speak any text in that voice. Type your script, select the cloned voice, generate audio.</li>
 <li><strong>Languages:</strong> Until September 2026 three different numbers got quoted as if they were one: 32 for professional cloning on Flash v2.5, past 70 for text to speech on Eleven v3, more than 90 for Dubbing v2. Eleven v4 collapsed them. ElevenLabs now states that professional voice cloning supports every language in the v4 family, more than 90. Coverage is not the same as quality in each language, so test your clone in the target language before you promise it to a client.</li>
-<li><strong>Controls:</strong> Adjust stability (how consistent the voice stays), similarity (how close to the original), and style (how expressive the delivery is).</li>
+<li><strong>Controls:</strong> Adjust stability (how consistent the voice stays), similarity (how close to the original), and style (how expressive the delivery is). Voices fine-tuned for an Eleven v4 model also get a clone strength slider, and since November 2 a professional clone trained on v4 remembers the clone strength saved in its settings.</li>
 <li><strong>Speed:</strong> Generation runs in seconds rather than the hours a booked session takes, which is what changes the economics below.</li>
 </ul>
 
 <h2>How to Use ElevenLabs Voice Cloning, Step by Step</h2>
-<p>The sequence below follows ElevenLabs' <a href="https://elevenlabs.io/docs/product-guides/voices/voice-cloning" target="_blank" rel="noopener">voice cloning guide</a> and the plan list as they read on October 27, 2026.</p>
+<p>The sequence below follows ElevenLabs' <a href="https://elevenlabs.io/docs/product-guides/voices/voice-cloning" target="_blank" rel="noopener">voice cloning guide</a> and the plan list as they read on November 24, 2026.</p>
 <ol>
-<li><strong>Record before you click anything.</strong> One quiet room, one microphone, one distance from it, no music, no room echo. For an instant clone, one to two minutes of clean speech beats ten minutes of noisy speech. Read in the register you will actually use: a calm narrator sample makes a calm narrator clone.</li>
-<li><strong>Clean the file.</strong> Cut breaths that run long, clicks and false starts. Anything left in the sample is something the clone will learn.</li>
+<li><strong>Record before you click anything.</strong> One quiet room, one microphone, one distance from it, no music, no room echo. For an instant clone, one to two minutes of clean speech beats ten minutes of noisy speech. Read in the register you will use: a calm narrator sample makes a calm narrator clone.</li>
+<li><strong>Clean the file.</strong> Cut breaths that run long, clicks and false starts. Anything left in the sample is something the clone will learn. The guide sets the floor: each uploaded file at least 5 seconds, all files together at least 10 seconds. It also says WAV does not usually make a better clone than a good compressed file, so spend the effort on the room, not the format.</li>
 <li><strong>Open Voices and choose Instant Voice Cloning.</strong> Upload the file, name the voice, and confirm you have the right to clone it. That checkbox is a legal statement, not a formality.</li>
 <li><strong>Generate a test line in Text to Speech</strong> with the new voice, then move the three sliders one at a time: stability, similarity and style. Lower stability gives more expressive but less predictable reads.</li>
 <li><strong>Test in the target language</strong> before you promise it to anyone. Coverage across 90+ languages is not the same quality in each.</li>
-<li><strong>Go professional only when the voice has to carry hours.</strong> Professional Voice Cloning asks for 30 minutes to 3 hours of recordings and a verification step, and you can only create one of your own voice.</li>
+<li><strong>Go professional only when the voice has to carry hours.</strong> Professional Voice Cloning asks for 30 minutes to 3 hours of recordings and a verification step, and you can only create one of your own voice. Fine-tuning usually takes 3 to 6 hours, longer when the queue is full, so it is not something to start the morning of a delivery.</li>
+<li><strong>Train it on Eleven v4.</strong> In My Voices, hover over the clone and click the plus button next to Eleven v4. Then test the clone strength slider on the same line at two settings before you lock it for the job.</li>
 </ol>
+<p>A checklist to keep next to the microphone, built from the same guide:</p>
+<pre><code>VOICE CLONE SESSION
+[ ] Written consent from the owner of the voice, dated
+[ ] One room, no reverb, no music, no second speaker
+[ ] Same mic, same distance, same level for every take
+[ ] Read in the register the job needs (narrator, ad, calm)
+[ ] Instant clone: 1 to 2 min clean audio (floor: 10 s total, 5 s per file)
+[ ] Professional clone: 30 min to 3 h, plus verification
+[ ] Plan: Starter or above for instant, Creator or above for professional
+[ ] First test line in the target language, not only in English
+[ ] Note the slider values you approved, per project</code></pre>
 
 <h2>Can You Get ElevenLabs Voice Cloning for Free?</h2>
-<p>No. The free plan includes text to speech, speech to text, sound effects, voice design and music on 10,000 credits a month, but neither kind of cloning. Instant Voice Cloning starts on Starter, 6 dollars a month, which ElevenLabs is selling at 1 dollar for the first month until November 1. Professional Voice Cloning starts on Creator, 22 dollars a month, with the first month at 11. Without a subscription, the closest you get is Voice Design, which builds a new synthetic voice from a text description. It is not your voice, and for a lot of narration work that is fine.</p>
+<p>No. The free plan includes text to speech, speech to text, sound effects, voice design and music on 10,000 credits a month, but neither kind of cloning. Instant Voice Cloning starts on Starter, 6 dollars a month. Professional Voice Cloning starts on Creator, 22 dollars a month. Until December 1, 2026 ElevenLabs shows a Black Friday price on Creator and Pro for the first year on annual billing; promotions change, so check the page on the day you subscribe. Without a subscription, the closest you get is Voice Design, which builds a new synthetic voice from a text description. It is not your voice, and for a lot of narration work that is fine.</p>
 <p>Two things worth knowing before you pay. The commercial license also starts on Starter, so anything you make on the free plan should stay off client work. And per ElevenLabs' <a href="https://elevenlabs.io/docs/help-center/account/general/what-happens-to-my-cloned-voices-when-i-downgrade-the-tier" target="_blank" rel="noopener">help center</a>, a clone is kept on the account after a downgrade but stops working below the plan that unlocks it: a professional clone sits unusable on Starter or free until you return to Creator. Budget the subscription for the length of the job, not just the week you record.</p>
 
 <h2>Three Kinds of Voice Work, Three Different Answers</h2>
