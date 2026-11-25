@@ -1502,3 +1502,43 @@ https://openyourais.com/blog/higgsfield-genjutsu-motion-transfer-object-swap-dir
 ```
 
 Feed (lido no Chrome hoje, logado): nenhum post novo dele desde o do Adobe MAX. Adobe MAX 6.470 impressões (eram 6.399 em 22/11), 31 reações, 2 comentários. "Não existe atalho" 8.577 (era 8.575). "IA DEGENERATIVA" 1.931 e parte 2 1.049. Cursor 165. Os de lnkd.in continuam entre 67 e 312. Seguidores: 746. Postiz: nada futuro no LinkedIn pessoal nem na página Open Your AIs; a fila tem só shorts do Arquivo 13 no YouTube (24/11 a 01/12) e os publicados do Lit to Watch.
+
+
+## 25/11/2026 (guardião). AGUARDANDO APROVAÇÃO, nada agendado
+
+### LinkedIn, modo 1 (opinião pura, sem link). Continua a tese do post do Adobe MAX (6.504 impressões). Imagem sugerida: print da página de novidades do After Effects 27 com "beta" circulado.
+
+```
+Semana passada eu escrevi que palco não é release note.
+
+O After Effects 27 saiu. Fui ler o que veio de verdade.
+
+Veio material Substance em texto 3D, com um material para a frente, outro para a lateral, outro para o chanfro. Veio vídeo e precomp virando textura de objeto 3D. Isso abre na segunda e entra no job.
+
+Veio o assistente de IA. Em beta. E o plano avulso do After Effects traz 25 créditos generativos por mês. A CG Channel diz que isso dá para uma ou duas ações. O resto é Firefly, à parte.
+
+E o Claude trabalhando dentro do projeto, que todo mundo postou? Não veio. Foi anúncio no MAX. Continua promessa.
+
+Não é crítica à Adobe. O que chegou é bom, e é justamente o que ninguém postou: letra com chanfro dourado e face fosca sem sair do After Effects.
+
+O que viralizou foi o que não chegou.
+
+Release note não dá like. Mas é com ela que se fecha orçamento.
+```
+
+### X, modo 3 (entrega, link completo)
+
+```
+After Effects 27.0 is out, and the useful part is not the AI Assistant.
+
+Substance materials now go on 3D text and shape layers, with a separate material for the front, back, sides and bevel. And in the Advanced 3D renderer any layer, video or precomp can be the material on a 3D object.
+
+The AI Assistant is beta. Single-app plans include 25 generative credits a month, which CG Channel says covers an action or two. Outside agents working inside your project through MCP were announced at MAX and are not in 27.0.
+
+What this moves: type with a bevel and a material no longer needs Cinema 4D. Type that shatters or melts still does.
+
+The six steps for 3D text in 27.0, how to bring a GLB in instead of modelling, and where the C4D line sits now:
+https://openyourais.com/blog/after-effects-26-3d-svg-motion-design-upgrades-2026/
+```
+
+Feed (lido no Chrome hoje, logado): nenhum post novo dele desde o do Adobe MAX. Adobe MAX 6.504 impressões (eram 6.470 em 24/11), 31 reações, 2 comentários. "Não existe atalho" 8.577 (igual). "IA DEGENERATIVA" 1.931 e parte 2 1.049 (iguais). Cursor 169. Os de lnkd.in continuam entre 67 e 312. Seguidores: 746 (igual). Postiz: nada futuro no LinkedIn pessoal nem na página Open Your AIs; a fila tem shorts do Arquivo 13 no YouTube (25/11 a 06/12) e os publicados do Lit to Watch.
