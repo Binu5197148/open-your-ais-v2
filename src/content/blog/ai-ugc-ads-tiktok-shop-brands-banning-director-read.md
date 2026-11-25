@@ -1,10 +1,10 @@
 ---
 id: "art-150"
-title: "The Truth About Using AI UGC on TikTok Shop"
-description: "TikTok allows AI UGC ads with a label, yet brands strip commissions for them. How to make AI UGC ads a brand will pay for, with a pre-post checklist."
+title: "Don't Get Your Commissions Stripped: AI UGC Guide"
+description: "TikTok allows AI UGC ads with a label, but brands strip commissions for AI demos. How to create AI UGC ads that get paid, with a brief you can paste in."
 pubDate: "2026-07-27"
-updatedDate: "2026-10-14"
-toolVersion: "2026-10"
+updatedDate: "2026-11-25"
+toolVersion: "2026-11"
 category: "AI"
 tags:
   - "AI UGC"
@@ -18,11 +18,15 @@ author: "Ulisses Balbino"
 readTime: "6 min read"
 ---
 
+<!-- Refresh 2026-11-25 (guardiao): no new official TikTok rule found since the July 10 newsroom post; the in-app AI literacy hub announced in July was reported live worldwide in October (secondary sources, linked). New H2 answering "how to create AI UGC ads" with six steps and a pasteable brief. Two "actually" removed. Title from vidIQ (score 94). -->
+
 <!-- Refresh 2026-10-14 (guardiao): dated note, TikTok newsroom date corrected from July 14 to July 10 (Singapore edition July 13), H2 rewritten around the question readers search, clickable sources added. The newer TikTok Shop AIGC policy page is reported only by third-party seller guides with conflicting dates; it is described as reported, not asserted. -->
+
+<p><em>Updated November 25, 2026. I looked again for anything newer from TikTok itself and found no new official rule after the July 10 announcement linked at the end. The in-app AI literacy hub that post described was reported live worldwide in early October. The commercial split is unchanged: the platform allows labeled AI UGC, and the brand contract can still say no. New below: a step-by-step way to create AI UGC ads that survive both tests, with a brief you can paste into your generator.</em></p>
 
 <p><em>Updated October 14, 2026. The split described below still holds: TikTok permits AI UGC with disclosure, and brands can still forbid it in their affiliate terms. What is new since July is a dedicated AI-generated content page in TikTok Shop's Policy Center. Seller guides that quote it say it bars using AI to demonstrate a product effect the real product cannot support, and that a label does not excuse that. Those guides give dates between July 31 and September 2, and I could not open the official page myself, so read it in the Policy Center before you rely on the wording. TikTok's own July announcement on AI labels is now linked at the end, with its correct date.</em></p>
 
-<h2>What actually changed for AI UGC ads on TikTok Shop</h2>
+<h2>What changed for AI UGC ads on TikTok Shop</h2>
 
 <p>SharkNinja sent a memo to its affiliate creators telling them that TikTok's own AI Video Maker is off limits. The wording, as reported by the Wall Street Journal, is not diplomatic: the tool is not permitted under the affiliate program's no AI-generated content policy. Chief Commercial Officer Neil Shah explained the reasoning in a sentence that belongs on a wall somewhere. They did not want an AI-generated Shark vacuum cleaning an AI-generated floor. They wanted real consumers seeing real products used by real people.</p>
 
@@ -36,7 +40,7 @@ readTime: "6 min read"
 
 <p>What is happening instead is a split in who gets to decide. The platform sets the floor, which is disclosure and no false claims. The brand sets the ceiling, and the ceiling can be zero. A creator can be fully compliant with TikTok and still lose the commission, because the brand whose product is in the frame wrote a stricter contract.</p>
 
-<p>Rare Beauty ran into the sharper version of this. A creator promoted the brand using an AI version of herself, without authorization, and the brand had to publicly distance itself from a promotion it never approved. The creator did not violate a platform rule. She violated the only rule that was ever actually load-bearing, which is that somebody has to be accountable for the claim being made.</p>
+<p>Rare Beauty ran into the sharper version of this. A creator promoted the brand using an AI version of herself, without authorization, and the brand had to publicly distance itself from a promotion it never approved. The creator did not violate a platform rule. She violated the only rule that was ever load-bearing, which is that somebody has to be accountable for the claim being made.</p>
 
 <h2>Three billion labels and what they do not solve</h2>
 
@@ -66,7 +70,7 @@ readTime: "6 min read"
 
 <p>The creators losing commissions this month are not losing them for using AI. They are losing them for producing an advertisement that nobody was willing to stand behind, including themselves. That has always been a fireable offense. It just used to require a camera and a crew, which made it slow and expensive enough that the problem rarely reached this scale.</p>
 
-<h2>How do you make AI UGC ads a brand will actually pay for?</h2>
+<h2>How do you make AI UGC ads a brand will pay for?</h2>
 
 <p>Three things, in order of how much money they will save you, and a fourth that takes five minutes.</p>
 
@@ -76,6 +80,35 @@ readTime: "6 min read"
 <li>Do not generate the demonstration. Generate around it. A synthetic environment, a synthetic transition, a synthetic voice on a real result is a very different object from a synthetic result. The first is production design. The second is the thing SharkNinja cut commissions over.</li>
 <li>Before you post, run one check per clip: is the AI-generated toggle or an on-screen label on, does the brand's affiliate contract allow AI content, and is every result shown in the video something the real product does on its product page or in its instructions. If any answer is no, the clip is not ready.</li>
 </ul>
+
+<h2>How do you create AI UGC ads step by step?</h2>
+
+<p>This is the order I would give a creator on day one. None of it depends on which generator you open, and it is the order that keeps the claim and the commission in the same place.</p>
+
+<ol>
+<li>Get the brand's affiliate terms in writing and search them for "AI", "synthetic" and "generated". If the program forbids AI content, stop here. No edit fixes a contract.</li>
+<li>Shoot or source the real result first. The vacuum on a real floor, the serum on real skin, the blender on a real smoothie. Ten seconds on a phone is enough. This is the part you never generate.</li>
+<li>Write the claim list before the script. Every sentence in the ad that says the product does something has to match the product page or the instructions. Anything that is not there comes out.</li>
+<li>Generate around the result, never the result: the presenter, the setting, the hook, the transition, the voice. If you use an AI presenter, it cannot pose as a doctor, a dentist or any professional the person is not.</li>
+<li>Turn on TikTok's AI-generated content setting before posting, and keep the affiliate disclosure as well. One does not replace the other.</li>
+<li>Save the brief, the real footage and the claim list in one folder per video. If the brand asks, that folder is your answer.</li>
+</ol>
+
+<p>The brief below is what goes into the generator, with the brackets filled. It is written so the model cannot invent the demonstration, because the demonstration is not in it.</p>
+
+<pre><code>PRODUCT: [name, exact variant]
+BRAND AFFILIATE TERMS: AI content allowed? [yes / no, quote the line]
+REAL RESULT CLIP: [file name, shot by whom, date]
+CLAIMS ALLOWED (from product page): [1] [2] [3]
+CLAIMS NOT ALLOWED: anything not in the list above
+AI PRESENTER: [description] / not a doctor or any professional
+WHAT AI GENERATES: hook, setting, presenter, voice, transitions
+WHAT AI DOES NOT GENERATE: the product working
+LENGTH: [15 / 30 / 60] s, vertical 9:16
+LABELS: TikTok AI-generated toggle ON, affiliate disclosure ON
+</code></pre>
+
+<p>If a step feels like friction, that is the point. The friction is where the accountability lives, and accountability is the thing the brand is paying for.</p>
 
 <p>The reason this story matters more than a single brand memo is that it is the first time the market has priced the difference between using a generator and authoring something. <a href="/blog/ai-slop-author-problem-nolan-gen-z-director-take/">The slop problem was never a quality problem</a>. It was an authorship vacuum, and it persisted for as long as it did because nothing punished it. Something finally does.</p>
 
@@ -90,5 +123,6 @@ readTime: "6 min read"
 - TikTok's standing rule that fully AI content is permitted with an on-screen disclosure tag and no false claims: TikTok policy, reported consistently across the above coverage.
 DELIBERATELY EXCLUDED: a widely repeated claim that TikTok updated its advertising policies on Jul 21, 2026 to mandate AI disclosure labels. Every source found for it was a marketing or SEO blog with no citation to an official TikTok policy document or press release. Not verifiable to the standard this site requires, so it is not asserted here.</p>
 <p>CORRECTION Jul 28, 2026: an earlier version of the closing checklist described the SharkNinja policy as something the company "fired people over". SharkNinja stripped affiliate commissions under its no AI-generated content policy. It did not terminate employees. The phrasing was corrected to "cut commissions over". Sales, creator-count and quote figures re-verified on Jul 28, 2026 against The Independent (Jul 15, 2026) syndication and hold as published.</p>
+<p>Added November 25, 2026: no newer official TikTok rule found; the AI literacy hub reported live worldwide by <a href="https://tribune.com.pk/story/2633786/making-sense-of-ai-on-social-media" target="_blank" rel="noopener">The Express Tribune (October 9, 2026)</a> and <a href="https://en.dailypakistan.com.pk/08-Oct-2026/tiktok-comes-up-with-new-move-to-help-users-spot-ai-generated-videos" target="_blank" rel="noopener">Daily Pakistan (October 8, 2026)</a>. Seller guides published this month describe TikTok Shop Black Friday campaign rules for affiliates, but none links an official TikTok document, so nothing from them is asserted here.</p>
 <p>Links, checked October 14, 2026: <a href="https://newsroom.tiktok.com/helping-people-spot-and-understand-ai-generated-content-on-tiktok?lang=en-GB" target="_blank" rel="noopener">TikTok Newsroom, helping people spot and understand AI-generated content (July 10, 2026)</a> | <a href="https://c2pa.org/c2pa-welcomes-tiktok-to-steering-committee/" target="_blank" rel="noopener">C2PA, TikTok joins the Steering Committee</a> | <a href="https://www.affiversemedia.com/tiktok-shop-ai-generated-videos-affiliate-trust/" target="_blank" rel="noopener">Affiverse, TikTok Shop AI videos and affiliate trust (SharkNinja memo)</a> | <a href="https://www.worldjournal.com/wj/story/121172/9636854" target="_blank" rel="noopener">World Journal, brands withholding commissions on AI videos</a></p>
 </section>
