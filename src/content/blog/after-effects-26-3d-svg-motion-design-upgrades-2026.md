@@ -1,10 +1,10 @@
 ---
 id: "art-097"
-title: "After Effects 3D vs C4D: Which One Wins?"
-description: "Meshes, Substance materials, displacement and depth of field now ship inside After Effects 26.5. The jobs that stay there, and the ones that still need C4D."
+title: "After Effects 3D vs C4D: Is It Finally Over?"
+description: "After Effects 27.0 puts Substance materials on 3D text and turns any layer into a texture. The jobs that now stay in AE, and the ones that still need C4D."
 pubDate: "2026-03-15"
-updatedDate: "2026-10-21"
-toolVersion: "2026-10"
+updatedDate: "2026-11-25"
+toolVersion: "2026-11"
 category: "Tools"
 tags:
   - "After Effects"
@@ -19,6 +19,9 @@ author: "Ulisses Balbino"
 readTime: "7 min read"
 ---
 
+<!-- Refresh 2026-11-25 (guardiao): After Effects 27.0 (November 2026 release) is now current; dated note, new H2 on 3D text with the 27.0 material options, sources added. Title from vidIQ (score 97). -->
+
+<p><em>Updated November 25, 2026: After Effects 27.0, which Adobe's documentation also calls the November 2026 release, is now the current version. Two of its changes move the line this article draws. Substance materials now apply to 3D text and shape layers, with separate materials for the front, back, sides and bevel, and in the Advanced 3D renderer any layer, video or whole precomp can be used as the material on a 3D object. It also adds an AI Assistant in beta that takes text prompts to organize projects and write expressions. CG Channel notes that a single-app subscription includes 25 generative credits a month, so heavy use of the Assistant needs Firefly credits. Adobe also previewed local MCP support for outside AI agents at MAX, but that is a preview, not part of 27.0. The new section on 3D text below covers what this changes. Still a reading of documentation and release coverage, not a hands-on test.</em></p>
 <p><em>Updated October 21, 2026: the current release is After Effects 26.5, from September 2026. It added no new 3D tools: its changes are new guides, disk caching for Object Matte, effect color labels, a rebuilt Effect Controls panel and native ACES 2.0. The 3D release this article had skipped is 26.2, from April, which added displacement to parametric meshes. Both are folded into the sections below, along with a correction on when the AI Object Matte arrived. This is a reading of Adobe's documentation and release coverage, not a hands-on test.</em></p>
 <p><em>Updated September 8, 2026: this was written in March 2026, days after After Effects 26.0 shipped. The 3D story has moved since. Version 26.3 arrived on June 18, 2026 and closed the biggest gap named below: the Advanced 3D renderer now does depth of field, with near and far blur levels and focus distance linkable to a layer in the composition. The same release made the Mask Tracker up to 5x faster, added a 2D Curl Noise effect, and added SVG paste straight from Illustrator. Read what follows as the case for native 3D, with 26.3 as the version you actually have.</em></p>
 
@@ -56,6 +59,18 @@ readTime: "7 min read"
 
 <p>One more line moved this year. Since 26.2, displacement works on parametric meshes: a height map pushes the surface out, which turns a plain cylinder into a ribbed bottle or a flat plane into embossed packaging, and CG Channel's <a href="https://www.cgchannel.com/2026/04/adobe-releases-after-effects-26-2/" target="_blank" rel="noopener">26.2 breakdown</a> notes it sits alongside the existing material channels. That pushes the "shapes that have names" test a little further. It does not touch the second list: displacement is surface detail, not modelling, rigging or simulation.</p>
 
+<h2>How Do You Make 3D Text in After Effects 27?</h2>
+<p>This is the job 27.0 moved furthest, and it is the one people search for most. Before this release, extruded type in the Advanced 3D renderer could carry simple material settings but not the Substance library. Now it can, per surface.</p>
+<ol>
+<li>Open Composition Settings, go to the 3D Renderer tab and choose <strong>Advanced 3D</strong>. Keep the type in its own precomp, because this renderer turns off some effects and blending modes.</li>
+<li>Create the text layer and switch on its 3D layer box.</li>
+<li>In the layer's Geometry Options, set the extrusion depth and the bevel. The bevel is what catches light, so give it a size before judging the material.</li>
+<li>Apply a Substance material from the Substance 3D Materials panel. In 27.0 you can assign a different one to the front, back, sides and bevel, which is how a gold edge on a matte face is built.</li>
+<li>For a face that moves, use a video layer or a precomp as the material source instead. A looping brand texture on the letter face, rendered with the letters, no extra plug-in.</li>
+<li>Add a light, a camera, and depth of field in the renderer settings, then check one frame at full resolution before you animate anything.</li>
+</ol>
+<p>The C4D test still applies. Type with a bevel and a material is "shapes that have names". Type that shatters, melts or is pushed around by a simulation is not, and still belongs in a 3D application.</p>
+
 <h2>Can You Import a 3D Model Into After Effects Instead of Building It?</h2>
 <p>Yes, and this is often the real answer to the Cinema 4D question. After Effects has imported 3D models natively since version 24.1, and Adobe's <a href="https://helpx.adobe.com/after-effects/using/3d-compositing-in-after-effects.html" target="_blank" rel="noopener">3D documentation</a> lists GLB, GLTF, OBJ and FBX. The split that works on a commercial job is to let a modeller build the object once in Blender or C4D, then bring it in and do the lighting, camera and finishing where the rest of the spot lives.</p>
 <ol>
@@ -73,6 +88,7 @@ readTime: "7 min read"
 The 26.3 details in the update note and the section above were confirmed on September 8, 2026 against two independent sources: CG Channel's release breakdown of June 2026 and Adobe's own 26.3 announcement.
 Release date confirmed as June 18, 2026. Depth of field in the Advanced 3D renderer, near and far blur levels, focus distance linkable to a layer, Mask Tracker up to 5x faster, the 2D Curl Noise effect and SVG clipboard paste from Illustrator all appear in both.
 The 26.0 figures in the body of the article, including the 1,300+ Substance 3D materials, are as verified in March 2026 and were not re-counted for this update.</p>
+<p>VERIFICATION NOTE, November 25, 2026. After Effects 27.0 features confirmed in <a href="https://www.cgchannel.com/2026/11/adobe-releases-after-effects-27-0/" target="_blank" rel="noopener">CG Channel's 27.0 breakdown</a> and <a href="https://en.pronews.com/news/20261113122316669.html" target="_blank" rel="noopener">PRONEWS (November 13, 2026)</a>: AI Assistant (beta), Substance materials on 3D text and shapes with per-surface assignment, layers and precomps as material sources in Advanced 3D, Contour Paint, Illustrator text as editable layers, De-esser. The 25 monthly generative credits on single-app plans are as reported by CG Channel. Outside AI agents working in After Effects through local MCP were announced at MAX as coming, not shipped in 27.0, per <a href="https://www.creativeboom.com/news/adobe-max-2026-all-the-big-announcements/" target="_blank" rel="noopener">Creative Boom (November 10, 2026)</a> and <a href="https://www.typoanim.com/blog/after-effects-2027-new-features" target="_blank" rel="noopener">Typoanim's 27.0 feature list</a>.</p>
 <p>VERIFICATION NOTE, October 21, 2026. Adobe's What's New page, last updated September 18, 2026, read on October 21: 26.5 (September 2026) features, Object Matte and mesh displacement under 26.2 (April 2026). Mesh displacement and Object Matte in 26.2 also confirmed in CG Channel's April 2026 breakdown. 3D model formats from Adobe's 3D documentation. No new 3D feature listed for 26.5.</p>
 </section>
 <p><em>Sources: <a href="https://blog.adobe.com/en/publish/2026/01/20/new-ai-powered-video-editing-tools-premiere-major-motion-design-upgrades-after-effects" target="_blank" rel="noopener">Adobe Blog: Major Motion Design Upgrades in After Effects</a> | <a href="https://www.redsharknews.com/adobe-premiere-26-after-effects-26-features" target="_blank" rel="noopener">RedShark News: After Effects 26 Features</a> | <a href="https://www.newsshooter.com/2026/01/22/whats-new-in-adobe-after-effects-26-0/" target="_blank" rel="noopener">Newsshooter: What's New in After Effects 26.0</a></em></p>
