@@ -1,10 +1,10 @@
 ---
 id: "art-090"
-title: "What Topaz Video AI Can't Do"
-description: "No free plan, $299 a year, and a diffusion model that can drift between frames. Where Topaz Video AI fails on archive footage, and the test to run first."
+title: "Don't Use Topaz AI Until You See This"
+description: "Topaz Video AI has no free plan, costs $59 a month, and its diffusion model can drift between frames. How to use it on archive footage and what to test first."
 pubDate: "2026-03-15"
-updatedDate: "2026-10-21"
-toolVersion: "2026-10"
+updatedDate: "2026-11-25"
+toolVersion: "2026-11"
 category: "Tools"
 tags:
   - "Topaz Video AI"
@@ -18,6 +18,9 @@ author: "Ulisses Balbino"
 readTime: "8 min read"
 ---
 
+<!-- Refresh 2026-11-25 (guardiao): pricing page reread in a browser; Topaz Studio list price now $499 a year (was $399), Black Friday first year $299; Topaz for Web Video $29 a month with Starlight Fast 3 and Astra 2. New H2 answering "how to use Topaz Video AI" with a step list. Title from vidIQ (score 94). -->
+
+<p><em>Updated November 25, 2026. The pricing page moved again. The plan it now puts first is Topaz Studio, the bundle with every app: list price $499 a year, up from $399 in October, sold at $299 for the first year during the Black Friday sale. Topaz Video on its own is $59 a month, cancel anytime, and the page's plan data still lists it at $299 a year, which means that while the sale runs the whole bundle costs the same as Video alone. The browser version, Topaz for Web Video, is $29 a month with 200 cloud video credits and now lists Starlight Fast 3 and Astra 2, a creative upscaler. Starlight Precise 2.6 is still the local flagship. A new section below walks through how to use it on a clip. Still a reading of Topaz's own pages, not a new test.</em></p>
 <p><em>Updated October 21, 2026. Prices were reread on Topaz's <a href="https://www.topazlabs.com/pricing" target="_blank" rel="noopener">pricing page</a> today: Topaz Video alone is $299 a year, the Pro license for companies above one million dollars in revenue is $699, and Topaz now sells a Topaz Studio bundle with every app for $399 a year, offered at $199.50 for the first year at the time of writing. The model list moved too: Starlight Precise 2.6 replaced 2.5 in Topaz Video 1.7. This update also corrects how the article described Magnific, and softens a claim that Topaz "doesn't hallucinate". It is a reading of Topaz's documentation, not a new test.</em></p>
 <p><em>Updated 9 September 2026. Two things changed since this was first published, and both cost money. Topaz dropped the "AI" from the product name, so what you download today is called Topaz Video. And the buy-it-once perpetual license is gone for new buyers. It is a subscription now. Everything below about models, settings and where the thing fails still holds.</em></p>
 
@@ -46,11 +49,24 @@ readTime: "8 min read"
 
 <p>One thing nobody warns you about until the drive fills up: upscaling multiplies file size, not just resolution. A two minute archival sequence that arrived as a few hundred megabytes can leave the render as several gigabytes of ProRes, and if you are delivering multiple versions the total climbs fast. Before you start a batch, it is worth knowing what the output will actually weigh. I built a <a href="https://axenworks.com/" target="_blank" rel="noopener">video storage and recording time calculator</a> for exactly this, with the <a href="https://axenworks.com/prores-file-size-calculator/" target="_blank" rel="noopener">ProRes data rates</a> taken from Apple's own published figures rather than guessed.</p>
 
+<h2>How Do You Use Topaz Video AI to Upscale a Clip?</h2>
+<p>The order below is the one that keeps a client's archive honest. Model names change between releases, so read the model list in your installed version before following any guide, this one included.</p>
+<ol>
+<li>Export the clip from your edit at its native resolution and frame rate, with handles. Never feed Topaz a file your NLE already scaled up.</li>
+<li>If the source is interlaced tape, deal with the fields first, with a deinterlacing model or in your NLE, so the combing is not upscaled along with the picture.</li>
+<li>Pick the model by the question it answers. For real footage that must stay true, start with a restoration model such as Starlight Precise or Proteus. Leave creative upscalers like Astra for AI-generated material, where invented detail is not a lie about a real event.</li>
+<li>Set the output to the resolution of your timeline, not the largest the app offers. A 4K master needs 4K, and going further only multiplies render time and file size.</li>
+<li>Preview five seconds on the hardest part of the shot: a face, a sign, a fast pan. If the text changes shape or the face changes person, change the model before you render the whole clip.</li>
+<li>Render to an intermediate codec like ProRes, cut it against your camera footage, and only then run the batch.</li>
+</ol>
+<p>If you are on the browser version, the same order applies. The difference is that every render spends cloud credits, so the five second preview is also the step that saves money.</p>
+
 <h2>Where It Doesn't Work</h2>
 <p>Topaz Video AI is not a solution for every archival footage problem. Extremely degraded tape transfers with significant signal corruption (dropout artifacts, color bleed, sync damage) produce inconsistent results because the restoration model is working from source data that doesn't have a coherent reference for what the scene should look like. Footage shot with a very narrow depth of field where focus is critically soft produces mixed results depending on the model and settings. And footage that is historically significant in ways where any alteration of the visual record would be inappropriate should be presented as-is, regardless of the technical capability to upscale.</p>
 <p>Two failures show up on exactly the footage people bring to it. Text and logos: signage, lower thirds and product labels in old footage can come back with letters that are sharper but wrong, which is why "upscale without text imperfections" is one of the most searched Topaz questions. Mask the text and treat it separately, or rebuild it as a graphic. And faces at small sizes: a face that is twenty pixels tall in the source has to be guessed, and a guessed face on a real founder is a problem no setting fixes.</p>
 <p>For the standard commercial production archival case (brand history footage, event documentation, early product shots) it works well and the quality improvement is substantial enough to change editorial decisions about how much archival material to include.</p>
 <h2>Is It Worth $299 a Year?</h2>
+<p><em>The paragraph below was written with the October 21 pricing. The November 25 numbers are in the note at the top.</em></p>
 <p>That is the number that matters now, because the one-time purchase is no longer on the table for new buyers. On October 21, 2026 the pricing page reads: Topaz Video at $299 a year; Topaz Video Pro at $699 a year, which you need for full commercial rights if your company bills more than one million dollars a year; and Topaz Studio, the bundle with Video, Photo, Gigapixel and the web and mobile apps, at $399 a year, discounted to $199.50 for the first year while that offer runs. The page also lists annual-billed-monthly and monthly options; in September those were $39 and $59 a month, and they were not reconfirmed for this update. Check the current numbers yourself before you buy, because this is the part of the product that has moved most.</p>
 <p>My honest answer depends on one question: do you generate footage, or only receive it?</p>
 <p>If archival work lands on your desk twice a year, take a monthly plan, run the job, cancel. That is what the monthly plan is for and there is no shame in using it that way.</p>
