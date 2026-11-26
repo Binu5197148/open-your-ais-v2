@@ -1,9 +1,9 @@
 ---
-title: "How to Fix AI Character Drift in Higgsfield"
-description: "Consistent AI characters in Higgsfield start before the prompt: one sheet, references that agree, an approved first frame. Prompt and free kit inside."
+title: "Why Your AI Characters Keep Changing (Fix It Now)"
+description: "Consistent AI characters in Higgsfield start before the prompt: one sheet, references that agree, an approved first frame, now Elements. Checklist and free kit."
 pubDate: "2026-09-10"
-toolVersion: "2026-09"
-updatedDate: "2026-10-31"
+toolVersion: "2026-11"
+updatedDate: "2026-11-26"
 category: "Filmmaking"
 tags:
   - "Higgsfield"
@@ -14,6 +14,8 @@ heroImage: "https://openyourais.com/images/cases/toninho/bianchi-sheet.webp"
 author: "Ulisses Balbino"
 readTime: "7 min read"
 ---
+
+<p><em>Updated November 26, 2026: since this was written, Higgsfield published an official guide to Elements in Cinema Studio 4.0, saved references for a character, a location or a prop that you call with an @ tag in any prompt. A new section below explains how the sheet method in this tutorial maps onto them. Nothing else in the method changed.</em></p>
 
 <p>In September 2026, I put the reference and prompt lessons from <em>A Saga de Toninho Sagatiba</em> into a skill called Seedance Lab. I had used Claude with Higgsfield to turn characters from my improvised WhatsApp recordings into scenes. Keeping the same person recognizable across those scenes required decisions I could inspect and repeat.</p>
 
@@ -119,6 +121,26 @@ inputs, duration and estimated cost. Wait for my approval.</code></pre>
    Write down the earliest visible failure, change one input, repeat.</code></pre>
 
 <p>The official route for connecting Claude to the platform is Higgsfield's <a href="https://higgsfield.ai/creator-hub/help-center/integrations/how-do-i-connect-higgsfield-to-ai-agent">agent connection guide</a>. The longer production story behind these rules is in <a href="/blog/ai-character-consistency-prep-problem-not-model-problem/">why character consistency is a prep problem</a>.</p>
+
+<h2>Should you use Elements or attach the sheets every time?</h2>
+
+<p>On November 4, 2026, Higgsfield published <a href="https://higgsfield.ai/blog/consistent-characters-locations" target="_blank" rel="noopener">its own guide to keeping characters and locations consistent</a>. The core idea is the same as this tutorial: give the model the same reference for the person and the same reference for the place, every time. What changed is where those references live.</p>
+
+<p>In Cinema Studio 4.0 you can save a reference as an Element. Each Element is a character, a location or a prop, built from one or more images or videos, and it gets an ID that works as an @ tag inside the prompt. Elements sit in My elements in the Cinema Studio sidebar, so they carry across projects instead of living inside one. According to the same guide, one Cinema Studio 4.0 generation accepts up to 50 references.</p>
+
+<p>Here is how the materials from this exercise translate:</p>
+
+<ul>
+<li><strong>The character sheet becomes a Character element.</strong> Upload the sheet itself, not a single portrait, and write the fixed wardrobe in the element's description field: polo colour, cap, watch.</li>
+<li><strong>The location reference becomes a Location element.</strong> Higgsfield's guide asks for a wide establishing shot with nobody in it and three or four details that are easy to check later, which is the same thing the bar reference above does.</li>
+<li><strong>Two people in the scene means two Character elements.</strong> The guide puts several characters in one space by giving each person and the place their own tag. Write in the prompt who stands where, because the tags carry identity, not blocking.</li>
+<li><strong>The approved starting frame stays an attachment.</strong> It belongs to one shot, not to the whole film, so it does not need to be saved.</li>
+<li><strong>Soul ID is a different tool.</strong> The guide describes it as a trained identity built from 20 to 80 photos of one real person. A sheet made for a fictional character, like Bianchi, fits an Element better.</li>
+</ul>
+
+<p>Elements do not remove the rule in the checklist above. They make it cheaper to follow. Step 6 still applies: every element for every person, costume, vehicle and place that appears in the shot goes into every generation, plus the approved frame, including regenerations. Typing the tags is faster than re-uploading the files, and that is exactly why it is easy to forget one. Ask your agent to list the tags it is about to send before it runs, and compare that list with the shot description.</p>
+
+<p>The same sheet-first discipline applies to still images too. For how Midjourney now handles it with a two-image edit, see <a href="/blog/midjourney-v7-honest-review-personalization-draft-mode-video/">how to use Midjourney like a pro</a>.</p>
 
 <h2>Download the exercise kit</h2>
 
