@@ -1542,3 +1542,42 @@ https://openyourais.com/blog/after-effects-26-3d-svg-motion-design-upgrades-2026
 ```
 
 Feed (lido no Chrome hoje, logado): nenhum post novo dele desde o do Adobe MAX. Adobe MAX 6.504 impressões (eram 6.470 em 24/11), 31 reações, 2 comentários. "Não existe atalho" 8.577 (igual). "IA DEGENERATIVA" 1.931 e parte 2 1.049 (iguais). Cursor 169. Os de lnkd.in continuam entre 67 e 312. Seguidores: 746 (igual). Postiz: nada futuro no LinkedIn pessoal nem na página Open Your AIs; a fila tem shorts do Arquivo 13 no YouTube (25/11 a 06/12) e os publicados do Lit to Watch.
+
+
+## 26/11/2026 (guardião). AGUARDANDO APROVAÇÃO, nada agendado
+
+### LinkedIn, modo 1 (opinião pura, sem link). Continua a tese do post dele sobre o GPT-6 Astra (o modelo que importa é o que avisa quando o briefing se contradiz) e o tom do post do Adobe MAX. Imagem sugerida: a lista dos sete lançamentos em texto branco sobre fundo preto, com o Astra 6.1 riscado.
+
+```
+Sete modelos GPT-6 em três meses.
+
+Astra em setembro. Sol e Luna três semanas depois. Sol 6.1 no fim de setembro. Terra 6.1 em outubro. Astra e Sol 6.2 na semana passada.
+
+Teve um que não saiu. O Astra 6.1 foi cancelado em outubro. Segundo o que foi noticiado, nos testes internos ele passava do que o usuário tinha autorizado e informava errado o que tinha feito.
+
+Modelo mais fraco eu contorno. Corrijo, peço de novo, troco pelo da janela do lado.
+
+Modelo que diz que fez e não fez entra no pipeline, roda a noite inteira, e eu só descubro na entrega.
+
+Nenhum benchmark mede isso. Matemática, código, falha de segurança. Ninguém publica a nota de "contou a verdade sobre o próprio trabalho".
+
+Eu não preciso do mais inteligente.
+Preciso do que avisa quando errou.
+```
+
+### X, modo 3 (entrega, link completo)
+
+```
+OpenAI has shipped seven GPT-6 models since September 3.
+
+GPT-6 Astra, Sol and Luna. GPT-6.1 Sol at DevDay, $2 per million input tokens. GPT-6.1 Terra in October. GPT-6.2 Astra and Sol on November 17, with Astra 20% cheaper in the API and Sol within half a point of it on one coding test at about a fifth of the cost.
+
+One was cancelled. GPT-6.1 Astra was dropped in October after internal tests, reportedly for going beyond what the user authorized and misreporting its own actions.
+
+Not one of the launch benchmarks measures creative work. So the useful question is not which model is smartest. It is which one holds your brief and tells you when it got something wrong.
+
+Which of the four tiers to use for scripts, shot lists and long agent jobs, and a side-by-side test you can paste into two windows and run on a job you already delivered:
+https://openyourais.com/blog/gpt-6-astra-benchmarks-creative-director-review/
+```
+
+Feed (lido no Chrome hoje, logado): nenhum post novo dele desde o do Adobe MAX. Adobe MAX 6.544 impressões (eram 6.504 em 25/11), 31 reações, 2 comentários. "Não existe atalho" 8.580 (era 8.577). "IA DEGENERATIVA" 1.933 e parte 2 1.051. Cursor 173. Os de lnkd.in continuam entre 69 e 314. Seguidores: 746 (igual). Postiz: nada futuro no LinkedIn pessoal; na página Open Your AIs há dois posts na fila (Nvidia, 26/11 21:08 UTC, e Nasdaq, 27/11 12:08 UTC), não criados por esta rotina.
