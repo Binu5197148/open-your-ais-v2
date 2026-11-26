@@ -1,10 +1,10 @@
 ---
 id: "art-077"
-title: "Midjourney Professional Use: What You Need to Know"
-description: "Midjourney V8.2 is the default and a Thinking Mode rerun is in testing. What V7 got right for pro work, what the video model really does, and how to start."
+title: "How to Use Midjourney Like a Pro (V8.2 Guide)"
+description: "Midjourney V8.2 is still the default and Niji 8 brings back consistent characters with a two-image edit. A 7-step pro routine, and what V7 got right."
 pubDate: "2026-03-15"
-updatedDate: "2026-10-22"
-toolVersion: "2026-10"
+updatedDate: "2026-11-26"
+toolVersion: "2026-11"
 category: "AI"
 tags:
   - "Workflow"
@@ -21,6 +21,8 @@ readTime: "8 min read"
 <p><em>Updated September 3, 2026: this review was written in March 2026, when V7 was the current Midjourney model. It no longer is. V8 arrived as an alpha on March 17, 2026, two days after this was published, and V8.2 shipped on July 24, 2026. Read what follows as a record of what V7 did, not as a description of the model you get when you open Midjourney today. The current model list is in the <a href="https://docs.midjourney.com/hc/en-us/articles/32199405667853-Version" target="_blank" rel="noopener">official version documentation</a>.</em></p>
 
 <p><em>Updated October 22, 2026: V8.2 is still the default. The newest change is a test, not a release. On October 8 Midjourney started trying a "Rerun (Thinking)" button on its alpha site, which regenerates a finished job with more reasoning to fix prompt accuracy, typography and coherence. Midjourney says it might ship it broadly or might not, so treat it as a preview (<a href="https://updates.midjourney.com/testing-thinking-mode/" target="_blank" rel="noopener">Midjourney update, October 8</a>). The video section below was also corrected on this date.</em></p>
+
+<p><em>Updated November 26, 2026: V8.2 is still the default Midjourney model, with no newer main version announced. The news this month is on the anime side. On November 24 Midjourney and Spellbrush released <a href="https://nijijourney.com/blog/niji-8" target="_blank" rel="noopener">Niji 8</a>, which brings back character consistency through an edit feature that replaces the old cref parameter, and adds HD output (also reported by <a href="https://emergent.sh/news/midjourney-niji-v8-launches-built-anime" target="_blank" rel="noopener">Emergent</a>). A new section below shows how that edit feature is meant to be used. No public update on the October Thinking Mode test was found as of today.</em></p>
 
 <h2>The Mixed Reviews Are Telling</h2>
 <p>Midjourney V7 launched and immediately generated something unusual for a major model release: mixed reviews. Not uniformly bad, not uniformly good. Split.</p>
@@ -57,8 +59,20 @@ readTime: "8 min read"
 <p>The video model. Not because it is bad. The output is decent. Because past the first and last frame, it gives a director little to steer the motion with. Start and end frames exist here too, so that is not the reason. The reason is the move. If the shot depends on a specific camera or body movement, generate the still in Midjourney and animate it in Kling, whose Motion Control repeats a reference move, or in Seedance for multi-shot consistency.</p>
 <p>The V7 video feature is for people who want one tool that does everything. The reality of production is that the best workflow is rarely one tool. Use Midjourney for what it is best at (image quality with a specific aesthetic) and let purpose-built video models handle the motion.</p>
 
+<h2>How do you keep a consistent character in Midjourney?</h2>
+<p>For years the answer was a parameter: cref in Niji 6, then image and style references on the main models. The newest answer, in Niji 8, is an edit step instead. Midjourney's own launch post describes it this way: you finish a generation, press the quick edit button in the bottom right corner, attach more images, and tell the model in words what to do with them. The post's example is a character sheet plus a background, combined with an instruction like putting the girl from the first image onto a boat from the second.</p>
+<p>That is the same discipline any director already uses on set, and it works the same way whatever the model:</p>
+<ol>
+<li><strong>Make the sheet first.</strong> One clean image of the character, front facing, plain background, sharp. The Niji 8 post warns that blurry or pixelated input degrades the result, so the sheet is not a draft.</li>
+<li><strong>Make the place separately.</strong> Generate the background as its own image, with no character in it.</li>
+<li><strong>Combine with two images, not one.</strong> The post's author recommends naming both: take the character from image 1 and put it into image 2, then the action. One image works for small touch-ups, two gives more control over style and quality.</li>
+<li><strong>Write the action as a stage direction.</strong> What the character is doing, where they look, what is in their hands. Leave the description of the face out, because the sheet already carries it.</li>
+<li><strong>Keep the approved frames.</strong> Every frame you approve becomes the next reference. That is how a look survives twenty shots.</li>
+</ol>
+<p>Two limits matter before a paid job. Niji 8 is an anime and illustration model, so for photographic work you are still on V8.2. And Niji 8 deliberately gives more variety for the same words than Niji 7 did, so typing the same description twice will not give you the same person. The sheet does that work, not the prompt. For the same method applied to video, see <a href="/blog/higgsfield-character-consistency-toninho-workflow/">how to stop character drift in Higgsfield</a>.</p>
+
 <h2>How do you use Midjourney today?</h2>
-<p>If you are opening Midjourney for the first time in October 2026, this is the order I would follow. It is a working routine, not a feature tour.</p>
+<p>If you are opening Midjourney for the first time in November 2026, this is the order I would follow. It is a working routine, not a feature tour.</p>
 <ol>
 <li><strong>Use the web app, not Discord.</strong> Everything below lives at <a href="https://www.midjourney.com" target="_blank" rel="noopener">midjourney.com</a>. Discord still works, but the editor, moodboards and settings are easier to reach on the site.</li>
 <li><strong>Check the version.</strong> In settings, confirm the model is V8.2, the default since July 24, 2026. Older articles, this one included, describe V7 behaviour.</li>
@@ -70,4 +84,4 @@ readTime: "8 min read"
 </ol>
 <p>The one thing no setting fixes is taste. Midjourney will give you a beautiful frame for a weak idea as fast as for a strong one. Deciding which is which is still the job.</p>
 
-<p><em>Sources: <a href="https://venturebeat.com/ai/midjourney-v7-launches-with-voice-prompting-and-faster-draft-mode-why-is-it-getting-mixed-reviews" target="_blank" rel="noopener">VentureBeat: Midjourney V7 launches with voice prompting and Draft Mode</a> | <a href="https://updates.midjourney.com/v7-alpha/" target="_blank" rel="noopener">Midjourney: V7 Alpha release notes</a></em></p>
+<p><em>Sources: <a href="https://venturebeat.com/ai/midjourney-v7-launches-with-voice-prompting-and-faster-draft-mode-why-is-it-getting-mixed-reviews" target="_blank" rel="noopener">VentureBeat: Midjourney V7 launches with voice prompting and Draft Mode</a> | <a href="https://updates.midjourney.com/v7-alpha/" target="_blank" rel="noopener">Midjourney: V7 Alpha release notes</a> | <a href="https://nijijourney.com/blog/niji-8" target="_blank" rel="noopener">niji journey: Welcome to Niji 8</a></em></p>
