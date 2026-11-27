@@ -1581,3 +1581,39 @@ https://openyourais.com/blog/gpt-6-astra-benchmarks-creative-director-review/
 ```
 
 Feed (lido no Chrome hoje, logado): nenhum post novo dele desde o do Adobe MAX. Adobe MAX 6.544 impressões (eram 6.504 em 25/11), 31 reações, 2 comentários. "Não existe atalho" 8.580 (era 8.577). "IA DEGENERATIVA" 1.933 e parte 2 1.051. Cursor 173. Os de lnkd.in continuam entre 69 e 314. Seguidores: 746 (igual). Postiz: nada futuro no LinkedIn pessoal; na página Open Your AIs há dois posts na fila (Nvidia, 26/11 21:08 UTC, e Nasdaq, 27/11 12:08 UTC), não criados por esta rotina.
+
+## 27/11/2026 (guardião). AGUARDANDO APROVAÇÃO, nada agendado
+
+### LinkedIn, modo 1 (opinião pura, sem link). Imagem sugerida: o print do anúncio da OpenAI com a linha "Update on November 12" em destaque.
+
+```
+Em agosto a OpenAI marcou a data. 12 de novembro, fim do acesso do Cursor aos modelos dela.
+
+Muita gente refez o fluxo inteiro por causa disso.
+
+Chegou 12 de novembro. A OpenAI acrescentou uma linha no anúncio: acesso estendido, temporariamente. Data nova? Nenhuma.
+
+O risco não acabou. Só perdeu a data.
+
+E é isso que ninguém fala sobre ferramenta de IA. O problema não é o modelo ser bom ou ruim. É que a decisão de você continuar trabalhando amanhã está num contrato entre duas empresas que você não conhece.
+
+Eu não escolho ferramenta pelo que ela faz hoje.
+Escolho pelo que acontece com o meu trabalho no dia em que ela some.
+```
+
+### X, modo 3 (entrega, link completo)
+
+```
+OpenAI set November 12 as the day Cursor would lose its models.
+
+November 12 came. OpenAI added one line to its announcement: access temporarily extended. No new date.
+
+Cursor's docs still list GPT-5.6 Sol, Terra and Luna today. The $8 Plus plan only runs Grok and does not take your own API keys. Claude and every other outside model cost extra at API list price on Premium and up.
+
+OpenAI's own help page lists three ways to keep its models in Cursor whatever happens: your own API key, the Codex extension, or a gateway like Bedrock or Azure.
+
+Current prices, the $8 trap, a seven-step way to start in Cursor without burning the budget, and a checklist before you switch plans:
+https://openyourais.com/blog/cursor-ai-coding-agent-review-2026/
+```
+
+Feed: NÃO lido hoje, Claude in Chrome desconectado. Postiz: nada futuro no LinkedIn pessoal; na fila, X (27/11 12:06 UTC) e página Open Your AIs (27/11 12:08 UTC) com o post do Nasdaq em bear market, não criados por esta rotina; não consegui confirmar o dado do Nasdaq em busca.
