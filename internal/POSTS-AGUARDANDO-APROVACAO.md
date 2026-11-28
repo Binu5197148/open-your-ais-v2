@@ -1617,3 +1617,41 @@ https://openyourais.com/blog/cursor-ai-coding-agent-review-2026/
 ```
 
 Feed: NÃO lido hoje, Claude in Chrome desconectado. Postiz: nada futuro no LinkedIn pessoal; na fila, X (27/11 12:06 UTC) e página Open Your AIs (27/11 12:08 UTC) com o post do Nasdaq em bear market, não criados por esta rotina; não consegui confirmar o dado do Nasdaq em busca.
+
+
+## 28/11/2026 (guardião). AGUARDANDO APROVAÇÃO, nada agendado
+
+### LinkedIn, modo 1 (opinião pura, sem link). Imagem sugerida: a tabela da Segmind com draft mais final contra render direto.
+
+```
+O Seedance 2.5 ganhou o Draft Mode. Rascunho em 480p, e o take aprovado vai pra 1080p. Agora até 4K.
+
+Todo mundo leu como economia.
+
+A Segmind fez a conta. Se o primeiro take já é o bom, rascunho mais final sai uns 18% mais caro do que renderizar direto.
+
+A economia só aparece da segunda tentativa em diante.
+
+Ensaio não é desconto. É seguro.
+
+Em set ninguém ensaia o plano parado do produto em cima da mesa. Ensaia a cena difícil, a que tem dois tempos e uma virada no meio.
+
+Com IA é igual. Rascunho no plano que vai dar errado. No que não vai, roda direto.
+
+Ensaia a cena difícil. Não a fácil.
+```
+
+### X, modo 3 (entrega, link completo)
+
+```
+Seedance 2.5 Draft Mode is sold as a way to save credits. On a shot you nail on the first take, it costs more.
+
+Segmind ran the math on its own API: one 480p draft plus the 1080p final came to about 18% more than rendering straight to 1080p. Break-even is the second take. At five takes the draft route wins by a lot.
+
+Two things changed this month on Higgsfield. A draft can now be finalized in 4K, and Seedance 2.5 Flash arrived for 480p and 720p previews. They are not the same thing: Draft Mode keeps your take and its seed, Flash only keeps your prompt, so the final is a new generation.
+
+When to skip the draft, when to use Flash instead, and the current credit prices:
+https://openyourais.com/blog/seedance-2-5-1080p-what-the-resolution-upgrade-costs/
+```
+
+Feed (lido no Chrome hoje, logado): nenhum post novo dele desde o do Adobe MAX. Adobe MAX 6.616 impressões (eram 6.544 em 26/11), 32 reações, 2 comentários. "Não existe atalho" 8.580 (igual a 26/11). "IA DEGENERATIVA" 1.933 e parte 2 1.051 (iguais). Cursor 175 (era 173). Os de lnkd.in continuam entre 69 e 314. Seguidores: 746 (igual). Postiz: nada futuro no LinkedIn pessoal nem na página Open Your AIs; a fila tem Balba Bossa no Instagram, Nico's Town e Lit to Watch no YouTube.
