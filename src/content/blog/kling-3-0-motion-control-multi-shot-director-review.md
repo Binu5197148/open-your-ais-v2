@@ -1,9 +1,9 @@
 ---
 id: "art-083"
-title: "Stop Using Runway Until You See This: Kling Motion Control"
-description: "Kling published a 1,667% win rate over Runway Act-Two. The benchmark is marketing. Repeating one move to swap the set is what Motion Control is for."
+title: "Kling Motion Control: What You Need to Know"
+description: "Kling Motion Control repeats one movement so you can swap the set or the character. How to use it step by step, what it costs per second, if 4.0 replaces it."
 pubDate: "2026-03-15"
-updatedDate: "2026-11-09"
+updatedDate: "2026-11-28"
 toolVersion: "2026-11"
 category: "AI"
 tags:
@@ -19,6 +19,7 @@ author: "Ulisses Balbino"
 readTime: "7 min read"
 ---
 
+<p><em>Updated November 28, 2026. Rechecked against <a href="https://kling.ai/quickstart/motion-control-user-guide" target="_blank" rel="noopener">Kling's Motion Control guide</a> today: it still covers VIDEO 3.0 and 2.6 only, and it now publishes the price, so there is a new section on cost. Some third-party guides describe a reference video in Kling 4.0 as motion control. Kling's own pages do not call it that, so this page keeps the split below. <a href="https://higgsfield.ai/creator-hub/changelog" target="_blank" rel="noopener">Higgsfield's changelog</a> lists Kling 4.0, Kling 3.0 and Kling Motion Control as separate models, with a provider outage on all three resolved on November 2. Nothing here was tested for this update.</em></p>
 <p><em>Updated November 9, 2026. Kling 4.0 launched on October 15, so this is no longer the newest Kling model. On the date of this note, Kling's own Motion Control guide still covers versions 3.0 and 2.6 only, which is why this page stays useful. The leaderboard positions and rival models below are the March picture. The new section near the end has the current state, read from Kling's and Kuaishou's published pages. Kling 4.0 was not tested for this update. An earlier version of this piece reported test impressions that could not be substantiated; those lines were removed.</em></p>
 <!-- Correction 2026-10-19: removed "I tested it myself" and "From my testing..." comparative results (no evidence of the tests); dated the competitor section to March 2026; added Kling 4.0 note. -->
 
@@ -50,10 +51,15 @@ readTime: "7 min read"
 <p>Replacing Motion Control is a different question, and the documents do not settle it. <a href="https://kling.ai/quickstart/motion-control-user-guide" target="_blank" rel="noopener">Kling's Motion Control guide</a> covers 3.0 and 2.6, and we found no Motion Control page for 4.0 on November 9. Kling describes a Creative Recreation mode on 4.0 that rebuilds an existing video with new assets, which sounds adjacent, but nothing published says it holds a performance the way Motion Control does.</p>
 <p>So the working split today: if the job is repeating one specific movement while you swap the character or the set, stay on 3.0 Motion Control. If the job is a long take with several planned beats, 4.0 keyframes are the new thing to test. Launch reports disagreed on whether the API was open yet, so check <a href="https://kling.ai/dev" target="_blank" rel="noopener">Kling's developer page</a> before you build on it.</p>
 
-<h2>How Do You Try Kling Motion Control Yourself?</h2>
+<h2>How do you use Kling Motion Control?</h2>
 <p>The capability lives inside Kling itself, so there is nothing to install. You go to <a href="https://klingai.com" target="_blank" rel="noopener">klingai.com</a>, open the video tools, and give it two things: a reference clip carrying the movement you want, and a still of the character you want to carry it.</p>
 <p>The part that decides whether you get a usable take is the reference, not the prompt. Pick a clip where the body is fully in frame, the movement is unobstructed, and the camera holds reasonably still. A reference where the subject leaves frame or gets cropped at the knees will produce exactly the drift you are trying to avoid. Match the framing of your still to the framing of the reference before you spend a generation on it.</p>
 <p>Run the same reference twice against two different character stills. If both come back holding the movement, the setup is right and you can trust it on a job. If one drifts, the problem is almost always the reference, and it is cheaper to find another clip than to fight it with prompt wording.</p>
+
+<h2>How much does Kling Motion Control cost?</h2>
+<p>Kling bills it by the second, and the guide publishes the rate. VIDEO 3.0 Motion Control costs 9 credits per second in Standard mode and 12 credits per second in Professional mode, rounded to the nearest second. Kling's own example: a 3.4 second Standard clip is billed as 3 seconds, 27 credits; a 3.6 second clip as 4 seconds, 36 credits.</p>
+<p>That rounding is worth knowing when you cut the reference. Trim the movement clip so it ends just under a whole second, not just over it, and you stop paying for a second of nothing. And because the reference does the directing here, the expensive mistake is a bad reference, not a bad prompt: the test in the section above, the same reference against two character stills, is the cheapest insurance you can buy.</p>
+<p>The question people ask most is how to use it for free. Kling's guide lists a credit price, not a free tier for Motion Control, and the plans change often, so check the current plans inside Kling before you count on free generations. If you work inside Higgsfield, Motion Control runs there on your Higgsfield credits.</p>
 
 <h2>The Honest Assessment</h2>
 <p>Kling 3.0 Motion Control is a genuinely useful tool for structured, multi-shot short-form content. The director-like workflow (specifying shots, controlling motion, maintaining character consistency across cuts) is the capability I've been waiting to see in AI video. It's not yet at the level where it replaces production for content where quality matters most. But it has crossed the threshold where it's useful for real work, not just demos.</p>
